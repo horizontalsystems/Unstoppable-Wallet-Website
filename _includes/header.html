@@ -1,0 +1,77 @@
+<header role="banner">
+  <div class="container">
+    <div class="banner">
+      <div class="banner-logo">
+        <a href="/">
+          <img alt={{site.title}} width="80"
+               src="/assets/images/logo.png"
+               srcset="
+                   /assets/images/logo@2x.png 2x,
+                   /assets/images/logo@3x.png 3x" /></a>
+      </div>
+      <div class="banner-info">
+        <div class="banner-desc"></div>
+        <div class="banner-link">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav role="navigation" id="nav">
+    <div class="container">
+
+      <div class="nav-scroller">
+        <div id="nav-left" class="nav-controls">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <path fill="#8A8A8F" fill-rule="evenodd" d="M5.333 9.485l5.334 5.657L12 13.728 6.667 8.07 12 2.414 10.667 1 4 8.071l1.333 1.414z"></path>
+          </svg>
+        </div>
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+            <a class="nav-link" href="/">English</a>
+            <div class="nav-bottom"></div>
+          </li>
+
+          <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+            <a class="nav-link" href="/">Russian</a>
+            <div class="nav-bottom"></div>
+          </li>
+
+          <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+            <a class="nav-link" href="/">French</a>
+            <div class="nav-bottom"></div>
+          </li>
+
+          <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+            <a class="nav-link" href="/">German</a>
+            <div class="nav-bottom"></div>
+          </li>
+
+          <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+            <a class="nav-link" href="/">Turkish</a>
+            <div class="nav-bottom"></div>
+          </li>
+
+          <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+            <a class="nav-link" href="/">Korean</a>
+            <div class="nav-bottom"></div>
+          </li>
+
+          <li class="nav-item {% if include.menu == 'index' %}active{% endif %}">
+            <a class="nav-link" href="/">Chinese</a>
+            <div class="nav-bottom"></div>
+          </li>
+
+        </ul>
+
+        <div id="nav-right" class="nav-controls">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <path fill="#8A8A8F" fill-rule="evenodd" d="M11.071 9.485l-5.657 5.657L4 13.728 9.657 8.07 4 2.414 5.414 1l7.071 7.071-1.414 1.414z"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

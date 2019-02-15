@@ -1,0 +1,321 @@
+@import "variables";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $dark;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include large {
+    max-width: 900px;
+  }
+
+  @include medium {
+    max-width: 650px;
+  }
+}
+
+a {
+  color: $yellow;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+header {
+  background: linear-gradient(to bottom,
+    $dark-secondary,
+    $dark
+  );
+
+  .banner {
+    display: flex;
+    height: 316px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-logo {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .banner-info {
+    flex: none;
+    text-align: right;
+  }
+
+  .banner-desc {
+    color: $grey;
+    font-size: 18px;
+  }
+
+  @include small {
+    .banner {
+      flex-wrap: wrap;
+      align-content: space-evenly;
+    }
+
+    .banner-logo {
+      flex-grow: 0;
+    }
+  }
+}
+
+nav {
+  height: 48px;
+  font-size: 18px;
+  background-color: $dark;
+
+  .nav-scroller {
+    position: relative;
+    // hide scrollbar
+    height: 48px;
+    overflow-y: hidden;
+    padding: 0 20px;
+  }
+
+  .nav-controls {
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+  }
+
+  .nav-controls#nav-left {
+    left: 0;
+  }
+
+  .nav-controls#nav-right {
+    right: 0;
+  }
+
+  .navbar-nav {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+
+    // hide scrollbar
+    padding: 0 0 17px;
+    box-sizing: content-box;
+
+    @include small {
+      justify-content: flex-start;
+    }
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav-link {
+      padding: 8.5px 30px;
+      color: $white;
+      white-space: nowrap; // otherwise will overlap .nav-bottom
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .nav-bottom {
+      display: none;
+      height: 4px;
+      width: 80%;
+      background: $yellow;
+      border-radius: 4px 4px 0 0;
+    }
+
+    &.active {
+      .nav-bottom {
+        display: flex;
+      }
+
+      .nav-link {
+        color: $yellow;
+      }
+    }
+
+    @include small {
+      .nav-link {
+        padding: 8.5px 10px;
+      }
+    }
+  }
+
+}
+
+main {
+  word-wrap: break-word;
+
+  @include large {
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  @include medium {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+  }
+
+  @include small {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+
+  img {
+    // max-width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: $black;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: $grey;
+    border-left: 0.3rem solid $yellow;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.easy-steps {
+  padding: 10% 0;
+
+  .steps-wrap {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .frame {
+    position: relative;
+
+    .frame-border {
+      z-index: 1;
+    }
+
+    .frame-screen {
+      position: absolute;
+      width: 227px;
+      top: 15px;
+      left: 17px;
+      z-index: -1;
+      display: none;
+
+      -webkit-animation: fadeIn 2s;
+      -moz-animation: fadeIn 2s;
+      -o-animation: fadeIn 2s;
+      animation: fadeIn 2s;
+    }
+
+    #frame-balance {
+      display: block;
+    }
+  }
+
+
+  .steps {
+    padding-left: 80px;
+    padding-top: 20px;
+
+    .item {
+      position: relative;
+      border-bottom: 1px solid $silver;
+      cursor: pointer;
+    }
+
+    .item:last-child {
+      border-bottom: none;
+    }
+
+    .active > .list-style {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: $yellow;
+      border-radius: 50%;
+      left: -30px;
+      top: 7px;
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  h3 {
+    margin-top: 1rem;
+    color: $dark;
+  }
+
+  p {
+    color: $grey;
+  }
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-between;
+
+
+  .advantage {
+    text-align: center;
+  }
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $grey-light;
+  margin: 1em 0;
+  padding: 0;
+}
+
+footer {
+  padding: 2rem 0 3rem 0;
+  text-align: center;
+  margin-left: 0;
+  color: $grey;
+}
