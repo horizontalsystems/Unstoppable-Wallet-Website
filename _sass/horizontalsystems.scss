@@ -55,12 +55,34 @@ header {
 
   .banner-logo {
     display: flex;
-    flex-grow: 1;
   }
 
   .banner-info {
-    flex: none;
-    text-align: right;
+    padding-left: 29px;
+    padding-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .banner-download {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      padding-top: 10px;
+    }
+  }
+
+  .banner-name {
+    color: $white;
+    font-size: 48px;
+
+    @include medium {
+      font-size: 38px;
+    }
+
+    @include small {
+      font-size: 28px;
+    }
   }
 
   .banner-desc {
@@ -226,10 +248,18 @@ main {
   .steps-wrap {
     display: flex;
     flex-direction: row;
+
+    @include small {
+      flex-direction: column;
+    }
   }
 
   .frame {
     position: relative;
+
+    @include small {
+      align-self: center;
+    }
 
     .frame-border {
       z-index: 1;
@@ -249,15 +279,52 @@ main {
       animation: fadeIn 2s;
     }
 
+    .step-controls {
+      position: absolute;
+      top: 45%;
+      cursor: pointer;
+      display: none;
+
+      @include small {
+        display: block;
+      }
+    }
+
+    #step-left {
+      left: -20%;
+    }
+
+    #step-right {
+      right: -20%;
+    }
+
     #frame-balance {
       display: block;
     }
   }
 
-
   .steps {
     padding-left: 80px;
     padding-top: 20px;
+
+    @include medium {
+      padding-left: 10px;
+      padding-top: 0;
+    }
+
+    @include small {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+
+      .item {
+        border-bottom: none !important;
+
+        &:not(.active) {
+          display: none;
+        }
+      }
+    }
 
     .item {
       position: relative;
@@ -277,11 +344,27 @@ main {
       border-radius: 50%;
       left: -30px;
       top: 7px;
+
+      @include medium {
+        width: 10px;
+        height: 10px;
+        left: -20px;
+        top: 8px;
+      }
+
+      @include small {
+        display: none;
+      }
     }
   }
 
   ul {
     list-style: none;
+    margin: 0;
+
+    @include small {
+      padding: 0;
+    }
   }
 
   h3 {
@@ -298,9 +381,12 @@ main {
   display: flex;
   justify-content: space-between;
 
-
   .advantage {
     text-align: center;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 

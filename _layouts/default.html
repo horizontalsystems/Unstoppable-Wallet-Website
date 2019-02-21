@@ -11,11 +11,11 @@
   </head>
 
   <body>
-    {% include header.html menu=page.active %}
+    {% include header.html %}
 
     <main role="main">
       <div class="container">
-        {{ content }}
+        {% tf home-head.md %}
 
         <div class="easy-steps">
           <div class="steps-wrap">
@@ -29,24 +29,32 @@
               <img class="frame-screen" id="frame-balance" src="/assets/images/iphone/en/balance.png" alt="Balance">
               <img class="frame-screen" id="frame-transactions" src="/assets/images/iphone/en/transactions.png" alt="Transactions">
               <img class="frame-screen" id="frame-settings" src="/assets/images/iphone/en/settings.png" alt="Settings">
+
+              <div id="step-left" class="step-controls">
+                {% include arrow-left.html size=36 %}
+              </div>
+
+              <div id="step-right" class="step-controls">
+                {% include arrow-right.html size=36 %}
+              </div>
             </div>
+
             <div class="steps">
               <ul>
                 <li class="item active" id="balance">
-                  <h4>Easy to use</h4>
-                  <p>Every currencies balances is at hand. Send money in two clicks. Easy adress sharing</p>
+                  <h4>{% t balance %}</h4>
+                  <p>{% t balance_desc %}</p>
                   <div class="list-style"></div>
                 </li>
                 <li class="item" id="transactions">
-                  <h4>Transactions History</h4>
-                  <p>Transaction history in one list. Quick view of full information from customizable resources</p>
+                  <h4>{% t transactions %}</h4>
+                  <p>{% t transactions_desc %}</p>
                   <div class="list-style"></div>
                 </li>
                 <li class="item" id="settings">
-                  <h4>Personalization</h4>
+                  <h4>{% t settings %}</h4>
                   <p>
-                    Set the appearance of the application for yourself, configure data resources, select the language,
-                    light or dark mode
+                    {% t settings_desc %}
                   </p>
                   <div class="list-style"></div>
                 </li>
@@ -57,18 +65,20 @@
 
         <div class="advantages">
           <div class="advantage">
-            <img src="/assets/images/cat/group-11.png" alt="Decentralized">
-            <h4>Decentralized</h4>
+            <img src="/assets/images/cat/group-11.png" alt="{% t decentralized %}">
+            <h4>{% t decentralized %}</h4>
           </div>
           <div class="advantage">
-            <img src="/assets/images/cat/group-12.png" alt="Open Source">
-            <h4>Open Source</h4>
+            <img src="/assets/images/cat/group-12.png" alt="{% t open_source %}">
+            <h4>{% t open_source %}</h4>
           </div>
           <div class="advantage">
-            <img src="/assets/images/cat/group-13.png" alt="Secure">
-            <h4>Secure</h4>
+            <img src="/assets/images/cat/group-13.png" alt="{% t secure %} ">
+            <h4>{% t secure %} </h4>
           </div>
         </div>
+
+        {% tf home-content.md %}
       </div>
     </main>
 

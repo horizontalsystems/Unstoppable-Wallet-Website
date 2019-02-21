@@ -1,13 +1,3 @@
-## BANK - Bitcoin Cüzdanı
-
-BANK Cüzdanı, Bitcoin(BTC), Ethereum(ETH), Bitcoin Cash(BCH) ve ERC 20 de dahil olmak üzere büyük kripto para birimlerini destekleyen iOS/Android için güvenli ve tamamen merkezi olmayan bir şifreleme cüzdanı uygulamasıdır. Desteklenen para birimlerinin sayısı her sürümde gitgide artmaktadır.
-
-Bu BANK cüzdanı, büyük halk kitlelerine Bitcoin ve diğer kripto para birimlerini kullanmaya başlamak için kusursuz bir fırsat sağlar. Kullanabilmek için kripto para birimlerinin iç işleyişini anlamanıza gerek yok.
-
-Arayüz tasarımından blok zincir protokollerinin uygulanmasına kadar en iyi uygulanan yöntemler kullanılarak oluşturulmuştur.
-
-![GALLERY IMAGE](/assets/images/bankwallet_screenshots_ios.png)
-
 ## BAĞIMSIZ VE MERKEZİ OLMAYAN 
 
 BANK cüzdanı tamamen uçtan uca ağdır ve merkezi olarak yönetilen sunucular olmadan çalışır. Durdurulamaz, engellenemez veya kaldırılamaz. Cüzdan, aracıya gerek kalmadan doğrudan para ağlarına, yani Bitcoin'e bağlanır. Bu yaklaşım, BANK cüzdanının herhangi bir yerde çalışmasını ve sansürden etkilenmemesini sağlar. Paranın kontrolü sadece kullanıcının elinde olur.
@@ -33,4 +23,3 @@ Kaynak: https://github.com/horizontalsystems
 1. Bu Cüzdan ilk günlerinde olduğu gibi, diğer tüm yazılım ürünlerinde olduğu gibi, belirli işlemlere erişimin kaybı gibi, cüzdanın sorun yaşamalarına neden olabilecek keşfedilmemiş sorunlara da sahip olabilir. Cüzdan tamamen tekrar tekrar test edilse de, hiç kimse hatasız olduğundan emin olamaz. Herhangi bir kripto para birimi uygulamasından çok daha güvenli olduğuna inanıyoruz.
 
 2. BANK cüzdanını, önemli güvenlik riskleri nedeniyle hiçbir zaman yazılımı kırılmış veya kırık bir cihaza yüklemeyin. Yazılımı kırılmış iOS/Android özel anahtarlarınızın güvenliğini garanti edemez. Bu, yazılımı kırılmış cihazınızda çalışan bazı kötü amaçlı uygulamaların fonlarınızın özel anahtarlarına erişebileceği ve bunları çalabileceği anlamına gelir.
-

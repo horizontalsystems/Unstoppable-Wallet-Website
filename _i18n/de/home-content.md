@@ -1,12 +1,3 @@
-Die BANK-Geldbörse ist eine sichere und vollständig dezentralisierte Kryptobörse, die die wichtigsten Kryptowährungen einhält, darunter Bitcoin(BTC), Ethereum(ETH), Bitcoin Cash(BCH) und ERC 20-Token. Die Anzahl der unterstützten Währungen wird mit jedem Release nach und nach hinzugefügt.
-
-Die BANK-Geldbörse gewährt sicheres Mittel, mit Bitcoins und anderen Kryptowährungen arbeiten anzufangen. Sie müssen die inneren Abläufe der Kryptowährung nicht verstehen, um sie verwenden zu können.
-
-Es wurde mit Best Practices entwickelt, vom Design bis zum Blockchain-Protokoll.
-
-![GALLERY IMAGE](/assets/images/bankwallet_screenshots_ios.png)
-
-
 ## UNABHÄNGIG UND DEZENTRALISIERT 
 
 Die BANK-Geldbörse ist vollständig dezentralisiert, die Funktionsfähigkeit dieser Anwendung ist unabhängig von Servern. Es kann nicht angehalten oder blockiert werden. Die Geldbörse stellt eine direkte Verbindung zu Krypto-Währungsnetzwerken her, beispielsweise zu einem Bitcoin-Netzwerk. Dieser Ansatz ermöglicht es der BANK-Geldbörse, ohne Einschränkungen überall zu funktionieren. Nur der Benutzer selbst kann über Geld in der Geldbörse verfügen.

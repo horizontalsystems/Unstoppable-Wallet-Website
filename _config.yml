@@ -1,1 +1,14 @@
-title: "Bank Wallet"
+exclude_from_localizations: [images, css, js]
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: [en, ru, fr, de, tr, ko, zh]
+langNames:
+  en: English
+  ru: Russian
+  fr: French
+  de: Deutsch
+  tr: Türkçe
+  ko: 한국어
+  zh: 中文
