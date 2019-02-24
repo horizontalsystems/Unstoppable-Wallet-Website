@@ -1,4 +1,4 @@
 ---
-lang: en
+lang: fr
 layout: default
 ---

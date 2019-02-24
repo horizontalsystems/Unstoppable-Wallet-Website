@@ -1,8 +1,3 @@
-exclude_from_localizations: [images, css, js]
-
-plugins:
-  - jekyll-multiple-languages-plugin
-
 languages: [en, ru, fr, de, tr, ko, zh]
 langNames:
   en: English
@@ -12,3 +7,109 @@ langNames:
   tr: Türkçe
   ko: 한국어
   zh: 中文
+
+lang:
+  en:
+    # header
+    title: Bank Wallet
+    slogan: Control your money!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    # icons
+    decentralized: Decentralized
+    open_source: Open Source
+    secure: Secure
+  ru:
+    title: Биткоин Кошелек
+    slogan: Control your money!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    # icons
+    decentralized: Децентрализованный
+    open_source: Открытый Исходный Код
+    secure: Защищенный
+  fr:
+    # header
+    title: Bank Wallet
+    slogan: Control your money!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    # icons
+    decentralized: Decentralized
+    open_source: Open Source
+    secure: Secure
+  de:
+    # header
+    title: Bank Wallet
+    slogan: Control your money!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    # icons
+    decentralized: Decentralized
+    open_source: Open Source
+    secure: Secure
+  tr:
+    # header
+    title: Bank Wallet
+    slogan: Control your money!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    # icons
+    decentralized: Decentralized
+    open_source: Open Source
+    secure: Secure
+  ko:
+    # header
+    title: Bank Wallet
+    slogan: Control your money!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    # icons
+    decentralized: Decentralized
+    open_source: Open Source
+    secure: Secure
+  zh:
+    # header
+    title: Bank Wallet
+    slogan: Control your money!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    # icons
+    decentralized: Decentralized
+    open_source: Open Source
+    secure: Secure

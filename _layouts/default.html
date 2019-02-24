@@ -9,13 +9,20 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
     <script type="application/javascript" src="{{ '/assets/js/script.js?v=' | append: site.github.build_revision | relative_url }}"></script>
   </head>
-
   <body>
+    {% assign lang=site.lang[page.lang] %}
+    {% assign head_md = 'lang/' | append: page.lang | append: '/head.md' %}
+    {% assign content_md = 'lang/' | append: page.lang | append: '/content.md' %}
+
     {% include header.html %}
 
     <main role="main">
       <div class="container">
+        {% capture head_capture %}
+          {% include {{head_md}} %}
+        {% endcapture %}
 
+        {{ head_capture | markdownify }}
 
         <div class="easy-steps">
           <div class="steps-wrap">
@@ -42,20 +49,18 @@
             <div class="steps">
               <ul>
                 <li class="item active" id="balance">
-                  <h4>balance</h4>
-                  <p>balance_desc</p>
+                  <h4>{{ lang.balance }}</h4>
+                  <p>{{ lang.balance_desc }}</p>
                   <div class="list-style"></div>
                 </li>
                 <li class="item" id="transactions">
-                  <h4>transactions</h4>
-                  <p>transactions_desc</p>
+                  <h4>{{ lang.transactions }}</h4>
+                  <p>{{ lang.transactions_desc }}</p>
                   <div class="list-style"></div>
                 </li>
                 <li class="item" id="settings">
-                  <h4>settings</h4>
-                  <p>
-                    settings_desc
-                  </p>
+                  <h4>{{ lang.settings }}</h4>
+                  <p>{{ lang.settings_desc }}</p>
                   <div class="list-style"></div>
                 </li>
               </ul>
@@ -66,18 +71,23 @@
         <div class="advantages">
           <div class="advantage">
             <img src="/assets/images/cat/group-11.png" alt="decentralized">
-            <h4>decentralized</h4>
+            <h4>{{ lang.decentralized }}</h4>
           </div>
           <div class="advantage">
             <img src="/assets/images/cat/group-12.png" alt="open_source">
-            <h4>open_source</h4>
+            <h4>{{ lang.open_source }}</h4>
           </div>
           <div class="advantage">
             <img src="/assets/images/cat/group-13.png" alt="secure ">
-            <h4>secure </h4>
+            <h4>{{ lang.secure }}</h4>
           </div>
         </div>
 
+        {% capture content_capture %}
+          {% include {{content_md}} %}
+        {% endcapture %}
+
+        {{ content_capture | markdownify }}
       </div>
     </main>
 

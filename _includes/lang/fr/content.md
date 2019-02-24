@@ -1,4 +1,5 @@
-## INDÉPENDANT ET DÉCENTRALISÉ 
+
+## INDÉPENDANT ET DÉCENTRALISÉ
 
 Le portefeuille BANK est complètement décentralisé, le fonctionnement de cette application ne dépend pas des serveurs. Il ne peut être ni arrêté ni bloqué. Le portefeuille se connecte directement aux réseaux de crypto-monnaies, par exemple au réseau Bitcoin. Cette approche permet au portefeuille BANK de fonctionner n’importe où et sans restriction. Seul l'utilisateur peut disposer des fonds dans le portefeuille.
 

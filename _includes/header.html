@@ -1,3 +1,5 @@
+{% assign lang = site.lang[page.lang] %}
+
 <header role="banner">
   <div class="container">
     <div class="banner">
@@ -11,10 +13,10 @@
       </div>
       <div class="banner-info">
         <div class="banner-name">
-          title
+          {{ lang.title }}
         </div>
         <div class="banner-desc">
-          Control your money!
+          {{ lang.slogan }}
         </div>
       </div>
       <div class="banner-download">
@@ -50,8 +52,8 @@
 
         <ul class="navbar-nav">
           {% for lang in site.languages %}
-            <li class="nav-item {% if site.lang == lang %}active{% endif %}">
-              <a class="nav-link" href="/{% if lang != 'en' %}{{lang}}{% endif %}">
+            <li class="nav-item {% if page.lang == lang %}active{% endif %}">
+              <a class="nav-link" href="/{% if lang != 'en' %}lang/{{lang}}{% endif %}">
                 {{site.langNames[lang]}}
               </a>
               <div class="nav-bottom"></div>

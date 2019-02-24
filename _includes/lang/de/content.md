@@ -1,3 +1,4 @@
+
 ## UNABHÄNGIG UND DEZENTRALISIERT 
 
 Die BANK-Geldbörse ist vollständig dezentralisiert, die Funktionsfähigkeit dieser Anwendung ist unabhängig von Servern. Es kann nicht angehalten oder blockiert werden. Die Geldbörse stellt eine direkte Verbindung zu Krypto-Währungsnetzwerken her, beispielsweise zu einem Bitcoin-Netzwerk. Dieser Ansatz ermöglicht es der BANK-Geldbörse, ohne Einschränkungen überall zu funktionieren. Nur der Benutzer selbst kann über Geld in der Geldbörse verfügen.

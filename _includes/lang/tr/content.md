@@ -1,3 +1,4 @@
+
 ## BAĞIMSIZ VE MERKEZİ OLMAYAN 
 
 BANK cüzdanı tamamen uçtan uca ağdır ve merkezi olarak yönetilen sunucular olmadan çalışır. Durdurulamaz, engellenemez veya kaldırılamaz. Cüzdan, aracıya gerek kalmadan doğrudan para ağlarına, yani Bitcoin'e bağlanır. Bu yaklaşım, BANK cüzdanının herhangi bir yerde çalışmasını ve sansürden etkilenmemesini sağlar. Paranın kontrolü sadece kullanıcının elinde olur.
