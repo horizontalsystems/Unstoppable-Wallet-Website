@@ -1,8 +1,8 @@
 languages: [en, ru, fr, de, tr, ko, zh]
 langNames:
   en: English
-  ru: Russian
-  fr: French
+  ru: Русский
+  fr: Français
   de: Deutsch
   tr: Türkçe
   ko: 한국어
@@ -11,7 +11,7 @@ langNames:
 lang:
   en:
     # header
-    title: Bank Wallet
+    title: BANK - Bitcoin Wallet
     slogan: Control your money!
     # slider
     balance: Easy to use
@@ -25,8 +25,8 @@ lang:
     open_source: Open Source
     secure: Secure
   ru:
-    title: Биткоин Кошелек
-    slogan: Control your money!
+    title: BANK - Биткоин Кошелек
+    slogan: Контролируй свои деньги!
     # slider
     balance: Easy to use
     balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
@@ -40,8 +40,8 @@ lang:
     secure: Защищенный
   fr:
     # header
-    title: Bank Wallet
-    slogan: Control your money!
+    title:  BANK - Portefeuille Bitcoin
+    slogan: Contrôler votre argent!
     # slider
     balance: Easy to use
     balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
@@ -55,8 +55,8 @@ lang:
     secure: Secure
   de:
     # header
-    title: Bank Wallet
-    slogan: Control your money!
+    title: BANK - Bitcoin Wallet
+    slogan: Kontrolliere dein Geld!
     # slider
     balance: Easy to use
     balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
@@ -70,8 +70,8 @@ lang:
     secure: Secure
   tr:
     # header
-    title: Bank Wallet
-    slogan: Control your money!
+    title: BANK - Bitcoin Cüzdanı!
+    slogan: Paranızı Kontrol Edin!
     # slider
     balance: Easy to use
     balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
@@ -85,8 +85,8 @@ lang:
     secure: Secure
   ko:
     # header
-    title: Bank Wallet
-    slogan: Control your money!
+    title: BANK - 비트 동전 지갑
+    slogan: 당신의 돈을 지켜라!
     # slider
     balance: Easy to use
     balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
@@ -100,8 +100,8 @@ lang:
     secure: Secure
   zh:
     # header
-    title: Bank Wallet
-    slogan: Control your money!
+    title: BANK - 比特币钱包
+    slogan: 掌控自己的钱财!
     # slider
     balance: Easy to use
     balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
