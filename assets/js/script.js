@@ -74,6 +74,14 @@ function scrollMenu() {
 
   if (!!navActive) {
     navActive.scrollIntoView(true)
+
+    const header = document.querySelector('header')
+    const scroll = document.scrollingElement
+
+    //  when `scrollIntoView` navigated position to `nav` restore scroll
+    if (header && scroll && scroll.scrollTop < header.scrollHeight + 10) {
+      scroll.scrollTop = 0
+    }
   }
 
   const onClick = function (isLeft) {
