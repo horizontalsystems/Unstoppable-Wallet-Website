@@ -20,10 +20,6 @@ lang:
     transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
     settings: Personalization
     settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
-    # icons
-    decentralized: Decentralized
-    open_source: Open Source
-    secure: Secure
   ru:
     title: BANK - Биткоин Кошелек
     slogan: Контролируй свои деньги!
@@ -34,10 +30,6 @@ lang:
     transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
     settings: Personalization
     settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
-    # icons
-    decentralized: Децентрализованный
-    open_source: Открытый Исходный Код
-    secure: Защищенный
   fr:
     # header
     title:  BANK - Portefeuille Bitcoin
@@ -49,10 +41,6 @@ lang:
     transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
     settings: Personalization
     settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
-    # icons
-    decentralized: Decentralized
-    open_source: Open Source
-    secure: Secure
   de:
     # header
     title: BANK - Bitcoin Wallet
@@ -64,10 +52,6 @@ lang:
     transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
     settings: Personalization
     settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
-    # icons
-    decentralized: Decentralized
-    open_source: Open Source
-    secure: Secure
   tr:
     # header
     title: BANK - Bitcoin Cüzdanı!
@@ -79,10 +63,6 @@ lang:
     transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
     settings: Personalization
     settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
-    # icons
-    decentralized: Decentralized
-    open_source: Open Source
-    secure: Secure
   ko:
     # header
     title: BANK - 비트 동전 지갑
@@ -94,10 +74,6 @@ lang:
     transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
     settings: Personalization
     settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
-    # icons
-    decentralized: Decentralized
-    open_source: Open Source
-    secure: Secure
   zh:
     # header
     title: BANK - 比特币钱包
@@ -109,7 +85,3 @@ lang:
     transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
     settings: Personalization
     settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
-    # icons
-    decentralized: Decentralized
-    open_source: Open Source
-    secure: Secure
