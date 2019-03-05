@@ -24,23 +24,22 @@ lang:
     title: BANK - Биткоин Кошелек
     slogan: Контролируй свои деньги!
     # slider
-    balance: Easy to use
-    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
-    transactions: Transactions History
-    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
-    settings: Personalization
-    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    balance: Просто в использовании
+    balance_desc: Балансы каждой валюты под рукой. Отправить деньги в два клика. Легкий обмен адресами
+    transactions: Список Транзакций
+    transactions_desc: История транзакций в одном списке. Быстрый просмотр полной информации с настраиваемых ресурсов
+    settings_desc: Настройте внешний вид приложения для себя, выберите ресурсы данных, язык, светлый или темный режим
   fr:
     # header
     title:  BANK - Portefeuille Bitcoin
     slogan: Contrôler votre argent!
     # slider
-    balance: Easy to use
-    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
-    transactions: Transactions History
-    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
-    settings: Personalization
-    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    balance: Facile à utiliser
+    balance_desc: Chaque solde de devise est à portée de main. Envoyez de l'argent en deux clics. Partage facile d'adresses
+    transactions: L’histoire des transactions
+    transactions_desc: L’histoire des transactions dans une liste. Aperçu rapide des informations complètes de ressources personnalisables
+    settings: Personnalisation
+    settings_desc: Arrangez l'apparence de l'application vous-même, configurez les ressources de données, sélectionnez la langue, le mode clair ou sombre
   de:
     # header
     title: BANK - Bitcoin Wallet
@@ -57,12 +56,12 @@ lang:
     title: BANK - Bitcoin Cüzdanı!
     slogan: Paranızı Kontrol Edin!
     # slider
-    balance: Easy to use
-    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
-    transactions: Transactions History
-    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
-    settings: Personalization
-    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    balance: Kullanımı kolay
+    balance_desc: Her kur avcunuzun içinde. 2 dokunuşla para gönderin. Kolay adres paylaşımı
+    transactions: İşlem geçmişi
+    transactions_desc: Geçmiş işlemlerinizle ilgili bilgileri farklı kaynakardan çabucak görün.
+    settings: Kişileştirme
+    settings_desc: Uygulamanın görünümünü, bilgi kaynaklarını, dilini isteğinize göre değiştirin.
   ko:
     # header
     title: BANK - 비트 동전 지갑
