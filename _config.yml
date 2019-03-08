@@ -28,6 +28,7 @@ lang:
     balance_desc: Балансы каждой валюты под рукой. Отправить деньги в два клика. Легкий обмен адресами
     transactions: Список Транзакций
     transactions_desc: История транзакций в одном списке. Быстрый просмотр полной информации с настраиваемых ресурсов
+    settings: Персонализация
     settings_desc: Настройте внешний вид приложения для себя, выберите ресурсы данных, язык, светлый или темный режим
   fr:
     # header
@@ -45,12 +46,13 @@ lang:
     title: BANK - Bitcoin Wallet
     slogan: Kontrolliere dein Geld!
     # slider
-    balance: Easy to use
-    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
-    transactions: Transactions History
-    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
-    settings: Personalization
-    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+    balance: Einfach zu verwenden
+    balance_desc: Alle Währungen sind verfügbar. Senden Sie Geld mit zwei Klicks. Einfache Adressfreigabe
+    transactions: Transactionsverlauf
+    transactions_desc: Transaktionsverlauf in einer Liste. Schnellansicht der vollständigen Informationen aus anpassbaren Ressourcen
+    settings: Personalizierung
+    settings_desc: Legen Sie das Erscheinungsbild der Anwendung selbst fest, konfigurieren Sie Datenressourcen, wählen Sie die Sprache sowie den Hell- oder Dunkelmodus aus
+
   tr:
     # header
     title: BANK - Bitcoin Cüzdanı!
