@@ -9,10 +9,11 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $dark;
+  color: $grey-light;
+  background: $dark
 }
 
 .container {
@@ -41,16 +42,18 @@ a {
 }
 
 header {
-  background: linear-gradient(to bottom,
-    $dark-secondary,
-    $dark
-  );
 
   .banner {
     display: flex;
-    height: 316px;
+    height: 200px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    align-content: space-evenly;
+
+    @include small {
+      padding: 2rem 1rem;
+    }
   }
 
   .banner-logo {
@@ -63,26 +66,22 @@ header {
     flex-grow: 1;
   }
 
-  .banner-download {
-    display: flex;
-    flex-direction: column;
-
-    a {
-      padding-top: 10px;
-    }
+  .languages {
+    height: 54px;
   }
 
   .banner-name {
-    color: $white;
-    font-size: 40px;
-    font-weight: bold;
+    color: $yellow;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1.1em;
 
     @include medium {
-      font-size: 35px;
+      font-size: 60px;
     }
 
     @include small {
-      font-size: 25px;
+      font-size: 55px;
     }
   }
 
@@ -92,99 +91,26 @@ header {
   }
 
   @include small {
-    .banner {
-      flex-wrap: wrap;
-      align-content: space-evenly;
-    }
-
     .banner-logo {
       flex-grow: 0;
     }
   }
-}
 
-nav {
-  height: 48px;
-  font-size: 18px;
-  background-color: $dark;
-
-  .nav-scroller {
-    position: relative;
-    // hide scrollbar
-    height: 48px;
-    overflow-y: hidden;
-    padding: 0 20px;
-  }
-
-  .nav-controls {
-    position: absolute;
-    top: 10px;
-    cursor: pointer;
-  }
-
-  .nav-controls#nav-left {
-    left: 0;
-  }
-
-  .nav-controls#nav-right {
-    right: 0;
-  }
-
-  .navbar-nav {
-    margin: 0;
+  .banner-bottom {
     display: flex;
-    list-style: none;
-    overflow-x: auto;
-
-    // hide scrollbar
-    padding: 0 0 17px;
-    box-sizing: content-box;
-
-    @include small {
-      justify-content: flex-start;
-    }
-  }
-
-  .nav-item {
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    width: 100%;
 
-    .nav-link {
-      padding: 8.5px 30px;
-      color: $white;
-      white-space: nowrap; // otherwise will overlap .nav-bottom
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
-
-    .nav-bottom {
-      display: none;
-      height: 4px;
-      width: 80%;
-      background: $yellow;
-      border-radius: 4px 4px 0 0;
-    }
-
-    &.active {
-      .nav-bottom {
-        display: flex;
-      }
-
-      .nav-link {
-        color: $yellow;
-      }
-    }
+    height: 330px;
+    background-image: url("/assets/images/header-background/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @include small {
-      .nav-link {
-        padding: 8.5px 10px;
-      }
+      padding: 2rem 1rem;
     }
   }
-
 }
 
 main {
@@ -193,12 +119,12 @@ main {
   @include large {
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   @include medium {
-    padding: 2rem 4rem;
-    font-size: 1.1rem;
+    padding: 2rem 2rem;
+    font-size: 1.2rem;
   }
 
   @include small {
@@ -206,8 +132,56 @@ main {
     font-size: 1rem;
   }
 
-  img {
-    // max-width: 100%;
+  .main-content {
+    ul {
+      padding: 20px 0;
+    }
+
+    li {
+      position: relative;
+      color: $white-soft;
+      font-weight: bold;
+      list-style: none;
+      padding-top: 32px;
+      padding-bottom: 10px;
+
+      @include large {
+        padding-left: 50px;
+        font-size: 50px;
+      }
+
+      @include medium {
+        font-size: 30px;
+        padding-left: 30px;
+      }
+
+      @include small {
+        font-size: 20px;
+        padding-left: 30px;
+      }
+    }
+
+    li::before {
+      color: $yellow;
+      content: "\2022";
+      font-size: 1.5em;
+      position: absolute;
+
+      @include large {
+        top: 6px;
+        left: -8px;
+      }
+
+      @include medium {
+        top: 16px;
+        left: -4px;
+      }
+
+      @include small {
+        top: 22px;
+        left: 3px;
+      }
+    }
   }
 
   h1,
@@ -216,51 +190,27 @@ main {
   h4,
   h5,
   h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: $black;
-    font-weight: bold;
+    color: $white-soft;
+    font-weight: 800;
   }
 
   p {
     margin-bottom: 1em;
   }
 
-  blockquote {
-    padding: 0 1rem;
-    margin-left: 0;
-    color: $grey;
-    border-left: 0.3rem solid $yellow;
-
-    > :first-child {
-      margin-top: 0;
-    }
-
-    > :last-child {
-      margin-bottom: 0;
-    }
-  }
-
 }
 
 .easy-steps {
-  padding: 10% 0;
+  padding: 5% 0;
 
   .steps-wrap {
     display: flex;
-    flex-direction: row;
-
-    @include small {
-      flex-direction: column;
-    }
+    flex-direction: column;
   }
 
   .frame {
     position: relative;
-
-    @include small {
-      align-self: center;
-    }
+    align-self: center;
 
     .frame-border {
       z-index: 1;
@@ -280,82 +230,20 @@ main {
       animation: fadeIn 2s;
     }
 
-    .step-controls {
-      position: absolute;
-      top: 45%;
-      cursor: pointer;
-      display: none;
-
-      @include small {
-        display: block;
-      }
-    }
-
-    #step-left {
-      left: -20%;
-    }
-
-    #step-right {
-      right: -20%;
-    }
-
     #frame-balance {
       display: block;
     }
   }
 
   .steps {
-    padding-left: 80px;
-    padding-top: 20px;
-
-    @include medium {
-      padding-left: 10px;
-      padding-top: 0;
-    }
-
-    @include small {
-      margin: 0;
-      padding: 0;
-      text-align: center;
-
-      .item {
-        border-bottom: none !important;
-
-        &:not(.active) {
-          display: none;
-        }
-      }
-    }
+    position: absolute;
+    bottom: 37px;
+    left: 25px;
+    display: flex;
 
     .item {
-      position: relative;
-      border-bottom: 1px solid $silver;
+      width: 70px;
       cursor: pointer;
-    }
-
-    .item:last-child {
-      border-bottom: none;
-    }
-
-    .active > .list-style {
-      position: absolute;
-      width: 12px;
-      height: 12px;
-      background: $yellow;
-      border-radius: 50%;
-      left: -30px;
-      top: 7px;
-
-      @include medium {
-        width: 10px;
-        height: 10px;
-        left: -20px;
-        top: 8px;
-      }
-
-      @include small {
-        display: none;
-      }
     }
   }
 
@@ -378,11 +266,42 @@ main {
   }
 }
 
+.slogan {
+  text-align: center;
+  font-weight: 800;
+  color: $white-soft;
+
+  @include large {
+    font-size: 50px;
+  }
+
+  @include medium {
+    font-size: 45px;
+  }
+
+  @include small {
+    font-size: 35px;
+  }
+}
+
+.download-apps {
+  padding-top: 20px;
+  text-align: center;
+
+  a {
+    padding-left: 15px;
+  }
+
+  img {
+    background-color: #2e323c;
+  }
+}
+
 hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid $grey-light;
+  border-top: 1px solid rgba(115, 121, 140, 0.2);
   margin: 1em 0;
   padding: 0;
 }
