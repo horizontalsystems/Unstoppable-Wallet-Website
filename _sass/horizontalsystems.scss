@@ -1,6 +1,5 @@
 @import "variables";
 @import "mixins";
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
 
 * {
   box-sizing: border-box;
@@ -45,11 +44,9 @@ header {
 
   .banner {
     display: flex;
-    height: 200px;
+    height: 280px;
     justify-content: center;
-    align-items: flex-end;
-    margin-bottom: 30px;
-    align-content: space-evenly;
+    align-items: center;
 
     @include small {
       padding: 2rem 1rem;
@@ -92,7 +89,7 @@ header {
   }
 
   .banner-name {
-    color: $yellow;
+    color: $white;
     font-size: 80px;
     font-weight: 800;
     line-height: 1.1em;
@@ -119,11 +116,10 @@ header {
 
   .banner-bottom {
     display: flex;
-    align-items: center;
     width: 100%;
     z-index: 1;
 
-    height: 330px;
+    height: 194px;
     background-image: url("/assets/images/header-background/bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -264,8 +260,21 @@ main {
     display: flex;
 
     .item {
+      position: relative;
       width: 70px;
       cursor: pointer;
+    }
+
+    .item-hint {
+      color: $yellow;
+      font-size: 12px;
+      border: 1px solid $grey-lighter;
+      background: #2e323c;
+      position: absolute;
+      bottom: -30px;
+      left: 12px;
+      padding: 5px 10px;
+      border-radius: 8px;
     }
   }
 
