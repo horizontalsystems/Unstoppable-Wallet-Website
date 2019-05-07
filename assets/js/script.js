@@ -28,6 +28,23 @@ function easySteps() {
   })
 }
 
+function dropdownMenu() {
+  const lang = document.querySelector('.languages')
+  const menu = document.querySelector('.languages .menu')
+  if (!menu) {
+    return
+  }
+
+  lang.addEventListener('mouseover', function () {
+    menu.className = 'menu active'
+  })
+
+  lang.addEventListener('mouseout', function () {
+    menu.className = 'menu'
+  })
+}
+
 document.addEventListener('DOMContentLoaded', function () {
   easySteps()
+  dropdownMenu()
 })

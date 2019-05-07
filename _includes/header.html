@@ -1,20 +1,31 @@
+{% assign lang = site.lang[page.lang] %}
 
 <header role="banner">
   <div class="container">
     <div class="banner">
       <div class="banner-logo">
         <a href="/">
-          <img alt={{site.title}} width="80"
+          <img alt={{site.title}} width="64"
                src="/assets/images/logo.png"
                srcset="
                    /assets/images/logo@2x.png 2x,
                    /assets/images/logo@3x.png 3x" /></a>
       </div>
-      <div class="banner-info">
-
-      </div>
+      <div class="banner-info"></div>
       <div class="languages">
-        English
+        {{site.langNames[page.lang]}}
+
+        <ul class="menu">
+          {% for lang in site.languages %}
+            {% if lang != page.lang %}
+              <li class="menu-item">
+                <a href="/{% if lang != 'en' %}lang/{{lang}}{% endif %}">
+                  {{site.langNames[lang]}}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
@@ -22,7 +33,7 @@
   <div class="banner-bottom">
     <div class="container">
       <div class="banner-name">
-        {{ include.lang.title }}
+        {{ lang.title }}
       </div>
     </div>
   </div>

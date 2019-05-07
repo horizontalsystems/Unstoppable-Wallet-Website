@@ -67,7 +67,28 @@ header {
   }
 
   .languages {
+    min-width: 95px;
     height: 54px;
+    text-align: center;
+    z-index: 1;
+    color: $grey;
+
+    .menu {
+      display: none;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .menu.active {
+      display: block;
+    }
+
+    .menu-item {
+      border-bottom: 1px solid $grey-lighter;
+      background: $grey-lighter;
+      padding: 5px 15px;
+    }
   }
 
   .banner-name {
@@ -100,6 +121,7 @@ header {
     display: flex;
     align-items: center;
     width: 100%;
+    z-index: 1;
 
     height: 330px;
     background-image: url("/assets/images/header-background/bg.png");
