@@ -18,37 +18,14 @@
     <main role="main">
       <div class="container">
         {% capture content_capture %}
-          {% include {{content_md}} %}
+        {% include {{content_md}} %}
         {% endcapture %}
 
         <div class="main-content">
           {{ content_capture | markdownify }}
         </div>
 
-        <div class="easy-steps">
-          <div class="steps-wrap">
-            <div class="frame">
-              <img class="frame-border" alt="Wallet" width="259"
-                   src="/assets/images/iphone/xframe.png"
-                   srcset="
-                     /assets/images/iphone/xframe@2x.png 2x,
-                     /assets/images/iphone/xframe@3x.png 3x" />
-
-              <img class="frame-screen" id="frame-balance" src="/assets/images/iphone/en/balance.png" alt="Balance">
-              <img class="frame-screen" id="frame-transactions" src="/assets/images/iphone/en/transactions.png" alt="Transactions">
-              <img class="frame-screen" id="frame-settings" src="/assets/images/iphone/en/settings.png" alt="Settings">
-
-              <div class="steps">
-                <div class="item active" id="balance">&nbsp;</div>
-                <div class="item" id="transactions">
-                  <div class="item-hint">click</div>
-                </div>
-                <div class="item" id="settings">&nbsp;</div>
-              </div>
-
-            </div>
-          </div>
-        </div>
+        {% include easy-steps.html %}
 
         <div class="slogan">
           {{ lang.slogan }}

@@ -29,18 +29,18 @@ function easySteps() {
 }
 
 function dropdownMenu() {
-  const lang = document.querySelector('.languages')
-  const menu = document.querySelector('.languages .menu')
+  const lang = document.querySelector('.with-dropdown')
+  const menu = document.querySelector('.with-dropdown .nav-dropdown')
   if (!menu) {
     return
   }
 
   lang.addEventListener('mouseover', function () {
-    menu.className = 'menu active'
+    menu.className = 'nav-dropdown active'
   })
 
   lang.addEventListener('mouseout', function () {
-    menu.className = 'menu'
+    menu.className = 'nav-dropdown'
   })
 }
 

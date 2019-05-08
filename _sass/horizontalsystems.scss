@@ -1,5 +1,7 @@
 @import "variables";
 @import "mixins";
+@import "easy-steps";
+@import "nav";
 
 * {
   box-sizing: border-box;
@@ -11,7 +13,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $grey-light;
+  color: $silver;
   background: $dark
 }
 
@@ -55,37 +57,7 @@ header {
 
   .banner-logo {
     display: flex;
-  }
-
-  .banner-info {
-    padding-left: 29px;
-    padding-bottom: 20px;
     flex-grow: 1;
-  }
-
-  .languages {
-    min-width: 95px;
-    height: 54px;
-    text-align: center;
-    z-index: 1;
-    color: $grey;
-
-    .menu {
-      display: none;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .menu.active {
-      display: block;
-    }
-
-    .menu-item {
-      border-bottom: 1px solid $grey-lighter;
-      background: $grey-lighter;
-      padding: 5px 15px;
-    }
   }
 
   .banner-name {
@@ -99,19 +71,13 @@ header {
     }
 
     @include small {
-      font-size: 55px;
+      font-size: 48px;
     }
   }
 
   .banner-desc {
     color: $grey;
     font-size: 18px;
-  }
-
-  @include small {
-    .banner-logo {
-      flex-grow: 0;
-    }
   }
 
   .banner-bottom {
@@ -218,85 +184,6 @@ main {
 
 }
 
-.easy-steps {
-  padding: 5% 0;
-
-  .steps-wrap {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .frame {
-    position: relative;
-    align-self: center;
-
-    .frame-border {
-      z-index: 1;
-    }
-
-    .frame-screen {
-      position: absolute;
-      width: 227px;
-      top: 15px;
-      left: 17px;
-      z-index: -1;
-      display: none;
-
-      -webkit-animation: fadeIn 2s;
-      -moz-animation: fadeIn 2s;
-      -o-animation: fadeIn 2s;
-      animation: fadeIn 2s;
-    }
-
-    #frame-balance {
-      display: block;
-    }
-  }
-
-  .steps {
-    position: absolute;
-    bottom: 37px;
-    left: 25px;
-    display: flex;
-
-    .item {
-      position: relative;
-      width: 70px;
-      cursor: pointer;
-    }
-
-    .item-hint {
-      color: $yellow;
-      font-size: 12px;
-      border: 1px solid $grey-lighter;
-      background: #2e323c;
-      position: absolute;
-      bottom: -30px;
-      left: 12px;
-      padding: 5px 10px;
-      border-radius: 8px;
-    }
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-
-    @include small {
-      padding: 0;
-    }
-  }
-
-  h3 {
-    margin-top: 1rem;
-    color: $dark;
-  }
-
-  p {
-    color: $grey;
-  }
-}
-
 .slogan {
   text-align: center;
   font-weight: 800;
@@ -325,6 +212,7 @@ main {
 
   img {
     background-color: #2e323c;
+    margin: 5px 0;
   }
 }
 

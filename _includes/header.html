@@ -10,21 +10,28 @@
                    /assets/images/logo@2x.png 2x,
                    /assets/images/logo@3x.png 3x" /></a>
       </div>
-      <div class="banner-info"></div>
-      <div class="languages">
-        {{site.langNames[page.lang]}}
+      <div class="banner-menu">
+        <nav role="navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item with-dropdown">
+              <a href="#" class="nav-link">
+                {{site.langNames[page.lang]}}
+              </a>
 
-        <ul class="menu">
-          {% for lang in site.languages %}
-            {% if lang != page.lang %}
-              <li class="menu-item">
-                <a href="/{% if lang != 'en' %}lang/{{lang}}{% endif %}">
-                  {{site.langNames[lang]}}
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+              <ul class="nav-dropdown">
+                {% for lang in site.languages %}
+                  {% if lang != page.lang %}
+                    <li class="nav-dropdown-item">
+                      <a href="/{% if lang != 'en' %}lang/{{lang}}{% endif %}">
+                        {{site.langNames[lang]}}
+                      </a>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </div>
