@@ -11,7 +11,7 @@
   </head>
   <body>
     {% assign lang=site.lang[page.lang] %}
-    {% assign content_md = 'lang/' | append: page.lang | append: '/content.md' %}
+    {% assign content_md = 'content/content-' | append: page.lang | append: '.md' %}
 
     {% include header.html lang=lang %}
 
