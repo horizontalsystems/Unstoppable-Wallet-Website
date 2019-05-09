@@ -1,5 +1,5 @@
 
-We dream of a world… a world where private property is untouchable and market access is unconditional.
+We dream of a world… A world where private property is untouchable and market access is unconditional.
 
 That obsession led us to engineer a wallet that is equally open to all, lives online forever and unconditionally protects your assets.
 
