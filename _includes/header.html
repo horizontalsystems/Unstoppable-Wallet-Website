@@ -13,6 +13,7 @@
       <div class="banner-menu">
         <nav role="navigation">
           <ul class="navbar-nav">
+<!--
             <li class="nav-item with-dropdown">
               <a href="#" class="nav-link">
                 {{site.langNames[page.lang]}}
@@ -23,13 +24,14 @@
                   {% if lang != page.lang %}
                     <li class="nav-dropdown-item">
                       <a href="/{% if lang != 'en' %}lang/{{lang}}{% endif %}">
-                        <!--{{site.langNames[lang]}}-->
+                        {{site.langNames[lang]}}
                       </a>
                     </li>
                   {% endif %}
                 {% endfor %}
               </ul>
             </li>
+-->
           </ul>
         </nav>
       </div>
