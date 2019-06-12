@@ -17,13 +17,19 @@
 
     <main role="main">
       <div class="container">
-        {% capture content_capture %}
-        {% include {{content_md}} %}
-        {% endcapture %}
-
         <div class="main-content">
-          {{ content_capture | markdownify }}
+          We dream of a world… a world where private property rights are sacred and unconditional.
+          <br /><br />
+          That desire led us to engineer a wallet that lives forever and unconditionally protects your assets.
+          <br />
+
+          <div class="github-link">
+            <img src="/assets/images/github.png" alt="Github" width="24">
+            <a href="https://horizontalsystems.io">Horizontal Systems</a>
+          </div>
         </div>
+
+        <hr />
 
         {% include easy-steps.html %}
 

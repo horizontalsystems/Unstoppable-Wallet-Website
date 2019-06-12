@@ -46,9 +46,9 @@ header {
 
   .banner {
     display: flex;
-    height: 280px;
+    height: 270px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 
     @include small {
       padding: 2rem 1rem;
@@ -58,20 +58,9 @@ header {
   .banner-logo {
     display: flex;
     flex-grow: 1;
-  }
-
-  .banner-name {
-    color: $white;
-    font-size: 80px;
-    font-weight: 800;
-    line-height: 1.1em;
-
-    @include medium {
-      font-size: 60px;
-    }
 
     @include small {
-      font-size: 48px;
+      flex-grow: unset;
     }
   }
 
@@ -80,19 +69,46 @@ header {
     font-size: 18px;
   }
 
-  .banner-bottom {
-    display: flex;
+  .earth {
+    position: absolute;
     width: 100%;
-    z-index: 1;
-
-    height: 194px;
-    background-image: url("/assets/images/header-background/bg.png");
-    background-position: center;
+    height: 100%;
+    right: 0;
+    background-image: url("/assets/images/planet.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position-x: right;
+    background-position-y: top;
+    z-index: -2;
+
+    @include medium {
+      background-position-x: center;
+    }
 
     @include small {
-      padding: 2rem 1rem;
+      background-position-x: center;
+      top: -30%;
+    }
+  }
+
+  .astronaut {
+    position: absolute;
+    top: 25px;
+    right: 15%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("/assets/images/astronaut.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+
+    @include medium {
+      background-position-x: center;
+      right: 0;
+    }
+
+    @include small {
+      display: none;
     }
   }
 }
@@ -117,7 +133,28 @@ main {
   }
 
   .main-content {
+    width: 55%;
+    font-size: 32px;
+    padding-bottom: 10%;
+    color: $white;
 
+    @include medium {
+      width: 100%;
+    }
+
+    @include small {
+      width: 100%;
+    }
+
+    .github-link {
+      display: flex;
+      padding-top: 30px;
+      font-size: 16px;
+
+      img {
+        margin-right: 20px;
+      }
+    }
   }
 
   h1,
