@@ -117,55 +117,7 @@ main {
   }
 
   .main-content {
-    ul {
-      padding: 20px 0;
-    }
 
-    li {
-      position: relative;
-      color: $white-soft;
-      font-weight: bold;
-      list-style: none;
-      padding-top: 32px;
-      padding-bottom: 10px;
-
-      @include large {
-        padding-left: 50px;
-        font-size: 50px;
-      }
-
-      @include medium {
-        font-size: 30px;
-        padding-left: 30px;
-      }
-
-      @include small {
-        font-size: 20px;
-        padding-left: 30px;
-      }
-    }
-
-    li::before {
-      color: $yellow;
-      content: "\2022";
-      font-size: 1.5em;
-      position: absolute;
-
-      @include large {
-        top: 6px;
-        left: -8px;
-      }
-
-      @include medium {
-        top: 16px;
-        left: -4px;
-      }
-
-      @include small {
-        top: 22px;
-        left: 3px;
-      }
-    }
   }
 
   h1,

@@ -2,11 +2,15 @@
 @import "mixins";
 
 .easy-steps {
-  padding: 13% 0;
+  padding: 10% 0;
 
   .steps-wrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+    @include small {
+      flex-direction: column-reverse;
+    }
   }
 
   .frame {
@@ -44,35 +48,50 @@
     #frame-balance {
       display: block;
     }
+
+    .tabs {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+
+      .item {
+        position: relative;
+        width: 107px;
+        height: 50px;
+        cursor: pointer;
+      }
+    }
+
   }
 
   .steps {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-
-    .item {
-      position: relative;
-      width: 107px;
-      height: 50px;
-      cursor: pointer;
-    }
-
-    .item-hint {
-      position: absolute;
-      bottom: -45px;
-      left: 13px;
-      padding: 5px 10px;
-      border-radius: 8px;
-    }
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
+    padding-left: 10%;
 
     @include small {
-      padding: 0;
+      padding-bottom: 15%;
+    }
+
+    ul {
+      padding-left: 25px;
+    }
+
+    li {
+      position: relative;
+      color: $white-soft;
+      font-weight: bold;
+      padding: 10px 0;
+
+      @include large {
+        font-size: 32px;
+      }
+
+      @include medium {
+        font-size: 22px;
+      }
+
+      @include small {
+        font-size: 18px;
+      }
     }
   }
 
@@ -82,6 +101,7 @@
   }
 
   p {
-    color: $grey;
+    color: $silver;
+    font-size: 20px;
   }
 }

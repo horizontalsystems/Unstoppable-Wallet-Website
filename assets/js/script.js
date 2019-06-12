@@ -1,6 +1,6 @@
 function easySteps() {
   const screens = document.querySelectorAll('.frame-screen')
-  const steps = document.querySelectorAll('.steps .item')
+  const tabs = document.querySelectorAll('.tabs .item')
 
   const onClick = function (element) {
     screens.forEach(function (screen) {
@@ -8,7 +8,7 @@ function easySteps() {
     })
 
     // reset previous active item
-    steps.forEach(function (item) {
+    tabs.forEach(function (item) {
       item.className = 'item'
     })
 
@@ -21,7 +21,7 @@ function easySteps() {
     element.className = 'item active'
   }
 
-  steps.forEach(function (item) {
+  tabs.forEach(function (item) {
     item.addEventListener('click', function () {
       onClick(item)
     })
