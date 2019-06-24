@@ -1,7 +1,7 @@
 
-We dream of a world… A world where private property is untouchable and market access is unconditional.
+We dream of a world where the markets are borderless and property rights are unconditional.
 
-That obsession led us to engineer a wallet that is equally open to all, lives online forever and unconditionally protects your assets.
+That desire led us to engineer a wallet that works everywhere and gives its owner absolute control.
 
 <br />
 <hr />
@@ -16,4 +16,4 @@ That obsession led us to engineer a wallet that is equally open to all, lives on
 
 After 25.000 engineering hours we ended up with a wallet that can’t fail.
 
-It’s classy on the surface and unstoppable under the hood. 
+It’s classy on the surface and unstoppable under the hood.
