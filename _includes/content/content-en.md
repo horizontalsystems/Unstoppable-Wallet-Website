@@ -8,12 +8,12 @@ That desire led us to engineer a wallet that works everywhere and gives its owne
 
 + Can’t Be Blocked
 + Can’t Be Shut Down
++ Doesn't Collect Data
 + No Signups, KYC or AML
-+ 100% Under Your Control
 
 <hr />
 <br />  
 
-After 25.000 engineering hours we ended up with a wallet that can’t fail.
+After 25.000 engineering hours we had the wallet that can’t be stopped.
 
 It’s classy on the surface and unstoppable under the hood.
