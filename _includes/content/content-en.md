@@ -1,7 +1,7 @@
 
-We dream of a world where the markets are borderless and property rights are unconditional.
+We dream of a world where the markets are borderless and unconditional...
 
-That desire led us to engineer a wallet that works everywhere and gives its owner absolute control.
+Then engineereed wallet that works everywhere and gives its owner absolute control.
 
 <br />
 <hr />
