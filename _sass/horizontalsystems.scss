@@ -133,10 +133,12 @@ main {
   }
 
   .main-content {
-    width: 55%;
+    width: 57%;
     font-size: 32px;
-    padding-bottom: 10%;
+    line-height: 1.1;
+    padding-bottom: 15%;
     color: $white;
+    font-weight: 700;
 
     @include medium {
       width: 100%;
@@ -150,6 +152,8 @@ main {
       display: flex;
       padding-top: 30px;
       font-size: 16px;
+      font-weight: normal;
+      line-height: 1.5;
 
       img {
         margin-right: 20px;
@@ -177,7 +181,7 @@ main {
       background-image: linear-gradient(to top, $steel-10, $steel-20);
 
       @include small {
-        width: 100%;
+        width: 70%;
         flex-direction: column;
       }
     }
@@ -207,6 +211,7 @@ main {
         flex-direction: column;
         padding-top: 25px;
         align-items: center;
+        font-size: 14px;
       }
     }
   }
@@ -233,15 +238,15 @@ main {
   color: $white-soft;
 
   @include large {
-    font-size: 50px;
+    font-size: 32px;
   }
 
   @include medium {
-    font-size: 45px;
+    font-size: 28px;
   }
 
   @include small {
-    font-size: 35px;
+    font-size: 18px;
   }
 }
 

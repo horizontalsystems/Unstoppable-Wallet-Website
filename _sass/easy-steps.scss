@@ -19,7 +19,7 @@
 
     .frame-border {
       width: 323px;
-      height: 582px;
+      height: 680px;
       z-index: 1;
     }
 
@@ -82,11 +82,11 @@
       padding: 10px 0;
 
       @include large {
-        font-size: 32px;
+        font-size: 24px;
       }
 
       @include medium {
-        font-size: 22px;
+        font-size: 20px;
       }
 
       @include small {
