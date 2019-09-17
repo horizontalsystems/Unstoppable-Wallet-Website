@@ -6,15 +6,16 @@
 
 - Creating New Wallet 
 - Restoring Existing Wallet
-- Transaction Fees Estimation
+- Transaction Fees Explained
 
 
 
- ## Restoring Existing Wallet
+## Restoring Existing Wallet
 
- - Restore Unstoppable Wallet
+- Restore Unstoppable Wallet
 
- - Restore Funds from other Wallets to Unstoppable
+- Restore Funds from other Wallets to Unstoppable
 
- - Restore Funds from Unstoppable to other Wallets
+- Restore Funds from Unstoppable to other Wallets
 
+## Transaction Fees Explained
