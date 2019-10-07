@@ -23,13 +23,20 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  word-wrap: break-word;
 
   @include large {
-    max-width: 900px;
+    max-width: 992px;
   }
 
   @include medium {
-    max-width: 650px;
+    max-width: 768px;
+  }
+
+  @include small {
+    max-width: 576px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
 
@@ -47,12 +54,7 @@ header {
   .banner {
     display: flex;
     height: 270px;
-    justify-content: center;
     align-items: flex-end;
-
-    @include small {
-      padding: 2rem 1rem;
-    }
   }
 
   .banner-logo {
@@ -61,32 +63,6 @@ header {
 
     @include small {
       flex-grow: unset;
-    }
-  }
-
-  .banner-desc {
-    color: $grey;
-    font-size: 18px;
-  }
-
-  .earth {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    right: 0;
-    background-image: url("/assets/images/planet.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: top;
-    z-index: -2;
-
-    @include medium {
-      background-position-x: center;
-    }
-
-    @include small {
-      background-position-x: center;
-      top: -30%;
     }
   }
 
@@ -114,31 +90,26 @@ header {
 }
 
 main {
-  word-wrap: break-word;
 
   @include large {
-    padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.5rem;
   }
 
   @include medium {
-    padding: 2rem 2rem;
     font-size: 1.2rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
     font-size: 1rem;
   }
 
   .main-content {
-    width: 57%;
-    font-size: 32px;
-    line-height: 1.1;
+    line-height: 23px;
+    font-size: 17px;
     padding-bottom: 15%;
     color: $white;
-    font-weight: 700;
+    font-weight: normal;
 
     @include medium {
       width: 100%;
@@ -154,6 +125,7 @@ main {
       font-size: 16px;
       font-weight: normal;
       line-height: 1.5;
+      text-decoration: underline;
 
       img {
         margin-right: 20px;
@@ -163,55 +135,113 @@ main {
 
   .features-list {
     display: flex;
-    padding: 40px 0;
+    padding: 105px 0;
     font-size: 20px;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 
-    ul {
-      padding-left: 20px;
+    @include small {
+      flex-direction: column;
     }
 
     .features-item {
       display: flex;
-      width: 560px;
-      margin: 20px 0;
-      padding: 40px 0;
-      border-radius: 32px;
-      background-image: linear-gradient(to top, $steel-10, $steel-20);
+      flex-direction: column;
+      text-align: center;
 
       @include small {
-        width: 70%;
-        flex-direction: column;
+        padding-bottom: 40px;
       }
     }
 
     .features-title {
-      font-size: 32px;
+      font-size: 22px;
       color: $white-soft;
       font-weight: 700;
+      text-align: center;
 
       @include small {
         font-size: 24px;
       }
     }
 
-    .features-icon {
-      flex: 2;
-      align-self: center;
-      display: flex;
-      justify-content: center;
+    .features-list-items {
+      font-size: 17px;
+      color: #808085;
+      padding: 0;
+      list-style: none;
     }
 
-    .features-steps {
-      flex: 3;
+    .features-icon {
+      align-self: center;
+      display: flex;
+      height: 160px;
+      align-items: center;
+      padding-bottom: 24px;
+    }
+  }
+
+  .currency-list {
+    font-size: 17px;
+    padding: 55px 0;
+    color: $white-soft;
+
+    .currency-list-title {
+      font-weight: 800;
+      font-size: 36px;
 
       @include small {
-        display: flex;
+        font-size: 24px;
+      }
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+
+      li {
+        flex: 1 0 25%;
+        box-sizing: border-box;
+
+        @include medium {
+          flex: 1 0 50%;
+        }
+
+        @include small {
+          flex: 1 0 100%;
+        }
+      }
+
+      span {
+        color: #808085;
+      }
+    }
+  }
+
+  .partnerships {
+    padding: 40px 0;
+
+    .partnerships-title {
+      padding-bottom: 76px;
+      font-weight: 800;
+      font-size: 36px;
+      color: $white-soft;
+
+      @include small {
+        font-size: 24px;
+      }
+    }
+
+    .partners {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      @include small {
         flex-direction: column;
-        padding-top: 25px;
-        align-items: center;
-        font-size: 14px;
+        text-align: center;
       }
     }
   }
@@ -229,33 +259,13 @@ main {
   p {
     margin-bottom: 1em;
   }
-
-}
-
-.slogan {
-  text-align: center;
-  font-weight: 800;
-  color: $white-soft;
-
-  @include large {
-    font-size: 32px;
-  }
-
-  @include medium {
-    font-size: 28px;
-  }
-
-  @include small {
-    font-size: 18px;
-  }
 }
 
 .download-apps {
-  padding-top: 20px;
-  text-align: center;
+  padding-top: 44px;
 
   a {
-    padding-left: 15px;
+    padding-right: 15px;
   }
 
   img {
@@ -278,4 +288,22 @@ footer {
   text-align: center;
   margin-left: 0;
   color: $grey;
+
+  .slogan {
+    padding-top: 48px;
+    font-weight: 800;
+    color: $white-soft;
+    font-size: 38px;
+  }
+
+  .bottom-menu {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    div {
+      padding: 0 20px;
+    }
+  }
 }

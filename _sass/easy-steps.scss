@@ -1,8 +1,18 @@
 @import "variables";
 @import "mixins";
 
+.easy-steps-container {
+  background: radial-gradient(75.9% 384.26% at 24.1% 100%, #FFD000 0%, #FFA800 30%);
+}
+
 .easy-steps {
-  padding: 10% 0;
+  position: relative;
+  max-height: 615px;
+  overflow: hidden;
+
+  @include medium {
+    max-height: 545px;
+  }
 
   .steps-wrap {
     display: flex;
@@ -13,62 +23,51 @@
     }
   }
 
-  .frame {
-    position: relative;
-    align-self: center;
+  .step-screens {
+    flex-grow: 2;
 
-    .frame-border {
-      width: 323px;
-      height: 680px;
-      z-index: 1;
+    .app-screens {
+      width: 100px;
+
+      @include large {
+        width: 450px;
+      }
+
+      @include medium {
+        width: 400px;
+      }
+
+      @include small {
+        display: none;
+      }
     }
 
-    .frame-bg {
-      top: 13%;
-      left: -44%;
+    .app-screens-bg {
+      left: -8%;
       position: absolute;
       z-index: -1;
 
       @include small {
-        top: 13%;
-        left: -29%;
-        width: 500px;
+        display: none;
       }
     }
-
-    .frame-screen {
-      position: absolute;
-      width: 323px;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      display: none;
-    }
-
-    #frame-balance {
-      display: block;
-    }
-
-    .tabs {
-      position: absolute;
-      bottom: 0;
-      display: flex;
-
-      .item {
-        position: relative;
-        width: 107px;
-        height: 50px;
-        cursor: pointer;
-      }
-    }
-
   }
 
   .steps {
+    padding: 10% 0;
     padding-left: 10%;
+    flex-grow: 3;
 
-    @include small {
-      padding-bottom: 15%;
+    .steps-head {
+      font-weight: 800;
+      font-size: 36px;
+      color: $white;
+    }
+
+    .steps-footer, a {
+      font-weight: normal;
+      font-size: 17px;
+      color: $dark;
     }
 
     ul {
@@ -77,31 +76,36 @@
 
     li {
       position: relative;
-      color: $white-soft;
-      font-weight: bold;
+      color: #13151A;
+      font-weight: 800;
+      font-size: 24px;
       padding: 10px 0;
+    }
 
-      @include large {
+    @include medium {
+      li {
+        font-size: 18px;
+      }
+      .steps-head {
         font-size: 24px;
       }
+    }
 
-      @include medium {
-        font-size: 20px;
+    @include small {
+      padding-bottom: 15%;
+      padding-left: 0;
+
+      li {
+        font-size: 18px;
       }
 
-      @include small {
-        font-size: 18px;
+      .steps-head {
+        font-size: 24px;
       }
     }
   }
 
-  h3 {
-    margin-top: 1rem;
-    color: $dark;
-  }
-
-  p {
-    color: $silver;
-    font-size: 20px;
+  a {
+    text-decoration: underline;
   }
 }

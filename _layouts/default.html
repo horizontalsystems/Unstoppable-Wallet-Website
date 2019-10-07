@@ -18,52 +18,51 @@
     <main role="main">
       <div class="container">
         <div class="main-content">
-          
-   
-          We dream of a world where markets are borderless...
-          <br /><br />
+          <h2>Be Free</h2>
+          <h2>Be Unstoppable</h2>
+
+          We dream of a world where markets are borderless... <br>
           That led us to engineer a blockchain wallet that works without borders.
+
           <br />
           <div class="github-link">
             <!-- <img src="/assets/images/github.png" alt="Github" width="24"> -->
             <a href="https://horizontalsystems.io">Horizontal Systems</a>
           </div>
+
+          {% include download-apps.html %}
         </div>
+      </div>
 
-        <hr />
+      <div class="easy-steps-container">
+        <div class="container">
+          {% include easy-steps.html %}
+        </div>
+      </div>
 
-        {% include easy-steps.html %}
-
+      <div class="container">
         {% include features-list.html %}
+        <hr>
+      </div>
 
-        <div class="slogan">
-          {{ lang.slogan }}
-        </div>
+      <div class="container">
+        {% include currency-list.html %}
+        <hr>
+      </div>
 
-        <div class="download-apps">
+      <div class="container">
+        <div class="partnerships">
+          <div class="partnerships-title">Partnerships</div>
 
-          <a href="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8">
-            <img alt={{site.title}} width="133"
-                 src="/assets/images/download/app-store.png"
-                 srcset="
-                   /assets/images/download/app-store@2x.png 2x,
-                   /assets/images/download/app-store@3x.png 3x" /></a>
-          <a href="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet">
-            <img alt={{site.title}} width="133"
-                 src="/assets/images/download/google.png"
-                 srcset="
-                   /assets/images/download/google@2x.png 2x,
-                   /assets/images/download/google@3x.png 3x" /></a>
-          <a href="https://github.com/horizontalsystems/bank-wallet-android/releases/">
-            <img alt={{site.title}} width="133"
-                 src="/assets/images/download/a-pk.png"
-                 srcset="
-                   /assets/images/download/a-pk@2x.png 2x,
-                   /assets/images/download/a-pk@3x.png 3x" /></a>
+          <div class="partners">
+            <div><a href=""><img alt="MakeUseOf" src="/assets/images/muo.png" width="105"/></a></div>
+            <div><a href=""><img alt="MakeUseOf" src="/assets/images/blocksdecoded.png" width="280"/></a></div>
+            <div><a href=""><img alt="MakeUseOf" src="/assets/images/unnamed.png" width="56"/></a></div>
+          </div>
         </div>
       </div>
     </main>
 
-    {% include footer.html %}
+    {% include footer.html slogan=lang.slogan %}
   </body>
 </html>

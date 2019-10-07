@@ -44,7 +44,7 @@ function dropdownMenu() {
   })
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  easySteps()
-  dropdownMenu()
-})
+// document.addEventListener('DOMContentLoaded', function () {
+//   easySteps()
+//   dropdownMenu()
+// })
