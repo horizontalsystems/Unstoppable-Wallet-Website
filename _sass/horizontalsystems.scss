@@ -68,7 +68,7 @@ header {
 
   .astronaut {
     position: absolute;
-    top: 25px;
+    top: 90px;
     right: 15%;
     width: 100%;
     height: 100%;
@@ -135,7 +135,7 @@ main {
 
   .features-list {
     display: flex;
-    padding: 105px 0;
+    padding: 130px 0;
     font-size: 20px;
     flex-direction: row;
     justify-content: space-between;
@@ -270,7 +270,6 @@ main {
   }
 
   img {
-    background-color: $steel-bg;
     margin: 5px 0;
   }
 }
