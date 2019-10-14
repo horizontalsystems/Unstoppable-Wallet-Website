@@ -1,2 +1,2 @@
 # bankwallet-www
-The repository for hosting Bank Wallet website
+The repository for hosting Unstoppable Wallet website
