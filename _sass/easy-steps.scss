@@ -1,18 +1,9 @@
 @import "variables";
 @import "mixins";
 
-.easy-steps-container {
-  background: radial-gradient(75.9% 384.26% at 24.1% 100%, #FFD000 0%, #FFA800 30%);
-}
-
 .easy-steps {
   position: relative;
-  max-height: 615px;
   overflow: hidden;
-
-  @include medium {
-    max-height: 545px;
-  }
 
   .steps-wrap {
     display: flex;
@@ -25,6 +16,7 @@
 
   .step-screens {
     flex-grow: 2;
+    align-self: center;
 
     .app-screens {
       width: 100px;
@@ -34,18 +26,8 @@
       }
 
       @include medium {
-        width: 400px;
+        width: 350px;
       }
-
-      @include small {
-        display: none;
-      }
-    }
-
-    .app-screens-bg {
-      left: -8%;
-      position: absolute;
-      z-index: -1;
 
       @include small {
         display: none;
@@ -54,8 +36,7 @@
   }
 
   .steps {
-    padding: 10% 0;
-    padding-left: 10%;
+    padding: 10% 0 10% 10%;
     flex-grow: 3;
 
     .steps-head {
@@ -67,25 +48,28 @@
     .steps-footer, a {
       font-weight: normal;
       font-size: 17px;
-      color: $dark;
+      color: $grey-light;
     }
 
     ul {
       padding-left: 25px;
+      color: $yellow;
     }
 
     li {
       position: relative;
-      color: #13151A;
       font-weight: 800;
       font-size: 24px;
       padding: 10px 0;
     }
 
     @include medium {
+      padding-left: 5%;
+
       li {
         font-size: 18px;
       }
+
       .steps-head {
         font-size: 24px;
       }

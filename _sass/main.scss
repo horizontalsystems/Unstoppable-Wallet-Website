@@ -13,7 +13,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $silver;
+  color: $grey-light;
   background: $dark
 }
 
@@ -41,10 +41,11 @@ body {
 }
 
 a {
-  color: $yellow;
+  color: $grey-light;
   text-decoration: none;
 
   &:hover {
+    color: darken($grey-light, 15%);
     text-decoration: underline;
   }
 }
@@ -55,6 +56,10 @@ header {
     display: flex;
     height: 270px;
     align-items: flex-end;
+
+    @include small {
+      height: 150px;
+    }
   }
 
   .banner-logo {
@@ -142,6 +147,7 @@ main {
 
     @include small {
       flex-direction: column;
+      padding-bottom: 40px;
     }
 
     .features-item {
@@ -181,18 +187,41 @@ main {
     }
   }
 
-  .currency-list {
-    font-size: 17px;
+  .currencies {
+    font-size: 15px;
     padding: 55px 0;
     color: $white-soft;
+    display: flex;
 
     .currency-list-title {
       font-weight: 800;
-      font-size: 36px;
-      padding-bottom: 44px;
+      font-size: 30px;
+      padding-top: 30px;
+      padding-bottom: 40px;
 
       @include small {
         font-size: 24px;
+      }
+    }
+
+    img {
+      width: 70%;
+    }
+
+    .currency-count {
+      flex-direction: column;
+      min-width: 350px;
+    }
+
+    .currency-list {
+      padding-left: 40px;
+    }
+
+    @include small {
+      flex-direction: column;
+
+      .currency-list {
+        padding: 0;
       }
     }
 
@@ -201,9 +230,10 @@ main {
       flex-wrap: wrap;
       list-style: none;
       padding: 0;
+      margin: 0;
 
       li {
-        flex: 1 0 25%;
+        flex: 1 0 30%;
         box-sizing: border-box;
 
         @include medium {
