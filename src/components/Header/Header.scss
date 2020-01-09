@@ -1,0 +1,35 @@
+@import "../../scss/utils";
+
+.Header {
+  height: 80px;
+  background: #0F1014;
+  color: $remus;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+
+  .nav-item {
+    height: 32px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  @include sm {
+    justify-content: center;
+  }
+}

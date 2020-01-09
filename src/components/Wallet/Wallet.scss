@@ -1,0 +1,100 @@
+@import "../../scss/utils";
+
+.Wallet {
+
+  @include sm {
+    margin: 20px 0;
+  }
+
+  .wallet-wrap {
+    display: flex;
+    flex-direction: row;
+
+    @include sm {
+      flex-direction: column-reverse;
+    }
+
+    @include md {
+      padding: 40px 0;
+    }
+
+    @include lg {
+      padding: 60px 0;
+    }
+  }
+
+  .wallet-image {
+    flex-grow: 2;
+    align-self: center;
+
+    .app-screens {
+      @include sm {
+        display: none;
+      }
+
+      @include md {
+        width: 315px;
+      }
+
+      @include lg {
+        width: 400px;
+      }
+
+      @include xl {
+        width: 440px;
+      }
+    }
+  }
+
+  .wallet-info {
+    padding: 10% 0 10% 10%;
+    flex-grow: 3;
+
+    .wallet-desc {
+      font-weight: 800;
+      font-size: 34px;
+      color: #13151A;
+    }
+
+    .wallet-link {
+      background: linear-gradient(180deg, #1E2129 0%, #0F1014 100%);
+      border-radius: 4px;
+      float: left;
+      padding: 8px 25px;
+      margin-top: 40px;
+      cursor: pointer;
+
+      span {
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+
+    @include sm {
+      padding-left: 1%;
+
+      .wallet-desc {
+        font-size: 24px;
+        width: 100%;
+      }
+    }
+
+    @include md {
+      padding-left: 5%;
+
+      .wallet-desc {
+        font-size: 24px;
+      }
+    }
+
+    @include lg {
+      padding-left: 10%;
+
+      .wallet-desc {
+        font-size: 34px;
+      }
+    }
+  }
+}

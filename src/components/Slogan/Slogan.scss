@@ -1,0 +1,116 @@
+@import "../../scss/utils";
+
+.Slogan-background {
+  background: #FEC300 url("/images/bg-small.png") no-repeat center;
+  position: relative;
+  margin-top: 12%;
+  margin-bottom: 5%;
+
+  @include sm {
+    height: 140px;
+  }
+
+  @include md {
+    height: 320px;
+  }
+
+  @include lg {
+    height: 390px;
+  }
+}
+
+.Slogan-wrap {
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+
+  @include sm {
+    width: 80%;
+  }
+}
+
+.Slogan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  @include sm {
+    justify-content: normal;
+  }
+}
+
+.slogan-girl {
+  width: 144px;
+
+  @include sm {
+    width: 100px;
+  }
+
+  @include md {
+    width: 230px;
+  }
+
+  @include lg {
+    width: 300px;
+  }
+}
+
+.slogan-info {
+  margin-top: 60px;
+
+  @include sm {
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}
+
+.slogan-title {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 110.84%;
+  color: #13151A;
+
+  @include sm {
+    font-size: 18px;
+  }
+
+  @include md {
+    font-size: 40px;
+  }
+}
+
+.slogan-bottom {
+  display: flex;
+  color: $gray-light;
+  justify-content: space-between;
+
+  a {
+    text-decoration: none;
+    padding-top: 40px;
+    padding-right: 15px;
+  }
+
+  @include sm {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 10px;
+
+    a {
+      padding-top: 0;
+      padding-right: 10px;
+    }
+
+    img {
+      width: 60px;
+    }
+  }
+}
+
+.unstoppable-girl {
+  max-width: 600px;
+  width: 100%;
+
+  @include sm {
+    width: 100px;
+  }
+}

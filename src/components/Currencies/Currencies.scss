@@ -1,0 +1,62 @@
+@import "../../scss/utils";
+
+.currencies {
+  font-size: 15px;
+  padding: 55px 0;
+  color: $white;
+  display: flex;
+  align-items: center;
+
+  .currency-info {
+    padding-left: 80px;
+  }
+
+  .currencies-title {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 40px;
+    color: #F5F5F5;
+
+    @include sm {
+      font-size: 24px;
+    }
+  }
+
+  .currencies-info {
+    font-size: 17px;
+    line-height: 24px;
+    color: #808085;
+  }
+
+  @include sm {
+    flex-direction: column;
+
+    .currency-count {
+      width: 250px;
+      margin-bottom: 60px;
+    }
+
+    .currency-info {
+      padding-left: 0;
+    }
+  }
+
+  @include md {
+
+  }
+}
+
+.supported-coins {
+  color: white;
+  margin: 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    padding-right: 10px;
+  }
+
+  span {
+    color: #808085;
+  }
+}

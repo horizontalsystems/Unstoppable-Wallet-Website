@@ -1,0 +1,27 @@
+@import "../../scss/utils";
+
+.Yellow-background {
+  background: #FEC300 url("/images/bg-big.png") no-repeat center;
+  background-size: cover;
+  border-radius: 80px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  @include sm {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  @include md {
+    max-width: $screen-md + 80px;
+  }
+
+  @include lg {
+    max-width: $screen-lg + 114px;
+  }
+
+  @include xl {
+    max-width: $screen-xl;
+  }
+}

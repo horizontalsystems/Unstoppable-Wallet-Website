@@ -9,3 +9,12 @@ body {
   padding: 0;
   background: #0F1014;
 }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(115,121,140,0.2);
+  margin: 1em 0;
+  padding: 0;
+}
