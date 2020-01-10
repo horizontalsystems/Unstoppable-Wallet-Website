@@ -1,4 +1,0 @@
----
-lang: tr
-layout: default
----

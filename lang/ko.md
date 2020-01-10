@@ -1,4 +1,0 @@
----
-lang: ko
-layout: default
----

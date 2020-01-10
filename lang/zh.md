@@ -1,4 +1,0 @@
----
-lang: zh
-layout: default
----

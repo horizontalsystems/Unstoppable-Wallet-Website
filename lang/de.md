@@ -1,4 +1,0 @@
----
-lang: de
-layout: default
----
