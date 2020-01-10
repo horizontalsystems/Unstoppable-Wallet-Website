@@ -20,7 +20,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "scp -r ./build/* deploy@178.62.214.140:/var/www/unstoppable.money"
   },
   "eslintConfig": {
     "extends": "react-app"
