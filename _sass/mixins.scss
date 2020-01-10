@@ -1,0 +1,29 @@
+@import "variables";
+
+@mixin large {
+  @media screen and (min-width: #{$screen-lg}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$screen-md}) and (max-width: #{$screen-lg}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$screen-md}) {
+    @content;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

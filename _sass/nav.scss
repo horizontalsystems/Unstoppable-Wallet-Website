@@ -1,0 +1,75 @@
+@import "variables";
+@import "mixins";
+
+nav {
+  height: 48px;
+  font-size: 18px;
+  background-color: $dark;
+
+  .navbar-nav {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+
+    // hide scrollbar
+    padding: 0 0 17px;
+    box-sizing: content-box;
+
+    @include small {
+      justify-content: flex-start;
+    }
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav-link {
+      margin: 8.5px 20px;
+      color: $grey;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .with-dropdown {
+    z-index: 1;
+
+    .nav-dropdown {
+      display: none;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .nav-dropdown.active {
+      display: block;
+    }
+
+    .nav-dropdown-item {
+      border-bottom: 1px solid $grey-lighter;
+      background: $grey-lighter;
+      padding: 5px 13px;
+    }
+  }
+
+}
+
+.navbar {
+  padding-top: 30px;
+  display: flex;
+  font-size: 14px;
+  justify-content: flex-end;
+
+  @include small {
+    justify-content: center;
+  }
+
+  .navbar-item {
+    padding: 0 20px;
+  }
+}

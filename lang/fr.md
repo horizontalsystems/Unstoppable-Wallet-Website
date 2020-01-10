@@ -1,0 +1,4 @@
+---
+lang: fr
+layout: default
+---

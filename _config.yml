@@ -1,0 +1,88 @@
+languages: [en, ru, fr, de, tr, ko, zh]
+langNames:
+  en: English
+  ru: Русский
+  fr: Français
+  de: Deutsch
+  tr: Türkçe
+  ko: 한국어
+  zh: 中文
+
+lang:
+  en:
+    # header
+    title: UNSTOPPABLE WALLET
+    slogan: Be Free. Be Unstoppable.
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+  ru:
+    title: BANK - Биткоин Кошелек
+    slogan: Контролируй свои деньги!
+    # slider
+    balance: Просто в использовании
+    balance_desc: Балансы каждой валюты под рукой. Отправить деньги в два клика. Легкий обмен адресами
+    transactions: Список Транзакций
+    transactions_desc: История транзакций в одном списке. Быстрый просмотр полной информации с настраиваемых ресурсов
+    settings: Персонализация
+    settings_desc: Настройте внешний вид приложения для себя, выберите ресурсы данных, язык, светлый или темный режим
+  fr:
+    # header
+    title:  BANK - Portefeuille Bitcoin
+    slogan: Contrôler votre argent!
+    # slider
+    balance: Facile à utiliser
+    balance_desc: Chaque solde de devise est à portée de main. Envoyez de l'argent en deux clics. Partage facile d'adresses
+    transactions: L’histoire des transactions
+    transactions_desc: L’histoire des transactions dans une liste. Aperçu rapide des informations complètes de ressources personnalisables
+    settings: Personnalisation
+    settings_desc: Arrangez l'apparence de l'application vous-même, configurez les ressources de données, sélectionnez la langue, le mode clair ou sombre
+  de:
+    # header
+    title: BANK - Bitcoin Wallet
+    slogan: Kontrolliere dein Geld!
+    # slider
+    balance: Einfach zu verwenden
+    balance_desc: Alle Währungen sind verfügbar. Senden Sie Geld mit zwei Klicks. Einfache Adressfreigabe
+    transactions: Transactionsverlauf
+    transactions_desc: Transaktionsverlauf in einer Liste. Schnellansicht der vollständigen Informationen aus anpassbaren Ressourcen
+    settings: Personalizierung
+    settings_desc: Legen Sie das Erscheinungsbild der Anwendung selbst fest, konfigurieren Sie Datenressourcen, wählen Sie die Sprache sowie den Hell- oder Dunkelmodus aus
+
+  tr:
+    # header
+    title: BANK - Bitcoin Cüzdanı!
+    slogan: Paranızı Kontrol Edin!
+    # slider
+    balance: Kullanımı kolay
+    balance_desc: Her kur avcunuzun içinde. 2 dokunuşla para gönderin. Kolay adres paylaşımı
+    transactions: İşlem geçmişi
+    transactions_desc: Geçmiş işlemlerinizle ilgili bilgileri farklı kaynakardan çabucak görün.
+    settings: Kişileştirme
+    settings_desc: Uygulamanın görünümünü, bilgi kaynaklarını, dilini isteğinize göre değiştirin.
+  ko:
+    # header
+    title: BANK - 비트 동전 지갑
+    slogan: 당신의 돈을 지켜라!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode
+  zh:
+    # header
+    title: BANK - 比特币钱包
+    slogan: 掌控自己的钱财!
+    # slider
+    balance: Easy to use
+    balance_desc: Every currencies balances is at hand. Send money in two clicks. Easy adress sharing
+    transactions: Transactions History
+    transactions_desc: Transaction history in one list. Quick view of full information from customizable resources
+    settings: Personalization
+    settings_desc: Set the appearance of the application for yourself, configure data resources, select the language, light or dark mode

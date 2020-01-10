@@ -1,0 +1,4 @@
+---
+lang: ru
+layout: default
+---
