@@ -6,7 +6,7 @@ import './Wallet.scss'
 
 function Wallet() {
   return (
-    <YellowOffice>
+    <YellowOffice className="Wallet-background">
       <Container>
         <div className="Wallet">
           <div className="wallet-wrap">

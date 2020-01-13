@@ -1,5 +1,10 @@
 @import "../../scss/utils";
 
+.Wallet-background {
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
 .Wallet {
 
   @include sm {

@@ -1,8 +1,8 @@
 @import "../../scss/utils";
 
 .Banner {
-  margin-top: 40px;
-  margin-bottom: 120px;
+  margin-top: 120px;
+  margin-bottom: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,10 +10,6 @@
   @include sm {
     flex-direction: column-reverse;
     align-items: normal;
-
-    .banner-info {
-      margin-top: 40px;
-    }
   }
 
   @include md {
@@ -27,6 +23,10 @@
 
 .banner-info {
   width: 45%;
+
+  @include sm {
+    width: 100%;
+  }
 }
 
 .banner-image {
@@ -43,6 +43,10 @@
 
   @include md {
     font-size: 35px;
+  }
+
+  @include lg {
+    font-size: 54px;
   }
 }
 

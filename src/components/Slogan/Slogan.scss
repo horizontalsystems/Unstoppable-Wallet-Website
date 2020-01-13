@@ -3,11 +3,13 @@
 .Slogan-background {
   background: #FEC300 url("/images/bg-small.png") no-repeat center;
   position: relative;
-  margin-top: 12%;
-  margin-bottom: 5%;
+  margin-top: 120px + 90px;
+  margin-bottom: 120px;
 
   @include sm {
     height: 140px;
+    margin-top: 90px;
+    margin-bottom: 60px;
   }
 
   @include md {
@@ -25,7 +27,8 @@
   width: 100%;
 
   @include sm {
-    width: 80%;
+    //width: 80%;
+    position: relative;
   }
 }
 
@@ -33,16 +36,13 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-
-  @include sm {
-    justify-content: normal;
-  }
 }
 
 .slogan-girl {
   width: 144px;
 
   @include sm {
+    display: none;
     width: 100px;
   }
 
@@ -60,7 +60,7 @@
 
   @include sm {
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 30px;
   }
 }
 
@@ -91,8 +91,6 @@
   }
 
   @include sm {
-    flex-direction: column;
-    flex-wrap: wrap;
     padding-top: 10px;
 
     a {
@@ -101,7 +99,7 @@
     }
 
     img {
-      width: 60px;
+      width: 80px;
     }
   }
 }

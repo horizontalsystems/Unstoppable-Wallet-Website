@@ -3,14 +3,20 @@
 .Highlights {
   color: white;
   display: flex;
-  padding-bottom: 60px;
+  padding: 60px 0;
+  margin: 0 -10px;
   justify-content: center;
 
   .highlight {
     background: #13151A;
     border-radius: 20px;
     padding: 32px 40px 60px;
-    margin: 11px;
+    margin: 10px;
+    width: 100%;
+
+    @include sm {
+      width: auto;
+    }
   }
 
   .highlight-title {

@@ -15,8 +15,8 @@ function Highlights() {
             <div className="highlight-list">
               <ul>
                 <li><img src={star} className="list-style" alt="" /> Smart Fees</li>
-                <li><img src={star} className="list-style" alt="" /> Works on BIP 44 / 49 / 66 / 68 / 84</li>
-                <li><img src={star} className="list-style" alt="" /> Lock Time Transactions</li>
+                <li><img src={star} className="list-style" alt="" /> Works on BIP 44 / 49 / 69 / 84</li>
+                <li><img src={star} className="list-style" alt="" /> Time Locking Transactions</li>
               </ul>
             </div>
           </div>

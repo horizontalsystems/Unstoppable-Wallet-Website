@@ -2,7 +2,8 @@
 
 .currencies {
   font-size: 15px;
-  padding: 55px 0;
+  padding-top: 60px + 40px;
+  padding-bottom: 40px;
   color: $white;
   display: flex;
   align-items: center;
@@ -30,9 +31,10 @@
 
   @include sm {
     flex-direction: column;
+    padding: 60px 0;
 
     .currency-count {
-      width: 250px;
+      width: 300px;
       margin-bottom: 60px;
     }
 
@@ -42,13 +44,15 @@
   }
 
   @include md {
-
+    .currency-count {
+      width: 250px;
+    }
   }
 }
 
 .supported-coins {
   color: white;
-  margin: 80px 0;
+  margin-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
 
