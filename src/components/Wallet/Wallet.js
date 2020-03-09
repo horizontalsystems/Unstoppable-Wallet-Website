@@ -19,8 +19,7 @@ function Wallet() {
             </div>
             <div className="wallet-info">
               <div className="wallet-desc">
-                The wallet being build by gifted engineers. Engineering process radically driven by libertarian
-                principles.
+                The engineering process behind this wallet is radically driven by libertarian principles.
               </div>
               <div className="wallet-link">
                 <span>Horizontal Systems</span>
