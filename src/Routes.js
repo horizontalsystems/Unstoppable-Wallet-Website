@@ -1,12 +1,13 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Home from './components/Home/Home'
+
+import App from './components/App/App'
 
 function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" render={Home} />
+        <Route path="/" render={App} />
       </Switch>
     </BrowserRouter>
   )
