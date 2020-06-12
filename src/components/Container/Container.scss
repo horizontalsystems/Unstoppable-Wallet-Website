@@ -1,0 +1,37 @@
+@import "../../scss/utils";
+
+.Container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  position: relative;
+
+  @include sm {
+    //  max-width: 540px;
+    padding: 0 24px;
+  }
+
+  @include md {
+    //  max-width: 720px;
+    padding: 0 60px;
+  }
+
+  @include lg {
+    //  max-width: 968px;
+    padding: 0 60px;
+  }
+
+}
+
+.Container-fluid {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.Container-clipped {
+  overflow: hidden;
+}
