@@ -1,0 +1,23 @@
+@import "../../scss/utils";
+
+.List {
+  display: flex;
+  flex-wrap: wrap;
+
+  > div {
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+
+  > div:last-child {
+    margin-right: 0
+  }
+
+  @include sm {
+    flex-direction: column;
+
+    > div {
+      margin: 0 0 16px;
+    }
+  }
+}

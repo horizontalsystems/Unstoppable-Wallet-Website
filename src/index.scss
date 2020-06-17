@@ -3,18 +3,11 @@
 
 body {
   font-family: $font-family-base;
+  font-size: 62.6%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
   background: $black;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid rgba(115,121,140,0.2);
-  margin: 1em 0;
-  padding: 0;
+  color: $white;
 }

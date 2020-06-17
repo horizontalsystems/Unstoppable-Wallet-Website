@@ -1,0 +1,67 @@
+@import "../../scss/utils";
+
+.Banner {
+  display: flex;
+
+  @include sm {
+    flex-direction: column;
+    height: 100vh;
+  }
+}
+
+.Banner-start, .Banner-end {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  flex: 1;
+
+  @include sm {
+    width: 100%;
+  }
+}
+
+.Banner-img {
+  position: absolute;
+  right: 0;
+  height: 100%;
+
+  @include sm {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+.Banner-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 40px;
+  padding-bottom: 5%;
+
+  @include sm {
+    padding-left: 0;
+    padding-bottom: 16px;
+  }
+}
+
+.Banner-text {
+  font-weight: 300;
+  padding-bottom: 40px;
+  font-size: 40px;
+
+  @include sm {
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
+
+  @include xl {
+    font-size: 40px;
+  }
+
+  @include xxl {
+    font-size: 52px;
+  }
+}
+

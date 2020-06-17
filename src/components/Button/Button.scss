@@ -1,0 +1,35 @@
+@import "../../scss/utils";
+
+.Button {
+  cursor: pointer;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+
+  svg {
+    padding-right: 10px;
+  }
+
+  @include sm {
+    justify-content: center;
+  }
+}
+
+.Button-yellow {
+  background: $yellow;
+  color: $dark;
+
+  &:hover {
+    background: lighten($yellow, 2%);
+  }
+}
+
+.Button--loading {
+  display: none;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
