@@ -1,0 +1,88 @@
+@import "../../scss/utils";
+
+.Page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.Page-dark {
+  background: #0F1014;
+}
+
+.Page-black {
+  background: #000000;
+}
+
+.Page-rtl {
+  text-align: right;
+
+  @include sm {
+    text-align: left;
+  }
+}
+
+.Page-content {
+  display: flex;
+
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.Page-content--rtl {
+  flex-direction: row-reverse;
+
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.Page-start, .Page-end {
+  max-width: 50%;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  @include sm {
+    max-width: 100%;
+  }
+}
+
+.Page-start {
+  @include sm {
+    padding-top: 60px;
+  }
+}
+
+.Page-start--rtl {
+  align-items: flex-end;
+}
+
+.Page-img {
+  width: 80%;
+  object-fit: contain;
+
+  @include sm {
+    width: 100%;
+  }
+}
+
+.Page-text {
+  font-weight: 300;
+  font-size: 28px;
+
+  @include sm {
+    margin: 50px 0;
+  }
+
+  @include md {
+    font-size: 40px;
+  }
+
+  @include xxl {
+    font-size: 52px;
+  }
+}

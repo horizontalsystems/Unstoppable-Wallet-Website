@@ -1,0 +1,68 @@
+@import "../../scss/utils";
+
+.Features {
+  display: flex;
+
+  @include sm {
+    flex-direction: column;
+
+    > div {
+      margin: 0 0 40px;
+    }
+  }
+}
+
+.Feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.Feature-rtl {
+  align-items: flex-end;
+
+  @include sm {
+    align-items: flex-start;
+  }
+}
+
+.Feature-icon {
+  padding-bottom: 20px;
+
+  @include lg {
+    padding-bottom: 40px;
+  }
+
+  @include xxl {
+    padding-bottom: 64px;
+  }
+}
+
+.Feature-title {
+  font-size: 24px;
+  color: white;
+  padding-bottom: 22px;
+
+  @include md {
+    font-size: 18px;
+    padding-bottom: 24px;
+  }
+
+  @include xxl {
+    font-size: 24px;
+    padding-bottom: 30px;
+  }
+}
+
+.Feature-info {
+  font-size: 16px;
+  color: #C4C4C4;
+  width: 90%;
+
+  @include md {
+    font-size: 14px;
+  }
+
+  @include xxl {
+    font-size: 18px;
+  }
+}

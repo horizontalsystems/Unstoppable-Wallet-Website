@@ -10,11 +10,10 @@
 }
 
 .Banner-start, .Banner-end {
-  border: 1px solid #fff;
-  box-sizing: border-box;
   width: 50%;
   height: 100vh;
   position: relative;
+  box-sizing: border-box;
   flex: 1;
 
   @include sm {
