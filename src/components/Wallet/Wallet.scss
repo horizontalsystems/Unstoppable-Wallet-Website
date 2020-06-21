@@ -1,0 +1,145 @@
+@import "../../scss/utils";
+
+.Wallet {
+}
+
+.Section-head {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  @include sm {
+    flex-direction: column;
+  }
+
+  @include md {
+    padding-top: 180px;
+    padding-bottom: 70px;
+  }
+
+  @include xxl {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+}
+
+.Section-head-reverse {
+  @include sm {
+    flex-direction: column-reverse;
+  }
+}
+
+.Section-icon,
+.Section-text {
+  display: flex;
+  min-width: 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+  position: relative;
+
+  @include sm {
+    max-width: 100%;
+  }
+}
+
+.Section-icon {
+  align-items: center;
+  justify-content: flex-end;
+
+  @include sm {
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+}
+
+.Section-icon-start {
+  justify-content: flex-start;
+}
+
+.Section-text {
+  font-size: 28px;
+  color: #FFFFFF;
+
+  @include md {
+    font-size: 40px;
+    padding-left: 70px;
+  }
+
+  @include xxl {
+    font-size: 52px;
+    padding-left: 100px;
+  }
+}
+
+.Section-text-right {
+  text-align: right;
+
+  @include sm {
+    text-align: left;
+  }
+}
+
+.Section-image {
+  position: relative;
+  width: 100%;
+
+  @include sm {
+    height: 350px;
+    padding: 0;
+  }
+}
+
+.Section-image-big {
+  @include sm {
+    height: 545px;
+  }
+}
+
+.Wallet-screen {
+  width: 100%;
+
+  @include sm {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.Wallet-purpose {
+  padding-top: 180px;
+
+  @include sm {
+    padding-top: 80px;
+  }
+}
+
+.Wallet-download {
+  background: #0F1014;
+  width: 100%;
+  margin: 60px 0 34px;
+
+  @include md {
+    margin: 120px 0 100px;
+    height: 337px;
+  }
+
+  @include xxl {
+    margin: 155px 0 100px;
+    height: 440px;
+  }
+}
+
+.Section-download {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.Section-Download-text {
+  align-items: center;
+}

@@ -11,6 +11,7 @@ import { ReactComponent as Guide } from './guide.svg'
 import { ReactComponent as Decentralized } from './decentralized.svg'
 import { ReactComponent as NonCostodial } from './non-costodial.svg'
 import { ReactComponent as OpenSource } from './open-source.svg'
+import { ReactComponent as Rect } from './rect.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -40,6 +41,10 @@ const iconComponent = name => {
       return <NonCostodial />
     case 'open-source':
       return <OpenSource />
+
+    //  Wallet
+    case 'rect':
+      return <Rect />
 
     default:
       return null

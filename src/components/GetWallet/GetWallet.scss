@@ -1,0 +1,60 @@
+@import "../../scss/utils";
+
+.GetWallet {
+  display: flex;
+  height: 100%;
+
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.GetWallet-start, .GetWallet-end {
+  width: 50%;
+  position: relative;
+  box-sizing: border-box;
+  flex: 1;
+
+  @include sm {
+    width: 100%;
+  }
+}
+
+.GetWallet-img {
+  height: 169px;
+
+  @include md {
+    height: 273px;
+  }
+
+  @include xxl {
+    height: 369px;
+  }
+}
+
+.GetWallet-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.GetWallet-text {
+  font-weight: 300;
+  padding-bottom: 40px;
+  font-size: 40px;
+
+  @include sm {
+    padding-top: 46px;
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
+
+  @include xl {
+    font-size: 40px;
+  }
+
+  @include xxl {
+    font-size: 52px;
+  }
+}
+

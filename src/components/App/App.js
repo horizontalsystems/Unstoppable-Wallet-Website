@@ -3,6 +3,7 @@ import React from 'react'
 import Home from '../Home'
 import Page from '../Page'
 import Feature from '../Feature'
+import Wallet from '../Wallet'
 
 import './App.scss'
 
@@ -56,6 +57,9 @@ function App() {
             info="Contrary to popular belief, Lorem Ipsum is not simply random text."
             rtl />
         </Page>
+      </div>
+      <div id="page-5" className="Page-black">
+        <Wallet />
       </div>
     </div>
   )

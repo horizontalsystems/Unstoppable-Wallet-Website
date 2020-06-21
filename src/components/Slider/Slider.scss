@@ -1,0 +1,78 @@
+@import "../../scss/utils";
+
+.Slider {
+  margin: 50px -12px;
+}
+
+.slick-arrow {
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+.slick-right {
+  right: -25px;
+}
+
+.slick-left {
+  left: -25px;
+}
+
+@include sm {
+  .slick-left,
+  .slick-right {
+    display: none;
+  }
+}
+
+.slick-dots {
+  bottom: -40px;
+}
+
+.Dot {
+  height: 8px;
+  width: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color .6s ease;
+}
+
+.Dot-light {
+  background-color: #C8C7CC;
+}
+
+.Dot-dark,
+.Dot-green {
+  background-color: white;
+}
+
+.slick-active > {
+  .Dot-light,
+  .Dot-dark {
+    background-color: #05c46b;
+  }
+
+  .Dot-green {
+    background-color: $dark;
+  }
+}
+
+//  Keeps divs the same height
+.slick-list,
+.slick-track {
+  display: flex;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+}
+
+.slick-slide > div {
+  display: flex;
+  width: 100%;
+}
