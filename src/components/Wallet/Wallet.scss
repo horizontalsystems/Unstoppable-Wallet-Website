@@ -117,15 +117,15 @@
 .Wallet-download {
   background: #0F1014;
   width: 100%;
-  margin: 60px 0 34px;
+  margin-top: 60px;
 
   @include md {
-    margin: 120px 0 100px;
+    margin-top: 120px;
     height: 337px;
   }
 
   @include xxl {
-    margin: 155px 0 100px;
+    margin-top: 155px;
     height: 440px;
   }
 }

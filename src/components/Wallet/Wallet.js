@@ -65,14 +65,6 @@ function Wallet() {
       </Container>
       <div className="Wallet-download">
         <GetWallet  />
-          {/*<div className="Section-download">*/}
-          {/*  <div className="Section-icon Section-icon-start">*/}
-          {/*    <U />*/}
-          {/*  </div>*/}
-          {/*  <div className="Section-text Section-Download-text">*/}
-          {/*    Get the Unstoppable Wallet app now!*/}
-          {/*  </div>*/}
-          {/*</div>*/}
       </div>
     </div>
   )

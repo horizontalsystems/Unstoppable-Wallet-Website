@@ -1,0 +1,179 @@
+@import "../../scss/utils";
+
+.Contact-form {
+  min-width: 700px;
+
+  @include sm {
+    min-width: auto;
+  }
+}
+
+.Contact-form-group {
+  display: flex;
+  justify-content: space-between;
+
+  input, textarea, .btn {
+    margin: 16px 10px;
+  }
+
+  @include sm {
+    display: block;
+  }
+}
+
+.Contact-success {
+  display: none;
+  text-align: center;
+
+  h4 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
+
+input, textarea, .btn {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+
+  @include sm {
+    margin: 16px 0;
+  }
+}
+
+input, textarea {
+  border: 1px solid #353842;
+  padding: 15px 24px;
+  background: black;
+  width: 100%;
+  color: $grey;
+  outline: none;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: $white;
+  text-decoration: none;
+
+  &.loading {
+    display: none;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  @include sm {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.btn-green {
+  background: $green;
+  color: white;
+
+  &:hover {
+    background: lighten($green, 2%);
+  }
+}
+
+.btn-dark {
+  background: $black;
+  color: white;
+
+  &:hover {
+    background: lighten($dark-steal, 2%);
+  }
+}
+
+.btn-grey {
+  background: $grey;
+  color: white;
+
+  &:hover {
+    background: lighten($grey, 2%);
+  }
+}
+
+.Subscribe-checkbox-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0 6px;
+
+  .Contact-checkbox {
+    width: 20px;
+  }
+
+  .Contact-checkbox-description {
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    color: $grey;
+
+    @include sm {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  a {
+    color: $grey;
+  }
+
+  @include sm {
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+  }
+}
+
+// Join form modal
+
+.Contact-modal {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+
+  background: linear-gradient(180deg, rgba(30, 33, 41, 0.9) 0%, rgba(15, 16, 20, 0.9) 100%);
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 40px;
+
+  clip-path: polygon(
+          0 41%, 1px 40.3%, 2.5px 39.8%, 3.4px 39.6%,
+          28% 5px, 28.5% 2.5px, 29% 1px, 29.5% 0.5px, 30% 0,
+          100% 0,
+          100% 57%, 99.8% 58.1%, 99.4% 59.2%, 99% 59.8%,
+          71% 99%, 70.4% 99.5%, 70% 99.7%, 69% 100%,
+          0 100%
+  );
+
+  @include sm {
+    width: 100%;
+    clip-path: none;
+    border-radius: 0;
+  }
+
+  @include md {
+    width: 90%;
+
+    .Contact-form {
+      width: 70%;
+    }
+  }
+
+  @include xxl {
+    width: 70%;
+  }
+}

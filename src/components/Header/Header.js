@@ -9,6 +9,9 @@ import './Header.scss'
 
 class Header extends React.Component {
   dropdown = false
+  static defaultProps = {
+    navigate: true
+  }
 
   onToggleMenu = () => {
     const close = this.menuClose
@@ -29,8 +32,12 @@ class Header extends React.Component {
   }
 
   onClickMenu = () => {
-    this.dropdownNav.style.display = 'none'
     this.onToggleMenu()
+    this.dropdownNav.style.display = 'none'
+
+    if (!this.props.navigate) {
+      window.location.href = '/'
+    }
   }
 
   render() {
@@ -38,7 +45,7 @@ class Header extends React.Component {
       <div className="nav">
         <div className="nav-item" onClick={this.onClickMenu}>Support</div>
         <div className="nav-item" onClick={this.onClickMenu}>About</div>
-        <div className="nav-item" onClick={this.onClickMenu}>Github</div>
+        <a className="nav-item" href="https://github.com/horizontalsystems">Github</a>
       </div>
     )
 

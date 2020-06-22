@@ -4,6 +4,7 @@ import Home from '../Home'
 import Page from '../Page'
 import Feature from '../Feature'
 import Wallet from '../Wallet'
+import Footer from '../Footer/Footer'
 
 import './App.scss'
 
@@ -60,6 +61,9 @@ function App() {
       </div>
       <div id="page-5" className="Page-black">
         <Wallet />
+      </div>
+      <div id="page-6" className="Page-black">
+        <Footer />
       </div>
     </div>
   )
