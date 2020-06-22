@@ -43,8 +43,7 @@ class Header extends React.Component {
   render() {
     const navigation = (
       <div className="nav">
-        <div className="nav-item" onClick={this.onClickMenu}>Support</div>
-        <div className="nav-item" onClick={this.onClickMenu}>About</div>
+        <div className="nav-item" onClick={this.onClickMenu}>Contact</div>
         <a className="nav-item" href="https://github.com/horizontalsystems">Github</a>
       </div>
     )
@@ -54,7 +53,7 @@ class Header extends React.Component {
         <Container>
           <div className="navbar">
             <Link to="/">
-              <img className="Header-logo" src={HeaderLogo} alt="Unstoppable Wallet" />
+              <img className="Header-logo" src={HeaderLogo} alt="Unstoppable Cryptocurrency Wallet" />
             </Link>
 
             {navigation}
