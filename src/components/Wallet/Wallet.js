@@ -17,7 +17,7 @@ function Wallet() {
             <Icon name="rect" />
           </div>
           <div className="Section-text">
-            The most widely used <br /> cryptocurrencies
+            One wallet for all <br /> major cryptocurrencies
           </div>
         </div>
       </Container>
@@ -34,16 +34,16 @@ function Wallet() {
           <Slider slidesToScroll={3} slidesToShow={3}>
             <Card
               number="1"
-              title="For Who This wallet?"
-              info="Lorem Ipsum available, but the majority have suffered alteration There are many variations of passages of Lorem Ipsum available, There are many variations of passages of Lorem Ipsum available, but the majority" />
+              title="Who Is It For?"
+              info="The Unstoppable wallet is built for those looking to invest in cryptocurrencies and blockchain based projects on ongoing basis in a private manner." />
             <Card
               number="2"
-              title="Why you account can’t be blocked?"
-              info="Lorem Ipsum available, but the majority have suffered alteration There are many variations of passages of Lorem Ipsum available, There are many variations of passages of Lorem Ipsum available, but the majority" />
+              title="Is It Safe?"
+              info="Unstoppable is a non-custodial wallet which gives user exclusive control over crypto. The wallet funds are in user's control and can be moved to another wallet on demand." />
             <Card
               number="3"
-              title="Why you money can’t be stolen?"
-              info="Lorem Ipsum available, but the majority have suffered alteration There are many variations of passages of Lorem Ipsum available, There are many variations of passages of Lorem Ipsum available, but the majority" />
+              title="Is It Private?"
+              info="The wallet app doesn't collect any data. It communicates with cryptocurrency blockchains directly and whenever possible tries to keep your activity private." />
           </Slider>
         </div>
         <div className="Section-head Section-head-reverse">
