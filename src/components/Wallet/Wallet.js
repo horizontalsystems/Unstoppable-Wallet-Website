@@ -48,7 +48,7 @@ function Wallet() {
         </div>
         <div className="Section-head Section-head-reverse">
           <div className="Section-text Section-text-right">
-            The wallet has a simple <br /> design and is easy to use
+            Intuitive on surface and <br /> powerful under the hood
           </div>
           <div className="Section-icon Section-icon-start">
             <Icon name="rect" />
