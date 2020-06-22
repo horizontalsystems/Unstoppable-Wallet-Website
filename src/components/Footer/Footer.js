@@ -15,12 +15,10 @@ class Footer extends React.Component {
         <Container>
           <div className="Footer-top">
             <div className="Footer-nav">
-              <div className="Footer-nav-item" onClick={() => {}}>Home</div>
-              <div className="Footer-nav-item" onClick={() => {}}>Support</div>
-              <div className="Footer-nav-item" onClick={() => {}}>About us</div>
-              <a className="Footer-nav-item" href="https://github.com/horizontalsystems">Github</a>
-              <div className="Footer-nav-item" onClick={() => {}}>Unstoppable Academy</div>
-              <div className="Footer-nav-item" onClick={() => {}}>Contact</div>
+              <div className="Footer-nav-item" onClick={() => {}}>Email: hsdao@protonmail.ch</div>
+              <div className="Footer-nav-item" onClick={() => {}}>Telegram: t.me/UnstoppableWallet</div>
+
+
             </div>
             <div className="Footer-subscribe">
               <SubscribeForm formCode="m3g0e6" formId="1561498" />
@@ -33,7 +31,7 @@ class Footer extends React.Component {
           <hr className="Divider" />
 
           <div className="Footer-bottom">
-            <Link to="/">
+            <Link to="https://horizontalsystems.io/">
               <img
                 className="Logo"
                 alt="Horizontal Systems"
