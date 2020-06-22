@@ -24,9 +24,15 @@ function Banner() {
           </div>
           <div className="Banner-action">
             <List>
-              <Button text="Google Play" icon="google-play" yellow />
-              <Button text="App Store" icon="app-store" yellow />
-              <Button text="Download APK file" icon="download" />
+              <Button
+                text="Google Play" icon="google-play"
+                link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8" yellow />
+              <Button
+                text="App Store" icon="app-store"
+                link="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet" yellow />
+              <Button
+                text="Download APK file" icon="download"
+                link="https://github.com/horizontalsystems/bank-wallet-android/releases" />
             </List>
           </div>
         </div>
