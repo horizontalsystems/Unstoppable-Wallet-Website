@@ -12,6 +12,9 @@ import { ReactComponent as Decentralized } from './decentralized.svg'
 import { ReactComponent as NonCostodial } from './non-costodial.svg'
 import { ReactComponent as OpenSource } from './open-source.svg'
 import { ReactComponent as Rect } from './rect.svg'
+import { ReactComponent as Anonym } from './anonym.svg'
+import { ReactComponent as Tor } from './tor.svg'
+import { ReactComponent as Sort } from './sort.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -41,6 +44,12 @@ const iconComponent = name => {
       return <NonCostodial />
     case 'open-source':
       return <OpenSource />
+    case 'anonym':
+      return <Anonym />
+    case 'tor':
+      return <Tor />
+    case 'sort':
+      return <Sort />
 
     //  Wallet
     case 'rect':
