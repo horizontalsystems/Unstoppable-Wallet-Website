@@ -50,7 +50,7 @@ function App() {
             info="No accounts, emails, phone numbers or any other data collected."
             rtl />
           <Feature
-            icon="tor" title="TOR"
+            icon="tor" title="TOR network"
             info="Anonymize internet and location while browsing the wallet app."
             rtl />
           <Feature
