@@ -15,47 +15,47 @@ function App() {
         <Home />
       </div>
       <div id="page-2" className="Page-dark">
-        <Page img="knowledge" text="Become informed and discover promising cryptocurrencies at early stages" rtl dark>
+        <Page img="knowledge" text="Become informed and discover promising cryptocurrencies" rtl dark>
           <Feature
-            icon="globe" title="Learn"
-            info="Understand the ins and outs of storing and using cryptocurrency safely."
+            icon="guide" title="Academy"
+            info="Guides covering cryptocurrency essentials and individual coin reviews."
             rtl />
           <Feature
-            icon="guide" title="Discover"
-            info="Learn about rising cryptocurrencies and projects in simple terms."
+            icon="globe" title="Monitoring"
+            info="Crypto news and live rankings such as top 100, top winners etc."
             rtl />
           <Feature
-            icon="graphic" title="Monitor"
-            info="Get insights on when is a good to buy, hold or sell different assets."
+            icon="graphic" title="Indicators"
+            info="Customizable alerts for asset price changes and price trend reversals."
             rtl />
         </Page>
       </div>
       <div id="page-3" className="Page-black">
-        <Page img="independence" text="Keep crypto assets safe, unconfiscatable and accessible at all times">
+        <Page img="independence" text="Keep assets safe, unconfiscatable and accessible">
           <Feature
-            icon="non-costodial" title="Control"
-            info="Exercise full and exclusive control over your cryptocurrencies." />
+            icon="non-costodial" title="Non-Custodial"
+            info="Full control over cryptocurrencies. The wallet is open source and can't cheat." />
           <Feature
-            icon="open-source" title="Access"
-            info="Transact from anywhere at anytime without relying on any servers." />
+            icon="open-source" title="Decentralized"
+            info="The wallet app doesn't depend on a centrally-managed server to function." />
           <Feature
-            icon="decentralized" title="Migrate"
-            info="Access your assets from any standard compliant crypto wallet." />
+            icon="decentralized" title="Standard"
+            info="Migrate wallets created in Unstoppable to external wallets and vice versa." />
         </Page>
       </div>
       <div id="page-4" className="Page-dark">
-        <Page img="incognito" text="Stay incognito and out of radar while growing your wealth" rtl>
+        <Page img="incognito" text="Stay incognito while growing your wealth" rtl>
           <Feature
-            icon="anonym" title="Dataless"
+            icon="anonym" title="No Accounts"
             info="No accounts, emails, phone numbers or any other data collected."
             rtl />
           <Feature
-            icon="tor" title="Anonymous"
+            icon="tor" title="TOR"
             info="Anonymize internet and location while browsing the wallet app."
             rtl />
           <Feature
-            icon="sort" title="Hidden"
-            info="Make cryptocurrency transactions harder to trace and link."
+            icon="sort" title="Randomizer"
+            info="Enhanced privacy features to make transactions harder to trace"
             rtl />
         </Page>
       </div>
