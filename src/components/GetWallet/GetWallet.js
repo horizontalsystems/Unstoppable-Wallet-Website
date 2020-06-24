@@ -16,7 +16,7 @@ function GetWallet() {
         </div>
         <div className="GetWallet-end">
           <div className="GetWallet-text">
-            Get the Unstoppable Wallet app now!
+            Download Unstoppable!
           </div>
           <div className="GetWallet-action">
             <List>

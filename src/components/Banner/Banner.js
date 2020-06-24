@@ -20,7 +20,7 @@ function Banner() {
         </div>
         <div className="Banner-end">
           <div className="Banner-text">
-            Your guide in crypto and decentralized investments
+            Your Guide To Crypto Investments
           </div>
           <div className="Banner-action">
             <List>

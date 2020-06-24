@@ -15,18 +15,18 @@ function App() {
         <Home />
       </div>
       <div id="page-2" className="Page-dark">
-        <Page img="knowledge" text="Become informed and discover promising cryptocurrencies" rtl dark>
+        <Page img="knowledge" text="Become informed and master cryptocurrencies" rtl dark>
           <Feature
             icon="guide" title="Academy"
-            info="Guides covering cryptocurrency essentials and individual coin reviews."
+            info="Access guides covering cryptocurrency essentials and coin reviews."
             rtl />
           <Feature
             icon="globe" title="Monitoring"
-            info="Crypto news and live rankings such as top 100, top winners etc."
+            info="Follow crypto news, top 100 rankings, daily top winners and more."
             rtl />
           <Feature
             icon="graphic" title="Indicators"
-            info="Customizable alerts for asset price changes and price trend reversals."
+            info="Setup alerts for asset price changes and price trend reversals."
             rtl />
         </Page>
       </div>
@@ -37,7 +37,7 @@ function App() {
             info="Full control over cryptocurrencies. The wallet is open source and can't cheat." />
           <Feature
             icon="open-source" title="Decentralized"
-            info="The wallet app doesn't depend on a centrally-managed server to function." />
+            info="The wallet app doesn't depend on a centrally-managed servers to function." />
           <Feature
             icon="decentralized" title="Standard"
             info="Migrate wallets created in Unstoppable to external wallets and vice versa." />
@@ -50,12 +50,12 @@ function App() {
             info="No accounts, emails, phone numbers or any other data collected."
             rtl />
           <Feature
-            icon="tor" title="TOR network"
-            info="Anonymize internet and location while browsing the wallet app."
+            icon="tor" title="TOR Network"
+            info="Anonymizes internet and location while browsing the wallet app."
             rtl />
           <Feature
             icon="sort" title="Randomizer"
-            info="Enhanced privacy features to make transactions harder to trace"
+            info="Enhanced privacy features to make transactions harder to trace."
             rtl />
         </Page>
       </div>

@@ -48,7 +48,7 @@ function Wallet() {
         </div>
         <div className="Section-head Section-head-reverse">
           <div className="Section-text Section-text-right">
-            Intuitive on surface and <br /> powerful under the hood
+            Intuitive and powerful
           </div>
           <div className="Section-icon Section-icon-start">
             <Icon name="rect" />
