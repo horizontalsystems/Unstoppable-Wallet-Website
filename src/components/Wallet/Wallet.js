@@ -39,11 +39,11 @@ function Wallet() {
             <Card
               number="2"
               title="Is It Safe?"
-              info="Unstoppable is a non-custodial wallet which gives user exclusive control over crypto. The wallet funds are in user's control and can be moved to another wallet on demand." />
+              info="It's a non-custodial wallet where only user has control over funds. It doesn't collect any data. It keeps user independent by not locking wallet to a specific wallet app." />
             <Card
               number="3"
-              title="Is It Private?"
-              info="The wallet app doesn't collect any data. It communicates with cryptocurrency blockchains directly and whenever possible tries to keep your activity private." />
+              title="Why Built it?"
+              info="We built it for ourselves as the available solutions were not up to par. If you believe in crypto and planning to invest you will enjoy this wallet. It's years ahead!" />
           </Slider>
         </div>
         <div className="Section-head Section-head-reverse">
