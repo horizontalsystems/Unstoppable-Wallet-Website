@@ -55,14 +55,17 @@
 
 .Feature-info {
   font-size: 16px;
-  color: #C4C4C4;
+  line-height: 22px;
+  color: $grey;
   width: 90%;
 
   @include md {
     font-size: 14px;
+    line-height: 19px;
   }
 
   @include xxl {
     font-size: 18px;
+    line-height: 25px;
   }
 }

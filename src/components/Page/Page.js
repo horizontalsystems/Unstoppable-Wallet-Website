@@ -6,7 +6,6 @@ import Container from '../Container'
 import './Page.scss'
 
 function Page({ img, text, children, rtl }) {
-
   return (
     <Container>
       <div className={cn('Page', { 'Page-rtl': rtl })}>
@@ -14,8 +13,7 @@ function Page({ img, text, children, rtl }) {
           <div className={cn('Page-start', { 'Page-start--rtl': rtl })}>
             <img
               className="Page-img"
-              src={`/images/pages/${img}.png`}
-              srcSet={`/images/pages/${img}@2x.png 2x, /images/pages/${img}@3x.png 3x`}
+              src={`/images/pages/${img}.jpg`}
               alt={text}
             />
           </div>

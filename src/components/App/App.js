@@ -36,10 +36,10 @@ function App() {
             icon="non-costodial" title="Non-Custodial"
             info="Full control over cryptocurrencies. The wallet is open source and can't cheat." />
           <Feature
-            icon="open-source" title="Decentralized"
+            icon="decentralized" title="Decentralized"
             info="The wallet app doesn't depend on a centrally-managed servers to function." />
           <Feature
-            icon="decentralized" title="Standard"
+            icon="open-source" title="Standard"
             info="Migrate wallets created in Unstoppable to external wallets and vice versa." />
         </Page>
       </div>

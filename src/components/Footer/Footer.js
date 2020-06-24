@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import Icon from '../Icon/Icon'
 import Container from '../Container/Container'
 import SubscribeForm from '../Contact/SubscribeForm'
+import { ReactComponent as Logo } from './HSlogo.svg'
 
 import './Footer.scss'
 
@@ -15,10 +15,11 @@ class Footer extends React.Component {
         <Container>
           <div className="Footer-top">
             <div className="Footer-nav">
-              <div className="Footer-nav-item" onClick={() => {}}>Email: hsdao@protonmail.ch</div>
-              <div className="Footer-nav-item" onClick={() => {}}>Telegram: t.me/UnstoppableWallet</div>
-
-
+              <a className="Footer-nav-item" href="/">Home</a>
+              <a className="Footer-nav-item" href="https://t.me/unstoppable_development">Support</a>
+              <a className="Footer-nav-item" href="https://horizontalsystems.io">About us</a>
+              <a className="Footer-nav-item" href="https://github.com/horizontalsystems">Github</a>
+              <a className="Footer-nav-item" href="/">Unstoppable Academy</a>
             </div>
             <div className="Footer-subscribe">
               <SubscribeForm formCode="m3g0e6" formId="1561498" />
@@ -31,20 +32,15 @@ class Footer extends React.Component {
           <hr className="Divider" />
 
           <div className="Footer-bottom">
-            <Link to="https://horizontalsystems.io/">
-              <img
-                className="Logo"
-                alt="Horizontal Systems"
-                src="/images/logo-hs.png"
-                srcSet="/images/logo-hs@2x.png 2x, /images/logo-hs@3x.png 3x"
-              />
+            <a href="https://horizontalsystems.io">
+              <Logo className="Logo" />
 
               <div className="Logo-icon">
                 <Icon name="logo" fill="#05C46B" viewBox="0 0 40 40" size="40" />
               </div>
-            </Link>
+            </a>
 
-            <a href="mailto:hsdao@protonmail.ch">hsdao@protonmail.ch</a>
+            <span>@ 2019 HorizontalSystems</span>
           </div>
         </Container>
       </header>

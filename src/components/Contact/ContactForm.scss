@@ -117,7 +117,7 @@ input, textarea {
     padding-left: 5px;
     font-size: 14px;
     line-height: 18px;
-    color: $grey;
+    color: $dark-steal;
 
     @include sm {
       font-size: 14px;
@@ -126,7 +126,7 @@ input, textarea {
   }
 
   a {
-    color: $grey;
+    color: $dark-steal;
   }
 
   @include sm {

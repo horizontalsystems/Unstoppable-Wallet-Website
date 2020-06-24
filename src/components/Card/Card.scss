@@ -1,7 +1,7 @@
 @import "../../scss/utils";
 
 .Card {
-  padding: 30px;
+  padding: 30px 30px 100px;
   display: flex;
   border-radius: 20px;
   flex-direction: column;
@@ -46,16 +46,18 @@
 .Card-info {
   font-style: normal;
   font-weight: normal;
-  line-height: 23px;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 19px;
   z-index: 1;
 
   @include md {
     font-size: 18px;
+    line-height: 25px;
   }
 
   @include xxl {
     font-size: 24px;
+    line-height: 33px;
   }
 }
 

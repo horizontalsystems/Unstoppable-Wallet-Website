@@ -22,7 +22,7 @@ class SubscribeForm extends React.Component {
 
           <div className="Contact-form-group">
             <input type="email" className="form-control" name="fields[email]" placeholder="Email" required />
-            <button type="submit" className="btn btn-grey">Subscribe</button>
+            <button type="submit" className="btn primary btn-grey">Subscribe</button>
             <button type="button" className="btn loading" disabled="disabled">Subscribe</button>
           </div>
           <label className="Subscribe-checkbox-wrap">

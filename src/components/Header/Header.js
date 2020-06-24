@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Container from '../Container'
 import HeaderLogo from './HeaderLogo.svg'
 import Icon from '../Icon'
+import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 import './Header.scss'
 
@@ -43,7 +44,8 @@ class Header extends React.Component {
   render() {
     const navigation = (
       <div className="nav">
-        <div className="nav-item" onClick={this.onClickMenu}>Contact</div>
+        <a className="nav-item" href="https://t.me/unstoppable_development" onClick={this.onClickMenu}>Support</a>
+        <a className="nav-item" href="https://github.com/horizontalsystems">About us</a>
         <a className="nav-item" href="https://github.com/horizontalsystems">Github</a>
       </div>
     )
@@ -70,6 +72,9 @@ class Header extends React.Component {
         </Container>
         <div className="navbar-dropdown" ref={r => this.dropdownNav = r}>
           {navigation}
+          <div className="nav-logo">
+            <Logo className="Logo" />
+          </div>
         </div>
       </header>
     )

@@ -14,7 +14,6 @@ function Banner() {
           <img
             className="Banner-img"
             src="/images/banner/coins.png"
-            srcSet="/images/banner/coins@2x.png 2x, /images/banner/coins@3x.png 3x"
             alt=""
           />
         </div>

@@ -81,3 +81,13 @@
     display: block;
   }
 }
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 30%;
+
+  path {
+    fill:$dark-steal;
+  }
+}
