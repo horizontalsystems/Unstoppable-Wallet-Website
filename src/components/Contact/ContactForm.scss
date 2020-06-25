@@ -109,6 +109,10 @@ input, textarea {
   align-items: center;
   margin: 0 6px;
 
+  &:hover {
+    color: $grey;
+  }
+
   .Contact-checkbox {
     width: 20px;
   }
@@ -117,16 +121,20 @@ input, textarea {
     padding-left: 5px;
     font-size: 14px;
     line-height: 18px;
-    color: $dark-steal;
+    color: #3D3D42;
 
     @include sm {
       font-size: 14px;
       line-height: 18px;
     }
+
+    &:hover, &:hover > a  {
+      color: $grey;
+    }
   }
 
   a {
-    color: $dark-steal;
+    color: #3D3D42;
   }
 
   @include sm {

@@ -45,7 +45,7 @@ class Header extends React.Component {
     const navigation = (
       <div className="nav">
         <a className="nav-item" href="https://t.me/unstoppable_development" onClick={this.onClickMenu}>Support</a>
-        <a className="nav-item" href="https://github.com/horizontalsystems">About us</a>
+        <a className="nav-item" href="https://horizontalsystems.io/">About us</a>
         <a className="nav-item" href="https://github.com/horizontalsystems">Github</a>
       </div>
     )
