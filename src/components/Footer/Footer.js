@@ -16,10 +16,11 @@ class Footer extends React.Component {
           <div className="Footer-top">
             <div className="Footer-nav">
               <a className="Footer-nav-item" href="/">Home</a>
-              <a className="Footer-nav-item" href="https://t.me/unstoppable_development">Support</a>
-              <a className="Footer-nav-item" href="https://horizontalsystems.io">About us</a>
-              <a className="Footer-nav-item" href="https://github.com/horizontalsystems">Github</a>
-              <a className="Footer-nav-item" href="/">Unstoppable Academy</a>
+              <a className="Footer-nav-item" href="https://horizontalsystems.io">About Us</a>
+              <a className="Footer-nav-item" href="https://t.me/UnstoppableWallet">Tech Support</a>
+              <a className="Footer-nav-item" href="https://github.com/horizontalsystems">Wallet Code</a>
+              <a className="Footer-nav-item" href="https://t.me/unstoppable_development">For Developers</a>
+              <a className="Footer-nav-item" href="/">Academy</a>
             </div>
             <div className="Footer-subscribe">
               <SubscribeForm formCode="m3g0e6" formId="1561498" />

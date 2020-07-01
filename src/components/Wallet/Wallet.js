@@ -43,7 +43,7 @@ function Wallet() {
             <Card
               number="3"
               title="Why Built it?"
-              info="We built it for ourselves as the available solutions were not up to par. If you believe in crypto and planning to invest you will enjoy this wallet. It's years ahead!" />
+              info="We built it for ourselves as the available solutions were not up to par. If you're thinking about investing in crypto you will enjoy this wallet. It's years ahead!" />
           </Slider>
         </div>
         <div className="Section-head Section-head-reverse">
