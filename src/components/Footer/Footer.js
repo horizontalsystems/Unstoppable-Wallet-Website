@@ -20,7 +20,7 @@ class Footer extends React.Component {
               <a className="Footer-nav-item" href="https://t.me/UnstoppableWallet">Tech Support</a>
               <a className="Footer-nav-item" href="https://github.com/horizontalsystems">Wallet Code</a>
               <a className="Footer-nav-item" href="https://t.me/unstoppable_development">For Developers</a>
-              <a className="Footer-nav-item" href="/">Academy</a>
+              <a className="Footer-nav-item" href="https://litrex.academy">Academy</a>
             </div>
             <div className="Footer-subscribe">
               <SubscribeForm formCode="m3g0e6" formId="1561498" />
@@ -41,7 +41,7 @@ class Footer extends React.Component {
               </div>
             </a>
 
-            <span>@ 2019 HorizontalSystems</span>
+            <span>@ 2020 HorizontalSystems</span>
           </div>
         </Container>
       </header>
