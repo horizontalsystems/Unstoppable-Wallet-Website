@@ -5,62 +5,91 @@
 
   @include sm {
     flex-direction: column;
-    height: 100vh;
   }
 }
 
 .Banner-start, .Banner-end {
   width: 50%;
-  height: 100vh;
   position: relative;
-  box-sizing: border-box;
-  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @include sm {
     width: 100%;
+  }
+
+  @include md {
+    height: 100vh;
+  }
+}
+
+.Banner-start {
+  @include sm {
+    height: 300px;
   }
 }
 
 .Banner-img {
   position: absolute;
   right: 0;
-  height: 100%;
+  width: 100%;
 
   @include sm {
     height: auto;
     max-width: 100%;
+    top: 54px;
   }
 }
 
 .Banner-end {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   padding-left: 40px;
-  padding-bottom: 7%;
+  flex-direction: column;
 
   @include sm {
     padding-left: 0;
-    padding-bottom: 16px;
   }
 }
 
-.Banner-text {
-  font-weight: 300;
-  padding-bottom: 40px;
-  font-size: 40px;
+.Banner-title {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.14px;
+  letter-spacing: 0;
+  padding-bottom: 16px;
+  font-size: 28px;
 
-  @include sm {
-    padding-bottom: 30px;
-    font-size: 28px;
+  @include md {
+    font-size: 40px;
+    line-height: 48.14px;
+    padding-bottom: 20px;
   }
 
   @include xl {
-    font-size: 40px;
-  }
-
-  @include xxl {
-    font-size: 52px;
+    font-size: 64px;
+    line-height: 87px;
   }
 }
 
+.Banner-info {
+  color: $grey;
+  font-family: $font-family-base;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  padding-bottom: 36px;
+
+  @include sm {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.Banner-action {
+  align-self: flex-start;
+
+  @include sm {
+    align-self: center;
+  }
+}

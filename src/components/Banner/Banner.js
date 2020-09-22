@@ -13,13 +13,17 @@ function Banner() {
         <div className="Banner-start">
           <img
             className="Banner-img"
-            src="/images/banner/coins.png"
-            alt=""
+            src="/images/banner/wallet.png"
+            alt="Unstoppable wallet"
+            srcSet="/images/banner/wallet@2x.png 2x, /images/banner/wallet@3x.png 3x"
           />
         </div>
         <div className="Banner-end">
-          <div className="Banner-text">
-            Your Guide To Crypto Investments
+          <div className="Banner-title">
+            Best Crypto Wallet for Your Assets
+          </div>
+          <div className="Banner-info">
+            Store and Trade crypto at any time, from anywhere. Have full control over assets. Remain anonymous.
           </div>
           <div className="Banner-action">
             <List>
