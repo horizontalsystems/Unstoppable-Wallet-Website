@@ -5,12 +5,12 @@ import { ReactComponent as Close } from './close.svg'
 import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
 import { ReactComponent as Download } from './download.svg'
-import { ReactComponent as Globe } from './globe.svg'
 import { ReactComponent as Graphic } from './graphic.svg'
 import { ReactComponent as Guide } from './guide.svg'
 import { ReactComponent as Decentralized } from './decentralized.svg'
 import { ReactComponent as NonCostodial } from './non-costodial.svg'
 import { ReactComponent as OpenSource } from './open-source.svg'
+import { ReactComponent as Exchange } from './exchange.svg'
 import { ReactComponent as Rect } from './rect.svg'
 import { ReactComponent as Anonym } from './anonym.svg'
 import { ReactComponent as Tor } from './tor.svg'
@@ -32,8 +32,6 @@ const iconComponent = name => {
       return <Download />
 
     //  Pages
-    case 'globe':
-      return <Globe />
     case 'graphic':
       return <Graphic />
     case 'guide':
@@ -44,6 +42,8 @@ const iconComponent = name => {
       return <NonCostodial />
     case 'open-source':
       return <OpenSource />
+    case 'exchange':
+      return <Exchange />
     case 'anonym':
       return <Anonym />
     case 'tor':

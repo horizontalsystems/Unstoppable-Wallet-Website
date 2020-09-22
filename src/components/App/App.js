@@ -15,47 +15,58 @@ function App() {
         <Home />
       </div>
       <div id="page-2" className="Page-dark">
-        <Page img="knowledge" text="Become informed and master cryptocurrencies" rtl dark>
+        <Page img="investments" text="Invest Wisely"
+              info="Unstoppable integrates unmatched trading, monitoring and analytical instruments designed to give its user an upper hand"
+              rtl dark>
           <Feature
-            icon="guide" title="Academy"
-            info="Access guides covering cryptocurrency essentials and coin reviews."
+            icon="exchange" title="Exchange"
+            info="Trade crypto assets anonymously, without fraud risk or regulatory limitations."
             rtl />
           <Feature
-            icon="globe" title="Monitoring"
-            info="Follow crypto news, top 100 rankings, daily top winners and more."
+            icon="graphic" title="Analyze"
+            info="Access interactive charts and technical analysis indicators showing current price trends."
             rtl />
           <Feature
-            icon="graphic" title="Indicators"
-            info="Setup alerts for asset price changes and price trend reversals."
+            icon="guide" title="Learn"
+            info="Learn crypto fundamentals and discover growing projects explained in simple terms."
             rtl />
         </Page>
       </div>
       <div id="page-3" className="Page-black">
-        <Page img="independence" text="Keep assets safe, unconfiscatable and accessible">
+        <Page img="independence"
+              text="Be Independent"
+              info="Unstoppable is built to ensure users are able to access funds at any time from anywhere">
           <Feature
             icon="non-costodial" title="Non-Custodial"
-            info="Full control over cryptocurrencies. The wallet is open source and can't cheat." />
+            info="Have exclusive control over assets. The funds are under your exclusive control and no other entity." />
           <Feature
-            icon="decentralized" title="Decentralized"
-            info="The wallet app doesn't depend on a centrally-managed servers to function." />
+            icon="decentralized" title="Cross Platform"
+            info="Easily migrate wallets created in Unstoppable wallet app to other non-custodial wallets and vice versa." />
           <Feature
-            icon="open-source" title="Standard"
-            info="Migrate wallets created in Unstoppable to external wallets and vice versa." />
+            icon="open-source" title="Open Source"
+            info={
+              <>
+                Use a wallet with an open code that meets stated specifications. Unstoppable has passed
+                open source <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet" target="_blank" rel="noopener noreferrer" className="color-yellow">verification</a>
+              </>
+            } />
         </Page>
       </div>
       <div id="page-4" className="Page-dark">
-        <Page img="incognito" text="Stay incognito while growing your wealth" rtl>
+        <Page img="incognito"
+              text="Stay Private"
+              info="Use this wallet to remain incognito and be able to keep your information private" rtl>
           <Feature
             icon="anonym" title="No Accounts"
-            info="No accounts, emails, phone numbers or any other data collected."
+            info="There are no accounts, names, emails, or any other identity verification procedures i.e. KYC and AML checks."
             rtl />
           <Feature
             icon="tor" title="TOR Network"
-            info="Anonymizes internet and location while browsing the wallet app."
+            info="Mask your IP address and location while using the wallet app by routing your internet connection through untraceable servers."
             rtl />
           <Feature
-            icon="sort" title="Randomizer"
-            info="Enhanced privacy features to make transactions harder to trace."
+            icon="sort" title="Bitcoin Privacy"
+            info="Make use of additional privacy settings for natively public Bitcoin transactions by making your transactions harder to track."
             rtl />
         </Page>
       </div>

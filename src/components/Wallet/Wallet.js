@@ -17,7 +17,10 @@ function Wallet() {
             <Icon name="rect" />
           </div>
           <div className="Section-text">
-            One wallet for all <br /> major cryptocurrencies
+            One wallet for all major cryptocurrencies
+          </div>
+          <div className="Section-info">
+            Store and manage over 60 cryptocurrencies and tokens on all major blockchains including Bitcoin, Ethereum, Binance Chain and EOS
           </div>
         </div>
       </Container>
@@ -34,24 +37,27 @@ function Wallet() {
           <Slider slidesToScroll={3} slidesToShow={3}>
             <Card
               number="1"
-              title="Who Is It For?"
-              info="The Unstoppable wallet is built for those looking to invest in cryptocurrencies and blockchain based projects on ongoing basis in a private manner." />
+              title="Who is it for?"
+              info="For those who hold financial independence, wealth privacy and open access to markets in high regard." />
             <Card
               number="2"
-              title="Is It Safe?"
-              info="It's a non-custodial wallet where only user has control over funds. It doesn't collect any data. It keeps user independent by not locking wallet to a specific wallet app." />
+              title="What is it for?"
+              info="For seamless investing in cryptocurrency and blockchain projects, making them understandable and accessible." />
             <Card
               number="3"
-              title="Why Built it?"
-              info="We built it for ourselves as the available solutions were not up to par. If you're thinking about investing in crypto you will enjoy this wallet. It's years ahead!" />
+              title="Why this wallet?"
+              info="It enables anyone to privately access financial services without risk of confiscation or fear of being censored." />
           </Slider>
         </div>
-        <div className="Section-head Section-head-reverse">
-          <div className="Section-text Section-text-right">
+        <div className="Section-head">
+          <div className="Section-icon">
+            <Icon name="rect" />
+          </div>
+          <div className="Section-text">
             Intuitive and powerful
           </div>
-          <div className="Section-icon Section-icon-start">
-            <Icon name="rect" />
+          <div className="Section-info">
+            Manage your assets in a responsive and user-friendly interface
           </div>
         </div>
       </Container>

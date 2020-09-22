@@ -5,7 +5,7 @@ import Container from '../Container'
 
 import './Page.scss'
 
-function Page({ img, text, children, rtl }) {
+function Page({ img, text, info, children, rtl }) {
   return (
     <Container>
       <div className={cn('Page', { 'Page-rtl': rtl })}>
@@ -18,8 +18,11 @@ function Page({ img, text, children, rtl }) {
             />
           </div>
           <div className="Page-end">
-            <div className="Page-text">
+            <div className="Page-title">
               {text}
+            </div>
+            <div className="Page-info">
+              {info}
             </div>
             <div className="Page-action">
               <div className="Features">

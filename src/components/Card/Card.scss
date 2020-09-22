@@ -1,11 +1,10 @@
 @import "../../scss/utils";
 
 .Card {
-  padding: 30px 30px 100px;
+  padding: 30px 30px 80px;
   display: flex;
   border-radius: 20px;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
   overflow: hidden;
   background: $dark;
@@ -27,37 +26,38 @@
 .Card-title {
   padding-top: 142px;
   padding-bottom: 40px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 28px;
+  line-height: 39px;
   color: #FFFFFF;
   z-index: 1;
 
   @include md {
     font-size: 40px;
+    line-height: 55px;
+    padding-top: 178px;
   }
 
   @include xxl {
-    padding-top: 172px;
     font-size: 52px;
+    line-height: 71px;
+    padding-top: 200px;
   }
 }
 
 .Card-info {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
   z-index: 1;
 
   @include md {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 22px;
+    line-height: 30px;
   }
 
   @include xxl {
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 32px;
+    line-height: 44px;
   }
 }
 

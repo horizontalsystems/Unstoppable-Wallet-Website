@@ -6,13 +6,10 @@
 .Section-head {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
+  align-content: center;
   padding-top: 60px;
   padding-bottom: 40px;
-
-  @include sm {
-    flex-direction: column;
-  }
 
   @include md {
     padding-top: 180px;
@@ -25,60 +22,62 @@
   }
 }
 
-.Section-head-reverse {
-  @include sm {
-    flex-direction: column-reverse;
-  }
-}
-
 .Section-icon,
-.Section-text {
+.Section-text,
+.Section-info {
+  width: 70%;
   display: flex;
-  min-width: 50%;
-  max-width: 50%;
   box-sizing: border-box;
   position: relative;
-
-  @include sm {
-    max-width: 100%;
-  }
-}
-
-.Section-icon {
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
 
   @include sm {
-    justify-content: flex-start;
-    margin-bottom: 20px;
+    width: 100%;
   }
-}
 
-.Section-icon-start {
-  justify-content: flex-start;
-  padding-left: 20px;
+  @include md {
+    padding-bottom: 36px;
+  }
+
+  @include xxl {
+    padding-bottom: 48px;
+  }
 }
 
 .Section-text {
   font-size: 28px;
+  line-height: 39px;
+  font-weight: 400;
   color: #FFFFFF;
 
   @include md {
-    font-size: 40px;
-    padding-left: 70px;
+    font-size: 48px;
+    line-height: 66px;
   }
 
   @include xxl {
-    font-size: 52px;
-    padding-left: 100px;
+    font-size: 64px;
+    line-height: 87.17px;
   }
 }
 
-.Section-text-right {
-  text-align: right;
+.Section-info {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: $grey;
 
-  @include sm {
-    text-align: left;
+  @include md {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  @include xxl {
+    font-size: 29px;
+    line-height: 40px;
   }
 }
 
@@ -116,18 +115,17 @@
 }
 
 .Wallet-download {
-  background: $darkest;
+  display: flex;
+  align-items: center;
   width: 100%;
-  margin-top: 60px;
+  height: 344px;
 
   @include md {
-    margin-top: 120px;
-    height: 337px;
+    height: 386px;
   }
 
   @include xxl {
-    margin-top: 155px;
-    height: 440px;
+    height: 460px;
   }
 }
 

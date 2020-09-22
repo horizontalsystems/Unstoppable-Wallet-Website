@@ -44,7 +44,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 
   @include sm {
     max-width: 100%;
@@ -52,7 +52,13 @@
 }
 
 .Page-end {
-  padding: 40px 0;
+  @include md {
+    padding: 40px 0;
+  }
+
+  @include xxl {
+    padding: 54px 0;
+  }
 }
 
 .Page-start {
@@ -74,22 +80,46 @@
   }
 }
 
-.Page-text {
-  font-weight: 300;
+.Page-title {
+  font-weight: 400;
   font-size: 28px;
   line-height: 38px;
+  padding-bottom: 20px;
 
   @include sm {
-    margin: 50px 0;
+    margin-top: 55px;
   }
 
   @include md {
-    font-size: 40px;
-    line-height: 54px;
+    font-size: 48px;
+    line-height: 65px;
+    padding-bottom: 36px;
   }
 
   @include xxl {
-    font-size: 52px;
-    line-height: 71px;
+    font-size: 64px;
+    line-height: 87px;
+    padding-bottom: 48px;
+  }
+}
+
+.Page-info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 36px;
+  color: $grey;
+
+  @include md {
+    font-size: 22px;
+    line-height: 30px;
+    padding-bottom: 104px;
+  }
+
+  @include xxl {
+    font-size: 32px;
+    line-height: 44px;
+    padding-bottom: 113px;
   }
 }

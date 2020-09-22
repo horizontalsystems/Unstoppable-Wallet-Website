@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   color: $grey;
+  background: $darkest;
   z-index: 1;
 }
 
@@ -28,7 +29,7 @@
 
 .Footer-nav-item {
   float: left;
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
   padding: 6px 0;
   border-radius: 4px;
@@ -37,6 +38,10 @@
   line-height: 23px;
   text-decoration: none;
   color: $grey;
+
+  @include md {
+    width: 50%;
+  }
 
   &:hover {
     color: $yellow;

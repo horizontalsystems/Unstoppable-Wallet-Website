@@ -52,12 +52,11 @@
 }
 
 .Banner-title {
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38.14px;
-  letter-spacing: 0;
-  padding-bottom: 16px;
   font-size: 28px;
+  font-style: normal;
+  line-height: 38.14px;
+  font-weight: 400;
+  padding-bottom: 16px;
 
   @include md {
     font-size: 40px;
@@ -68,21 +67,35 @@
   @include xl {
     font-size: 64px;
     line-height: 87px;
+    padding-bottom: 36px;
+  }
+
+  @include xxl {
+    font-size: 80px;
+    line-height: 109px;
+    padding-bottom: 48px;
   }
 }
 
 .Banner-info {
   color: $grey;
   font-family: $font-family-base;
-  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 22px;
   padding-bottom: 36px;
 
-  @include sm {
-    font-size: 16px;
-    line-height: 22px;
+  @include md {
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 100px;
+  }
+
+  @include xxl {
+    font-size: 32px;
+    line-height: 44px;
+    padding-bottom: 80px;
   }
 }
 
@@ -91,5 +104,6 @@
 
   @include sm {
     align-self: center;
+    width: 100%;
   }
 }
