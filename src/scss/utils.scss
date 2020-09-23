@@ -12,33 +12,21 @@ $white:       #ffffff !default;
 $white-50:    rgba(255, 255, 255, 0.5) !default;
 $light:       #F5F5F5 !default;
 $light-steal: #EBEBF0 !default;
+$light-soft:  #E1E1E5 !default;
 $black:       #000000 !default;
 $black-50:    rgba(0, 0, 0, 0.5) !default;
 $dark:        #13151A !default;
-$darkest:     #0f1014 !default;
 $dark-steal:  #252933 !default;
+$dark-soft:   #292B2D !default;
+$dark-light:  #37393B !default;
+$darkest:     #0f1014 !default;
 $blue:        #0d6efd !default;
 $grey:        #808085 !default;
 $grey-light:  #C8C7CC !default;
 $green:       #05C46B !default;
-$yellow:      #FFA800 !default;
-
-:export {
-  white:        $white;
-  white-50:     $white-50;
-  light:        $light;
-  light-steal:  $light-steal;
-  black:        $black;
-  black-50:     $black-50;
-  dark:         $dark;
-  dark-steal:   $dark-steal;
-  blue:         $blue;
-  grey:         $grey;
-  grey-light:   $grey-light;
-  green:        $green;
-  yellow:       $yellow;
-}
-
+$yellow-d:    #F58400 !default;
+$yellow-l:    #FFA800 !default;
+$yellow:      $yellow-l;
 /*
  * Layout
  * ======================================================================== */

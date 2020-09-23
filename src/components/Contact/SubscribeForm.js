@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import './ContactForm.scss'
 
@@ -22,13 +21,14 @@ class SubscribeForm extends React.Component {
 
           <div className="Contact-form-group">
             <input type="email" className="form-control" name="fields[email]" placeholder="Email" required />
-            <button type="submit" className="btn primary btn-grey">Subscribe</button>
-            <button type="button" className="btn loading" disabled="disabled">Subscribe</button>
+            <button type="submit" className="Button Button-grey Button-submit Button-circle primary">Subscribe</button>
+            <button type="button" className="Button Button-grey Button-submit Button-circle loading" disabled="disabled">Subscribe</button>
           </div>
-          <label className="Subscribe-checkbox-wrap">
-            <input type="checkbox" className="Contact-checkbox" required />
+          <label className="checkbox-label Subscribe-checkbox-wrap">
+            <input type="checkbox" defaultChecked={true} required />
+            <span className="checkbox-custom" />
             <div className="Contact-checkbox-description">
-              By signing up, you agree to Horizontal Systems <Link to="/privacy">Privacy Policy</Link>
+              By signing up, you agree to Horizontal Systems <a href="https://horizontalsystems.io/privacy">Privacy Policy</a>
             </div>
           </label>
         </form>

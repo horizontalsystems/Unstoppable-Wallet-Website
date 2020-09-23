@@ -5,13 +5,13 @@ import Icon from '../Icon'
 
 import './Button.scss'
 
-function Button({ text, yellow, icon, link }) {
+function Button({ className, text, yellow, icon, link }) {
   const onClick = () => {
     window.location.href = link
   }
 
   return (
-    <div className={cn('Button', { 'Button-yellow': yellow })} onClick={onClick}>
+    <div className={cn('Button', { 'Button-yellow': yellow }, className)} onClick={onClick}>
       <Icon name={icon} />
       <div className="Button-text">
         {text}

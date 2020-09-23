@@ -16,12 +16,15 @@ function GetWallet() {
         <div className="GetWallet-action">
           <List>
             <Button
+              className="Button-circle"
               text="Google Play" icon="google-play"
               link="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet" yellow />
             <Button
+              className="Button-circle"
               text="App Store" icon="app-store"
               link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8" yellow />
             <Button
+              className="Button-circle"
               text="Download APK" icon="download"
               link="https://github.com/horizontalsystems/bank-wallet-android/releases" />
           </List>
