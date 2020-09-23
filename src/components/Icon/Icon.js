@@ -16,6 +16,7 @@ import { ReactComponent as Anonym } from './anonym.svg'
 import { ReactComponent as Tor } from './tor.svg'
 import { ReactComponent as Sort } from './sort.svg'
 import { ReactComponent as Done } from './done.svg'
+import { ReactComponent as Logo } from './logo.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -59,6 +60,8 @@ const iconComponent = name => {
     //  Form
     case 'done':
       return <Done />
+    case 'logo':
+      return <Logo />
 
     default:
       return null
