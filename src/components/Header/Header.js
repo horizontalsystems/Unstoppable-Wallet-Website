@@ -30,7 +30,7 @@ class Header extends React.Component {
     }
 
     this.dropdown = !this.dropdown
-    document.body.style.overflow = this.dropdown ? 'hidden' : 'inherit'
+    // document.body.style.overflow = this.dropdown ? 'hidden' : 'inherit'
   }
 
   onClickMenu = () => {

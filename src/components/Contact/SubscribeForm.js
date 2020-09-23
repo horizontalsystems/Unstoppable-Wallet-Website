@@ -1,4 +1,5 @@
 import React from 'react'
+import Done from '../Icon/done.svg'
 
 import './ContactForm.scss'
 
@@ -21,8 +22,8 @@ class SubscribeForm extends React.Component {
 
           <div className="Contact-form-group">
             <input type="email" className="form-control" name="fields[email]" placeholder="Email" required />
-            <button type="submit" className="Button Button-grey Button-submit Button-circle primary">Subscribe</button>
-            <button type="button" className="Button Button-grey Button-submit Button-circle loading" disabled="disabled">Subscribe</button>
+            <button type="submit" className="Button Button-submit primary">Subscribe</button>
+            <button type="button" className="Button Button-submit loading" disabled="disabled">Subscribe</button>
           </div>
           <label className="checkbox-label Subscribe-checkbox-wrap">
             <input type="checkbox" defaultChecked={true} required />
@@ -33,8 +34,9 @@ class SubscribeForm extends React.Component {
           </label>
         </form>
 
-        <div className="Contact-success">
-          <p>Done! Check your email.</p>
+        <div className="Contact-success Contact-success-footer">
+          <img className="Contact-success-img" src={Done} alt="Done" />
+          Done! Check your email.
         </div>
       </div>
     )

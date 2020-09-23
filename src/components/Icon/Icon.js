@@ -15,6 +15,7 @@ import { ReactComponent as Rect } from './rect.svg'
 import { ReactComponent as Anonym } from './anonym.svg'
 import { ReactComponent as Tor } from './tor.svg'
 import { ReactComponent as Sort } from './sort.svg'
+import { ReactComponent as Done } from './done.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -54,6 +55,10 @@ const iconComponent = name => {
     //  Wallet
     case 'rect':
       return <Rect />
+
+    //  Form
+    case 'done':
+      return <Done />
 
     default:
       return null

@@ -3,7 +3,6 @@
 
 .Contact-success {
   margin: auto;
-  background: #FFFFFF;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   padding: 20px 26px;
@@ -67,20 +66,25 @@
 }
 
 .Contact-success-footer {
-  background: $dark;
   font-size: 18px;
   line-height: 23px;
-  text-align: left;
+  text-align: center;
 }
 
 .Contact-success-img {
   width: 16px;
   margin-top: 3px;
   margin-right: 12px;
-  float: left;
 }
 
 .Button-submit {
+  background: $grey;
+  color: $dark;
+
+  &:enabled:hover {
+    background: lighten($yellow-l, 2%);
+  }
+
   &.loading {
     display: none;
   }
