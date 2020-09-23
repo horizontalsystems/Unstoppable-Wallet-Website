@@ -16,11 +16,11 @@ class Footer extends React.Component {
           <div className="Footer-top">
             <div className="Footer-nav">
               <a className="Footer-nav-item" href="/">Home</a>
-              <a className="Footer-nav-item" href="https://horizontalsystems.io">About Us</a>
-              <a className="Footer-nav-item" href="https://t.me/UnstoppableWallet">Tech Support</a>
-              <a className="Footer-nav-item" href="https://github.com/horizontalsystems">Wallet Code</a>
-              <a className="Footer-nav-item" href="https://t.me/unstoppable_development">For Developers</a>
-              <a className="Footer-nav-item" href="https://litrex.academy">Academy</a>
+              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io">About Us</a>
+              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://t.me/UnstoppableWallet">Tech Support</a>
+              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://github.com/horizontalsystems">Wallet Code</a>
+              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://t.me/unstoppable_development">For Developers</a>
+              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Academy</a>
             </div>
             <div className="Footer-subscribe">
               <SubscribeForm formCode="m3g0e6" formId="1561498" />
@@ -33,7 +33,7 @@ class Footer extends React.Component {
           <hr className="Divider" />
 
           <div className="Footer-bottom">
-            <a href="https://horizontalsystems.io">
+            <a href="https://horizontalsystems.io" target="_blank" rel="noopener noreferrer">
               <Logo className="Logo" />
 
               <div className="Logo-icon">

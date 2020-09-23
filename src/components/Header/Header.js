@@ -44,9 +44,9 @@ class Header extends React.Component {
   render() {
     const navigation = (
       <div className="nav">
-        <a className="nav-item" href="https://horizontalsystems.io/">About Us</a>
-        <a className="nav-item" href="https://github.com/horizontalsystems">Wallet Code</a>
-        <a className="nav-item" href="https://t.me/UnstoppableWallet" onClick={this.onClickMenu}>Tech Support</a>
+        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://horizontalsystems.io/">About Us</a>
+        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://github.com/horizontalsystems">Wallet Code</a>
+        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://t.me/UnstoppableWallet" onClick={this.onClickMenu}>Tech Support</a>
       </div>
     )
 

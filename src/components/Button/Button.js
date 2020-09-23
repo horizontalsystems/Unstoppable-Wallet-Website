@@ -5,9 +5,13 @@ import Icon from '../Icon'
 
 import './Button.scss'
 
-function Button({ className, text, yellow, icon, link }) {
+function Button({ className, text, yellow, icon, link, newTab }) {
   const onClick = () => {
-    window.location.href = link
+    if (newTab) {
+      window.open(link, '_blank')
+    } else {
+      window.location.href = link
+    }
   }
 
   return (
