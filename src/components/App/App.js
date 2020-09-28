@@ -16,7 +16,7 @@ function App() {
       </div>
       <div id="page-2" className="Page-dark">
         <Page img="investments" text="Invest Wisely"
-              info="Unstoppable integrates unmatched trading, monitoring and analytical instruments designed to give its user an upper hand"
+              info="Unstoppable integrates crypto trading, monitoring and analytical instruments"
               rtl dark>
           <Feature
             icon="exchange" title="Exchange"
