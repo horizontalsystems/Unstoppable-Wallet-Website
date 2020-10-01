@@ -67,6 +67,12 @@ class Header extends React.Component {
     }
   }
 
+  onClickHome = () => {
+    if (window.location.pathname === '/') {
+      window.scrollTo(0, 0)
+    }
+  }
+
   render() {
     const { sticky } = this.state
     const navigation = (
@@ -94,7 +100,7 @@ class Header extends React.Component {
       <header className={cn('Header', { 'Header-sticky': sticky })}>
         <Container>
           <div className="navbar">
-            <Link to="/">
+            <Link to="/" onClick={this.onClickHome}>
               <img className="Header-logo" src={HeaderLogo} alt="Unstoppable Cryptocurrency Wallet" />
             </Link>
 

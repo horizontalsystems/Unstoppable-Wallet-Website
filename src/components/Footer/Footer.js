@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Icon from '../Icon/Icon'
 import Container from '../Container/Container'
@@ -8,6 +9,11 @@ import { ReactComponent as Logo } from './HSlogo.svg'
 import './Footer.scss'
 
 class Footer extends React.Component {
+  onClickHome = () => {
+    if (window.location.pathname === '/') {
+      window.scrollTo(0, 0)
+    }
+  }
 
   render() {
     return (
@@ -15,7 +21,7 @@ class Footer extends React.Component {
         <Container>
           <div className="Footer-top">
             <div className="Footer-nav">
-              <a className="Footer-nav-item" href="/">Home</a>
+              <Link to="/" className="Footer-nav-item" onClick={this.onClickHome}>Home</Link>
               <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io">About Us</a>
               <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://t.me/UnstoppableWallet">Tech Support</a>
               <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://github.com/horizontalsystems">Wallet Code</a>
