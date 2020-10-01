@@ -2,20 +2,40 @@
 
 .Header {
   position: absolute;
-  height: 54px;
+  height: 80px;
   width: 100%;
   z-index: 1;
+  transition: all .5s ease-in;
+}
+
+.Header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  animation: moveDown 0.2s ease-in-out;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
 }
 
 .Header-logo {
   height: 54px;
+  position: absolute;
+  top: 0;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  height: 54px;
+  align-items: center;
+  height: 80px;
 }
 
 .nav {
@@ -34,11 +54,23 @@
     border-radius: 4px;
     cursor: pointer;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     color: $grey;
 
     &:hover {
       color: $yellow;
+    }
+  }
+
+  .ml-20 {
+    margin-left: 20px;
+  }
+
+  .nav-btn-item {
+    margin-right: 20px;
+
+    @include sm {
+      display: none;
     }
   }
 
@@ -88,6 +120,6 @@
   padding-top: 30%;
 
   path {
-    fill:$dark-steal;
+    fill: $dark-steal;
   }
 }

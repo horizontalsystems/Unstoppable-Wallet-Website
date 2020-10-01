@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import throttle from 'lodash.throttle'
+import cn from 'classnames'
 
 import Container from '../Container'
 import HeaderLogo from './HeaderLogo.svg'
@@ -7,12 +9,35 @@ import Icon from '../Icon'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 import './Header.scss'
+import Button from '../Button'
 
 class Header extends React.Component {
+  state = {}
+
   dropdown = false
   static defaultProps = {
     navigate: true
   }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = throttle(() => {
+    if (window.scrollY > 54) {
+      this.setState({
+        sticky: true
+      });
+    } else if (window.scrollY < 100) {
+      this.setState({
+        sticky: false
+      });
+    }
+  }, 100)
 
   onToggleMenu = () => {
     const close = this.menuClose
@@ -43,16 +68,30 @@ class Header extends React.Component {
   }
 
   render() {
+    const { sticky } = this.state
     const navigation = (
       <div className="nav">
-        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://horizontalsystems.io/">About Us</a>
-        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://github.com/horizontalsystems">Wallet Code</a>
-        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://t.me/UnstoppableWallet" onClick={this.onClickMenu}>Tech Support</a>
+        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://horizontalsystems.io/">
+          About Us
+        </a>
+        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://github.com/horizontalsystems">
+          Wallet Code
+        </a>
+        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://t.me/UnstoppableWallet"
+           onClick={this.onClickMenu}>Tech Support</a>
+        {sticky && <Button
+          className="Button-circle nav-btn-item ml-20"
+          text="Google Play" icon="google-play"
+          link="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet" yellow newTab />}
+        {sticky && <Button
+          className="Button-circle nav-btn-item"
+          text="App Store" icon="app-store"
+          link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8" yellow newTab />}
       </div>
     )
 
     return (
-      <header className="Header">
+      <header className={cn('Header', { 'Header-sticky': sticky })}>
         <Container>
           <div className="navbar">
             <Link to="/">
