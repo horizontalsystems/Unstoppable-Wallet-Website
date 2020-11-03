@@ -1,4 +1,4 @@
 {
   "private": true,
-  "main": "./Card.js"
+  "main": "Card.js"
 }

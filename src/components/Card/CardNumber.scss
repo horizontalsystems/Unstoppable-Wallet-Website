@@ -1,0 +1,57 @@
+@import "../../scss/utils";
+
+.Card-number {
+  padding-bottom: 80px;
+}
+
+.Card-number-icon {
+  position: absolute;
+  left: -15px;
+  top: 0;
+  height: 90px;
+
+  @include md {
+    left: -5px;
+    height: 126px;
+  }
+}
+
+.Card-number-title {
+  padding-top: 142px;
+  padding-bottom: 20px;
+  font-size: 28px;
+  line-height: 39px;
+  color: #FFFFFF;
+  z-index: 1;
+
+  @include md {
+    font-size: 40px;
+    line-height: 55px;
+    padding-top: 178px;
+    padding-bottom: 36px;
+  }
+
+  @include xxl {
+    font-size: 52px;
+    line-height: 71px;
+    padding-top: 200px;
+    padding-bottom: 48px;
+  }
+}
+
+.Card-number-info {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  z-index: 1;
+
+  @include md {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  @include xxl {
+    font-size: 28px;
+    line-height: 39px;
+  }
+}

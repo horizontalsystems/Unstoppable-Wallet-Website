@@ -12,6 +12,8 @@ import { ReactComponent as NonCostodial } from './non-costodial.svg'
 import { ReactComponent as OpenSource } from './open-source.svg'
 import { ReactComponent as Exchange } from './exchange.svg'
 import { ReactComponent as Rect } from './rect.svg'
+import { ReactComponent as Wallet } from './wallet.svg'
+import { ReactComponent as Phone } from './phone.svg'
 import { ReactComponent as Anonym } from './anonym.svg'
 import { ReactComponent as Tor } from './tor.svg'
 import { ReactComponent as Sort } from './sort.svg'
@@ -56,6 +58,10 @@ const iconComponent = name => {
     //  Wallet
     case 'rect':
       return <Rect />
+    case 'wallet':
+      return <Wallet />
+    case 'phone':
+      return <Phone />
 
     //  Form
     case 'done':

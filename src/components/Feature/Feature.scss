@@ -3,6 +3,10 @@
 .Features {
   display: flex;
 
+  a {
+    color: $yellow-d;
+  }
+
   @include sm {
     flex-direction: column;
 
@@ -26,8 +30,19 @@
   }
 }
 
-.Feature-icon {
-  max-height: 36px;
+.Feature-icon svg {
+  width: 40px;
+  height: 40px;
+
+  @include lg {
+    width: 28px;
+    height: 28px;
+  }
+
+  @include xxl {
+    width: 36px;
+    height: 36px;
+  }
 }
 
 .Feature-title {

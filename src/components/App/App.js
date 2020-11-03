@@ -16,7 +16,7 @@ function App() {
       </div>
       <div id="page-2" className="Page-dark">
         <Page img="investments" text="Invest Wisely"
-              info="Unstoppable integrates crypto trading, monitoring and analytical instruments"
+              info="Unstoppable integrates unmatched trading, monitoring and analytical instruments designed to give its user an upper hand"
               rtl dark>
           <Feature
             icon="exchange" title="Exchange"
@@ -28,7 +28,10 @@ function App() {
             rtl />
           <Feature
             icon="guide" title="Learn"
-            info="Learn crypto fundamentals and discover growing projects explained in simple terms."
+            info={<>
+              Learn fundamentals and discover growing projects in our <a href="http://litrex.academy" target="_blank" rel="noopener noreferrer">cryptocurrency
+              academy</a>, accessible from wallet app.
+            </>}
             rtl />
         </Page>
       </div>
@@ -46,8 +49,8 @@ function App() {
             icon="open-source" title="Open Source"
             info={
               <>
-                Use a wallet with an open code that meets stated specifications. Unstoppable has passed
-                open source <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet" target="_blank" rel="noopener noreferrer" className="color-yellow">verification</a>
+                Use a wallet with an open code that meets stated specifications.
+                Unstoppable has passed open source <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet" target="_blank" rel="noopener noreferrer" className="color-yellow">verification</a>
               </>
             } />
         </Page>
