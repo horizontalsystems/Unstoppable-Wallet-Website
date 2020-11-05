@@ -5,7 +5,7 @@ import './Card.scss'
 
 function Card({ title, info }) {
   return (
-    <div className="Card Card-dark">
+    <div className="Card">
       <div className="Card-title">
         <Star className="Card-star-icon" /> {title}
       </div>

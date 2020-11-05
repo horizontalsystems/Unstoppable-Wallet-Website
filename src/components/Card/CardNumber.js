@@ -19,7 +19,7 @@ function icon(number) {
 
 function CardNumber({ number, title, info }) {
   return (
-    <div className="Card Card-number Card-dark">
+    <div className="Card Card-number">
       {icon(number)}
       <div className="Card-number-title">{title}</div>
       <div className="Card-number-info Card-info--grey">{info}</div>

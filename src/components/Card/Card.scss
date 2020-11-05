@@ -4,11 +4,12 @@
   padding: 30px;
   display: flex;
   border-radius: 20px;
+  flex: 1;
   flex-direction: column;
   position: relative;
   overflow: hidden;
   background: $dark;
-  margin: 0 16px;
+  margin: 0 15px;
 }
 
 .Card-star-icon {
