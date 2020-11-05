@@ -82,7 +82,7 @@
   color: $dark;
 
   &:enabled:hover {
-    background: lighten($yellow-l, 2%);
+    background: lighten($yellow-d, 2%);
   }
 
   &.loading {

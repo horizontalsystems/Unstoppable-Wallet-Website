@@ -40,8 +40,8 @@
 }
 
 .Button-circle-yellow {
-  border: 1px solid $yellow-l;
-  background: $yellow-l;
+  border: 1px solid $yellow-d;
+  background: $yellow-d;
   color: $dark;
 
   path {
@@ -50,11 +50,11 @@
 }
 
 .Button-yellow {
-  background: $yellow-l;
+  background: $yellow-d;
   color: $dark;
 
   &:enabled:hover {
-    background: lighten($yellow-l, 2%);
+    background: lighten($yellow-d, 2%);
   }
 }
 
