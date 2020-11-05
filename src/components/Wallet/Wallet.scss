@@ -90,6 +90,7 @@
 
 .Section-products {
   display: flex;
+  width: 100%;
 
   @include sm {
     flex-direction: column;
