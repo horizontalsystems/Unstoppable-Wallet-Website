@@ -19,6 +19,7 @@ import { ReactComponent as Tor } from './tor.svg'
 import { ReactComponent as Sort } from './sort.svg'
 import { ReactComponent as Done } from './done.svg'
 import { ReactComponent as Logo } from './logo.svg'
+import { ReactComponent as ArrowRight } from './arrow-right.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -26,6 +27,8 @@ const iconComponent = name => {
       return <Burger />
     case 'menu-close':
       return <Close />
+    case 'arrow-right':
+      return <ArrowRight />
 
     //  Buttons
     case 'google-play':
