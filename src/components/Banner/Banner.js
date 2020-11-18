@@ -23,7 +23,7 @@ function Banner() {
             Best Crypto Wallet for Your Assets
           </div>
           <div className="Banner-info">
-            Store and Trade crypto at any time, from anywhere. Have full control over assets. Remain anonymous.
+            Store and grow crypto assets, from anywhere. Have full control over assets. Remain private.
           </div>
           <div className="Banner-action">
             <List>
