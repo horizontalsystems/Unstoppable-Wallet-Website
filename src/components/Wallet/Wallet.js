@@ -51,7 +51,6 @@ function Wallet() {
             <Card title="Ethereum Wallet" info={
               <>
                 - Supports any ERC20 token <br />
-                - Trading via Uniswap protocol <br />
                 - DeFi support <br />
                 - WalletConnnect protocol <br />
                 - Custom transaction fees

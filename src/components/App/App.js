@@ -16,11 +16,11 @@ function App() {
       </div>
       <div id="page-2" className="Page-dark">
         <Page img="investments" text="Invest Wisely"
-              info="Unstoppable integrates unmatched trading, monitoring and analytical instruments designed to give its user an upper hand"
+              info="Unstoppable integrates unmatched monitoring and analytical instruments designed to give its users an upper hand."
               rtl dark>
           <Feature
-            icon="exchange" title="Exchange"
-            info="Trade crypto assets anonymously, without fraud risk or regulatory limitations."
+            icon="exchange" title="Manage"
+            info="Store and grow crypto assets privately, without fraud risk or regulatory limitations."
             rtl />
           <Feature
             icon="graphic" title="Analyze"
@@ -38,7 +38,7 @@ function App() {
       <div id="page-3" className="Page-black">
         <Page img="independence"
               text="Be Independent"
-              info="Unstoppable is built to ensure users are able to access funds at any time from anywhere">
+              info="Unstoppable is built to ensure users are able to access funds at any time from anywhere.">
           <Feature
             icon="non-costodial" title="Non-Custodial"
             info="Have exclusive control over assets. The funds are under your exclusive control and no other entity." />
@@ -61,11 +61,11 @@ function App() {
               info="Use this wallet to remain incognito and be able to keep your information private" rtl>
           <Feature
             icon="anonym" title="No Accounts"
-            info="There are no accounts, names, emails, or any other identity verification procedures i.e. KYC and AML checks."
+            info="There are no accounts, names, emails, or any other data collection procedures."
             rtl />
           <Feature
             icon="tor" title="TOR Network"
-            info="Mask your IP address and location while using the wallet app by routing your internet connection through untraceable servers."
+            info="Mask IP address and location while using the app by routing your internet connection through untraceable servers."
             rtl />
           <Feature
             icon="sort" title="Bitcoin Privacy"
