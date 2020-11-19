@@ -269,7 +269,6 @@
       "markdown": "faq/how-do-i-buy-cryptocurrency.md"
     }
   },
-
   {
     "en": {
       "title": "How to send and receive cryptocurrency?",
@@ -306,7 +305,8 @@
     "fa": {
       "title": "How to send and receive cryptocurrency?",
       "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
-    },
+    }
+  },
 
   {
     "en": {
