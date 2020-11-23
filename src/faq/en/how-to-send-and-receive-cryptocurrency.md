@@ -1,4 +1,6 @@
-# To Send Cryptocurrency
+# How to send and receive cryptocurrency?
+
+## To Send Cryptocurrency
 
 1. Tap on token on Balance tab (the token you need to send)
 
@@ -8,7 +10,6 @@
 
 ![](../images/send-2.png)
 
-
 3. Enter amount of tokens and the crypto address of the person you would like to send the crypto. Select Next to review and confirm the details of this send.
 
 ![](../images/send-3.png)
@@ -17,7 +18,7 @@
 
 ![](../images/send-4.png)
 
-## To ReceiveCryptocurrency
+## To Receive Cryptocurrency
 
 1. Tap on token on Balance tab (the token you need to receive)
 
@@ -30,7 +31,6 @@
 3. Here you will see your address in plain text and as a QR code. You can use this address to receive funds.
 
 ![](../images/receive-3.png)
-
 
 
 
