@@ -1,6 +1,6 @@
 # How to send and receive cryptocurrency?
 
-## To Send Cryptocurrency
+### To Send Cryptocurrency
 
 1. Tap on token on Balance tab (the token you need to send)
 
@@ -18,7 +18,7 @@
 
 ![](../images/send-4.png)
 
-## To Receive Cryptocurrency
+### To Receive Cryptocurrency
 
 1. Tap on token on Balance tab (the token you need to receive)
 

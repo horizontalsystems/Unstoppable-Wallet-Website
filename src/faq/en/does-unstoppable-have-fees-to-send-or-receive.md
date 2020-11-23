@@ -2,7 +2,7 @@
 
 Almost all blockchain transactions incur network or miner fees (with a few exceptions). Other than the fees that go to the network, Unstoppable does not charge fees for sending or receiving.
 
-## **What are Transaction Fees?**
+### What are Transaction Fees?
 
 The use of any blockchain network (Bitcoin, Ethereum, etc.) requires a small fee to send a transaction. This is because there are people (called miners) who are constantly spending resources like computing power and electricity to help process and secure all transactions on the network. Transaction fees go to them. These fees do not go to Unstoppable, they are paid in full to the network (miners) to ensure transactions are delivered reliably and quickly.
 

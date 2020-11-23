@@ -5,7 +5,7 @@
 ![](../images/addcoin.png)
 ![](../images/addcoin-fin.png)
 
-## How to Add a Coin Manually?
+### How to add a coin manually?
 
 If you can’t find your coin you can add it manually. Click Add Token button on the top of screen for entering token contract address
 

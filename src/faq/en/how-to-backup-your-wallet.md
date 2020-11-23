@@ -1,6 +1,6 @@
 # How to backup your wallet(s)?
 
-## Why Backup?
+### Why Backup?
 
 - ***Keep your funds secure***
 - ***Restore** **your wallet on any device***
@@ -9,17 +9,17 @@
 
 **This is an important reminder to always do a manual backup of your wallet.**
 
-Your**Private Keys**are stored encrypted on your device and never leave your device. What this means is that, your keys are secured. The best way to backup your wallet is by manually writing down your Private Key on piece of paper. Thus, **no online service can then capture your wallet information.**
+Your **Private Keys** are stored encrypted on your device and never leave your device. What this means is that, your keys are secured. The best way to backup your wallet is by manually writing down your Private Key on piece of paper. Thus, **no online service can then capture your wallet information.**
 
 The Unstoppable Wallet team has NO record of your Private Keys.
 
-## How to Backup?
+### How to Backup?
 
 Simply go to the Settings menu then tap on "Manage Wallets", there you will see "Backup" button for each wallet you have.
 
 ![](../images/backup-manage.png)
 
-## Backup Your Private Keys
+### Backup Your Private Keys
 
 Your private keys are generated as soon as you create a Multi-Coin wallet. You need to backup your private keys as soon as possible.
 
