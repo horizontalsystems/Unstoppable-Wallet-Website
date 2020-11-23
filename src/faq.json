@@ -6,7 +6,7 @@
     },
     "ru": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/ru/what-is-unstoppable-wallet.md",
     },
     "de": {
       "title": "What is Unstoppable Wallet?",
@@ -34,25 +34,24 @@
     },
     "fa": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what is Unstoppable Wallet.md"
+      "markdown": "faq/what-is-unstoppable-wallet.md"
     }
   },
-
   {
     "en": {
-     "title": "Where to download Unstoppable Wallet?",
-     "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "title": "Where to download Unstoppable Wallet?",
+      "markdown": "faq/where-to-download-unstoppable-wallet.md"
     },
     "ru": {
       "title": "Where to download Unstoppable Wallet?",
       "markdown": "faq/where-to-download-unstoppable-wallet.md"
-},
+    },
     "de": {
       "title": "Where to download Unstoppable Wallet?",
       "markdown": "faq/where-to-download-unstoppable-wallet.md"
     },
     "es": {
-    "title": "Where to download Unstoppable Wallet?",
+      "title": "Where to download Unstoppable Wallet?",
       "markdown": "faq/where-to-download-unstoppable-wallet.md"
     },
     "fr": {
@@ -76,7 +75,6 @@
       "markdown": "faq/where-to-download-unstoppable-wallet.md"
     }
   },
-
   {
     "en": {
       "title": "How does Unstoppable Wallet work?",
@@ -115,7 +113,6 @@
       "markdown": "faq/how-does-unstoppable-wallet-work.md"
     }
   },
-
   {
     "en": {
       "title": "How to create a multi-coin wallet?",
@@ -156,81 +153,80 @@
   },
   {
     "en": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     },
     "ru": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     },
     "de": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     },
     "es": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     },
     "fr": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     },
     "tr": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     },
     "zh": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     },
     "kor": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     },
     "fa": {
-      "title": "3 steps to protect your crypto wallet",
-      "markdown": "faq/3-steps-to-protect-your-crypto-wallet.md"
+      "title": "How to backup your Wallet(s)?",
+      "markdown": "faq/how-to-backup-your-wallet.md"
     }
   },
   {
     "en": {
-      "title": "Backup your recovery phrase or private key",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to protect your wallet funds",
+      "markdown": "faq/how-to-protect-your-wallet-funds.md"
     },
     "ru": {
-      "title": "Backup your recovery phrase or private key",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to protect your wallet funds",
+      "markdown": "faq/how-to-protect-your-wallet-funds.md"
     },
     "de": {
-      "title": "Backup your recovery phrase or private key",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to protect your wallet funds",
+      "markdown": "faq/how-to-protect-your-wallet-funds.md"
     },
     "es": {
-      "title": "Backup your recovery phrase or private key",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to protect your wallet funds",
+      "markdown": "faq/how-to-protect-your-wallet-funds.md"
     },
     "fr": {
-      "title": "Backup your recovery phrase or private key",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to protect your wallet funds",
+      "markdown": "faq/how-to-protect-your-wallet-funds.md"
     },
     "tr": {
-      "title": "Backup your recovery phrase or private key",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to protect your wallet funds",
+      "markdown": "faq/how-to-protect-your-wallet-funds.md"
     },
     "zh": {
-      "title": "Backup your recovery phrase or private key",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to protect your wallet funds",
+      "markdown": "faq/how-to-protect-your-wallet-funds.md"
     },
     "kor": {
-      "title": "Backup your recovery phrase or private key",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to protect your wallet funds",
+      "markdown": "faq/how-to-protect-your-wallet-funds.md"
     },
     "fa": {
-      "title": "Backup your recovery phrase or private key",
+      "title": "How to protect your wallet funds",
       "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
     }
   },
-
   {
     "en": {
       "title": "How do I buy cryptocurrency?",
@@ -307,7 +303,6 @@
       "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
     }
   },
-
   {
     "en": {
       "title": "Does Unstoppable have fees to send or receive?",
