@@ -2,381 +2,536 @@
   {
     "en": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/ru/what-is-unstoppable-wallet.md",
+      "markdown": "faq/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/de/what-is-unstoppable-wallet.md"
     },
     "es": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/zh/what-is-unstoppable-wallet.md"
     },
     "kor": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/kor/what-is-unstoppable-wallet.md"
     },
     "fa": {
       "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/what-is-unstoppable-wallet.md"
+      "markdown": "faq/fa/what-is-unstoppable-wallet.md"
     }
   },
   {
     "en": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/en/where-to-download-unstoppable-wallet.md"
     },
     "ru": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/ru/where-to-download-unstoppable-wallet.md"
     },
     "de": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/de/where-to-download-unstoppable-wallet.md"
     },
     "es": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/es/where-to-download-unstoppable-wallet.md"
     },
     "fr": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/fr/where-to-download-unstoppable-wallet.md"
     },
     "tr": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/tr/where-to-download-unstoppable-wallet.md"
     },
     "zh": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/zh/where-to-download-unstoppable-wallet.md"
     },
     "kor": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/kor/where-to-download-unstoppable-wallet.md"
     },
     "fa": {
       "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/where-to-download-unstoppable-wallet.md"
+      "markdown": "faq/fa/where-to-download-unstoppable-wallet.md"
     }
   },
   {
     "en": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/en/how-does-unstoppable-wallet-work.md"
     },
     "ru": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/ru/how-does-unstoppable-wallet-work.md"
     },
     "de": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/de/how-does-unstoppable-wallet-work.md"
     },
     "es": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/es/how-does-unstoppable-wallet-work.md"
     },
     "fr": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/fr/how-does-unstoppable-wallet-work.md"
     },
     "tr": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/tr/how-does-unstoppable-wallet-work.md"
     },
     "zh": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/zh/how-does-unstoppable-wallet-work.md"
     },
     "kor": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/kor/how-does-unstoppable-wallet-work.md"
     },
     "fa": {
       "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/how-does-unstoppable-wallet-work.md"
+      "markdown": "faq/fa/how-does-unstoppable-wallet-work.md"
     }
   },
   {
     "en": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/en/how-to-create-a-multi-coin-wallet.md"
     },
     "ru": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/ru/how-to-create-a-multi-coin-wallet.md"
     },
     "de": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/de/how-to-create-a-multi-coin-wallet.md"
     },
     "es": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/es/how-to-create-a-multi-coin-wallet.md"
     },
     "fr": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/fr/how-to-create-a-multi-coin-wallet.md"
     },
     "tr": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/tr/how-to-create-a-multi-coin-wallet.md"
     },
     "zh": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/zh/how-to-create-a-multi-coin-wallet.md"
     },
     "kor": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/kor/how-to-create-a-multi-coin-wallet.md"
     },
     "fa": {
       "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/how-to-create-a-multi-coin-wallet.md"
+      "markdown": "faq/fa/how-to-create-a-multi-coin-wallet.md"
     }
   },
   {
     "en": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/en/how-to-backup-your-wallet.md"
     },
     "ru": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/ru/how-to-backup-your-wallet.md"
     },
     "de": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/de/how-to-backup-your-wallet.md"
     },
     "es": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/es/how-to-backup-your-wallet.md"
     },
     "fr": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/fr/how-to-backup-your-wallet.md"
     },
     "tr": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/tr/how-to-backup-your-wallet.md"
     },
     "zh": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/zh/how-to-backup-your-wallet.md"
     },
     "kor": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/kor/how-to-backup-your-wallet.md"
     },
     "fa": {
       "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/how-to-backup-your-wallet.md"
+      "markdown": "faq/fa/how-to-backup-your-wallet.md"
     }
   },
   {
     "en": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/how-to-protect-your-wallet-funds.md"
+      "markdown": "faq/en/how-to-protect-your-wallet-funds.md"
     },
     "ru": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/how-to-protect-your-wallet-funds.md"
+      "markdown": "faq/ru/how-to-protect-your-wallet-funds.md"
     },
     "de": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/how-to-protect-your-wallet-funds.md"
+      "markdown": "faq/de/how-to-protect-your-wallet-funds.md"
     },
     "es": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/how-to-protect-your-wallet-funds.md"
+      "markdown": "faq/es/how-to-protect-your-wallet-funds.md"
     },
     "fr": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/how-to-protect-your-wallet-funds.md"
+      "markdown": "faq/fr/how-to-protect-your-wallet-funds.md"
     },
     "tr": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/how-to-protect-your-wallet-funds.md"
+      "markdown": "faq/tr/how-to-protect-your-wallet-funds.md"
     },
     "zh": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/how-to-protect-your-wallet-funds.md"
+      "markdown": "faq/zh/how-to-protect-your-wallet-funds.md"
     },
     "kor": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/how-to-protect-your-wallet-funds.md"
+      "markdown": "faq/kor/how-to-protect-your-wallet-funds.md"
     },
     "fa": {
       "title": "How to protect your wallet funds",
-      "markdown": "faq/backup-your-recovery-phrase-or-private-key.md"
+      "markdown": "faq/fa/backup-your-recovery-phrase-or-private-key.md"
     }
   },
   {
     "en": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/en/how-do-i-buy-cryptocurrency.md"
     },
     "ru": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/ru/how-do-i-buy-cryptocurrency.md"
     },
     "de": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/de/how-do-i-buy-cryptocurrency.md"
     },
     "es": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/es/how-do-i-buy-cryptocurrency.md"
     },
     "fr": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/fr/how-do-i-buy-cryptocurrency.md"
     },
     "tr": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/tr/how-do-i-buy-cryptocurrency.md"
     },
     "zh": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/zh/how-do-i-buy-cryptocurrency.md"
     },
     "kor": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/kor/how-do-i-buy-cryptocurrency.md"
     },
     "fa": {
       "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/how-do-i-buy-cryptocurrency.md"
+      "markdown": "faq/fa/how-do-i-buy-cryptocurrency.md"
     }
   },
   {
     "en": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/en/how-to-send-and-receive-cryptocurrency.md"
     },
     "ru": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/ru/how-to-send-and-receive-cryptocurrency.md"
     },
     "de": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/de/how-to-send-and-receive-cryptocurrency.md"
     },
     "es": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/es/how-to-send-and-receive-cryptocurrency.md"
     },
     "fr": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/fr/how-to-send-and-receive-cryptocurrency.md"
     },
     "tr": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/tr/how-to-send-and-receive-cryptocurrency.md"
     },
     "zh": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/zh/how-to-send-and-receive-cryptocurrency.md"
     },
     "kor": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/kor/how-to-send-and-receive-cryptocurrency.md"
     },
     "fa": {
       "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/how-to-send-and-receive-cryptocurrency.md"
+      "markdown": "faq/fa/how-to-send-and-receive-cryptocurrency.md"
     }
   },
   {
     "en": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/en/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "ru": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/ru/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "de": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/de/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "es": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/es/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "fr": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/fr/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "tr": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/tr/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "zh": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/zh/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "kor": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/kor/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "fa": {
       "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/does-unstoppable-have-fees-to-send-or-receive.md"
+      "markdown": "faq/fa/does-unstoppable-have-fees-to-send-or-receive.md"
     }
   },
   {
     "en": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/en/why-did-my-receiving-address-changed.md"
     },
     "ru": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/ru/why-did-my-receiving-address-changed.md"
     },
     "de": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/de/why-did-my-receiving-address-changed.md"
     },
     "es": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/es/why-did-my-receiving-address-changed.md"
     },
     "fr": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/fr/why-did-my-receiving-address-changed.md"
     },
     "tr": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/tr/why-did-my-receiving-address-changed.md"
     },
     "zh": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/zh/why-did-my-receiving-address-changed.md"
     },
     "kor": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/kor/why-did-my-receiving-address-changed.md"
     },
     "fa": {
       "title": "Why did my receiving address changed?",
-      "markdown": "faq/why-did-my-receiving-address-changed.md"
+      "markdown": "faq/fa/why-did-my-receiving-address-changed.md"
+    }
+  },
+
+  {
+    "en": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/en/what-are-cryptocurrency-transaction-fees.md"
+    },
+    "ru": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/ru/what-are-cryptocurrency-transaction-fees.md"
+    },
+    "de": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/de/what-are-cryptocurrency-transaction-fees.md"
+    },
+    "es": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/es/what-are-cryptocurrency-transaction-fees.md"
+    },
+    "fr": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/fr/what-are-cryptocurrency-transaction-fees.md"
+    },
+    "tr": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/tr/what-are-cryptocurrency-transaction-fees.md"
+    },
+    "zh": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/zh/what-are-cryptocurrency-transaction-fees.md"
+    },
+    "kor": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/kor/what-are-cryptocurrency-transaction-fees.md"
+    },
+    "fa": {
+      "title": "What are cryptocurrency transaction fees?",
+      "markdown": "faq/fa/what-are-cryptocurrency-transaction-fees.md"
+    }
+  },
+  {
+    "en": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/en/why-is-my-transaction-pending.md"
+    },
+    "ru": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/ru/why-is-my-transaction-pending.md"
+    },
+    "de": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/de/why-is-my-transaction-pending.md"
+    },
+    "es": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/es/why-is-my-transaction-pending.md"
+    },
+    "fr": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/fr/why-is-my-transaction-pending.md"
+    },
+    "tr": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/tr/why-is-my-transaction-pending.md"
+    },
+    "zh": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/zh/why-is-my-transaction-pending.md"
+    },
+    "kor": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/kor/why-is-my-transaction-pending.md"
+    },
+    "fa": {
+      "title": "Why is my transaction \"pending\"?",
+      "markdown": "faq/fa/why-is-my-transaction-pending.md"
+    }
+  },
+
+  {
+    "en": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/en/how-to-add-or-remove-a-coin.md"
+    },
+    "ru": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/ru/how-to-add-or-remove-a-coin.md"
+    },
+    "de": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/de/how-to-add-or-remove-a-coin.md"
+    },
+    "es": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/es/how-to-add-or-remove-a-coin.md"
+    },
+    "fr": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/fr/how-to-add-or-remove-a-coin.md"
+    },
+    "tr": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/tr/how-to-add-or-remove-a-coin.md"
+    },
+    "zh": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/zh/how-to-add-or-remove-a-coin.md"
+    },
+    "kor": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/kor/how-to-add-or-remove-a-coin.md"
+    },
+    "fa": {
+      "title": "How to add or remove a coin?",
+      "markdown": "faq/fa/how-to-add-or-remove-a-coin.md"
+    }
+  },
+
+  {
+    "en": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/en/how-do-i-update-unstoppable.md"
+    },
+    "ru": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/ru/how-do-i-update-unstoppable.md"
+    },
+    "de": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/de/how-do-i-update-unstoppable.md"
+    },
+    "es": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/es/how-do-i-update-unstoppable.md"
+    },
+    "fr": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/fr/how-do-i-update-unstoppable.md"
+    },
+    "tr": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/tr/how-do-i-update-unstoppable.md"
+    },
+    "zh": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/zh/how-do-i-update-unstoppable.md"
+    },
+    "kor": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/kor/how-do-i-update-unstoppable.md"
+    },
+    "fa": {
+      "title": "How do I update Unstoppable?",
+      "markdown": "faq/fa/how-do-i-update-unstoppable.md"
     }
   }
 ]
