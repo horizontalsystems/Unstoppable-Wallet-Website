@@ -17,17 +17,17 @@ The Unstoppable Wallet team has NO record of your Private Keys.
 
 Simply go to the Settings menu then tap on "Manage Wallets", there you will see "Backup" button for each wallet you have.
 
-![](../images/backup-manage.png)
+![](../images/android-backup-manage-l.png)
 
 ### Backup Your Private Keys
 
 Your private keys are generated as soon as you create a Multi-Coin wallet. You need to backup your private keys as soon as possible.
 
-![](../images/backup-pk.png)
+![](../images/android-backup-pk-l.png)
 
 This is your keys it might be 12 or 24 words. , write it down on paper and keep it safe. After than check your backup on the next page
 
-![](../images/backup-check.png)
+![](../images/android-backup-check-l.png)
 
 **Done!**
 
