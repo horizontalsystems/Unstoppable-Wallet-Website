@@ -1,38 +1,39 @@
-# How to backup your wallet(s)?
+# Cüzdan(lar)ınızı nasıl yedekleyebilirsiniz?
 
-### Why Backup?
+### Neden Yedekleme?
 
-- ***Keep your funds secure***
-- ***Restore** **your wallet on any device***
-- ***Prevent loss of funds***
-- ***You are responsible for keeping private keys safe***
+- ***Fonlarınızı güvende tutun***
+- ***Cüzdanınızı herhangi bir cihazda geri yükleyin***
+- ***Fonların kaybını önleyin***
+- ***Özel anahtarları güvende tutmaktan siz sorumlusunuz***
 
-**This is an important reminder to always do a manual backup of your wallet.**
+**Bu, cüzdanınızı daima manüel olarak yedeklemeniz için önemli bir hatırlatmadır.**
 
-Your **Private Keys** are stored encrypted on your device and never leave your device. What this means is that, your keys are secured. The best way to backup your wallet is by manually writing down your Private Key on piece of paper. Thus, **no online service can then capture your wallet information.**
+**Özel Anahtarlarınız** cihazınızda şifrelenmiş olarak saklanır ve cihazınızdan asla ayrılmaz. Bunun anlamı, anahtarlarınızın güvende olmasıdır. Cüzdanınızı yedeklemenin en iyi yolu, Özel Anahtarınızı bir kâğıt üzerine manüel olarak yazmaktır. **Böylece, hiçbir çevrimiçi hizmet cüzdan bilgilerinizi yakalayamaz.**
 
-The Unstoppable Wallet team has NO record of your Private Keys.
+Unstoppable Wallet ekibinde Özel Anahtarlarınızın kaydı YOKTUR.
 
-### How to Backup?
+### Nasıl Yedeklenir?
 
-Simply go to the Settings menu then tap on "Manage Wallets", there you will see "Backup" button for each wallet you have.
+Basitçe Ayarlar menüsüne gidin ve "Cüzdanları Yönet" seçeneğine tıklayın, sahip olduğunuz her cüzdan için orada bir "Yedekleme" butonu göreceksiniz.
 
 ![](../images/ios-backup-manage-s.png)
 
-### Backup Your Private Keys
+### Özel Anahtarlarınızı Yedekleyin
 
-Your private keys are generated as soon as you create a Multi-Coin wallet. You need to backup your private keys as soon as possible.
+Özel anahtarlarınız, Çoklu Para cüzdanı oluşturduğunuz anda üretilir. Özel anahtarlarınızı mümkün olan en kısa zamanda yedeklemeniz gerekir.
 
 ![](../images/ios-backup-pk-s.png)
 
-This is your keys it might be 12 or 24 words. , write it down on paper and keep it safe. After than check your backup on the next page
+Bu sizin anahtarınız; 12 veya 24 sözcük olabilir. Bir sonraki sayfada yedeklemenizi kontrol ettikten sonra, bir kâğıda yazın ve güvenli bir şekilde saklayın.
 
 ![](../images/ios-backup-check-s.png)
 
-**Done!**
+**Bitti!**
 
-**Lost Backup?**
+**Kayıp Yedekleme?**
 
-- Please make sure you store your backup(s) in a safe place.
-- We at Unstoppable Wallet, have **NO access** to your wallet or your Private Keys.
-- **Without a backup, your funds are lost. We cannot help you.**
+- Lütfen yedeğinizi/yedeklerinizi güvenli bir yerde sakladığınızdan emin olun.
+- Unstoppable Wallet'ta cüzdanınıza veya Özel Anahtarlarınıza **erişimimiz YOKTUR**.
+- **Yedek olmazsa fonlarınız kaybolur ve size yardım edemeyiz.**
+

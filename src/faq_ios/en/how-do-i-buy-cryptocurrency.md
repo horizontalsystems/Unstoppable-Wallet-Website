@@ -1,5 +1,6 @@
-# How do I buy cryptocurrency?
+# Nasıl kripto para satın alabilirim?
 
-Unstoppable wallet does not support the functions of buying cryptocurrencies through payment systems. Unstoppable wallet only works with cryptocurrencies.
+Unstoppable Wallet, ödeme sistemleri aracılığıyla kripto para satın alma işlevlerini desteklemez. Unstoppable Wallet sadece kripto paralarla çalışır. 
 
-If you would like to explore various options to purchase cryptocurrency refer to our article on [Litrex Academy](https://litrex.academy/en/fundamentals/en/6-buying-cryptocurrency-basics.md)
+Kripto para satın almak için çeşitli seçenekleri keşfetmek isterseniz, [Litrex Academy](https://litrex.academy/en/fundamentals/en/6-buying-cryptocurrency-basics.md) deki makalemizi inceleyin. 
+

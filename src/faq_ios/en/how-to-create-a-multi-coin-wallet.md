@@ -1,15 +1,14 @@
-# How to create a multi-coin wallet?
+# Çoklu para cüzdanı nasıl oluşturulur?
 
-1. Launch Unstoppable Wallet (Upon first launch of the app, you will be presented with the screen below which is the part where you can “Create a New Wallet” or “Import” an existing one. For this guide, we will select on Create a New Wallet.)
+1. Unstoppable Wallet’i başlatın (Uygulamanın ilk kez başlatılmasından sonra, "Yeni Cüzdan Oluşturun" veya mevcut olanı "İçe Aktarın" seçeneklerinin olduğu aşağıdaki ekranla karşılaşacaksınız. Bu kılavuz için, Yeni Cüzdan Oluştur'u seçeceğiz.)
 
 ![](../images/ios-create-welcome-s.png)
 
-2. Choose cryptocurrencies you need to use and click the create button on the top of screen. The wallet will create wallets by the recommended standards
+2. Kullanmanız gereken kripto paraları seçin ve ekranın üst kısmındaki oluştur butonunu tıklayın. Cüzdan, önerilen standartlara göre cüzdanlar oluşturacaktır
 
 ![](../images/ios-create-choosecoin-s.png)
 
-3. Wallet was created!
+3. Cüzdan oluşturuldu!
 
 ![](../images/ios-create-balance-s.png)
-
 

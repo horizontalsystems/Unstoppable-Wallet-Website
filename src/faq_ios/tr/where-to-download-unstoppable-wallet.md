@@ -1,7 +1,8 @@
-# Where to download Unstoppable Wallet?
+# Unstoppable Wallet nereden indirilir?
 
-Download Unstoppable only from official sources.
+Unstoppable’ı yalnızca resmi kaynaklardan indirin.
 
-Here are the download links for both platforms:
+Her iki platform için indirme bağlantıları şunlardır:
+
 
 [**App Store**](https://apps.apple.com/app/bank-bitcoin-wallet/id1447619907)

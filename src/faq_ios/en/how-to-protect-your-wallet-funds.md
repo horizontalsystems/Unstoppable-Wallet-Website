@@ -1,27 +1,26 @@
-# How to protect your wallet funds
+# Cüzdan fonlarınızı nasıl koruyabilirsiniz?
 
-### Step 1 - Enable Phone and App Security
+### Adım 1 - Telefon ve Uygulama Güvenliğini Etkinleştirin
 
-Use only the authentic version of Unstoppable Wallet. Download the App exclusively from the links provided on our website: [www.unstoppable.money](http://www.unstoppable.money) Installing the most recent version also provides security fixes and optimized performance.
+Unstoppable Wallet’in sadece orijinal sürümünü kullanın. Uygulamayı yalnızca web sitemizde verilen linklerden indirin: [www.unstoppable.money](http://www.unstoppable.money) En son sürümün yüklenmesi aynı zamanda güvenlik düzeltmeleri ve optimize edilmiş performans sağlar.
 
-Never install Unstoppable Wallet onto a rooted device. Keep your device free of any malware, do not download malicious apps. Always get the most recent updates and security patches for your device. **Lock your phone, or set it to automatically lock itself when not in use.**
+Unstoppable Wallet’i asla root atılmış bir cihaza yüklemeyin. Cihazınızı kötü amaçlı yazılımlardan uzak tutun, kötü amaçlı uygulamalar indirmeyin. Cihazınız için her zaman en son güncellemeleri ve güvenlik yamalarını edinin. **Telefonunuzu kilitleyin veya kullanılmadığında kendini otomatik olarak kilitleyecek şekilde ayarlayın.**
 
-Unstoppable Wallet allows you to prevent unauthorized access by putting a **passcode on the app** itself. With this feature, you must authenticate every time you launch the Unstoppable Wallet. You can enable passcode protection in Settings.
+Unstoppable Wallet, **uygulamanın kendisine bir şifre** koyarak yetkisiz erişime karşı koruma sağlar. Bu özellik sayesinde, Unstoppable Wallet’i her başlattığınızda kimlik doğrulaması yapmanız gerekir. Ayarlar içinden şifre korumasını etkinleştirebilirsiniz.
 
-### Step 2 - Secure your Private Key 
+### Adım 2 - Özel Anahtarınızı Koruyun 
 
-The Private Key is a crucial element for the security of your Unstoppable Wallet. If your device is lost, damaged or stolen, you can use your private key to restore access to your entire wallet. 
+Özel Anahtar, Unstoppable Wallet’inizin güvenliği için çok önemli bir unsurdur. Cihazınız kaybolursa, hasar görürse veya çalınırsa, cüzdanınızın tamamına yeniden erişim sağlamak için özel anahtarınızı kullanabilirsiniz.
 
-Therefore, it is important to keep your Private Keys safe. It is strongly recommended to store your Private Key offline. Write it down on a piece of paper and keep it at a secure vault.
+Bu nedenle, Özel Anahtarlarınızı güvende tutmanız oldukça önemlidir. Özel Anahtarınızı çevrimdışı olarak saklamanız şiddetle tavsiye edilir. Bir kâğıda yazın ve güvenli bir kasada saklayın.
 
-### Step 3 - Educate Yourself
+### Adım 3 - Kendinizi Geliştirin
 
-Anyone who knows your Private Key can access your wallet and have full control of your funds. **When your funds are stolen or lost, we cannot help you retrieve them.**
+Özel Anahtarınızı bilen herkes cüzdanınıza erişebilir ve fonlarınızın tam kontrolüne sahip olabilir. Fonlarınız çalındığında veya kaybolduğunda, onları kurtarmanıza yardımcı olamayız.
+Akılda tutulması gereken bazı ipuçları:
 
-Here are some tips to keep in mind:
-
-- **Never** enter your Private Key on any website.
-- **Never** share your Private Key to anyone. Unless you want to give them access to your funds.
-- Unstoppable Wallet staff will **never** message you directly for any promotions or giveaways.
-- Unstoppable Wallet staff will **never** have a reason to ask you for your private key.
-- **Always** get news and updates from official Unstoppable Wallet social media channels and site.
+- Özel Anahtarınızı **asla** hiçbir web sitesine girmeyiniz.
+- Özel Anahtarınızı **asla** kimseyle paylaşmayın. Fonlarınıza erişim izni vermek istemediğiniz sürece.
+- Unstoppable Wallet personeli, herhangi bir promosyon veya hediye için size **asla** doğrudan mesaj göndermez.
+- Unstoppable Wallet personelinin sizden özel anahtarınızı istemesi için **asla** bir nedeni olmayacaktır.
+- **Daima** resmi Unstoppable Wallet sosyal medya kanallarından ve sitesinden haberleri ve güncellemeleri alın.
