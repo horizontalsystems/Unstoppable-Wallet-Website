@@ -97,7 +97,7 @@
       "markdown": "faq_ios/fr/how-does-unstoppable-wallet-work.md"
     },
     "tr": {
-      "title": "How does Unstoppable Wallet work?",
+      "title": "Unstoppable Wallet nasıl çalışır?",
       "markdown": "faq_ios/tr/how-does-unstoppable-wallet-work.md"
     },
     "zh": {
@@ -135,7 +135,7 @@
       "markdown": "faq_ios/fr/how-to-create-a-multi-coin-wallet.md"
     },
     "tr": {
-      "title": "How to create a multi-coin wallet?",
+      "title": "Çoklu para cüzdanı nasıl oluşturulur?",
       "markdown": "faq_ios/tr/how-to-create-a-multi-coin-wallet.md"
     },
     "zh": {
@@ -173,7 +173,7 @@
       "markdown": "faq_ios/fr/how-to-backup-your-wallet.md"
     },
     "tr": {
-      "title": "How to backup your Wallet(s)?",
+      "title": "Cüzdan(lar)ınızı nasıl yedekleyebilirsiniz?",
       "markdown": "faq_ios/tr/how-to-backup-your-wallet.md"
     },
     "zh": {
@@ -211,7 +211,7 @@
       "markdown": "faq_ios/fr/how-to-protect-your-wallet-funds.md"
     },
     "tr": {
-      "title": "How to protect your wallet funds",
+      "title": "Cüzdan fonlarınızı nasıl koruyabilirsiniz?",
       "markdown": "faq_ios/tr/how-to-protect-your-wallet-funds.md"
     },
     "zh": {
@@ -249,7 +249,7 @@
       "markdown": "faq_ios/fr/how-do-i-buy-cryptocurrency.md"
     },
     "tr": {
-      "title": "How do I buy cryptocurrency?",
+      "title": "Nasıl kripto para satın alabilirim?",
       "markdown": "faq_ios/tr/how-do-i-buy-cryptocurrency.md"
     },
     "zh": {
@@ -287,7 +287,7 @@
       "markdown": "faq_ios/fr/how-to-send-and-receive-cryptocurrency.md"
     },
     "tr": {
-      "title": "How to send and receive cryptocurrency?",
+      "title": "Kripto para nasıl gönderilir ve alınır?",
       "markdown": "faq_ios/tr/how-to-send-and-receive-cryptocurrency.md"
     },
     "zh": {
@@ -325,7 +325,7 @@
       "markdown": "faq_ios/fr/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "tr": {
-      "title": "Does Unstoppable have fees to send or receive?",
+      "title": "Unstoppable gönderme veya alma için ücret alıyor mu?",
       "markdown": "faq_ios/tr/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "zh": {
@@ -363,7 +363,7 @@
       "markdown": "faq_ios/fr/why-did-my-receiving-address-changed.md"
     },
     "tr": {
-      "title": "Why did my receiving address changed?",
+      "title": "Alıcı adresim neden değişti?",
       "markdown": "faq_ios/tr/why-did-my-receiving-address-changed.md"
     },
     "zh": {
@@ -402,7 +402,7 @@
       "markdown": "faq_ios/fr/what-are-cryptocurrency-transaction-fees.md"
     },
     "tr": {
-      "title": "What are cryptocurrency transaction fees?",
+      "title": "Kripto para işlem ücretleri nedir?",
       "markdown": "faq_ios/tr/what-are-cryptocurrency-transaction-fees.md"
     },
     "zh": {
@@ -436,11 +436,11 @@
       "markdown": "faq_ios/es/why-is-my-transaction-pending.md"
     },
     "fr": {
-      "title": "Pourquoi ma transaction est-elle \"en attente\" ??",
+      "title": "Pourquoi ma transaction est-elle \"en attente\" ?",
       "markdown": "faq_ios/fr/why-is-my-transaction-pending.md"
     },
     "tr": {
-      "title": "Why is my transaction \"pending\"?",
+      "title": "İşlemim neden \"beklemede\"?",
       "markdown": "faq_ios/tr/why-is-my-transaction-pending.md"
     },
     "zh": {
@@ -479,7 +479,7 @@
       "markdown": "faq_ios/fr/how-to-add-or-remove-a-coin.md"
     },
     "tr": {
-      "title": "How to add or remove a coin?",
+      "title": "Bir para nasıl eklenir veya çıkarılır?",
       "markdown": "faq_ios/tr/how-to-add-or-remove-a-coin.md"
     },
     "zh": {
@@ -518,7 +518,7 @@
       "markdown": "faq_ios/fr/how-do-i-update-unstoppable.md"
     },
     "tr": {
-      "title": "How do I update Unstoppable?",
+      "title": "Unstoppable nasıl güncellenir?",
       "markdown": "faq_ios/tr/how-do-i-update-unstoppable.md"
     },
     "zh": {
