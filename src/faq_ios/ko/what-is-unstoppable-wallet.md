@@ -1,7 +1,7 @@
-# Unstoppable Wallet nedir?
+# Unstoppable Wallet은 무엇인가요?
 
-- **Gözetim dışı** bir cüzdan, kripto para cüzdanınızın anahtarlarını siz tutarsınız.
-- **Merkezi olmayan** bir cüzdan. Hesap yok, e-posta yok, çek yok (KYC, AML)
-- **Gizlilik** odaklı bir cüzdan. **Herhangi bir kişisel bilgiyi saklamaz.**
-- **Açık kaynak** bir cüzdan. Tüm kod herkese açıktır, isteyen herkes nasıl çalıştığını kontrol edebilir ve doğrulayabilir.
-- Ana amaç, **kriptoyu daha erişilebilir yapmaktır.**
+- 비 위탁형 지갑으로 암호화폐 지갑의 키를 자신이 소유하는 지갑입니다.
+- 탈중앙 지갑입니다. 계정, 이메일, 검증(KYC, AML)이 필요하지 않습니다.
+- 개인 정보를 보호할 수 있는 지갑입니다. 어떠한 개인 정보도 저장하지 않습니다.
+- 오픈 소스 지갑입니다. 모든 코드는 공개되어 있으며 누구나 작동 방식을 확인하고 검증할 수 있습니다.
+- Unstoppable의 주요 목표는 암호화폐의 접근성을 높이는 것입니다.

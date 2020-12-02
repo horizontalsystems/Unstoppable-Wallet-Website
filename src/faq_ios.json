@@ -28,8 +28,8 @@
       "title": "What is Unstoppable Wallet?",
       "markdown": "faq_ios/zh/what-is-unstoppable-wallet.md"
     },
-    "kor": {
-      "title": "What is Unstoppable Wallet?",
+    "ko": {
+      "title": "Unstoppable Wallet은 무엇인가요?",
       "markdown": "faq_ios/kor/what-is-unstoppable-wallet.md"
     },
     "fa": {
@@ -66,8 +66,8 @@
       "title": "Where to download Unstoppable Wallet?",
       "markdown": "faq_ios/zh/where-to-download-unstoppable-wallet.md"
     },
-    "kor": {
-      "title": "Where to download Unstoppable Wallet?",
+    "ko": {
+      "title": "Unstoppable Wallet은 어디에서 다운로드할 수 있나요?",
       "markdown": "faq_ios/kor/where-to-download-unstoppable-wallet.md"
     },
     "fa": {
@@ -104,8 +104,8 @@
       "title": "How does Unstoppable Wallet work?",
       "markdown": "faq_ios/zh/how-does-unstoppable-wallet-work.md"
     },
-    "kor": {
-      "title": "How does Unstoppable Wallet work?",
+    "ko": {
+      "title": "Unstoppable Wallet은 어떻게 작동하나요?",
       "markdown": "faq_ios/kor/how-does-unstoppable-wallet-work.md"
     },
     "fa": {
@@ -142,8 +142,8 @@
       "title": "How to create a multi-coin wallet?",
       "markdown": "faq_ios/zh/how-to-create-a-multi-coin-wallet.md"
     },
-    "kor": {
-      "title": "How to create a multi-coin wallet?",
+    "ko": {
+      "title": "멀티 코인 지갑을 생성하려면 어떻게 해야 하나요?",
       "markdown": "faq_ios/kor/how-to-create-a-multi-coin-wallet.md"
     },
     "fa": {
@@ -180,8 +180,8 @@
       "title": "How to backup your Wallet(s)?",
       "markdown": "faq_ios/zh/how-to-backup-your-wallet.md"
     },
-    "kor": {
-      "title": "How to backup your Wallet(s)?",
+    "ko": {
+      "title": "지갑을 백업하려면 어떻게 해야 하나요?",
       "markdown": "faq_ios/kor/how-to-backup-your-wallet.md"
     },
     "fa": {
@@ -218,8 +218,8 @@
       "title": "How to protect your wallet funds",
       "markdown": "faq_ios/zh/how-to-protect-your-wallet-funds.md"
     },
-    "kor": {
-      "title": "How to protect your wallet funds",
+    "ko": {
+      "title": "지갑 자금을 보호하려면 어떻게 해야 하나요?",
       "markdown": "faq_ios/kor/how-to-protect-your-wallet-funds.md"
     },
     "fa": {
@@ -256,8 +256,8 @@
       "title": "How do I buy cryptocurrency?",
       "markdown": "faq_ios/zh/how-do-i-buy-cryptocurrency.md"
     },
-    "kor": {
-      "title": "How do I buy cryptocurrency?",
+    "ko": {
+      "title": "암호화폐를 구매하려면 어떻게 해야 하나요?",
       "markdown": "faq_ios/kor/how-do-i-buy-cryptocurrency.md"
     },
     "fa": {
@@ -294,8 +294,8 @@
       "title": "How to send and receive cryptocurrency?",
       "markdown": "faq_ios/zh/how-to-send-and-receive-cryptocurrency.md"
     },
-    "kor": {
-      "title": "How to send and receive cryptocurrency?",
+    "ko": {
+      "title": "암호화폐를 전송하거나 수령하려면 어떻게 해야 하나요?",
       "markdown": "faq_ios/kor/how-to-send-and-receive-cryptocurrency.md"
     },
     "fa": {
@@ -332,8 +332,8 @@
       "title": "Does Unstoppable have fees to send or receive?",
       "markdown": "faq_ios/zh/does-unstoppable-have-fees-to-send-or-receive.md"
     },
-    "kor": {
-      "title": "Does Unstoppable have fees to send or receive?",
+    "ko": {
+      "title": "Unstoppable에는 전송 및 수령 수수료가 있나요?",
       "markdown": "faq_ios/kor/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "fa": {
@@ -370,8 +370,8 @@
       "title": "Why did my receiving address changed?",
       "markdown": "faq_ios/zh/why-did-my-receiving-address-changed.md"
     },
-    "kor": {
-      "title": "Why did my receiving address changed?",
+    "ko": {
+      "title": "왜 제 수령 주소가 변경되었나요?",
       "markdown": "faq_ios/kor/why-did-my-receiving-address-changed.md"
     },
     "fa": {
@@ -409,8 +409,8 @@
       "title": "What are cryptocurrency transaction fees?",
       "markdown": "faq_ios/zh/what-are-cryptocurrency-transaction-fees.md"
     },
-    "kor": {
-      "title": "What are cryptocurrency transaction fees?",
+    "ko": {
+      "title": "암호화폐 거래 수수료란 무엇인가요?",
       "markdown": "faq_ios/kor/what-are-cryptocurrency-transaction-fees.md"
     },
     "fa": {
@@ -447,8 +447,8 @@
       "title": "Why is my transaction \"pending\"?",
       "markdown": "faq_ios/zh/why-is-my-transaction-pending.md"
     },
-    "kor": {
-      "title": "Why is my transaction \"pending\"?",
+    "ko": {
+      "title": "왜 제 거래 상태가 \"보류 중\"으로 표시되나요?",
       "markdown": "faq_ios/kor/why-is-my-transaction-pending.md"
     },
     "fa": {
@@ -486,8 +486,8 @@
       "title": "How to add or remove a coin?",
       "markdown": "faq_ios/zh/how-to-add-or-remove-a-coin.md"
     },
-    "kor": {
-      "title": "How to add or remove a coin?",
+    "ko": {
+      "title": "코인을 추가하거나 제거하려면 어떻게 해야 하나요?",
       "markdown": "faq_ios/kor/how-to-add-or-remove-a-coin.md"
     },
     "fa": {
@@ -525,8 +525,8 @@
       "title": "How do I update Unstoppable?",
       "markdown": "faq_ios/zh/how-do-i-update-unstoppable.md"
     },
-    "kor": {
-      "title": "How do I update Unstoppable?",
+    "ko": {
+      "title": "Unstoppable을 업데이트하려면 어떻게 해야 하나요?",
       "markdown": "faq_ios/kor/how-do-i-update-unstoppable.md"
     },
     "fa": {
