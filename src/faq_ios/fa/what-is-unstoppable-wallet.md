@@ -1,7 +1,7 @@
 # What is Unstoppable Wallet
 
-- A **non-custodial wallet**, you hold the keys to your cryptocurrency wallet.
-- A **decentralized** wallet. No accounts, no emails, no checks (KYC, AML)
-- A **privacy** oriented wallet. **Does not keep any personal information**.
-- An **open source** wallet. All code is public, anyone can check and verify how it works.
-- Main goal is **making crypto more accessible**.
+- Un portefeuille **non-privatif de liberté**, vous détenez les clés de votre portefeuille pour cryptomonnaie.- A **decentralized** wallet. No accounts, no emails, no checks (KYC, AML)
+- Un portefeuille **décentralisé**. Pas de comptes, pas d'e-mails, pas de chèques (KYC, AML)
+- Un portefeuille axé sur la **confidentialité**. Ne conserve aucune information personnelle.
+- Un portefeuille **open source**. Tout le code est public, tout le monde peut vérifier et contrôler son fonctionnement.
+- L'objectif principal est **de rendre la crypto plus accessible**.

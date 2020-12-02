@@ -17,11 +17,11 @@
       "markdown": "faq_ios/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "Qu'est-ce que le portefeuille Unstoppable ?",
       "markdown": "faq_ios/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "Unstoppable Wallet nedir?",
       "markdown": "faq_ios/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
@@ -55,11 +55,11 @@
       "markdown": "faq_ios/es/where-to-download-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Where to download Unstoppable Wallet?",
+      "title": "Où télécharger le portefeuille Unstoppable ?",
       "markdown": "faq_ios/fr/where-to-download-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Where to download Unstoppable Wallet?",
+      "title": "Unstoppable Wallet nereden indirilir?",
       "markdown": "faq_ios/tr/where-to-download-unstoppable-wallet.md"
     },
     "zh": {
@@ -93,7 +93,7 @@
       "markdown": "faq_ios/es/how-does-unstoppable-wallet-work.md"
     },
     "fr": {
-      "title": "How does Unstoppable Wallet work?",
+      "title": "Comment fonctionne le portefeuille Unstoppable?",
       "markdown": "faq_ios/fr/how-does-unstoppable-wallet-work.md"
     },
     "tr": {
@@ -131,7 +131,7 @@
       "markdown": "faq_ios/es/how-to-create-a-multi-coin-wallet.md"
     },
     "fr": {
-      "title": "How to create a multi-coin wallet?",
+      "title": "Comment créer un portefeuille multi-pièces ?",
       "markdown": "faq_ios/fr/how-to-create-a-multi-coin-wallet.md"
     },
     "tr": {
@@ -169,7 +169,7 @@
       "markdown": "faq_ios/es/how-to-backup-your-wallet.md"
     },
     "fr": {
-      "title": "How to backup your Wallet(s)?",
+      "title": "Comment sauvegarder votre (vos) portefeuille (s)?",
       "markdown": "faq_ios/fr/how-to-backup-your-wallet.md"
     },
     "tr": {
@@ -207,7 +207,7 @@
       "markdown": "faq_ios/es/how-to-protect-your-wallet-funds.md"
     },
     "fr": {
-      "title": "How to protect your wallet funds",
+      "title": "Comment protéger les fonds de votre portefeuille?",
       "markdown": "faq_ios/fr/how-to-protect-your-wallet-funds.md"
     },
     "tr": {
@@ -245,7 +245,7 @@
       "markdown": "faq_ios/es/how-do-i-buy-cryptocurrency.md"
     },
     "fr": {
-      "title": "How do I buy cryptocurrency?",
+      "title": "Comment acheter de la cryptomonnaie?",
       "markdown": "faq_ios/fr/how-do-i-buy-cryptocurrency.md"
     },
     "tr": {
@@ -283,7 +283,7 @@
       "markdown": "faq_ios/es/how-to-send-and-receive-cryptocurrency.md"
     },
     "fr": {
-      "title": "How to send and receive cryptocurrency?",
+      "title": "Comment envoyer et recevoir de la cryptomonnaie?",
       "markdown": "faq_ios/fr/how-to-send-and-receive-cryptocurrency.md"
     },
     "tr": {
@@ -321,7 +321,7 @@
       "markdown": "faq_ios/es/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "fr": {
-      "title": "Does Unstoppable have fees to send or receive?",
+      "title": "Y a-t-il des frais pour envoyer ou recevoir avec Unstoppable?",
       "markdown": "faq_ios/fr/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "tr": {
@@ -359,7 +359,7 @@
       "markdown": "faq_ios/es/why-did-my-receiving-address-changed.md"
     },
     "fr": {
-      "title": "Why did my receiving address changed?",
+      "title": "Pourquoi mon adresse de réception a-t-elle changé?",
       "markdown": "faq_ios/fr/why-did-my-receiving-address-changed.md"
     },
     "tr": {
@@ -398,7 +398,7 @@
       "markdown": "faq_ios/es/what-are-cryptocurrency-transaction-fees.md"
     },
     "fr": {
-      "title": "What are cryptocurrency transaction fees?",
+      "title": "Quels sont les frais de transaction en cryptomonnaie?",
       "markdown": "faq_ios/fr/what-are-cryptocurrency-transaction-fees.md"
     },
     "tr": {
@@ -436,7 +436,7 @@
       "markdown": "faq_ios/es/why-is-my-transaction-pending.md"
     },
     "fr": {
-      "title": "Why is my transaction \"pending\"?",
+      "title": "Pourquoi ma transaction est-elle \"en attente\" ??",
       "markdown": "faq_ios/fr/why-is-my-transaction-pending.md"
     },
     "tr": {
@@ -475,7 +475,7 @@
       "markdown": "faq_ios/es/how-to-add-or-remove-a-coin.md"
     },
     "fr": {
-      "title": "How to add or remove a coin?",
+      "title": "Comment ajouter ou supprimer une pièce?",
       "markdown": "faq_ios/fr/how-to-add-or-remove-a-coin.md"
     },
     "tr": {
@@ -514,7 +514,7 @@
       "markdown": "faq_ios/es/how-do-i-update-unstoppable.md"
     },
     "fr": {
-      "title": "How do I update Unstoppable?",
+      "title": "Comment puis-je actualiser Unstoppable?",
       "markdown": "faq_ios/fr/how-do-i-update-unstoppable.md"
     },
     "tr": {
