@@ -58,15 +58,6 @@ class Header extends React.Component {
     // document.body.style.overflow = this.dropdown ? 'hidden' : 'inherit'
   }
 
-  onClickMenu = () => {
-    this.onToggleMenu()
-    this.dropdownNav.style.display = 'none'
-
-    if (!this.props.navigate) {
-      window.location.href = '/'
-    }
-  }
-
   onClickHome = () => {
     if (window.location.pathname === '/') {
       window.scrollTo(0, 0)
@@ -83,8 +74,7 @@ class Header extends React.Component {
         <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://github.com/horizontalsystems">
           Wallet Code
         </a>
-        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://t.me/UnstoppableWallet"
-           onClick={this.onClickMenu}>Tech Support</a>
+        <Link className="nav-item" to="/faq">Faq</Link>
         {sticky && <Button
           className="Button-circle nav-btn-item ml-20"
           text="Google Play" icon="google-play"
