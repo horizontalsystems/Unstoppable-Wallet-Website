@@ -5,6 +5,7 @@ import Page from '../Page'
 import Feature from '../Feature'
 import Wallet from '../Wallet'
 import Footer from '../Footer/Footer'
+import Join from '../Join/Join'
 
 import './App.scss'
 
@@ -76,7 +77,10 @@ function App() {
       <div id="page-5" className="Page-black">
         <Wallet />
       </div>
-      <div id="page-6" className="Page-black">
+      <div id="page-6" className="Page-dark">
+        <Join />
+      </div>
+      <div id="page-7" className="Page-dark">
         <Footer />
       </div>
     </div>

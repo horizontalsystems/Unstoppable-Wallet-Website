@@ -1,0 +1,31 @@
+@import "../../scss/utils";
+
+.Section-join {
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+  @include md {
+    padding-bottom: 160px;
+  }
+}
+
+.Join-item {
+  flex: 1;
+  padding: 0 17px;
+}
+
+.Join-image {
+  width: 70px;
+  transition: transform .4s ease-in-out;
+
+  @include md {
+    width: 162px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    //transform: rotate(360deg);
+  }
+}
