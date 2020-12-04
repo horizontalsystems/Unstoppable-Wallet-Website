@@ -68,7 +68,7 @@ class Header extends React.Component {
         <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://horizontalsystems.io/">
           About Us
         </a>
-        <Link className="nav-item" to="/faq">Faq</Link>
+        <Link className="nav-item" to="/faq">FAQ</Link>
         {sticky && <Button
           className="Button-circle nav-btn-item ml-20"
           text="Google Play" icon="google-play"
