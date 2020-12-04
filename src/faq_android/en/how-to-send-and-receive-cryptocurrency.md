@@ -8,7 +8,7 @@
 
 2. Now tap on the Send button on the right hand side of your wallet
 
-![](../images/andrid-sent-2-l.png)
+![](../images/android-sent-2-l.png)
 
 3. Enter amount of tokens and the crypto address of the person you would like to send the crypto. Select Next to review and confirm the details of this send.
 
