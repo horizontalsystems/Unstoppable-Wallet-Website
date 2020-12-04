@@ -6,6 +6,7 @@
 
 .Faq-title {
   padding-top: 40px;
+  padding-bottom: 36px;
   font-weight: normal;
   font-size: 48px;
   line-height: 65px;
@@ -22,20 +23,15 @@
   position: relative;
   border: 1px solid rgba(128, 128, 133, 0.5);
   border-radius: 16px;
-  padding: 24px 30px;
   margin: 8px 0;
   cursor: pointer;
-}
-
-.Faq-active {
-
 }
 
 .Faq-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding: 24px 30px;
 
   font-size: 18px;
   line-height: 25px;
@@ -43,5 +39,17 @@
 }
 
 .Faq-content {
+  padding: 0 30px;
 
+  .divider {
+    height: .5px;
+    margin-bottom: 24px;
+    background: rgba(128, 128, 133, 0.5);
+  }
+
+  .Markdown {
+    h1:first-child {
+      display: none;
+    }
+  }
 }

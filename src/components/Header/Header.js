@@ -6,18 +6,15 @@ import cn from 'classnames'
 import Container from '../Container'
 import HeaderLogo from './HeaderLogo.svg'
 import Icon from '../Icon'
+import Button from '../Button'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 import './Header.scss'
-import Button from '../Button'
 
 class Header extends React.Component {
   state = {}
 
   dropdown = false
-  static defaultProps = {
-    navigate: true
-  }
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);

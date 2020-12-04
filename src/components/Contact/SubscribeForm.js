@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Done from '../Icon/done.svg'
 
 import './ContactForm.scss'
@@ -29,7 +30,7 @@ class SubscribeForm extends React.Component {
             <input type="checkbox" defaultChecked={true} required />
             <span className="checkbox-custom" />
             <div className="Contact-checkbox-description">
-              By signing up, you agree to Horizontal Systems <a href="https://horizontalsystems.io/privacy">Privacy Policy</a>
+              By signing up, you agree to Horizontal Systems <Link to="/privacy">Privacy Policy</Link>
             </div>
           </label>
         </form>

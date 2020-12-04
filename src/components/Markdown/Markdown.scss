@@ -1,9 +1,23 @@
 @import "../../scss/utils";
 
 .Markdown {
+  overflow: hidden;
+  font-size: 18px;
+  line-height: 28px;
+
+  @include sm {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
   p, ul, ol, blockquote {
     margin-top: 12px;
     margin-bottom: 24px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   a {
@@ -12,7 +26,7 @@
   }
 
   ul, ol {
-    list-style: inherit;
+    list-style: circle;
     padding-left: 1.5em;
   }
 
@@ -26,12 +40,7 @@
   }
 
   h1, h2, h3 {
-    scroll-margin-top: 160px;
     position: relative;
-
-    @include md {
-      scroll-margin-top: 120px;
-    }
 
     a {
       position: absolute;
@@ -95,7 +104,6 @@
   }
 
   blockquote {
-    background: $light;
     color: $grey;
     padding: 12px 12px 12px 16px;
     position: relative;
@@ -122,15 +130,6 @@
 
     > * {
       margin: 0;
-    }
-  }
-
-  img:first-child {
-    min-height: 550px;
-    object-fit: contain;
-
-    @include sm {
-      min-height: 230px;
     }
   }
 }

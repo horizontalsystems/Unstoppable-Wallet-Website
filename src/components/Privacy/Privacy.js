@@ -9,8 +9,8 @@ function Privacy() {
   return (
     <div>
       <Header navigate={false} />
-      <Container>
-        <Markdown file="Privacy/privacy.md" />
+      <Container className="Privacy">
+        <Markdown file={require('./privacy.md')} />
       </Container>
     </div>
   )
