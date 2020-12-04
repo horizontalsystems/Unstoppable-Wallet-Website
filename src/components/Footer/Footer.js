@@ -23,10 +23,11 @@ class Footer extends React.Component {
             <div className="Footer-nav">
               <Link to="/" className="Footer-nav-item" onClick={this.onClickHome}>Home</Link>
               <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io">About Us</a>
-              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://t.me/UnstoppableWallet">Tech Support</a>
-              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://github.com/horizontalsystems">Wallet Code</a>
-              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://t.me/unstoppable_development">For Developers</a>
-              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Academy</a>
+              <Link to="/faq" className="Footer-nav-item">FAQ</Link>
+              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Litrex Academy</a>
+
+              <div className="Footer-nav-contact-us">Contact us:</div>
+              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="mailto:hsdao@protonmail.ch">hsdao@protonmail.ch</a>
             </div>
             <div className="Footer-subscribe">
               <SubscribeForm formCode="m3g0e6" formId="1561498" />
