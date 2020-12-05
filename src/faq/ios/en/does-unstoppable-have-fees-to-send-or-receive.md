@@ -1,13 +1,13 @@
-# Unstoppable gönderme veya alma için ücret alıyor mu?
+# Does Unstoppable have fees to send or receive?
 
-Neredeyse tüm blok zinciri işlemleri ağ veya madenci ücretlerine tabidir (birkaç istisna dışında). Ağa giden ücretler dışında, Unstoppable gönderme veya alma için ücret almaz.
+Almost all blockchain transactions incur network or miner fees (with a few exceptions). Other than the fees that go to the network, Unstoppable does not charge fees for sending or receiving.
 
-### İşlem Ücretleri Nelerdir?
+### What are Transaction Fees?
 
-Herhangi bir blok zincir ağının (Bitcoin, Ethereum, vb.) kullanılması, bir işlem göndermek için küçük bir ücret gerektirir. Bunun nedeni ise ağdaki tüm işlemlerin işlenmesine ve güvenliğinin sağlanmasına yardımcı olmak amacıyla sürekli olarak bilgi işlem gücü ve elektrik gibi kaynakları harcayan insanların (madenciler olarak adlandırılır) olmasıdır. İşlem ücretleri onlara gider. Bu ücretler Unstoppable’a gitmez, işlemlerin güvenilir ve hızlı bir şekilde ulaşmasını sağlamak için tamamı ağa (madencilere) ödenir.
+The use of any blockchain network (Bitcoin, Ethereum, etc.) requires a small fee to send a transaction. This is because there are people (called miners) who are constantly spending resources like computing power and electricity to help process and secure all transactions on the network. Transaction fees go to them. These fees do not go to Unstoppable, they are paid in full to the network (miners) to ensure transactions are delivered reliably and quickly.
 
-Popüler ağlar kalabalıktır ve bu nedenle daha pahalıdır. Bugün, Bitcoin en popüler ağdır ve Unstoppable Wallet tarafından desteklenen herhangi bir dijital varlığın en yüksek ücretlerine sahiptir.
+Popular networks are crowded and thus more expensive. Today, Bitcoin is the most popular network and has the highest fees of any digital asset supported by Unstoppable Wallet.
 
-Blok zincir ağları, herhangi bir kullanıcının başka kullanıcıların beklemesine neden olacak şekilde ağı gereksiz işlemlerle meşgul etmesini zorlaştırmak için ücret alır. İşlem göndermek ücretsiz olsaydı, kötü bir katılımcı çok sayıda küçük işlemle ağa spam göndererek herkes için ağ hızına ve güvenilirliğine zarar verebilirdi. Bu bakımdan ücretler, ağı güvenli hale getirmek için Bitcoin Protokolü (ve diğer birçok blok zinciri) tarafından oluşturulmuş birçok teşvikten biridir.
+Blockchain networks use fees to make it hard for any one user to flood the network with junk transactions causing others to have to wait. If sending transactions were free, one bad actor could damage the network speed and reliability for everyone by spamming the network with a lot of tiny transactions. Fees, in this respect, are one of the many incentives created by the Bitcoin Protocol (and most other blockchains) to make it secure.
 
-Bitcoin Ücretleri, genellikle Byte veya Sats/b başına Satoshis (Bitcoin'in en küçük birimi) cinsinden ölçülür. Ne kadar fazla bilgi (byte) olursa, o kadar çok Satoshis (BTC biti) ödemeniz gerekir. Bir işlemdeki bilgi miktarı, gönderilen miktara değil, önceden alınan depozitoların sayısına bağlıdır. Bir işlemin boyutu, girdi ve çıktıların sayısına göre belirlenir. Ne kadar çok girdiniz varsa, işlem o kadar pahalıdır.
+Bitcoin Fees are typically measured in *Satoshis* (Bitcoin's smallest unit) per Byte or Sats/b. The more information (bytes), the more Satoshis (bits of BTC) you will have to pay. The amount of information in a transaction does not depend on the amount sent, but on the number of previously received deposits. A transaction's size is dictated by the number of inputs and outputs. The more inputs you have, the more expensive the transaction is.
