@@ -2,7 +2,7 @@
 
 Download Unstoppable only from official sources.
 
-Here are the download links for both platforms:
+Here are the download links:
 
 [**Google Play**](https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet)
 
