@@ -5,7 +5,7 @@
       "markdown": "faq/ios/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "Что такое Unstoppable кошелек?",
       "markdown": "faq/ios/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
@@ -43,7 +43,7 @@
       "markdown": "faq/ios/en/where-to-download-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Where to download Unstoppable Wallet?",
+      "title": "Где скачать Unstoppable кошелек?",
       "markdown": "faq/ios/ru/where-to-download-unstoppable-wallet.md"
     },
     "de": {
@@ -81,7 +81,7 @@
       "markdown": "faq/ios/en/how-does-unstoppable-wallet-work.md"
     },
     "ru": {
-      "title": "How does Unstoppable Wallet work?",
+      "title": "Как работает Unstoppable кошелек?",
       "markdown": "faq/ios/ru/how-does-unstoppable-wallet-work.md"
     },
     "de": {
@@ -119,7 +119,7 @@
       "markdown": "faq/ios/en/how-to-create-a-multi-coin-wallet.md"
     },
     "ru": {
-      "title": "How to create a multi-coin wallet?",
+      "title": "Как создать мультивалютный кошелек?",
       "markdown": "faq/ios/ru/how-to-create-a-multi-coin-wallet.md"
     },
     "de": {
@@ -157,7 +157,7 @@
       "markdown": "faq/ios/en/how-to-backup-your-wallet.md"
     },
     "ru": {
-      "title": "How to backup your Wallet(s)?",
+      "title": "Как создать резервную копию вашего(-их) кошелька(-ов)?",
       "markdown": "faq/ios/ru/how-to-backup-your-wallet.md"
     },
     "de": {
@@ -195,7 +195,7 @@
       "markdown": "faq/ios/en/how-to-protect-your-wallet-funds.md"
     },
     "ru": {
-      "title": "How to protect your wallet funds",
+      "title": "Как защитить средства, хранящиеся в вашем кошельке?",
       "markdown": "faq/ios/ru/how-to-protect-your-wallet-funds.md"
     },
     "de": {
@@ -233,7 +233,7 @@
       "markdown": "faq/ios/en/how-do-i-buy-cryptocurrency.md"
     },
     "ru": {
-      "title": "How do I buy cryptocurrency?",
+      "title": "Как купить криптовалюту?",
       "markdown": "faq/ios/ru/how-do-i-buy-cryptocurrency.md"
     },
     "de": {
@@ -271,7 +271,7 @@
       "markdown": "faq/ios/en/how-to-send-and-receive-cryptocurrency.md"
     },
     "ru": {
-      "title": "How to send and receive cryptocurrency?",
+      "title": "Как отправить и получить криптовалюту?",
       "markdown": "faq/ios/ru/how-to-send-and-receive-cryptocurrency.md"
     },
     "de": {
@@ -309,7 +309,7 @@
       "markdown": "faq/ios/en/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "ru": {
-      "title": "Does Unstoppable have fees to send or receive?",
+      "title": "Берет ли Unstoppable плату за отправку или получение?",
       "markdown": "faq/ios/ru/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "de": {
@@ -347,7 +347,7 @@
       "markdown": "faq/ios/en/why-did-my-receiving-address-changed.md"
     },
     "ru": {
-      "title": "Why did my receiving address changed?",
+      "title": "Почему изменился мой адрес получателя?",
       "markdown": "faq/ios/ru/why-did-my-receiving-address-changed.md"
     },
     "de": {
@@ -385,7 +385,7 @@
       "markdown": "faq/ios/en/what-are-cryptocurrency-transaction-fees.md"
     },
     "ru": {
-      "title": "What are cryptocurrency transaction fees?",
+      "title": "Что такое ставка на осуществление транзакции в криптовалюте?",
       "markdown": "faq/ios/ru/what-are-cryptocurrency-transaction-fees.md"
     },
     "de": {
@@ -423,7 +423,7 @@
       "markdown": "faq/ios/en/why-is-my-transaction-pending.md"
     },
     "ru": {
-      "title": "Why is my transaction \"pending\"?",
+      "title": "Почему моя транзакция находится в \"ожидании\"?",
       "markdown": "faq/ios/ru/why-is-my-transaction-pending.md"
     },
     "de": {
@@ -461,7 +461,7 @@
       "markdown": "faq/ios/en/how-to-add-or-remove-a-coin.md"
     },
     "ru": {
-      "title": "How to add or remove a coin?",
+      "title": "Как добавить или удалить криптовалюту?",
       "markdown": "faq/ios/ru/how-to-add-or-remove-a-coin.md"
     },
     "de": {
@@ -499,7 +499,7 @@
       "markdown": "faq/ios/en/how-do-i-update-unstoppable.md"
     },
     "ru": {
-      "title": "How do I update Unstoppable?",
+      "title": "Как обновить Unstoppable?",
       "markdown": "faq/ios/ru/how-do-i-update-unstoppable.md"
     },
     "de": {
