@@ -5,7 +5,7 @@
       "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "Что такое Unstoppable кошелек?",
       "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
@@ -13,24 +13,24 @@
       "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
     },
     "es": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "¿Qué es Unstoppable Wallet?",
       "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "Qu'est-ce que le portefeuille Unstoppable ?",
       "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "Unstoppable Wallet nedir?",
       "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
       "title": "What is Unstoppable Wallet?",
       "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
     },
-    "kor": {
-      "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/android/kor/what-is-unstoppable-wallet.md"
+    "ko": {
+      "title": "Unstoppable Wallet은 무엇인가요?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
     },
     "fa": {
       "title": "What is Unstoppable Wallet?",
@@ -43,7 +43,7 @@
       "markdown": "faq/android/en/where-to-download-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Where to download Unstoppable Wallet?",
+      "title": "Где скачать Unstoppable кошелек?",
       "markdown": "faq/android/ru/where-to-download-unstoppable-wallet.md"
     },
     "de": {
@@ -51,24 +51,24 @@
       "markdown": "faq/android/de/where-to-download-unstoppable-wallet.md"
     },
     "es": {
-      "title": "Where to download Unstoppable Wallet?",
+      "title": "¿Dónde puedes descargar Unstoppable Wallet?",
       "markdown": "faq/android/es/where-to-download-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Where to download Unstoppable Wallet?",
+      "title": "Où télécharger le portefeuille Unstoppable ?",
       "markdown": "faq/android/fr/where-to-download-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Where to download Unstoppable Wallet?",
+      "title": "Unstoppable Wallet nereden indirilir?",
       "markdown": "faq/android/tr/where-to-download-unstoppable-wallet.md"
     },
     "zh": {
       "title": "Where to download Unstoppable Wallet?",
       "markdown": "faq/android/zh/where-to-download-unstoppable-wallet.md"
     },
-    "kor": {
-      "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/android/kor/where-to-download-unstoppable-wallet.md"
+    "ko": {
+      "title": "Unstoppable Wallet은 어디에서 다운로드할 수 있나요?",
+      "markdown": "faq/android/ko/where-to-download-unstoppable-wallet.md"
     },
     "fa": {
       "title": "Where to download Unstoppable Wallet?",
@@ -81,7 +81,7 @@
       "markdown": "faq/android/en/how-does-unstoppable-wallet-work.md"
     },
     "ru": {
-      "title": "How does Unstoppable Wallet work?",
+      "title": "Как работает Unstoppable кошелек?",
       "markdown": "faq/android/ru/how-does-unstoppable-wallet-work.md"
     },
     "de": {
@@ -89,24 +89,24 @@
       "markdown": "faq/android/de/how-does-unstoppable-wallet-work.md"
     },
     "es": {
-      "title": "How does Unstoppable Wallet work?",
+      "title": "¿Cómo funciona la Unstoppable Wallet?",
       "markdown": "faq/android/es/how-does-unstoppable-wallet-work.md"
     },
     "fr": {
-      "title": "How does Unstoppable Wallet work?",
+      "title": "Comment fonctionne le portefeuille Unstoppable?",
       "markdown": "faq/android/fr/how-does-unstoppable-wallet-work.md"
     },
     "tr": {
-      "title": "How does Unstoppable Wallet work?",
+      "title": "Unstoppable Wallet nasıl çalışır?",
       "markdown": "faq/android/tr/how-does-unstoppable-wallet-work.md"
     },
     "zh": {
       "title": "How does Unstoppable Wallet work?",
       "markdown": "faq/android/zh/how-does-unstoppable-wallet-work.md"
     },
-    "kor": {
-      "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/android/kor/how-does-unstoppable-wallet-work.md"
+    "ko": {
+      "title": "Unstoppable Wallet은 어떻게 작동하나요?",
+      "markdown": "faq/android/ko/how-does-unstoppable-wallet-work.md"
     },
     "fa": {
       "title": "How does Unstoppable Wallet work?",
@@ -119,7 +119,7 @@
       "markdown": "faq/android/en/how-to-create-a-multi-coin-wallet.md"
     },
     "ru": {
-      "title": "How to create a multi-coin wallet?",
+      "title": "Как создать мультивалютный кошелек?",
       "markdown": "faq/android/ru/how-to-create-a-multi-coin-wallet.md"
     },
     "de": {
@@ -127,24 +127,24 @@
       "markdown": "faq/android/de/how-to-create-a-multi-coin-wallet.md"
     },
     "es": {
-      "title": "How to create a multi-coin wallet?",
+      "title": "¿Cómo crear un monedero multimoneda?",
       "markdown": "faq/android/es/how-to-create-a-multi-coin-wallet.md"
     },
     "fr": {
-      "title": "How to create a multi-coin wallet?",
+      "title": "Comment créer un portefeuille multi-pièces ?",
       "markdown": "faq/android/fr/how-to-create-a-multi-coin-wallet.md"
     },
     "tr": {
-      "title": "How to create a multi-coin wallet?",
+      "title": "Çoklu para cüzdanı nasıl oluşturulur?",
       "markdown": "faq/android/tr/how-to-create-a-multi-coin-wallet.md"
     },
     "zh": {
       "title": "How to create a multi-coin wallet?",
       "markdown": "faq/android/zh/how-to-create-a-multi-coin-wallet.md"
     },
-    "kor": {
-      "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/android/kor/how-to-create-a-multi-coin-wallet.md"
+    "ko": {
+      "title": "멀티 코인 지갑을 생성하려면 어떻게 해야 하나요?",
+      "markdown": "faq/android/ko/how-to-create-a-multi-coin-wallet.md"
     },
     "fa": {
       "title": "How to create a multi-coin wallet?",
@@ -157,7 +157,7 @@
       "markdown": "faq/android/en/how-to-backup-your-wallet.md"
     },
     "ru": {
-      "title": "How to backup your Wallet(s)?",
+      "title": "Как создать резервную копию вашего(-их) кошелька(-ов)?",
       "markdown": "faq/android/ru/how-to-backup-your-wallet.md"
     },
     "de": {
@@ -165,24 +165,24 @@
       "markdown": "faq/android/de/how-to-backup-your-wallet.md"
     },
     "es": {
-      "title": "How to backup your Wallet(s)?",
+      "title": "¿Cómo hacer un backup de tu monedero (s)?",
       "markdown": "faq/android/es/how-to-backup-your-wallet.md"
     },
     "fr": {
-      "title": "How to backup your Wallet(s)?",
+      "title": "Comment sauvegarder votre (vos) portefeuille (s)?",
       "markdown": "faq/android/fr/how-to-backup-your-wallet.md"
     },
     "tr": {
-      "title": "How to backup your Wallet(s)?",
+      "title": "Cüzdan(lar)ınızı nasıl yedekleyebilirsiniz?",
       "markdown": "faq/android/tr/how-to-backup-your-wallet.md"
     },
     "zh": {
       "title": "How to backup your Wallet(s)?",
       "markdown": "faq/android/zh/how-to-backup-your-wallet.md"
     },
-    "kor": {
-      "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/android/kor/how-to-backup-your-wallet.md"
+    "ko": {
+      "title": "지갑을 백업하려면 어떻게 해야 하나요?",
+      "markdown": "faq/android/ko/how-to-backup-your-wallet.md"
     },
     "fa": {
       "title": "How to backup your Wallet(s)?",
@@ -195,32 +195,32 @@
       "markdown": "faq/android/en/how-to-protect-your-wallet-funds.md"
     },
     "ru": {
-      "title": "How to protect your wallet funds",
+      "title": "Как защитить средства, хранящиеся в вашем кошельке?",
       "markdown": "faq/android/ru/how-to-protect-your-wallet-funds.md"
     },
     "de": {
-      "title": "How to protect your wallet funds",
+      "title": "Wie schützt man die Gelder im Wallet?",
       "markdown": "faq/android/de/how-to-protect-your-wallet-funds.md"
     },
     "es": {
-      "title": "How to protect your wallet funds",
+      "title": "¿Cómo proteger los fondos de tu monedero?",
       "markdown": "faq/android/es/how-to-protect-your-wallet-funds.md"
     },
     "fr": {
-      "title": "How to protect your wallet funds",
+      "title": "Comment protéger les fonds de votre portefeuille?",
       "markdown": "faq/android/fr/how-to-protect-your-wallet-funds.md"
     },
     "tr": {
-      "title": "How to protect your wallet funds",
+      "title": "Cüzdan fonlarınızı nasıl koruyabilirsiniz?",
       "markdown": "faq/android/tr/how-to-protect-your-wallet-funds.md"
     },
     "zh": {
       "title": "How to protect your wallet funds",
       "markdown": "faq/android/zh/how-to-protect-your-wallet-funds.md"
     },
-    "kor": {
-      "title": "How to protect your wallet funds",
-      "markdown": "faq/android/kor/how-to-protect-your-wallet-funds.md"
+    "ko": {
+      "title": "지갑 자금을 보호하려면 어떻게 해야 하나요?",
+      "markdown": "faq/android/ko/how-to-protect-your-wallet-funds.md"
     },
     "fa": {
       "title": "How to protect your wallet funds",
@@ -233,32 +233,32 @@
       "markdown": "faq/android/en/how-do-i-buy-cryptocurrency.md"
     },
     "ru": {
-      "title": "How do I buy cryptocurrency?",
+      "title": "Как купить криптовалюту?",
       "markdown": "faq/android/ru/how-do-i-buy-cryptocurrency.md"
     },
     "de": {
-      "title": "How do I buy cryptocurrency?",
+      "title": "Wie kaufe ich Kryptowährung?",
       "markdown": "faq/android/de/how-do-i-buy-cryptocurrency.md"
     },
     "es": {
-      "title": "How do I buy cryptocurrency?",
+      "title": "¿Cómo compro cripto monedas?",
       "markdown": "faq/android/es/how-do-i-buy-cryptocurrency.md"
     },
     "fr": {
-      "title": "How do I buy cryptocurrency?",
+      "title": "Comment acheter de la cryptomonnaie?",
       "markdown": "faq/android/fr/how-do-i-buy-cryptocurrency.md"
     },
     "tr": {
-      "title": "How do I buy cryptocurrency?",
+      "title": "Nasıl kripto para satın alabilirim?",
       "markdown": "faq/android/tr/how-do-i-buy-cryptocurrency.md"
     },
     "zh": {
       "title": "How do I buy cryptocurrency?",
       "markdown": "faq/android/zh/how-do-i-buy-cryptocurrency.md"
     },
-    "kor": {
-      "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/android/kor/how-do-i-buy-cryptocurrency.md"
+    "ko": {
+      "title": "암호화폐를 구매하려면 어떻게 해야 하나요?",
+      "markdown": "faq/android/ko/how-do-i-buy-cryptocurrency.md"
     },
     "fa": {
       "title": "How do I buy cryptocurrency?",
@@ -271,32 +271,32 @@
       "markdown": "faq/android/en/how-to-send-and-receive-cryptocurrency.md"
     },
     "ru": {
-      "title": "How to send and receive cryptocurrency?",
+      "title": "Как отправить и получить криптовалюту?",
       "markdown": "faq/android/ru/how-to-send-and-receive-cryptocurrency.md"
     },
     "de": {
-      "title": "How to send and receive cryptocurrency?",
+      "title": "Wie sendet und empfängt man Kryptowährung?",
       "markdown": "faq/android/de/how-to-send-and-receive-cryptocurrency.md"
     },
     "es": {
-      "title": "How to send and receive cryptocurrency?",
+      "title": "¿Cómo envío y recibo cripto monedas?",
       "markdown": "faq/android/es/how-to-send-and-receive-cryptocurrency.md"
     },
     "fr": {
-      "title": "How to send and receive cryptocurrency?",
+      "title": "Comment envoyer et recevoir de la cryptomonnaie?",
       "markdown": "faq/android/fr/how-to-send-and-receive-cryptocurrency.md"
     },
     "tr": {
-      "title": "How to send and receive cryptocurrency?",
+      "title": "Kripto para nasıl gönderilir ve alınır?",
       "markdown": "faq/android/tr/how-to-send-and-receive-cryptocurrency.md"
     },
     "zh": {
       "title": "How to send and receive cryptocurrency?",
       "markdown": "faq/android/zh/how-to-send-and-receive-cryptocurrency.md"
     },
-    "kor": {
-      "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/android/kor/how-to-send-and-receive-cryptocurrency.md"
+    "ko": {
+      "title": "암호화폐를 전송하거나 수령하려면 어떻게 해야 하나요?",
+      "markdown": "faq/android/ko/how-to-send-and-receive-cryptocurrency.md"
     },
     "fa": {
       "title": "How to send and receive cryptocurrency?",
@@ -309,32 +309,32 @@
       "markdown": "faq/android/en/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "ru": {
-      "title": "Does Unstoppable have fees to send or receive?",
+      "title": "Берет ли Unstoppable плату за отправку или получение?",
       "markdown": "faq/android/ru/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "de": {
-      "title": "Does Unstoppable have fees to send or receive?",
+      "title": "Hat Unstoppable Gebühren für das Versenden oder Empfangen?",
       "markdown": "faq/android/de/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "es": {
-      "title": "Does Unstoppable have fees to send or receive?",
+      "title": "¿Unstoppable tiene tarifas al enviar o recibir?",
       "markdown": "faq/android/es/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "fr": {
-      "title": "Does Unstoppable have fees to send or receive?",
+      "title": "Y a-t-il des frais pour envoyer ou recevoir avec Unstoppable?",
       "markdown": "faq/android/fr/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "tr": {
-      "title": "Does Unstoppable have fees to send or receive?",
+      "title": "Unstoppable gönderme veya alma için ücret alıyor mu?",
       "markdown": "faq/android/tr/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "zh": {
       "title": "Does Unstoppable have fees to send or receive?",
       "markdown": "faq/android/zh/does-unstoppable-have-fees-to-send-or-receive.md"
     },
-    "kor": {
-      "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/android/kor/does-unstoppable-have-fees-to-send-or-receive.md"
+    "ko": {
+      "title": "Unstoppable에는 전송 및 수령 수수료가 있나요?",
+      "markdown": "faq/android/ko/does-unstoppable-have-fees-to-send-or-receive.md"
     },
     "fa": {
       "title": "Does Unstoppable have fees to send or receive?",
@@ -347,32 +347,32 @@
       "markdown": "faq/android/en/why-did-my-receiving-address-changed.md"
     },
     "ru": {
-      "title": "Why did my receiving address changed?",
+      "title": "Почему изменился мой адрес получателя?",
       "markdown": "faq/android/ru/why-did-my-receiving-address-changed.md"
     },
     "de": {
-      "title": "Why did my receiving address changed?",
+      "title": "Warum hat sich meine Empfangsadresse geändert?",
       "markdown": "faq/android/de/why-did-my-receiving-address-changed.md"
     },
     "es": {
-      "title": "Why did my receiving address changed?",
+      "title": " ¿Por qué mi dirección de recepción cambió?",
       "markdown": "faq/android/es/why-did-my-receiving-address-changed.md"
     },
     "fr": {
-      "title": "Why did my receiving address changed?",
+      "title": "Pourquoi mon adresse de réception a-t-elle changé?",
       "markdown": "faq/android/fr/why-did-my-receiving-address-changed.md"
     },
     "tr": {
-      "title": "Why did my receiving address changed?",
+      "title": "Alıcı adresim neden değişti?",
       "markdown": "faq/android/tr/why-did-my-receiving-address-changed.md"
     },
     "zh": {
       "title": "Why did my receiving address changed?",
       "markdown": "faq/android/zh/why-did-my-receiving-address-changed.md"
     },
-    "kor": {
-      "title": "Why did my receiving address changed?",
-      "markdown": "faq/android/kor/why-did-my-receiving-address-changed.md"
+    "ko": {
+      "title": "왜 제 수령 주소가 변경되었나요?",
+      "markdown": "faq/android/ko/why-did-my-receiving-address-changed.md"
     },
     "fa": {
       "title": "Why did my receiving address changed?",
@@ -385,32 +385,32 @@
       "markdown": "faq/android/en/what-are-cryptocurrency-transaction-fees.md"
     },
     "ru": {
-      "title": "What are cryptocurrency transaction fees?",
+      "title": "Что такое ставка на осуществление транзакции в криптовалюте?",
       "markdown": "faq/android/ru/what-are-cryptocurrency-transaction-fees.md"
     },
     "de": {
-      "title": "What are cryptocurrency transaction fees?",
+      "title": "Was sind Gebühren für Kryptowährung-Transaktionen?",
       "markdown": "faq/android/de/what-are-cryptocurrency-transaction-fees.md"
     },
     "es": {
-      "title": "What are cryptocurrency transaction fees?",
+      "title": "¿Qué son las tarifas de transacción de cripto monedas?",
       "markdown": "faq/android/es/what-are-cryptocurrency-transaction-fees.md"
     },
     "fr": {
-      "title": "What are cryptocurrency transaction fees?",
+      "title": "Quels sont les frais de transaction en cryptomonnaie?",
       "markdown": "faq/android/fr/what-are-cryptocurrency-transaction-fees.md"
     },
     "tr": {
-      "title": "What are cryptocurrency transaction fees?",
+      "title": "Kripto para işlem ücretleri nedir?",
       "markdown": "faq/android/tr/what-are-cryptocurrency-transaction-fees.md"
     },
     "zh": {
       "title": "What are cryptocurrency transaction fees?",
       "markdown": "faq/android/zh/what-are-cryptocurrency-transaction-fees.md"
     },
-    "kor": {
-      "title": "What are cryptocurrency transaction fees?",
-      "markdown": "faq/android/kor/what-are-cryptocurrency-transaction-fees.md"
+    "ko": {
+      "title": "암호화폐 거래 수수료란 무엇인가요?",
+      "markdown": "faq/android/ko/what-are-cryptocurrency-transaction-fees.md"
     },
     "fa": {
       "title": "What are cryptocurrency transaction fees?",
@@ -423,32 +423,32 @@
       "markdown": "faq/android/en/why-is-my-transaction-pending.md"
     },
     "ru": {
-      "title": "Why is my transaction \"pending\"?",
+      "title": "Почему моя транзакция находится в \"ожидании\"?",
       "markdown": "faq/android/ru/why-is-my-transaction-pending.md"
     },
     "de": {
-      "title": "Why is my transaction \"pending\"?",
+      "title": "Warum ist meine Transaktion \"ausstehend\"?",
       "markdown": "faq/android/de/why-is-my-transaction-pending.md"
     },
     "es": {
-      "title": "Why is my transaction \"pending\"?",
+      "title": "¿Por qué mi transacción está \"pendiente\"?",
       "markdown": "faq/android/es/why-is-my-transaction-pending.md"
     },
     "fr": {
-      "title": "Why is my transaction \"pending\"?",
+      "title": "Pourquoi ma transaction est-elle \"en attente\" ?",
       "markdown": "faq/android/fr/why-is-my-transaction-pending.md"
     },
     "tr": {
-      "title": "Why is my transaction \"pending\"?",
+      "title": "İşlemim neden \"beklemede\"?",
       "markdown": "faq/android/tr/why-is-my-transaction-pending.md"
     },
     "zh": {
       "title": "Why is my transaction \"pending\"?",
       "markdown": "faq/android/zh/why-is-my-transaction-pending.md"
     },
-    "kor": {
-      "title": "Why is my transaction \"pending\"?",
-      "markdown": "faq/android/kor/why-is-my-transaction-pending.md"
+    "ko": {
+      "title": "왜 제 거래 상태가 \"보류 중\"으로 표시되나요?",
+      "markdown": "faq/android/ko/why-is-my-transaction-pending.md"
     },
     "fa": {
       "title": "Why is my transaction \"pending\"?",
@@ -461,32 +461,32 @@
       "markdown": "faq/android/en/how-to-add-or-remove-a-coin.md"
     },
     "ru": {
-      "title": "How to add or remove a coin?",
+      "title": "Как добавить или удалить криптовалюту?",
       "markdown": "faq/android/ru/how-to-add-or-remove-a-coin.md"
     },
     "de": {
-      "title": "How to add or remove a coin?",
+      "title": "Wie fügt man oder entfernt man ein Coin?",
       "markdown": "faq/android/de/how-to-add-or-remove-a-coin.md"
     },
     "es": {
-      "title": "How to add or remove a coin?",
+      "title": "¿Cómo sumar o remover una moneda?",
       "markdown": "faq/android/es/how-to-add-or-remove-a-coin.md"
     },
     "fr": {
-      "title": "How to add or remove a coin?",
+      "title": "Comment ajouter ou supprimer une pièce?",
       "markdown": "faq/android/fr/how-to-add-or-remove-a-coin.md"
     },
     "tr": {
-      "title": "How to add or remove a coin?",
+      "title": "Bir para nasıl eklenir veya çıkarılır?",
       "markdown": "faq/android/tr/how-to-add-or-remove-a-coin.md"
     },
     "zh": {
       "title": "How to add or remove a coin?",
       "markdown": "faq/android/zh/how-to-add-or-remove-a-coin.md"
     },
-    "kor": {
-      "title": "How to add or remove a coin?",
-      "markdown": "faq/android/kor/how-to-add-or-remove-a-coin.md"
+    "ko": {
+      "title": "코인을 추가하거나 제거하려면 어떻게 해야 하나요?",
+      "markdown": "faq/android/ko/how-to-add-or-remove-a-coin.md"
     },
     "fa": {
       "title": "How to add or remove a coin?",
@@ -499,32 +499,32 @@
       "markdown": "faq/android/en/how-do-i-update-unstoppable.md"
     },
     "ru": {
-      "title": "How do I update Unstoppable?",
+      "title": "Как обновить Unstoppable?",
       "markdown": "faq/android/ru/how-do-i-update-unstoppable.md"
     },
     "de": {
-      "title": "How do I update Unstoppable?",
+      "title": "Wie aktualisiere ich Unstoppable?",
       "markdown": "faq/android/de/how-do-i-update-unstoppable.md"
     },
     "es": {
-      "title": "How do I update Unstoppable?",
+      "title": " ¿Cómo actualizo Unstoppable?",
       "markdown": "faq/android/es/how-do-i-update-unstoppable.md"
     },
     "fr": {
-      "title": "How do I update Unstoppable?",
+      "title": "Comment puis-je actualiser Unstoppable?",
       "markdown": "faq/android/fr/how-do-i-update-unstoppable.md"
     },
     "tr": {
-      "title": "How do I update Unstoppable?",
+      "title": "Unstoppable nasıl güncellenir?",
       "markdown": "faq/android/tr/how-do-i-update-unstoppable.md"
     },
     "zh": {
       "title": "How do I update Unstoppable?",
       "markdown": "faq/android/zh/how-do-i-update-unstoppable.md"
     },
-    "kor": {
-      "title": "How do I update Unstoppable?",
-      "markdown": "faq/android/kor/how-do-i-update-unstoppable.md"
+    "ko": {
+      "title": "Unstoppable을 업데이트하려면 어떻게 해야 하나요?",
+      "markdown": "faq/android/ko/how-do-i-update-unstoppable.md"
     },
     "fa": {
       "title": "How do I update Unstoppable?",
