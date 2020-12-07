@@ -1,19 +1,19 @@
-# What are cryptocurrency transaction fees?
+# Was sind Gebühren für Kryptowährung-Transaktionen?
 
-### What are Network Fees?
+### Was sind Netzwerkgebühren?
 
-Every time you send any cryptocurrency, from your address to another, you incur a Network Transaction fee, also referred to as a Network fee. Making trades on exchanges also require fees for every buy or sell transaction.
+Bei jedem Versenden einer Kryptowährung von Ihrer Adresse an eine andere Adresse fällt eine Netzwerk-Transaktionsgebühr an, die auch als Netzwerkgebühr bezeichnet wird. Auch beim Handel an Börsen fallen für jede Kauf- oder Verkaufstransaktion Gebühren an.
 
-The actual fee you pay will vary according to the network you use. For example, a Bitcoin transaction will have a different fee in comparison to transactions placed on the Bitcoin Cash, Ethereum or Litecoin network. There are even tokens that require a secondary or “gas” token to pay the network fees.
+Die tatsächliche von Ihnen zu zahlende Gebühr variiert je nach Netzwerk, das Sie nutzen. Beispielsweise fällt für eine Bitcoin-Transaktion eine andere Gebühr an als für Transaktionen über das Bitcoin Cash-, Ethereum- oder Litecoin-Netzwerk. Es gibt sogar Token, die einen zweiten oder „Gas“-Token zur Zahlung der Netzwerkgebühren erfordern.
 
-### Why is there a need for Network Fees?
+### Warum sind Netzwerkgebühren erforderlich?
 
-Throughout-put of blockchain networks are limited. For example Bitcoin network can process approximately 400,000 transactions per day. On some days Bitcoin can be quite popular but since capacity is limited, transactions start to compete among each other. Miners who process transactions thus will pick the highest paying transaction to get processed first, since Miners are the ones who collect and benefit from those fees. On the days when popularity is low, transaction fees can even drop to zero. 
+Durchgehende Blockchain-Netzwerke sind begrenzt. Beispielsweise kann das Bitcoin-Netzwerk etwa 400.000 Transaktionen pro Tag verarbeiten. An manchen Tagen kann Bitcoin recht beliebt sein, aber da die Kapazität begrenzt ist, beginnen die Transaktionen miteinander zu konkurrieren. Miner, die Transaktionen verarbeiten, wählen daher die am höchsten bezahlte Transaktion aus, die als erste verarbeitet wird, da es die Miner sind, die diese Gebühren einziehen und davon profitieren. An Tagen, an denen die Popularität gering ist, können die Transaktionsgebühren sogar auf Null sinken.
 
-Basically, it is a way to prioritize transactions for a limited processing capacity.
+Im Grunde genommen handelt es sich um eine Möglichkeit, Transaktionen für eine begrenzte Verarbeitungsleistung zu priorisieren.
 
-### How are the Fees Calculated?
+### Wie werden die Gebühren berechnet?
 
-Fees can fluctuate depending on market demand and network capacity. The amount you pay per transaction is determined by how much you’re willing to spend. The more you pay the faster your transaction is processed. For those who are paying less, their transactions are set aside until the miners do not see higher priority transactions.
+Die Gebühren können je nach Marktnachfrage und Netzkapazität schwanken. Der Betrag, den Sie pro Transaktion bezahlen, hängt davon ab, wie viel Sie auszugeben bereit sind. Je mehr Sie zahlen, desto schneller wird Ihre Transaktion bearbeitet. Wer weniger zahlt, dessen Transaktionen werden so lange zurückgestellt, bis die Miner keine Transaktionen mit höherer Priorität mehr sehen.
 
-Determining fees can be a bit of a challenge, due to the way Bitcoin works. The price you pay depends on a number of factors including the size in kilobytes i.e the amount of data that makes up the transaction. That’s why SegWit sends are generally cheaper: because you’re transmitting less data over the network.
+Die Festlegung der Gebühren kann aufgrund der Arbeitsweise von Bitcoin eine gewisse Herausforderung darstellen. Der von Ihnen zu zahlende Preis hängt von einer Reihe von Faktoren ab, einschließlich der Größe in Kilobyte, d.h. der Datenmenge, aus der die Transaktion besteht. Aus diesem Grund sind SegWit-Sendungen im Allgemeinen billiger: weil Sie weniger Daten über das Netzwerk übertragen.

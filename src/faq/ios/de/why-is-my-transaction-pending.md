@@ -1,15 +1,14 @@
-# Why is my transaction "pending"?
+# Warum ist meine Transaktion „ausstehend“?
 
-Incoming transactions show up in your account almost instantly (within a few seconds) but will show as 'Pending' until there have been enough network confirmations. The number of confirmations needed is based on the digital currency.
+Eingehende Transaktionen erscheinen fast sofort (innerhalb weniger Sekunden) auf Ihrem Konto, werden aber als „Ausstehend“ angezeigt, bis genügend Netzwerkbestätigungen vorliegen. Die Anzahl der erforderlichen Bestätigungen basiert auf der digitalen Währung.
 
 ![](../images/network_confirmations-p.png)
 
-Once a transaction is verified, it will show Complete in green. This lets you know that the transaction cannot be reversed and that the funds can be withdrawn.
+Sobald eine Transaktion verifiziert ist, wird sie in grün als abgeschlossen angezeigt. Dies zeigt Ihnen an, dass die Transaktion nicht rückgängig gemacht werden kann und dass die Gelder abgehoben werden können.
 
-Occasionally, transactions are not accepted by the rest of the network and therefore are never considered to be 'confirmed'.
+Gelegentlich werden Transaktionen vom Rest des Netzwerks nicht akzeptiert und gelten daher nie als „bestätigt“.
 
-**Common causes of unconfirmed transactions**
+**Häufige Ursachen für unbestätigte Transaktionen**
 
-- Sending a very small amount with insufficient fees. All bitcoin transactions require a miner fee to be confirmed by the bitcoin network. When sending bitcoin, you will be prompted to add a miner fee to make sure the transaction gets confirmed. If an insufficient fee is included, your transaction may never confirm.
-- The network is experiencing high volume. Sometimes there is a high volume of digital currency being sent globally, and there are more transactions than there is space available in each new block to include the transaction.
-
+- Senden eines sehr kleinen Betrags mit unzureichenden Gebühren. Alle Bitcoin-Transaktionen erfordern eine Miner-Gebühr, die vom Bitcoin-Netzwerk bestätigt werden muss. Wenn Sie Bitcoin versenden, werden Sie aufgefordert, eine Miner-Gebühr zu entrichten, damit die Transaktion bestätigt werden kann. Wenn eine unzureichende Gebühr inbegriffen ist, wird Ihre Transaktion möglicherweise nie bestätigt.
+- Das Netzwerk verzeichnet ein hohes Volumen. Gelegentlich wird weltweit ein hohes Volumen an digitaler Währung verschickt, wobei es mehr Transaktionen gibt, als in jedem neuen Block Platz zur Verfügung steht, um die Transaktion aufzunehmen.

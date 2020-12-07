@@ -1,14 +1,14 @@
-# How to create a multi-coin wallet?
+# Wie erstellt man ein Multi-Coin-Wallet?
 
-1. Launch Unstoppable Wallet (Upon first launch of the app, you will be presented with the screen below which is the part where you can “Create a New Wallet” or “Import” an existing one. For this guide, we will select on Create a New Wallet.)
+1. Starten Sie Unstoppable Wallet (Beim ersten Start der Wallet-App wird Ihnen der untenstehende Bildschirm angezeigt, in welchem Sie ein „Wallet Erstellen“ oder ein bereits vorhandenes Wallet „Wallet Wiederherstellen“ können. Für diesen Leitfaden wählen wir „Wallet Erstellen“).
 
 ![](../images/ios-create-welcome-s.png)
 
-2. Choose cryptocurrencies you need to use and click the create button on the top of screen. The wallet will create wallets by the recommended standards
+2. Wählen Sie die Kryptowährungen aus, die Sie verwenden möchten, und klicken Sie auf die Schaltfläche „Erstellen“ oben auf dem Bildschirm. Das Wallet wird Wallets nach den empfohlenen Standards erstellen.
 
 ![](../images/ios-create-choosecoin-s.png)
 
-3. Wallet was created!
+3. Das Wallet wurde erstellt!
 
 ![](../images/ios-create-balance-s.png)
 

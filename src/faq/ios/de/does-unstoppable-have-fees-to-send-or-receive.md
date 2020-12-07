@@ -1,13 +1,13 @@
-# Does Unstoppable have fees to send or receive?
+# Hat Unstoppable Gebühren für das Versenden oder Empfangen?
 
-Almost all blockchain transactions incur network or miner fees (with a few exceptions). Other than the fees that go to the network, Unstoppable does not charge fees for sending or receiving.
+Bei fast allen Blockchain-Transaktionen fallen Netzwerk- oder Mininggebühren an (mit wenigen Ausnahmen). Abgesehen von den Gebühren, die an das Netzwerk gehen, erhebt Unstoppable keine Gebühren für das Senden oder Empfangen.
 
-### What are Transaction Fees?
+### Was sind Transaktionsgebühren?
 
-The use of any blockchain network (Bitcoin, Ethereum, etc.) requires a small fee to send a transaction. This is because there are people (called miners) who are constantly spending resources like computing power and electricity to help process and secure all transactions on the network. Transaction fees go to them. These fees do not go to Unstoppable, they are paid in full to the network (miners) to ensure transactions are delivered reliably and quickly.
+Die Verwendung eines beliebigen Blockchain-Netzwerks (Bitcoin, Ethereum usw.) erfordert eine geringe Gebühr für das Versenden einer Transaktion. Das liegt daran, dass es Menschen (Miner genannt) gibt, die permanent Ressourcen wie Rechenleistung und Strom ausgeben, um bei der Verarbeitung und Sicherung sämtlicher Transaktionen im Netzwerk zu helfen. Die Transaktionsgebühren gehen an diese Personen. Diese Gebühren gehen nicht an Unstoppable, sondern werden in voller Höhe an das Netzwerk (die Miner) gezahlt, um sicherzustellen, dass die Transaktionen zuverlässig und schnell durchgeführt werden.
 
-Popular networks are crowded and thus more expensive. Today, Bitcoin is the most popular network and has the highest fees of any digital asset supported by Unstoppable Wallet.
+Beliebte Netzwerke sind überfüllt und daher teurer. Heute ist Bitcoin das beliebteste Netzwerk und hat die höchsten Gebühren aller von Unstoppable Wallet unterstützten digitalen Assets.
 
-Blockchain networks use fees to make it hard for any one user to flood the network with junk transactions causing others to have to wait. If sending transactions were free, one bad actor could damage the network speed and reliability for everyone by spamming the network with a lot of tiny transactions. Fees, in this respect, are one of the many incentives created by the Bitcoin Protocol (and most other blockchains) to make it secure.
+Blockchain-Netzwerke nutzen Gebühren, um es einem einzelnen Nutzer schwer zu machen, das Netzwerk mit Junk-Transaktionen zu überschwemmen, wodurch andere warten müssen. Wenn das Versenden von Transaktionen kostenlos wäre, könnte ein einzelner Bösewicht die Geschwindigkeit und Zuverlässigkeit des Netzwerks für alle schädigen, indem er das Netzwerk mit vielen winzigen Transaktionen überflutet. Gebühren sind in dieser Hinsicht einer der vielen Anreize, die durch das Bitcoin-Protokoll (und die meisten anderen Blockchains) geschaffen wurden, um es sicher zu machen.
 
-Bitcoin Fees are typically measured in *Satoshis* (Bitcoin's smallest unit) per Byte or Sats/b. The more information (bytes), the more Satoshis (bits of BTC) you will have to pay. The amount of information in a transaction does not depend on the amount sent, but on the number of previously received deposits. A transaction's size is dictated by the number of inputs and outputs. The more inputs you have, the more expensive the transaction is.
+Bitcoin Gebühren werden normalerweise in Satoshis (die kleinste Einheit von Bitcoin) pro Byte oder Sats/b gemessen. Je mehr Informationen (Bytes), desto mehr Satoshis (Bits von BTC) müssen Sie bezahlen. Die Informationsmenge in einer Transaktion hängt nicht vom gesendeten Betrag ab, sondern von der Anzahl der zuvor empfangenen Einzahlungen. Die Größe einer Transaktion wird durch die Anzahl der Ein- und Ausgänge bestimmt. Je mehr Eingänge Sie haben, desto teurer ist die Transaktion.

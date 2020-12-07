@@ -1,34 +1,34 @@
-# How to send and receive cryptocurrency?
+# Wie sendet und empfängt man Kryptowährung?
 
-### To Send Cryptocurrency
+### Um Kryptowährung zu senden
 
-1. Tap on token on Balance tab (the token you need to send)
+1. Tippen Sie auf der Registerkarte Guthaben auf Token (das Token, das Sie senden möchten).
 
 ![](../images/ios-sent-1-s.png)
 
-2. Now tap on the Send button on the right hand side of your wallet
+2. Tippen Sie nun auf die Schaltfläche Senden auf der rechten Seite Ihres Wallets.
 
 ![](../images/ios-sent-2-s.png)
 
-3. Enter amount of tokens and the crypto address of the person you would like to send the crypto. Select Next to review and confirm the details of this send.
+3. Geben Sie die Anzahl der Token und die Krypto-Adresse der Person ein, der Sie die Kryptowährung senden möchten. Wählen Sie Weiter, um die Einzelheiten dieser Übermittlung zu überprüfen und zu bestätigen.
 
 ![](../images/ios-sent-3-s.png)
 
-4. Check the address and amount, check fee cost and confirm sending
+4. Überprüfen Sie Adresse und Betrag, prüfen Sie die Gebühren und bestätigen Sie den Versand.
 
 ![](../images/ios-sent-4-s.png)
 
-### To Receive Cryptocurrency
+### Um Kryptowährung zu empfangen
 
-1. Tap on token on Balance tab (the token you need to receive)
+1. Tippen Sie auf der Registerkarte Guthaben auf Token (das Token, das Sie erhalten möchten).
 
 ![](../images/ios-receive-1-s.png)
 
-2. Now tap on the Receive button on the left hand side of your wallet
+2. Tippen Sie nun auf die Schaltfläche Anfordern auf der linken Seite Ihres Wallets.
 
 ![](../images/ios-receive-2-s.png)
 
-3. Here you will see your address in plain text and as a QR code. You can use this address to receive funds.
+3. Hier sehen Sie Ihre Adresse als einfachen Text und als QR-Code. Sie können diese Adresse verwenden, um Gelder zu empfangen.
 
 ![](../images/ios-receive-3-s.png)
 

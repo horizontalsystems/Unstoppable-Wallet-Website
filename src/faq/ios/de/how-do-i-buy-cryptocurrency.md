@@ -1,5 +1,5 @@
-# How do I buy cryptocurrency?
+# Wie kaufe ich Kryptowährung?
 
-Unstoppable wallet does not support the functions of buying cryptocurrencies through payment systems. Unstoppable wallet only works with cryptocurrencies.
+Unstoppable Wallet unterstützt keine Funktionen zum Kauf von Kryptowährungen über Zahlungssysteme. Unstoppable Wallet funktioniert nur mit Kryptowährungen. 
 
-If you would like to explore various options to purchase cryptocurrency refer to our article on [Litrex Academy](https://litrex.academy/en/fundamentals/en/6-buying-cryptocurrency-basics.md)
+Wenn Sie verschiedene Möglichkeiten zum Kauf von Kryptowährung kennenlernen möchten, lesen Sie unseren Artikel über [Litrex Academy](https://litrex.academy/en/fundamentals/en/6-buying-cryptocurrency-basics.md)

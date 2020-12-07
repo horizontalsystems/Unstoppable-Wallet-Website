@@ -1,5 +1,6 @@
-# Why did my receiving address changed?
+# Warum hat sich meine Empfangsadresse geändert?
 
-Receive address for certain tokens keeps changing after it was used once (funds were received once). For example this is true for Bitcoin, Bitcoin Cash, but not for Ethereum. 
+Die Empfangsadresse für gewisse Token ändert sich ständig, sobald sie einmal verwendet wurde (Gelder wurden einmal empfangen). Dies gilt zum Beispiel für Bitcoin, Bitcoin Cash, aber nicht für Ethereum. 
 
-The reason to keep changing Receive address is to increase privacy mostly. But all previous addresses stay valid, and any funds sent to any of your addresses will be received by you.
+Der Grund für die ständige Änderung von Empfangsadressen ist vor allem die Wahrung des Datenschutzes. Alle früheren Adressen bleiben jedoch weiterhin gültig und jegliche Gelder, die an eine Ihrer Adressen geschickt werden, werden von Ihnen empfangen.
+
