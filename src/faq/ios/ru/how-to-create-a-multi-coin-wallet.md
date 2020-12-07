@@ -1,14 +1,14 @@
-# How to create a multi-coin wallet?
+# Как создать мультивалютный кошелек?
 
-1. Launch Unstoppable Wallet (Upon first launch of the app, you will be presented with the screen below which is the part where you can “Create a New Wallet” or “Import” an existing one. For this guide, we will select on Create a New Wallet.)
+1. Откройте Unstoppable кошелек (При первом запуске приложения, на экран будет выведено следующее окно, в котором вы можете "Создать новый кошелек" или "Импортировать" существующий. Для целей данного руководства, мы выберем опцию "Создать новый кошелек".)
 
 ![](../images/ios-create-welcome-s.png)
 
-2. Choose cryptocurrencies you need to use and click the create button on the top of screen. The wallet will create wallets by the recommended standards
+2. Выберите криптовалюты, которые вам необходимо использовать и нажмите на кнопку "Создать" в верхней части экрана. Приложение создаст кошельки в соответствии с рекомендуемыми стандартами.
 
 ![](../images/ios-create-choosecoin-s.png)
 
-3. Wallet was created!
+3. Кошелек создан!
 
 ![](../images/ios-create-balance-s.png)
 
