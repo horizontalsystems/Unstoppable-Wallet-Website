@@ -2,6 +2,6 @@
 
 Laden Sie Unstoppable nur aus offiziellen Quellen herunter.
 
-Hier sind die Download-Links für beide Plattformen:
+Hier ist das Download-Links:
 
 [**App Store**](https://apps.apple.com/app/bank-bitcoin-wallet/id1447619907)
