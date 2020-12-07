@@ -1,15 +1,15 @@
-# Why is my transaction "pending"?
+# Почему моя транзакция находится в "ожидании"?
 
-Incoming transactions show up in your account almost instantly (within a few seconds) but will show as 'Pending' until there have been enough network confirmations. The number of confirmations needed is based on the digital currency.
+Входящие транзакции отображаются в вашем аккаунте практически мгновенно (в течении нескольких секунд), но их статус будет высвечиваться как "В ожидании", до тех пор, пока не будет набрано достаточное количество подтверждений в сети. Количество необходимых подтверждений зависит от цифровой валюты.
 
 ![](../images/network_confirmations-p.png)
 
-Once a transaction is verified, it will show Complete in green. This lets you know that the transaction cannot be reversed and that the funds can be withdrawn.
+Как только транзакция подтверждена, ее статус сменится на "Завершена" и высветится зеленым цветом. Это дает вам понять, что транзакция стала необратимой и средства могут быть сняты.
 
-Occasionally, transactions are not accepted by the rest of the network and therefore are never considered to be 'confirmed'.
+Время от времени, транзакции не принимаются остальными участниками сети и, таким образом, никогда не считаются "подтвержденными".
 
-**Common causes of unconfirmed transactions**
+**Основные причины неподтверждения транзакций**
 
-- Sending a very small amount with insufficient fees. All bitcoin transactions require a miner fee to be confirmed by the bitcoin network. When sending bitcoin, you will be prompted to add a miner fee to make sure the transaction gets confirmed. If an insufficient fee is included, your transaction may never confirm.
-- The network is experiencing high volume. Sometimes there is a high volume of digital currency being sent globally, and there are more transactions than there is space available in each new block to include the transaction.
+- Отправка весьма малой суммы с установлением незначительной сетевой ставки.  Все транзакции в Биткоинах требуют подтверждения майнерской ставки сетью блокчейна Биткоин. При отправке Биткоина, вам придет запрос на установление майнерской ставки, с тем чтобы транзакция была подтверждена. Если установлена незначительная ставка, ваша транзакция может навсегда остаться неподтвержденной.
+- Сеть перегружена большим количеством транзакций. Иногда по всему миру отправляется очень большой объем цифровой валюты и количество транзакций может превышать количество доступного места в каждом новом блоке, чтобы добавить транзакцию.
 

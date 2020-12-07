@@ -1,5 +1,5 @@
-# Why did my receiving address changed?
+# Почему изменился мой адрес получателя?
 
-Receive address for certain tokens keeps changing after it was used once (funds were received once). For example this is true for Bitcoin, Bitcoin Cash, but not for Ethereum. 
+Адрес получателя постоянно меняется для определенных токенов после того, как он однажды уже был использован (средства были получены однажды). Например, это действительно для Биткоина, Биткоин Кэш, но не для Эфириума. 
 
-The reason to keep changing Receive address is to increase privacy mostly. But all previous addresses stay valid, and any funds sent to any of your addresses will be received by you.
+Причина, по которой адрес получателя постоянно меняется в основном заключается в повышении безопасности. Но все предыдущие адреса останутся действительными и все средства, которые будут отправлены на какой-либо из ваших адресов будут вами получены.

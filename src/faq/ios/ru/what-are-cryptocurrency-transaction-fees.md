@@ -1,19 +1,19 @@
 # Что такое ставка на осуществление транзакции в криптовалюте?
 
-### Что такое ставка транзакции?
+### Что такое сетевые ставки?
 
-Every time you send any cryptocurrency, from your address to another, you incur a Network Transaction fee, also referred to as a Network fee. Making trades on exchanges also require fees for every buy or sell transaction.
+Каждый раз, когда вы отправляете какую-либо криптовалюту со своего адреса на другой, с вас взымается Сетевая ставка за транзакцию, которая также называется Сетевой ставкой. При торговле на биржах, за каждую транзакцию по покупке или продаже криптовалюты также взимаются определенные ставки.
 
-The actual fee you pay will vary according to the network you use. For example, a Bitcoin transaction will have a different fee in comparison to transactions placed on the Bitcoin Cash, Ethereum or Litecoin network. There are even tokens that require a secondary or “gas” token to pay the network fees.
+Фактическая сумма, которую вы оплачиваете может варьироваться в зависимости от того, какую сеть вы используете. Например, транзакция в сети Биткоин будет иметь иную ставку, нежели транзакции, проводимые в сетях Биткоин Кэш, Эфириум или Лайткоин. Также существуют криптовалютные токены, для которых необходимо иметь вторичные или "газовые" токены, чтобы оплатить сетевую ставку.
 
-### Why is there a need for Network Fees?
+### Для чего существует необходимость в сетевых ставках?
 
-Throughout-put of blockchain networks are limited. For example Bitcoin network can process approximately 400,000 transactions per day. On some days Bitcoin can be quite popular but since capacity is limited, transactions start to compete among each other. Miners who process transactions thus will pick the highest paying transaction to get processed first, since Miners are the ones who collect and benefit from those fees. On the days when popularity is low, transaction fees can even drop to zero. 
+Пропускная способность блокчейн-сетей ограничена. Например, сеть Биткоин может обработать примерно 400 000 транзакций в сутки. В иные дни, сеть Биткоин может быть чрезвычайно востребованной, но поскольку пропускная способность ее ограничена, транзакции начинают конкурировать между собой. Поэтому, майнеры, которые обрабатывают транзакции, выбирают транзакции с наиболее высокими ставками, чтобы обработать их первыми, поскольку именно майнеры забирают эти ставки и получают от этого прибыль. В дни, когда сеть не настолько востребована, ставки транзакции могут опускаться даже до нуля.
 
-Basically, it is a way to prioritize transactions for a limited processing capacity.
+В общем, этот способ позволяет определить приоритетность транзакций при ограниченной пропускной способности.
 
-### How are the Fees Calculated?
+### Как рассчитываются ставки?
 
-Fees can fluctuate depending on market demand and network capacity. The amount you pay per transaction is determined by how much you’re willing to spend. The more you pay the faster your transaction is processed. For those who are paying less, their transactions are set aside until the miners do not see higher priority transactions.
+Ставки могут варьироваться в зависимости от рыночного спроса и пропускной способности сети. Сумма, которую вы оплачиваете за транзакцию, определяется тем, сколько вы готовы потратить. Чем больше вы платите, тем быстрее будет обработана ваша транзакция. Если вы платите меньше, то ваша транзакция будет ждать момента, когда майнерам не будут доступны транзакции с большей приоритетностью.
 
-Determining fees can be a bit of a challenge, due to the way Bitcoin works. The price you pay depends on a number of factors including the size in kilobytes i.e the amount of data that makes up the transaction. That’s why SegWit sends are generally cheaper: because you’re transmitting less data over the network.
+Определение ставок может оказаться сложной задачей из-за того, как устроена сеть Биткоин. Цена, которую вы платите за транзакцию, зависит от множества факторов, включая размер транзакции в килобайтах, т.е. количества данных, содержащихся в отдельной транзакции. Именно поэтому отправки через SegWit, как правило, обходятся дешевле - поскольку вы отправляете меньше данных через эту сеть.

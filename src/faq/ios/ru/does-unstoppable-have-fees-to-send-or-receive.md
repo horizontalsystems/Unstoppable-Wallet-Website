@@ -1,13 +1,13 @@
-# Does Unstoppable have fees to send or receive?
+# Берет ли Unstoppable плату за отправку или получение?
 
-Almost all blockchain transactions incur network or miner fees (with a few exceptions). Other than the fees that go to the network, Unstoppable does not charge fees for sending or receiving.
+Практически все блокчейн-транзакции имеют сетевые или майнерские ставки (есть лишь несколько исключений). Помимо ставок, которые взимаются в пользу сети, Unstoppable кошелек не взимает каких-либо ставок за отправку или получение средств.
 
-### What are Transaction Fees?
+### Что такое ставка транзакции?
 
-The use of any blockchain network (Bitcoin, Ethereum, etc.) requires a small fee to send a transaction. This is because there are people (called miners) who are constantly spending resources like computing power and electricity to help process and secure all transactions on the network. Transaction fees go to them. These fees do not go to Unstoppable, they are paid in full to the network (miners) to ensure transactions are delivered reliably and quickly.
+Использование какой-либо блокчейн-сети (Биткоин, Эфириум, и т.д.) требует небольшой ставки для отправки транзакции. Это потому, что существуют лица (называемые майнерами), которые постоянно используют свои ресурсы, такие как вычислительная техника и электричество, для помощи в обработке и защите всех транзакций, проходящих через сеть.  Ставки за транзакции перечисляются им. Эти ставки не перечисляются в пользу Unstoppable кошелька, они полностью выплачиваются сети (майнерам), чтобы транзакции проводились надежно и быстро.
 
-Popular networks are crowded and thus more expensive. Today, Bitcoin is the most popular network and has the highest fees of any digital asset supported by Unstoppable Wallet.
+Популярные блокчейн сети имеют множество пользователей и потому являются более дорогими. На сегодняшний день, Биткоин является наиболее популярной сетью и имеет наиболее высокие ставки среди всех цифровых активов, поддерживаемых Unstoppable кошельком.
 
-Blockchain networks use fees to make it hard for any one user to flood the network with junk transactions causing others to have to wait. If sending transactions were free, one bad actor could damage the network speed and reliability for everyone by spamming the network with a lot of tiny transactions. Fees, in this respect, are one of the many incentives created by the Bitcoin Protocol (and most other blockchains) to make it secure.
+Блокчейн-сети используют ставки, чтобы для отдельного пользователя было сложно засорить сеть транзакциями "пустышками", тем самым заставляя остальных пользователей ждать. Если бы транзакции были бесплатными, один плохой игрок смог бы снизить скорость сети и ее надежность для всех, засорив сеть множеством мелких транзакций. Ставки, в этом отношении, являются одним из множества способов вознаграждения пользователей, созданных протоколом блокчейна Биткоин (и большинства других блокчейнов), чтобы обезопасить сеть.
 
-Bitcoin Fees are typically measured in *Satoshis* (Bitcoin's smallest unit) per Byte or Sats/b. The more information (bytes), the more Satoshis (bits of BTC) you will have to pay. The amount of information in a transaction does not depend on the amount sent, but on the number of previously received deposits. A transaction's size is dictated by the number of inputs and outputs. The more inputs you have, the more expensive the transaction is.
+Ставки в блокчейне Биткоин, как правило, измеряются в "Сатоши" (нименьшая единица Биткоина) на Байт или Sats/b. Чем больше информации (байтов), тем больше Сатоши (единиц Биткоина) вам нужно оплатить. Объем информации на одну транзакцию не зависит от отправляемой суммы, а от количества депозитов, полученных ранее. Размер транзакции диктуется количеством входящих и исходящих данных. Чем больше входящей информации, тем дороже обходится транзакция.
