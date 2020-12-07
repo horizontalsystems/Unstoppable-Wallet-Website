@@ -1,8 +1,8 @@
 # Unstoppable을 업데이트하려면 어떻게 해야 하나요?
 
-Unstoppable Wallet 모바일 앱을 업데이트하려면 앱스토어 또는 구글 플레이스토어를 방문해야 합니다.
+Unstoppable Wallet 모바일 앱을 업데이트하려면 App Store를 방문해야합니다.
 
-- [iOS](https://support.apple.com/en-us/HT202180) 용 가이드.
+[iOS](https://support.apple.com/en-us/HT202180) 용 가이드.
 
 ### 왜 Unstoppable을 업데이트해야 하나요?
 

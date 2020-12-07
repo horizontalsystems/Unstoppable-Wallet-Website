@@ -2,7 +2,7 @@
 
 Unstoppable Wallet mobil uygulamanızı güncellemek için tek yapmanız gereken, cihazınızın Uygulama mağazasına gitmenizdir.
 
-- [iOS](https://support.apple.com/en-us/HT202180) Talimatlar.
+[iOS](https://support.apple.com/en-us/HT202180) Talimatlar.
 
 ### Neden Unstoppable’i güncellemeliyim?
 

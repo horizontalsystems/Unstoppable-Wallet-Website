@@ -1,8 +1,8 @@
 # Comment puis-je actualiser Unstoppable ?
 
-Pour mettre à jour votre application mobile Unstoppable Wallet, il vous suffit de vous rendre sur l'App Store de votre appareil ou sur la boutique Google Play.
+Pour mettre à jour votre application mobile Unstoppable Wallet, il vous suffit de vous rendre sur l'Play Store de votre appareil.
 
--Instructions pour [Android](https://support.google.com/googleplay/answer/113412).
+Instructions pour [Android](https://support.google.com/googleplay/answer/113412).
 
 ### Pourquoi devrais-je mettre à jour Unstoppable ?
 

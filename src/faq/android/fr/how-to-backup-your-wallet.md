@@ -17,17 +17,17 @@ L'équipe d'Unstoppable n'a AUCUN relevé de vos clés privées.
 
 Il suffit d'aller dans le menu « Paramètres » puis de taper sur « Gérer les portefeuilles », là vous verrez un bouton « Sauvegarde » pour chaque portefeuille dont vous disposez.
 
-![](../images/backup-manage.png)
+![](../images/ios-backup-manage-s.png)
 
 ### Sauvegardez vos clés privées
 
 Vos clés privées sont générées dès que vous créez un portefeuille Multi-Coin. Vous devez sauvegarder vos clés privées dès que possible.
 
-![](../images/backup-pk.png)
+![](../images/ios-backup-pk-s.png)
 
 C'est votre clé ; elle peut comporter 12 ou 24 mots. Si vous avez besoin d'une clé, écrivez-la sur un morceau de papier et conservez-la en lieu sûr. Ensuite, vérifiez votre sauvegarde sur la page suivante.
 
-![](../images/backup-check.png)
+![](../images/ios-backup-check-s.png)
 
 **C'est fait !**
 

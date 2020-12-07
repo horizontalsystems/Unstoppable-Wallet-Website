@@ -2,7 +2,8 @@
 
 Unstoppable’ı yalnızca resmi kaynaklardan indirin.
 
-Her iki platform için indirme bağlantıları şunlardır:
+İşte indirme bağlantıları:
 
+[**Google Play**](https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet)
 
-[**App Store**](https://apps.apple.com/app/bank-bitcoin-wallet/id1447619907)
+[**APK file**](https://github.com/horizontalsystems/unstoppable-wallet-android/releases)
