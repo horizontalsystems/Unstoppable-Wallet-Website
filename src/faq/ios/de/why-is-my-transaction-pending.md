@@ -2,7 +2,7 @@
 
 Eingehende Transaktionen erscheinen fast sofort (innerhalb weniger Sekunden) auf Ihrem Konto, werden aber als „Ausstehend“ angezeigt, bis genügend Netzwerkbestätigungen vorliegen. Die Anzahl der erforderlichen Bestätigungen basiert auf der digitalen Währung.
 
-![](../images/network_confirmations-p.png)
+![](../images/network_confirmations-l.png)
 
 Sobald eine Transaktion verifiziert ist, wird sie in grün als abgeschlossen angezeigt. Dies zeigt Ihnen an, dass die Transaktion nicht rückgängig gemacht werden kann und dass die Gelder abgehoben werden können.
 

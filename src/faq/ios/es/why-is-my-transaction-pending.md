@@ -2,7 +2,7 @@
 
 Las transacciones entrantes se muestran en tu cuenta casi instantáneamente (Dentro de algunos segundos) pero se mostrarán como “Pendientes”hasta que estén realizadas las confirmaciones de red suficientes. La cantidad de confirmaciones necesarias se basan en la moneda digital.
 
-![](../images/network_confirmations-p.png)
+![](../images/network_confirmations-l.png)
 
 Una vez que la transacción es verificada, se podrá ver un “Completo” en verde. Esto te permitirá saber que la transacción no puede ser revertida y que no se podrán retirar los fondos.
 

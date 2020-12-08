@@ -2,7 +2,7 @@
 
 Les transactions entrantes apparaissent sur votre compte presque instantanément (en quelques secondes), mais elles apparaissent comme étant " en attente " jusqu'à ce qu'il y ait eu suffisamment de confirmations du réseau. Le nombre de confirmations nécessaires est basé sur la monnaie numérique.
 
-![](../images/network_confirmations-p.png)
+![](../images/network_confirmations-l.png)
 
 Une fois qu'une transaction est vérifiée, elle apparaîtra en vert, Terminé. Ainsi, vous savez que la transaction ne peut pas être annulée et que les fonds peuvent être retirés.
 

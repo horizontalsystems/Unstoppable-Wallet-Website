@@ -2,7 +2,7 @@
 
 Incoming transactions show up in your account almost instantly (within a few seconds) but will show as 'Pending' until there have been enough network confirmations. The number of confirmations needed is based on the digital currency.
 
-![](../images/network_confirmations-p.png)
+![](../images/network_confirmations-l.png)
 
 Once a transaction is verified, it will show Complete in green. This lets you know that the transaction cannot be reversed and that the funds can be withdrawn.
 

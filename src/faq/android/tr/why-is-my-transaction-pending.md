@@ -2,7 +2,7 @@
 
 Gelen işlemler, hesabınızda neredeyse anında (birkaç saniye içinde) görünür, ancak yeterli ağ onaylamaları olana kadar 'Beklemede' olarak görünecektir. Gerekli onayların sayısı dijital para birimine bağlıdır.
 
-![](../images/network_confirmations-p.png)
+![](../images/network_confirmations-l.png)
 
 Bir işlem doğrulandığında, yeşil renkte Tamamlandı olarak görünecektir. Bu, işlemin tersine çevrilemeyeceğini ve paranın çekilebileceğini bilmenizi sağlar.
 
