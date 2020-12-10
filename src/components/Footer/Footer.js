@@ -27,7 +27,7 @@ class Footer extends React.Component {
               <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Litrex Academy</a>
 
               <div className="Footer-nav-contact-us">Contact us:</div>
-              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="mailto:hsdao@protonmail.ch">hsdao@protonmail.ch</a>
+              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="mailto:hsdao@protonmail.com">hsdao@protonmail.com</a>
             </div>
             <div className="Footer-subscribe">
               <SubscribeForm formCode="m3g0e6" formId="1561498" />
