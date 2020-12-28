@@ -45,7 +45,7 @@ function Join() {
                 </a>
               </div>
               <div className="Join-icon">
-                <a href="https://www.reddit.com/r/UNSTOPPABLEWallet/" target="_blank" rel="noopener noreferrer">
+                <a href="https://unstoppablewallet.medium.com/" target="_blank" rel="noopener noreferrer">
                   <img className="Join-image" src={medium} alt="medium" />
                 </a>
               </div>

@@ -30,7 +30,7 @@
   justify-content: center;
 
   @include xxl {
-    width: 70%;
+    width: 80%;
     align-self: center;
   }
 }
@@ -49,6 +49,10 @@
 
   @include md {
     width: 120px;
+  }
+
+  @include xxl {
+    width: 160px;
   }
 
   &:hover {

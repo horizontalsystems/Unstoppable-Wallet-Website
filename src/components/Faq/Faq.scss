@@ -31,11 +31,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 30px;
+  padding: 24px 40px 24px 30px;
 
   font-size: 18px;
   line-height: 25px;
   color: $light-steal;
+}
+
+.Faq-item-icon {
+  position: absolute;
+  right: 30px;
+
+  @include sm {
+    right: 21px;
+  }
 }
 
 .Faq-content {
