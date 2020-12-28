@@ -1,19 +1,46 @@
 @import "../../scss/utils";
 
 .Section-join {
-  display: flex;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
 
   @include md {
-    padding-bottom: 160px;
+    padding-bottom: 70px;
+  }
+
+  @include lg {
+    padding-bottom: 110px;
   }
 }
 
-.Join-item {
-  flex: 1;
-  padding: 0 17px;
+.Join-section-text,
+.Join-section-info {
+  text-align: right;
+  width: 90%;
+
+  @include sm {
+    text-align: center;
+  }
+}
+
+.Join-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  @include xxl {
+    width: 70%;
+    align-self: center;
+  }
+}
+
+.Join-icon {
+  padding: 15px;
+
+  @include sm {
+    padding: 7px;
+  }
 }
 
 .Join-image {
@@ -21,7 +48,7 @@
   transition: transform .4s ease-in-out;
 
   @include md {
-    width: 162px;
+    width: 120px;
   }
 
   &:hover {
