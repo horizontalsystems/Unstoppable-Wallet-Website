@@ -22,15 +22,15 @@ function Wallet() {
             One wallet for all your digital assets
           </div>
           <div className="Section-info">
-            Store and manage over 60 cryptocurrencies and hundreds of crypto tokens on all major blockchains.
+            Store and manage major cryptocurrencies and hundreds of crypto tokens on all major blockchains.
           </div>
         </div>
       </Container>
       <Container className="Section-image">
         <img
           className="Wallet-screen"
-          src="/images/wallet/coins.jpg"
-          srcSet="/images/wallet/coins@2x.jpg 2x"
+          src="/images/wallet/coins.png"
+          srcSet="/images/wallet/coins@2x.png 2x, /images/wallet/coins@3x.png 3x"
           alt=""
         />
       </Container>

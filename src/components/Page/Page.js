@@ -13,7 +13,7 @@ function Page({ img, text, info, children, rtl }) {
           <div className={cn('Page-start', { 'Page-start--rtl': rtl })}>
             <img
               className="Page-img"
-              src={`/images/pages/${img}.jpg`}
+              src={`/images/pages/${img}.png`}
               alt={text}
             />
           </div>
