@@ -5,6 +5,7 @@ import { ReactComponent as Close } from './close.svg'
 import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
 import { ReactComponent as Download } from './download.svg'
+import { ReactComponent as FDroid } from './f-droid.svg'
 import { ReactComponent as Graphic } from './graphic.svg'
 import { ReactComponent as Guide } from './guide.svg'
 import { ReactComponent as Decentralized } from './decentralized.svg'
@@ -35,6 +36,8 @@ const iconComponent = name => {
       return <GooglePlay />
     case 'app-store':
       return <AppStore />
+    case 'f-droid':
+      return <FDroid />
     case 'download':
       return <Download />
 
