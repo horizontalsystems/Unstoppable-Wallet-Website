@@ -6,6 +6,7 @@ import Icon from '../Icon'
 import Card from '../Card'
 import CardNumber from '../Card/CardNumber'
 import GetWallet from '../GetWallet'
+import Featured from '../Featured'
 
 import './Wallet.scss'
 
@@ -111,6 +112,9 @@ function Wallet() {
       </Container>
       <div className="Wallet-download">
         <GetWallet />
+      </div>
+      <div className="Featured-in">
+        <Featured />
       </div>
     </div>
   )
