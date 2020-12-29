@@ -1,7 +1,11 @@
 @import "../../scss/utils";
 
 .Section-join {
-  padding-bottom: 10px;
+  padding-bottom: 90px;
+
+  @include sm {
+    padding-top: 30px; // +60
+  }
 
   @include md {
     padding-bottom: 70px;
