@@ -17,13 +17,13 @@ function Featured() {
       <div className="Featured">
         <div className="Featured-text">Featured In</div>
         <div className="Featured-list">
-          <img className="Featured-item" src={zcash} alt="ZCash" height="46" />
-          <img className="Featured-item" src={dash} alt="Dash" height="31" />
-          <img className="Featured-item" src={defiPulse} alt="Defi Pulse" height="26" />
-          <img className="Featured-item" src={walletConnect} alt="Wallet Connect" height="39" />
-          <img className="Featured-item" src={cryptoWisser} alt="Crypto Wisser" height="42" />
-          <img className="Featured-item" src={walletScrutiny} alt="Wallet Scrutiny" height="52" />
-          <img className="Featured-item" src={muo} alt="MakeUseOf" height="36" />
+          <img className="Featured-item" src={zcash} alt="ZCash" />
+          <img className="Featured-item" src={dash} alt="Dash" />
+          <img className="Featured-item" src={defiPulse} alt="Defi Pulse" />
+          <img className="Featured-item" src={walletConnect} alt="Wallet Connect" />
+          <img className="Featured-item" src={cryptoWisser} alt="Crypto Wisser" />
+          <img className="Featured-item" src={walletScrutiny} alt="Wallet Scrutiny" />
+          <img className="Featured-item" src={muo} alt="MakeUseOf" />
         </div>
       </div>
     </Container>

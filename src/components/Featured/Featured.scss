@@ -34,13 +34,22 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
+  @include xl {
+    flex-wrap: nowrap;
+  }
 }
 
 .Featured-item {
-  padding: 20px;
+  padding: 10px;
+  height: 25px;
 
-  @include sm {
-    padding: 10px;
-    height: 25px;
+  @include md {
+    padding: 15px;
+    height: 52px;
+  }
+
+  @include xl {
+    height: 52px;
   }
 }
