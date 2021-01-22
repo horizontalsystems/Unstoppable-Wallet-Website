@@ -39,6 +39,8 @@ function Join() {
                   <img className="Join-image" src={telegram} alt="telegram" />
                 </a>
               </div>
+            </div>
+            <div className="Join-icons">
               <div className="Join-icon">
                 <a href="https://www.reddit.com/r/UNSTOPPABLEWallet/" target="_blank" rel="noopener noreferrer">
                   <img className="Join-image" src={reddit} alt="reddit" />

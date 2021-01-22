@@ -29,7 +29,6 @@
 .Join-icons {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 
@@ -52,6 +51,10 @@
   transition: transform .4s ease-in-out;
 
   @include md {
+    width: 100px;
+  }
+
+  @include lg {
     width: 120px;
   }
 
