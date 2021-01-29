@@ -130,11 +130,5 @@ If there are any questions regarding this privacy policy, you may contact us usi
 email:
 hsdao@protonmail.ch
 
-Postal Address:
-Horizontal Systems
-Building 7, 12th District
-Bishkek, 72000
-Kyrgyz Republic
-
 Last Updated: 
 1 October 2019

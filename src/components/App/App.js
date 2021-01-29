@@ -6,6 +6,7 @@ import Feature from '../Feature'
 import Wallet from '../Wallet'
 import Footer from '../Footer/Footer'
 import Join from '../Join/Join'
+import CookieConsent from '../CookieConsent/CookieConsent'
 
 import './App.scss'
 
@@ -51,7 +52,8 @@ function App() {
             info={
               <>
                 Use a wallet with an open code that meets stated specifications.
-                Unstoppable has passed open source <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet" target="_blank" rel="noopener noreferrer" className="color-yellow">verification</a>
+                Unstoppable has passed open source <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet" target="_blank"
+                                                      rel="noopener noreferrer" className="color-yellow">verification</a>
               </>
             } />
         </Page>
@@ -83,6 +85,7 @@ function App() {
       <div id="page-7" className="Page-dark">
         <Footer />
       </div>
+      <CookieConsent />
     </div>
   )
 }

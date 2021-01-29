@@ -1,0 +1,56 @@
+@import "../../scss/utils";
+
+.CookieConsent-Container {
+  height: 100%;
+}
+
+.CookieConsent {
+  background: $darkest;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+
+  @include sm {
+    height: auto;
+    padding: 20px 0;
+  }
+}
+
+.CookieConsent-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    color: $yellow-d;
+  }
+}
+
+.CookieConsent-left {
+  font-size: 18px;
+  line-height: 23px;
+  color: $grey;
+  font-weight: 400;
+  font-family: $font-family-base;
+}
+
+.CookieConsent-right {
+  display: flex;
+}
+
+.CookieConsent-accept {
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 18px;
+  color: $yellow-d;
+}
+
+.CookieConsent-close {
+  padding-left: 40px;
+
+  img {
+    cursor: pointer;
+  }
+}
