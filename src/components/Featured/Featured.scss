@@ -42,14 +42,14 @@
 
 .Featured-item {
   padding: 10px;
-  height: 25px;
+  height: 24px;
 
   @include md {
     padding: 15px;
-    height: 52px;
+    height: 40px;
   }
 
-  @include xl {
-    height: 52px;
+  @include xxl {
+    height: 50px;
   }
 }

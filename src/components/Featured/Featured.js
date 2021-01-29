@@ -6,6 +6,7 @@ import dash from './dash.svg'
 import defiPulse from './defi-pulse.svg'
 import walletConnect from './wallet-connect.svg'
 import cryptoWisser from './crypto-wisser.svg'
+import bitcoin from './bitcoin.svg'
 import walletScrutiny from './wallet-scrutiny.svg'
 import muo from './muo.svg'
 
@@ -31,6 +32,9 @@ function Featured() {
           </a>
           <a target="_blank" href="https://www.cryptowisser.com/wallet/unstoppable-wallet/" rel="noopener noreferrer">
             <img className="Featured-item" src={cryptoWisser} alt="Crypto Wisser" />
+          </a>
+          <a target="_blank" href="https://bitcoin.org/en/wallets/mobile/android/unstoppable/" rel="noopener noreferrer">
+            <img className="Featured-item" src={bitcoin} alt="Bitcoin" />
           </a>
           <a target="_blank" href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet/" rel="noopener noreferrer">
             <img className="Featured-item" src={walletScrutiny} alt="Wallet Scrutiny" />

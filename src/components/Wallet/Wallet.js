@@ -57,9 +57,8 @@ function Wallet() {
                 - Custom transaction fees
               </>
             } />
-            <Card title="Crypto Academy" info={
+            <Card title="Multi-currency Wallet" info={
               <>
-                - EOS blockchain + tokens <br />
                 - Binance Chain + BEP2 <br />
                 - Dash blockchain <br />
                 - Litecoin blockchain <br />
