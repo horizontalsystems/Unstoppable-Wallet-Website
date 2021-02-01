@@ -23,12 +23,16 @@
   align-items: center;
   justify-content: space-between;
 
+  @include sm {
+    flex-direction: column;
+  }
+
   a {
     color: $yellow-d;
   }
 }
 
-.CookieConsent-left {
+.CookieConsent-text {
   font-size: 18px;
   line-height: 23px;
   color: $grey;
@@ -36,8 +40,13 @@
   font-family: $font-family-base;
 }
 
-.CookieConsent-right {
+.CookieConsent-action {
   display: flex;
+
+  @include sm {
+    padding-top: 30px;
+    align-self: flex-end;
+  }
 }
 
 .CookieConsent-accept {
@@ -45,6 +54,10 @@
   font-size: 14px;
   line-height: 18px;
   color: $yellow-d;
+
+  @include sm {
+    font-weight: 600;
+  }
 }
 
 .CookieConsent-close {

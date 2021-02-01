@@ -5,6 +5,7 @@ import App from './components/App/App'
 import Faq from './components/Faq/Faq'
 import Privacy from './components/Privacy/Privacy'
 import NoDataPolicy from './components/Privacy/NoDataPolicy'
+import CookieConsent from './components/CookieConsent/CookieConsent'
 
 function Routes() {
   return (
@@ -15,6 +16,8 @@ function Routes() {
         <Route path="/faq" component={Faq} />
         <Route path="/" render={App} />
       </Switch>
+
+      <CookieConsent />
     </BrowserRouter>
   )
 }

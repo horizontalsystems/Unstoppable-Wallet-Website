@@ -6,7 +6,6 @@ import Feature from '../Feature'
 import Wallet from '../Wallet'
 import Footer from '../Footer/Footer'
 import Join from '../Join/Join'
-import CookieConsent from '../CookieConsent/CookieConsent'
 
 import './App.scss'
 
@@ -85,7 +84,6 @@ function App() {
       <div id="page-7" className="Page-dark">
         <Footer />
       </div>
-      <CookieConsent />
     </div>
   )
 }

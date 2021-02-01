@@ -24,11 +24,11 @@ function CookieConsent() {
     <div className="CookieConsent">
       <Container className="CookieConsent-Container">
         <div className="CookieConsent-content">
-          <div className="CookieConsent-left">
+          <div className="CookieConsent-text">
             We use cookies to ensure you get the best experience on our website.
             Please read our privacy policy to find out <Link to="/privacy">more.</Link>
           </div>
-          <div className="CookieConsent-right">
+          <div className="CookieConsent-action">
             <div className="CookieConsent-accept" onClick={onChange}>
               Accept
             </div>
