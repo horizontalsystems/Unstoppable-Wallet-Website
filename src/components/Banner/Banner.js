@@ -3,6 +3,7 @@ import React from 'react'
 import Container from '../Container'
 import List from '../List'
 import Button from '../Button'
+import ImageGradient from '../Icon/image-gradient.svg'
 
 import './Banner.scss'
 
@@ -11,6 +12,7 @@ function Banner() {
     <Container clipped={false}>
       <div className="Banner">
         <div className="Banner-start">
+          <img className="Banner-img-gradient Banner-img-gradient-top" src={ImageGradient} alt="" />
           <img
             className="Banner-img"
             src="/images/banner/wallet.png"
@@ -20,10 +22,8 @@ function Banner() {
         </div>
         <div className="Banner-end">
           <div className="Banner-title">
-            Best Crypto Wallet for Your Assets
-          </div>
-          <div className="Banner-info">
-            Store and grow crypto assets, from anywhere. Have full control over assets. Remain private.
+            Be<br />
+            Unstoppable
           </div>
           <div className="Banner-action">
             <List>

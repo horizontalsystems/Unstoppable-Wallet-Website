@@ -5,21 +5,19 @@ import { ReactComponent as Close } from './close.svg'
 import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
 import { ReactComponent as Download } from './download.svg'
-import { ReactComponent as Graphic } from './graphic.svg'
-import { ReactComponent as Guide } from './guide.svg'
-import { ReactComponent as Decentralized } from './decentralized.svg'
-import { ReactComponent as NonCostodial } from './non-costodial.svg'
-import { ReactComponent as OpenSource } from './open-source.svg'
-import { ReactComponent as Exchange } from './exchange.svg'
-import { ReactComponent as Rect } from './rect.svg'
-import { ReactComponent as Wallet } from './wallet.svg'
 import { ReactComponent as Phone } from './phone.svg'
-import { ReactComponent as Anonym } from './anonym.svg'
-import { ReactComponent as Tor } from './tor.svg'
-import { ReactComponent as Sort } from './sort.svg'
 import { ReactComponent as Done } from './done.svg'
 import { ReactComponent as Logo } from './logo.svg'
 import { ReactComponent as ArrowRight } from './arrow-right.svg'
+import { ReactComponent as NonCustodial } from './non-custodial.svg'
+import { ReactComponent as Wallet } from './wallet.svg'
+import { ReactComponent as Pie } from './pie.svg'
+import { ReactComponent as Swap } from './swap.svg'
+import { ReactComponent as Chart } from './chart.svg'
+import { ReactComponent as Ring } from './ring.svg'
+import { ReactComponent as Stop } from './stop.svg'
+import { ReactComponent as User } from './user.svg'
+import { ReactComponent as Incognito } from './incognito.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -39,30 +37,26 @@ const iconComponent = name => {
       return <Download />
 
     //  Pages
-    case 'graphic':
-      return <Graphic />
-    case 'guide':
-      return <Guide />
-    case 'decentralized':
-      return <Decentralized />
-    case 'non-costodial':
-      return <NonCostodial />
-    case 'open-source':
-      return <OpenSource />
-    case 'exchange':
-      return <Exchange />
-    case 'anonym':
-      return <Anonym />
-    case 'tor':
-      return <Tor />
-    case 'sort':
-      return <Sort />
-
-    //  Wallet
-    case 'rect':
-      return <Rect />
+    case 'non-custodial':
+      return <NonCustodial />
     case 'wallet':
       return <Wallet />
+    case 'pie':
+      return <Pie />
+    case 'chart':
+      return <Chart />
+    case 'swap':
+      return <Swap />
+    case 'ring':
+      return <Ring />
+    case 'stop':
+      return <Stop />
+    case 'user':
+      return <User />
+    case 'incognito':
+      return <Incognito />
+
+    //  Wallet
     case 'phone':
       return <Phone />
 

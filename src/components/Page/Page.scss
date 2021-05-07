@@ -15,11 +15,7 @@
 }
 
 .Page-rtl {
-  text-align: right;
 
-  @include sm {
-    text-align: left;
-  }
 }
 
 .Page-content {
@@ -62,21 +58,25 @@
 }
 
 .Page-start {
+  align-items: center;
+
   @include sm {
     padding-top: 60px;
   }
 }
 
 .Page-start--rtl {
-  align-items: flex-end;
+  align-items: center;
 }
 
 .Page-img {
-  width: 80%;
+  //position: absolute;
+  width: 70%;
   object-fit: contain;
+  z-index: 1;
 
   @include sm {
-    width: 100%;
+    //width: 100%;
   }
 }
 

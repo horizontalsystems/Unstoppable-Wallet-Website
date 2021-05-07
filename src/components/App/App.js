@@ -16,63 +16,71 @@ function App() {
         <Home />
       </div>
       <div id="page-2" className="Page-dark">
-        <Page img="investments" text="Invest Wisely"
-              info="Unstoppable integrates unmatched monitoring and analytical instruments designed to give its users an upper hand."
+        <Page img="hand"
+              text="Unchain Assets"
+              info="In contrast to assets stored with traditional financial institutions, no entity can put assets on hold or prevent you from transacting when using Unstoppable."
               rtl dark>
+
           <Feature
-            icon="exchange" title="Manage"
-            info="Store and grow crypto assets privately, without fraud risk or regulatory limitations."
-            rtl />
+            icon="non-custodial"
+            title="Non Custodial"
+            info="Have exclusive control over funds without relying on a custodian entity." />
           <Feature
-            icon="graphic" title="Analyze"
-            info="Access interactive charts and technical analysis indicators showing current price trends."
-            rtl />
+            icon="wallet"
+            title="Multi Wallet"
+            info="Safely manage multiple wallets capable of storing any token in a single app." />
           <Feature
-            icon="guide" title="Learn"
-            info={<>
-              Learn fundamentals and discover growing projects in our <a href="http://litrex.academy" target="_blank" rel="noopener noreferrer">cryptocurrency
-              academy</a>, accessible from wallet app.
-            </>}
-            rtl />
-        </Page>
-      </div>
-      <div id="page-3" className="Page-black">
-        <Page img="independence"
-              text="Be Independent"
-              info="Unstoppable is built to ensure users are able to access funds at any time from anywhere.">
-          <Feature
-            icon="non-costodial" title="Non-Custodial"
-            info="Have exclusive control over assets. The funds are under your exclusive control and no other entity." />
-          <Feature
-            icon="decentralized" title="Cross Platform"
-            info="Easily migrate wallets created in Unstoppable wallet app to other non-custodial wallets and vice versa." />
-          <Feature
-            icon="open-source" title="Open Source"
+            icon="pie" title="Portfolio Tracker"
             info={
               <>
-                Use a wallet with an open code that meets stated specifications.
-                Unstoppable has passed open source <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet" target="_blank"
-                                                      rel="noopener noreferrer" className="color-yellow">verification</a>
+                Analyze and monitor portfolio performance over time. <a href="/" className="text-nowrap text-decoration-none">Coming Soon</a>
               </>
             } />
         </Page>
       </div>
+      <div id="page-3" className="Page-black">
+        <Page img="independence"
+              text="Go Borderless"
+              info="Bypass the traditional finance layer entirely and enter the boundless world of Decentralized Finances (DeFi) with unmatched opportunities.">
+
+          <Feature
+            icon="swap"
+            title="DeFi Enabled"
+            info="Swap assets and put assets to work in income-generating opportunities." />
+
+          <Feature
+            icon="chart"
+            title="Market Analytics"
+            info="Discover crypto markets with institutional-grade analytics features." />
+
+          <Feature
+            icon="ring"
+            title="Action Alerts"
+            info="Be among the first to react to price-impacting market events." />
+
+        </Page>
+      </div>
       <div id="page-4" className="Page-dark">
-        <Page img="incognito"
+        <Page img="face"
               text="Stay Private"
-              info="Use this wallet to remain incognito and be able to keep your information private" rtl>
+              info="Use an instrument that takes extra privacy measures making it much harder for anyone to know who you are and what are you up to."
+              rtl>
+
           <Feature
-            icon="anonym" title="No Accounts"
-            info="There are no accounts, names, emails, or any other data collection procedures."
-            rtl />
+            icon="stop"
+            title="No data"
+            info="There are no servers keeping user accounts or any kind of identifiers." />
+
           <Feature
-            icon="tor" title="TOR Network"
-            info="Mask IP address and location while using the app by routing your internet connection through untraceable servers."
-            rtl />
+            icon="user"
+            title="No KYC"
+            info="There are no identity checks that may potentially expose sensitive data to the outer world." />
+
           <Feature
-            icon="sort" title="Bitcoin Privacy"
-            info="Make use of additional privacy settings for natively public Bitcoin transactions by making your transactions harder to track."
-            rtl />
+            icon="incognito"
+            title="Privacy settings"
+            info="Keep the context of your connectivity private even from your internet provider." />
+
         </Page>
       </div>
       <div id="page-5" className="Page-black">
