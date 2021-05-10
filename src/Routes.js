@@ -14,7 +14,7 @@ function Routes() {
         <Route path="/privacy" render={Privacy} />
         <Route path="/no-data-policy" render={NoDataPolicy} />
         <Route path="/faq" component={Faq} />
-        <Route path="/" render={App} />
+        <Route path="/" component={App} />
       </Switch>
 
       <CookieConsent />

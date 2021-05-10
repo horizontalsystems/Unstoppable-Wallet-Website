@@ -28,6 +28,11 @@
   margin: 15px;
   background: $steel_10;
   border-radius: 16px;
+  cursor: pointer;
+}
+
+.Feature-active {
+  background: $steel_20;
 }
 
 .Feature-rtl {

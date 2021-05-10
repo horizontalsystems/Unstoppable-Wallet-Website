@@ -6,7 +6,9 @@ import ImageGradient from '../Icon/image-gradient.svg'
 
 import './Page.scss'
 
-function Page({ img, text, info, children, rtl }) {
+function Page({ img, featureImg, text, info, children, rtl, onMouseLeave }) {
+  const image = featureImg || img
+
   return (
     <Container clipped={false}>
       <div className={cn('Page', { 'Page-rtl': rtl })}>
@@ -19,7 +21,7 @@ function Page({ img, text, info, children, rtl }) {
             />
             <img
               className="Page-img"
-              src={`/images/pages/${img}.png`}
+              src={`/images/pages/${image}.png`}
               alt={text}
             />
           </div>
@@ -31,7 +33,7 @@ function Page({ img, text, info, children, rtl }) {
               {info}
             </div>
             <div className="Page-action">
-              <div className="Features">
+              <div className="Features" onMouseLeave={onMouseLeave}>
                 {children}
               </div>
             </div>

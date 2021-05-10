@@ -4,9 +4,9 @@ import Icon from '../Icon'
 
 import './Feature.scss'
 
-function Feature({ icon, title, info, rtl }) {
+function Feature({ icon, title, info, rtl, onMouseEnter, isActive }) {
   return (
-    <div className={cn('Feature', {'Feature-rtl': rtl})}>
+    <div className={cn('Feature', { 'Feature-rtl': rtl, 'Feature-active': isActive })} onMouseEnter={onMouseEnter}>
       <div className="Feature-icon">
         <Icon name={icon} />
       </div>
