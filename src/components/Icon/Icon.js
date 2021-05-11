@@ -18,6 +18,8 @@ import { ReactComponent as Ring } from './ring.svg'
 import { ReactComponent as Stop } from './stop.svg'
 import { ReactComponent as User } from './user.svg'
 import { ReactComponent as Incognito } from './incognito.svg'
+import { ReactComponent as Circle } from './circle.svg'
+import { ReactComponent as Globe } from './globe.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -55,6 +57,10 @@ const iconComponent = name => {
       return <User />
     case 'incognito':
       return <Incognito />
+    case 'circle':
+      return <Circle />
+    case 'globe':
+      return <Globe />
 
     //  Wallet
     case 'phone':

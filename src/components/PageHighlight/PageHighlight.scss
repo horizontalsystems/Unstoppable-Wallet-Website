@@ -1,0 +1,9 @@
+@import "../../scss/utils";
+
+.PageHighlight {
+  padding: 70px 0;
+
+  @include md {
+    padding: 90px 0;
+  }
+}

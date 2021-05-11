@@ -88,45 +88,6 @@
   }
 }
 
-.Section-products {
-  display: flex;
-  width: 100%;
-
-  @include sm {
-    flex-direction: column;
-
-    .Card {
-      margin: 15px 0;
-    }
-  }
-}
-
-.Section-image {
-  position: relative;
-  width: 100%;
-
-  @include sm {
-    height: 350px;
-    padding: 0;
-  }
-}
-
-.Section-image-info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-  padding-top: 40px;
-
-  @include md {
-    padding-top: 60px;
-  }
-
-  @include lg {
-    padding-top: 80px;
-  }
-}
-
 .Section-image-big {
   @include sm {
     height: 545px;
@@ -160,8 +121,8 @@
     padding: 80px 0;
   }
 
-  @include xxl {
-    padding: 100px 0;
+  @include xl {
+    padding: 120px 0;
   }
 }
 

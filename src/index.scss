@@ -8,13 +8,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
-  background: $black;
-  color: $white;
+  background: $black !important;
+  color: $white !important;
 }
 
 // Typographic
 .color-yellow {
   color: $yellow-d;
+}
+
+.text-grey {
+  color: $grey !important;
+}
+
+.text-steel-light {
+  color: $steel_light !important;
 }
 
 .text-decoration-none {
@@ -24,3 +32,13 @@ body {
 .text-nowrap {
   white-space: nowrap !important;
 }
+
+.card-rounded {
+  border-radius: 16px !important;
+}
+
+// Background
+.bg-steel-10 {
+  background-color: $steel_10 !important;
+}
+

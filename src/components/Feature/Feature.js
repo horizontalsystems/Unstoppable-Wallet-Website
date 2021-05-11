@@ -4,9 +4,15 @@ import Icon from '../Icon'
 
 import './Feature.scss'
 
-function Feature({ icon, title, info, rtl, onMouseEnter, isActive }) {
+function Feature({ icon, title, info, rtl, onMouseEnter, isActive, isCard = true }) {
+  const className = {
+    'Feature-rtl': rtl,
+    'Feature-card': isCard,
+    'Feature-active': isActive
+  }
+
   return (
-    <div className={cn('Feature', { 'Feature-rtl': rtl, 'Feature-active': isActive })} onMouseEnter={onMouseEnter}>
+    <div className={cn('Feature', className)} onMouseEnter={onMouseEnter}>
       <div className="Feature-icon">
         <Icon name={icon} />
       </div>

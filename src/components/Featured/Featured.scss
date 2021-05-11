@@ -41,11 +41,11 @@
 }
 
 .Featured-item {
-  padding: 10px;
+  margin: 10px;
   height: 24px;
 
   @include md {
-    padding: 15px;
+    margin: 15px;
     height: 40px;
   }
 

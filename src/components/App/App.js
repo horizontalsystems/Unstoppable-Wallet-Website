@@ -6,6 +6,10 @@ import Feature from '../Feature'
 import Wallet from '../Wallet'
 import Footer from '../Footer/Footer'
 import Join from '../Join/Join'
+import PageHighlight from '../PageHighlight/PageHighlight'
+import FeaturesList from '../Features/FeaturesList'
+import GetWallet from '../GetWallet'
+import Quote from '../Quote/Quote'
 
 import './App.scss'
 
@@ -31,6 +35,10 @@ function App() {
         <Home />
       </div>
       <div id="page-2" className="Page-dark">
+        <PageHighlight />
+      </div>
+
+      <div id="page-3" className="Page-black">
         <Page img="hand"
               onMouseLeave={() => onMouseLeave('hand')}
               featureImg={feature.hand}
@@ -62,7 +70,7 @@ function App() {
             } />
         </Page>
       </div>
-      <div id="page-3" className="Page-black">
+      <div id="page-4" className="Page-dark">
         <Page img="independence"
               onMouseLeave={() => onMouseLeave('independence')}
               featureImg={feature.independence}
@@ -92,7 +100,7 @@ function App() {
 
         </Page>
       </div>
-      <div id="page-4" className="Page-dark">
+      <div id="page-5" className="Page-black">
         <Page img="face"
               onMouseLeave={() => onMouseLeave('face')}
               featureImg={feature.face}
@@ -123,13 +131,26 @@ function App() {
 
         </Page>
       </div>
-      <div id="page-5" className="Page-black">
+
+      <div id="page-6" className="Page-dark">
+        <FeaturesList />
+      </div>
+
+      <div id="page-7" className="Page-black">
         <Wallet />
       </div>
       <div id="page-6" className="Page-dark">
+        <Quote />
+      </div>
+      <div className="Page-black">
+        <div className="Wallet-download">
+          <GetWallet />
+        </div>
+      </div>
+      <div id="page-8" className="Page-dark">
         <Join />
       </div>
-      <div id="page-7" className="Page-dark">
+      <div id="page-9" className="Page-black">
         <Footer />
       </div>
     </div>

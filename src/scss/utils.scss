@@ -54,6 +54,10 @@ $grey:        #808085;
 $grey-light:  #C8C7CC;
 $yellow:      $yellow_d;
 
+// Border
+$border-color:  $steel-20;
+$list-group-border-color: $border-color;
+
 /*
  * Layout
  * ======================================================================== */
@@ -75,3 +79,5 @@ $screen-xxl: 1441px !default;
 @mixin lg { @media (min-width: $screen-lg) { @content; } }
 @mixin xl { @media (min-width: $screen-xl) { @content; } }
 @mixin xxl { @media (min-width: $screen-xxl) { @content; } }
+
+@import "~bootstrap/scss/bootstrap";

@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^5.0.0",
     "classnames": "^2.2.6",
     "events": "^3.2.0",
     "lodash.throttle": "^4.1.1",

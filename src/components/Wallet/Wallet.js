@@ -3,72 +3,14 @@ import React from 'react'
 import Container from '../Container'
 import Slider from '../Slider'
 import Icon from '../Icon'
-import Card from '../Card'
-import CardNumber from '../Card/CardNumber'
-import GetWallet from '../GetWallet'
 import Featured from '../Featured'
+import CardApproved from '../Card/CardApproved'
 
 import './Wallet.scss'
 
 function Wallet() {
   return (
     <div className="Wallet">
-      <Container clipped={false}>
-        <div className="Section-head">
-          <div className="Section-icon">
-            <Icon name="wallet" />
-          </div>
-          <div className="Section-text">
-            One wallet for all your digital assets
-          </div>
-          <div className="Section-info">
-            Store and manage major cryptocurrencies and hundreds of crypto tokens on all major blockchains.
-          </div>
-        </div>
-      </Container>
-      <Container className="Section-image">
-        <img
-          className="Wallet-screen"
-          src="/images/wallet/coins.png"
-          srcSet="/images/wallet/coins@2x.png 2x, /images/wallet/coins@3x.png 3x"
-          alt=""
-        />
-      </Container>
-      <Container>
-        <div className="Section-image-info">
-          <div className="Section-info">
-            Unstoppable is more than just another multi-currency wallet. It’s one of the few wallets out there that adheres to standards and
-            implements the latest advancements for Bitcoin and Ethereum.
-          </div>
-          <div className="Section-products">
-            <Card title="Bitcoin Wallet" info={<>
-              - Fully SPV enabled <br />
-              - HD wallet <br />
-              - Segregated witness <br />
-              - Custom transaction fees <br />
-              - BIP44 / BIP49 / BIP84 / BIP69 <br />
-              - Lock BTCs from spending for x days
-            </>} />
-            <Card title="Ethereum Wallet" info={
-              <>
-                - Supports any ERC20 token <br />
-                - DeFi support <br />
-                - WalletConnnect protocol <br />
-                - Custom transaction fees
-              </>
-            } />
-            <Card title="Multi-currency Wallet" info={
-              <>
-                - Binance Chain + BEP2 <br />
-                - Dash blockchain <br />
-                - Litecoin blockchain <br />
-                - Bitcoin Cash blockchain <br />
-                - ZCash blockchain
-              </>
-            } />
-          </div>
-        </div>
-      </Container>
       <Container>
         <div className="Section-head">
           <div className="Section-icon">
@@ -78,8 +20,10 @@ function Wallet() {
             Intuitive and functional interface
           </div>
           <div className="Section-info">
-            Manage your assets in a responsive and user-friendly interface. Unstoppable engineered using native iOS and Android programming languages
-            and therefore able to provide better performance, smoother interface and overall wider selection of features.
+            One of the key ideas driving the engineering and creative process for Unstoppable is to make this technology accessible and
+            easy. <br /><br />
+            Unstoppable being built using native iOS and Android programming languages which in turn deliver highly responsive interface and wider
+            selection of features.
           </div>
         </div>
       </Container>
@@ -93,25 +37,26 @@ function Wallet() {
       </Container>
       <Container>
         <div className="Wallet-purpose">
+          <div className="text-center pb-3 display-5">Open Source</div>
+          <p className="text-center py-3 mb-5 text-grey">
+            Use a wallet with a fully open code that meets stated specifications.
+          </p>
           <Slider slidesToScroll={3} slidesToShow={3}>
-            <CardNumber
-              number="1"
-              title="Who is it for?"
-              info="For those who hold financial independence, wealth privacy and open access to markets in high regard." />
-            <CardNumber
-              number="2"
-              title="What is it for?"
-              info="For seamless investing in cryptocurrency and blockchain projects, making them understandable and accessible." />
-            <CardNumber
-              number="3"
-              title="Why this wallet?"
-              info="It enables anyone to privately access financial services without risk of confiscation or fear of being censored." />
+            <CardApproved
+              by="Bitcoin"
+              title="Approved By Bitcoin.org"
+              info="Our wallet has been reviewed bitcoin.org and they recommend it to new and experienced users as a transparent and fully controlled wallet" />
+            <CardApproved
+              by="Certik"
+              title="Audited By Certik"
+              info="The CertiK team looked at the authoritative roles, commits, proofs, and the withdrawal functionalities.No vulnerabilities, either major or minor, were found in any of the areas." />
+            <CardApproved
+              by="WalletScrutiny"
+              title="Approved By Wallet Scrutiny"
+              info="The aim of this project is to improve the security of Bitcoin wallets by examining the application code for possible back-doors and other vulnerabilities." />
           </Slider>
         </div>
       </Container>
-      <div className="Wallet-download">
-        <GetWallet />
-      </div>
       <div className="Featured-in">
         <Featured />
       </div>
