@@ -21,7 +21,14 @@ function Releases() {
                     <div>- info screen for transaction status phases. ...</div>
                   </div>
                   <div className="pt-4">
-                    <a href="/" className="text-decoration-none"><small>Learn More</small></a>
+                    <a
+                      href="https://unstoppablewallet.medium.com/whats-new-version-0-18-1af77fc7b24f"
+                      className="text-decoration-none text-warning"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <small>Learn More</small>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -39,7 +46,14 @@ function Releases() {
                     </div>
                   </div>
                   <div className="pt-4">
-                    <a href="/" className="text-decoration-none"><small>Learn More</small></a>
+                    <a
+                      href="https://unstoppablewallet.medium.com/whats-new-version-0-19-31efcb7dcb5f"
+                      className="text-decoration-none text-warning"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <small>Learn More</small>
+                    </a>
                   </div>
                 </div>
               </div>

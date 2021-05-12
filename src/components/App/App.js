@@ -11,8 +11,8 @@ import FeaturesList from '../Features/FeaturesList'
 import GetWallet from '../GetWallet'
 import Quote from '../Quote/Quote'
 import Featured from '../Featured'
-import Container from '../Container'
 import Releases from '../Releases/Releases'
+import Roadmap from '../Roadmap/Roadmap'
 
 import './App.scss'
 
@@ -162,12 +162,9 @@ function App() {
       </div>
 
       <div className="Page-dark">
-        <Container>
-          <div className="py-5">
-            <div className="text-center pb-5 display-5">Roadmap</div>
-          </div>
-        </Container>
+        <Roadmap />
       </div>
+
       <div id="page-8" className="Page-black">
         <Join />
       </div>
