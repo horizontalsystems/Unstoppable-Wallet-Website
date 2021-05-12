@@ -10,6 +10,9 @@ import PageHighlight from '../PageHighlight/PageHighlight'
 import FeaturesList from '../Features/FeaturesList'
 import GetWallet from '../GetWallet'
 import Quote from '../Quote/Quote'
+import Featured from '../Featured'
+import Container from '../Container'
+import Releases from '../Releases/Releases'
 
 import './App.scss'
 
@@ -139,18 +142,37 @@ function App() {
       <div id="page-7" className="Page-black">
         <Wallet />
       </div>
-      <div id="page-6" className="Page-dark">
+
+      <div className="Page-dark">
+        <Featured />
+      </div>
+
+      <div id="page-6" className="Page-black">
         <Quote />
       </div>
-      <div className="Page-black">
+
+      <div className="Page-dark">
         <div className="Wallet-download">
           <GetWallet />
         </div>
       </div>
-      <div id="page-8" className="Page-dark">
+
+      <div className="Page-black">
+        <Releases />
+      </div>
+
+      <div className="Page-dark">
+        <Container>
+          <div className="py-5">
+            <div className="text-center pb-5 display-5">Roadmap</div>
+          </div>
+        </Container>
+      </div>
+      <div id="page-8" className="Page-black">
         <Join />
       </div>
-      <div id="page-9" className="Page-black">
+
+      <div id="page-9" className="Page-dark">
         <Footer />
       </div>
     </div>

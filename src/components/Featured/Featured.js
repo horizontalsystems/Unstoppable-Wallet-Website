@@ -12,7 +12,7 @@ import './Featured.scss'
 function Featured() {
   return (
     <Container>
-      <div className="Featured">
+      <div className="Featured py-5">
         <div className="Featured-text">Featured In</div>
         <div className="Featured-list">
           <a target="_blank" href="https://ethereum.org/en/wallets/find-wallet/" rel="noopener noreferrer">

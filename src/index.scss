@@ -25,14 +25,6 @@ body {
   color: $steel_light !important;
 }
 
-.text-decoration-none {
-  text-decoration: none !important;
-}
-
-.text-nowrap {
-  white-space: nowrap !important;
-}
-
 .card-rounded {
   border-radius: 16px !important;
 }
@@ -42,3 +34,13 @@ body {
   background-color: $steel_10 !important;
 }
 
+.bg-steel-20 {
+  background-color: $steel_20 !important;
+}
+
+// height
+.md-h-100 {
+  @include md {
+    height: 100% !important;
+  }
+}

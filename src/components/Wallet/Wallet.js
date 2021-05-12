@@ -3,7 +3,6 @@ import React from 'react'
 import Container from '../Container'
 import Slider from '../Slider'
 import Icon from '../Icon'
-import Featured from '../Featured'
 import CardApproved from '../Card/CardApproved'
 
 import './Wallet.scss'
@@ -57,9 +56,6 @@ function Wallet() {
           </Slider>
         </div>
       </Container>
-      <div className="Featured-in">
-        <Featured />
-      </div>
     </div>
   )
 }
