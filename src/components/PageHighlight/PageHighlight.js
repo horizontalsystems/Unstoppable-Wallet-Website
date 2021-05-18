@@ -11,19 +11,19 @@ function PageHighlight() {
         <Feature
           icon="circle"
           title="Unchain Assets"
-          info="Make capital immune against inflation, confiscation or censorship."
+          info="Don't lock yourself in and don't let others do that to you."
           isCard={false} />
 
         <Feature
           icon="globe"
           title="Go Borderless"
-          info="Bypass barriers and access market opportunities unconditionally."
+          info="Bypass conditional barriers and access markets globally."
           isCard={false} />
 
         <Feature
           icon="incognito"
           title="Stay Private"
-          info="Do not leak your private and financial data to the external world."
+          info="Do not leak your private and financial data to the world."
           isCard={false} />
       </div>
     </Container>

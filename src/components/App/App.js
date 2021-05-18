@@ -37,6 +37,7 @@ function App() {
       <div id="page-1" className="Page-black">
         <Home />
       </div>
+
       <div id="page-2" className="Page-dark">
         <PageHighlight />
       </div>
@@ -46,7 +47,7 @@ function App() {
               onMouseLeave={() => onMouseLeave('hand')}
               featureImg={feature.hand}
               text="Unchain Assets"
-              info="In contrast to assets stored with traditional financial institutions, no entity can put assets on hold or prevent you from transacting when using Unstoppable."
+              info="Make capital immune to inflation, confiscation, or censorship. Do not let any entity freeze your assets or prevent you from transacting."
               rtl dark>
 
           <Feature
@@ -66,11 +67,7 @@ function App() {
             onMouseEnter={() => onMouseEnter('hand', 'portfolio')}
             isActive={feature.hand === 'portfolio'}
             title="Portfolio Tracker"
-            info={
-              <>
-                Analyze and monitor portfolio performance over time. <a href="/" className="text-nowrap text-decoration-none">Coming Soon</a>
-              </>
-            } />
+            info="Access and transact from anywhere at any time given there is internet." />
         </Page>
       </div>
       <div id="page-4" className="Page-dark">
@@ -78,28 +75,33 @@ function App() {
               onMouseLeave={() => onMouseLeave('independence')}
               featureImg={feature.independence}
               text="Go Borderless"
-              info="Bypass the traditional finance layer entirely and enter the boundless world of Decentralized Finances (DeFi) with unmatched opportunities.">
+              info="Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities.">
 
           <Feature
             icon="swap"
             onMouseEnter={() => onMouseEnter('independence', 'swap')}
             isActive={feature.independence === 'swap'}
             title="DeFi Enabled"
-            info="Swap assets and put assets to work in income-generating opportunities." />
+            info="Swap assets, stake assets and interact with any DeFi service via WalletConnect." />
 
           <Feature
             icon="chart"
             onMouseEnter={() => onMouseEnter('independence', 'market')}
             isActive={feature.independence === 'market'}
             title="Market Analytics"
-            info="Discover crypto markets with institutional-grade analytics features." />
+            info="Discover and navigate crypto markets with institutional-grade analytics." />
 
           <Feature
             icon="ring"
             onMouseEnter={() => onMouseEnter('independence', 'search')}
             isActive={feature.independence === 'search'}
             title="Action Alerts"
-            info="Be among the first to react to price-impacting market events." />
+            info={
+              <>
+                Be among the first to react to price-impacting market events.
+                <span className="color-yellow text-nowrap"> Coming soon!</span>
+              </>
+            } />
 
         </Page>
       </div>
@@ -108,29 +110,29 @@ function App() {
               onMouseLeave={() => onMouseLeave('face')}
               featureImg={feature.face}
               text="Stay Private"
-              info="Use an instrument that takes extra privacy measures making it much harder for anyone to know who you are and what are you up to."
+              info="Use a tool that designed to work for you, has no means to track you are and takes extra steps to keep you private from prying eyes."
               rtl>
 
           <Feature
-            icon="stop"
+            icon="user"
             onMouseEnter={() => onMouseEnter('face', 'no-data')}
             isActive={feature.face === 'no-data'}
-            title="No data"
+            title="Genuinely Private"
             info="There are no servers keeping user accounts or any kind of identifiers." />
 
           <Feature
-            icon="user"
+            icon="stop"
             onMouseEnter={() => onMouseEnter('face', 'no-kyc')}
             isActive={feature.face === 'no-kyc'}
-            title="No KYC"
-            info="There are no identity checks that may potentially expose sensitive data to the outer world." />
+            title="No Checks"
+            info="The app doesn't involve any elements of traditional finance requiring identity checks." />
 
           <Feature
             icon="incognito"
             onMouseEnter={() => onMouseEnter('face', 'privacy')}
             isActive={feature.face === 'privacy'}
-            title="Privacy settings"
-            info="Keep the context of your connectivity private even from your internet provider." />
+            title="TOR Enabled"
+            info="Keep the context of your connection private even from your internet provider." />
 
         </Page>
       </div>

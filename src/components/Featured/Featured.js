@@ -2,6 +2,7 @@ import React from 'react'
 
 import Container from '../Container'
 import zcash from './zcash.svg'
+import dash from './dash.svg'
 import walletConnect from './wallet-connect.svg'
 import ethereum from './ethereum.svg'
 import oneInch from './1inch.svg'
@@ -23,6 +24,9 @@ function Featured() {
           </a>
           <a target="_blank" href="https://app.1inch.io/" rel="noopener noreferrer">
             <img className="Featured-item" src={oneInch} alt="1 Inch Network" />
+          </a>
+          <a target="_blank" href="https://docs.dash.org/en/stable/wallets/third-party.html#unstoppable" rel="noopener noreferrer">
+            <img className="Featured-item" src={dash} alt="Dash" />
           </a>
           <a target="_blank" href="https://electriccoin.co/blog/zcash-is-unstoppable-privacy-focused-wallet-first-to-integrate-ecc-wallet-sdks/" rel="noopener noreferrer">
             <img className="Featured-item" src={zcash} alt="ZCash" />
