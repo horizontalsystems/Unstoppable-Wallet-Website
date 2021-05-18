@@ -8,6 +8,22 @@
   }
 }
 
+.Section-space-top {
+  padding-top: 60px;
+
+  @include md {
+    padding-top: 80px;
+  }
+}
+
+.Section-space-bottom {
+  padding-bottom: 60px;
+
+  @include md {
+    padding-bottom: 80px;
+  }
+}
+
 .Section-head {
   display: flex;
   flex-wrap: wrap;
@@ -124,10 +140,6 @@
 
   @include sm {
     padding: 80px 0;
-  }
-
-  @include xl {
-    padding: 120px 0;
   }
 }
 

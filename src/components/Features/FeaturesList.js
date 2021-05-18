@@ -19,7 +19,7 @@ import { ReactComponent as Academy } from './academy.svg'
 function FeaturesList() {
   return (
     <Container>
-      <div className="py-5">
+      <div className="Section-space-top Section-space-bottom">
         <div className="text-center pb-5 display-5">Features List</div>
         <div className="row">
           <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled">

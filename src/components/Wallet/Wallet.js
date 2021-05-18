@@ -16,17 +16,17 @@ function Wallet() {
             <Icon name="phone" />
           </div>
           <div className="Section-text">
-            Intuitive and functional interface
+            Intuitive and Extensive
           </div>
           <div className="Section-info">
-            One of the key ideas driving the engineering and creative process for Unstoppable is to make this technology accessible and
-            easy. <br /><br />
-            Unstoppable being built using native iOS and Android programming languages which in turn deliver highly responsive interface and wider
-            selection of features.
+            One of the key ideas driving the engineering and creative process for Unstoppable is to make decentralized financial layer accessible,
+            easy and enjoyable. <br /><br />
+            To deliver unmatched performance and wider selection of features Unstoppable is being built using native iOS and Android technologies.
+            It's both hard and expensive process but an inherently satisfying one.
           </div>
         </div>
       </Container>
-      <Container className="Section-image Section-image-big">
+      <Container className="Section-image-big">
         <img
           className="Wallet-screen"
           src={`/images/wallet/screens.png`}
@@ -35,7 +35,7 @@ function Wallet() {
         />
       </Container>
       <Container>
-        <div className="Wallet-purpose">
+        <div className="Section-space-top">
           <div className="text-center pb-3 display-5">Open Source</div>
           <p className="text-center py-3 mb-5 text-grey">
             Use a wallet with a fully open code that meets stated specifications.
@@ -44,15 +44,30 @@ function Wallet() {
             <CardApproved
               by="Bitcoin"
               title="Approved By Bitcoin.org"
-              info="Our wallet has been reviewed bitcoin.org and they recommend it to new and experienced users as a transparent and fully controlled wallet" />
+              info={
+                <>
+                  Unstoppable has been listed by <a href="https://bitcoin.org/" target="_blank" rel="noopener noreferrer" className="color-link">Bitcoin.org</a>, one of the leading informational resources for Bitcoin,
+                  and recommended for both new and experienced users alike.
+                </>
+              } />
             <CardApproved
               by="Certik"
               title="Audited By Certik"
-              info="The CertiK team looked at the authoritative roles, commits, proofs, and the withdrawal functionalities.No vulnerabilities, either major or minor, were found in any of the areas." />
+              info={
+                <>
+                  Unstoppable was audited by <a href="https://www.certik.org/" target="_blank" rel="noopener noreferrer" className="color-link">Certik.org</a> where both iOS and Android versions of the app were checked for
+                  potential backdoors and vulnerabilities. No major or minor issues were found.
+                </>
+              } />
             <CardApproved
               by="WalletScrutiny"
               title="Approved By Wallet Scrutiny"
-              info="The aim of this project is to improve the security of Bitcoin wallets by examining the application code for possible back-doors and other vulnerabilities." />
+              info={
+                <>
+                  The <a href="https://walletscrutiny.com//" target="_blank" rel="noopener noreferrer" className="color-link">WalletScrutiny.com</a> verifies that cryptocurrency wallets are indeed using the same publicly open
+                  code they claim to. Unstoppable is verifiably open source wallet.
+                </>
+              } />
           </Slider>
         </div>
       </Container>

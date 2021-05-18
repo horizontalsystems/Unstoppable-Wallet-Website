@@ -29,6 +29,14 @@ body {
   border-radius: 16px !important;
 }
 
+.color-link {
+  color: $yellow-d;
+
+  &:hover {
+    color: darken($yellow-d, 10%);
+  }
+}
+
 // Background
 .bg-steel-10 {
   background-color: $steel_10 !important;
