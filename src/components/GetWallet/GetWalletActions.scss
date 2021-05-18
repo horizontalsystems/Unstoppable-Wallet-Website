@@ -1,0 +1,17 @@
+@import "../../scss/utils";
+
+.Banner-actions {
+  align-self: flex-start;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr min-content;
+  grid-gap: 20px;
+  padding-bottom: 30px;
+
+  @include sm {
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    align-self: center;
+    width: 100%;
+  }
+}

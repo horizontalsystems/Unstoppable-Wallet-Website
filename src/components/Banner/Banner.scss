@@ -129,11 +129,3 @@
   }
 }
 
-.Banner-action {
-  align-self: flex-start;
-
-  @include sm {
-    align-self: center;
-    width: 100%;
-  }
-}

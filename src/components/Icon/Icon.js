@@ -4,7 +4,9 @@ import { ReactComponent as Burger } from './burger.svg'
 import { ReactComponent as Close } from './close.svg'
 import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
+import { ReactComponent as FDroid } from './f-droid.svg'
 import { ReactComponent as Download } from './download.svg'
+import { ReactComponent as QRCode } from './qr-code.svg'
 import { ReactComponent as Phone } from './phone.svg'
 import { ReactComponent as Done } from './done.svg'
 import { ReactComponent as Logo } from './logo.svg'
@@ -35,8 +37,12 @@ const iconComponent = name => {
       return <GooglePlay />
     case 'app-store':
       return <AppStore />
+    case 'f-droid':
+      return <FDroid />
     case 'download':
       return <Download />
+    case 'qr-code':
+      return <QRCode />
 
     //  Pages
     case 'non-custodial':
