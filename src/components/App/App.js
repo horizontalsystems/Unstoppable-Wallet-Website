@@ -63,10 +63,10 @@ function App() {
             title="Multi Wallet"
             info="Safely manage multiple wallets capable of storing any token in a single app." />
           <Feature
-            icon="pie"
+            icon="blocks"
             onMouseEnter={() => onMouseEnter('hand', 'portfolio')}
             isActive={feature.hand === 'portfolio'}
-            title="Portfolio Tracker"
+            title="Decentralized"
             info="Access and transact from anywhere at any time given there is internet." />
         </Page>
       </div>

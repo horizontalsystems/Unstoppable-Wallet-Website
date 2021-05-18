@@ -14,6 +14,7 @@ import { ReactComponent as ArrowRight } from './arrow-right.svg'
 import { ReactComponent as NonCustodial } from './non-custodial.svg'
 import { ReactComponent as Wallet } from './wallet.svg'
 import { ReactComponent as Pie } from './pie.svg'
+import { ReactComponent as Blocks } from './blocks.svg'
 import { ReactComponent as Swap } from './swap.svg'
 import { ReactComponent as Chart } from './chart.svg'
 import { ReactComponent as Ring } from './ring.svg'
@@ -51,6 +52,8 @@ const iconComponent = name => {
       return <Wallet />
     case 'pie':
       return <Pie />
+    case 'blocks':
+      return <Blocks />
     case 'chart':
       return <Chart />
     case 'swap':

@@ -22,6 +22,7 @@ function Page({ img, featureImg, text, info, children, rtl, onMouseLeave }) {
             <img
               className="Page-img"
               src={`/images/pages/${image}.png`}
+              srcSet={`/images/pages/${image}@2x.png 2x, /images/pages/${image}@3x.png 3x`}
               alt={text}
             />
           </div>
