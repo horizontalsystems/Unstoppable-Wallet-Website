@@ -1,0 +1,10 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": ["HC4MCAXJ66.io.horizontalsystems.bank-wallet", "HC4MCAXJ66.io.horizontalsystems.bank-wallet.dev.testnet", "HC4MCAXJ66.io.horizontalsystems.bank-wallet.dev"],
+             "components": []
+           }
+       ]
+   }
+}
