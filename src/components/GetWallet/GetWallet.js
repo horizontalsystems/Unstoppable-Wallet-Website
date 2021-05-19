@@ -10,7 +10,7 @@ function GetWallet() {
     <Container>
       <div className="GetWallet">
         <div className="GetWallet-text">
-          Get the Unstoppable Wallet!
+          Be Unstoppable!
         </div>
         <div className="GetWallet-action">
           <GetWalletActions />

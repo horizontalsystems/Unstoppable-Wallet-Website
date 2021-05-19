@@ -16,11 +16,10 @@ function Join() {
         <div className="Page-content">
           <div className="Page-start">
             <div className="Section-text Join-section-text">
-              Our Wallet Community <br /> Welcomes You
+              Join Unstoppables
             </div>
             <div className="Section-info Join-section-info">
-              Keep up to date with Unstoppable related news. You’ll be the first to know about new features, issues and more!
-            </div>
+              Stay on top of Unstoppable happenings. Be the first to know about new features, user reported issues and things we work on!            </div>
           </div>
           <div className="Page-end">
             <div className="Join-icons">

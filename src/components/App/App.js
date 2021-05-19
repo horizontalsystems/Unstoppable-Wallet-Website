@@ -98,8 +98,7 @@ function App() {
             title="Action Alerts"
             info={
               <>
-                Be among the first to react to price-impacting market events.
-                <span className="color-yellow text-nowrap"> Coming soon!</span>
+                Be among the first to react to price-impacting market events. Coming soon!
               </>
             } />
 
@@ -110,7 +109,7 @@ function App() {
               onMouseLeave={() => onMouseLeave('face')}
               featureImg={feature.face}
               text="Stay Private"
-              info="Use a tool that designed to work for you, has no means to track you are and takes extra steps to keep you private from prying eyes."
+              info="Use a tool that is built to work for you, has no means to track you and takes extra steps to ensure privacy from prying eyes."
               rtl>
 
           <Feature
