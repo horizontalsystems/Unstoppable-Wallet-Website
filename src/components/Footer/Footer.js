@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 import Icon from '../Icon/Icon'
 import Container from '../Container/Container'
-import SubscribeForm from '../Contact/SubscribeForm'
 import { ReactComponent as Logo } from './HSlogo.svg'
 
 import './Footer.scss'
@@ -28,12 +27,6 @@ class Footer extends React.Component {
 
               <div className="Footer-nav-contact-us">Contact us:</div>
               <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="mailto:hsdao@protonmail.com">hsdao@protonmail.com</a>
-            </div>
-            <div className="Footer-subscribe">
-              <SubscribeForm formCode="m3g0e6" formId="1561498" />
-              <div className="Footer-subscribe-info">
-                Subscribe to our newsletter to get new products, guides and cheat sheets when they are published.
-              </div>
             </div>
           </div>
 
