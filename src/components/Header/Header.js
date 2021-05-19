@@ -88,7 +88,9 @@ class Header extends React.Component {
               <img className="Header-logo" src={HeaderLogo} alt="Unstoppable Cryptocurrency Wallet" />
             </Link>
 
-            {navigation}
+            <div className="hide-on-mobile">
+              {navigation}
+            </div>
 
             <div className="Menu-wrap" onClick={this.onToggleMenu}>
               <div className="Menu-close" ref={r => this.menuClose = r}>

@@ -79,6 +79,12 @@
   }
 }
 
+.hide-on-mobile {
+  @include sm {
+    display: none !important;
+  }
+}
+
 .Menu-wrap {
   z-index: 2;
   display: none;
