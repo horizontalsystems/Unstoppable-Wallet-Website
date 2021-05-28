@@ -68,6 +68,9 @@ class Header extends React.Component {
         <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://horizontalsystems.io/">
           About Us
         </a>
+        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://litrex.academy">
+          Academy
+        </a>
         <Link className="nav-item" to="/faq">FAQ</Link>
         {sticky && <Button
           className="Button-circle nav-btn-item ml-20"

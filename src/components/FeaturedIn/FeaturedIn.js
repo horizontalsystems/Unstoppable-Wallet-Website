@@ -10,11 +10,11 @@ import defiPulse from './defi-pulse.svg'
 
 import './Featured.scss'
 
-function Featured() {
+function FeaturedIn() {
   return (
     <Container>
       <div className="Featured py-5">
-        <div className="Featured-text">Featured In</div>
+        <div className="Featured-text">FeaturedIn In</div>
         <div className="Featured-list">
           <a target="_blank" href="https://ethereum.org/en/wallets/find-wallet/" rel="noopener noreferrer">
             <img className="Featured-item" src={ethereum} alt="Ethereum" />
@@ -40,4 +40,4 @@ function Featured() {
   )
 }
 
-export default Featured
+export default FeaturedIn

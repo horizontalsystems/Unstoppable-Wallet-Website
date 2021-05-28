@@ -21,14 +21,14 @@ function CardApproved({ title, info, by }) {
       <div className="card-body d-flex flex-column justify-content-around">
         <div>
           <Check />
-          <div className="text-steel-light border-top pt-3 mt-2">
+          <div className="text-steel-light border-top pt-3 mt-2 text-center">
             {title}
           </div>
-          <div className="text-grey pt-3 mt-2">
+          <div className="text-grey pt-3 mt-2 text-center">
             {info}
           </div>
         </div>
-        <div className="d-flex justify-content-center text-center mt-5">
+        <div className="d-flex justify-content-center text-center mt-5 mb-4">
           <img src={image} alt="" />
         </div>
       </div>

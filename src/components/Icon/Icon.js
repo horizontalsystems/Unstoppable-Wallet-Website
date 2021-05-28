@@ -7,7 +7,6 @@ import { ReactComponent as AppStore } from './app-store.svg'
 import { ReactComponent as FDroid } from './f-droid.svg'
 import { ReactComponent as Download } from './download.svg'
 import { ReactComponent as QRCode } from './qr-code.svg'
-import { ReactComponent as Phone } from './phone.svg'
 import { ReactComponent as Done } from './done.svg'
 import { ReactComponent as Logo } from './logo.svg'
 import { ReactComponent as ArrowRight } from './arrow-right.svg'
@@ -70,10 +69,6 @@ const iconComponent = name => {
       return <Circle />
     case 'globe':
       return <Globe />
-
-    //  Wallet
-    case 'phone':
-      return <Phone />
 
     //  Form
     case 'done':

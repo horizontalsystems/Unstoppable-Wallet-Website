@@ -112,14 +112,12 @@
   color: $grey;
 
   @include md {
-    font-size: 22px;
-    line-height: 30px;
     padding-bottom: 104px;
   }
 
   @include xxl {
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 24px;
+    line-height: 32px;
     padding-bottom: 113px;
   }
 }

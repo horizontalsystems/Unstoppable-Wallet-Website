@@ -1,5 +1,11 @@
 @import "../../scss/utils";
 
+.Roadmap {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 .Roadmap-slide .slick-slide {
   margin: 0 !important;
 }
@@ -17,6 +23,12 @@
   text-align: center;
   position: absolute;
   top: -5px;
+  transform: translateX(50%);
+  z-index: 1;
+}
+
+.Roadmap-circle-active svg {
+  fill: #FFA800;
 }
 
 .Roadmap-progress {

@@ -6,7 +6,6 @@
   grid-auto-flow: row;
   grid-template-columns: 1fr 1fr min-content;
   grid-gap: 20px;
-  padding-bottom: 30px;
 
   @include sm {
     grid-template-columns: 1fr;
@@ -14,4 +13,8 @@
     align-self: center;
     width: 100%;
   }
+}
+
+.QqCodeTooltip {
+  border-radius: 20px !important;
 }

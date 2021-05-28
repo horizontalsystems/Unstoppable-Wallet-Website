@@ -12,16 +12,16 @@ import './Join.scss'
 function Join() {
   return (
     <Container clipped={false}>
-      <div className="Section-head Section-join">
+      <div className="Section-head Section-join Page-rtl">
         <div className="Page-content">
-          <div className="Page-start">
+          <div className="Page-end">
             <div className="Section-text Join-section-text">
               Join Unstoppables
             </div>
             <div className="Section-info Join-section-info">
               Stay on top of Unstoppable happenings. Be the first to know about new features, user reported issues and things we work on!            </div>
           </div>
-          <div className="Page-end">
+          <div className="Page-start">
             <div className="Join-icons">
               <div className="Join-icon">
                 <a href="https://twitter.com/unstoppablebyhs" target="_blank" rel="noopener noreferrer">

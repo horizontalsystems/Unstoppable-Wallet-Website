@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import cn from 'classnames'
 import Slider from 'react-slick'
-import Container from '../Container'
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -82,10 +81,8 @@ function Roadmap() {
   }
 
   return (
-    <Container fluid>
-      <div className="Section-space-top">
-        <div className="text-center pb-5 display-5">Roadmap</div>
-      </div>
+    <div className="Roadmap Section-space-top Section-space-bottom">
+      <div className="text-center pb-5 display-5">Roadmap</div>
 
       <Slider {...stepSettings} ref={sliderStep} className="Roadmap-slide">
         <RoadmapItem isStart />
@@ -107,7 +104,7 @@ function Roadmap() {
           </div>
         )}
       </Slider>
-    </Container>
+    </div>
   )
 }
 
@@ -128,7 +125,7 @@ function RoadmapItem({ isActive, date, version, onClick, isStart, isEnd }) {
   return (
     <div className="Roadmap-step" onClick={onClick}>
       <div className="Roadmap-progress" />
-      <div className="Roadmap-circle">
+      <div className={cn('Roadmap-circle', { 'Roadmap-circle-active': isActive })}>
         <div className="text-grey small">{date}</div>
         <Circle width={width} height={height} role="button" />
         <div className="text-steel-light">Version {version}</div>
@@ -139,7 +136,7 @@ function RoadmapItem({ isActive, date, version, onClick, isStart, isEnd }) {
 
 function RoadmapDetails({ title, items, version }) {
   return (
-    <div className="card card-rounded border-0 bg-steel-10 w-25">
+    <div className="card card-rounded border-0 bg-steel-10">
       <div className="card-body">
         <div className="text-grey border-bottom pb-2">
           Highlights

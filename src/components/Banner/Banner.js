@@ -20,11 +20,15 @@ function Banner() {
           />
         </div>
         <div className="Banner-end">
-          <div className="Banner-title">
-            Be<br />
-            Unstoppable
+          <div className="Banner-end-content">
+            <div className="Banner-title sm-hidden">
+              Be <br /> Unstoppable
+            </div>
+            <div className="Banner-title md-hidden">
+              Be Unstoppable
+            </div>
+            <GetWalletActions />
           </div>
-          <GetWalletActions />
         </div>
       </div>
     </Container>

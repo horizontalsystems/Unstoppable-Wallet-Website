@@ -3,7 +3,7 @@
 .Features {
   display: flex;
   flex-direction: column;
-  margin: 0 -15px;
+  margin: 0 -12px;
 
   a {
     color: $yellow-d;
@@ -24,12 +24,12 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 24px;
+  padding: 16px;
+  margin: 0 12px;
 }
 
 .Feature-card {
-  padding: 20px;
-  margin: 15px;
+  padding: 20px 16px;
   background: $steel_10;
   border-radius: 16px;
   cursor: pointer;

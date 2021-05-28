@@ -10,9 +10,9 @@ import PageHighlight from '../PageHighlight/PageHighlight'
 import FeaturesList from '../Features/FeaturesList'
 import GetWallet from '../GetWallet'
 import Quote from '../Quote/Quote'
-import Featured from '../Featured'
-import Releases from '../Releases/Releases'
+import FeaturedIn from '../FeaturedIn'
 import Roadmap from '../Roadmap/Roadmap'
+import OpenSource from '../OpenSource/OpenSource'
 
 import './App.scss'
 
@@ -58,14 +58,14 @@ function App() {
             info="Have exclusive control over funds without relying on a custodian entity." />
           <Feature
             icon="wallet"
-            onMouseEnter={() => onMouseEnter('hand', 'wallet')}
-            isActive={feature.hand === 'wallet'}
+            onMouseEnter={() => onMouseEnter('hand', 'multi-wallet')}
+            isActive={feature.hand === 'multi-wallet'}
             title="Multi Wallet"
             info="Safely manage multiple wallets capable of storing any token in a single app." />
           <Feature
             icon="blocks"
-            onMouseEnter={() => onMouseEnter('hand', 'portfolio')}
-            isActive={feature.hand === 'portfolio'}
+            onMouseEnter={() => onMouseEnter('hand', 'decentralized')}
+            isActive={feature.hand === 'decentralized'}
             title="Decentralized"
             info="Access and transact from anywhere at any time given there is internet." />
         </Page>
@@ -79,16 +79,16 @@ function App() {
 
           <Feature
             icon="swap"
-            onMouseEnter={() => onMouseEnter('independence', 'swap')}
-            isActive={feature.independence === 'swap'}
+            onMouseEnter={() => onMouseEnter('independence', 'defi-enabled')}
+            isActive={feature.independence === 'defi-enabled'}
             title="DeFi Enabled"
             info="Swap assets, stake assets and interact with any DeFi service via WalletConnect." />
 
           <Feature
             icon="chart"
-            onMouseEnter={() => onMouseEnter('independence', 'market')}
-            isActive={feature.independence === 'market'}
-            title="Market Analytics"
+            onMouseEnter={() => onMouseEnter('independence', 'investor-oriented')}
+            isActive={feature.independence === 'investor-oriented'}
+            title="Investor Oriented"
             info="Discover and navigate crypto markets with institutional-grade analytics." />
 
           <Feature
@@ -145,7 +145,11 @@ function App() {
       </div>
 
       <div className="Page-dark">
-        <Featured />
+        <OpenSource />
+      </div>
+
+      <div className="Page-dark">
+        <FeaturedIn />
       </div>
 
       <div id="page-6" className="Page-black">
@@ -159,14 +163,10 @@ function App() {
       </div>
 
       <div className="Page-black">
-        <Releases />
-      </div>
-
-      <div className="Page-dark">
         <Roadmap />
       </div>
 
-      <div id="page-8" className="Page-black">
+      <div id="page-8" className="Page-dark">
         <Join />
       </div>
 

@@ -52,3 +52,15 @@ body {
     height: 100% !important;
   }
 }
+
+.sm-hidden {
+  @include sm {
+    display: none;
+  }
+}
+
+.md-hidden {
+  @include md {
+    display: none;
+  }
+}

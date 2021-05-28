@@ -6,7 +6,6 @@
   line-height: 18px;
   cursor: pointer;
   padding: 10px 24px;
-  border: transparent;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -14,6 +13,15 @@
 
   @include sm {
     justify-content: center;
+  }
+
+  @include md {
+    padding: 6px 20px;
+  }
+
+  @include lg {
+    width: max-content;
+    padding: 10px 24px;
   }
 
   svg {
@@ -37,6 +45,10 @@
 
 .Button-circle {
   border-radius: 40px;
+}
+
+.Button-download {
+  padding: 10px 0;
 }
 
 .Button-circle-yellow {

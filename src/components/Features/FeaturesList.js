@@ -20,33 +20,33 @@ function FeaturesList() {
   return (
     <Container>
       <div className="Section-space-top Section-space-bottom">
-        <div className="text-center pb-5 display-5">Features List</div>
+        <div className="Section-text">Features List</div>
         <div className="row">
-          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled">
-            <li className="py-1"><Bitcoin className="me-3" />Bitcoin (SPV enabled)</li>
-            <li className="py-1"><Bitcoin className="me-3" />BIP 44/49/84/69</li>
-            <li className="py-1"><Timelock className="me-3" />Bitcoin Timelocks</li>
-            <li className="py-1"><Settings className="me-3" />Custom transaction fees</li>
+          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled text-grey">
+            <li className="py-1"><Bitcoin className="me-4" />Bitcoin (SPV enabled)</li>
+            <li className="py-1"><Bitcoin className="me-4" />BIP 44/49/84/69</li>
+            <li className="py-1"><Timelock className="me-4" />Bitcoin Timelocks</li>
+            <li className="py-1"><Settings className="me-4" />Custom transaction fees</li>
           </ul>
 
-          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled">
-            <li className="py-1"><Dash className="me-3" />DASH (SPV enabled)</li>
-            <li className="py-1"><Litecoin className="me-3" />Litecoin (SPV enabled)</li>
-            <li className="py-1"><BitcoinCash className="me-3" />Bitcoin Cash (SPV enabled)</li>
-            <li className="py-1"><ZCash className="me-3" />Zcash (shielded support)</li>
+          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled text-grey">
+            <li className="py-1"><Dash className="me-4" />DASH (SPV enabled)</li>
+            <li className="py-1"><Litecoin className="me-4" />Litecoin (SPV enabled)</li>
+            <li className="py-1"><BitcoinCash className="me-4" />Bitcoin Cash (SPV enabled)</li>
+            <li className="py-1"><ZCash className="me-4" />Zcash (shielded support)</li>
           </ul>
 
-          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled">
-            <li className="py-1"><Ethereum className="me-3" />Ethereum (ERC20)</li>
-            <li className="py-1"><Binance className="me-3" />Binance (BEP20 / BEP2)</li>
-            <li className="py-1"><Blocks className="me-3" />Uniswap / Pancake / 1inch</li>
-            <li className="py-1"><WalletConnect className="me-3" />Wallet Connect</li>
+          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled text-grey">
+            <li className="py-1"><Ethereum className="me-4" />Ethereum (ERC20)</li>
+            <li className="py-1"><Binance className="me-4" />Binance (BEP20 / BEP2)</li>
+            <li className="py-1"><Blocks className="me-4" />Uniswap / Pancake / 1inch</li>
+            <li className="py-1"><WalletConnect className="me-4" />Wallet Connect</li>
           </ul>
-          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled">
-            <li className="py-1"><User className="me-3" />ENS Domains</li>
-            <li className="py-1"><Tor className="me-3" />TOR Network (Android)</li>
-            <li className="py-1"><Globe className="me-3" />VPN (coming soon)</li>
-            <li className="py-1"><Academy className="me-3" />Crypto Academy</li>
+          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled text-grey">
+            <li className="py-1"><User className="me-4" />ENS Domains</li>
+            <li className="py-1"><Tor className="me-4" />TOR Network (Android)</li>
+            <li className="py-1"><Globe className="me-4" />VPN (coming soon)</li>
+            <li className="py-1"><Academy className="me-4" />Crypto Academy</li>
           </ul>
         </div>
       </div>

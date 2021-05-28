@@ -6,16 +6,14 @@ function Quote() {
     <Container>
       <div className="Section-space-top Section-space-bottom text-center d-flex justify-content-center">
         <div className="w-75">
-          <p className="py-5 fs-5">
-            “Unstoppable is the first multi-coin wallet that supports Bitcoin, Ethereum, and fully shielded Zcash, as well as other coins, and it has
-            a
-            strong, user-centric architecture in which the users own their own keys and their own privacy."
+          <p className="fs-5">
+            “Unstoppable is the first multi-coin wallet that supports Bitcoin, Ethereum, and fully shielded Zcash, as well as other coins, and it has a strong, user-centric architecture in which the users own their own keys and their own privacy."
           </p>
-          <p className="text-grey fs-4">
+          <p className="text-grey fs-4 pt-5 mt-5">
             Zooko Wilcox-O'Hearn
           </p>
           <small className="text-grey">
-            CEO of the Electric Coin Company (ECC), a for-profit company leading the development of Zcash
+            CEO of the Electric Coin Company (ECC)
           </small>
         </div>
       </div>

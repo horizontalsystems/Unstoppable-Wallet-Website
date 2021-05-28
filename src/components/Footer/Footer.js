@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import Icon from '../Icon/Icon'
 import Container from '../Container/Container'
@@ -18,19 +17,7 @@ class Footer extends React.Component {
     return (
       <header className="Footer">
         <Container>
-          <div className="Footer-top">
-            <div className="Footer-nav">
-              <Link to="/" className="Footer-nav-item" onClick={this.onClickHome}>Home</Link>
-              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io">About Us</a>
-              <Link to="/faq" className="Footer-nav-item">FAQ</Link>
-              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Litrex Academy</a>
-
-              <div className="Footer-nav-contact-us">Contact us:</div>
-              <a className="Footer-nav-item" target="_blank" rel="noopener noreferrer" href="mailto:hsdao@protonmail.com">hsdao@protonmail.com</a>
-            </div>
-          </div>
-
-          <hr className="Divider" />
+          <div className="Divider" />
 
           <div className="Footer-bottom">
             <a href="https://horizontalsystems.io" target="_blank" rel="noopener noreferrer">
@@ -41,7 +28,7 @@ class Footer extends React.Component {
               </div>
             </a>
 
-            <span>@ 2019 HorizontalSystems</span>
+            <span>@ 2021 HorizontalSystems</span>
           </div>
         </Container>
       </header>

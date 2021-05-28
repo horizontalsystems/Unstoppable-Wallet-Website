@@ -14,6 +14,10 @@
   @include md {
     padding-top: 80px;
   }
+
+  @include lg {
+    padding-top: 110px;
+  }
 }
 
 .Section-space-bottom {
@@ -21,6 +25,10 @@
 
   @include md {
     padding-bottom: 80px;
+  }
+
+  @include lg {
+    padding-top: 110px;
   }
 }
 
@@ -32,18 +40,16 @@
   padding-top: 60px;
 
   @include md {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 
   @include lg {
-    padding-top: 160px;
+    padding-top: 110px;
   }
 }
 
-.Section-icon,
 .Section-text,
 .Section-info {
-  width: 70%;
   display: flex;
   box-sizing: border-box;
   position: relative;
@@ -54,18 +60,6 @@
 
   @include sm {
     width: 100%;
-  }
-}
-
-.Section-icon {
-  padding-bottom: 22px;
-
-  @include sm {
-    width: 100%;
-  }
-
-  @include lg {
-    padding-bottom: 28px;
   }
 }
 
@@ -89,6 +83,10 @@
   }
 }
 
+.Section-70 {
+  width: 70%;
+}
+
 .Section-info {
   font-size: 18px;
   line-height: 25px;
@@ -97,14 +95,12 @@
   padding-bottom: 20px;
 
   @include md {
-    font-size: 22px;
-    line-height: 30px;
     padding-bottom: 48px;
   }
 
   @include xxl {
-    font-size: 29px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 38px;
     padding-bottom: 60px;
   }
 }

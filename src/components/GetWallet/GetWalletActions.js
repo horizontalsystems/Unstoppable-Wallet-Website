@@ -9,7 +9,7 @@ import './GetWalletActions.scss'
 function GetWallet() {
   return (
     <div className="Banner-actions">
-      <ReactTooltip id="registerTip" place="top" effect="solid">
+      <ReactTooltip id="registerTip" place="top" effect="solid" type="light" className="QqCodeTooltip">
         <img src={AndroidQrCode} alt="" />
       </ReactTooltip>
       <Button
@@ -22,19 +22,19 @@ function GetWallet() {
         text="App Store"
         icon="app-store"
         link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8" yellow newTab />
-      <div role="button" data-for="registerTip" data-tip>
+      <div className="sm-hidden" role="button" data-for="registerTip" data-tip>
         <Icon name="qr-code" />
       </div>
       <Button
-        className="Button-circle Button-no-padding"
+        className="Button-circle Button-download"
         text="Get it on F-Droid"
         icon="f-droid"
         link="https://gitlab.com/fdroid/rfp/-/issues/1547" newTab />
       <Button
-        className="Button-circle Button-no-padding"
+        className="Button-circle Button-download"
         text="Download APK file"
         icon="download"
-        link="https://github.com/horizontalsystems/bank-wallet-android/releases" newTab />
+        link="https://github.com/horizontalsystems/unstoppable-wallet-android/releases" newTab />
     </div>
   )
 }
