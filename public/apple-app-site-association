@@ -1,0 +1,19 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+           {
+             "appID": "HC4MCAXJ66.io.horizontalsystems.bank-wallet",
+             "paths": ["/wc"]
+           },
+           {
+             "appID": "HC4MCAXJ66.io.horizontalsystems.bank-wallet.dev",
+             "paths": ["/wc"]
+           },
+           {
+             "appID": "HC4MCAXJ66.io.horizontalsystems.bank-wallet.dev.testnet",
+             "paths": ["/wc"]
+           }
+       ]
+   }
+}
