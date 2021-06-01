@@ -52,20 +52,22 @@ function App() {
 
           <Feature
             icon="non-custodial"
-            onMouseEnter={() => onMouseEnter('hand', 'non-custodial')}
-            isActive={feature.hand === 'non-custodial'}
+            onMouseEnter={() => onMouseEnter('hand', 'non-cost')}
+            isActive={feature.hand === 'non-cost'}
             title="Non Custodial"
             info="Have exclusive control over funds without relying on a custodian entity." />
+
           <Feature
             icon="wallet"
-            onMouseEnter={() => onMouseEnter('hand', 'multi-wallet')}
-            isActive={feature.hand === 'multi-wallet'}
+            onMouseEnter={() => onMouseEnter('hand', 'wallet')}
+            isActive={feature.hand === 'wallet'}
             title="Multi Wallet"
             info="Safely manage multiple wallets capable of storing any token in a single app." />
+
           <Feature
             icon="blocks"
-            onMouseEnter={() => onMouseEnter('hand', 'decentralized')}
-            isActive={feature.hand === 'decentralized'}
+            onMouseEnter={() => onMouseEnter('hand', 'portfolio')}
+            isActive={feature.hand === 'portfolio'}
             title="Decentralized"
             info="Access and transact from anywhere at any time given there is internet." />
         </Page>
@@ -79,15 +81,15 @@ function App() {
 
           <Feature
             icon="swap"
-            onMouseEnter={() => onMouseEnter('independence', 'defi-enabled')}
-            isActive={feature.independence === 'defi-enabled'}
+            onMouseEnter={() => onMouseEnter('independence', 'swap')}
+            isActive={feature.independence === 'swap'}
             title="DeFi Enabled"
             info="Swap assets, stake assets and interact with any DeFi service via WalletConnect." />
 
           <Feature
             icon="chart"
-            onMouseEnter={() => onMouseEnter('independence', 'investor-oriented')}
-            isActive={feature.independence === 'investor-oriented'}
+            onMouseEnter={() => onMouseEnter('independence', 'market')}
+            isActive={feature.independence === 'market'}
             title="Investor Oriented"
             info="Discover and navigate crypto markets with institutional-grade analytics." />
 

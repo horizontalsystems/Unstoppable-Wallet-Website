@@ -23,8 +23,8 @@ function Wallet() {
       <Container className="Section-image-big">
         <img
           className="Wallet-screen"
-          src={`/images/wallet/screens.png`}
-          srcSet={`/images/wallet/screens@2x.png 2x, /images/wallet/screens@3x.png 3x`}
+          src="/images/wallet/screens.png"
+          srcSet="/images/wallet/screens@2x.png 2x"
           alt=""
         />
       </Container>

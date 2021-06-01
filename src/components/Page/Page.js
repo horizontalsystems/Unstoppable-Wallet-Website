@@ -20,9 +20,10 @@ function Page({ img, featureImg, text, info, children, rtl, onMouseLeave }) {
               alt=""
             />
             <img
+              key={image}
               className="Page-img"
               src={`/images/pages/${image}.png`}
-              srcSet={`/images/pages/${image}@2x.png 2x, /images/pages/${image}@3x.png 3x`}
+              srcSet={`/images/pages/${image}@2x.png 2x`}
               alt={text}
             />
           </div>

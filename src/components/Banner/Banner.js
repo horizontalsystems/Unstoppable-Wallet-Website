@@ -16,7 +16,7 @@ function Banner() {
             className="Banner-img"
             src="/images/banner/wallet.png"
             alt="Unstoppable wallet"
-            srcSet="/images/banner/wallet@2x.png 2x, /images/banner/wallet@3x.png 3x"
+            srcSet="/images/banner/wallet@2x.png 2x"
           />
         </div>
         <div className="Banner-end">
