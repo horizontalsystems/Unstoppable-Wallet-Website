@@ -9,41 +9,59 @@ import './Roadmap.scss'
 import { ReactComponent as Circle } from './circle.svg'
 
 const releases = [{
+  version: '0.17',
+  date: 'Nov 23, 2020',
+  title: 'ZCASH, UNISWAP, ETHEREUM SOCKET, WALLETCONNECT',
+  updates: [
+    'Zcash Support',
+    'Uniswap Improvements',
+    'Ethereum Socket Support',
+    'WalletConnect Protocol'
+  ]
+}, {
   version: '0.18',
   date: 'Dec 9, 2020',
-  title: 'FAQ SECTION, SWAP IMPROVEMENTS, NEW ICONS, IMPROVED PRICE CHARTS, EXTERNAL KEYBOARDS',
+  title: 'FAQ SECTION, SWAP IMPROVEMENTS, NEW ICONS, PRICE CHARTS, EXTERNAL KEYBOARDS',
   updates: [
-    'UI / UX Improvements',
     'Swap Improvements',
     'FAQ section',
-    'Price Charts',
-    'Zcash improvements',
-    'Improved Wallet Restore',
-    'Support For External Keyboards',
-    'Other'
+    'Enhanced Price Charts',
+    'ZCash Improvements',
+    'Wallet Restore Update',
+    'External Keyboard Support'
   ]
 }, {
   version: '0.19',
   date: 'Feb 17, 2021',
-  title: 'ADDED MARKETS TAB, DISABLED EOS WALLET, TOKEN AUTO DISCOVERY, IMPROVED TX FEE LOGIC',
+  title: 'MARKETS TAB, TOKEN AUTO DISCOVERY, IMPROVED TX FEE LOGIC',
   updates: [
     'Markets Tab',
-    'Defi Imporvements',
-    'Ui / UX Improvements',
-    'Eos Disabled',
-    'Improved Tx Fees',
+    'DeFi Features',
+    'UI / UX Improvements',
+    'TX Fee Enhancements',
     'Unstoppable Domains',
-    'Bugs & Security Fixes'
+    'Bug Fixes'
   ]
 }, {
   version: '0.20',
   date: 'Apr 22, 2021',
   title: 'MARKETS TAB, BINANCE SMART CHAIN, PANCAKE DEX, WALLETCONNECT, SWAP SCREEN',
   updates: [
-    'Markets Tab Improvements',
+    'Markets Tab Enhancements',
     'Binance Smart Chain',
     'PancakeSwap Integration',
-    'WalletConnect Improvements'
+    'WalletConnect Improvements',
+    'Bug Fixes'
+  ]
+}, {
+  version: '0.21',
+  date: 'May 26, 2021',
+  title: 'MULTI-WALLET CAPABILITY, MARKETS TAB UPDATED, UI/UX IMPROVEMENTS',
+  updates: [
+    'Multi-Wallet Capability',
+    'Markets Improvements',
+    'UI / UX Improvements',
+    'Bug Fixes'
   ]
 }]
 
