@@ -1,534 +1,943 @@
 [
   {
+    "section": {
+      "en": "About",
+      "ru": "О Нас",
+      "de": "About",
+      "es": "About",
+      "fr": "About",
+      "tr": "About",
+      "zh": "About",
+      "ko": "About",
+      "fa": "About"
+    },
+    "items": [
+      {
+        "en": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+
+      {
+        "en": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+        }
+      }
+    ]
+  },
+  "section": {
+  "en": "Management",
+  "ru": "Management",
+  "de": "Management",
+  "es": "Management",
+  "fr": "Management",
+  "tr": "Management",
+  "zh": "Management",
+  "ko": "Management",
+  "fa": "Management"
+},
+  "items": [
+  {
     "en": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Что такое Unstoppable кошелек?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
-      "title": "Was ist Unstoppable Wallet?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
     },
     "es": {
-      "title": "¿Qué es Unstoppable Wallet?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Qu'est-ce que le portefeuille Unstoppable ?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Unstoppable Wallet nedir?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
     },
     "ko": {
-      "title": "Unstoppable Wallet은 무엇인가요?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
     },
     "fa": {
-      "title": "What is Unstoppable Wallet?",
+      "title": "What are private keys, mnemonic phrase, wallet seed etc?",
       "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
     }
   },
   {
     "en": {
-      "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/android/en/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Где скачать Unstoppable кошелек?",
-      "markdown": "faq/android/ru/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
-      "title": "Wo kann man Unstoppable Wallet herunterladen?",
-      "markdown": "faq/android/de/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
     },
     "es": {
-      "title": "¿Dónde puedes descargar Unstoppable Wallet?",
-      "markdown": "faq/android/es/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Où télécharger le portefeuille Unstoppable ?",
-      "markdown": "faq/android/fr/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Unstoppable Wallet nereden indirilir?",
-      "markdown": "faq/android/tr/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
-      "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/android/zh/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
     },
     "ko": {
-      "title": "Unstoppable Wallet은 어디에서 다운로드할 수 있나요?",
-      "markdown": "faq/android/ko/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
     },
     "fa": {
-      "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/android/fa/where-to-download-unstoppable-wallet.md"
+      "title": "How to create wallet(s)?",
+      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
     }
   },
   {
     "en": {
-      "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/android/en/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Как работает Unstoppable кошелек?",
-      "markdown": "faq/android/ru/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
-      "title": "Wie funktioniert Unstoppable Wallet?",
-      "markdown": "faq/android/de/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
     },
     "es": {
-      "title": "¿Cómo funciona la Unstoppable Wallet?",
-      "markdown": "faq/android/es/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Comment fonctionne le portefeuille Unstoppable?",
-      "markdown": "faq/android/fr/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Unstoppable Wallet nasıl çalışır?",
-      "markdown": "faq/android/tr/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
-      "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/android/zh/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
     },
     "ko": {
-      "title": "Unstoppable Wallet은 어떻게 작동하나요?",
-      "markdown": "faq/android/ko/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
     },
     "fa": {
-      "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/android/fa/how-does-unstoppable-wallet-work.md"
+      "title": "How to backup wallet(s)?",
+      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
     }
   },
   {
     "en": {
-      "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/android/en/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Как создать мультивалютный кошелек?",
-      "markdown": "faq/android/ru/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
-      "title": "Wie erstellt man ein Multi-Coin-Wallet?",
-      "markdown": "faq/android/de/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
     },
     "es": {
-      "title": "¿Cómo crear un monedero multimoneda?",
-      "markdown": "faq/android/es/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Comment créer un portefeuille multi-pièces ?",
-      "markdown": "faq/android/fr/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Çoklu para cüzdanı nasıl oluşturulur?",
-      "markdown": "faq/android/tr/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
-      "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/android/zh/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
     },
     "ko": {
-      "title": "멀티 코인 지갑을 생성하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
     },
     "fa": {
-      "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/android/fa/how-to-create-a-multi-coin-wallet.md"
+      "title": "How to restore wallet(s)?",
+      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
     }
   },
   {
     "en": {
-      "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/android/en/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Как создать резервную копию вашего(-их) кошелька(-ов)?",
-      "markdown": "faq/android/ru/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
-      "title": "Wie macht man ein Backup seines Wallets?",
-      "markdown": "faq/android/de/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
     },
     "es": {
-      "title": "¿Cómo hacer un backup de tu monedero (s)?",
-      "markdown": "faq/android/es/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Comment sauvegarder votre (vos) portefeuille (s)?",
-      "markdown": "faq/android/fr/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Cüzdan(lar)ınızı nasıl yedekleyebilirsiniz?",
-      "markdown": "faq/android/tr/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
-      "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/android/zh/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
     },
     "ko": {
-      "title": "지갑을 백업하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
     },
     "fa": {
-      "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/android/fa/how-to-backup-your-wallet.md"
+      "title": "How to activate cryptocurrency for the wallet?",
+      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+    }
+  },{
+    "en": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+    },
+    "ru": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+    },
+    "de": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+    },
+    "es": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+    },
+    "fr": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+    },
+    "tr": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+    },
+    "zh": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+    },
+    "ko": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+    },
+    "fa": {
+      "title": "How to manage multiple wallets?",
+      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
+    }
+  },{
+    "en": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+    },
+    "ru": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
+    },
+    "de": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
+    },
+    "es": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
+    },
+    "fr": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
+    },
+    "tr": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
+    },
+    "zh": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
+    },
+    "ko": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
+    },
+    "fa": {
+      "title": "How to delete (unlink) the wallet?",
+      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
     }
   },
   {
     "en": {
-      "title": "How to protect your wallet funds",
-      "markdown": "faq/android/en/how-to-protect-your-wallet-funds.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Как защитить средства, хранящиеся в вашем кошельке?",
-      "markdown": "faq/android/ru/how-to-protect-your-wallet-funds.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
-      "title": "Wie schützt man die Gelder im Wallet?",
-      "markdown": "faq/android/de/how-to-protect-your-wallet-funds.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
     },
     "es": {
-      "title": "¿Cómo proteger los fondos de tu monedero?",
-      "markdown": "faq/android/es/how-to-protect-your-wallet-funds.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Comment protéger les fonds de votre portefeuille?",
-      "markdown": "faq/android/fr/how-to-protect-your-wallet-funds.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Cüzdan fonlarınızı nasıl koruyabilirsiniz?",
-      "markdown": "faq/android/tr/how-to-protect-your-wallet-funds.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
-      "title": "How to protect your wallet funds",
-      "markdown": "faq/android/zh/how-to-protect-your-wallet-funds.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
     },
     "ko": {
-      "title": "지갑 자금을 보호하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-protect-your-wallet-funds.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
     },
     "fa": {
-      "title": "How to protect your wallet funds",
-      "markdown": "faq/android/fa/backup-your-recovery-phrase-or-private-key.md"
+      "title": "How to send/receive cryptocurrency to/from wallet?",
+      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
     }
   },
   {
     "en": {
-      "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/android/en/how-do-i-buy-cryptocurrency.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
     },
     "ru": {
-      "title": "Как купить криптовалюту?",
-      "markdown": "faq/android/ru/how-do-i-buy-cryptocurrency.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
     },
     "de": {
-      "title": "Wie kaufe ich Kryptowährung?",
-      "markdown": "faq/android/de/how-do-i-buy-cryptocurrency.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
     },
     "es": {
-      "title": "¿Cómo compro cripto monedas?",
-      "markdown": "faq/android/es/how-do-i-buy-cryptocurrency.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
     },
     "fr": {
-      "title": "Comment acheter de la cryptomonnaie?",
-      "markdown": "faq/android/fr/how-do-i-buy-cryptocurrency.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
     },
     "tr": {
-      "title": "Nasıl kripto para satın alabilirim?",
-      "markdown": "faq/android/tr/how-do-i-buy-cryptocurrency.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
     },
     "zh": {
-      "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/android/zh/how-do-i-buy-cryptocurrency.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
     },
     "ko": {
-      "title": "암호화폐를 구매하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-do-i-buy-cryptocurrency.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
     },
     "fa": {
-      "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/android/fa/how-do-i-buy-cryptocurrency.md"
-    }
-  },
-  {
-    "en": {
-      "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/android/en/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "ru": {
-      "title": "Как отправить и получить криптовалюту?",
-      "markdown": "faq/android/ru/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "de": {
-      "title": "Wie sendet und empfängt man Kryptowährung?",
-      "markdown": "faq/android/de/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "es": {
-      "title": "¿Cómo envío y recibo cripto monedas?",
-      "markdown": "faq/android/es/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "fr": {
-      "title": "Comment envoyer et recevoir de la cryptomonnaie?",
-      "markdown": "faq/android/fr/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "tr": {
-      "title": "Kripto para nasıl gönderilir ve alınır?",
-      "markdown": "faq/android/tr/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "zh": {
-      "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/android/zh/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "ko": {
-      "title": "암호화폐를 전송하거나 수령하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "fa": {
-      "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/android/fa/how-to-send-and-receive-cryptocurrency.md"
-    }
-  },
-  {
-    "en": {
-      "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/android/en/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "ru": {
-      "title": "Берет ли Unstoppable плату за отправку или получение?",
-      "markdown": "faq/android/ru/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "de": {
-      "title": "Hat Unstoppable Gebühren für das Versenden oder Empfangen?",
-      "markdown": "faq/android/de/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "es": {
-      "title": "¿Unstoppable tiene tarifas al enviar o recibir?",
-      "markdown": "faq/android/es/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "fr": {
-      "title": "Y a-t-il des frais pour envoyer ou recevoir avec Unstoppable?",
-      "markdown": "faq/android/fr/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "tr": {
-      "title": "Unstoppable gönderme veya alma için ücret alıyor mu?",
-      "markdown": "faq/android/tr/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "zh": {
-      "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/android/zh/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "ko": {
-      "title": "Unstoppable에는 전송 및 수령 수수료가 있나요?",
-      "markdown": "faq/android/ko/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "fa": {
-      "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/android/fa/does-unstoppable-have-fees-to-send-or-receive.md"
-    }
-  },
-  {
-    "en": {
-      "title": "Why did my receiving address changed?",
-      "markdown": "faq/android/en/why-did-my-receiving-address-changed.md"
-    },
-    "ru": {
-      "title": "Почему изменился мой адрес получателя?",
-      "markdown": "faq/android/ru/why-did-my-receiving-address-changed.md"
-    },
-    "de": {
-      "title": "Warum hat sich meine Empfangsadresse geändert?",
-      "markdown": "faq/android/de/why-did-my-receiving-address-changed.md"
-    },
-    "es": {
-      "title": " ¿Por qué mi dirección de recepción cambió?",
-      "markdown": "faq/android/es/why-did-my-receiving-address-changed.md"
-    },
-    "fr": {
-      "title": "Pourquoi mon adresse de réception a-t-elle changé?",
-      "markdown": "faq/android/fr/why-did-my-receiving-address-changed.md"
-    },
-    "tr": {
-      "title": "Alıcı adresim neden değişti?",
-      "markdown": "faq/android/tr/why-did-my-receiving-address-changed.md"
-    },
-    "zh": {
-      "title": "Why did my receiving address changed?",
-      "markdown": "faq/android/zh/why-did-my-receiving-address-changed.md"
-    },
-    "ko": {
-      "title": "왜 제 수령 주소가 변경되었나요?",
-      "markdown": "faq/android/ko/why-did-my-receiving-address-changed.md"
-    },
-    "fa": {
-      "title": "Why did my receiving address changed?",
-      "markdown": "faq/android/fa/why-did-my-receiving-address-changed.md"
-    }
-  },
-  {
-    "en": {
-      "title": "What are cryptocurrency transaction fees?",
-      "markdown": "faq/android/en/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "ru": {
-      "title": "Что такое ставка на осуществление транзакции в криптовалюте?",
-      "markdown": "faq/android/ru/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "de": {
-      "title": "Was sind Gebühren für Kryptowährung-Transaktionen?",
-      "markdown": "faq/android/de/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "es": {
-      "title": "¿Qué son las tarifas de transacción de cripto monedas?",
-      "markdown": "faq/android/es/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "fr": {
-      "title": "Quels sont les frais de transaction en cryptomonnaie?",
-      "markdown": "faq/android/fr/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "tr": {
-      "title": "Kripto para işlem ücretleri nedir?",
-      "markdown": "faq/android/tr/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "zh": {
-      "title": "What are cryptocurrency transaction fees?",
-      "markdown": "faq/android/zh/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "ko": {
-      "title": "암호화폐 거래 수수료란 무엇인가요?",
-      "markdown": "faq/android/ko/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "fa": {
-      "title": "What are cryptocurrency transaction fees?",
-      "markdown": "faq/android/fa/what-are-cryptocurrency-transaction-fees.md"
-    }
-  },
-  {
-    "en": {
-      "title": "Why is my transaction \"pending\"?",
-      "markdown": "faq/android/en/why-is-my-transaction-pending.md"
-    },
-    "ru": {
-      "title": "Почему моя транзакция находится в \"ожидании\"?",
-      "markdown": "faq/android/ru/why-is-my-transaction-pending.md"
-    },
-    "de": {
-      "title": "Warum ist meine Transaktion \"ausstehend\"?",
-      "markdown": "faq/android/de/why-is-my-transaction-pending.md"
-    },
-    "es": {
-      "title": "¿Por qué mi transacción está \"pendiente\"?",
-      "markdown": "faq/android/es/why-is-my-transaction-pending.md"
-    },
-    "fr": {
-      "title": "Pourquoi ma transaction est-elle \"en attente\" ?",
-      "markdown": "faq/android/fr/why-is-my-transaction-pending.md"
-    },
-    "tr": {
-      "title": "İşlemim neden \"beklemede\"?",
-      "markdown": "faq/android/tr/why-is-my-transaction-pending.md"
-    },
-    "zh": {
-      "title": "Why is my transaction \"pending\"?",
-      "markdown": "faq/android/zh/why-is-my-transaction-pending.md"
-    },
-    "ko": {
-      "title": "왜 제 거래 상태가 \"보류 중\"으로 표시되나요?",
-      "markdown": "faq/android/ko/why-is-my-transaction-pending.md"
-    },
-    "fa": {
-      "title": "Why is my transaction \"pending\"?",
-      "markdown": "faq/android/fa/why-is-my-transaction-pending.md"
-    }
-  },
-  {
-    "en": {
-      "title": "How to add or remove a coin?",
-      "markdown": "faq/android/en/how-to-add-or-remove-a-coin.md"
-    },
-    "ru": {
-      "title": "Как добавить или удалить криптовалюту?",
-      "markdown": "faq/android/ru/how-to-add-or-remove-a-coin.md"
-    },
-    "de": {
-      "title": "Wie fügt man oder entfernt man ein Coin?",
-      "markdown": "faq/android/de/how-to-add-or-remove-a-coin.md"
-    },
-    "es": {
-      "title": "¿Cómo sumar o remover una moneda?",
-      "markdown": "faq/android/es/how-to-add-or-remove-a-coin.md"
-    },
-    "fr": {
-      "title": "Comment ajouter ou supprimer une pièce?",
-      "markdown": "faq/android/fr/how-to-add-or-remove-a-coin.md"
-    },
-    "tr": {
-      "title": "Bir para nasıl eklenir veya çıkarılır?",
-      "markdown": "faq/android/tr/how-to-add-or-remove-a-coin.md"
-    },
-    "zh": {
-      "title": "How to add or remove a coin?",
-      "markdown": "faq/android/zh/how-to-add-or-remove-a-coin.md"
-    },
-    "ko": {
-      "title": "코인을 추가하거나 제거하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-add-or-remove-a-coin.md"
-    },
-    "fa": {
-      "title": "How to add or remove a coin?",
-      "markdown": "faq/android/fa/how-to-add-or-remove-a-coin.md"
-    }
-  },
-  {
-    "en": {
-      "title": "How do I update Unstoppable?",
-      "markdown": "faq/android/en/how-do-i-update-unstoppable.md"
-    },
-    "ru": {
-      "title": "Как обновить Unstoppable?",
-      "markdown": "faq/android/ru/how-do-i-update-unstoppable.md"
-    },
-    "de": {
-      "title": "Wie aktualisiere ich Unstoppable?",
-      "markdown": "faq/android/de/how-do-i-update-unstoppable.md"
-    },
-    "es": {
-      "title": " ¿Cómo actualizo Unstoppable?",
-      "markdown": "faq/android/es/how-do-i-update-unstoppable.md"
-    },
-    "fr": {
-      "title": "Comment puis-je actualiser Unstoppable?",
-      "markdown": "faq/android/fr/how-do-i-update-unstoppable.md"
-    },
-    "tr": {
-      "title": "Unstoppable nasıl güncellenir?",
-      "markdown": "faq/android/tr/how-do-i-update-unstoppable.md"
-    },
-    "zh": {
-      "title": "How do I update Unstoppable?",
-      "markdown": "faq/android/zh/how-do-i-update-unstoppable.md"
-    },
-    "ko": {
-      "title": "Unstoppable을 업데이트하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-do-i-update-unstoppable.md"
-    },
-    "fa": {
-      "title": "How do I update Unstoppable?",
-      "markdown": "faq/android/fa/how-do-i-update-unstoppable.md"
+      "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
     }
   }
+
+
+
 ]
