@@ -1,534 +1,3990 @@
 [
   {
-    "en": {
-      "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/android/en/what-is-unstoppable-wallet.md"
+    "section": {
+      "en": "About",
+      "ru": "О Нас",
+      "de": "About",
+      "es": "About",
+      "fr": "About",
+      "tr": "About",
+      "zh": "About",
+      "ko": "About",
+      "fa": "About"
     },
-    "ru": {
-      "title": "Что такое Unstoppable кошелек?",
-      "markdown": "faq/android/ru/what-is-unstoppable-wallet.md"
-    },
-    "de": {
-      "title": "Was ist Unstoppable Wallet?",
-      "markdown": "faq/android/de/what-is-unstoppable-wallet.md"
-    },
-    "es": {
-      "title": "¿Qué es Unstoppable Wallet?",
-      "markdown": "faq/android/es/what-is-unstoppable-wallet.md"
-    },
-    "fr": {
-      "title": "Qu'est-ce que le portefeuille Unstoppable ?",
-      "markdown": "faq/android/fr/what-is-unstoppable-wallet.md"
-    },
-    "tr": {
-      "title": "Unstoppable Wallet nedir?",
-      "markdown": "faq/android/tr/what-is-unstoppable-wallet.md"
-    },
-    "zh": {
-      "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/android/zh/what-is-unstoppable-wallet.md"
-    },
-    "ko": {
-      "title": "Unstoppable Wallet은 무엇인가요?",
-      "markdown": "faq/android/ko/what-is-unstoppable-wallet.md"
-    },
-    "fa": {
-      "title": "What is Unstoppable Wallet?",
-      "markdown": "faq/android/fa/what-is-unstoppable-wallet.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/en/about/why-choose-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/ru/about/why-choose-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/de/about/why-choose-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/es/about/why-choose-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/fr/about/why-choose-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/tr/about/why-choose-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/zh/about/why-choose-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/ko/about/why-choose-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Why choose Unstoppable wallet?",
+          "markdown": "faq/android/fa/about/why-choose-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/en/about/how-unstoppable-wallet-works.md"
+        },
+        "ru": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/ru/about/how-unstoppable-wallet-works.md"
+        },
+        "de": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/de/about/how-unstoppable-wallet-works.md"
+        },
+        "es": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/es/about/how-unstoppable-wallet-works.md"
+        },
+        "fr": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/fr/about/how-unstoppable-wallet-works.md"
+        },
+        "tr": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/tr/about/how-unstoppable-wallet-works.md"
+        },
+        "zh": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/zh/about/how-unstoppable-wallet-works.md"
+        },
+        "ko": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/ko/about/how-unstoppable-wallet-works.md"
+        },
+        "fa": {
+          "title": "How Unstoppable wallet works?",
+          "markdown": "faq/android/fa/about/how-unstoppable-wallet-works.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/en/about/what-is-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/ru/about/what-is-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/de/about/what-is-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/es/about/what-is-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/fr/about/what-is-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/tr/about/what-is-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/zh/about/what-is-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/ko/about/what-is-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "What is Unstoppable wallet?",
+          "markdown": "faq/android/fa/about/what-is-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/en/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        },
+        "ru": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/ru/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        },
+        "de": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/de/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        },
+        "es": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/es/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        },
+        "fr": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/fr/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        },
+        "tr": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/tr/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        },
+        "zh": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/zh/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        },
+        "ko": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/ko/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        },
+        "fa": {
+          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "markdown": "faq/android/fa/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/en/about/how-unstoppable-is-different-from-crypto-exchange-wallets.md"
+        },
+        "ru": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/ru/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
+        },
+        "de": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/de/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
+        },
+        "es": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/es/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
+        },
+        "fr": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/fr/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
+        },
+        "tr": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/tr/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
+        },
+        "zh": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/zh/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
+        },
+        "ko": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/ko/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
+        },
+        "fa": {
+          "title": "How Unstoppable is different from crypto exchange wallets?",
+          "markdown": "faq/android/fa/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
+        }
+      },
+      {
+        "en": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/en/about/what-can-be-done-with-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/ru/about/what-can-be-done-with-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/de/about/what-can-be-done-with-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/es/about/what-can-be-done-with-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/fr/about/what-can-be-done-with-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/tr/about/what-can-be-done-with-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/zh/about/what-can-be-done-with-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/ko/about/what-can-be-done-with-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "What can be done with Unstoppable wallet?",
+          "markdown": "faq/android/fa/about/what-can-be-done-with-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/en/about/what-should-someone-do-before-using-unstoppable.md"
+        },
+        "ru": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/ru/about/what-should-someone-do-before-using-unstoppable.md"
+        },
+        "de": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/de/about/what-should-someone-do-before-using-unstoppable.md"
+        },
+        "es": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/es/about/what-should-someone-do-before-using-unstoppable.md"
+        },
+        "fr": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/fr/about/what-should-someone-do-before-using-unstoppable.md"
+        },
+        "tr": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/tr/about/what-should-someone-do-before-using-unstoppable.md"
+        },
+        "zh": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/zh/about/what-should-someone-do-before-using-unstoppable.md"
+        },
+        "ko": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/ko/about/what-should-someone-do-before-using-unstoppable.md"
+        },
+        "fa": {
+          "title": "What should someone do before using Unstoppable?",
+          "markdown": "faq/android/fa/about/what-should-someone-do-before-using-unstoppable.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/en/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/ru/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/de/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/es/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/fr/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/tr/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/zh/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/ko/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Does it cost anything to use Unstoppable wallet?",
+          "markdown": "faq/android/fa/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/en/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/ru/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/de/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/es/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/fr/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/tr/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/zh/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/ko/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Are there any risks when using Unstoppable wallet?",
+          "markdown": "faq/android/fa/about/are-there-any-risks-when-using-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/en/about/what-happens-if-unstoppable-app-goes-down.md"
+        },
+        "ru": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/ru/about/what-happens-if-unstoppable-app-goes-down.md"
+        },
+        "de": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/de/about/what-happens-if-unstoppable-app-goes-down.md"
+        },
+        "es": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/es/about/what-happens-if-unstoppable-app-goes-down.md"
+        },
+        "fr": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/fr/about/what-happens-if-unstoppable-app-goes-down.md"
+        },
+        "tr": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/tr/about/what-happens-if-unstoppable-app-goes-down.md"
+        },
+        "zh": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/zh/about/what-happens-if-unstoppable-app-goes-down.md"
+        },
+        "ko": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/ko/about/what-happens-if-unstoppable-app-goes-down.md"
+        },
+        "fa": {
+          "title": "What happens if Unstoppable app goes down?",
+          "markdown": "faq/android/fa/about/what-happens-if-unstoppable-app-goes-down.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/en/about/where-to-download-unstoppable-wallet-from.md"
+        },
+        "ru": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/ru/about/where-to-download-unstoppable-wallet-from.md"
+        },
+        "de": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/de/about/where-to-download-unstoppable-wallet-from.md"
+        },
+        "es": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/es/about/where-to-download-unstoppable-wallet-from.md"
+        },
+        "fr": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/fr/about/where-to-download-unstoppable-wallet-from.md"
+        },
+        "tr": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/tr/about/where-to-download-unstoppable-wallet-from.md"
+        },
+        "zh": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/zh/about/where-to-download-unstoppable-wallet-from.md"
+        },
+        "ko": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/ko/about/where-to-download-unstoppable-wallet-from.md"
+        },
+        "fa": {
+          "title": "Where to download Unstoppable wallet from?",
+          "markdown": "faq/android/fa/about/where-to-download-unstoppable-wallet-from.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/en/about/how-to-update-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/ru/about/how-to-update-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/de/about/how-to-update-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/es/about/how-to-update-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/fr/about/how-to-update-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/tr/about/how-to-update-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/zh/about/how-to-update-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/ko/about/how-to-update-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "How to update Unstoppable wallet?",
+          "markdown": "faq/android/fa/about/how-to-update-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/en/about/how-to-contact-unstoppable-team.md"
+        },
+        "ru": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/ru/about/how-to-contact-unstoppable-team.md"
+        },
+        "de": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/de/about/how-to-contact-unstoppable-team.md"
+        },
+        "es": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/es/about/how-to-contact-unstoppable-team.md"
+        },
+        "fr": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/fr/about/how-to-contact-unstoppable-team.md"
+        },
+        "tr": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/tr/about/how-to-contact-unstoppable-team.md"
+        },
+        "zh": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/zh/about/how-to-contact-unstoppable-team.md"
+        },
+        "ko": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/ko/about/how-to-contact-unstoppable-team.md"
+        },
+        "fa": {
+          "title": "How to contact Unstoppable team?",
+          "markdown": "faq/android/fa/about/how-to-contact-unstoppable-team.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/en/about/who-is-building-unstoppable-wallet.md"
+        },
+        "ru": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/ru/about/who-is-building-unstoppable-wallet.md"
+        },
+        "de": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/de/about/who-is-building-unstoppable-wallet.md"
+        },
+        "es": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/es/about/who-is-building-unstoppable-wallet.md"
+        },
+        "fr": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/fr/about/who-is-building-unstoppable-wallet.md"
+        },
+        "tr": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/tr/about/who-is-building-unstoppable-wallet.md"
+        },
+        "zh": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/zh/about/who-is-building-unstoppable-wallet.md"
+        },
+        "ko": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/ko/about/who-is-building-unstoppable-wallet.md"
+        },
+        "fa": {
+          "title": "Who is building Unstoppable wallet?",
+          "markdown": "faq/android/fa/about/who-is-building-unstoppable-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/en/about/how-unstoppable-makes-money.md"
+        },
+        "ru": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/ru/about/how-unstoppable-makes-money.md"
+        },
+        "de": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/de/about/how-unstoppable-makes-money.md"
+        },
+        "es": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/es/about/how-unstoppable-makes-money.md"
+        },
+        "fr": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/fr/about/how-unstoppable-makes-money.md"
+        },
+        "tr": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/tr/about/how-unstoppable-makes-money.md"
+        },
+        "zh": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/zh/about/how-unstoppable-makes-money.md"
+        },
+        "ko": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/ko/about/how-unstoppable-makes-money.md"
+        },
+        "fa": {
+          "title": "How Unstoppable makes money?",
+          "markdown": "faq/android/fa/about/how-unstoppable-makes-money.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/android/en/where-to-download-unstoppable-wallet.md"
+    "section": {
+      "en": "Management",
+      "ru": "Management",
+      "de": "Management",
+      "es": "Management",
+      "fr": "Management",
+      "tr": "Management",
+      "zh": "Management",
+      "ko": "Management",
+      "fa": "Management"
     },
-    "ru": {
-      "title": "Где скачать Unstoppable кошелек?",
-      "markdown": "faq/android/ru/where-to-download-unstoppable-wallet.md"
-    },
-    "de": {
-      "title": "Wo kann man Unstoppable Wallet herunterladen?",
-      "markdown": "faq/android/de/where-to-download-unstoppable-wallet.md"
-    },
-    "es": {
-      "title": "¿Dónde puedes descargar Unstoppable Wallet?",
-      "markdown": "faq/android/es/where-to-download-unstoppable-wallet.md"
-    },
-    "fr": {
-      "title": "Où télécharger le portefeuille Unstoppable ?",
-      "markdown": "faq/android/fr/where-to-download-unstoppable-wallet.md"
-    },
-    "tr": {
-      "title": "Unstoppable Wallet nereden indirilir?",
-      "markdown": "faq/android/tr/where-to-download-unstoppable-wallet.md"
-    },
-    "zh": {
-      "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/android/zh/where-to-download-unstoppable-wallet.md"
-    },
-    "ko": {
-      "title": "Unstoppable Wallet은 어디에서 다운로드할 수 있나요?",
-      "markdown": "faq/android/ko/where-to-download-unstoppable-wallet.md"
-    },
-    "fa": {
-      "title": "Where to download Unstoppable Wallet?",
-      "markdown": "faq/android/fa/where-to-download-unstoppable-wallet.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/en/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        },
+        "ru": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/ru/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        },
+        "de": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/de/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        },
+        "es": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/es/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        },
+        "fr": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/fr/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        },
+        "tr": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/tr/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        },
+        "zh": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/zh/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        },
+        "ko": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/ko/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        },
+        "fa": {
+          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "markdown": "faq/android/fa/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/en/management/how-to-create-wallet.md"
+        },
+        "ru": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/ru/management/how-to-create-wallet.md"
+        },
+        "de": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/de/management/how-to-create-wallet.md"
+        },
+        "es": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/es/management/how-to-create-wallet.md"
+        },
+        "fr": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/fr/management/how-to-create-wallet.md"
+        },
+        "tr": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/tr/management/how-to-create-wallet.md"
+        },
+        "zh": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/zh/management/how-to-create-wallet.md"
+        },
+        "ko": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/ko/management/how-to-create-wallet.md"
+        },
+        "fa": {
+          "title": "How to create wallet(s)?",
+          "markdown": "faq/android/fa/management/how-to-create-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/en/management/how-to-backup-wallet.md"
+        },
+        "ru": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/ru/management/how-to-backup-wallet.md"
+        },
+        "de": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/de/management/how-to-backup-wallet.md"
+        },
+        "es": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/es/management/how-to-backup-wallet.md"
+        },
+        "fr": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/fr/management/how-to-backup-wallet.md"
+        },
+        "tr": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/tr/management/how-to-backup-wallet.md"
+        },
+        "zh": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/zh/management/how-to-backup-wallet.md"
+        },
+        "ko": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/ko/management/how-to-backup-wallet.md"
+        },
+        "fa": {
+          "title": "How to backup wallet(s)?",
+          "markdown": "faq/android/fa/management/how-to-backup-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/en/management/how-to-restore-wallet.md"
+        },
+        "ru": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/ru/management/how-to-restore-wallet.md"
+        },
+        "de": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/de/management/how-to-restore-wallet.md"
+        },
+        "es": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/es/management/how-to-restore-wallet.md"
+        },
+        "fr": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/fr/management/how-to-restore-wallet.md"
+        },
+        "tr": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/tr/management/how-to-restore-wallet.md"
+        },
+        "zh": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/zh/management/how-to-restore-wallet.md"
+        },
+        "ko": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/ko/management/how-to-restore-wallet.md"
+        },
+        "fa": {
+          "title": "How to restore wallet(s)?",
+          "markdown": "faq/android/fa/management/how-to-restore-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/en/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        },
+        "ru": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/ru/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        },
+        "de": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/de/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        },
+        "es": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/es/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        },
+        "fr": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/fr/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        },
+        "tr": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/tr/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        },
+        "zh": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/zh/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        },
+        "ko": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/ko/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        },
+        "fa": {
+          "title": "How to activate cryptocurrency for the wallet?",
+          "markdown": "faq/android/fa/management/how-to-activate-cryptocurrency-for-the-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/en/management/how-to-manage-multiple-wallets.md"
+        },
+        "ru": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/ru/management/how-to-manage-multiple-wallets.md"
+        },
+        "de": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/de/management/how-to-manage-multiple-wallets.md"
+        },
+        "es": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/es/management/how-to-manage-multiple-wallets.md"
+        },
+        "fr": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/fr/management/how-to-manage-multiple-wallets.md"
+        },
+        "tr": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/tr/management/how-to-manage-multiple-wallets.md"
+        },
+        "zh": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/zh/management/how-to-manage-multiple-wallets.md"
+        },
+        "ko": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/ko/management/how-to-manage-multiple-wallets.md"
+        },
+        "fa": {
+          "title": "How to manage multiple wallets?",
+          "markdown": "faq/android/fa/management/how-to-manage-multiple-wallets.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/en/management/how-to-delete-the-wallet.md"
+        },
+        "ru": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/ru/management/how-to-delete-the-wallet.md"
+        },
+        "de": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/de/management/how-to-delete-the-wallet.md"
+        },
+        "es": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/es/management/how-to-delete-the-wallet.md"
+        },
+        "fr": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/fr/management/how-to-delete-the-wallet.md"
+        },
+        "tr": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/tr/management/how-to-delete-the-wallet.md"
+        },
+        "zh": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/zh/management/how-to-delete-the-wallet.md"
+        },
+        "ko": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/ko/management/how-to-delete-the-wallet.md"
+        },
+        "fa": {
+          "title": "How to delete (unlink) the wallet?",
+          "markdown": "faq/android/fa/management/how-to-delete-the-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/en/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        },
+        "ru": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/ru/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        },
+        "de": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/de/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        },
+        "es": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/es/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        },
+        "fr": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/fr/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        },
+        "tr": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/tr/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        },
+        "zh": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/zh/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        },
+        "ko": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/ko/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        },
+        "fa": {
+          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "markdown": "faq/android/fa/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/en/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        },
+        "ru": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/ru/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        },
+        "de": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/de/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        },
+        "es": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/es/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        },
+        "fr": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/fr/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        },
+        "tr": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/tr/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        },
+        "zh": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/zh/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        },
+        "ko": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/ko/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        },
+        "fa": {
+          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "markdown": "faq/android/fa/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/android/en/how-does-unstoppable-wallet-work.md"
+    "section": {
+      "en": "Balance",
+      "ru": "Balance",
+      "de": "Balance",
+      "es": "Balance",
+      "fr": "Balance",
+      "tr": "Balance",
+      "zh": "Balance",
+      "ko": "Balance",
+      "fa": "Balance"
     },
-    "ru": {
-      "title": "Как работает Unstoppable кошелек?",
-      "markdown": "faq/android/ru/how-does-unstoppable-wallet-work.md"
-    },
-    "de": {
-      "title": "Wie funktioniert Unstoppable Wallet?",
-      "markdown": "faq/android/de/how-does-unstoppable-wallet-work.md"
-    },
-    "es": {
-      "title": "¿Cómo funciona la Unstoppable Wallet?",
-      "markdown": "faq/android/es/how-does-unstoppable-wallet-work.md"
-    },
-    "fr": {
-      "title": "Comment fonctionne le portefeuille Unstoppable?",
-      "markdown": "faq/android/fr/how-does-unstoppable-wallet-work.md"
-    },
-    "tr": {
-      "title": "Unstoppable Wallet nasıl çalışır?",
-      "markdown": "faq/android/tr/how-does-unstoppable-wallet-work.md"
-    },
-    "zh": {
-      "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/android/zh/how-does-unstoppable-wallet-work.md"
-    },
-    "ko": {
-      "title": "Unstoppable Wallet은 어떻게 작동하나요?",
-      "markdown": "faq/android/ko/how-does-unstoppable-wallet-work.md"
-    },
-    "fa": {
-      "title": "How does Unstoppable Wallet work?",
-      "markdown": "faq/android/fa/how-does-unstoppable-wallet-work.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/en/balance/how-to-hide-show-wallet-balance.md"
+        },
+        "ru": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/ru/balance/how-to-hide-show-wallet-balance.md"
+        },
+        "de": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/de/balance/how-to-hide-show-wallet-balance.md"
+        },
+        "es": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/es/balance/how-to-hide-show-wallet-balance.md"
+        },
+        "fr": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/fr/balance/how-to-hide-show-wallet-balance.md"
+        },
+        "tr": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/tr/balance/how-to-hide-show-wallet-balance.md"
+        },
+        "zh": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/zh/balance/how-to-hide-show-wallet-balance.md"
+        },
+        "ko": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/ko/balance/how-to-hide-show-wallet-balance.md"
+        },
+        "fa": {
+          "title": "How do hide/show wallet balance?",
+          "markdown": "faq/android/fa/balance/how-to-hide-show-wallet-balance.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/en/balance/why-balance-appears-dimmed.md"
+        },
+        "ru": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/ru/balance/why-balance-appears-dimmed.md"
+        },
+        "de": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/de/balance/why-balance-appears-dimmed.md"
+        },
+        "es": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/es/balance/why-balance-appears-dimmed.md"
+        },
+        "fr": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/fr/balance/why-balance-appears-dimmed.md"
+        },
+        "tr": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/tr/balance/why-balance-appears-dimmed.md"
+        },
+        "zh": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/zh/balance/why-balance-appears-dimmed.md"
+        },
+        "ko": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/ko/balance/why-balance-appears-dimmed.md"
+        },
+        "fa": {
+          "title": "Why balance appears dimmed?",
+          "markdown": "faq/android/fa/balance/why-balance-appears-dimmed.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/en/balance/what-syncing-status-on-a-coin-means.md"
+        },
+        "ru": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/ru/balance/what-syncing-status-on-a-coin-means.md"
+        },
+        "de": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/de/balance/what-syncing-status-on-a-coin-means.md"
+        },
+        "es": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/es/balance/what-syncing-status-on-a-coin-means.md"
+        },
+        "fr": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/fr/balance/what-syncing-status-on-a-coin-means.md"
+        },
+        "tr": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/tr/balance/what-syncing-status-on-a-coin-means.md"
+        },
+        "zh": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/zh/balance/what-syncing-status-on-a-coin-means.md"
+        },
+        "ko": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/ko/balance/what-syncing-status-on-a-coin-means.md"
+        },
+        "fa": {
+          "title": "What 'syncing' status on a coin means?",
+          "markdown": "faq/android/fa/balance/what-syncing-status-on-a-coin-means.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/en/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        },
+        "ru": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/ru/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        },
+        "de": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/de/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        },
+        "es": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/es/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        },
+        "fr": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/fr/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        },
+        "tr": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/tr/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        },
+        "zh": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/zh/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        },
+        "ko": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/ko/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        },
+        "fa": {
+          "title": "What a triangle alert coin on a coin means?",
+          "markdown": "faq/android/fa/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/en/balance/why-send-button-for-the-coin-appears-disabled.md"
+        },
+        "ru": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/ru/balance/why-send-button-for-the-coin-appears-disabled.md"
+        },
+        "de": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/de/balance/why-send-button-for-the-coin-appears-disabled.md"
+        },
+        "es": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/es/balance/why-send-button-for-the-coin-appears-disabled.md"
+        },
+        "fr": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/fr/balance/why-send-button-for-the-coin-appears-disabled.md"
+        },
+        "tr": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/tr/balance/why-send-button-for-the-coin-appears-disabled.md"
+        },
+        "zh": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/zh/balance/why-send-button-for-the-coin-appears-disabled.md"
+        },
+        "ko": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/ko/balance/why-send-button-for-the-coin-appears-disabled.md"
+        },
+        "fa": {
+          "title": "Why 'send' button for the coin appears disabled?",
+          "markdown": "faq/android/fa/balance/why-send-button-for-the-coin-appears-disabled.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/en/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        },
+        "ru": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/ru/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        },
+        "de": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/de/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        },
+        "es": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/es/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        },
+        "fr": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/fr/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        },
+        "tr": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/tr/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        },
+        "zh": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/zh/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        },
+        "ko": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/ko/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        },
+        "fa": {
+          "title": "Why 'receive' button for the coin appears disabled?",
+          "markdown": "faq/android/fa/balance/why-receive-button-for-the-coin-appears-disabled.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/en/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        },
+        "ru": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/ru/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        },
+        "de": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/de/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        },
+        "es": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/es/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        },
+        "fr": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/fr/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        },
+        "tr": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/tr/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        },
+        "zh": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/zh/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        },
+        "ko": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/ko/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        },
+        "fa": {
+          "title": "Why wallet balance is showing incorrect amount?",
+          "markdown": "faq/android/fa/balance/why-wallet-balance-is-showing-incorrect-amount.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/en/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        },
+        "ru": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/ru/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        },
+        "de": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/de/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        },
+        "es": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/es/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        },
+        "fr": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/fr/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        },
+        "tr": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/tr/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        },
+        "zh": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/zh/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        },
+        "ko": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/ko/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        },
+        "fa": {
+          "title": "What the lock sign next to coin balance means?",
+          "markdown": "faq/android/fa/balance/what-the-lock-sign-next-to-coin-balance-means.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/en/balance/how-to-change-base-currency-for-the-wallet.md"
+        },
+        "ru": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/ru/balance/how-to-change-base-currency-for-the-wallet.md"
+        },
+        "de": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/de/balance/how-to-change-base-currency-for-the-wallet.md"
+        },
+        "es": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/es/balance/how-to-change-base-currency-for-the-wallet.md"
+        },
+        "fr": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/fr/balance/how-to-change-base-currency-for-the-wallet.md"
+        },
+        "tr": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/tr/balance/how-to-change-base-currency-for-the-wallet.md"
+        },
+        "zh": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/zh/balance/how-to-change-base-currency-for-the-wallet.md"
+        },
+        "ko": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/ko/balance/how-to-change-base-currency-for-the-wallet.md"
+        },
+        "fa": {
+          "title": "How to change base currency for the wallet?",
+          "markdown": "faq/android/fa/balance/how-to-change-base-currency-for-the-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/en/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        },
+        "ru": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/ru/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        },
+        "de": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/de/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        },
+        "es": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/es/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        },
+        "fr": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/fr/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        },
+        "tr": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/tr/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        },
+        "zh": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/zh/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        },
+        "ko": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/ko/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        },
+        "fa": {
+          "title": "Why there are random token balances appearing in my wallet?",
+          "markdown": "faq/android/fa/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/en/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        },
+        "ru": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/ru/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        },
+        "de": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/de/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        },
+        "es": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/es/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        },
+        "fr": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/fr/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        },
+        "tr": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/tr/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        },
+        "zh": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/zh/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        },
+        "ko": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/ko/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        },
+        "fa": {
+          "title": "Why the exchange rate for the token not shown?",
+          "markdown": "faq/android/fa/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/android/en/how-to-create-a-multi-coin-wallet.md"
+    "section": {
+      "en": "Security",
+      "ru": "Security",
+      "de": "Security",
+      "es": "Security",
+      "fr": "Security",
+      "tr": "Security",
+      "zh": "Security",
+      "ko": "Security",
+      "fa": "Security"
     },
-    "ru": {
-      "title": "Как создать мультивалютный кошелек?",
-      "markdown": "faq/android/ru/how-to-create-a-multi-coin-wallet.md"
-    },
-    "de": {
-      "title": "Wie erstellt man ein Multi-Coin-Wallet?",
-      "markdown": "faq/android/de/how-to-create-a-multi-coin-wallet.md"
-    },
-    "es": {
-      "title": "¿Cómo crear un monedero multimoneda?",
-      "markdown": "faq/android/es/how-to-create-a-multi-coin-wallet.md"
-    },
-    "fr": {
-      "title": "Comment créer un portefeuille multi-pièces ?",
-      "markdown": "faq/android/fr/how-to-create-a-multi-coin-wallet.md"
-    },
-    "tr": {
-      "title": "Çoklu para cüzdanı nasıl oluşturulur?",
-      "markdown": "faq/android/tr/how-to-create-a-multi-coin-wallet.md"
-    },
-    "zh": {
-      "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/android/zh/how-to-create-a-multi-coin-wallet.md"
-    },
-    "ko": {
-      "title": "멀티 코인 지갑을 생성하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-create-a-multi-coin-wallet.md"
-    },
-    "fa": {
-      "title": "How to create a multi-coin wallet?",
-      "markdown": "faq/android/fa/how-to-create-a-multi-coin-wallet.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/en/security/how-unstoppable-keeps-funds-secure.md"
+        },
+        "ru": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/ru/security/how-unstoppable-keeps-funds-secure.md"
+        },
+        "de": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/de/security/how-unstoppable-keeps-funds-secure.md"
+        },
+        "es": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/es/security/how-unstoppable-keeps-funds-secure.md"
+        },
+        "fr": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/fr/security/how-unstoppable-keeps-funds-secure.md"
+        },
+        "tr": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/tr/security/how-unstoppable-keeps-funds-secure.md"
+        },
+        "zh": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/zh/security/how-unstoppable-keeps-funds-secure.md"
+        },
+        "ko": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/ko/security/how-unstoppable-keeps-funds-secure.md"
+        },
+        "fa": {
+          "title": "How Unstoppable keeps funds secure?",
+          "markdown": "faq/android/fa/security/how-unstoppable-keeps-funds-secure.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/en/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        },
+        "ru": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/ru/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        },
+        "de": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/de/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        },
+        "es": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/es/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        },
+        "fr": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/fr/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        },
+        "tr": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/tr/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        },
+        "zh": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/zh/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        },
+        "ko": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/ko/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        },
+        "fa": {
+          "title": "Is Unstoppable less secure than hardware wallets?",
+          "markdown": "faq/android/fa/security/is-unstoppable-less-secure-than-hardware-wallets.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/en/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        },
+        "ru": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/ru/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        },
+        "de": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/de/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        },
+        "es": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/es/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        },
+        "fr": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/fr/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        },
+        "tr": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/tr/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        },
+        "zh": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/zh/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        },
+        "ko": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/ko/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        },
+        "fa": {
+          "title": "Why to set an unlock code for the wallet app?",
+          "markdown": "faq/android/fa/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/en/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        },
+        "ru": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/ru/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        },
+        "de": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/de/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        },
+        "es": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/es/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        },
+        "fr": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/fr/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        },
+        "tr": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/tr/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        },
+        "zh": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/zh/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        },
+        "ko": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/ko/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        },
+        "fa": {
+          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "markdown": "faq/android/fa/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/en/security/what-is-mnemonic-phrase.md"
+        },
+        "ru": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/ru/security/what-is-mnemonic-phrase.md"
+        },
+        "de": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/de/security/what-is-mnemonic-phrase.md"
+        },
+        "es": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/es/security/what-is-mnemonic-phrase.md"
+        },
+        "fr": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/fr/security/what-is-mnemonic-phrase.md"
+        },
+        "tr": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/tr/security/what-is-mnemonic-phrase.md"
+        },
+        "zh": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/zh/security/what-is-mnemonic-phrase.md"
+        },
+        "ko": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/ko/security/what-is-mnemonic-phrase.md"
+        },
+        "fa": {
+          "title": "What is mnemonic phrase?",
+          "markdown": "faq/android/fa/security/what-is-mnemonic-phrase.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/en/security/what-is-mnemonic-passphrase.md"
+        },
+        "ru": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/ru/security/what-is-mnemonic-passphrase.md"
+        },
+        "de": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/de/security/what-is-mnemonic-passphrase.md"
+        },
+        "es": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/es/security/what-is-mnemonic-passphrase.md"
+        },
+        "fr": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/fr/security/what-is-mnemonic-passphrase.md"
+        },
+        "tr": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/tr/security/what-is-mnemonic-passphrase.md"
+        },
+        "zh": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/zh/security/what-is-mnemonic-passphrase.md"
+        },
+        "ko": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/ko/security/what-is-mnemonic-passphrase.md"
+        },
+        "fa": {
+          "title": "What is mnemonic passphrase?",
+          "markdown": "faq/android/fa/security/what-is-mnemonic-passphrase.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/en/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        },
+        "ru": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/ru/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        },
+        "de": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/de/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        },
+        "es": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/es/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        },
+        "fr": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/fr/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        },
+        "tr": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/tr/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        },
+        "zh": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/zh/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        },
+        "ko": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/ko/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        },
+        "fa": {
+          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "markdown": "faq/android/fa/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/en/security/what-steps-to-take-if-lost-my-phone.md"
+        },
+        "ru": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/ru/security/what-steps-to-take-if-lost-my-phone.md"
+        },
+        "de": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/de/security/what-steps-to-take-if-lost-my-phone.md"
+        },
+        "es": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/es/security/what-steps-to-take-if-lost-my-phone.md"
+        },
+        "fr": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/fr/security/what-steps-to-take-if-lost-my-phone.md"
+        },
+        "tr": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/tr/security/what-steps-to-take-if-lost-my-phone.md"
+        },
+        "zh": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/zh/security/what-steps-to-take-if-lost-my-phone.md"
+        },
+        "ko": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/ko/security/what-steps-to-take-if-lost-my-phone.md"
+        },
+        "fa": {
+          "title": "What steps to take if I lost my phone?",
+          "markdown": "faq/android/fa/security/what-steps-to-take-if-lost-my-phone.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/android/en/how-to-backup-your-wallet.md"
+    "section": {
+      "en": "Transactions",
+      "ru": "Transactions",
+      "de": "Transactions",
+      "es": "Transactions",
+      "fr": "Transactions",
+      "tr": "Transactions",
+      "zh": "Transactions",
+      "ko": "Transactions",
+      "fa": "Transactions"
     },
-    "ru": {
-      "title": "Как создать резервную копию вашего(-их) кошелька(-ов)?",
-      "markdown": "faq/android/ru/how-to-backup-your-wallet.md"
-    },
-    "de": {
-      "title": "Wie macht man ein Backup seines Wallets?",
-      "markdown": "faq/android/de/how-to-backup-your-wallet.md"
-    },
-    "es": {
-      "title": "¿Cómo hacer un backup de tu monedero (s)?",
-      "markdown": "faq/android/es/how-to-backup-your-wallet.md"
-    },
-    "fr": {
-      "title": "Comment sauvegarder votre (vos) portefeuille (s)?",
-      "markdown": "faq/android/fr/how-to-backup-your-wallet.md"
-    },
-    "tr": {
-      "title": "Cüzdan(lar)ınızı nasıl yedekleyebilirsiniz?",
-      "markdown": "faq/android/tr/how-to-backup-your-wallet.md"
-    },
-    "zh": {
-      "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/android/zh/how-to-backup-your-wallet.md"
-    },
-    "ko": {
-      "title": "지갑을 백업하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-backup-your-wallet.md"
-    },
-    "fa": {
-      "title": "How to backup your Wallet(s)?",
-      "markdown": "faq/android/fa/how-to-backup-your-wallet.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/en/transactions/what-are-transactions-fee.md"
+        },
+        "ru": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/ru/transactions/what-are-transactions-fee.md"
+        },
+        "de": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/de/transactions/what-are-transactions-fee.md"
+        },
+        "es": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/es/transactions/what-are-transactions-fee.md"
+        },
+        "fr": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/fr/transactions/what-are-transactions-fee.md"
+        },
+        "tr": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/tr/transactions/what-are-transactions-fee.md"
+        },
+        "zh": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/zh/transactions/what-are-transactions-fee.md"
+        },
+        "ko": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/ko/transactions/what-are-transactions-fee.md"
+        },
+        "fa": {
+          "title": "What are transaction fees?",
+          "markdown": "faq/android/fa/transactions/what-are-transactions-fee.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/en/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        },
+        "ru": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/ru/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        },
+        "de": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/de/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        },
+        "es": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/es/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        },
+        "fr": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/fr/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        },
+        "tr": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/tr/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        },
+        "zh": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/zh/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        },
+        "ko": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/ko/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        },
+        "fa": {
+          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "markdown": "faq/android/fa/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/en/transactions/how-unstoppable-calculates-transaction-fees.md"
+        },
+        "ru": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/ru/transactions/how-unstoppable-calculates-transaction-fees.md"
+        },
+        "de": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/de/transactions/how-unstoppable-calculates-transaction-fees.md"
+        },
+        "es": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/es/transactions/how-unstoppable-calculates-transaction-fees.md"
+        },
+        "fr": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/fr/transactions/how-unstoppable-calculates-transaction-fees.md"
+        },
+        "tr": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/tr/transactions/how-unstoppable-calculates-transaction-fees.md"
+        },
+        "zh": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/zh/transactions/how-unstoppable-calculates-transaction-fees.md"
+        },
+        "ko": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/ko/transactions/how-unstoppable-calculates-transaction-fees.md"
+        },
+        "fa": {
+          "title": "How Unstoppable calculates transaction fees?",
+          "markdown": "faq/android/fa/transactions/how-unstoppable-calculates-transaction-fees.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/en/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        },
+        "ru": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/ru/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        },
+        "de": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/de/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        },
+        "es": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/es/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        },
+        "fr": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/fr/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        },
+        "tr": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/tr/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        },
+        "zh": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/zh/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        },
+        "ko": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/ko/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        },
+        "fa": {
+          "title": "Does Unstoppable charge fees for sending transactions?",
+          "markdown": "faq/android/fa/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/en/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        },
+        "ru": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/ru/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        },
+        "de": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/de/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        },
+        "es": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/es/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        },
+        "fr": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/fr/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        },
+        "tr": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/tr/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        },
+        "zh": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/zh/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        },
+        "ko": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/ko/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        },
+        "fa": {
+          "title": "What happens if transaction sent to the wrong address?",
+          "markdown": "faq/android/fa/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/en/transactions/can-a-user-send-transaction-to-self.md"
+        },
+        "ru": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/ru/transactions/can-a-user-send-transaction-to-self.md"
+        },
+        "de": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/de/transactions/can-a-user-send-transaction-to-self.md"
+        },
+        "es": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/es/transactions/can-a-user-send-transaction-to-self.md"
+        },
+        "fr": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/fr/transactions/can-a-user-send-transaction-to-self.md"
+        },
+        "tr": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/tr/transactions/can-a-user-send-transaction-to-self.md"
+        },
+        "zh": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/zh/transactions/can-a-user-send-transaction-to-self.md"
+        },
+        "ko": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/ko/transactions/can-a-user-send-transaction-to-self.md"
+        },
+        "fa": {
+          "title": "Can a user send transaction to self?",
+          "markdown": "faq/android/fa/transactions/can-a-user-send-transaction-to-self.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/en/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        },
+        "ru": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/ru/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        },
+        "de": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/de/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        },
+        "es": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/es/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        },
+        "fr": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/fr/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        },
+        "tr": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/tr/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        },
+        "zh": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/zh/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        },
+        "ko": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/ko/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        },
+        "fa": {
+          "title": "Is it safe to share payment address with others?",
+          "markdown": "faq/android/fa/transactions/is-it-safe-to-share-payment-address-with-others.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/en/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        },
+        "ru": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/ru/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        },
+        "de": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/de/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        },
+        "es": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/es/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        },
+        "fr": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/fr/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        },
+        "tr": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/tr/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        },
+        "zh": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/zh/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        },
+        "ko": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/ko/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        },
+        "fa": {
+          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "markdown": "faq/android/fa/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "How to protect your wallet funds",
-      "markdown": "faq/android/en/how-to-protect-your-wallet-funds.md"
+    "section": {
+      "en": "Bitcoin",
+      "ru": "Bitcoin",
+      "de": "Bitcoin",
+      "es": "Bitcoin",
+      "fr": "Bitcoin",
+      "tr": "Bitcoin",
+      "zh": "Bitcoin",
+      "ko": "Bitcoin",
+      "fa": "Bitcoin"
     },
-    "ru": {
-      "title": "Как защитить средства, хранящиеся в вашем кошельке?",
-      "markdown": "faq/android/ru/how-to-protect-your-wallet-funds.md"
-    },
-    "de": {
-      "title": "Wie schützt man die Gelder im Wallet?",
-      "markdown": "faq/android/de/how-to-protect-your-wallet-funds.md"
-    },
-    "es": {
-      "title": "¿Cómo proteger los fondos de tu monedero?",
-      "markdown": "faq/android/es/how-to-protect-your-wallet-funds.md"
-    },
-    "fr": {
-      "title": "Comment protéger les fonds de votre portefeuille?",
-      "markdown": "faq/android/fr/how-to-protect-your-wallet-funds.md"
-    },
-    "tr": {
-      "title": "Cüzdan fonlarınızı nasıl koruyabilirsiniz?",
-      "markdown": "faq/android/tr/how-to-protect-your-wallet-funds.md"
-    },
-    "zh": {
-      "title": "How to protect your wallet funds",
-      "markdown": "faq/android/zh/how-to-protect-your-wallet-funds.md"
-    },
-    "ko": {
-      "title": "지갑 자금을 보호하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-protect-your-wallet-funds.md"
-    },
-    "fa": {
-      "title": "How to protect your wallet funds",
-      "markdown": "faq/android/fa/backup-your-recovery-phrase-or-private-key.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/en/bitcoin/how-to-send-bitcoin-transaction.md"
+        },
+        "ru": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/ru/bitcoin/how-to-send-bitcoin-transaction.md"
+        },
+        "de": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/de/bitcoin/how-to-send-bitcoin-transaction.md"
+        },
+        "es": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/es/bitcoin/how-to-send-bitcoin-transaction.md"
+        },
+        "fr": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/fr/bitcoin/how-to-send-bitcoin-transaction.md"
+        },
+        "tr": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/tr/bitcoin/how-to-send-bitcoin-transaction.md"
+        },
+        "zh": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/zh/bitcoin/how-to-send-bitcoin-transaction.md"
+        },
+        "ko": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/ko/bitcoin/how-to-send-bitcoin-transaction.md"
+        },
+        "fa": {
+          "title": "How to send Bitcoin transaction?",
+          "markdown": "faq/android/fa/bitcoin/how-to-send-bitcoin-transaction.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/en/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        },
+        "ru": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/ru/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        },
+        "de": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/de/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        },
+        "es": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/es/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        },
+        "fr": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/fr/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        },
+        "tr": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/tr/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        },
+        "zh": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/zh/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        },
+        "ko": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/ko/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        },
+        "fa": {
+          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "markdown": "faq/android/fa/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/en/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        },
+        "ru": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/ru/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        },
+        "de": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/de/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        },
+        "es": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/es/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        },
+        "fr": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/fr/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        },
+        "tr": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/tr/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        },
+        "zh": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/zh/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        },
+        "ko": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/ko/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        },
+        "fa": {
+          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "markdown": "faq/android/fa/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
+        }
+      },
+      {
+        "en": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/en/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        },
+        "ru": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/ru/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        },
+        "de": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/de/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        },
+        "es": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/es/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        },
+        "fr": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/fr/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        },
+        "tr": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/tr/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        },
+        "zh": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/zh/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        },
+        "ko": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/ko/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        },
+        "fa": {
+          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "markdown": "faq/android/fa/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/en/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        },
+        "ru": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/ru/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        },
+        "de": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/de/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        },
+        "es": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/es/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        },
+        "fr": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/fr/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        },
+        "tr": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/tr/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        },
+        "zh": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/zh/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        },
+        "ko": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/ko/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        },
+        "fa": {
+          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "markdown": "faq/android/fa/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/en/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        },
+        "ru": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/ru/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        },
+        "de": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/de/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        },
+        "es": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/es/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        },
+        "fr": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/fr/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        },
+        "tr": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/tr/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        },
+        "zh": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/zh/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        },
+        "ko": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/ko/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        },
+        "fa": {
+          "title": "How to cancel a Bitcoin transaction?",
+          "markdown": "faq/android/fa/bitcoin/how-to-cancel-a-bitcoin-transaction.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/en/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        },
+        "ru": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/ru/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        },
+        "de": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/de/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        },
+        "es": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/es/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        },
+        "fr": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/fr/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        },
+        "tr": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/tr/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        },
+        "zh": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/zh/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        },
+        "ko": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/ko/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        },
+        "fa": {
+          "title": "How to resend a failed Bitcoin transaction?",
+          "markdown": "faq/android/fa/bitcoin/how-to-resend-a-failed-bitcoin-transaction.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/en/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        },
+        "ru": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/ru/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        },
+        "de": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/de/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        },
+        "es": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/es/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        },
+        "fr": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/fr/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        },
+        "tr": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/tr/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        },
+        "zh": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/zh/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        },
+        "ko": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/ko/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        },
+        "fa": {
+          "title": "Why Bitcoin transaction stays pending?",
+          "markdown": "faq/android/fa/bitcoin/why-bitcoin-transaction-stays-pending.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/en/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        },
+        "ru": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/ru/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        },
+        "de": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/de/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        },
+        "es": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/es/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        },
+        "fr": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/fr/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        },
+        "tr": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/tr/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        },
+        "zh": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/zh/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        },
+        "ko": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/ko/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        },
+        "fa": {
+          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "markdown": "faq/android/fa/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/en/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        },
+        "ru": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/ru/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        },
+        "de": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/de/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        },
+        "es": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/es/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        },
+        "fr": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/fr/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        },
+        "tr": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/tr/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        },
+        "zh": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/zh/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        },
+        "ko": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/ko/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        },
+        "fa": {
+          "title": "Why can't send Bitcoins that were just received?",
+          "markdown": "faq/android/fa/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/en/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        },
+        "ru": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/ru/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        },
+        "de": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/de/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        },
+        "es": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/es/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        },
+        "fr": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/fr/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        },
+        "tr": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/tr/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        },
+        "zh": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/zh/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        },
+        "ko": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/ko/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        },
+        "fa": {
+          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "markdown": "faq/android/fa/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/en/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        },
+        "ru": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/ru/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        },
+        "de": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/de/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        },
+        "es": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/es/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        },
+        "fr": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/fr/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        },
+        "tr": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/tr/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        },
+        "zh": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/zh/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        },
+        "ko": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/ko/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        },
+        "fa": {
+          "title": "Why Bitcoin payment address keeps changing?",
+          "markdown": "faq/android/fa/bitcoin/why-bitcoin-payment-address-keeps-changing.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/en/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        },
+        "ru": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/ru/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        },
+        "de": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/de/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        },
+        "es": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/es/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        },
+        "fr": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/fr/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        },
+        "tr": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/tr/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        },
+        "zh": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/zh/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        },
+        "ko": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/ko/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        },
+        "fa": {
+          "title": "Is it safe to share Bitcoin payment address with others?",
+          "markdown": "faq/android/fa/bitcoin/is-it-safe-to-share-bitcoin-payment-address-with-others.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/en/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        },
+        "ru": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/ru/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        },
+        "de": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/de/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        },
+        "es": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/es/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        },
+        "fr": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/fr/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        },
+        "tr": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/tr/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        },
+        "zh": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/zh/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        },
+        "ko": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/ko/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        },
+        "fa": {
+          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "markdown": "faq/android/fa/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/android/en/how-do-i-buy-cryptocurrency.md"
+    "section": {
+      "en": "Ethereum",
+      "ru": "Ethereum",
+      "de": "Ethereum",
+      "es": "Ethereum",
+      "fr": "Ethereum",
+      "tr": "Ethereum",
+      "zh": "Ethereum",
+      "ko": "Ethereum",
+      "fa": "Ethereum"
     },
-    "ru": {
-      "title": "Как купить криптовалюту?",
-      "markdown": "faq/android/ru/how-do-i-buy-cryptocurrency.md"
-    },
-    "de": {
-      "title": "Wie kaufe ich Kryptowährung?",
-      "markdown": "faq/android/de/how-do-i-buy-cryptocurrency.md"
-    },
-    "es": {
-      "title": "¿Cómo compro cripto monedas?",
-      "markdown": "faq/android/es/how-do-i-buy-cryptocurrency.md"
-    },
-    "fr": {
-      "title": "Comment acheter de la cryptomonnaie?",
-      "markdown": "faq/android/fr/how-do-i-buy-cryptocurrency.md"
-    },
-    "tr": {
-      "title": "Nasıl kripto para satın alabilirim?",
-      "markdown": "faq/android/tr/how-do-i-buy-cryptocurrency.md"
-    },
-    "zh": {
-      "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/android/zh/how-do-i-buy-cryptocurrency.md"
-    },
-    "ko": {
-      "title": "암호화폐를 구매하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-do-i-buy-cryptocurrency.md"
-    },
-    "fa": {
-      "title": "How do I buy cryptocurrency?",
-      "markdown": "faq/android/fa/how-do-i-buy-cryptocurrency.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/en/ethereum/what-is-an-ethereum-smart-contract.md"
+        },
+        "ru": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/ru/ethereum/what-is-an-ethereum-smart-contract.md"
+        },
+        "de": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/de/ethereum/what-is-an-ethereum-smart-contract.md"
+        },
+        "es": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/es/ethereum/what-is-an-ethereum-smart-contract.md"
+        },
+        "fr": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/fr/ethereum/what-is-an-ethereum-smart-contract.md"
+        },
+        "tr": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/tr/ethereum/what-is-an-ethereum-smart-contract.md"
+        },
+        "zh": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/zh/ethereum/what-is-an-ethereum-smart-contract.md"
+        },
+        "ko": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/ko/ethereum/what-is-an-ethereum-smart-contract.md"
+        },
+        "fa": {
+          "title": "What is an Ethereum Smart Contract?",
+          "markdown": "faq/android/fa/ethereum/what-is-an-ethereum-smart-contract.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/en/ethereum/how-to-send-ethereum-transaction.md"
+        },
+        "ru": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/ru/ethereum/how-to-send-ethereum-transaction.md"
+        },
+        "de": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/de/ethereum/how-to-send-ethereum-transaction.md"
+        },
+        "es": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/es/ethereum/how-to-send-ethereum-transaction.md"
+        },
+        "fr": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/fr/ethereum/how-to-send-ethereum-transaction.md"
+        },
+        "tr": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/tr/ethereum/how-to-send-ethereum-transaction.md"
+        },
+        "zh": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/zh/ethereum/how-to-send-ethereum-transaction.md"
+        },
+        "ko": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/ko/ethereum/how-to-send-ethereum-transaction.md"
+        },
+        "fa": {
+          "title": "How to send Ethereum transaction?",
+          "markdown": "faq/android/fa/ethereum/how-to-send-ethereum-transaction.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/en/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        },
+        "ru": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/ru/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        },
+        "de": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/de/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        },
+        "es": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/es/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        },
+        "fr": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/fr/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        },
+        "tr": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/tr/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        },
+        "zh": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/zh/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        },
+        "ko": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/ko/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        },
+        "fa": {
+          "title": "How Ethereum transactions are different from Bitcoin?",
+          "markdown": "faq/android/fa/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/en/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        },
+        "ru": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/ru/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        },
+        "de": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/de/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        },
+        "es": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/es/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        },
+        "fr": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/fr/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        },
+        "tr": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/tr/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        },
+        "zh": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/zh/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        },
+        "ko": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/ko/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        },
+        "fa": {
+          "title": "How long does it take for Ethereum transaction to complete?",
+          "markdown": "faq/android/fa/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/en/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        },
+        "ru": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/ru/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        },
+        "de": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/de/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        },
+        "es": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/es/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        },
+        "fr": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/fr/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        },
+        "tr": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/tr/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        },
+        "zh": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/zh/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        },
+        "ko": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/ko/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        },
+        "fa": {
+          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "markdown": "faq/android/fa/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/en/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        },
+        "ru": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/ru/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        },
+        "de": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/de/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        },
+        "es": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/es/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        },
+        "fr": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/fr/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        },
+        "tr": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/tr/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        },
+        "zh": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/zh/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        },
+        "ko": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/ko/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        },
+        "fa": {
+          "title": "Why Ethereum transactions are so expensive?",
+          "markdown": "faq/android/fa/ethereum/why-ethereum-transactions-are-so-expensive.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/en/ethereum/what-are-gas-gasprice-gaslimit.md"
+        },
+        "ru": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/ru/ethereum/what-are-gas-gasprice-gaslimit.md"
+        },
+        "de": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/de/ethereum/what-are-gas-gasprice-gaslimit.md"
+        },
+        "es": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/es/ethereum/what-are-gas-gasprice-gaslimit.md"
+        },
+        "fr": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/fr/ethereum/what-are-gas-gasprice-gaslimit.md"
+        },
+        "tr": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/tr/ethereum/what-are-gas-gasprice-gaslimit.md"
+        },
+        "zh": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/zh/ethereum/what-are-gas-gasprice-gaslimit.md"
+        },
+        "ko": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/ko/ethereum/what-are-gas-gasprice-gaslimit.md"
+        },
+        "fa": {
+          "title": "What are gas, gas price and gas limit?",
+          "markdown": "faq/android/fa/ethereum/what-are-gas-gasprice-gaslimit.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/en/ethereum/why-eth-needed-to-send-erc20-token.md"
+        },
+        "ru": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/ru/ethereum/why-eth-needed-to-send-erc20-token.md"
+        },
+        "de": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/de/ethereum/why-eth-needed-to-send-erc20-token.md"
+        },
+        "es": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/es/ethereum/why-eth-needed-to-send-erc20-token.md"
+        },
+        "fr": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/fr/ethereum/why-eth-needed-to-send-erc20-token.md"
+        },
+        "tr": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/tr/ethereum/why-eth-needed-to-send-erc20-token.md"
+        },
+        "zh": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/zh/ethereum/why-eth-needed-to-send-erc20-token.md"
+        },
+        "ko": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/ko/ethereum/why-eth-needed-to-send-erc20-token.md"
+        },
+        "fa": {
+          "title": "Why ETH needed to send ERC20 token?",
+          "markdown": "faq/android/fa/ethereum/why-eth-needed-to-send-erc20-token.md"
+        }
+      },
+      {
+        "en": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/en/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        },
+        "ru": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/ru/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        },
+        "de": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/de/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        },
+        "es": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/es/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        },
+        "fr": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/fr/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        },
+        "tr": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/tr/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        },
+        "zh": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/zh/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        },
+        "ko": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/ko/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        },
+        "fa": {
+          "title": "When an Ethereum transaction considered final and irreversible?",
+          "markdown": "faq/android/fa/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/en/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        },
+        "ru": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/ru/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        },
+        "de": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/de/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        },
+        "es": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/es/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        },
+        "fr": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/fr/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        },
+        "tr": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/tr/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        },
+        "zh": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/zh/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        },
+        "ko": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/ko/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        },
+        "fa": {
+          "title": "How to monitor status of an Ethereum transaction?",
+          "markdown": "faq/android/fa/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/en/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        },
+        "ru": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/ru/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        },
+        "de": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/de/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        },
+        "es": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/es/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        },
+        "fr": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/fr/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        },
+        "tr": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/tr/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        },
+        "zh": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/zh/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        },
+        "ko": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/ko/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        },
+        "fa": {
+          "title": "How to cancel / replace an Ethereum transaction?",
+          "markdown": "faq/android/fa/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/en/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        },
+        "ru": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/ru/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        },
+        "de": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/de/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        },
+        "es": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/es/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        },
+        "fr": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/fr/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        },
+        "tr": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/tr/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        },
+        "zh": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/zh/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        },
+        "ko": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/ko/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        },
+        "fa": {
+          "title": "Why failed transactions consume transaction fees?",
+          "markdown": "faq/android/fa/ethereum/why-failed-transactions-consume-transaction-fees.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/en/ethereum/why-ethereum-transaction-stays-pending.md"
+        },
+        "ru": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/ru/ethereum/why-ethereum-transaction-stays-pending.md"
+        },
+        "de": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/de/ethereum/why-ethereum-transaction-stays-pending.md"
+        },
+        "es": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/es/ethereum/why-ethereum-transaction-stays-pending.md"
+        },
+        "fr": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/fr/ethereum/why-ethereum-transaction-stays-pending.md"
+        },
+        "tr": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/tr/ethereum/why-ethereum-transaction-stays-pending.md"
+        },
+        "zh": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/zh/ethereum/why-ethereum-transaction-stays-pending.md"
+        },
+        "ko": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/ko/ethereum/why-ethereum-transaction-stays-pending.md"
+        },
+        "fa": {
+          "title": "Why Ethereum transaction stays pending?",
+          "markdown": "faq/android/fa/ethereum/why-ethereum-transaction-stays-pending.md"
+        }
+      },
+      {
+        "en": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/en/ethereum/when-ethereum-transaction-can-fail.md"
+        },
+        "ru": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/ru/ethereum/when-ethereum-transaction-can-fail.md"
+        },
+        "de": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/de/ethereum/when-ethereum-transaction-can-fail.md"
+        },
+        "es": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/es/ethereum/when-ethereum-transaction-can-fail.md"
+        },
+        "fr": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/fr/ethereum/when-ethereum-transaction-can-fail.md"
+        },
+        "tr": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/tr/ethereum/when-ethereum-transaction-can-fail.md"
+        },
+        "zh": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/zh/ethereum/when-ethereum-transaction-can-fail.md"
+        },
+        "ko": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/ko/ethereum/when-ethereum-transaction-can-fail.md"
+        },
+        "fa": {
+          "title": "When Ethereum transaction can fail?",
+          "markdown": "faq/android/fa/ethereum/when-ethereum-transaction-can-fail.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/en/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        },
+        "ru": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/ru/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        },
+        "de": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/de/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        },
+        "es": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/es/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        },
+        "fr": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/fr/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        },
+        "tr": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/tr/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        },
+        "zh": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/zh/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        },
+        "ko": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/ko/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        },
+        "fa": {
+          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "markdown": "faq/android/fa/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/en/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        },
+        "ru": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/ru/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        },
+        "de": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/de/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        },
+        "es": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/es/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        },
+        "fr": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/fr/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        },
+        "tr": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/tr/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        },
+        "zh": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/zh/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        },
+        "ko": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/ko/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        },
+        "fa": {
+          "title": "Is it safe to share Ethereum receive address with others?",
+          "markdown": "faq/android/fa/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/android/en/how-to-send-and-receive-cryptocurrency.md"
+    "section": {
+      "en": "Binance",
+      "ru": "Binance",
+      "de": "Binance",
+      "es": "Binance",
+      "fr": "Binance",
+      "tr": "Binance",
+      "zh": "Binance",
+      "ko": "Binance",
+      "fa": "Binance"
     },
-    "ru": {
-      "title": "Как отправить и получить криптовалюту?",
-      "markdown": "faq/android/ru/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "de": {
-      "title": "Wie sendet und empfängt man Kryptowährung?",
-      "markdown": "faq/android/de/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "es": {
-      "title": "¿Cómo envío y recibo cripto monedas?",
-      "markdown": "faq/android/es/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "fr": {
-      "title": "Comment envoyer et recevoir de la cryptomonnaie?",
-      "markdown": "faq/android/fr/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "tr": {
-      "title": "Kripto para nasıl gönderilir ve alınır?",
-      "markdown": "faq/android/tr/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "zh": {
-      "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/android/zh/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "ko": {
-      "title": "암호화폐를 전송하거나 수령하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-send-and-receive-cryptocurrency.md"
-    },
-    "fa": {
-      "title": "How to send and receive cryptocurrency?",
-      "markdown": "faq/android/fa/how-to-send-and-receive-cryptocurrency.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/en/binance/what-is-binance-smart-chain.md"
+        },
+        "ru": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/ru/binance/what-is-binance-smart-chain.md"
+        },
+        "de": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/de/binance/what-is-binance-smart-chain.md"
+        },
+        "es": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/es/binance/what-is-binance-smart-chain.md"
+        },
+        "fr": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/fr/binance/what-is-binance-smart-chain.md"
+        },
+        "tr": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/tr/binance/what-is-binance-smart-chain.md"
+        },
+        "zh": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/zh/binance/what-is-binance-smart-chain.md"
+        },
+        "ko": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/ko/binance/what-is-binance-smart-chain.md"
+        },
+        "fa": {
+          "title": "What is Binance Smart Chain?",
+          "markdown": "faq/android/fa/binance/what-is-binance-smart-chain.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/en/binance/what-are-bep20-tokens.md"
+        },
+        "ru": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/ru/binance/what-are-bep20-tokens.md"
+        },
+        "de": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/de/binance/what-are-bep20-tokens.md"
+        },
+        "es": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/es/binance/what-are-bep20-tokens.md"
+        },
+        "fr": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/fr/binance/what-are-bep20-tokens.md"
+        },
+        "tr": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/tr/binance/what-are-bep20-tokens.md"
+        },
+        "zh": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/zh/binance/what-are-bep20-tokens.md"
+        },
+        "ko": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/ko/binance/what-are-bep20-tokens.md"
+        },
+        "fa": {
+          "title": "What are BEP20 tokens?",
+          "markdown": "faq/android/fa/binance/what-are-bep20-tokens.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/en/binance/what-are-bep2-tokens.md"
+        },
+        "ru": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/ru/binance/what-are-bep2-tokens.md"
+        },
+        "de": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/de/binance/what-are-bep2-tokens.md"
+        },
+        "es": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/es/binance/what-are-bep2-tokens.md"
+        },
+        "fr": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/fr/binance/what-are-bep2-tokens.md"
+        },
+        "tr": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/tr/binance/what-are-bep2-tokens.md"
+        },
+        "zh": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/zh/binance/what-are-bep2-tokens.md"
+        },
+        "ko": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/ko/binance/what-are-bep2-tokens.md"
+        },
+        "fa": {
+          "title": "What are BEP2 tokens?",
+          "markdown": "faq/android/fa/binance/what-are-bep2-tokens.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/android/en/does-unstoppable-have-fees-to-send-or-receive.md"
+    "section": {
+      "en": "Privacy",
+      "ru": "Privacy",
+      "de": "Privacy",
+      "es": "Privacy",
+      "fr": "Privacy",
+      "tr": "Privacy",
+      "zh": "Privacy",
+      "ko": "Privacy",
+      "fa": "Privacy"
     },
-    "ru": {
-      "title": "Берет ли Unstoppable плату за отправку или получение?",
-      "markdown": "faq/android/ru/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "de": {
-      "title": "Hat Unstoppable Gebühren für das Versenden oder Empfangen?",
-      "markdown": "faq/android/de/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "es": {
-      "title": "¿Unstoppable tiene tarifas al enviar o recibir?",
-      "markdown": "faq/android/es/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "fr": {
-      "title": "Y a-t-il des frais pour envoyer ou recevoir avec Unstoppable?",
-      "markdown": "faq/android/fr/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "tr": {
-      "title": "Unstoppable gönderme veya alma için ücret alıyor mu?",
-      "markdown": "faq/android/tr/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "zh": {
-      "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/android/zh/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "ko": {
-      "title": "Unstoppable에는 전송 및 수령 수수료가 있나요?",
-      "markdown": "faq/android/ko/does-unstoppable-have-fees-to-send-or-receive.md"
-    },
-    "fa": {
-      "title": "Does Unstoppable have fees to send or receive?",
-      "markdown": "faq/android/fa/does-unstoppable-have-fees-to-send-or-receive.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/en/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        },
+        "ru": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/ru/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        },
+        "de": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/de/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        },
+        "es": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/es/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        },
+        "fr": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/fr/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        },
+        "tr": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/tr/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        },
+        "zh": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/zh/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        },
+        "ko": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/ko/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        },
+        "fa": {
+          "title": "Does Unstoppable collect or share any user data?",
+          "markdown": "faq/android/fa/binance/does-unstoppable-collect-or-share-any-user-data.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/en/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        },
+        "ru": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/ru/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        },
+        "de": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/de/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        },
+        "es": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/es/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        },
+        "fr": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/fr/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        },
+        "tr": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/tr/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        },
+        "zh": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/zh/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        },
+        "ko": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/ko/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        },
+        "fa": {
+          "title": "Are users anonymous when transacting on Unstoppable?",
+          "markdown": "faq/android/fa/binance/are-users-anonymous-when-transacting-on-unstoppable.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/en/binance/are-my-ethereum-transactions-and-balances-private.md"
+        },
+        "ru": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/ru/binance/are-my-ethereum-transactions-and-balances-private.md"
+        },
+        "de": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/de/binance/are-my-ethereum-transactions-and-balances-private.md"
+        },
+        "es": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/es/binance/are-my-ethereum-transactions-and-balances-private.md"
+        },
+        "fr": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/fr/binance/are-my-ethereum-transactions-and-balances-private.md"
+        },
+        "tr": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/tr/binance/are-my-ethereum-transactions-and-balances-private.md"
+        },
+        "zh": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/zh/binance/are-my-ethereum-transactions-and-balances-private.md"
+        },
+        "ko": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/ko/binance/are-my-ethereum-transactions-and-balances-private.md"
+        },
+        "fa": {
+          "title": "Are my Ethereum transactions and balances private?",
+          "markdown": "faq/android/fa/binance/are-my-ethereum-transactions-and-balances-private.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/en/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        },
+        "ru": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/ru/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        },
+        "de": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/de/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        },
+        "es": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/es/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        },
+        "fr": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/fr/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        },
+        "tr": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/tr/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        },
+        "zh": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/zh/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        },
+        "ko": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/ko/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        },
+        "fa": {
+          "title": "Are my Bitcoin transactions and balance private?",
+          "markdown": "faq/android/fa/binance/are-my-bitcoin-transactions-and-balances-private.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/en/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        },
+        "ru": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/ru/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        },
+        "de": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/de/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        },
+        "es": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/es/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        },
+        "fr": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/fr/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        },
+        "tr": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/tr/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        },
+        "zh": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/zh/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        },
+        "ko": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/ko/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        },
+        "fa": {
+          "title": "How using TOR and VPN enhances privacy?",
+          "markdown": "faq/android/fa/binance/how-using-tor-and-vpn-enhances-privacy.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/en/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        },
+        "ru": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/ru/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        },
+        "de": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/de/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        },
+        "es": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/es/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        },
+        "fr": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/fr/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        },
+        "tr": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/tr/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        },
+        "zh": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/zh/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        },
+        "ko": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/ko/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        },
+        "fa": {
+          "title": "Is it safe to share data with exchanges and other service providers?",
+          "markdown": "faq/android/fa/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/en/binance/how-to-buy-cryptocurrency-anonymously.md"
+        },
+        "ru": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/ru/binance/how-to-buy-cryptocurrency-anonymously.md"
+        },
+        "de": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/de/binance/how-to-buy-cryptocurrency-anonymously.md"
+        },
+        "es": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/es/binance/how-to-buy-cryptocurrency-anonymously.md"
+        },
+        "fr": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/fr/binance/how-to-buy-cryptocurrency-anonymously.md"
+        },
+        "tr": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/tr/how-to-buy-cryptocurrency-anonymously.md"
+        },
+        "zh": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/zh/binance/how-to-buy-cryptocurrency-anonymously.md"
+        },
+        "ko": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/ko/binance/how-to-buy-cryptocurrency-anonymously.md"
+        },
+        "fa": {
+          "title": "How to buy cryptocurrency anonymously?",
+          "markdown": "faq/android/fa/binance/how-to-buy-cryptocurrency-anonymously.md"
+        }
+      }
+    ]
   },
   {
-    "en": {
-      "title": "Why did my receiving address changed?",
-      "markdown": "faq/android/en/why-did-my-receiving-address-changed.md"
+    "section": {
+      "en": "DEXes/Swaps",
+      "ru": "DEXes/Swaps",
+      "de": "DEXes/Swaps",
+      "es": "DEXes/Swaps",
+      "fr": "DEXes/Swaps",
+      "tr": "DEXes/Swaps",
+      "zh": "DEXes/Swaps",
+      "ko": "DEXes/Swaps",
+      "fa": "DEXes/Swaps"
     },
-    "ru": {
-      "title": "Почему изменился мой адрес получателя?",
-      "markdown": "faq/android/ru/why-did-my-receiving-address-changed.md"
-    },
-    "de": {
-      "title": "Warum hat sich meine Empfangsadresse geändert?",
-      "markdown": "faq/android/de/why-did-my-receiving-address-changed.md"
-    },
-    "es": {
-      "title": " ¿Por qué mi dirección de recepción cambió?",
-      "markdown": "faq/android/es/why-did-my-receiving-address-changed.md"
-    },
-    "fr": {
-      "title": "Pourquoi mon adresse de réception a-t-elle changé?",
-      "markdown": "faq/android/fr/why-did-my-receiving-address-changed.md"
-    },
-    "tr": {
-      "title": "Alıcı adresim neden değişti?",
-      "markdown": "faq/android/tr/why-did-my-receiving-address-changed.md"
-    },
-    "zh": {
-      "title": "Why did my receiving address changed?",
-      "markdown": "faq/android/zh/why-did-my-receiving-address-changed.md"
-    },
-    "ko": {
-      "title": "왜 제 수령 주소가 변경되었나요?",
-      "markdown": "faq/android/ko/why-did-my-receiving-address-changed.md"
-    },
-    "fa": {
-      "title": "Why did my receiving address changed?",
-      "markdown": "faq/android/fa/why-did-my-receiving-address-changed.md"
-    }
-  },
-  {
-    "en": {
-      "title": "What are cryptocurrency transaction fees?",
-      "markdown": "faq/android/en/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "ru": {
-      "title": "Что такое ставка на осуществление транзакции в криптовалюте?",
-      "markdown": "faq/android/ru/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "de": {
-      "title": "Was sind Gebühren für Kryptowährung-Transaktionen?",
-      "markdown": "faq/android/de/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "es": {
-      "title": "¿Qué son las tarifas de transacción de cripto monedas?",
-      "markdown": "faq/android/es/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "fr": {
-      "title": "Quels sont les frais de transaction en cryptomonnaie?",
-      "markdown": "faq/android/fr/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "tr": {
-      "title": "Kripto para işlem ücretleri nedir?",
-      "markdown": "faq/android/tr/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "zh": {
-      "title": "What are cryptocurrency transaction fees?",
-      "markdown": "faq/android/zh/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "ko": {
-      "title": "암호화폐 거래 수수료란 무엇인가요?",
-      "markdown": "faq/android/ko/what-are-cryptocurrency-transaction-fees.md"
-    },
-    "fa": {
-      "title": "What are cryptocurrency transaction fees?",
-      "markdown": "faq/android/fa/what-are-cryptocurrency-transaction-fees.md"
-    }
-  },
-  {
-    "en": {
-      "title": "Why is my transaction \"pending\"?",
-      "markdown": "faq/android/en/why-is-my-transaction-pending.md"
-    },
-    "ru": {
-      "title": "Почему моя транзакция находится в \"ожидании\"?",
-      "markdown": "faq/android/ru/why-is-my-transaction-pending.md"
-    },
-    "de": {
-      "title": "Warum ist meine Transaktion \"ausstehend\"?",
-      "markdown": "faq/android/de/why-is-my-transaction-pending.md"
-    },
-    "es": {
-      "title": "¿Por qué mi transacción está \"pendiente\"?",
-      "markdown": "faq/android/es/why-is-my-transaction-pending.md"
-    },
-    "fr": {
-      "title": "Pourquoi ma transaction est-elle \"en attente\" ?",
-      "markdown": "faq/android/fr/why-is-my-transaction-pending.md"
-    },
-    "tr": {
-      "title": "İşlemim neden \"beklemede\"?",
-      "markdown": "faq/android/tr/why-is-my-transaction-pending.md"
-    },
-    "zh": {
-      "title": "Why is my transaction \"pending\"?",
-      "markdown": "faq/android/zh/why-is-my-transaction-pending.md"
-    },
-    "ko": {
-      "title": "왜 제 거래 상태가 \"보류 중\"으로 표시되나요?",
-      "markdown": "faq/android/ko/why-is-my-transaction-pending.md"
-    },
-    "fa": {
-      "title": "Why is my transaction \"pending\"?",
-      "markdown": "faq/android/fa/why-is-my-transaction-pending.md"
-    }
-  },
-  {
-    "en": {
-      "title": "How to add or remove a coin?",
-      "markdown": "faq/android/en/how-to-add-or-remove-a-coin.md"
-    },
-    "ru": {
-      "title": "Как добавить или удалить криптовалюту?",
-      "markdown": "faq/android/ru/how-to-add-or-remove-a-coin.md"
-    },
-    "de": {
-      "title": "Wie fügt man oder entfernt man ein Coin?",
-      "markdown": "faq/android/de/how-to-add-or-remove-a-coin.md"
-    },
-    "es": {
-      "title": "¿Cómo sumar o remover una moneda?",
-      "markdown": "faq/android/es/how-to-add-or-remove-a-coin.md"
-    },
-    "fr": {
-      "title": "Comment ajouter ou supprimer une pièce?",
-      "markdown": "faq/android/fr/how-to-add-or-remove-a-coin.md"
-    },
-    "tr": {
-      "title": "Bir para nasıl eklenir veya çıkarılır?",
-      "markdown": "faq/android/tr/how-to-add-or-remove-a-coin.md"
-    },
-    "zh": {
-      "title": "How to add or remove a coin?",
-      "markdown": "faq/android/zh/how-to-add-or-remove-a-coin.md"
-    },
-    "ko": {
-      "title": "코인을 추가하거나 제거하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-to-add-or-remove-a-coin.md"
-    },
-    "fa": {
-      "title": "How to add or remove a coin?",
-      "markdown": "faq/android/fa/how-to-add-or-remove-a-coin.md"
-    }
-  },
-  {
-    "en": {
-      "title": "How do I update Unstoppable?",
-      "markdown": "faq/android/en/how-do-i-update-unstoppable.md"
-    },
-    "ru": {
-      "title": "Как обновить Unstoppable?",
-      "markdown": "faq/android/ru/how-do-i-update-unstoppable.md"
-    },
-    "de": {
-      "title": "Wie aktualisiere ich Unstoppable?",
-      "markdown": "faq/android/de/how-do-i-update-unstoppable.md"
-    },
-    "es": {
-      "title": " ¿Cómo actualizo Unstoppable?",
-      "markdown": "faq/android/es/how-do-i-update-unstoppable.md"
-    },
-    "fr": {
-      "title": "Comment puis-je actualiser Unstoppable?",
-      "markdown": "faq/android/fr/how-do-i-update-unstoppable.md"
-    },
-    "tr": {
-      "title": "Unstoppable nasıl güncellenir?",
-      "markdown": "faq/android/tr/how-do-i-update-unstoppable.md"
-    },
-    "zh": {
-      "title": "How do I update Unstoppable?",
-      "markdown": "faq/android/zh/how-do-i-update-unstoppable.md"
-    },
-    "ko": {
-      "title": "Unstoppable을 업데이트하려면 어떻게 해야 하나요?",
-      "markdown": "faq/android/ko/how-do-i-update-unstoppable.md"
-    },
-    "fa": {
-      "title": "How do I update Unstoppable?",
-      "markdown": "faq/android/fa/how-do-i-update-unstoppable.md"
-    }
+    "items": [
+      {
+        "en": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/en/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        },
+        "ru": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/ru/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        },
+        "de": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/de/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        },
+        "es": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/es/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        },
+        "fr": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/fr/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        },
+        "tr": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/tr/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        },
+        "zh": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/zh/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        },
+        "ko": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/ko/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        },
+        "fa": {
+          "title": "What are cryptocurrency swaps?",
+          "markdown": "faq/android/fa/dexes-swaps/what-are-cryptocurrency-swaps.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/en/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        },
+        "ru": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/ru/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        },
+        "de": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/de/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        },
+        "es": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/es/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        },
+        "fr": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/fr/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        },
+        "tr": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/tr/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        },
+        "zh": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/zh/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        },
+        "ko": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/ko/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        },
+        "fa": {
+          "title": "Why Unstoppable supports only DEXes?",
+          "markdown": "faq/android/fa/dexes-swaps/why-unstoppable-supports-only-dexes.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/en/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        },
+        "ru": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/ru/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        },
+        "de": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/de/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        },
+        "es": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/es/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        },
+        "fr": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/fr/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        },
+        "tr": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/tr/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        },
+        "zh": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/zh/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        },
+        "ko": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/ko/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        },
+        "fa": {
+          "title": "Which DEXes supported in Unstoppable?",
+          "markdown": "faq/android/fa/dexes-swaps/which-dexes-supported-in-unstoppable.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/en/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        },
+        "ru": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/ru/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        },
+        "de": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/de/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        },
+        "es": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/es/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        },
+        "fr": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/fr/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        },
+        "tr": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/tr/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        },
+        "zh": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/zh/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        },
+        "ko": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/ko/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        },
+        "fa": {
+          "title": "How to swap cryptocurrency in Unstoppable?",
+          "markdown": "faq/android/fa/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/en/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        },
+        "ru": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/ru/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        },
+        "de": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/de/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        },
+        "es": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/es/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        },
+        "fr": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/fr/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        },
+        "tr": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/tr/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        },
+        "zh": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/zh/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        },
+        "ko": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/ko/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        },
+        "fa": {
+          "title": "Are there any limitations to swap amounts?",
+          "markdown": "faq/android/fa/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/en/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        },
+        "ru": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/ru/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        },
+        "de": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/de/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        },
+        "es": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/es/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        },
+        "fr": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/fr/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        },
+        "tr": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/tr/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        },
+        "zh": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/zh/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        },
+        "ko": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/ko/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        },
+        "fa": {
+          "title": "Are there any risks when swapping cryptocurrency?",
+          "markdown": "faq/android/fa/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/en/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        },
+        "ru": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/ru/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        },
+        "de": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/de/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        },
+        "es": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/es/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        },
+        "fr": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/fr/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        },
+        "tr": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/tr/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        },
+        "zh": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/zh/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        },
+        "ko": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/ko/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        },
+        "fa": {
+          "title": "Why a separate approve transaction needed before swap?",
+          "markdown": "faq/android/fa/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/en/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        },
+        "ru": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/ru/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        },
+        "de": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/de/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        },
+        "es": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/es/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        },
+        "fr": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/fr/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        },
+        "tr": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/tr/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        },
+        "zh": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/zh/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        },
+        "ko": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/ko/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        },
+        "fa": {
+          "title": "Why swap fees on Ethereum are so high?",
+          "markdown": "faq/android/fa/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/en/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        },
+        "ru": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/ru/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        },
+        "de": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/de/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        },
+        "es": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/es/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        },
+        "fr": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/fr/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        },
+        "tr": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/tr/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        },
+        "zh": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/zh/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        },
+        "ko": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/ko/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        },
+        "fa": {
+          "title": "Why was I charged transaction fee for a failed swap?",
+          "markdown": "faq/android/fa/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
+        }
+      },
+      {
+        "en": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/en/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        },
+        "ru": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/ru/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        },
+        "de": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/de/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        },
+        "es": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/es/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        },
+        "fr": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/fr/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        },
+        "tr": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/tr/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        },
+        "zh": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/zh/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        },
+        "ko": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/ko/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        },
+        "fa": {
+          "title": "Why can't I swap Bitcoin and other coins?",
+          "markdown": "faq/android/fa/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+        }
+      }
+    ]
   }
 ]
