@@ -28,12 +28,13 @@ class Faq extends React.Component {
       items: state
     })
 
-    const mapItem = ({ en }, id) => {
-      const isActive = items[id]
+    const mapItem = ({ en }, id, groupId) => {
+      const key = `${groupId}-${id}`
+      const isActive = items[key]
 
       return (
         <li key={id} className={cn('Faq-item', { 'Faq-active': isActive })}>
-          <div className="Faq-head" onClick={() => setItem({ ...items, [id]: isActive ? null : true })}>
+          <div className="Faq-head" onClick={() => setItem({ ...items, [key]: isActive ? null : true })}>
             {en.title}
             {isActive
               ? <IconDown className="Faq-item-icon" />
@@ -58,7 +59,12 @@ class Faq extends React.Component {
               FAQ
             </div>
             <ul className="Faq-items">
-              {faq.map(mapItem)}
+              {faq.map(({ section, items }, groupId) => [
+                <li key={groupId} className="Faq-item-title">
+                  {section['en']}
+                </li>,
+                items.map((item, itemId) => mapItem(item, itemId, groupId))
+              ])}
             </ul>
           </div>
         </Container>

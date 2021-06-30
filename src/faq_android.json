@@ -3517,77 +3517,77 @@
       {
         "en": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/en/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/en/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "ru": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/ru/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/ru/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "de": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/de/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/de/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "es": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/es/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/es/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "fr": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/fr/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/fr/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "tr": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/tr/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/tr/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "zh": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/zh/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/zh/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "ko": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/ko/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/ko/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "fa": {
           "title": "Is it safe to share data with exchanges and other service providers?",
-          "markdown": "faq/android/fa/binance/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
+          "markdown": "faq/android/fa/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         }
       },
       {
         "en": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/en/binance/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/en/privacy/how-to-buy-cryptocurrency-anonymously.md"
         },
         "ru": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/ru/binance/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/ru/privacy/how-to-buy-cryptocurrency-anonymously.md"
         },
         "de": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/de/binance/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/de/privacy/how-to-buy-cryptocurrency-anonymously.md"
         },
         "es": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/es/binance/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/es/privacy/how-to-buy-cryptocurrency-anonymously.md"
         },
         "fr": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/fr/binance/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/fr/privacy/how-to-buy-cryptocurrency-anonymously.md"
         },
         "tr": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/tr/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/tr/privacy/how-to-buy-cryptocurrency-anonymously.md"
         },
         "zh": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/zh/binance/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/zh/privacy/how-to-buy-cryptocurrency-anonymously.md"
         },
         "ko": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/ko/binance/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/ko/privacy/how-to-buy-cryptocurrency-anonymously.md"
         },
         "fa": {
           "title": "How to buy cryptocurrency anonymously?",
-          "markdown": "faq/android/fa/binance/how-to-buy-cryptocurrency-anonymously.md"
+          "markdown": "faq/android/fa/privacy/how-to-buy-cryptocurrency-anonymously.md"
         }
       }
     ]
@@ -3950,39 +3950,39 @@
       {
         "en": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/en/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/en/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "ru": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/ru/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/ru/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "de": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/de/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/de/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "es": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/es/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/es/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "fr": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/fr/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/fr/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "tr": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/tr/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/tr/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "zh": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/zh/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/zh/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "ko": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/ko/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/ko/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "fa": {
           "title": "Why can't I swap Bitcoin and other coins?",
-          "markdown": "faq/android/fa/dexes-swaps/why-can't-i-swap-bitcoin-and-other-coins.md"
+          "markdown": "faq/android/fa/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         }
       }
     ]
