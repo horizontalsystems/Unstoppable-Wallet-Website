@@ -1,7 +1,10 @@
 # What 'syncing' status on a coin means?
 
-The 'syncing' status indicator on the coin shows that the Unstoppable app tries to synchronize itself with a given blockchain. While in most cases that status should be shown briefly, there are many valid situations where it can remain for significantly longer:
-- During the initial synchronization when restoring wallet with Bitcoin, Bitcoin Cash, Dash, Litecoin and Zcash cryptocurrencies. Few hour long syncing is expected for every coin if the user chooses to restore the wallet from a blockchain instead of a 3rd party API service. The more coins are being restored the longer it takes.
+The 'syncing' status indicator on the coin shows that the Unstoppable app tries to synchronize itself with a given blockchain. 
+
+While in most cases that status should be shown briefly, there are many valid situations where it can remain for significantly longer:
+
+- During the initial synchronization when restoring wallet with Bitcoin, Bitcoin Cash, Dash, Litecoin and Zcash cryptocurrencies. A few hour long syncing is expected for every coin if the user chooses to restore the wallet from a blockchain instead of a 3rd party API service. The more coins are being restored the longer it takes.
 
 - When activating Bitcoin, Bitcoin Cash, Dash, Litecoin and Zcash cryptocurrencies for the 1st time after wallet setup.
 

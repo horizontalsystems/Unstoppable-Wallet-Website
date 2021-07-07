@@ -115,70 +115,36 @@
       },
       {
         "en": {
-          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "title": "How Unstoppable is different?",
           "markdown": "faq/ios/en/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
         },
         "ru": {
-          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "title": "How Unstoppable is different?",
           "markdown": "faq/ios/ru/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
         },
         "de": {
-          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "title": "How Unstoppable is different?",
           "markdown": "faq/ios/de/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
         },
         "es": {
-          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "title": "How Unstoppable is different?",
           "markdown": "faq/ios/es/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
         },
         "fr": {
-          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "title": "How Unstoppable is different?",
           "markdown": "faq/ios/fr/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
         },
         "tr": {
-          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "title": "How Unstoppable is different?",
           "markdown": "faq/ios/tr/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
         },
         "zh": {
-          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "title": "How Unstoppable is different?",
           "markdown": "faq/ios/zh/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
         },
         "ko": {
-          "title": "How Unstoppable is different from other non-custodial wallets?",
+          "title": "How Unstoppable is different?",
           "markdown": "faq/ios/ko/about/how-unstoppable-is-different-from-other-non-custodial-wallets.md"
-        }
-      },
-      {
-        "en": {
-          "title": "How Unstoppable is different from crypto exchange wallets?",
-          "markdown": "faq/ios/en/about/how-unstoppable-is-different-from-crypto-exchange-wallets.md"
-        },
-        "ru": {
-          "title": "How Unstoppable is different from crypto exchange wallets?",
-          "markdown": "faq/ios/ru/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
-        },
-        "de": {
-          "title": "How Unstoppable is different from crypto exchange wallets?",
-          "markdown": "faq/ios/de/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
-        },
-        "es": {
-          "title": "How Unstoppable is different from crypto exchange wallets?",
-          "markdown": "faq/ios/es/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
-        },
-        "fr": {
-          "title": "How Unstoppable is different from crypto exchange wallets?",
-          "markdown": "faq/ios/fr/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
-        },
-        "tr": {
-          "title": "How Unstoppable is different from crypto exchange wallets?",
-          "markdown": "faq/ios/tr/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
-        },
-        "zh": {
-          "title": "How Unstoppable is different from crypto exchange wallets?",
-          "markdown": "faq/ios/zh/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
-        },
-        "ko": {
-          "title": "How Unstoppable is different from crypto exchange wallets?",
-          "markdown": "faq/ios/ko/about/how-unstoppable-is-different-from-crypto-exchange-wallets"
         }
       },
       {
@@ -217,103 +183,103 @@
       },
       {
         "en": {
-          "title": "What should someone do before using Unstoppable?",
+          "title": "What to do before using Unstoppable?",
           "markdown": "faq/ios/en/about/what-should-someone-do-before-using-unstoppable.md"
         },
         "ru": {
-          "title": "What should someone do before using Unstoppable?",
+          "title": "What to do before using Unstoppable?",
           "markdown": "faq/ios/ru/about/what-should-someone-do-before-using-unstoppable.md"
         },
         "de": {
-          "title": "What should someone do before using Unstoppable?",
+          "title": "What to do before using Unstoppable?",
           "markdown": "faq/ios/de/about/what-should-someone-do-before-using-unstoppable.md"
         },
         "es": {
-          "title": "What should someone do before using Unstoppable?",
+          "title": "What to do before using Unstoppable?",
           "markdown": "faq/ios/es/about/what-should-someone-do-before-using-unstoppable.md"
         },
         "fr": {
-          "title": "What should someone do before using Unstoppable?",
+          "title": "What to do before using Unstoppable?",
           "markdown": "faq/ios/fr/about/what-should-someone-do-before-using-unstoppable.md"
         },
         "tr": {
-          "title": "What should someone do before using Unstoppable?",
+          "title": "What to do before using Unstoppable?",
           "markdown": "faq/ios/tr/about/what-should-someone-do-before-using-unstoppable.md"
         },
         "zh": {
-          "title": "What should someone do before using Unstoppable?",
+          "title": "What to do before using Unstoppable?",
           "markdown": "faq/ios/zh/about/what-should-someone-do-before-using-unstoppable.md"
         },
         "ko": {
-          "title": "What should someone do before using Unstoppable?",
+          "title": "What to do before using Unstoppable?",
           "markdown": "faq/ios/ko/about/what-should-someone-do-before-using-unstoppable.md"
         }
       },
       {
         "en": {
-          "title": "Does it cost anything to use Unstoppable wallet?",
+          "title": "Does it cost anything to use Unstoppable?",
           "markdown": "faq/ios/en/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
         },
         "ru": {
-          "title": "Does it cost anything to use Unstoppable wallet?",
+          "title": "Does it cost anything to use Unstoppable?",
           "markdown": "faq/ios/ru/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
         },
         "de": {
-          "title": "Does it cost anything to use Unstoppable wallet?",
+          "title": "Does it cost anything to use Unstoppable?",
           "markdown": "faq/ios/de/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
         },
         "es": {
-          "title": "Does it cost anything to use Unstoppable wallet?",
+          "title": "Does it cost anything to use Unstoppable?",
           "markdown": "faq/ios/es/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
         },
         "fr": {
-          "title": "Does it cost anything to use Unstoppable wallet?",
+          "title": "Does it cost anything to use Unstoppable?",
           "markdown": "faq/ios/fr/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
         },
         "tr": {
-          "title": "Does it cost anything to use Unstoppable wallet?",
+          "title": "Does it cost anything to use Unstoppable?",
           "markdown": "faq/ios/tr/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
         },
         "zh": {
-          "title": "Does it cost anything to use Unstoppable wallet?",
+          "title": "Does it cost anything to use Unstoppable?",
           "markdown": "faq/ios/zh/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
         },
         "ko": {
-          "title": "Does it cost anything to use Unstoppable wallet?",
+          "title": "Does it cost anything to use Unstoppable?",
           "markdown": "faq/ios/ko/about/does-it-cost-anything-to-use-unstoppable-wallet.md"
         }
       },
       {
         "en": {
-          "title": "Are there any risks when using Unstoppable wallet?",
+          "title": "Are there risks when using Unstoppable?",
           "markdown": "faq/ios/en/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "ru": {
-          "title": "Are there any risks when using Unstoppable wallet?",
+          "title": "Are there risks when using Unstoppable?",
           "markdown": "faq/ios/ru/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "de": {
-          "title": "Are there any risks when using Unstoppable wallet?",
+          "title": "Are there risks when using Unstoppable?",
           "markdown": "faq/ios/de/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "es": {
-          "title": "Are there any risks when using Unstoppable wallet?",
+          "title": "Are there risks when using Unstoppable?",
           "markdown": "faq/ios/es/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "fr": {
-          "title": "Are there any risks when using Unstoppable wallet?",
+          "title": "Are there risks when using Unstoppable?",
           "markdown": "faq/ios/fr/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "tr": {
-          "title": "Are there any risks when using Unstoppable wallet?",
+          "title": "Are there risks when using Unstoppable?",
           "markdown": "faq/ios/tr/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "zh": {
-          "title": "Are there any risks when using Unstoppable wallet?",
+          "title": "Are there risks when using Unstoppable?",
           "markdown": "faq/ios/zh/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "ko": {
-          "title": "Are there any risks when using Unstoppable wallet?",
+          "title": "Are there risks when using Unstoppable?",
           "markdown": "faq/ios/ko/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         }
       },
@@ -537,35 +503,35 @@
     "items": [
       {
         "en": {
-          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "title": "What are private keys?",
           "markdown": "faq/ios/en/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
         },
         "ru": {
-          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "title": "What are private keys?",
           "markdown": "faq/ios/ru/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
         },
         "de": {
-          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "title": "What are private keys?",
           "markdown": "faq/ios/de/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
         },
         "es": {
-          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "title": "What are private keys?",
           "markdown": "faq/ios/es/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
         },
         "fr": {
-          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "title": "What are private keys?",
           "markdown": "faq/ios/fr/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
         },
         "tr": {
-          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "title": "What are private keys?",
           "markdown": "faq/ios/tr/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
         },
         "zh": {
-          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "title": "What are private keys?",
           "markdown": "faq/ios/zh/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
         },
         "ko": {
-          "title": "What are private keys, mnemonic phrase, wallet seed etc?",
+          "title": "What are private keys?",
           "markdown": "faq/ios/ko/management/what-are-private-keys-mnemonic-phrase-wallet-seed.md"
         }
       },
@@ -775,69 +741,69 @@
       },
       {
         "en": {
-          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "title": "How to send/receive cryptocurrency?",
           "markdown": "faq/ios/en/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
         },
         "ru": {
-          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "title": "How to send/receive cryptocurrency?",
           "markdown": "faq/ios/ru/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
         },
         "de": {
-          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "title": "How to send/receive cryptocurrency?",
           "markdown": "faq/ios/de/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
         },
         "es": {
-          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "title": "How to send/receive cryptocurrency?",
           "markdown": "faq/ios/es/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
         },
         "fr": {
-          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "title": "How to send/receive cryptocurrency?",
           "markdown": "faq/ios/fr/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
         },
         "tr": {
-          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "title": "How to send/receive cryptocurrency?",
           "markdown": "faq/ios/tr/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
         },
         "zh": {
-          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "title": "How to send/receive cryptocurrency?",
           "markdown": "faq/ios/zh/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
         },
         "ko": {
-          "title": "How to send/receive cryptocurrency to/from wallet?",
+          "title": "How to send/receive cryptocurrency?",
           "markdown": "faq/ios/ko/management/how-to-send-receive-cryptocurrency-from-to-wallet.md"
         }
       },
       {
         "en": {
-          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "title": "How to buy/sell cryptocurrency for fiat?",
           "markdown": "faq/ios/en/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
         },
         "ru": {
-          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "title": "How to buy/sell cryptocurrency for fiat?",
           "markdown": "faq/ios/ru/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
         },
         "de": {
-          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "title": "How to buy/sell cryptocurrency for fiat?",
           "markdown": "faq/ios/de/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
         },
         "es": {
-          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "title": "How to buy/sell cryptocurrency for fiat?",
           "markdown": "faq/ios/es/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
         },
         "fr": {
-          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "title": "How to buy/sell cryptocurrency for fiat?",
           "markdown": "faq/ios/fr/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
         },
         "tr": {
-          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "title": "How to buy/sell cryptocurrency for fiat?",
           "markdown": "faq/ios/tr/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
         },
         "zh": {
-          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "title": "How to buy/sell cryptocurrency for fiat?",
           "markdown": "faq/ios/zh/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
         },
         "ko": {
-          "title": "How to buy/sell cryptocurrency for fiat in Unstoppable?",
+          "title": "How to buy/sell cryptocurrency for fiat?",
           "markdown": "faq/ios/ko/management/how-to-buy-sell-cryptocurrency-for-fiat-in-unstoppable.md"
         }
       }
@@ -857,7 +823,7 @@
     "items": [
       {
         "en": {
-          "title": "How do hide/show wallet balance?",
+          "title": "How to hide/show wallet balance?",
           "markdown": "faq/ios/en/balance/how-to-hide-show-wallet-balance.md"
         },
         "ru": {
@@ -993,137 +959,137 @@
       },
       {
         "en": {
-          "title": "Why 'send' button for the coin appears disabled?",
+          "title": "Why 'send' button appears disabled?",
           "markdown": "faq/ios/en/balance/why-send-button-for-the-coin-appears-disabled.md"
         },
         "ru": {
-          "title": "Why 'send' button for the coin appears disabled?",
+          "title": "Why 'send' button appears disabled?",
           "markdown": "faq/ios/ru/balance/why-send-button-for-the-coin-appears-disabled.md"
         },
         "de": {
-          "title": "Why 'send' button for the coin appears disabled?",
+          "title": "Why 'send' button appears disabled?",
           "markdown": "faq/ios/de/balance/why-send-button-for-the-coin-appears-disabled.md"
         },
         "es": {
-          "title": "Why 'send' button for the coin appears disabled?",
+          "title": "Why 'send' button appears disabled?",
           "markdown": "faq/ios/es/balance/why-send-button-for-the-coin-appears-disabled.md"
         },
         "fr": {
-          "title": "Why 'send' button for the coin appears disabled?",
+          "title": "Why 'send' button appears disabled?",
           "markdown": "faq/ios/fr/balance/why-send-button-for-the-coin-appears-disabled.md"
         },
         "tr": {
-          "title": "Why 'send' button for the coin appears disabled?",
+          "title": "Why 'send' button appears disabled?",
           "markdown": "faq/ios/tr/balance/why-send-button-for-the-coin-appears-disabled.md"
         },
         "zh": {
-          "title": "Why 'send' button for the coin appears disabled?",
+          "title": "Why 'send' button appears disabled?",
           "markdown": "faq/ios/zh/balance/why-send-button-for-the-coin-appears-disabled.md"
         },
         "ko": {
-          "title": "Why 'send' button for the coin appears disabled?",
+          "title": "Why 'send' button appears disabled?",
           "markdown": "faq/ios/ko/balance/why-send-button-for-the-coin-appears-disabled.md"
         }
       },
       {
         "en": {
-          "title": "Why 'receive' button for the coin appears disabled?",
+          "title": "Why 'receive' button appears disabled?",
           "markdown": "faq/ios/en/balance/why-receive-button-for-the-coin-appears-disabled.md"
         },
         "ru": {
-          "title": "Why 'receive' button for the coin appears disabled?",
+          "title": "Why 'receive' button appears disabled?",
           "markdown": "faq/ios/ru/balance/why-receive-button-for-the-coin-appears-disabled.md"
         },
         "de": {
-          "title": "Why 'receive' button for the coin appears disabled?",
+          "title": "Why 'receive' button appears disabled?",
           "markdown": "faq/ios/de/balance/why-receive-button-for-the-coin-appears-disabled.md"
         },
         "es": {
-          "title": "Why 'receive' button for the coin appears disabled?",
+          "title": "Why 'receive' button appears disabled?",
           "markdown": "faq/ios/es/balance/why-receive-button-for-the-coin-appears-disabled.md"
         },
         "fr": {
-          "title": "Why 'receive' button for the coin appears disabled?",
+          "title": "Why 'receive' button appears disabled?",
           "markdown": "faq/ios/fr/balance/why-receive-button-for-the-coin-appears-disabled.md"
         },
         "tr": {
-          "title": "Why 'receive' button for the coin appears disabled?",
+          "title": "Why 'receive' button appears disabled?",
           "markdown": "faq/ios/tr/balance/why-receive-button-for-the-coin-appears-disabled.md"
         },
         "zh": {
-          "title": "Why 'receive' button for the coin appears disabled?",
+          "title": "Why 'receive' button appears disabled?",
           "markdown": "faq/ios/zh/balance/why-receive-button-for-the-coin-appears-disabled.md"
         },
         "ko": {
-          "title": "Why 'receive' button for the coin appears disabled?",
+          "title": "Why 'receive' button appears disabled?",
           "markdown": "faq/ios/ko/balance/why-receive-button-for-the-coin-appears-disabled.md"
         }
       },
       {
         "en": {
-          "title": "Why wallet balance is showing incorrect amount?",
+          "title": "Why balance showing incorrect amount?",
           "markdown": "faq/ios/en/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "ru": {
-          "title": "Why wallet balance is showing incorrect amount?",
+          "title": "Why balance showing incorrect amount?",
           "markdown": "faq/ios/ru/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "de": {
-          "title": "Why wallet balance is showing incorrect amount?",
+          "title": "Why balance showing incorrect amount?",
           "markdown": "faq/ios/de/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "es": {
-          "title": "Why wallet balance is showing incorrect amount?",
+          "title": "Why balance showing incorrect amount?",
           "markdown": "faq/ios/es/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "fr": {
-          "title": "Why wallet balance is showing incorrect amount?",
+          "title": "Why balance showing incorrect amount?",
           "markdown": "faq/ios/fr/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "tr": {
-          "title": "Why wallet balance is showing incorrect amount?",
+          "title": "Why balance showing incorrect amount?",
           "markdown": "faq/ios/tr/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "zh": {
-          "title": "Why wallet balance is showing incorrect amount?",
+          "title": "Why balance showing incorrect amount?",
           "markdown": "faq/ios/zh/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "ko": {
-          "title": "Why wallet balance is showing incorrect amount?",
+          "title": "Why balance showing incorrect amount?",
           "markdown": "faq/ios/ko/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         }
       },
       {
         "en": {
-          "title": "What the lock sign next to coin balance means?",
+          "title": "What а lock icon on coin balance means?",
           "markdown": "faq/ios/en/balance/what-the-lock-sign-next-to-coin-balance-means.md"
         },
         "ru": {
-          "title": "What the lock sign next to coin balance means?",
+          "title": "What а lock icon on coin balance means?",
           "markdown": "faq/ios/ru/balance/what-the-lock-sign-next-to-coin-balance-means.md"
         },
         "de": {
-          "title": "What the lock sign next to coin balance means?",
+          "title": "What а lock icon on coin balance means?",
           "markdown": "faq/ios/de/balance/what-the-lock-sign-next-to-coin-balance-means.md"
         },
         "es": {
-          "title": "What the lock sign next to coin balance means?",
+          "title": "What а lock icon on coin balance means?",
           "markdown": "faq/ios/es/balance/what-the-lock-sign-next-to-coin-balance-means.md"
         },
         "fr": {
-          "title": "What the lock sign next to coin balance means?",
+          "title": "What а lock icon on coin balance means?",
           "markdown": "faq/ios/fr/balance/what-the-lock-sign-next-to-coin-balance-means.md"
         },
         "tr": {
-          "title": "What the lock sign next to coin balance means?",
+          "title": "What а lock icon on coin balance means?",
           "markdown": "faq/ios/tr/balance/what-the-lock-sign-next-to-coin-balance-means.md"
         },
         "zh": {
-          "title": "What the lock sign next to coin balance means?",
+          "title": "What а lock icon on coin balance means?",
           "markdown": "faq/ios/zh/balance/what-the-lock-sign-next-to-coin-balance-means.md"
         },
         "ko": {
-          "title": "What the lock sign next to coin balance means?",
+          "title": "What а lock icon on coin balance means?",
           "markdown": "faq/ios/ko/balance/what-the-lock-sign-next-to-coin-balance-means.md"
         }
       },
@@ -1313,205 +1279,205 @@
       },
       {
         "en": {
-          "title": "Why to set an unlock code for the wallet app?",
+          "title": "Why to set an unlock code for the app?",
           "markdown": "faq/ios/en/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "ru": {
-          "title": "Why to set an unlock code for the wallet app?",
+          "title": "Why to set an unlock code for the app?",
           "markdown": "faq/ios/ru/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "de": {
-          "title": "Why to set an unlock code for the wallet app?",
+          "title": "Why to set an unlock code for the app?",
           "markdown": "faq/ios/de/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "es": {
-          "title": "Why to set an unlock code for the wallet app?",
+          "title": "Why to set an unlock code for the app?",
           "markdown": "faq/ios/es/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "fr": {
-          "title": "Why to set an unlock code for the wallet app?",
+          "title": "Why to set an unlock code for the app?",
           "markdown": "faq/ios/fr/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "tr": {
-          "title": "Why to set an unlock code for the wallet app?",
+          "title": "Why to set an unlock code for the app?",
           "markdown": "faq/ios/tr/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "zh": {
-          "title": "Why to set an unlock code for the wallet app?",
+          "title": "Why to set an unlock code for the app?",
           "markdown": "faq/ios/zh/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "ko": {
-          "title": "Why to set an unlock code for the wallet app?",
+          "title": "Why to set an unlock code for the app?",
           "markdown": "faq/ios/ko/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         }
       },
       {
         "en": {
-          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "title": "How to access wallet if private key is lost?",
           "markdown": "faq/ios/en/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
         },
         "ru": {
-          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "title": "How to access wallet if private key is lost?",
           "markdown": "faq/ios/ru/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
         },
         "de": {
-          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "title": "How to access wallet if private key is lost?",
           "markdown": "faq/ios/de/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
         },
         "es": {
-          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "title": "How to access wallet if private key is lost?",
           "markdown": "faq/ios/es/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
         },
         "fr": {
-          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "title": "How to access wallet if private key is lost?",
           "markdown": "faq/ios/fr/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
         },
         "tr": {
-          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "title": "How to access wallet if private key is lost?",
           "markdown": "faq/ios/tr/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
         },
         "zh": {
-          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "title": "How to access wallet if private key is lost?",
           "markdown": "faq/ios/zh/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
         },
         "ko": {
-          "title": "Is it possible to regain access to the wallet if the private key is lost?",
+          "title": "How to access wallet if private key is lost?",
           "markdown": "faq/ios/ko/security/is-it-possible-to-regain-access-to-the-wallet-if-the-private-key-is-lost.md"
         }
       },
       {
         "en": {
-          "title": "What is mnemonic phrase?",
+          "title": "What is a mnemonic phrase?",
           "markdown": "faq/ios/en/security/what-is-mnemonic-phrase.md"
         },
         "ru": {
-          "title": "What is mnemonic phrase?",
+          "title": "What is a mnemonic phrase?",
           "markdown": "faq/ios/ru/security/what-is-mnemonic-phrase.md"
         },
         "de": {
-          "title": "What is mnemonic phrase?",
+          "title": "What is a mnemonic phrase?",
           "markdown": "faq/ios/de/security/what-is-mnemonic-phrase.md"
         },
         "es": {
-          "title": "What is mnemonic phrase?",
+          "title": "What is a mnemonic phrase?",
           "markdown": "faq/ios/es/security/what-is-mnemonic-phrase.md"
         },
         "fr": {
-          "title": "What is mnemonic phrase?",
+          "title": "What is a mnemonic phrase?",
           "markdown": "faq/ios/fr/security/what-is-mnemonic-phrase.md"
         },
         "tr": {
-          "title": "What is mnemonic phrase?",
+          "title": "What is a mnemonic phrase?",
           "markdown": "faq/ios/tr/security/what-is-mnemonic-phrase.md"
         },
         "zh": {
-          "title": "What is mnemonic phrase?",
+          "title": "What is a mnemonic phrase?",
           "markdown": "faq/ios/zh/security/what-is-mnemonic-phrase.md"
         },
         "ko": {
-          "title": "What is mnemonic phrase?",
+          "title": "What is a mnemonic phrase?",
           "markdown": "faq/ios/ko/security/what-is-mnemonic-phrase.md"
         }
       },
       {
         "en": {
-          "title": "What is mnemonic passphrase?",
+          "title": "What is a mnemonic passphrase?",
           "markdown": "faq/ios/en/security/what-is-mnemonic-passphrase.md"
         },
         "ru": {
-          "title": "What is mnemonic passphrase?",
+          "title": "What is a mnemonic passphrase?",
           "markdown": "faq/ios/ru/security/what-is-mnemonic-passphrase.md"
         },
         "de": {
-          "title": "What is mnemonic passphrase?",
+          "title": "What is a mnemonic passphrase?",
           "markdown": "faq/ios/de/security/what-is-mnemonic-passphrase.md"
         },
         "es": {
-          "title": "What is mnemonic passphrase?",
+          "title": "What is a mnemonic passphrase?",
           "markdown": "faq/ios/es/security/what-is-mnemonic-passphrase.md"
         },
         "fr": {
-          "title": "What is mnemonic passphrase?",
+          "title": "What is a mnemonic passphrase?",
           "markdown": "faq/ios/fr/security/what-is-mnemonic-passphrase.md"
         },
         "tr": {
-          "title": "What is mnemonic passphrase?",
+          "title": "What is a mnemonic passphrase?",
           "markdown": "faq/ios/tr/security/what-is-mnemonic-passphrase.md"
         },
         "zh": {
-          "title": "What is mnemonic passphrase?",
+          "title": "What is a mnemonic passphrase?",
           "markdown": "faq/ios/zh/security/what-is-mnemonic-passphrase.md"
         },
         "ko": {
-          "title": "What is mnemonic passphrase?",
+          "title": "What is a mnemonic passphrase?",
           "markdown": "faq/ios/ko/security/what-is-mnemonic-passphrase.md"
         }
       },
       {
         "en": {
-          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "title": "How to use mnemonic passphrases?",
           "markdown": "faq/ios/en/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
         },
         "ru": {
-          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "title": "How to use mnemonic passphrases?",
           "markdown": "faq/ios/ru/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
         },
         "de": {
-          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "title": "How to use mnemonic passphrases?",
           "markdown": "faq/ios/de/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
         },
         "es": {
-          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "title": "How to use mnemonic passphrases?",
           "markdown": "faq/ios/es/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
         },
         "fr": {
-          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "title": "How to use mnemonic passphrases?",
           "markdown": "faq/ios/fr/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
         },
         "tr": {
-          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "title": "How to use mnemonic passphrases?",
           "markdown": "faq/ios/tr/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
         },
         "zh": {
-          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "title": "How to use mnemonic passphrases?",
           "markdown": "faq/ios/zh/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
         },
         "ko": {
-          "title": "How to use mnemonic passphrase to manage multiple wallets?",
+          "title": "How to use mnemonic passphrases?",
           "markdown": "faq/ios/ko/security/how-to-use-mnemonic-passphrase-to-manage-multiple-wallets.md"
         }
       },
       {
         "en": {
-          "title": "What steps to take if I lost my phone?",
+          "title": "What to do if I lost my phone?",
           "markdown": "faq/ios/en/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "ru": {
-          "title": "What steps to take if I lost my phone?",
+          "title": "What to do if I lost my phone?",
           "markdown": "faq/ios/ru/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "de": {
-          "title": "What steps to take if I lost my phone?",
+          "title": "What to do if I lost my phone?",
           "markdown": "faq/ios/de/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "es": {
-          "title": "What steps to take if I lost my phone?",
+          "title": "What to do if I lost my phone?",
           "markdown": "faq/ios/es/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "fr": {
-          "title": "What steps to take if I lost my phone?",
+          "title": "What to do if I lost my phone?",
           "markdown": "faq/ios/fr/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "tr": {
-          "title": "What steps to take if I lost my phone?",
+          "title": "What to do if I lost my phone?",
           "markdown": "faq/ios/tr/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "zh": {
-          "title": "What steps to take if I lost my phone?",
+          "title": "What to do if I lost my phone?",
           "markdown": "faq/ios/zh/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "ko": {
-          "title": "What steps to take if I lost my phone?",
+          "title": "What to do if I lost my phone?",
           "markdown": "faq/ios/ko/security/what-steps-to-take-if-lost-my-phone.md"
         }
       }
@@ -1565,35 +1531,35 @@
       },
       {
         "en": {
-          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "title": "Why are transaction fees so high?",
           "markdown": "faq/ios/en/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "ru": {
-          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "title": "Why are transaction fees so high?",
           "markdown": "faq/ios/ru/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "de": {
-          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "title": "Why are transaction fees so high?",
           "markdown": "faq/ios/de/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "es": {
-          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "title": "Why are transaction fees so high?",
           "markdown": "faq/ios/es/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "fr": {
-          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "title": "Why are transaction fees so high?",
           "markdown": "faq/ios/fr/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "tr": {
-          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "title": "Why are transaction fees so high?",
           "markdown": "faq/ios/tr/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "zh": {
-          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "title": "Why are transaction fees so high?",
           "markdown": "faq/ios/zh/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "ko": {
-          "title": "Why are transaction fees for some cryptocurrencies are so high?",
+          "title": "Why are transaction fees so high?",
           "markdown": "faq/ios/ko/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         }
       },
@@ -1633,69 +1599,69 @@
       },
       {
         "en": {
-          "title": "Does Unstoppable charge fees for sending transactions?",
+          "title": "Does Unstoppable charge fees for sending?",
           "markdown": "faq/ios/en/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
         },
         "ru": {
-          "title": "Does Unstoppable charge fees for sending transactions?",
+          "title": "Does Unstoppable charge fees for sending?",
           "markdown": "faq/ios/ru/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
         },
         "de": {
-          "title": "Does Unstoppable charge fees for sending transactions?",
+          "title": "Does Unstoppable charge fees for sending?",
           "markdown": "faq/ios/de/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
         },
         "es": {
-          "title": "Does Unstoppable charge fees for sending transactions?",
+          "title": "Does Unstoppable charge fees for sending?",
           "markdown": "faq/ios/es/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
         },
         "fr": {
-          "title": "Does Unstoppable charge fees for sending transactions?",
+          "title": "Does Unstoppable charge fees for sending?",
           "markdown": "faq/ios/fr/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
         },
         "tr": {
-          "title": "Does Unstoppable charge fees for sending transactions?",
+          "title": "Does Unstoppable charge fees for sending?",
           "markdown": "faq/ios/tr/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
         },
         "zh": {
-          "title": "Does Unstoppable charge fees for sending transactions?",
+          "title": "Does Unstoppable charge fees for sending?",
           "markdown": "faq/ios/zh/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
         },
         "ko": {
-          "title": "Does Unstoppable charge fees for sending transactions?",
+          "title": "Does Unstoppable charge fees for sending?",
           "markdown": "faq/ios/ko/transactions/does-unstoppable-charge-fees-for-sending-transactions.md"
         }
       },
       {
         "en": {
-          "title": "What happens if transaction sent to the wrong address?",
+          "title": "Can a transaction be cancelled?",
           "markdown": "faq/ios/en/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
         },
         "ru": {
-          "title": "What happens if transaction sent to the wrong address?",
+          "title": "Can a transaction be cancelled?",
           "markdown": "faq/ios/ru/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
         },
         "de": {
-          "title": "What happens if transaction sent to the wrong address?",
+          "title": "Can a transaction be cancelled?",
           "markdown": "faq/ios/de/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
         },
         "es": {
-          "title": "What happens if transaction sent to the wrong address?",
+          "title": "Can a transaction be cancelled?",
           "markdown": "faq/ios/es/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
         },
         "fr": {
-          "title": "What happens if transaction sent to the wrong address?",
+          "title": "Can a transaction be cancelled?",
           "markdown": "faq/ios/fr/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
         },
         "tr": {
-          "title": "What happens if transaction sent to the wrong address?",
+          "title": "Can a transaction be cancelled?",
           "markdown": "faq/ios/tr/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
         },
         "zh": {
-          "title": "What happens if transaction sent to the wrong address?",
+          "title": "Can a transaction be cancelled?",
           "markdown": "faq/ios/zh/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
         },
         "ko": {
-          "title": "What happens if transaction sent to the wrong address?",
+          "title": "Can a transaction be cancelled?",
           "markdown": "faq/ios/ko/transactions/what-happens-if-transaction-sent-to-the-wrong-address.md"
         }
       },
@@ -1735,69 +1701,69 @@
       },
       {
         "en": {
-          "title": "Is it safe to share payment address with others?",
+          "title": "Is it safe to share payment addresses?",
           "markdown": "faq/ios/en/transactions/is-it-safe-to-share-payment-address-with-others.md"
         },
         "ru": {
-          "title": "Is it safe to share payment address with others?",
+          "title": "Is it safe to share payment addresses?",
           "markdown": "faq/ios/ru/transactions/is-it-safe-to-share-payment-address-with-others.md"
         },
         "de": {
-          "title": "Is it safe to share payment address with others?",
+          "title": "Is it safe to share payment addresses?",
           "markdown": "faq/ios/de/transactions/is-it-safe-to-share-payment-address-with-others.md"
         },
         "es": {
-          "title": "Is it safe to share payment address with others?",
+          "title": "Is it safe to share payment addresses?",
           "markdown": "faq/ios/es/transactions/is-it-safe-to-share-payment-address-with-others.md"
         },
         "fr": {
-          "title": "Is it safe to share payment address with others?",
+          "title": "Is it safe to share payment addresses?",
           "markdown": "faq/ios/fr/transactions/is-it-safe-to-share-payment-address-with-others.md"
         },
         "tr": {
-          "title": "Is it safe to share payment address with others?",
+          "title": "Is it safe to share payment addresses?",
           "markdown": "faq/ios/tr/transactions/is-it-safe-to-share-payment-address-with-others.md"
         },
         "zh": {
-          "title": "Is it safe to share payment address with others?",
+          "title": "Is it safe to share payment addresses?",
           "markdown": "faq/ios/zh/transactions/is-it-safe-to-share-payment-address-with-others.md"
         },
         "ko": {
-          "title": "Is it safe to share payment address with others?",
+          "title": "Is it safe to share payment addresses?",
           "markdown": "faq/ios/ko/transactions/is-it-safe-to-share-payment-address-with-others.md"
         }
       },
       {
         "en": {
-          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "title": "Why transaction value shown incorrectly?",
           "markdown": "faq/ios/en/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
         },
         "ru": {
-          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "title": "Why transaction value shown incorrectly?",
           "markdown": "faq/ios/ru/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
         },
         "de": {
-          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "title": "Why transaction value shown incorrectly?",
           "markdown": "faq/ios/de/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
         },
         "es": {
-          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "title": "Why transaction value shown incorrectly?",
           "markdown": "faq/ios/es/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
         },
         "fr": {
-          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "title": "Why transaction value shown incorrectly?",
           "markdown": "faq/ios/fr/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
         },
         "tr": {
-          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "title": "Why transaction value shown incorrectly?",
           "markdown": "faq/ios/tr/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
         },
         "zh": {
-          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "title": "Why transaction value shown incorrectly?",
           "markdown": "faq/ios/zh/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
         },
         "ko": {
-          "title": "Why transaction value shown incorrectly in recent transaction?",
+          "title": "Why transaction value shown incorrectly?",
           "markdown": "faq/ios/ko/transactions/why-transaction-value-shown-incorrectly-in-recent-transaction.md"
         }
       }
@@ -1851,137 +1817,137 @@
       },
       {
         "en": {
-          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "title": "How long Bitcoin transaction takes?",
           "markdown": "faq/ios/en/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
         },
         "ru": {
-          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "title": "How long Bitcoin transaction takes?",
           "markdown": "faq/ios/ru/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
         },
         "de": {
-          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "title": "How long Bitcoin transaction takes?",
           "markdown": "faq/ios/de/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
         },
         "es": {
-          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "title": "How long Bitcoin transaction takes?",
           "markdown": "faq/ios/es/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
         },
         "fr": {
-          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "title": "How long Bitcoin transaction takes?",
           "markdown": "faq/ios/fr/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
         },
         "tr": {
-          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "title": "How long Bitcoin transaction takes?",
           "markdown": "faq/ios/tr/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
         },
         "zh": {
-          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "title": "How long Bitcoin transaction takes?",
           "markdown": "faq/ios/zh/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
         },
         "ko": {
-          "title": "How long does it take for a Bitcoin transaction to complete?",
+          "title": "How long Bitcoin transaction takes?",
           "markdown": "faq/ios/ko/bitcoin/how-long-does-it-take-for-a-bitcoin-transaction-to-complete.md"
         }
       },
       {
         "en": {
-          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "title": "How Bitcoin transaction fee calculated?",
           "markdown": "faq/ios/en/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
         },
         "ru": {
-          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "title": "How Bitcoin transaction fee calculated?",
           "markdown": "faq/ios/ru/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
         },
         "de": {
-          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "title": "How Bitcoin transaction fee calculated?",
           "markdown": "faq/ios/de/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
         },
         "es": {
-          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "title": "How Bitcoin transaction fee calculated?",
           "markdown": "faq/ios/es/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
         },
         "fr": {
-          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "title": "How Bitcoin transaction fee calculated?",
           "markdown": "faq/ios/fr/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
         },
         "tr": {
-          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "title": "How Bitcoin transaction fee calculated?",
           "markdown": "faq/ios/tr/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
         },
         "zh": {
-          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "title": "How Bitcoin transaction fee calculated?",
           "markdown": "faq/ios/zh/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
         },
         "ko": {
-          "title": "How Unstoppable recommends transaction fee for Bitcoin?",
+          "title": "How Bitcoin transaction fee calculated?",
           "markdown": "faq/ios/ko/bitcoin/how-unstoppable-recommends-transaction-fee-for-bitcoin.md"
         }
       },
       {
         "en": {
-          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "title": "When Bitcoin transaction considered final?",
           "markdown": "faq/ios/en/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
         },
         "ru": {
-          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "title": "When Bitcoin transaction considered final?",
           "markdown": "faq/ios/ru/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
         },
         "de": {
-          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "title": "When Bitcoin transaction considered final?",
           "markdown": "faq/ios/de/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
         },
         "es": {
-          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "title": "When Bitcoin transaction considered final and irreversible?",
           "markdown": "faq/ios/es/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
         },
         "fr": {
-          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "title": "When Bitcoin transaction considered final?",
           "markdown": "faq/ios/fr/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
         },
         "tr": {
-          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "title": "When Bitcoin transaction considered final?",
           "markdown": "faq/ios/tr/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
         },
         "zh": {
-          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "title": "When Bitcoin transaction considered final?",
           "markdown": "faq/ios/zh/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
         },
         "ko": {
-          "title": "When a Bitcoin transaction considered final and irreversible?",
+          "title": "When Bitcoin transaction considered final?",
           "markdown": "faq/ios/ko/bitcoin/when-a-bitcoin-transaction-considered-final-and-irreversible.md"
         }
       },
       {
         "en": {
-          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "title": "How to watch status of Bitcoin transaction?",
           "markdown": "faq/ios/en/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
         },
         "ru": {
-          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "title": "How to watch status of Bitcoin transaction?",
           "markdown": "faq/ios/ru/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
         },
         "de": {
-          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "title": "How to watch status of Bitcoin transaction?",
           "markdown": "faq/ios/de/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
         },
         "es": {
-          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "title": "How to watch status of Bitcoin transaction?",
           "markdown": "faq/ios/es/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
         },
         "fr": {
-          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "title": "How to watch status of Bitcoin transaction?",
           "markdown": "faq/ios/fr/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
         },
         "tr": {
-          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "title": "How to watch status of Bitcoin transaction?",
           "markdown": "faq/ios/tr/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
         },
         "zh": {
-          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "title": "How to watch status of Bitcoin transaction?",
           "markdown": "faq/ios/zh/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
         },
         "ko": {
-          "title": "How to monitor status of incoming/outgoing Bitcoin transaction?",
+          "title": "How to watch status of Bitcoin transaction?",
           "markdown": "faq/ios/ko/bitcoin/how-to-monitor-status-of-incoming-outgoing-bitcoin-transaction.md"
         }
       },

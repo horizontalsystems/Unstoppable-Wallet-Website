@@ -29,7 +29,7 @@ function GetWallet() {
         className="Button-circle Button-download"
         text="Get it on F-Droid"
         icon="f-droid"
-        link="https://gitlab.com/fdroid/rfp/-/issues/1547" newTab />
+        link="https://f-droid.org/en/packages/io.horizontalsystems.bankwallet/" newTab />
       <Button
         className="Button-circle Button-download"
         text="Download APK file"

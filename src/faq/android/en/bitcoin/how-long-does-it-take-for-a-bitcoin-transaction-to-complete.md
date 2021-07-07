@@ -1,4 +1,4 @@
-# How long does it take for a Bitcoin transaction to complete?
+# How long Bitcoin transaction takes?
 
 Bitcoin transactions are added to blockchain every 10 minutes in 1MB sized blocks holding a few thousand of recently made transactions. A transaction considered completed when the block that includes it has been added to the Bitcoin blockchain.
 

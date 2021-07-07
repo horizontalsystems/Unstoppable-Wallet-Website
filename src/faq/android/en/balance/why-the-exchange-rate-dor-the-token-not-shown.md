@@ -1,4 +1,4 @@
-# Why the exchange rate for the token not shown?
+# Why the exchange rate for token not shown?
 
 Unstoppable obtains token exchange rates from multiple third party sources which track market prices in real time.
 

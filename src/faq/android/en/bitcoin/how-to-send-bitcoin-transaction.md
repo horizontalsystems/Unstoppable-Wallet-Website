@@ -1,6 +1,6 @@
 # How to send Bitcoin transaction?
 
-Тo send someone Bitcoin sender needs recipient's Bitcoin address. 
+Тo send someone Bitcoins sender needs recipient's Bitcoin address. 
 
 The full process looks as follows:
 
