@@ -9,7 +9,7 @@ import Markdown from '../Markdown/Markdown'
 import { ReactComponent as IconUp } from './icon-up.svg'
 import { ReactComponent as IconDown } from './icon-down.svg'
 
-import faq from '../../faq_ios.json'
+import faq from '../../faq.json'
 
 import './Faq.scss'
 
