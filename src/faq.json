@@ -639,35 +639,35 @@
       },
       {
         "en": {
-          "title": "How to activate cryptocurrency for the wallet?",
+          "title": "How to add coin to the wallet?",
           "markdown": "faq/en/management/how-to-activate-cryptocurrency-for-the-wallet.md"
         },
         "ru": {
-          "title": "How to activate cryptocurrency for the wallet?",
+          "title": "How to add coin to the wallet?",
           "markdown": "faq/ru/management/how-to-activate-cryptocurrency-for-the-wallet.md"
         },
         "de": {
-          "title": "How to activate cryptocurrency for the wallet?",
+          "title": "How to add coin to the wallet?",
           "markdown": "faq/de/management/how-to-activate-cryptocurrency-for-the-wallet.md"
         },
         "es": {
-          "title": "How to activate cryptocurrency for the wallet?",
+          "title": "How to add coin to the wallet?",
           "markdown": "faq/es/management/how-to-activate-cryptocurrency-for-the-wallet.md"
         },
         "fr": {
-          "title": "How to activate cryptocurrency for the wallet?",
+          "title": "How to add coin to the wallet?",
           "markdown": "faq/fr/management/how-to-activate-cryptocurrency-for-the-wallet.md"
         },
         "tr": {
-          "title": "How to activate cryptocurrency for the wallet?",
+          "title": "How to add coin to the wallet?",
           "markdown": "faq/tr/management/how-to-activate-cryptocurrency-for-the-wallet.md"
         },
         "zh": {
-          "title": "How to activate cryptocurrency for the wallet?",
+          "title": "How to add coin to the wallet?",
           "markdown": "faq/zh/management/how-to-activate-cryptocurrency-for-the-wallet.md"
         },
         "ko": {
-          "title": "How to activate cryptocurrency for the wallet?",
+          "title": "How to add coin to the wallet?",
           "markdown": "faq/ko/management/how-to-activate-cryptocurrency-for-the-wallet.md"
         }
       },
@@ -1279,35 +1279,35 @@
       },
       {
         "en": {
-          "title": "Why to set an unlock code for the app?",
+          "title": "Why set an unlock code for the app?",
           "markdown": "faq/en/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "ru": {
-          "title": "Why to set an unlock code for the app?",
+          "title": "Why set an unlock code for the app?",
           "markdown": "faq/ru/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "de": {
-          "title": "Why to set an unlock code for the app?",
+          "title": "Why set an unlock code for the app?",
           "markdown": "faq/de/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "es": {
-          "title": "Why to set an unlock code for the app?",
+          "title": "Why set an unlock code for the app?",
           "markdown": "faq/es/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "fr": {
-          "title": "Why to set an unlock code for the app?",
+          "title": "Why set an unlock code for the app?",
           "markdown": "faq/fr/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "tr": {
-          "title": "Why to set an unlock code for the app?",
+          "title": "Why set an unlock code for the app?",
           "markdown": "faq/tr/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "zh": {
-          "title": "Why to set an unlock code for the app?",
+          "title": "Why set an unlock code for the app?",
           "markdown": "faq/zh/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         },
         "ko": {
-          "title": "Why to set an unlock code for the app?",
+          "title": "Why set an unlock code for the app?",
           "markdown": "faq/ko/security/why-to-set-an-unlock-code-for-the-wallet-app.md"
         }
       },
@@ -1449,35 +1449,35 @@
       },
       {
         "en": {
-          "title": "What to do if I lost my phone?",
+          "title": "What if I lost my phone?",
           "markdown": "faq/en/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "ru": {
-          "title": "What to do if I lost my phone?",
+          "title": "What if I lost my phone?",
           "markdown": "faq/ru/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "de": {
-          "title": "What to do if I lost my phone?",
+          "title": "What if I lost my phone?",
           "markdown": "faq/de/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "es": {
-          "title": "What to do if I lost my phone?",
+          "title": "What if I lost my phone?",
           "markdown": "faq/es/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "fr": {
-          "title": "What to do if I lost my phone?",
+          "title": "What if I lost my phone?",
           "markdown": "faq/fr/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "tr": {
-          "title": "What to do if I lost my phone?",
+          "title": "What if I lost my phone?",
           "markdown": "faq/tr/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "zh": {
-          "title": "What to do if I lost my phone?",
+          "title": "What if I lost my phone?",
           "markdown": "faq/zh/security/what-steps-to-take-if-lost-my-phone.md"
         },
         "ko": {
-          "title": "What to do if I lost my phone?",
+          "title": "What if I lost my phone?",
           "markdown": "faq/ko/security/what-steps-to-take-if-lost-my-phone.md"
         }
       }
@@ -1531,69 +1531,69 @@
       },
       {
         "en": {
-          "title": "Why are transaction fees so high?",
+          "title": "Why transaction fees are so high?",
           "markdown": "faq/en/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "ru": {
-          "title": "Why are transaction fees so high?",
+          "title": "Why are transaction fees are so high?",
           "markdown": "faq/ru/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "de": {
-          "title": "Why are transaction fees so high?",
+          "title": "Why are transaction fees are so high?",
           "markdown": "faq/de/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "es": {
-          "title": "Why are transaction fees so high?",
+          "title": "Why are transaction fees are so high?",
           "markdown": "faq/es/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "fr": {
-          "title": "Why are transaction fees so high?",
+          "title": "Why are transaction fees are so high?",
           "markdown": "faq/fr/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "tr": {
-          "title": "Why are transaction fees so high?",
+          "title": "Why are transaction fees are so high?",
           "markdown": "faq/tr/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "zh": {
-          "title": "Why are transaction fees so high?",
+          "title": "Why are transaction fees are so high?",
           "markdown": "faq/zh/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         },
         "ko": {
-          "title": "Why are transaction fees so high?",
+          "title": "Why are transaction fees are so high?",
           "markdown": "faq/ko/transactions/why-are-transaction-fees-for-some-cryptocurrencies-are-so-high.md"
         }
       },
       {
         "en": {
-          "title": "How Unstoppable calculates transaction fees?",
+          "title": "How transaction fees are calculated?",
           "markdown": "faq/en/transactions/how-unstoppable-calculates-transaction-fees.md"
         },
         "ru": {
-          "title": "How Unstoppable calculates transaction fees?",
+          "title": "How transaction fees are calculated?",
           "markdown": "faq/ru/transactions/how-unstoppable-calculates-transaction-fees.md"
         },
         "de": {
-          "title": "How Unstoppable calculates transaction fees?",
+          "title": "How transaction fees are calculated?",
           "markdown": "faq/de/transactions/how-unstoppable-calculates-transaction-fees.md"
         },
         "es": {
-          "title": "How Unstoppable calculates transaction fees?",
+          "title": "How transaction fees are calculated?",
           "markdown": "faq/es/transactions/how-unstoppable-calculates-transaction-fees.md"
         },
         "fr": {
-          "title": "How Unstoppable calculates transaction fees?",
+          "title": "How transaction fees are calculated?",
           "markdown": "faq/fr/transactions/how-unstoppable-calculates-transaction-fees.md"
         },
         "tr": {
-          "title": "How Unstoppable calculates transaction fees?",
+          "title": "How transaction fees are calculated?",
           "markdown": "faq/tr/transactions/how-unstoppable-calculates-transaction-fees.md"
         },
         "zh": {
-          "title": "How Unstoppable calculates transaction fees?",
+          "title": "How transaction fees are calculated?",
           "markdown": "faq/zh/transactions/how-unstoppable-calculates-transaction-fees.md"
         },
         "ko": {
-          "title": "How Unstoppable calculates transaction fees?",
+          "title": "How transaction fees are calculated?",
           "markdown": "faq/ko/transactions/how-unstoppable-calculates-transaction-fees.md"
         }
       },
@@ -2055,69 +2055,69 @@
       },
       {
         "en": {
-          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "title": "Why balance didn't change after payment?",
           "markdown": "faq/en/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
         },
         "ru": {
-          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "title": "Why balance didn't change after payment?",
           "markdown": "faq/ru/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
         },
         "de": {
-          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "title": "Why balance didn't change after payment?",
           "markdown": "faq/de/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
         },
         "es": {
-          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "title": "Why balance didn't change after payment?",
           "markdown": "faq/es/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
         },
         "fr": {
-          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "title": "Why balance didn't change after payment?",
           "markdown": "faq/fr/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
         },
         "tr": {
-          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "title": "Why balance didn't change after payment?",
           "markdown": "faq/tr/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
         },
         "zh": {
-          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "title": "Why balance didn't change after payment?",
           "markdown": "faq/zh/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
         },
         "ko": {
-          "title": "Why Bitcoin balance didn't increase after receiving payment?",
+          "title": "Why balance didn't change after payment?",
           "markdown": "faq/ko/bitcoin/why-bitcoin-balance-did-not-increase-after-receiving-payment.md"
         }
       },
       {
         "en": {
-          "title": "Why can't send Bitcoins that were just received?",
+          "title": "Why can't send Bitcoins?",
           "markdown": "faq/en/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
         },
         "ru": {
-          "title": "Why can't send Bitcoins that were just received?",
+          "title": "Why can't send Bitcoins?",
           "markdown": "faq/ru/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
         },
         "de": {
-          "title": "Why can't send Bitcoins that were just received?",
+          "title": "Why can't send Bitcoins?",
           "markdown": "faq/de/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
         },
         "es": {
-          "title": "Why can't send Bitcoins that were just received?",
+          "title": "Why can't send Bitcoins?",
           "markdown": "faq/es/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
         },
         "fr": {
-          "title": "Why can't send Bitcoins that were just received?",
+          "title": "Why can't send Bitcoins?",
           "markdown": "faq/fr/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
         },
         "tr": {
-          "title": "Why can't send Bitcoins that were just received?",
+          "title": "Why can't send Bitcoins?",
           "markdown": "faq/tr/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
         },
         "zh": {
-          "title": "Why can't send Bitcoins that were just received?",
+          "title": "Why can't send Bitcoins?",
           "markdown": "faq/zh/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
         },
         "ko": {
-          "title": "Why can't send Bitcoins that were just received?",
+          "title": "Why can't send Bitcoins?",
           "markdown": "faq/ko/bitcoin/why-can-not-send-bitcoins-that-were-just-received.md"
         }
       },
@@ -2191,35 +2191,35 @@
       },
       {
         "en": {
-          "title": "Is it safe to share Bitcoin payment address with others?",
+          "title": "Is it safe to share Bitcoin payment address?",
           "markdown": "faq/en/bitcoin/is-is-safe-to-share-bitcoin-payment-address-with-others.md"
         },
         "ru": {
-          "title": "Is it safe to share Bitcoin payment address with others?",
+          "title": "Is it safe to share Bitcoin payment address?",
           "markdown": "faq/ru/bitcoin/is-is-safe-to-share-bitcoin-payment-address-with-others.md"
         },
         "de": {
-          "title": "Is it safe to share Bitcoin payment address with others?",
+          "title": "Is it safe to share Bitcoin payment address?",
           "markdown": "faq/de/bitcoin/is-is-safe-to-share-bitcoin-payment-address-with-others.md"
         },
         "es": {
-          "title": "Is it safe to share Bitcoin payment address with others?",
+          "title": "Is it safe to share Bitcoin payment address?",
           "markdown": "faq/es/bitcoin/is-is-safe-to-share-bitcoin-payment-address-with-others.md"
         },
         "fr": {
-          "title": "Is it safe to share Bitcoin payment address with others?",
+          "title": "Is it safe to share Bitcoin payment address?",
           "markdown": "faq/fr/bitcoin/is-is-safe-to-share-bitcoin-payment-address-with-others.md"
         },
         "tr": {
-          "title": "Is it safe to share Bitcoin payment address with others?",
+          "title": "Is it safe to share Bitcoin payment address?",
           "markdown": "faq/tr/bitcoin/is-is-safe-to-share-bitcoin-payment-address-with-others.md"
         },
         "zh": {
-          "title": "Is it safe to share Bitcoin payment address with others?",
+          "title": "Is it safe to share Bitcoin payment address?",
           "markdown": "faq/zh/bitcoin/is-is-safe-to-share-bitcoin-payment-address-with-others.md"
         },
         "ko": {
-          "title": "Is it safe to share Bitcoin payment address with others?",
+          "title": "Is it safe to share Bitcoin payment address?",
           "markdown": "faq/ko/bitcoin/is-is-safe-to-share-bitcoin-payment-address-with-others.md"
         }
       },
@@ -2341,341 +2341,341 @@
       },
       {
         "en": {
-          "title": "How Ethereum transactions are different from Bitcoin?",
+          "title": "How Ethereum transfers differ from Bitcoin?",
           "markdown": "faq/en/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
         },
         "ru": {
-          "title": "How Ethereum transactions are different from Bitcoin?",
+          "title": "How Ethereum transfers differ from Bitcoin?",
           "markdown": "faq/ru/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
         },
         "de": {
-          "title": "How Ethereum transactions are different from Bitcoin?",
+          "title": "How Ethereum transfers differ from Bitcoin?",
           "markdown": "faq/de/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
         },
         "es": {
-          "title": "How Ethereum transactions are different from Bitcoin?",
+          "title": "How Ethereum transfers differ from Bitcoin?",
           "markdown": "faq/es/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
         },
         "fr": {
-          "title": "How Ethereum transactions are different from Bitcoin?",
+          "title": "How Ethereum transfers differ from Bitcoin?",
           "markdown": "faq/fr/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
         },
         "tr": {
-          "title": "How Ethereum transactions are different from Bitcoin?",
+          "title": "How Ethereum transfers differ from Bitcoin?",
           "markdown": "faq/tr/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
         },
         "zh": {
-          "title": "How Ethereum transactions are different from Bitcoin?",
+          "title": "How Ethereum transfers differ from Bitcoin?",
           "markdown": "faq/zh/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
         },
         "ko": {
-          "title": "How Ethereum transactions are different from Bitcoin?",
+          "title": "How Ethereum transfers differ from Bitcoin?",
           "markdown": "faq/ko/ethereum/how-ethereum-transactions-are-different-from-bitcoin.md"
         }
       },
       {
         "en": {
-          "title": "How long does it take for Ethereum transaction to complete?",
+          "title": "How long Ethereum transaction takes?",
           "markdown": "faq/en/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
         },
         "ru": {
-          "title": "How long does it take for Ethereum transaction to complete?",
+          "title": "How long Ethereum transaction takes?",
           "markdown": "faq/ru/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
         },
         "de": {
-          "title": "How long does it take for Ethereum transaction to complete?",
+          "title": "How long Ethereum transaction takes?",
           "markdown": "faq/de/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
         },
         "es": {
-          "title": "How long does it take for Ethereum transaction to complete?",
+          "title": "How long Ethereum transaction takes?",
           "markdown": "faq/es/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
         },
         "fr": {
-          "title": "How long does it take for Ethereum transaction to complete?",
+          "title": "How long Ethereum transaction takes?",
           "markdown": "faq/fr/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
         },
         "tr": {
-          "title": "How long does it take for Ethereum transaction to complete?",
+          "title": "How long Ethereum transaction takes?",
           "markdown": "faq/tr/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
         },
         "zh": {
-          "title": "How long does it take for Ethereum transaction to complete?",
+          "title": "How long Ethereum transaction takes?",
           "markdown": "faq/zh/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
         },
         "ko": {
-          "title": "How long does it take for Ethereum transaction to complete?",
+          "title": "How long Ethereum transaction takes?",
           "markdown": "faq/ko/ethereum/how-long-does-it-take-for-ethereum-transaction-to-complete.md"
         }
       },
       {
         "en": {
-          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "title": "How Ethereum fees are calculated?",
           "markdown": "faq/en/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
         },
         "ru": {
-          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "title": "How Ethereum fees are calculated?",
           "markdown": "faq/ru/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
         },
         "de": {
-          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "title": "How Ethereum fees are calculated?",
           "markdown": "faq/de/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
         },
         "es": {
-          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "title": "How Ethereum fees are calculated?",
           "markdown": "faq/es/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
         },
         "fr": {
-          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "title": "How Ethereum fees are calculated?",
           "markdown": "faq/fr/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
         },
         "tr": {
-          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "title": "How Ethereum fees are calculated?",
           "markdown": "faq/tr/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
         },
         "zh": {
-          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "title": "How Ethereum fees are calculated?",
           "markdown": "faq/zh/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
         },
         "ko": {
-          "title": "How Unstoppable recommends transaction fee for Ethereum?",
+          "title": "How Ethereum fees are calculated?",
           "markdown": "faq/ko/ethereum/how-unstoppable-recommends-transaction-fee-for-ethereum.md"
         }
       },
       {
         "en": {
-          "title": "Why Ethereum transactions are so expensive?",
+          "title": "Why Ethereum fees are so high?",
           "markdown": "faq/en/ethereum/why-ethereum-transactions-are-so-expensive.md"
         },
         "ru": {
-          "title": "Why Ethereum transactions are so expensive?",
+          "title": "Why Ethereum fees are so high?",
           "markdown": "faq/ru/ethereum/why-ethereum-transactions-are-so-expensive.md"
         },
         "de": {
-          "title": "Why Ethereum transactions are so expensive?",
+          "title": "Why Ethereum fees are so high?",
           "markdown": "faq/de/ethereum/why-ethereum-transactions-are-so-expensive.md"
         },
         "es": {
-          "title": "Why Ethereum transactions are so expensive?",
+          "title": "Why Ethereum fees are so high?",
           "markdown": "faq/es/ethereum/why-ethereum-transactions-are-so-expensive.md"
         },
         "fr": {
-          "title": "Why Ethereum transactions are so expensive?",
+          "title": "Why Ethereum fees are so high?",
           "markdown": "faq/fr/ethereum/why-ethereum-transactions-are-so-expensive.md"
         },
         "tr": {
-          "title": "Why Ethereum transactions are so expensive?",
+          "title": "Why Ethereum fees are so high?",
           "markdown": "faq/tr/ethereum/why-ethereum-transactions-are-so-expensive.md"
         },
         "zh": {
-          "title": "Why Ethereum transactions are so expensive?",
+          "title": "Why Ethereum fees are so high?",
           "markdown": "faq/zh/ethereum/why-ethereum-transactions-are-so-expensive.md"
         },
         "ko": {
-          "title": "Why Ethereum transactions are so expensive?",
+          "title": "Why Ethereum fees are so high?",
           "markdown": "faq/ko/ethereum/why-ethereum-transactions-are-so-expensive.md"
         }
       },
       {
         "en": {
-          "title": "What are gas, gas price and gas limit?",
+          "title": "What is gas price and gas limit?",
           "markdown": "faq/en/ethereum/what-are-gas-gasprice-gaslimit.md"
         },
         "ru": {
-          "title": "What are gas, gas price and gas limit?",
+          "title": "What is gas price and gas limit?",
           "markdown": "faq/ru/ethereum/what-are-gas-gasprice-gaslimit.md"
         },
         "de": {
-          "title": "What are gas, gas price and gas limit?",
+          "title": "What is gas price and gas limit?",
           "markdown": "faq/de/ethereum/what-are-gas-gasprice-gaslimit.md"
         },
         "es": {
-          "title": "What are gas, gas price and gas limit?",
+          "title": "What is gas price and gas limit?",
           "markdown": "faq/es/ethereum/what-are-gas-gasprice-gaslimit.md"
         },
         "fr": {
-          "title": "What are gas, gas price and gas limit?",
+          "title": "What is gas price and gas limit?",
           "markdown": "faq/fr/ethereum/what-are-gas-gasprice-gaslimit.md"
         },
         "tr": {
-          "title": "What are gas, gas price and gas limit?",
+          "title": "What is gas price and gas limit?",
           "markdown": "faq/tr/ethereum/what-are-gas-gasprice-gaslimit.md"
         },
         "zh": {
-          "title": "What are gas, gas price and gas limit?",
+          "title": "What is gas price and gas limit?",
           "markdown": "faq/zh/ethereum/what-are-gas-gasprice-gaslimit.md"
         },
         "ko": {
-          "title": "What are gas, gas price and gas limit?",
+          "title": "What is gas price and gas limit?",
           "markdown": "faq/ko/ethereum/what-are-gas-gasprice-gaslimit.md"
         }
       },
       {
         "en": {
-          "title": "Why ETH needed to send ERC20 token?",
+          "title": "Why ETH needed to send tokens?",
           "markdown": "faq/en/ethereum/why-eth-needed-to-send-erc20-token.md"
         },
         "ru": {
-          "title": "Why ETH needed to send ERC20 token?",
+          "title": "Why ETH needed to send tokens?",
           "markdown": "faq/ru/ethereum/why-eth-needed-to-send-erc20-token.md"
         },
         "de": {
-          "title": "Why ETH needed to send ERC20 token?",
+          "title": "Why ETH needed to send tokens?",
           "markdown": "faq/de/ethereum/why-eth-needed-to-send-erc20-token.md"
         },
         "es": {
-          "title": "Why ETH needed to send ERC20 token?",
+          "title": "Why ETH needed to send tokens?",
           "markdown": "faq/es/ethereum/why-eth-needed-to-send-erc20-token.md"
         },
         "fr": {
-          "title": "Why ETH needed to send ERC20 token?",
+          "title": "Why ETH needed to send tokens?",
           "markdown": "faq/fr/ethereum/why-eth-needed-to-send-erc20-token.md"
         },
         "tr": {
-          "title": "Why ETH needed to send ERC20 token?",
+          "title": "Why ETH needed to send tokens?",
           "markdown": "faq/tr/ethereum/why-eth-needed-to-send-erc20-token.md"
         },
         "zh": {
-          "title": "Why ETH needed to send ERC20 token?",
+          "title": "Why ETH needed to send tokens?",
           "markdown": "faq/zh/ethereum/why-eth-needed-to-send-erc20-token.md"
         },
         "ko": {
-          "title": "Why ETH needed to send ERC20 token?",
+          "title": "Why ETH needed to send tokens?",
           "markdown": "faq/ko/ethereum/why-eth-needed-to-send-erc20-token.md"
         }
       },
       {
         "en": {
-          "title": "When an Ethereum transaction considered final and irreversible?",
+          "title": "When Ethereum transaction considered final?",
           "markdown": "faq/en/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
         },
         "ru": {
-          "title": "When an Ethereum transaction considered final and irreversible?",
+          "title": "When Ethereum transaction considered final?",
           "markdown": "faq/ru/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
         },
         "de": {
-          "title": "When an Ethereum transaction considered final and irreversible?",
+          "title": "When Ethereum transaction considered final?",
           "markdown": "faq/de/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
         },
         "es": {
-          "title": "When an Ethereum transaction considered final and irreversible?",
+          "title": "When Ethereum transaction considered final?",
           "markdown": "faq/es/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
         },
         "fr": {
-          "title": "When an Ethereum transaction considered final and irreversible?",
+          "title": "When Ethereum transaction considered final?",
           "markdown": "faq/fr/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
         },
         "tr": {
-          "title": "When an Ethereum transaction considered final and irreversible?",
+          "title": "When Ethereum transaction considered final?",
           "markdown": "faq/tr/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
         },
         "zh": {
-          "title": "When an Ethereum transaction considered final and irreversible?",
+          "title": "When Ethereum transaction considered final?",
           "markdown": "faq/zh/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
         },
         "ko": {
-          "title": "When an Ethereum transaction considered final and irreversible?",
+          "title": "When Ethereum transaction considered final?",
           "markdown": "faq/ko/ethereum/when-an-ethereum-transaction-considered-final-irreversible.md"
         }
       },
       {
         "en": {
-          "title": "How to monitor status of an Ethereum transaction?",
+          "title": "How to monitor Ethereum transaction?",
           "markdown": "faq/en/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
         },
         "ru": {
-          "title": "How to monitor status of an Ethereum transaction?",
+          "title": "How to monitor Ethereum transaction?",
           "markdown": "faq/ru/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
         },
         "de": {
-          "title": "How to monitor status of an Ethereum transaction?",
+          "title": "How to monitor Ethereum transaction?",
           "markdown": "faq/de/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
         },
         "es": {
-          "title": "How to monitor status of an Ethereum transaction?",
+          "title": "How to monitor Ethereum transaction?",
           "markdown": "faq/es/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
         },
         "fr": {
-          "title": "How to monitor status of an Ethereum transaction?",
+          "title": "How to monitor Ethereum transaction?",
           "markdown": "faq/fr/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
         },
         "tr": {
-          "title": "How to monitor status of an Ethereum transaction?",
+          "title": "How to monitor Ethereum transaction?",
           "markdown": "faq/tr/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
         },
         "zh": {
-          "title": "How to monitor status of an Ethereum transaction?",
+          "title": "How to monitor Ethereum transaction?",
           "markdown": "faq/zh/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
         },
         "ko": {
-          "title": "How to monitor status of an Ethereum transaction?",
+          "title": "How to monitor Ethereum transaction?",
           "markdown": "faq/ko/ethereum/how-to-monitor-status-of-an-ethereum-transaction.md"
         }
       },
       {
         "en": {
-          "title": "How to cancel / replace an Ethereum transaction?",
+          "title": "How to cancel Ethereum transaction?",
           "markdown": "faq/en/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
         },
         "ru": {
-          "title": "How to cancel / replace an Ethereum transaction?",
+          "title": "How to cancel Ethereum transaction?",
           "markdown": "faq/ru/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
         },
         "de": {
-          "title": "How to cancel / replace an Ethereum transaction?",
+          "title": "How to cancel Ethereum transaction?",
           "markdown": "faq/de/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
         },
         "es": {
-          "title": "How to cancel / replace an Ethereum transaction?",
+          "title": "How to cancel Ethereum transaction?",
           "markdown": "faq/es/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
         },
         "fr": {
-          "title": "How to cancel / replace an Ethereum transaction?",
+          "title": "How to cancel Ethereum transaction?",
           "markdown": "faq/fr/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
         },
         "tr": {
-          "title": "How to cancel / replace an Ethereum transaction?",
+          "title": "How to cancel Ethereum transaction?",
           "markdown": "faq/tr/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
         },
         "zh": {
-          "title": "How to cancel / replace an Ethereum transaction?",
+          "title": "How to cancel Ethereum transaction?",
           "markdown": "faq/zh/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
         },
         "ko": {
-          "title": "How to cancel / replace an Ethereum transaction?",
+          "title": "How to cancel Ethereum transaction?",
           "markdown": "faq/ko/ethereum/how-to-cancel-replace-an-ethereum-transaction.md"
         }
       },
       {
         "en": {
-          "title": "Why failed transactions consume transaction fees?",
+          "title": "Why failed transactions consume fees?",
           "markdown": "faq/en/ethereum/why-failed-transactions-consume-transaction-fees.md"
         },
         "ru": {
-          "title": "Why failed transactions consume transaction fees?",
+          "title": "Why failed transactions consume fees?",
           "markdown": "faq/ru/ethereum/why-failed-transactions-consume-transaction-fees.md"
         },
         "de": {
-          "title": "Why failed transactions consume transaction fees?",
+          "title": "Why failed transactions consume fees?",
           "markdown": "faq/de/ethereum/why-failed-transactions-consume-transaction-fees.md"
         },
         "es": {
-          "title": "Why failed transactions consume transaction fees?",
+          "title": "Why failed transactions consume fees?",
           "markdown": "faq/es/ethereum/why-failed-transactions-consume-transaction-fees.md"
         },
         "fr": {
-          "title": "Why failed transactions consume transaction fees?",
+          "title": "Why failed transactions consume fees?",
           "markdown": "faq/fr/ethereum/why-failed-transactions-consume-transaction-fees.md"
         },
         "tr": {
-          "title": "Why failed transactions consume transaction fees?",
+          "title": "Why failed transactions consume fees?",
           "markdown": "faq/tr/ethereum/why-failed-transactions-consume-transaction-fees.md"
         },
         "zh": {
-          "title": "Why failed transactions consume transaction fees?",
+          "title": "Why failed transactions consume fees?",
           "markdown": "faq/zh/ethereum/why-failed-transactions-consume-transaction-fees.md"
         },
         "ko": {
-          "title": "Why failed transactions consume transaction fees?",
+          "title": "Why failed transactions consume fees?",
           "markdown": "faq/ko/ethereum/why-failed-transactions-consume-transaction-fees.md"
         }
       },
@@ -2749,69 +2749,69 @@
       },
       {
         "en": {
-          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/en/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         },
         "ru": {
-          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/ru/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         },
         "de": {
-          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/de/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         },
         "es": {
-          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/es/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         },
         "fr": {
-          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/fr/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         },
         "tr": {
-          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/tr/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         },
         "zh": {
-          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/zh/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         },
         "ko": {
-          "title": "Why Ethereum and ERC20 token address stays always same?",
+          "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/ko/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         }
       },
       {
         "en": {
-          "title": "Is it safe to share Ethereum receive address with others?",
+          "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/en/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         },
         "ru": {
-          "title": "Is it safe to share Ethereum receive address with others?",
+          "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/ru/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         },
         "de": {
-          "title": "Is it safe to share Ethereum receive address with others?",
+          "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/de/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         },
         "es": {
-          "title": "Is it safe to share Ethereum receive address with others?",
+          "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/es/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         },
         "fr": {
-          "title": "Is it safe to share Ethereum receive address with others?",
+          "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/fr/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         },
         "tr": {
-          "title": "Is it safe to share Ethereum receive address with others?",
+          "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/tr/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         },
         "zh": {
-          "title": "Is it safe to share Ethereum receive address with others?",
+          "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/zh/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         },
         "ko": {
-          "title": "Is it safe to share Ethereum receive address with others?",
+          "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/ko/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         }
       }
@@ -2948,137 +2948,137 @@
     "items": [
       {
         "en": {
-          "title": "Does Unstoppable collect or share any user data?",
+          "title": "Does Unstoppable collect user data?",
           "markdown": "faq/en/privacy/does-unstoppable-collect-or-share-any-user-data.md"
         },
         "ru": {
-          "title": "Does Unstoppable collect or share any user data?",
+          "title": "Does Unstoppable collect user data?",
           "markdown": "faq/ru/privacy/does-unstoppable-collect-or-share-any-user-data.md"
         },
         "de": {
-          "title": "Does Unstoppable collect or share any user data?",
+          "title": "Does Unstoppable collect user data?",
           "markdown": "faq/de/privacy/does-unstoppable-collect-or-share-any-user-data.md"
         },
         "es": {
-          "title": "Does Unstoppable collect or share any user data?",
+          "title": "Does Unstoppable collect user data?",
           "markdown": "faq/es/privacy/does-unstoppable-collect-or-share-any-user-data.md"
         },
         "fr": {
-          "title": "Does Unstoppable collect or share any user data?",
+          "title": "Does Unstoppable collect user data?",
           "markdown": "faq/fr/privacy/does-unstoppable-collect-or-share-any-user-data.md"
         },
         "tr": {
-          "title": "Does Unstoppable collect or share any user data?",
+          "title": "Does Unstoppable collect user data?",
           "markdown": "faq/tr/privacy/does-unstoppable-collect-or-share-any-user-data.md"
         },
         "zh": {
-          "title": "Does Unstoppable collect or share any user data?",
+          "title": "Does Unstoppable collect user data?",
           "markdown": "faq/zh/privacy/does-unstoppable-collect-or-share-any-user-data.md"
         },
         "ko": {
-          "title": "Does Unstoppable collect or share any user data?",
+          "title": "Does Unstoppable collect user data?",
           "markdown": "faq/ko/privacy/does-unstoppable-collect-or-share-any-user-data.md"
         }
       },
       {
         "en": {
-          "title": "Are users anonymous when transacting on Unstoppable?",
+          "title": "Are Unstoppable users anonymous?",
           "markdown": "faq/en/privacy/are-users-anonymous-when-transacting-on-unstoppable.md"
         },
         "ru": {
-          "title": "Are users anonymous when transacting on Unstoppable?",
+          "title": "Are Unstoppable users anonymous?",
           "markdown": "faq/ru/privacy/are-users-anonymous-when-transacting-on-unstoppable.md"
         },
         "de": {
-          "title": "Are users anonymous when transacting on Unstoppable?",
+          "title": "Are Unstoppable users anonymous?",
           "markdown": "faq/de/privacy/are-users-anonymous-when-transacting-on-unstoppable.md"
         },
         "es": {
-          "title": "Are users anonymous when transacting on Unstoppable?",
+          "title": "Are Unstoppable users anonymous?",
           "markdown": "faq/es/privacy/are-users-anonymous-when-transacting-on-unstoppable.md"
         },
         "fr": {
-          "title": "Are users anonymous when transacting on Unstoppable?",
+          "title": "Are Unstoppable users anonymous?",
           "markdown": "faq/fr/privacy/are-users-anonymous-when-transacting-on-unstoppable.md"
         },
         "tr": {
-          "title": "Are users anonymous when transacting on Unstoppable?",
+          "title": "Are Unstoppable users anonymous?",
           "markdown": "faq/tr/privacy/are-users-anonymous-when-transacting-on-unstoppable.md"
         },
         "zh": {
-          "title": "Are users anonymous when transacting on Unstoppable?",
+          "title": "Are Unstoppable users anonymous?",
           "markdown": "faq/zh/privacy/are-users-anonymous-when-transacting-on-unstoppable.md"
         },
         "ko": {
-          "title": "Are users anonymous when transacting on Unstoppable?",
+          "title": "Are Unstoppable users anonymous?",
           "markdown": "faq/ko/privacy/are-users-anonymous-when-transacting-on-unstoppable.md"
         }
       },
       {
         "en": {
-          "title": "Are my Ethereum transactions and balances private?",
+          "title": "Are Ethereum transactions private?",
           "markdown": "faq/en/privacy/are-my-ethereum-transactions-and-balances-private.md"
         },
         "ru": {
-          "title": "Are my Ethereum transactions and balances private?",
+          "title": "Are Ethereum transactions private?",
           "markdown": "faq/ru/privacy/are-my-ethereum-transactions-and-balances-private.md"
         },
         "de": {
-          "title": "Are my Ethereum transactions and balances private?",
+          "title": "Are Ethereum transactions private?",
           "markdown": "faq/de/privacy/are-my-ethereum-transactions-and-balances-private.md"
         },
         "es": {
-          "title": "Are my Ethereum transactions and balances private?",
+          "title": "Are Ethereum transactions private?",
           "markdown": "faq/es/privacy/are-my-ethereum-transactions-and-balances-private.md"
         },
         "fr": {
-          "title": "Are my Ethereum transactions and balances private?",
+          "title": "Are Ethereum transactions private?",
           "markdown": "faq/fr/privacy/are-my-ethereum-transactions-and-balances-private.md"
         },
         "tr": {
-          "title": "Are my Ethereum transactions and balances private?",
+          "title": "Are Ethereum transactions private?",
           "markdown": "faq/tr/privacy/are-my-ethereum-transactions-and-balances-private.md"
         },
         "zh": {
-          "title": "Are my Ethereum transactions and balances private?",
+          "title": "Are Ethereum transactions privatee?",
           "markdown": "faq/zh/privacy/are-my-ethereum-transactions-and-balances-private.md"
         },
         "ko": {
-          "title": "Are my Ethereum transactions and balances private?",
+          "title": "Are Ethereum transactions private?",
           "markdown": "faq/ko/privacy/are-my-ethereum-transactions-and-balances-private.md"
         }
       },
       {
         "en": {
-          "title": "Are my Bitcoin transactions and balance private?",
+          "title": "Are Bitcoin transactions private?",
           "markdown": "faq/en/privacy/are-my-bitcoin-transactions-and-balances-private.md"
         },
         "ru": {
-          "title": "Are my Bitcoin transactions and balance private?",
+          "title": "Are Bitcoin transactions private?",
           "markdown": "faq/ru/privacy/are-my-bitcoin-transactions-and-balances-private.md"
         },
         "de": {
-          "title": "Are my Bitcoin transactions and balance private?",
+          "title": "Are Bitcoin transactions private?",
           "markdown": "faq/de/privacy/are-my-bitcoin-transactions-and-balances-private.md"
         },
         "es": {
-          "title": "Are my Bitcoin transactions and balance private?",
+          "title": "Are Bitcoin transactions private?",
           "markdown": "faq/es/privacy/are-my-bitcoin-transactions-and-balances-private.md"
         },
         "fr": {
-          "title": "Are my Bitcoin transactions and balance private?",
+          "title": "Are Bitcoin transactions private?",
           "markdown": "faq/fr/privacy/are-my-bitcoin-transactions-and-balances-private.md"
         },
         "tr": {
-          "title": "Are my Bitcoin transactions and balance private?",
+          "title": "Are Bitcoin transactions private?",
           "markdown": "faq/tr/privacy/are-my-bitcoin-transactions-and-balances-private.md"
         },
         "zh": {
-          "title": "Are my Bitcoin transactions and balance private?",
+          "title": "Are Bitcoin transactions private?",
           "markdown": "faq/zh/privacy/are-my-bitcoin-transactions-and-balances-private.md"
         },
         "ko": {
-          "title": "Are my Bitcoin transactions and balance private?",
+          "title": "Are Bitcoin transactions private?",
           "markdown": "faq/ko/privacy/are-my-bitcoin-transactions-and-balances-private.md"
         }
       },
@@ -3118,35 +3118,35 @@
       },
       {
         "en": {
-          "title": "Is it safe to share data with exchanges and other service providers?",
+          "title": "Is it safe to share data with exchanges?",
           "markdown": "faq/en/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "ru": {
-          "title": "Is it safe to share data with exchanges and other service providers?",
+          "title": "Is it safe to share data with exchanges?",
           "markdown": "faq/ru/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "de": {
-          "title": "Is it safe to share data with exchanges and other service providers?",
+          "title": "Is it safe to share data with exchanges?",
           "markdown": "faq/de/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "es": {
-          "title": "Is it safe to share data with exchanges and other service providers?",
+          "title": "Is it safe to share data with exchanges?",
           "markdown": "faq/es/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "fr": {
-          "title": "Is it safe to share data with exchanges and other service providers?",
+          "title": "Is it safe to share data with exchanges?",
           "markdown": "faq/fr/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "tr": {
-          "title": "Is it safe to share data with exchanges and other service providers?",
+          "title": "Is it safe to share data with exchanges?",
           "markdown": "faq/tr/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "zh": {
-          "title": "Is it safe to share data with exchanges and other service providers?",
+          "title": "Is it safe to share data with exchanges?",
           "markdown": "faq/zh/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         },
         "ko": {
-          "title": "Is it safe to share data with exchanges and other service providers?",
+          "title": "Is it safe to share data with exchanges?",
           "markdown": "faq/ko/privacy/is-it-safe-to-share-data-with-exchanges-and-other-service-providers.md"
         }
       },
@@ -3238,65 +3238,65 @@
           "markdown": "faq/en/dexes-swaps/why-unstoppable-supports-only-dexes.md"
         },
         "ru": {
-          "title": "Why Unstoppable supports only DEXes?",
+          "title": "Why Unstoppable only supports DEXes?",
           "markdown": "faq/ru/dexes-swaps/why-unstoppable-supports-only-dexes.md"
         },
         "de": {
-          "title": "Why Unstoppable supports only DEXes?",
+          "title": "Why Unstoppable only supports DEXes?",
           "markdown": "faq/de/dexes-swaps/why-unstoppable-supports-only-dexes.md"
         },
         "es": {
-          "title": "Why Unstoppable supports only DEXes?",
+          "title": "Why Unstoppable only supports DEXes?",
           "markdown": "faq/es/dexes-swaps/why-unstoppable-supports-only-dexes.md"
         },
         "fr": {
-          "title": "Why Unstoppable supports only DEXes?",
+          "title": "Why Unstoppable only supports DEXes?",
           "markdown": "faq/fr/dexes-swaps/why-unstoppable-supports-only-dexes.md"
         },
         "tr": {
-          "title": "Why Unstoppable supports only DEXes?",
+          "title": "Why Unstoppable only supports DEXes?",
           "markdown": "faq/tr/dexes-swaps/why-unstoppable-supports-only-dexes.md"
         },
         "zh": {
-          "title": "Why Unstoppable supports only DEXes?",
+          "title": "Why Unstoppable only supports DEXes?",
           "markdown": "faq/zh/dexes-swaps/why-unstoppable-supports-only-dexes.md"
         },
         "ko": {
-          "title": "Why Unstoppable supports only DEXes?",
+          "title": "Why Unstoppable only supports DEXes?",
           "markdown": "faq/ko/dexes-swaps/why-unstoppable-supports-only-dexes.md"
         }
       },
       {
         "en": {
-          "title": "Which DEXes supported in Unstoppable?",
+          "title": "Which DEXes are supported in Unstoppable?",
           "markdown": "faq/en/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "ru": {
-          "title": "Which DEXes supported in Unstoppable?",
+          "title": "Which DEXes are supported in Unstoppable?",
           "markdown": "faq/ru/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "de": {
-          "title": "Which DEXes supported in Unstoppable?",
+          "title": "Which DEXes are supported in Unstoppable?",
           "markdown": "faq/de/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "es": {
-          "title": "Which DEXes supported in Unstoppable?",
+          "title": "Which DEXes are supported in Unstoppable?",
           "markdown": "faq/es/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "fr": {
-          "title": "Which DEXes supported in Unstoppable?",
+          "title": "Which DEXes are supported in Unstoppable?",
           "markdown": "faq/fr/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "tr": {
-          "title": "Which DEXes supported in Unstoppable?",
+          "title": "Which DEXes are supported in Unstoppable?",
           "markdown": "faq/tr/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "zh": {
-          "title": "Which DEXes supported in Unstoppable?",
+          "title": "Which DEXes are supported in Unstoppable?",
           "markdown": "faq/zh/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "ko": {
-          "title": "Which DEXes supported in Unstoppable?",
+          "title": "Which DEXes are supported in Unstoppable?",
           "markdown": "faq/ko/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         }
       },
@@ -3336,205 +3336,205 @@
       },
       {
         "en": {
-          "title": "Are there any limitations to swap amounts?",
+          "title": "Are there any limits to swap amounts?",
           "markdown": "faq/en/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "ru": {
-          "title": "Are there any limitations to swap amounts?",
+          "title": "Are there any limits to swap amounts?",
           "markdown": "faq/ru/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "de": {
-          "title": "Are there any limitations to swap amounts?",
+          "title": "Are there any limits to swap amounts?",
           "markdown": "faq/de/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "es": {
-          "title": "Are there any limitations to swap amounts?",
+          "title": "Are there any limits to swap amounts?",
           "markdown": "faq/es/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "fr": {
-          "title": "Are there any limitations to swap amounts?",
+          "title": "Are there any limits to swap amounts?",
           "markdown": "faq/fr/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "tr": {
-          "title": "Are there any limitations to swap amounts?",
+          "title": "Are there any limits to swap amounts?",
           "markdown": "faq/tr/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "zh": {
-          "title": "Are there any limitations to swap amounts?",
+          "title": "Are there any limits to swap amounts?",
           "markdown": "faq/zh/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "ko": {
-          "title": "Are there any limitations to swap amounts?",
+          "title": "Are there any limits to swap amounts?",
           "markdown": "faq/ko/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         }
       },
       {
         "en": {
-          "title": "Are there any risks when swapping cryptocurrency?",
+          "title": "Are there any risks when swapping?",
           "markdown": "faq/en/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
         },
         "ru": {
-          "title": "Are there any risks when swapping cryptocurrency?",
+          "title": "Are there any risks when swapping?",
           "markdown": "faq/ru/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
         },
         "de": {
-          "title": "Are there any risks when swapping cryptocurrency?",
+          "title": "Are there any risks when swapping?",
           "markdown": "faq/de/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
         },
         "es": {
-          "title": "Are there any risks when swapping cryptocurrency?",
+          "title": "Are there any risks when swapping?",
           "markdown": "faq/es/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
         },
         "fr": {
-          "title": "Are there any risks when swapping cryptocurrency?",
+          "title": "Are there any risks when swapping?",
           "markdown": "faq/fr/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
         },
         "tr": {
-          "title": "Are there any risks when swapping cryptocurrency?",
+          "title": "Are there any risks when swapping?",
           "markdown": "faq/tr/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
         },
         "zh": {
-          "title": "Are there any risks when swapping cryptocurrency?",
+          "title": "Are there any risks when swapping?",
           "markdown": "faq/zh/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
         },
         "ko": {
-          "title": "Are there any risks when swapping cryptocurrency?",
+          "title": "Are there any risks when swapping?",
           "markdown": "faq/ko/dexes-swaps/are-there-any-risks-when-swapping-cryptocurrency.md"
         }
       },
       {
         "en": {
-          "title": "Why a separate approve transaction needed before swap?",
+          "title": "Why approve transaction is needed?",
           "markdown": "faq/en/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
         },
         "ru": {
-          "title": "Why a separate approve transaction needed before swap?",
+          "title": "Why approve transaction is needed?",
           "markdown": "faq/ru/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
         },
         "de": {
-          "title": "Why a separate approve transaction needed before swap?",
+          "title": "Why approve transaction is needed?",
           "markdown": "faq/de/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
         },
         "es": {
-          "title": "Why a separate approve transaction needed before swap?",
+          "title": "Why approve transaction is needed?",
           "markdown": "faq/es/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
         },
         "fr": {
-          "title": "Why a separate approve transaction needed before swap?",
+          "title": "Why approve transaction is needed?",
           "markdown": "faq/fr/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
         },
         "tr": {
-          "title": "Why a separate approve transaction needed before swap?",
+          "title": "Why approve transaction is needed?",
           "markdown": "faq/tr/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
         },
         "zh": {
-          "title": "Why a separate approve transaction needed before swap?",
+          "title": "Why approve transaction is needed?",
           "markdown": "faq/zh/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
         },
         "ko": {
-          "title": "Why a separate approve transaction needed before swap?",
+          "title": "Why approve transaction is needed?",
           "markdown": "faq/ko/dexes-swaps/why-a-separate-approve-transaction-needed-before-swap.md"
         }
       },
       {
         "en": {
-          "title": "Why swap fees on Ethereum are so high?",
+          "title": "Why swap fees are so high?",
           "markdown": "faq/en/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
         },
         "ru": {
-          "title": "Why swap fees on Ethereum are so high?",
+          "title": "Why swap fees are so high?",
           "markdown": "faq/ru/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
         },
         "de": {
-          "title": "Why swap fees on Ethereum are so high?",
+          "title": "Why swap fees are so high?",
           "markdown": "faq/de/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
         },
         "es": {
-          "title": "Why swap fees on Ethereum are so high?",
+          "title": "Why swap fees are so high?",
           "markdown": "faq/es/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
         },
         "fr": {
-          "title": "Why swap fees on Ethereum are so high?",
+          "title": "Why swap fees are so high?",
           "markdown": "faq/fr/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
         },
         "tr": {
-          "title": "Why swap fees on Ethereum are so high?",
+          "title": "Why swap fees are so high?",
           "markdown": "faq/tr/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
         },
         "zh": {
-          "title": "Why swap fees on Ethereum are so high?",
+          "title": "Why swap fees are so high?",
           "markdown": "faq/zh/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
         },
         "ko": {
-          "title": "Why swap fees on Ethereum are so high?",
+          "title": "Why swap fees are so high?",
           "markdown": "faq/ko/dexes-swaps/why-swap-fees-on-ethereum-are-so-high.md"
         }
       },
       {
         "en": {
-          "title": "Why was I charged transaction fee for a failed swap?",
+          "title": "Why failed swaps consume fees?",
           "markdown": "faq/en/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
         },
         "ru": {
-          "title": "Why was I charged transaction fee for a failed swap?",
+          "title": "Why failed swaps consume fees?",
           "markdown": "faq/ru/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
         },
         "de": {
-          "title": "Why was I charged transaction fee for a failed swap?",
+          "title": "Why failed swaps consume fees?",
           "markdown": "faq/de/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
         },
         "es": {
-          "title": "Why was I charged transaction fee for a failed swap?",
+          "title": "Why failed swaps consume fees?",
           "markdown": "faq/es/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
         },
         "fr": {
-          "title": "Why was I charged transaction fee for a failed swap?",
+          "title": "Why failed swaps consume fees?",
           "markdown": "faq/fr/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
         },
         "tr": {
-          "title": "Why was I charged transaction fee for a failed swap?",
+          "title": "Why failed swaps consume fees?",
           "markdown": "faq/tr/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
         },
         "zh": {
-          "title": "Why was I charged transaction fee for a failed swap?",
+          "title": "Why failed swaps consume fees?",
           "markdown": "faq/zh/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
         },
         "ko": {
-          "title": "Why was I charged transaction fee for a failed swap?",
+          "title": "Why failed swaps consume fees?",
           "markdown": "faq/ko/dexes-swaps/why-was-i-changed-transaction-fee-for-a-failed-swap.md"
         }
       },
       {
         "en": {
-          "title": "Why can't I swap Bitcoin and other coins?",
+          "title": "Why not possible to swap Bitcoin?",
           "markdown": "faq/en/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "ru": {
-          "title": "Why can't I swap Bitcoin and other coins?",
+          "title": "Why not possible to swap Bitcoin?",
           "markdown": "faq/ru/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "de": {
-          "title": "Why can't I swap Bitcoin and other coins?",
+          "title": "Why not possible to swap Bitcoin?",
           "markdown": "faq/de/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "es": {
-          "title": "Why can't I swap Bitcoin and other coins?",
+          "title": "Why not possible to swap Bitcoin?",
           "markdown": "faq/es/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "fr": {
-          "title": "Why can't I swap Bitcoin and other coins?",
+          "title": "Why not possible to swap Bitcoin?",
           "markdown": "faq/fr/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "tr": {
-          "title": "Why can't I swap Bitcoin and other coins?",
+          "title": "Why not possible to swap Bitcoin?",
           "markdown": "faq/tr/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "zh": {
-          "title": "Why can't I swap Bitcoin and other coins?",
+          "title": "Why not possible to swap Bitcoin?",
           "markdown": "faq/zh/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         },
         "ko": {
-          "title": "Why can't I swap Bitcoin and other coins?",
+          "title": "Why not possible to swap Bitcoin?",
           "markdown": "faq/ko/dexes-swaps/why-can-not-i-swap-bitcoin-and-other-coins.md"
         }
       }

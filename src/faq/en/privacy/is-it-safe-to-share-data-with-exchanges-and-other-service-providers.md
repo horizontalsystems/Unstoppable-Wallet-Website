@@ -7,5 +7,5 @@ The extent of information requested by these service providers changes depending
 Some points to keep in mind:
 
 - the business entity conducting a check may get compromised and leak users' private data as a result. Therefore, preference should be given to more established entities.
+  
 - the business entity conducting a check may (have to) share the information about the user with other entities. Those looking for privacy in that regard, may look for service providers lying outside their own jurisdiction.
-

@@ -16,5 +16,4 @@ All kinds of transactions can occur on Ethereum blockchain. The key parameter th
 
 Keeping in mind above, the simplest and cheapest transaction type on Ethereum is plain transfer of Ethereum tokens.
 
-At the same time, a transaction that exchanges one token to another is more complex and typically costs several times more than sending ETH tokens to someone. The transaction fee doesn't depend on the amount of Ethereums or tokens being transacted.
-
+At the same time, a transaction that exchanges one token to another is more complex and typically costs several times more than sending ETH tokens to someone. The transaction fee doesn't depend on the amount of Ethereum or tokens being transacted.
