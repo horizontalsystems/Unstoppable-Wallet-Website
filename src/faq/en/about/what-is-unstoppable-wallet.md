@@ -4,7 +4,7 @@
   
 - A decentralized wallet. No accounts, no emails, no identity checks (KYC, AML).
   
-- A privacy oriented wallet.Does not collect any personal information.
+- A privacy oriented wallet. Does not collect any personal information.
   
 - An open source wallet. All code is public, anyone can check how it works.
   
@@ -12,4 +12,4 @@
   
 - A multi-currency wallet that supports all major crypto assets.
   
-- A DeFi enabled wallet.
+- A DeFi enabled wallet. A swiss-knife for DeFi ecosystem.

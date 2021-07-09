@@ -6,7 +6,7 @@ The Academy was built to educate users looking to decentralize capital by invest
 
 The Academy goes well beyond covering basics and aims to:
 
-1. take someone from 'zero knowledge' to a level where that person has a solid understanding of how cryptocurrency storage, security and privacy works.
+1. take someone from 'zero knowledge' to a level with a solid understanding of how cryptocurrency storage, security and privacy works.
   
 2. onboard someone into the DeFi ecosystem, how it works, opportunities it provides and how to get started.
 

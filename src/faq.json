@@ -251,35 +251,35 @@
       },
       {
         "en": {
-          "title": "Are there risks when using Unstoppable?",
+          "title": "What are risks when using Unstoppable?",
           "markdown": "faq/en/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "ru": {
-          "title": "Are there risks when using Unstoppable?",
+          "title": "What are risks when using Unstoppable?",
           "markdown": "faq/ru/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "de": {
-          "title": "Are there risks when using Unstoppable?",
+          "title": "What are risks when using Unstoppable?",
           "markdown": "faq/de/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "es": {
-          "title": "Are there risks when using Unstoppable?",
+          "title": "What are risks when using Unstoppable?",
           "markdown": "faq/es/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "fr": {
-          "title": "Are there risks when using Unstoppable?",
+          "title": "What are risks when using Unstoppable?",
           "markdown": "faq/fr/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "tr": {
-          "title": "Are there risks when using Unstoppable?",
+          "title": "What are risks when using Unstoppable?",
           "markdown": "faq/tr/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "zh": {
-          "title": "Are there risks when using Unstoppable?",
+          "title": "What are risks when using Unstoppable?",
           "markdown": "faq/zh/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "ko": {
-          "title": "Are there risks when using Unstoppable?",
+          "title": "What are risks when using Unstoppable?",
           "markdown": "faq/ko/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         }
       },
@@ -925,35 +925,35 @@
       },
       {
         "en": {
-          "title": "What a triangle alert coin on a coin means?",
+          "title": "What a triangle alert on a coin means?",
           "markdown": "faq/en/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
         },
         "ru": {
-          "title": "What a triangle alert coin on a coin means?",
+          "title": "What a triangle alert on a coin means?",
           "markdown": "faq/ru/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
         },
         "de": {
-          "title": "What a triangle alert coin on a coin means?",
+          "title": "What a triangle alert on a coin means??",
           "markdown": "faq/de/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
         },
         "es": {
-          "title": "What a triangle alert coin on a coin means?",
+          "title": "What a triangle alert on a coin means??",
           "markdown": "faq/es/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
         },
         "fr": {
-          "title": "What a triangle alert coin on a coin means?",
+          "title": "What a triangle alert on a coin means??",
           "markdown": "faq/fr/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
         },
         "tr": {
-          "title": "What a triangle alert coin on a coin means?",
+          "title": "What a triangle alert on a coin means??",
           "markdown": "faq/tr/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
         },
         "zh": {
-          "title": "What a triangle alert coin on a coin means?",
+          "title": "What a triangle alert on a coin means??",
           "markdown": "faq/zh/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
         },
         "ko": {
-          "title": "What a triangle alert coin on a coin means?",
+          "title": "What a triangle alert on a coin means??",
           "markdown": "faq/ko/balance/what-a-triangle-alert-icon-on-a-coin-means.md"
         }
       },
@@ -1095,103 +1095,103 @@
       },
       {
         "en": {
-          "title": "How to change base currency for the wallet?",
+          "title": "How to change the base currency?",
           "markdown": "faq/en/balance/how-to-change-base-currency-for-the-wallet.md"
         },
         "ru": {
-          "title": "How to change base currency for the wallet?",
+          "title": "How to change the base currency?",
           "markdown": "faq/ru/balance/how-to-change-base-currency-for-the-wallet.md"
         },
         "de": {
-          "title": "How to change base currency for the wallet?",
+          "title": "How to change the base currency?",
           "markdown": "faq/de/balance/how-to-change-base-currency-for-the-wallet.md"
         },
         "es": {
-          "title": "How to change base currency for the wallet?",
+          "title": "How to change the base currency?",
           "markdown": "faq/es/balance/how-to-change-base-currency-for-the-wallet.md"
         },
         "fr": {
-          "title": "How to change base currency for the wallet?",
+          "title": "How to change the base currency?",
           "markdown": "faq/fr/balance/how-to-change-base-currency-for-the-wallet.md"
         },
         "tr": {
-          "title": "How to change base currency for the wallet?",
+          "title": "How to change the base currency?",
           "markdown": "faq/tr/balance/how-to-change-base-currency-for-the-wallet.md"
         },
         "zh": {
-          "title": "How to change base currency for the wallet?",
+          "title": "How to change the base currency?",
           "markdown": "faq/zh/balance/how-to-change-base-currency-for-the-wallet.md"
         },
         "ko": {
-          "title": "How to change base currency for the wallet?",
+          "title": "How to change the base currency?",
           "markdown": "faq/ko/balance/how-to-change-base-currency-for-the-wallet.md"
         }
       },
       {
         "en": {
-          "title": "Why there are random token balances appearing in my wallet?",
+          "title": "Why some unknown tokens show balances?",
           "markdown": "faq/en/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "ru": {
-          "title": "Why there are random token balances appearing in my wallet?",
+          "title": "Why some unknown tokens show balances??",
           "markdown": "faq/ru/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "de": {
-          "title": "Why there are random token balances appearing in my wallet?",
+          "title": "Why some unknown tokens show balances??",
           "markdown": "faq/de/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "es": {
-          "title": "Why there are random token balances appearing in my wallet?",
+          "title": "Why some unknown tokens show balances??",
           "markdown": "faq/es/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "fr": {
-          "title": "Why there are random token balances appearing in my wallet?",
+          "title": "Why some unknown tokens show balances??",
           "markdown": "faq/fr/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "tr": {
-          "title": "Why there are random token balances appearing in my wallet?",
+          "title": "Why some unknown tokens show balances??",
           "markdown": "faq/tr/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "zh": {
-          "title": "Why there are random token balances appearing in my wallet?",
+          "title": "Why some unknown tokens show balances??",
           "markdown": "faq/zh/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "ko": {
-          "title": "Why there are random token balances appearing in my wallet?",
+          "title": "Why some unknown tokens show balances??",
           "markdown": "faq/ko/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         }
       },
       {
         "en": {
-          "title": "Why the exchange rate for the token not shown?",
+          "title": "Why exchange rate for coin not shown?",
           "markdown": "faq/en/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
         },
         "ru": {
-          "title": "Why the exchange rate for the token not shown?",
+          "title": "Why exchange rate for coin not shown?",
           "markdown": "faq/ru/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
         },
         "de": {
-          "title": "Why the exchange rate for the token not shown?",
+          "title": "Why exchange rate for coin not shown?",
           "markdown": "faq/de/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
         },
         "es": {
-          "title": "Why the exchange rate for the token not shown?",
+          "title": "Why exchange rate for coin not shown?",
           "markdown": "faq/es/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
         },
         "fr": {
-          "title": "Why the exchange rate for the token not shown?",
+          "title": "Why exchange rate for coin not shown?",
           "markdown": "faq/fr/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
         },
         "tr": {
-          "title": "Why the exchange rate for the token not shown?",
+          "title": "Why exchange rate for coin not shown?",
           "markdown": "faq/tr/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
         },
         "zh": {
-          "title": "Why the exchange rate for the token not shown?",
+          "title": "Why exchange rate for coin not shown?",
           "markdown": "faq/zh/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
         },
         "ko": {
-          "title": "Why the exchange rate for the token not shown?",
+          "title": "Why exchange rate for coin not shown?",
           "markdown": "faq/ko/balance/why-the-exchange-rate-dor-the-token-not-shown.md"
         }
       }
@@ -1245,35 +1245,35 @@
       },
       {
         "en": {
-          "title": "Is Unstoppable less secure than hardware wallets?",
+          "title": "Is Unstoppable safer than hardware wallet?",
           "markdown": "faq/en/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "ru": {
-          "title": "Is Unstoppable less secure than hardware wallets?",
+          "title": "Is Unstoppable safer than hardware wallet?",
           "markdown": "faq/ru/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "de": {
-          "title": "Is Unstoppable less secure than hardware wallets?",
+          "title": "Is Unstoppable safer than hardware wallet?",
           "markdown": "faq/de/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "es": {
-          "title": "Is Unstoppable less secure than hardware wallets?",
+          "title": "Is Unstoppable safer than hardware wallet?",
           "markdown": "faq/es/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "fr": {
-          "title": "Is Unstoppable less secure than hardware wallets?",
+          "title": "Is Unstoppable safer than hardware wallet?",
           "markdown": "faq/fr/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "tr": {
-          "title": "Is Unstoppable less secure than hardware wallets?",
+          "title": "Is Unstoppable safer than hardware wallet?",
           "markdown": "faq/tr/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "zh": {
-          "title": "Is Unstoppable less secure than hardware wallets?",
+          "title": "Is Unstoppable safer than hardware wallet?",
           "markdown": "faq/zh/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "ko": {
-          "title": "Is Unstoppable less secure than hardware wallets?",
+          "title": "Is Unstoppable safer than hardware wallet?",
           "markdown": "faq/ko/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         }
       },
@@ -2123,35 +2123,35 @@
       },
       {
         "en": {
-          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "title": "What do BIP 44/49/84 mean in Bitcoin?",
           "markdown": "faq/en/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
         },
         "ru": {
-          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "title": "What do BIP 44/49/84 mean in Bitcoin?",
           "markdown": "faq/ru/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
         },
         "de": {
-          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "title": "What do BIP 44/49/84 mean in Bitcoin?",
           "markdown": "faq/de/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
         },
         "es": {
-          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "title": "What do BIP 44/49/84 mean in Bitcoin?",
           "markdown": "faq/es/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
         },
         "fr": {
-          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "title": "What do BIP 44/49/84 mean in Bitcoin?",
           "markdown": "faq/fr/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
         },
         "tr": {
-          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "title": "What do BIP 44/49/84 mean in Bitcoin?",
           "markdown": "faq/tr/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
         },
         "zh": {
-          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "title": "What do BIP 44/49/84 mean in Bitcoin?",
           "markdown": "faq/zh/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
         },
         "ko": {
-          "title": "What do BIP44 / BIP49 / BIP84 mean in Bitcoin?",
+          "title": "What do BIP 44/49/84 mean in Bitcoin?",
           "markdown": "faq/ko/bitcoin/what-do-bip44-bip49-bip84-mean-in-bitcoin.md"
         }
       },
@@ -2225,35 +2225,35 @@
       },
       {
         "en": {
-          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "title": "How to send time-locked Bitcoin transactions?",
           "markdown": "faq/en/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
         },
         "ru": {
-          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "title": "How to send time-locked Bitcoin transactions?",
           "markdown": "faq/ru/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
         },
         "de": {
-          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "title": "How to send time-locked Bitcoin transactions?",
           "markdown": "faq/de/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
         },
         "es": {
-          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "title": "How to send time-locked Bitcoin transactions?",
           "markdown": "faq/es/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
         },
         "fr": {
-          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "title": "How to send time-locked Bitcoin transactions?",
           "markdown": "faq/fr/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
         },
         "tr": {
-          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "title": "How to send time-locked Bitcoin transactions?",
           "markdown": "faq/tr/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
         },
         "zh": {
-          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "title": "How to send time-locked Bitcoin transactions?",
           "markdown": "faq/zh/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
         },
         "ko": {
-          "title": "How to send Bitcoin transactions that can't be spent until certain date?",
+          "title": "How to send time-locked Bitcoin transactions?",
           "markdown": "faq/ko/bitcoin/how-to-send-bitcoin-transactions-that-can-not-be-spent-until-certain-date.md"
         }
       }
@@ -3084,35 +3084,35 @@
       },
       {
         "en": {
-          "title": "How using TOR and VPN enhances privacy?",
+          "title": "How TOR and VPN enhances privacy?",
           "markdown": "faq/en/privacy/how-using-tor-and-vpn-enhances-privacy.md"
         },
         "ru": {
-          "title": "How using TOR and VPN enhances privacy?",
+          "title": "How TOR and VPN enhances privacy?",
           "markdown": "faq/ru/privacy/how-using-tor-and-vpn-enhances-privacy.md"
         },
         "de": {
-          "title": "How using TOR and VPN enhances privacy?",
+          "title": "How TOR and VPN enhances privacy?",
           "markdown": "faq/de/privacy/how-using-tor-and-vpn-enhances-privacy.md"
         },
         "es": {
-          "title": "How using TOR and VPN enhances privacy?",
+          "title": "How TOR and VPN enhances privacy?",
           "markdown": "faq/es/privacy/how-using-tor-and-vpn-enhances-privacy.md"
         },
         "fr": {
-          "title": "How using TOR and VPN enhances privacy?",
+          "title": "How TOR and VPN enhances privacy?",
           "markdown": "faq/fr/privacy/how-using-tor-and-vpn-enhances-privacy.md"
         },
         "tr": {
-          "title": "How using TOR and VPN enhances privacy?",
+          "title": "How TOR and VPN enhances privacy?",
           "markdown": "faq/tr/privacy/how-using-tor-and-vpn-enhances-privacy.md"
         },
         "zh": {
-          "title": "How using TOR and VPN enhances privacy?",
+          "title": "How TOR and VPN enhances privacy?",
           "markdown": "faq/zh/privacy/how-using-tor-and-vpn-enhances-privacy.md"
         },
         "ko": {
-          "title": "How using TOR and VPN enhances privacy?",
+          "title": "How TOR and VPN enhances privacy?",
           "markdown": "faq/ko/privacy/how-using-tor-and-vpn-enhances-privacy.md"
         }
       },
@@ -3268,103 +3268,103 @@
       },
       {
         "en": {
-          "title": "Which DEXes are supported in Unstoppable?",
+          "title": "Which DEXes Unstoppable supports?",
           "markdown": "faq/en/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "ru": {
-          "title": "Which DEXes are supported in Unstoppable?",
+          "title": "Which DEXes Unstoppable supports?",
           "markdown": "faq/ru/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "de": {
-          "title": "Which DEXes are supported in Unstoppable?",
+          "title": "Which DEXes Unstoppable supports?",
           "markdown": "faq/de/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "es": {
-          "title": "Which DEXes are supported in Unstoppable?",
+          "title": "Which DEXes Unstoppable supports?",
           "markdown": "faq/es/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "fr": {
-          "title": "Which DEXes are supported in Unstoppable?",
+          "title": "Which DEXes Unstoppable supports?",
           "markdown": "faq/fr/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "tr": {
-          "title": "Which DEXes are supported in Unstoppable?",
+          "title": "Which DEXes Unstoppable supports?",
           "markdown": "faq/tr/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "zh": {
-          "title": "Which DEXes are supported in Unstoppable?",
+          "title": "Which DEXes Unstoppable supports?",
           "markdown": "faq/zh/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         },
         "ko": {
-          "title": "Which DEXes are supported in Unstoppable?",
+          "title": "Which DEXes Unstoppable supports?",
           "markdown": "faq/ko/dexes-swaps/which-dexes-supported-in-unstoppable.md"
         }
       },
       {
         "en": {
-          "title": "How to swap cryptocurrency in Unstoppable?",
+          "title": "How to swap cryptocurrency?",
           "markdown": "faq/en/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
         },
         "ru": {
-          "title": "How to swap cryptocurrency in Unstoppable?",
+          "title": "How to swap cryptocurrency?",
           "markdown": "faq/ru/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
         },
         "de": {
-          "title": "How to swap cryptocurrency in Unstoppable?",
+          "title": "How to swap cryptocurrency?",
           "markdown": "faq/de/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
         },
         "es": {
-          "title": "How to swap cryptocurrency in Unstoppable?",
+          "title": "How to swap cryptocurrency?",
           "markdown": "faq/es/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
         },
         "fr": {
-          "title": "How to swap cryptocurrency in Unstoppable?",
+          "title": "How to swap cryptocurrency?",
           "markdown": "faq/fr/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
         },
         "tr": {
-          "title": "How to swap cryptocurrency in Unstoppable?",
+          "title": "How to swap cryptocurrency?",
           "markdown": "faq/tr/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
         },
         "zh": {
-          "title": "How to swap cryptocurrency in Unstoppable?",
+          "title": "How to swap cryptocurrency?",
           "markdown": "faq/zh/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
         },
         "ko": {
-          "title": "How to swap cryptocurrency in Unstoppable?",
+          "title": "How to swap cryptocurrency?",
           "markdown": "faq/ko/dexes-swaps/how-to-swap-cryptocurrency-in-unstoppable.md"
         }
       },
       {
         "en": {
-          "title": "Are there any limits to swap amounts?",
+          "title": "Are there limits to swap amounts?",
           "markdown": "faq/en/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "ru": {
-          "title": "Are there any limits to swap amounts?",
+          "title": "Are there limits to swap amounts?",
           "markdown": "faq/ru/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "de": {
-          "title": "Are there any limits to swap amounts?",
+          "title": "Are there limits to swap amounts?",
           "markdown": "faq/de/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "es": {
-          "title": "Are there any limits to swap amounts?",
+          "title": "Are there limits to swap amounts?",
           "markdown": "faq/es/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "fr": {
-          "title": "Are there any limits to swap amounts?",
+          "title": "Are there limits to swap amounts?",
           "markdown": "faq/fr/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "tr": {
-          "title": "Are there any limits to swap amounts?",
+          "title": "Are there limits to swap amounts?",
           "markdown": "faq/tr/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "zh": {
-          "title": "Are there any limits to swap amounts?",
+          "title": "Are there limits to swap amounts?",
           "markdown": "faq/zh/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         },
         "ko": {
-          "title": "Are there any limits to swap amounts?",
+          "title": "Are there limits to swap amounts?",
           "markdown": "faq/ko/dexes-swaps/are-there-any-limitations-to-swap-amounts.md"
         }
       },
