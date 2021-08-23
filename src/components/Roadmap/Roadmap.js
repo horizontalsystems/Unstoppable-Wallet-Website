@@ -63,6 +63,18 @@ const releases = [{
     'UI / UX Improvements',
     'Bug Fixes'
   ]
+}, {
+  version: '0.22',
+  date: 'Aug 16, 2021',
+  title: 'COIN ANALYTICS, NEW TRANSACTIONS, DEX AGGREGATOR, FAQ PAGE',
+  updates: [
+    'Coin Analytics',
+    'New Transactions Tab',
+    'DEX Aggregator',
+    'FAQ Page v2',
+    'Network Change Capabilities',
+    'Zcash Improvements'
+  ]
 }]
 
 function Roadmap() {
