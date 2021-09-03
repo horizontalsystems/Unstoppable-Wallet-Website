@@ -30,13 +30,17 @@
 }
 
 .Featured-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 
-  @include xl {
-    flex-wrap: nowrap;
+  @include md {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @include lg {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
