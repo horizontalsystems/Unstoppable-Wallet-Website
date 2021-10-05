@@ -14,16 +14,14 @@ Github
 
 [https://github.com/horizontalsystems](https://github.com/horizontalsystems)
 
-Telegram (Channel)
-
-[https://t.me/unstoppable_announcements](https://t.me/unstoppable_announcements)
-
 Do not trust anyone outside official channels. There are a number of fake groups and channels impersonating the Unstoppable team on Telegram and Twitter. Be aware!
 
 Never share your wallet private keys (aka 12-24 word mnemonic) with anyone, incl. Unstoppable team. All potential problems with the wallet app can be addressed without the need for a wallet private key.
 
-When contacting the Unstoppable team regarding a problem with the wallet app i.e something is not working as expected, please include:
+When contacting the Unstoppable team regarding a problem with the wallet app please include:
 
 - App Status logs with the message. Sharing app status logs do not carry any risks and are mainly needed for troubleshooting the problem effectively. The logs are located in Settings >> About App >> App Status.
 
 - If the problem relates to some transaction then also include the public transaction ID which can be located by clicking on the respective transaction on the Transactions page.
+
+Never share your wallet private keys (aka 12-24 word mnemonic) with anyone!

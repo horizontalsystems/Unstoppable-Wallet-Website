@@ -17,4 +17,3 @@ Github
 Fdroid
 
 [https://f-droid.org/en/packages/io.horizontalsystems.bankwallet/](https://f-droid.org/en/packages/io.horizontalsystems.bankwallet/)
-

@@ -1,4 +1,4 @@
-# How to activate cryptocurrency for the wallet?
+# How to add coin to the wallet?
 
 On the Balance tab, click on the 'Add coin' button and search for the coin that needs to be added.
 

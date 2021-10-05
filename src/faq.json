@@ -251,15 +251,15 @@
       },
       {
         "en": {
-          "title": "What are risks when using Unstoppable?",
+          "title": "What risks there are when using Unstoppable?",
           "markdown": "faq/en/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "ru": {
-          "title": "What are risks when using Unstoppable?",
+          "title": "What risks there are when using Unstoppable?",
           "markdown": "faq/ru/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "de": {
-          "title": "What are risks when using Unstoppable?",
+          "title": "What risks there are when using Unstoppable?",
           "markdown": "faq/de/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "es": {
@@ -267,7 +267,7 @@
           "markdown": "faq/es/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "fr": {
-          "title": "What are risks when using Unstoppable?",
+          "title": "What risks there are when using Unstoppable?",
           "markdown": "faq/fr/about/are-there-any-risks-when-using-unstoppable-wallet.md"
         },
         "tr": {
@@ -1027,27 +1027,27 @@
       },
       {
         "en": {
-          "title": "Why balance showing incorrect amount?",
+          "title": "Why balance shows incorrect amount?",
           "markdown": "faq/en/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "ru": {
-          "title": "Why balance showing incorrect amount?",
+          "title": "Why balance shows incorrect amount?",
           "markdown": "faq/ru/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "de": {
-          "title": "Why balance showing incorrect amount?",
+          "title": "Why balance shows incorrect amount?",
           "markdown": "faq/de/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "es": {
-          "title": "Why balance showing incorrect amount?",
+          "title": "Why balance shows incorrect amount?",
           "markdown": "faq/es/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "fr": {
-          "title": "Why balance showing incorrect amount?",
+          "title": "Why balance shows incorrect amount?",
           "markdown": "faq/fr/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "tr": {
-          "title": "Why balance showing incorrect amount?",
+          "title": "Why balance shows incorrect amount?",
           "markdown": "faq/tr/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "zh": {
@@ -1055,7 +1055,7 @@
           "markdown": "faq/zh/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         },
         "ko": {
-          "title": "Why balance showing incorrect amount?",
+          "title": "Why balance shows incorrect amount?",
           "markdown": "faq/ko/balance/why-wallet-balance-is-showing-incorrect-amount.md"
         }
       },
@@ -1129,35 +1129,35 @@
       },
       {
         "en": {
-          "title": "Why some unknown tokens show balances?",
+          "title": "What are random token balances appearing in wallet?",
           "markdown": "faq/en/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "ru": {
-          "title": "Why some unknown tokens show balances??",
+          "title": "What are random token balances appearing in wallet?",
           "markdown": "faq/ru/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "de": {
-          "title": "Why some unknown tokens show balances??",
+          "title": "What are random token balances appearing in wallet?",
           "markdown": "faq/de/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "es": {
-          "title": "Why some unknown tokens show balances??",
+          "title": "What are random token balances appearing in wallet?",
           "markdown": "faq/es/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "fr": {
-          "title": "Why some unknown tokens show balances??",
+          "title": "What are random token balances appearing in wallet?",
           "markdown": "faq/fr/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "tr": {
-          "title": "Why some unknown tokens show balances??",
+          "title": "What are random token balances appearing in wallet?",
           "markdown": "faq/tr/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "zh": {
-          "title": "Why some unknown tokens show balances??",
+          "title": "What are random token balances appearing in wallet?",
           "markdown": "faq/zh/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         },
         "ko": {
-          "title": "Why some unknown tokens show balances??",
+          "title": "What are random token balances appearing in wallet?",
           "markdown": "faq/ko/balance/why-there-are-random-token-balances-appearing-in-my-wallet.md"
         }
       },
@@ -1245,35 +1245,35 @@
       },
       {
         "en": {
-          "title": "Is Unstoppable safer than hardware wallet?",
+          "title": "Is Unstoppable safer than a hardware wallet?",
           "markdown": "faq/en/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "ru": {
-          "title": "Is Unstoppable safer than hardware wallet?",
+          "title": "Is Unstoppable safer than a hardware wallet?",
           "markdown": "faq/ru/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "de": {
-          "title": "Is Unstoppable safer than hardware wallet?",
+          "title": "Is Unstoppable safer than a hardware wallet?",
           "markdown": "faq/de/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "es": {
-          "title": "Is Unstoppable safer than hardware wallet?",
+          "title": "Is Unstoppable safer than a hardware wallet?",
           "markdown": "faq/es/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "fr": {
-          "title": "Is Unstoppable safer than hardware wallet?",
+          "title": "Is Unstoppable safer than a hardware wallet?",
           "markdown": "faq/fr/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "tr": {
-          "title": "Is Unstoppable safer than hardware wallet?",
+          "title": "Is Unstoppable safer than a hardware wallet?",
           "markdown": "faq/tr/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "zh": {
-          "title": "Is Unstoppable safer than hardware wallet?",
+          "title": "Is Unstoppable safer than a hardware wallet?",
           "markdown": "faq/zh/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         },
         "ko": {
-          "title": "Is Unstoppable safer than hardware wallet?",
+          "title": "Is Unstoppable safer than a hardware wallet?",
           "markdown": "faq/ko/security/is-unstoppable-less-secure-than-hardware-wallets.md"
         }
       },
