@@ -2749,6 +2749,40 @@
       },
       {
         "en": {
+          "title": "What are ERC20 tokens?",
+          "markdown": "faq/en/ethereum/what-are-erc20-tokens.md"
+        },
+        "ru": {
+          "title": "Why Ethereum and ERC20 addresses are same?",
+          "markdown": "faq/en/ethereum/what-are-erc20-tokens.md"
+        },
+        "de": {
+          "title": "Why Ethereum and ERC20 addresses are same?",
+          "markdown": "faq/en/ethereum/what-are-erc20-tokens.md"
+        },
+        "es": {
+          "title": "Why Ethereum and ERC20 addresses are same?",
+          "markdown": "faq/en/ethereum/what-are-erc20-tokens.md"
+        },
+        "fr": {
+          "title": "Why Ethereum and ERC20 addresses are same?",
+          "markdown": "faq/en/ethereum/what-are-erc20-tokens.md"
+        },
+        "tr": {
+          "title": "Why Ethereum and ERC20 addresses are same?",
+          "markdown": "faq/en/ethereum/what-are-erc20-tokens.md"
+        },
+        "zh": {
+          "title": "Why Ethereum and ERC20 addresses are same?",
+          "markdown": "faq/en/ethereum/what-are-erc20-tokens.md"
+        },
+        "ko": {
+          "title": "Why Ethereum and ERC20 addresses are same?",
+          "markdown": "faq/en/ethereum/what-are-erc20-tokens.md"
+        }
+      },
+      {
+        "en": {
           "title": "Why Ethereum and ERC20 addresses are same?",
           "markdown": "faq/en/ethereum/why-ethereum-and-erc20-token-address-stays-always-same.md"
         },
