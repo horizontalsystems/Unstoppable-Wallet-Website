@@ -2817,6 +2817,40 @@
       },
       {
         "en": {
+          "title": "How to add ERC20 token to balance?",
+          "markdown": "faq/en/ethereum/how-to-add-erc20-token.md"
+        },
+        "ru": {
+          "title": "How to add ERC20 token to balance?",
+          "markdown": "faq/en/ethereum/how-to-add-erc20-token.md"
+        },
+        "de": {
+          "title": "How to add ERC20 token to balance?",
+          "markdown": "faq/en/ethereum/how-to-add-erc20-token.md"
+        },
+        "es": {
+          "title": "How to add ERC20 token to balance?",
+          "markdown": "faq/en/ethereum/how-to-add-erc20-token.md"
+        },
+        "fr": {
+          "title": "How to add ERC20 token to balance?",
+          "markdown": "faq/en/ethereum/how-to-add-erc20-token.md"
+        },
+        "tr": {
+          "title": "How to add ERC20 token to balance?",
+          "markdown": "faq/en/ethereum/how-to-add-erc20-token.md"
+        },
+        "zh": {
+          "title": "How to add ERC20 token to balance?",
+          "markdown": "faq/en/ethereum/how-to-add-erc20-token.md"
+        },
+        "ko": {
+          "title": "How to add ERC20 token to balance?",
+          "markdown": "faq/en/ethereum/how-to-add-erc20-token.md"
+        }
+      },
+      {
+        "en": {
           "title": "Is it safe to share Ethereum address?",
           "markdown": "faq/en/ethereum/is-it-safe-to-share-ethereum-receive-address-with-other.md"
         },
@@ -2963,6 +2997,40 @@
         "ko": {
           "title": "What are BEP2 tokens?",
           "markdown": "faq/ko/binance/what-are-bep2-tokens.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to add BEP20 or BEP2 token to balance?",
+          "markdown": "faq/en/binance/how-to-add-bep20-bep2-token.md"
+        },
+        "ru": {
+          "title": "How to add BEP20 or BEP2 token to balance?",
+          "markdown": "faq/en/binance/how-to-add-bep20-bep2-token.md"
+        },
+        "de": {
+          "title": "How to add BEP20 or BEP2 token to balance?",
+          "markdown": "faq/en/binance/how-to-add-bep20-bep2-token.md"
+        },
+        "es": {
+          "title": "How to add BEP20 or BEP2 token to balance?",
+          "markdown": "faq/en/binance/how-to-add-bep20-bep2-token.md"
+        },
+        "fr": {
+          "title": "How to add BEP20 or BEP2 token to balance?",
+          "markdown": "faq/en/binance/how-to-add-bep20-bep2-token.md"
+        },
+        "tr": {
+          "title": "How to add BEP20 or BEP2 token to balance?",
+          "markdown": "faq/en/binance/how-to-add-bep20-bep2-token.md"
+        },
+        "zh": {
+          "title": "How to add BEP20 or BEP2 token to balance?",
+          "markdown": "faq/en/binance/how-to-add-bep20-bep2-token.md"
+        },
+        "ko": {
+          "title": "How to add BEP20 or BEP2 token to balance?",
+          "markdown": "faq/en/binance/how-to-add-bep20-bep2-token.md"
         }
       }
     ]
