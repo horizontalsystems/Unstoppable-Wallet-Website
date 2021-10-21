@@ -3641,5 +3641,189 @@
         }
       }
     ]
+  },
+  {
+    "section": {
+      "en": "DeFi / WalletConnect",
+      "ru": "DeFi / WalletConnect",
+      "de": "DeFi / WalletConnect",
+      "es": "DeFi / WalletConnect",
+      "fr": "DeFi / WalletConnect",
+      "tr": "DeFi / WalletConnect",
+      "zh": "DeFi / WalletConnect",
+      "ko": "DeFi / WalletConnect"
+    },
+    "items": [
+      {
+        "en": {
+          "title": "What is Decentralized Finance?",
+          "markdown": "faq/en/defi/what-is-defi.md"
+        },
+        "ru": {
+          "title": "What is Decentralized Finance?",
+          "markdown": "faq/en/defi/what-is-defi.md"
+        },
+        "de": {
+          "title": "What is Decentralized Finance?",
+          "markdown": "faq/en/defi/what-is-defi.md"
+        },
+        "es": {
+          "title": "What is Decentralized Finance?",
+          "markdown": "faq/en/defi/what-is-defi.md"
+        },
+        "fr": {
+          "title": "What is Decentralized Finance?",
+          "markdown": "faq/en/defi/what-is-defi.md"
+        },
+        "tr": {
+          "title": "What is Decentralized Finance?",
+          "markdown": "faq/en/defi/what-is-defi.md"
+        },
+        "zh": {
+          "title": "What is Decentralized Finance?",
+          "markdown": "faq/en/defi/what-is-defi.md"
+        },
+        "ko": {
+          "title": "What is Decentralized Finance?",
+          "markdown": "faq/en/defi/what-is-defi.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What are popular DeFi services?",
+          "markdown": "faq/en/defi/popular-defi-services.md"
+        },
+        "ru": {
+          "title": "What are popular DeFi services?",
+          "markdown": "faq/en/defi/popular-defi-services.md"
+        },
+        "de": {
+          "title": "What are popular DeFi services?",
+          "markdown": "faq/en/defi/popular-defi-services.md"
+        },
+        "es": {
+          "title": "What are popular DeFi services?",
+          "markdown": "faq/en/defi/popular-defi-services.md"
+        },
+        "fr": {
+          "title": "What are popular DeFi services?",
+          "markdown": "faq/en/defi/popular-defi-services.md"
+        },
+        "tr": {
+          "title": "What are popular DeFi services?",
+          "markdown": "faq/en/defi/popular-defi-services.md"
+        },
+        "zh": {
+          "title": "What are popular DeFi services?",
+          "markdown": "faq/en/defi/popular-defi-services.md"
+        },
+        "ko": {
+          "title": "What are popular DeFi services?",
+          "markdown": "faq/en/defi/popular-defi-services.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How to use DeFi with Unstoppable?",
+          "markdown": "faq/en/defi/how-to-use-defi.md"
+        },
+        "ru": {
+          "title": "How to use DeFi with Unstoppable?",
+          "markdown": "faq/en/defi/how-to-use-defi.md"
+        },
+        "de": {
+          "title": "How to use DeFi with Unstoppable?",
+          "markdown": "faq/en/defi/how-to-use-defi.md"
+        },
+        "es": {
+          "title": "How to use DeFi with Unstoppable?",
+          "markdown": "faq/en/defi/how-to-use-defi.md"
+        },
+        "fr": {
+          "title": "How to use DeFi with Unstoppable?",
+          "markdown": "faq/en/defi/how-to-use-defi.md"
+        },
+        "tr": {
+          "title": "How to use DeFi with Unstoppable?",
+          "markdown": "faq/en/defi/how-to-use-defi.md"
+        },
+        "zh": {
+          "title": "How to use DeFi with Unstoppable?",
+          "markdown": "faq/en/defi/how-to-use-defi.md"
+        },
+        "ko": {
+          "title": "How to use DeFi with Unstoppable?",
+          "markdown": "faq/en/defi/how-to-use-defi.md"
+        }
+      },
+      {
+        "en": {
+          "title": "How To Monitor WalletConnect transactions?",
+          "markdown": "faq/en/defi/defi-transactions.md"
+        },
+        "ru": {
+          "title": "How To Monitor WalletConnect transactions?",
+          "markdown": "faq/en/defi/defi-transactions.md"
+        },
+        "de": {
+          "title": "How To Monitor WalletConnect transactions?",
+          "markdown": "faq/en/defi/defi-transactions.md"
+        },
+        "es": {
+          "title": "How To Monitor WalletConnect transactions?",
+          "markdown": "faq/en/defi/defi-transactions.md"
+        },
+        "fr": {
+          "title": "How To Monitor WalletConnect transactions?",
+          "markdown": "faq/en/defi/defi-transactions.md"
+        },
+        "tr": {
+          "title": "How To Monitor WalletConnect transactions?",
+          "markdown": "faq/en/defi/defi-transactions.md"
+        },
+        "zh": {
+          "title": "How To Monitor WalletConnect transactions?",
+          "markdown": "faq/en/defi/defi-transactions.md"
+        },
+        "ko": {
+          "title": "How To Monitor WalletConnect transactions?",
+          "markdown": "faq/en/defi/defi-transactions.md"
+        }
+      },
+      {
+        "en": {
+          "title": "What are risks when using WalletConnect?",
+          "markdown": "faq/en/defi/defi-risks.md"
+        },
+        "ru": {
+          "title": "What are risks when using WalletConnect?",
+          "markdown": "faq/en/defi/defi-risks.md"
+        },
+        "de": {
+          "title": "What are risks when using WalletConnect?",
+          "markdown": "faq/en/defi/defi-risks.md"
+        },
+        "es": {
+          "title": "What are risks when using WalletConnect?",
+          "markdown": "faq/en/defi/defi-risks.md"
+        },
+        "fr": {
+          "title": "What are risks when using WalletConnect?",
+          "markdown": "faq/en/defi/defi-risks.md"
+        },
+        "tr": {
+          "title": "What are risks when using WalletConnect?",
+          "markdown": "faq/en/defi/defi-risks.md"
+        },
+        "zh": {
+          "title": "What are risks when using WalletConnect?",
+          "markdown": "faq/en/defi/defi-risks.md"
+        },
+        "ko": {
+          "title": "What are risks when using WalletConnect?",
+          "markdown": "faq/en/defi/defi-risks.md"
+        }
+      }
+    ]
   }
 ]
