@@ -9,6 +9,7 @@ import coingecko from './coingecko.svg'
 import ens from './ens.svg'
 import blockchair from './blockchair.svg'
 import walletConnect from './wallet-connect.svg'
+import chainlink from './chainlink.svg'
 import ethereum from './ethereum.svg'
 import oneInch from './1inch.svg'
 
@@ -40,6 +41,9 @@ function FeaturedIn() {
           </a>
           <a target="_blank" href="https://walletconnect.org/wallets" rel="noopener noreferrer">
             <img className="Featured-item" src={walletConnect} alt="Wallet Connect" />
+          </a>
+          <a target="_blank" href="https://chain.link/" rel="noopener noreferrer">
+            <img className="Featured-item" src={chainlink} alt="ChainLink" />
           </a>
           <a target="_blank" href="https://ens.domains/" rel="noopener noreferrer">
             <img className="Featured-item" src={ens} alt="ENS" />
