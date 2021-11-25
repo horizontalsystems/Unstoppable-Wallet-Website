@@ -1,4 +1,4 @@
-# Why set an unlock code for the wallet app?
+# Why should an unlock code be set for the wallet app?
 
 Almost all non-custodial wallet types including Unstoppable have measures in place that are meant to keep the cryptocurrency funds secure in cases when the device ends up in unauthorized hands.
 

@@ -1,4 +1,4 @@
-# How to create wallets?
+# How do you create a wallet(s)?
 
 Unstoppable enables convenient management of an unlimited number of wallets where each wallet is capable of storing multiple cryptocurrencies.
 

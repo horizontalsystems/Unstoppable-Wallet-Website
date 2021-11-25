@@ -1,4 +1,4 @@
-# Why transaction value shown incorrectly in recent transaction?
+# Why is a transaction value shown incorrectly in a recent transaction?
 
 To be able to display the overall transferred cryptocurrency amount in fiat (USD, EUR etc) for past crypto transactions Unstoppable needs to know the valid exchange rate at the date of transaction. 
 

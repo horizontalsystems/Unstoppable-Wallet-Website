@@ -1,4 +1,4 @@
-# What steps to take if I lost my phone?
+# What steps should I take if I lose my phone?
 
 In cases when a phone with the wallet app is lost or no longer available the wallet owner can get a new device and restore access to the wallet on a new device.
 

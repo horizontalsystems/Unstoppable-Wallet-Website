@@ -1,4 +1,4 @@
-# How to resend a failed Bitcoin transaction?
+# How do you resend a failed Bitcoin transaction?
 
 When users send Bitcoin transactions with a really low fee value such transactions are likely to stay pending for a short time and get rejected by the network like it never happened.
 

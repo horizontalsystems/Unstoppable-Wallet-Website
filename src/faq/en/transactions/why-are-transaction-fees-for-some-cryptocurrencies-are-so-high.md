@@ -1,4 +1,4 @@
-# Why transaction fees for some crypto are so high?
+# Why are transaction fees for some cryptocurrencies so high?
 
 The transaction fee amount depends on multiple factors with the most important being the business and the capacity of the blockchain network for the given cryptocurrency.
 

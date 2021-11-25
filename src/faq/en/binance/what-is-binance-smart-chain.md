@@ -8,7 +8,7 @@ BSC allows for much cheaper transactions as a result of having a fixed number of
 
 Things to keep in mind when interacting with BSC ecosystem:
 
-- a standalone blockchain with semi centralized architecture
+- a standalone blockchain with semi-centralized architecture
 - has its own cryptocurrency token and ecosystem
 - transaction fees are paid in BNB tokens
 - allows for fast and cheap transactions

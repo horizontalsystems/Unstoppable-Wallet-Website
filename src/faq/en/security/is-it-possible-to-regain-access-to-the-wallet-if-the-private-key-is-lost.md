@@ -6,6 +6,8 @@ Unstoppable is merely a door that allows users to interact with blockchains and 
 
 It's the responsibility of the user to keep them backed up and protected from unauthorized entities. This also means, Unstoppable is not able to:
 
-- Recover wallet private key for the user if its lost.
+- Recover wallet private key for the user if it’s lost.
 - Cancel user's transactions, or even know about them.
 - Interfere with user's tokens or the wallet app.
+
+

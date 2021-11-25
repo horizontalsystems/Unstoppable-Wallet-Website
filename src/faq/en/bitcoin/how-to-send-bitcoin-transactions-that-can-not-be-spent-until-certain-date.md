@@ -1,4 +1,4 @@
-# How to send Bitcoin transactions that can't be spent until certain date?
+# How can you send Bitcoin transactions that can't be spent until a certain date?
 
 Unstoppable wallet provides the ability to send Bitcoin transactions that can't be spent until a certain date in the future. Such capabilities exist on the Bitcoin blockchain but few wallet applications implement them.
 

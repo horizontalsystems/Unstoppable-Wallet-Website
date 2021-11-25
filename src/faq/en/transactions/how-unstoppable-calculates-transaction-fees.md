@@ -1,4 +1,4 @@
-# How Unstoppable calculates transaction fees?
+# How does Unstoppable calculate transaction fees?
 
 Unstoppable wallet app engineered to recommend optimal transaction fee at any given moment. A 100% of the fee goes directly to the network nodes and in no way related to Unstoppable wallet. 
 

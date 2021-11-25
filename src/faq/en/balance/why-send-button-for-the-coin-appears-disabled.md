@@ -1,6 +1,6 @@
-# Why 'send' button appears disabled?
+# Why does the 'send' button for the coin appear disabled?
 
-In certain cases the 'Send' button may appear disabled (dimmed) in the interface.
+In certain cases, the 'Send' button may appear disabled (dimmed) in the interface.
 
 This happens when:
 

@@ -1,4 +1,4 @@
-# Is it safe to share payment address with others?
+# Is it safe to share a payment address with others?
 
 Users need to share their payment address with anyone they're expecting to get paid from.
 

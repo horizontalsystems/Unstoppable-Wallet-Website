@@ -1,4 +1,4 @@
-# Can a transaction be cancelled?
+# Can a transaction be canceled?
 
 Blockchain transactions are irreversible. 
 
