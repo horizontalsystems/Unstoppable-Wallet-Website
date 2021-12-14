@@ -75,6 +75,17 @@ const releases = [{
     'Network Change Capabilities',
     'Zcash Improvements'
   ]
+}, {
+  version: '0.23',
+  date: 'Dec 14, 2021',
+  title: 'UPGRADED ANALYTICS, IMPROVED SWAP, ACCELERATE TRANSACTIONS, LAUNCH SCREEN, CHAINLINK',
+  updates: [
+    'New Markets & Coin Analytics',
+    'Swap Improvements',
+    'Accelerate / Cancel Transactions',
+    'UI Improvements',
+    'Chainlink Partnership'
+  ]
 }]
 
 function Roadmap() {
