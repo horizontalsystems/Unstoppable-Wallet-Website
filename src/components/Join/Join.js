@@ -5,6 +5,7 @@ import twitter from './twitter@3x.png'
 import github from './github@3x.png'
 import telegram from './telegram@3x.png'
 import reddit from './reddit@3x.png'
+import discord from './discord@3x.png'
 import medium from './medium@3x.png'
 
 import './Join.scss'
@@ -43,6 +44,11 @@ function Join() {
               <div className="Join-icon">
                 <a href="https://www.reddit.com/r/UNSTOPPABLEWallet/" target="_blank" rel="noopener noreferrer">
                   <img className="Join-image" src={reddit} alt="reddit" />
+                </a>
+              </div>
+              <div className="Join-icon">
+                <a href="https://discord.gg/3uECHQ3cEk" target="_blank" rel="noopener noreferrer">
+                  <img className="Join-image" src={discord} alt="discord" />
                 </a>
               </div>
               <div className="Join-icon">

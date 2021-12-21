@@ -2,6 +2,7 @@ import React from 'react'
 
 import Container from '../Container'
 import zcash from './zcash.svg'
+import alpaca from './alpaca.svg'
 import dash from './dash.svg'
 import defillama from './defillama.svg'
 import defiyield from './defiyield.svg'
@@ -53,6 +54,9 @@ function FeaturedIn() {
           </a>
           <a target="_blank" href="https://z.cash/wallets/" rel="noopener noreferrer">
             <img className="Featured-item" src={zcash} alt="ZCash" />
+          </a>
+          <a target="_blank" href="https://www.alpacafinance.org/" rel="noopener noreferrer">
+            <img className="Featured-item" src={alpaca} alt="ZCash" />
           </a>
         </div>
       </div>

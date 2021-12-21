@@ -88,6 +88,7 @@ function App() {
 
           <Feature
             icon="chart"
+
             onMouseEnter={() => onMouseEnter('independence', 'market')}
             isActive={feature.independence === 'market'}
             title="Investor Oriented"
