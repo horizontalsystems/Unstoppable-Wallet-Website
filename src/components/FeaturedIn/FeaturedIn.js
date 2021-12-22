@@ -19,7 +19,7 @@ import './Featured.scss'
 function FeaturedIn() {
   return (
     <Container>
-      <div className="Featured py-5">
+      <div className="Featured py-5 mb-5">
         <div className="Featured-text">Ecosystem Partners</div>
         <div className="Featured-list">
           <a target="_blank" href="https://ethereum.org/en/wallets/find-wallet/" rel="noopener noreferrer">
@@ -40,14 +40,14 @@ function FeaturedIn() {
           <a target="_blank" href="https://www.coingecko.com/" rel="noopener noreferrer">
             <img className="Featured-item" src={coingecko} alt="Coin Gecko" />
           </a>
+          <a target="_blank" href="https://ens.domains/" rel="noopener noreferrer">
+            <img className="Featured-item" src={ens} alt="ENS" />
+          </a>
           <a target="_blank" href="https://walletconnect.org/wallets" rel="noopener noreferrer">
             <img className="Featured-item" src={walletConnect} alt="Wallet Connect" />
           </a>
           <a target="_blank" href="https://chain.link/" rel="noopener noreferrer">
             <img className="Featured-item" src={chainlink} alt="ChainLink" />
-          </a>
-          <a target="_blank" href="https://ens.domains/" rel="noopener noreferrer">
-            <img className="Featured-item" src={ens} alt="ENS" />
           </a>
           <a target="_blank" href="https://docs.dash.org/en/stable/wallets/third-party.html#unstoppable" rel="noopener noreferrer">
             <img className="Featured-item" src={dash} alt="Dash" />

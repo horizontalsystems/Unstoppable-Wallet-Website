@@ -33,7 +33,7 @@
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 50px;
 
   @include md {
     grid-template-columns: 1fr 1fr 1fr;
