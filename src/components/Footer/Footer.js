@@ -28,7 +28,7 @@ class Footer extends React.Component {
               </div>
             </a>
 
-            <span>@ 2021 HorizontalSystems</span>
+            <span>@ 2022 HorizontalSystems</span>
           </div>
         </Container>
       </header>
