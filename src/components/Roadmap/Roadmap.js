@@ -86,6 +86,17 @@ const releases = [{
     'UI Improvements',
     'Chainlink Partnership'
   ]
+}, {
+  version: '0.24',
+  date: 'Mar 11, 2022',
+  title: 'NFT SUPPORT, WATCH ADDRESS, EIP-1559, WALLETCONNECT V2, EVM BLOCKCHAINS',
+  updates: [
+    'NFT Support Integration',
+    'Watch Address (Read-Only Wallets)',
+    'EIP-1559',
+    'WalletConnect v2',
+    'Polygon Blockchain Support (iOS only)'
+  ]
 }]
 
 function Roadmap() {
