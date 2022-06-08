@@ -97,6 +97,17 @@ const releases = [{
     'WalletConnect v2',
     'Polygon Blockchain Support (iOS only)'
   ]
+}, {
+  version: '0.25',
+  date: 'Jun 8, 2022',
+  title: 'NFT UPDATES, TRANSACTIONS TAB, MARKETS TAB, BALANCE TAB, ZCASH',
+  updates: [
+    'NFT Improvements',
+    'New Transaction Tab',
+    'Markets Improvements',
+    'Balance Tab Redesign',
+    'ZCASH Update'
+  ]
 }]
 
 function Roadmap() {
