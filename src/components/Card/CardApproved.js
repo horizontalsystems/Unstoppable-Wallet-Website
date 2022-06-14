@@ -3,6 +3,7 @@ import { ReactComponent as Check } from './check.svg'
 import Bitcoin from './bitcoin.svg'
 import Certik from './certik.svg'
 import WalletScrutiny from './wallet-scrutiny.svg'
+import Immunefi from './immunefi.svg'
 
 import './Card.scss'
 
@@ -12,6 +13,8 @@ function CardApproved({ title, info, by }) {
     image = Bitcoin
   } else if (by === 'Certik') {
     image = Certik
+  } else if (by === 'Immunefi') {
+    image = Immunefi
   } else {
     image = WalletScrutiny
   }

@@ -13,7 +13,7 @@ function OpenSource() {
         <p className="text-center py-3 mb-5 text-grey">
           Use a wallet with a fully open code that meets stated specifications.
         </p>
-        <Slider slidesToScroll={3} slidesToShow={3}>
+        <Slider slidesToScroll={4} slidesToShow={4}>
           <CardApproved
             by="Bitcoin"
             title="Approved By Bitcoin.org"
@@ -32,6 +32,16 @@ function OpenSource() {
               <>
                 Unstoppable was audited by <a href="https://www.certik.org/projects/unstoppable.money" target="_blank" rel="noopener noreferrer"
                                               className="color-link">Certik.org</a> where both iOS and Android versions of the app were checked for
+                potential backdoors and vulnerabilities. No major or minor issues were found.
+              </>
+            } />
+          <CardApproved
+            by="Immunefi"
+            title="Audited By Immunefi"
+            info={
+              <>
+                Unstoppable was audited by <a href="https://immunefi.com/bounty/unstoppablewallet/" target="_blank" rel="noopener noreferrer"
+                                              className="color-link">Immunefi.com</a> where both iOS and Android versions of the app were checked for
                 potential backdoors and vulnerabilities. No major or minor issues were found.
               </>
             } />

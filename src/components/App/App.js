@@ -36,7 +36,7 @@ function App() {
       </div>
 
       <div id="page-3" className="Page-dark">
-        <Page img="hand"
+        <Page img="bc-musta"
               onMouseLeave={() => onMouseLeave('hand')}
               featureImg={feature.hand}
               text="Unchain Assets"
@@ -66,7 +66,7 @@ function App() {
         </Page>
       </div>
       <div id="page-4" className="Page-black">
-        <Page img="independence"
+        <Page img="bc-yak"
               onMouseLeave={() => onMouseLeave('independence')}
               featureImg={feature.independence}
               text="Go Borderless"
@@ -101,7 +101,7 @@ function App() {
         </Page>
       </div>
       <div id="page-5" className="Page-dark">
-        <Page img="face"
+        <Page img="bc-leo"
               onMouseLeave={() => onMouseLeave('face')}
               featureImg={feature.face}
               text="Stay Private"
