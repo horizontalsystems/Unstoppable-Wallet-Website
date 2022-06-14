@@ -28,7 +28,7 @@ function Page({ img, featureImg, text, info, children, rtl, onMouseLeave }) {
             />
           </div>
           <div className="Page-end">
-            <div className="Page-title">
+            <div className="Page-title text-gradient">
               {text}
             </div>
             <div className="Page-info">

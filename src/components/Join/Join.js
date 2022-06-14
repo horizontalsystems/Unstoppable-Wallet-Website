@@ -16,7 +16,7 @@ function Join() {
       <div className="Section-head Section-join Page-rtl">
         <div className="Page-content">
           <div className="Page-end">
-            <div className="Section-text Join-section-text">
+            <div className="Section-text Join-section-text text-gradient">
               Join Unstoppables
             </div>
             <div className="Section-info Join-section-info">

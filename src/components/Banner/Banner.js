@@ -21,7 +21,7 @@ function Banner() {
         </div>
         <div className="Banner-end">
           <div className="Banner-end-content">
-            <div className="Banner-title">
+            <div className="Banner-title text-gradient">
               Be Unstoppable
             </div>
             <div className="Banner-title-slogan my-2 py-2 mb-3">

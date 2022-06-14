@@ -7,7 +7,9 @@ function OpenSource() {
   return (
     <Container>
       <div className="Section-space-top Section-space-bottom">
-        <div className="text-center pb-3 display-5">Open Source</div>
+        <div className="text-center pb-3 display-5 text-gradient fw-normal">
+          Open Source
+        </div>
         <p className="text-center py-3 mb-5 text-grey">
           Use a wallet with a fully open code that meets stated specifications.
         </p>

@@ -3,11 +3,8 @@ import React, { useState } from 'react'
 import Home from '../Home'
 import Page from '../Page'
 import Feature from '../Feature'
-import Wallet from '../Wallet'
 import Footer from '../Footer/Footer'
 import Join from '../Join/Join'
-import PageHighlight from '../PageHighlight/PageHighlight'
-import FeaturesList from '../Features/FeaturesList'
 import GetWallet from '../GetWallet'
 import Quote from '../Quote/Quote'
 import FeaturedIn from '../FeaturedIn'
@@ -38,11 +35,7 @@ function App() {
         <Home />
       </div>
 
-      <div id="page-2" className="Page-dark">
-        <PageHighlight />
-      </div>
-
-      <div id="page-3" className="Page-black">
+      <div id="page-3" className="Page-dark">
         <Page img="hand"
               onMouseLeave={() => onMouseLeave('hand')}
               featureImg={feature.hand}
@@ -72,7 +65,7 @@ function App() {
             info="Access and transact from anywhere at any time given there is internet." />
         </Page>
       </div>
-      <div id="page-4" className="Page-dark">
+      <div id="page-4" className="Page-black">
         <Page img="independence"
               onMouseLeave={() => onMouseLeave('independence')}
               featureImg={feature.independence}
@@ -107,7 +100,7 @@ function App() {
 
         </Page>
       </div>
-      <div id="page-5" className="Page-black">
+      <div id="page-5" className="Page-dark">
         <Page img="face"
               onMouseLeave={() => onMouseLeave('face')}
               featureImg={feature.face}
@@ -139,19 +132,11 @@ function App() {
         </Page>
       </div>
 
-      <div id="page-6" className="Page-dark">
-        <FeaturesList />
-      </div>
-
-      <div id="page-7" className="Page-black">
-        <Wallet />
-      </div>
-
-      <div className="Page-dark">
+      <div className="Page-black">
         <OpenSource />
       </div>
 
-      <div className="Page-dark">
+      <div className="Page-black">
         <FeaturedIn />
       </div>
 
@@ -159,13 +144,13 @@ function App() {
         <Quote />
       </div>
 
-      <div className="Page-dark">
+      <div className="Page-black">
         <div className="Wallet-download">
           <GetWallet />
         </div>
       </div>
 
-      <div className="Page-black">
+      <div className="Page-dark">
         <Roadmap />
       </div>
 

@@ -145,7 +145,9 @@ function Roadmap() {
 
   return (
     <div className="Roadmap Section-space-top Section-space-bottom">
-      <div className="text-center pb-5 display-5">Roadmap</div>
+      <div className="text-center pb-5 display-5 text-gradient fw-normal">
+        Roadmap
+      </div>
 
       <Slider {...stepSettings} ref={sliderStep} className="Roadmap-slide">
         <RoadmapItem isStart />

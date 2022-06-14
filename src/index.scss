@@ -25,6 +25,12 @@ body {
   color: $steel_light !important;
 }
 
+.text-gradient {
+  background: -webkit-linear-gradient(0deg, #E1E1E5 0%, #8C8CB6 60%, #B5B5E6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .card-rounded {
   border-radius: 16px !important;
 }
