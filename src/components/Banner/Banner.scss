@@ -2,8 +2,10 @@
 
 .Banner {
   display: flex;
+  margin-top: 80px;
 
   @include sm {
+    margin-top: 20px;
     flex-direction: column;
   }
 }
@@ -20,7 +22,7 @@
   }
 
   @include md {
-    height: 100vh;
+    height: calc(100vh - 80px);
   }
 }
 
@@ -61,22 +63,17 @@
 
 .Banner-img {
   position: absolute;
-  right: 0;
-  width: 100%;
 
   @include sm {
-    height: auto;
-    max-width: 100%;
-    top: 90px;
+    top: 70px;
+    height: 100%;
   }
 }
 
 .Banner-end {
   flex-direction: column;
-  align-items: flex-end;
 
   @include sm {
-    align-items: center;
   }
 
   @include md {
@@ -94,42 +91,53 @@
   align-items: flex-start;
 
   @include sm {
-    margin-top: 60px;
+    margin-top: 90px;
     margin-bottom: 30px;
     align-items: center;
-    width: 100%;
   }
 }
 
 .Banner-title {
-  font-size: 28px;
   font-style: normal;
-  line-height: 38.14px;
+  font-size: 32px;
+  line-height: 44px;
   font-weight: 400;
-  padding-bottom: 35px;
+
+  background: -webkit-linear-gradient(90deg, #E1E1E5 0%, #8C8CB6 60%, #B5B5E6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   @include md {
-    font-size: 30px;
-    line-height: 38px;
-    padding-bottom: 20px;
   }
 
   @include lg {
-    font-size: 40px;
-    line-height: 48.14px;
-    padding-bottom: 20px;
+    font-size: 54px;
+    line-height: 73px;
   }
 
   @include xl {
     font-size: 64px;
     line-height: 87px;
-    padding-bottom: 36px;
   }
 
   @include xxl {
     font-size: 80px;
     line-height: 109px;
-    padding-bottom: 48px;
+  }
+}
+
+.Banner-title-slogan {
+  font-style: normal;
+  font-size: 13px;
+  color: $light-steal;
+
+  @include lg {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  @include xl {
+    font-size: 22px;
   }
 }
 

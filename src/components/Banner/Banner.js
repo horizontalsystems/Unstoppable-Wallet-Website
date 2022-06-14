@@ -21,11 +21,11 @@ function Banner() {
         </div>
         <div className="Banner-end">
           <div className="Banner-end-content">
-            <div className="Banner-title sm-hidden">
-              Be <br /> Unstoppable
-            </div>
-            <div className="Banner-title md-hidden">
+            <div className="Banner-title">
               Be Unstoppable
+            </div>
+            <div className="Banner-title-slogan my-2 py-2 mb-3">
+              Unchain Assets | Go Borderless | Stay Private
             </div>
             <GetWalletActions />
           </div>
