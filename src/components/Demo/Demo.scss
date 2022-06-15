@@ -1,0 +1,61 @@
+@import "../../scss/utils";
+
+.Demo {
+  overflow: hidden;
+  position: relative;
+}
+
+.Demo-container {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+
+  @include sm {
+    grid-template-columns: 1fr;
+  }
+
+  @include md {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+.Demo-content, .Demo-tabs {
+  background-color: $darkest;
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 330px;
+}
+
+.Demo-tabs .tablink {
+  display: block;
+  white-space: nowrap;
+  cursor: pointer;
+  color: $steel_light;
+  padding: 20px 0;
+  width: 100%;
+  border-top: 1px solid $steel_20;
+  transition: 0.3s;
+}
+
+.tablink-header {
+  padding: 4px 0 16px;
+  color: $grey;
+}
+
+.Demo-tabs .tablink:hover {
+  color: $yellow_l;
+}
+
+.Demo-tabs .tablink.active {
+  color: $yellow_d;
+}
+
+.tabcontent {
+  width: 100%;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}

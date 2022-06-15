@@ -12,12 +12,6 @@
   @include lg {
     flex-direction: row;
   }
-
-  @include sm {
-    > div {
-      margin: 0 0 40px;
-    }
-  }
 }
 
 .Feature {
@@ -26,6 +20,14 @@
   flex: 1;
   padding: 16px;
   margin: 0 12px;
+
+  @include sm {
+    margin: 0 0 40px;
+  }
+
+  @include md {
+    margin-bottom: 12px;
+  }
 }
 
 .Feature-card {

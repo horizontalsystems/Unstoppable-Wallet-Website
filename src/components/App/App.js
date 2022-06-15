@@ -10,6 +10,7 @@ import Quote from '../Quote/Quote'
 import FeaturedIn from '../FeaturedIn'
 import Roadmap from '../Roadmap/Roadmap'
 import OpenSource from '../OpenSource/OpenSource'
+import Demo from '../Demo'
 
 import './App.scss'
 
@@ -138,6 +139,10 @@ function App() {
 
       <div className="Page-black">
         <FeaturedIn />
+      </div>
+
+      <div className="Page-black">
+        <Demo />
       </div>
 
       <div id="page-6" className="Page-black">

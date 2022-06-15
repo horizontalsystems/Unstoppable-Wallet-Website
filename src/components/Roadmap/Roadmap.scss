@@ -1,9 +1,13 @@
 @import "../../scss/utils";
 
 .Roadmap {
-  width: 100%;
+  max-height: 100vh;
   overflow: hidden;
   position: relative;
+}
+
+.Roadmap-vertical {
+  max-height: 100vh;
 }
 
 .Roadmap-slide .slick-slide {

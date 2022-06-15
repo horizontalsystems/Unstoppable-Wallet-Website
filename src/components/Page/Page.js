@@ -27,7 +27,7 @@ function Page({ img, featureImg, text, info, children, rtl, onMouseLeave }) {
 
   const image = featureImg
     ? <img key={featureImg} className="Page-img" src={`/images/pages/${featureImg}.png`} srcSet={`/images/pages/${featureImg}@2x.png 2x`} alt={text} />
-    : <img className="Page-img Page-img-big" src={imgIcon} alt={text} />
+    : <img className="Page-img" src={imgIcon} alt={text} />
 
   return (<Container clipped={false}>
     <div className={cn('Page', { 'Page-rtl': rtl })}>
