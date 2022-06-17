@@ -1,7 +1,6 @@
 @import "../../scss/utils";
 
 .Roadmap {
-  max-height: 100vh;
   overflow: hidden;
   position: relative;
 }
@@ -59,4 +58,18 @@
       width: 80% !important;
     }
   }
+}
+
+.Roadmap-content-container {
+  width: 50%;
+
+  @include sm {
+    width: 100% !important;
+  }
+}
+
+.Roadmap-highlights {
+  min-height: 300px;
+  max-height: 500px;
+  overflow-y: auto;
 }

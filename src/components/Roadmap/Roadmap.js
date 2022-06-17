@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import cn from 'classnames'
 import Slider from 'react-slick'
+import Markdown from '../Markdown/Markdown'
+import Container from '../Container'
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -8,109 +10,19 @@ import './Roadmap.scss'
 
 import { ReactComponent as Circle } from './circle.svg'
 
-const releases = [{
-  version: '0.17',
-  date: 'Nov 23, 2020',
-  title: 'ZCASH, UNISWAP, ETHEREUM SOCKET, WALLETCONNECT',
-  updates: [
-    'Zcash Support',
-    'Uniswap Improvements',
-    'Ethereum Socket Support',
-    'WalletConnect Protocol'
-  ]
-}, {
-  version: '0.18',
-  date: 'Dec 9, 2020',
-  title: 'FAQ SECTION, SWAP IMPROVEMENTS, NEW ICONS, PRICE CHARTS, EXTERNAL KEYBOARDS',
-  updates: [
-    'Swap Improvements',
-    'FAQ section',
-    'Enhanced Price Charts',
-    'ZCash Improvements',
-    'Wallet Restore Update',
-    'External Keyboard Support'
-  ]
-}, {
-  version: '0.19',
-  date: 'Feb 17, 2021',
-  title: 'MARKETS TAB, TOKEN AUTO DISCOVERY, IMPROVED TX FEE LOGIC',
-  updates: [
-    'Markets Tab',
-    'DeFi Features',
-    'UI / UX Improvements',
-    'TX Fee Enhancements',
-    'Unstoppable Domains',
-    'Bug Fixes'
-  ]
-}, {
-  version: '0.20',
-  date: 'Apr 22, 2021',
-  title: 'MARKETS TAB, BINANCE SMART CHAIN, PANCAKE DEX, WALLETCONNECT, SWAP SCREEN',
-  updates: [
-    'Markets Tab Enhancements',
-    'Binance Smart Chain',
-    'PancakeSwap Integration',
-    'WalletConnect Improvements',
-    'Bug Fixes'
-  ]
-}, {
-  version: '0.21',
-  date: 'May 26, 2021',
-  title: 'MULTI-WALLET CAPABILITY, MARKETS TAB UPDATED, UI/UX IMPROVEMENTS',
-  updates: [
-    'Multi-Wallet Capability',
-    'Markets Improvements',
-    'UI / UX Improvements',
-    'Bug Fixes'
-  ]
-}, {
-  version: '0.22',
-  date: 'Aug 16, 2021',
-  title: 'COIN ANALYTICS, NEW TRANSACTIONS, DEX AGGREGATOR, FAQ PAGE',
-  updates: [
-    'Coin Analytics',
-    'New Transactions Tab',
-    'DEX Aggregator',
-    'FAQ Page v2',
-    'Network Change Capabilities',
-    'Zcash Improvements'
-  ]
-}, {
-  version: '0.23',
-  date: 'Dec 14, 2021',
-  title: 'UPGRADED ANALYTICS, IMPROVED SWAP, ACCELERATE TRANSACTIONS, LAUNCH SCREEN, CHAINLINK',
-  updates: [
-    'New Markets & Coin Analytics',
-    'Swap Improvements',
-    'Accelerate / Cancel Transactions',
-    'UI Improvements',
-    'Chainlink Partnership'
-  ]
-}, {
-  version: '0.24',
-  date: 'Mar 11, 2022',
-  title: 'NFT SUPPORT, WATCH ADDRESS, EIP-1559, WALLETCONNECT V2, EVM BLOCKCHAINS',
-  updates: [
-    'NFT Support Integration',
-    'Watch Address (Read-Only Wallets)',
-    'EIP-1559',
-    'WalletConnect v2',
-    'Polygon Blockchain Support (iOS only)'
-  ]
-}, {
-  version: '0.25',
-  date: 'Jun 8, 2022',
-  title: 'NFT UPDATES, TRANSACTIONS TAB, MARKETS TAB, BALANCE TAB, ZCASH',
-  updates: [
-    'NFT Improvements',
-    'New Transaction Tab',
-    'Markets Improvements',
-    'Balance Tab Redesign',
-    'ZCASH Update'
-  ]
-}]
+const releases = [
+  { version: '0.17', date: 'Nov 23, 2020' },
+  { version: '0.18', date: 'Dec 9, 2020' },
+  { version: '0.19', date: 'Feb 17, 2021' },
+  { version: '0.20', date: 'Apr 22, 2021' },
+  { version: '0.21', date: 'May 26, 2021' },
+  { version: '0.22', date: 'Aug 16, 2021' },
+  { version: '0.23', date: 'Dec 14, 2021' },
+  { version: '0.24', date: 'Mar 11, 2022' },
+  { version: '0.25', date: 'Jun 8, 2022' }
+]
 
-function Roadmap() {
+export default function Roadmap() {
   const [active, setActive] = useState(releases.length - 1)
 
   const sliderStep = useRef()
@@ -143,6 +55,7 @@ function Roadmap() {
     slidesToScroll: 1
   }
 
+
   return (
     <div className="Roadmap Section-space-top Section-space-bottom">
       <div className="text-center pb-5 display-5 text-gradient fw-normal">
@@ -164,18 +77,16 @@ function Roadmap() {
       </Slider>
       <Slider {...contentSettings} ref={sliderInfo}>
         {releases.map((release, index) =>
-          <div key={index} className="Roadmap-step-info">
-            <RoadmapDetails title={release.title} items={release.updates} version={release.version} />
-          </div>
+          <Container key={index} className="mt-4 Roadmap-content-container">
+            <RoadmapDetails version={release.version} />
+          </Container>
         )}
       </Slider>
     </div>
   )
 }
 
-export default Roadmap
-
-function RoadmapItem({ isActive, date, version, onClick, isStart, isEnd }) {
+export function RoadmapItem({ isActive, date, version, onClick, isStart, isEnd }) {
   if (isStart || isEnd) {
     return (
       <div className="Roadmap-step">
@@ -199,21 +110,13 @@ function RoadmapItem({ isActive, date, version, onClick, isStart, isEnd }) {
   )
 }
 
-function RoadmapDetails({ title, items, version }) {
+function RoadmapDetails({ version }) {
   return (
-    <div className="card card-rounded border-0 bg-steel-10">
-      <div className="card-body">
-        <div className="text-grey border-bottom pb-2">
-          Highlights
-        </div>
-        <div className="pt-3">
-          <div className="border-bottom pb-3 text-uppercase">{title}</div>
-          <ul className="p-0 m-0 pt-3">
-            {items.map((item, index) =>
-              <li key={index} className="list-unstyled">{index + 1} {item}</li>)
-            }
-          </ul>
-        </div>
+    <div className="card card-rounded border-0 bg-steel-10 p-4">
+      <div className="card-body Roadmap-highlights scroll">
+        <Markdown file={require('../../releases/0.25.md')} />
+      </div>
+      <div className="card-footer pt-3">
         <div className="border-top mt-2 pt-2">
           <a href={`https://github.com/horizontalsystems/unstoppable-wallet-android/releases/tag/${version}.0`}
              target="_blank"

@@ -25,7 +25,7 @@ function Demo() {
         <div className="Demo-container mt-5 pt-5">
           <div className="Demo-content">
             <TabContent item="t1" isActive={isActive}>
-              <YoutubeEmbed embedId="-qjzSUdeId0" />
+              <YoutubeEmbed embedId="wavGC1aRdG4" />
             </TabContent>
 
             <TabContent item="t2" isActive={isActive}>
@@ -41,16 +41,16 @@ function Demo() {
             </TabContent>
 
             <TabContent item="t5" isActive={isActive}>
-              <h3>NFT Wallet</h3>
+              <YoutubeEmbed embedId="n4sr8HHzfWA" />
             </TabContent>
           </div>
           <div className="Demo-tabs">
             <div className="tablink-header">Demo Playlist</div>
-            <Tab item="t1" icon={t1} name="Bitcoin Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="t1" icon={t1} name="Watch Address" isActive={isActive} setActive={setState} />
+            <Tab item="t5" icon={t5} name="NFT Wallet" isActive={isActive} setActive={setState} />
             <Tab item="t2" icon={t2} name="Multi Wallet" isActive={isActive} setActive={setState} />
             <Tab item="t3" icon={t3} name="Wallet For Investors" isActive={isActive} setActive={setState} />
             <Tab item="t4" icon={t4} name="DeFi Wallet" isActive={isActive} setActive={setState} />
-            <Tab item="t5" icon={t5} name="NFT Wallet" isActive={isActive} setActive={setState} />
           </div>
         </div>
       </div>
