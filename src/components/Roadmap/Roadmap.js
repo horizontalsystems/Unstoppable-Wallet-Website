@@ -114,7 +114,7 @@ function RoadmapDetails({ version }) {
   return (
     <div className="card card-rounded border-0 bg-steel-10 p-4">
       <div className="card-body Roadmap-highlights scroll">
-        <Markdown file={require('../../releases/0.25.md')} />
+        <Markdown file={require(`../../releases/${version}.md`)} />
       </div>
       <div className="card-footer pt-3">
         <div className="border-top mt-2 pt-2">
