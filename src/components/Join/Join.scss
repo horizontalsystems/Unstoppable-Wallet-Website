@@ -20,11 +20,12 @@
 .Join-section-info {
   width: 100%;
   display: flex;
-  text-align: left;
-  justify-content: left;
+  text-align: left !important;
+  justify-content: left !important;
 
   @include sm {
-    text-align: center;
+    justify-content: center !important;
+    text-align: center !important;
   }
 }
 

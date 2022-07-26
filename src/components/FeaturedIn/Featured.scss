@@ -11,6 +11,7 @@
   font-size: 28px;
   line-height: 39px;
   font-weight: 400;
+  padding-top: 80px;
 
   @include sm {
     padding-bottom: 40px;
@@ -19,13 +20,13 @@
   @include md {
     font-size: 48px;
     line-height: 66px;
-    padding-bottom: 42px;
+    padding-bottom: 60px;
   }
 
   @include xxl {
     font-size: 64px;
     line-height: 89px;
-    padding-bottom: 48px;
+    padding-bottom: 90px;
   }
 }
 

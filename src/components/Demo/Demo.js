@@ -18,7 +18,7 @@ function Demo() {
   return (
     <Container>
       <div className="Demo Section-space-top Section-space-bottom">
-        <div className="text-center pb-5 display-5 text-gradient fw-normal">
+        <div className="Page-header-text text-center pb-5 text-gradient">
           Demos
         </div>
 

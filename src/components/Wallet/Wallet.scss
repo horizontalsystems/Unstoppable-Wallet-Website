@@ -18,6 +18,10 @@
   @include lg {
     padding-top: 110px;
   }
+
+  @include xxl {
+    padding-top: 160px;
+  }
 }
 
 .Section-space-bottom {
@@ -28,7 +32,7 @@
   }
 
   @include lg {
-    padding-top: 110px;
+    padding-bottom: 110px;
   }
 }
 

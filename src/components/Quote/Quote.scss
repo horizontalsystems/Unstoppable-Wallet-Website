@@ -1,0 +1,27 @@
+@import "../../scss/utils";
+
+.Quote-info-text {
+  font-size: 18px;
+  line-height: 25px;
+
+  @include md {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.Quote-author-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: $grey;
+}
+
+.Quote-author-info {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: $grey;
+}

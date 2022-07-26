@@ -6,7 +6,7 @@ function Releases() {
   return (
     <div className="container">
       <div className="Section-space-top Section-space-bottom">
-        <div className="text-center pb-5 display-5">Last Updates</div>
+        <div className="Page-header-text text-center pb-5">Last Updates</div>
         <div className="d-flex justify-content-center">
           <div className="row w-75 g-3">
             <div className="col-sm-12 col-md-6">

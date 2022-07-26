@@ -20,7 +20,7 @@ function FeaturedIn() {
   return (
     <Container>
       <div className="Featured">
-        <div className="Featured-text display-5 fw-normal text-gradient">Ecosystem Partners</div>
+        <div className="Featured-text Page-header-text text-gradient">Ecosystem Partners</div>
         <div className="Featured-list">
           <a target="_blank" href="https://ethereum.org/en/wallets/find-wallet/" rel="noopener noreferrer">
             <img className="Featured-item" src={ethereum} alt="Ethereum" />

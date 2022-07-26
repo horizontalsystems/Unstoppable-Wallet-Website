@@ -41,10 +41,10 @@ function Page({ img, featureImg, text, info, children, rtl, onMouseLeave }) {
           {image}
         </div>
         <div className="Page-end">
-          <div className="Page-title text-gradient">
+          <div className="Page-title Page-header-text text-gradient">
             {text}
           </div>
-          <div className="Page-info">
+          <div className="Page-info Page-info-text">
             {info}
           </div>
           <div className="Page-action">
