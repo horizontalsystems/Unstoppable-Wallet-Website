@@ -24,7 +24,17 @@
   background-color: $darkest;
   border-radius: 12px;
   padding: 16px;
-  min-height: 330px;
+
+  @include md {
+    min-height: 330px;
+  }
+}
+
+.Demo-content {
+  @include sm {
+    padding: 0;
+    height: 250px;
+  }
 }
 
 .Demo-tabs .tablink {
@@ -66,8 +76,4 @@
 .tabcontent {
   width: 100%;
   display: block;
-
-  &.active {
-    display: block;
-  }
 }

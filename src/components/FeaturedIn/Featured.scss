@@ -48,6 +48,10 @@
 .Featured-item {
   margin: 10px;
 
+  @include sm {
+    width: 80%;
+  }
+
   @include md {
     margin: 15px;
     height: 40px;

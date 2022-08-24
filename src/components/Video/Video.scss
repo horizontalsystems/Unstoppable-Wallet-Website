@@ -1,9 +1,15 @@
+@import "../../scss/utils";
+
 .video-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
   width: 100%;
+
+  @include sm {
+    height: 250px;
+  }
 }
 
 .video-responsive iframe {
