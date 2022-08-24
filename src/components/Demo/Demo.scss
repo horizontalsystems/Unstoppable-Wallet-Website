@@ -36,6 +36,18 @@
   width: 100%;
   border-top: 1px solid $steel_20;
   transition: 0.3s;
+
+  &.disabled {
+    color: $grey_50;
+
+    path {
+      fill: $grey_50;
+    }
+  }
+
+  &.disabled:hover {
+    color: $grey_50;
+  }
 }
 
 .tablink-header {
@@ -53,7 +65,7 @@
 
 .tabcontent {
   width: 100%;
-  display: none;
+  display: block;
 
   &.active {
     display: block;

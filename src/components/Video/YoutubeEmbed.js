@@ -5,9 +5,9 @@ import './Video.scss'
 const YoutubeEmbed = ({ embedId }) => (
   <div className="video-responsive">
     <iframe
-      src={`https://www.youtube.com/embed/${embedId}`}
+      src={`https://www.youtube.com/embed/${embedId}?autoplay=1`}
       frameBorder="0"
-      allow="autoplay; encrypted-media"
+      allow="autoplay"
       title="video"
       allowFullScreen={true}
     />
