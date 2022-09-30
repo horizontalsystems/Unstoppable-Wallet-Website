@@ -1,10 +1,33 @@
 @import "../../scss/utils";
 
+.Wallet-actions {
+  align-self: flex-start;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
 .Banner-actions {
   align-self: flex-start;
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: 1fr 1fr min-content;
+  grid-gap: 20px;
+
+  @include sm {
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    align-self: center;
+    width: 100%;
+  }
+}
+
+.Banner-links {
+  align-self: flex-start;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr min-content min-content;
   grid-gap: 20px;
 
   @include sm {

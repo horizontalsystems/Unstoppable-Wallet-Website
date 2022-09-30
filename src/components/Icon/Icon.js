@@ -22,6 +22,8 @@ import { ReactComponent as User } from './user.svg'
 import { ReactComponent as Incognito } from './incognito.svg'
 import { ReactComponent as Circle } from './circle.svg'
 import { ReactComponent as Globe } from './globe.svg'
+import { ReactComponent as Github } from './github.svg'
+import { ReactComponent as Gitlab } from './gitlab.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -69,6 +71,10 @@ const iconComponent = name => {
       return <Circle />
     case 'globe':
       return <Globe />
+    case 'github':
+      return <Github />
+    case 'gitlab':
+      return <Gitlab />
 
     //  Form
     case 'done':
