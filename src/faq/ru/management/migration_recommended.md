@@ -1,17 +1,17 @@
-# MIGRATION RECOMMENDED
+# РЕКОМЕНДУЕТСЯ МИГРАЦИЯ
 
-It looks like this wallet is not standard compliant because it was created using a non-English word list and/or has a symbol in the passphrase other than ones listed below:
+Похоже, что этот кошелек не соответствует стандарту, поскольку он был создан с использованием неанглоязычного списка слов и/или содержит символ в кодовой фразе, отличный от перечисленных ниже:
 
-A-Z a-z 0-9 '"`&/?!:;.,~*$=+-{}<>\_#@|%
+A-Z a-z 0-9 ' "`&/?!:;.,~*$=+-{}<>\_#@|%
 
-If your wallet balance and transactions are showing as expected you don't have to do anything. However, if you do not see a balance or transactions then you need to restore your wallet via the non-standard restore option.
+Если баланс вашего кошелька и транзакции отображаются, как и ожидалось, вам не нужно ничего делать. Однако, если вы не видите баланс или транзакции, вам необходимо восстановить свой кошелек с помощью нестандартного варианта восстановления.
 
-- Go to the Settings tab
-- Select Manage Wallets
-- Click on the Restore button
-- Select Non-standard Restore
-- Complete restore steps
+- Перейдите на вкладку «Настройки».
+- Выберите «Управление Кошельками».
+- Нажмите кнопку «Восстановить».
+- Выберите «Нестандартное Восстановление».
+- Выполните шаги восстановления
 
-Upon completion, your balance and transactions should become visible.
+По завершении ваш баланс и транзакции должны стать видимыми.
 
-At this point, the wallet app will show you another alert with recommendation steps to move funds to a standard-compliant wallet.
+На этом этапе приложение кошелька покажет вам еще одно предупреждение с рекомендациями по перемещению средств в стандартный кошелек.
