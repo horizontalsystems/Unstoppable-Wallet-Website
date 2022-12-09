@@ -1,17 +1,15 @@
-# MIGRATION RECOMMENDED
+#  MIGRACIÓN RECOMENDADA
 
-It looks like this wallet is not standard compliant because it was created using a non-English word list and/or has a symbol in the passphrase other than ones listed below:
+Parece que este monedero no cumple con los estándares porque fue creada utilizando una lista de palabras que no están en inglés y/o tiene un símbolo en la frase de contraseña diferente a los que se enumeran a continuación
 
 A-Z a-z 0-9 '"`&/?!:;.,~*$=+-{}<>\_#@|%
 
-If your wallet balance and transactions are showing as expected you don't have to do anything. However, if you do not see a balance or transactions then you need to restore your wallet via the non-standard restore option.
+Si el saldo de tu monedero y las transacciones aparecen como se esperaban, no tienes que hacer nada. Sin embargo, si no ves un saldo o transacciones, debes restaurar tu monedero a través de la opción de restauración no estándar.
 
-- Go to the Settings tab
-- Select Manage Wallets
-- Click on the Restore button
-- Select Non-standard Restore
-- Complete restore steps
+- Ve a la pestaña de Configuración
+- Selecciona Administrar monederos
+- Haz clic en el botón Restaurar
+- Selecciona Restauración no estándar
+- Completa los pasos de restauración
 
-Upon completion, your balance and transactions should become visible.
-
-At this point, the wallet app will show you another alert with recommendation steps to move funds to a standard-compliant wallet.
+Al finalizar, tu saldo y transacciones deberían volverse visibles. A este punto, la aplicación del monedero te mostrará otra alerta con pasos recomendados para transferir fondos de un monedero que cumpla con los estándares.
