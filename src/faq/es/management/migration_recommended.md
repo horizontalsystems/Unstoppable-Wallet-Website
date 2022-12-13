@@ -1,6 +1,6 @@
 #  MIGRACIÓN RECOMENDADA
 
-Parece que este monedero no cumple con los estándares porque fue creada utilizando una lista de palabras que no están en inglés y/o tiene un símbolo en la frase de contraseña diferente a los que se enumeran a continuación
+Parece que esta billetera se creó usando una lista de palabras que no están en inglés y/o tiene un símbolo en la frase de contraseña diferente a los que se enumeran a continuación:
 
 A-Z a-z 0-9 '"`&/?!:;.,~*$=+-{}<>\_#@|%
 

@@ -1,6 +1,6 @@
 # MIGRATION RECOMMANDÉE
 
-Il semble que ce portefeuille ne soit pas compatible avec la norme parce qu'il a été créé à l'aide d'une liste de mots non-anglais et/ou que la phrase de passe contient un symbole autre que ceux qui figurent dans la liste ci-dessous :
+Il semble que ce portefeuille ait été créé à l'aide d'une liste de mots non anglais et/ou ait un symbole dans la phrase secrète autre que ceux répertoriés ci-dessous:
 
 A-Z a-z 0-9 ' "`&/?!:;.,~*$=+-[](){}<>\_#@|%
 
