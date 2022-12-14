@@ -6,6 +6,10 @@
   grid-auto-flow: row;
   grid-template-columns: 1fr;
   grid-gap: 20px;
+
+  @include sm {
+    width: 100%;
+  }
 }
 
 .Banner-actions {
@@ -31,7 +35,7 @@
   grid-gap: 20px;
 
   @include sm {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
     align-self: center;
     width: 100%;

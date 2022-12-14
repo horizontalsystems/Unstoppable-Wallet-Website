@@ -14,12 +14,12 @@ function GetWallet() {
           <img src={AndroidQrCode} alt="" />
         </ReactTooltip>
         <Button
-          className="Button-circle"
+          className="Button-circle Button-nowrap"
           text="Google Play"
           icon="google-play"
           link="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet" yellow newTab />
         <Button
-          className="Button-circle"
+          className="Button-circle Button-nowrap"
           text="App Store"
           icon="app-store"
           link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8" yellow newTab />

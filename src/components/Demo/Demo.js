@@ -9,10 +9,11 @@ import { ReactComponent as MultiWallet } from './multi-wallet.svg'
 import { ReactComponent as NftWallet } from './nft-wallet.svg'
 import { ReactComponent as ForInvestors } from './for-investors.svg'
 import { ReactComponent as WatchAddress } from './watch-address.svg'
-import { ReactComponent as DefiWallet } from './defi-wallet.svg'
+import { ReactComponent as AdvancedSearch } from './search.svg'
+import { ReactComponent as Analytics } from './analytics.svg'
 
 function Demo() {
-  const [active, setActive] = useState('bitcoinWallet')
+  const [active, setActive] = useState('multiWallet')
   const isActive = name => active === name ? 'active' : null
   const setState = val => () => setActive(val)
 
@@ -21,8 +22,9 @@ function Demo() {
     multiWallet: '5Z2CzFVjksA',
     nftWallet: 'ZjNFheebl2U',
     watchAddress: 'ii4j-Iv7eyY',
-    forInvestors: null,
-    defiWallet: null,
+    forInvestors: 'xa2cvT6FagA',
+    advancedSearch: 'XIdIsKv16gU',
+    analytics: 'c7tDslRVFgA'
   }
 
   return (
@@ -39,13 +41,14 @@ function Demo() {
             </TabContent>
           </div>
           <div className="Demo-tabs">
-            <div className="tablink-header">Demo Playlist</div>
-            <Tab item="bitcoinWallet" Icon={BitcoinWallet} name="Bitcoin Wallet" isActive={isActive} setActive={setState} />
+            <div className="tablink-header">Use Cases</div>
             <Tab item="multiWallet" Icon={MultiWallet} name="Multi Wallet" isActive={isActive} setActive={setState} />
             <Tab item="nftWallet" Icon={NftWallet} name="NFT Wallet" isActive={isActive} setActive={setState} />
-            <Tab item="watchAddress" Icon={WatchAddress} name="Watch Address Feature" isActive={isActive} setActive={setState} />
-            <Tab item="forInvestors" Icon={ForInvestors} name="Wallet For Investors" isDisabled={true} />
-            <Tab item="defiWallet" Icon={DefiWallet} name="DeFi Wallet" isDisabled={true} />
+            <Tab item="bitcoinWallet" Icon={BitcoinWallet} name="Bitcoin Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="watchAddress" Icon={WatchAddress} name="Monitoring Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="forInvestors" Icon={ForInvestors} name="Investor Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="advancedSearch" Icon={AdvancedSearch} name="Advanced Market Search" isActive={isActive} setActive={setState} />
+            <Tab item="analytics" Icon={Analytics} name="Advanced Token Analytics" isActive={isActive} setActive={setState} />
           </div>
         </div>
       </div>
