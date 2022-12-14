@@ -11,6 +11,21 @@ import './Roadmap.scss'
 import { ReactComponent as Circle } from './circle.svg'
 
 const releases = [
+  { version: '0.1', date: 'Dec 24, 2018' },
+  { version: '0.2', date: 'Feb 15, 2019' },
+  { version: '0.4', date: 'Apr 17, 2019' },
+  { version: '0.5', date: 'May 14, 2019' },
+  { version: '0.6', date: 'Jun 19, 2019' },
+  { version: '0.7', date: 'Aug 21, 2019' },
+  { version: '0.8', date: 'Sep 17, 2019' },
+  { version: '0.9', date: 'Oct 7, 2019' },
+  { version: '0.10', date: 'Nov 20, 2019' },
+  { version: '0.11', date: 'Jan 31, 2020' },
+  { version: '0.12', date: 'Mar 4, 2020' },
+  { version: '0.13', date: 'Apr 30, 2020' },
+  { version: '0.14', date: 'May 28, 2020' },
+  { version: '0.15', date: 'Jul 10, 2020' },
+  { version: '0.16', date: 'Sep 22, 2020' },
   { version: '0.17', date: 'Nov 23, 2020' },
   { version: '0.18', date: 'Dec 9, 2020' },
   { version: '0.19', date: 'Feb 17, 2021' },
