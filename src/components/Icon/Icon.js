@@ -24,6 +24,7 @@ import { ReactComponent as Circle } from './circle.svg'
 import { ReactComponent as Globe } from './globe.svg'
 import { ReactComponent as Github } from './github.svg'
 import { ReactComponent as Gitlab } from './gitlab.svg'
+import { ReactComponent as Android } from './android.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -43,6 +44,8 @@ const iconComponent = name => {
       return <FDroid />
     case 'download':
       return <Download />
+    case 'android':
+      return <Android />
     case 'qr-code':
       return <QRCode />
 
