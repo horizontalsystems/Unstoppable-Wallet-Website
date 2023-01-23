@@ -38,7 +38,7 @@ const releases = [
   { version: '0.26', date: 'Aug 18, 2022' },
   { version: '0.27', date: 'Oct 05, 2022' },
   { version: '0.28', date: 'Nov 2, 2022' },
-  { version: '0.29', date: 'Jan 3, 2022' },
+  { version: '0.29', date: 'Jan 3, 2023' },
 ]
 
 export default function Roadmap() {
