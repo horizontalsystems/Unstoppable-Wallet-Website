@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactTooltip from 'react-tooltip'
+import { Tooltip } from 'react-tooltip'
 import Icon from '../Icon'
 import Button from '../Button'
 import AndroidQrCode from './qrcode-get-wallet.svg'
@@ -10,9 +10,13 @@ function GetWallet() {
   return (
     <div className="Wallet-actions">
       <div className="Banner-actions">
-        <ReactTooltip id="registerTip" place="top" effect="solid" type="light" className="QqCodeTooltip">
-          <img src={AndroidQrCode} alt="" />
-        </ReactTooltip>
+        <Tooltip
+          id="registerTip"
+          data-tooltip-place="top"
+          variant="light"
+          className="QqCodeTooltip"
+          content={<img src={AndroidQrCode} alt="" />}
+        />
         <Button
           className="Button-circle Button-nowrap"
           text="Google Play"
@@ -23,7 +27,7 @@ function GetWallet() {
           text="App Store"
           icon="app-store"
           link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8" yellow newTab />
-        <div className="sm-hidden" role="button" data-for="registerTip" data-tip>
+        <div className="sm-hidden" role="button" data-tooltip-id="registerTip">
           <Icon name="qr-code" />
         </div>
       </div>

@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import marked from 'marked'
-import renderer from './MarkdownRenderer'
+import { marked } from 'marked'
+import MarkdownRenderer from './MarkdownRenderer'
 
 import './Markdown.scss'
+
+const renderer = new MarkdownRenderer()
 
 class Markdown extends Component {
   state = { markdown: '' }
