@@ -1,5 +1,4 @@
 import React from 'react'
-import { withRouter } from 'react-router-dom'
 import cn from 'classnames'
 
 import Container from '../Container'
@@ -74,4 +73,4 @@ class Faq extends React.Component {
   }
 }
 
-export default withRouter(Faq)
+export default Faq

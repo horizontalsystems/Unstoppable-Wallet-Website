@@ -1,4 +1,4 @@
-import marked from 'marked'
+import { marked } from 'marked'
 
 class MarkdownRenderer extends marked.Renderer {
   link(href, title, text) {
@@ -11,4 +11,4 @@ class MarkdownRenderer extends marked.Renderer {
   }
 }
 
-export default new MarkdownRenderer()
+export default MarkdownRenderer
