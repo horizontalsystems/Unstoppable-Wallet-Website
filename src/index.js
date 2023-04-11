@@ -1,5 +1,8 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
+import { Provider } from 'react-redux'
+import { store } from './core/store'
+
 import 'react-tooltip/dist/react-tooltip.css'
 import './index.scss'
 
@@ -9,7 +12,9 @@ import unregister from './core/serviceWorker'
 createRoot(document.getElementById('root'))
   .render(
     <React.StrictMode>
-      <Router />
+      <Provider store={store}>
+        <Router />
+      </Provider>
     </React.StrictMode>
   )
 

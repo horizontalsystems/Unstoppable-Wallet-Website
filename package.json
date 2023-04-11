@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://unstoppable.money",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^14.1.1",
@@ -17,6 +18,7 @@
     "react": "^18.2.0",
     "react-cookie": "^4.1.1",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
     "react-router-dom": "^6.10.0",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
