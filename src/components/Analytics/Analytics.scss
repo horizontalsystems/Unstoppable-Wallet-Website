@@ -1,0 +1,88 @@
+@import "../../scss/utils";
+
+.Container-analytics {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.Pricing {
+  display: flex;
+  flex-direction: column;
+  margin: 0 -12px;
+
+  a {
+    color: $yellow-d;
+  }
+
+  @include lg {
+    flex-direction: row;
+  }
+}
+
+.Pricing-item {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+  padding: 16px;
+  margin: 0 12px;
+  align-items: center;
+
+  @include sm {
+    margin: 0 0 40px;
+  }
+
+  @include md {
+    margin-bottom: 12px;
+  }
+}
+
+.Pricing-item-card {
+  padding: 20px 16px;
+  background: $steel_10;
+  border-radius: 16px;
+}
+
+.Pricing-title {
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.Pricing-amount {
+  font-weight: 400;
+  font-size: 24px;
+  color: $yellow_d;
+}
+
+.Pricing-desc {
+  font-weight: 400;
+  font-size: 16px;
+  color: $grey;
+}
+
+.Pricing-button {
+  margin-top: 38px;
+  padding-left: 57px;
+  padding-right: 57px;
+}
+
+.Pricing-button-text {
+  color: $dark !important;
+  text-decoration: none !important;
+}
+
+.Analytics-content-head {
+  font-weight: 600;
+  font-size: 24px;
+  color: $grey;
+}
+
+.Analytics-content-premium {
+  color: $yellow_d;
+}
+
+.Analytics-content-name {
+  font-weight: 400;
+  font-size: 14px;
+}

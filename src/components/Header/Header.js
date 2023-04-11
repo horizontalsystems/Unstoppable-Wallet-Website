@@ -72,6 +72,7 @@ class Header extends React.Component {
           Academy
         </a>
         <Link className="nav-item" to="/faq">FAQ</Link>
+        <Link className="nav-item" to="/analytics">Analytics</Link>
         {sticky && <Button
           className="Button-circle nav-btn-item ml-20"
           text="Google Play" icon="google-play"

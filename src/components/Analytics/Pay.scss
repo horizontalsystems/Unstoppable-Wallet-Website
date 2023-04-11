@@ -1,0 +1,81 @@
+@import "../../scss/utils";
+
+.Container-pay {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.Pay-card {
+  padding: 20px 16px;
+  background: $steel_10;
+  border-radius: 16px;
+}
+
+.Pay-step {
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  .circle {
+    background-color: $steel_20;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $grey;
+  }
+
+  &.active .circle {
+    background-color: $yellow_d;
+    color: $darkest;
+  }
+
+  .line {
+    top: 32px;
+    left: 15px;
+    height: 100%;
+    position: absolute;
+    border-left: 2px solid $steel_20;
+  }
+}
+
+.Pay-stepper {
+  position: relative;
+}
+
+.Pay-content {
+  margin-left: 20px;
+  padding-top: 5px;
+  width: 100%;
+
+  .Pay-content-head {
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .Pay-content-body {
+    display: none;
+    padding: 20px 0;
+  }
+}
+
+.Pay-fieldset {
+  border: 1px solid $steel_20;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.Pay-step.active {
+  .Pay-content-head {
+    color: $yellow_d;
+  }
+
+  .Pay-content-body {
+    display: block;
+  }
+}
+

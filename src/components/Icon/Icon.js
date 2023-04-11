@@ -1,7 +1,9 @@
 import React from 'react'
 
 import { ReactComponent as Burger } from './burger.svg'
-import { ReactComponent as Close } from './close.svg'
+import { ReactComponent as Close } from './menu-close.svg'
+import { ReactComponent as Check } from './check.svg'
+import { ReactComponent as CloseThin } from './close.svg'
 import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
 import { ReactComponent as FDroid } from './f-droid.svg'
@@ -84,6 +86,11 @@ const iconComponent = name => {
       return <Done />
     case 'logo':
       return <Logo />
+
+    case 'check':
+      return <Check />
+    case 'close':
+      return <CloseThin />
 
     default:
       return null
