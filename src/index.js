@@ -1,13 +1,16 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
-import { store } from './core/store'
+import { store } from './redux/store'
+import { initialize } from './redux/wallet-connect-slice'
 
 import 'react-tooltip/dist/react-tooltip.css'
 import './index.scss'
 
 import Router from './Router'
 import unregister from './core/serviceWorker'
+
+store.dispatch(initialize())
 
 createRoot(document.getElementById('root'))
   .render(

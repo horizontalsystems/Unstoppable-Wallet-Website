@@ -1,4 +1,4 @@
-import React from 'react'
+import { Component } from 'react'
 import { Link } from 'react-router-dom'
 import throttle from 'lodash.throttle'
 import cn from 'classnames'
@@ -11,7 +11,7 @@ import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 import './Header.scss'
 
-class Header extends React.Component {
+class Header extends Component {
   state = {}
 
   dropdown = false

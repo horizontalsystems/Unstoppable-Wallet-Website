@@ -3,6 +3,7 @@ import React from 'react'
 import { ReactComponent as Burger } from './burger.svg'
 import { ReactComponent as Close } from './menu-close.svg'
 import { ReactComponent as Check } from './check.svg'
+import { ReactComponent as Checkmark } from './checkmark.svg'
 import { ReactComponent as CloseThin } from './close.svg'
 import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
@@ -27,6 +28,10 @@ import { ReactComponent as Globe } from './globe.svg'
 import { ReactComponent as Github } from './github.svg'
 import { ReactComponent as Gitlab } from './gitlab.svg'
 import { ReactComponent as Android } from './android.svg'
+import { ReactComponent as Ethereum } from './ethereum.svg'
+import { ReactComponent as Profile } from './profile.svg'
+import { ReactComponent as Logout } from './logout.svg'
+import { ReactComponent as Unlock } from './unlock.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -89,8 +94,20 @@ const iconComponent = name => {
 
     case 'check':
       return <Check />
+    case 'checkmark':
+      return <Checkmark />
     case 'close':
       return <CloseThin />
+
+    // Chain
+    case 'ethereum':
+      return <Ethereum />
+    case 'profile':
+      return <Profile />
+    case 'logout':
+      return <Logout />
+    case 'unlock':
+      return <Unlock />
 
     default:
       return null

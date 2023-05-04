@@ -1,14 +1,13 @@
 @import "../../scss/utils";
 
-.Container-pay {
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
 .Pay-card {
-  padding: 20px 16px;
+  padding: 32px !important;
   background: $steel_10;
   border-radius: 16px;
+}
+
+.Pay-card-big {
+  padding: 60px !important;
 }
 
 .Pay-step {
@@ -59,14 +58,28 @@
 
   .Pay-content-body {
     display: none;
-    padding: 20px 0;
+    padding-top: 20px;
   }
 }
 
 .Pay-fieldset {
-  border: 1px solid $steel_20;
+  border: 1px solid $steel_20 !important;
   border-radius: 12px;
+
+  &:focus {
+    border: 1px solid $steel_20;
+  }
+}
+
+.Pay-fieldset-padding {
   padding: 24px;
+}
+
+.Pay-fieldset-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100% !important;
 }
 
 .Pay-step.active {

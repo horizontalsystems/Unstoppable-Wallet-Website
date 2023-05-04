@@ -1,6 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
 import cn from 'classnames'
+import { useEffect } from 'react'
+import { Link } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import { fetchData, selectPlans, setPlan } from '../../redux/contract-slice'
 import Header from '../Header'
 import Footer from '../Footer/Footer'
 import Container from '../Container'
@@ -9,19 +11,12 @@ import Icon from '../Icon'
 import './Analytics.scss'
 
 function Analytics() {
-  const card = (interval, intervalName, amount) => (
-    <div className="Pricing-item Pricing-item-card">
-      <div className="Pricing-title">{interval} {intervalName}</div>
-      <div className="Pricing-amount">${amount}</div>
-      <div className="Pricing-desc">${amount} per {intervalName}</div>
+  const plans = useSelector(selectPlans)
+  const dispatch = useDispatch()
 
-      <div className="Button Button-yellow Button-circle Pricing-button">
-        <Link className="Pricing-button-text" to={`/analytics-pay?interval=${interval}-${intervalName}`}>
-          Subscribe
-        </Link>
-      </div>
-    </div>
-  )
+  useEffect(() => {
+    dispatch(fetchData())
+  }, [dispatch])
 
   const content = [
     { data: 'Price Chart', free: true, premium: true },
@@ -42,6 +37,20 @@ function Analytics() {
     { data: 'Funding', free: false, premium: true },
   ]
 
+  const card = plan => (
+    <div className="Pricing-item Pricing-item-card">
+      <div className="Pricing-title">{plan.interval} {plan.intervalName}</div>
+      <div className="Pricing-amount">${plan.amount}</div>
+      <div className="Pricing-desc">${plan.amount} per {plan.intervalName}</div>
+
+      <div className="Button Button-yellow Button-circle Pricing-button">
+        <Link className="Pricing-button-text" to="/analytics-pay" onClick={() => dispatch(setPlan(plan))}>
+          Subscribe
+        </Link>
+      </div>
+    </div>
+  )
+
   return (
     <div className="Analytics">
       <div id="page-1" className="Page-black">
@@ -54,15 +63,11 @@ function Analytics() {
             <h1 className="text-center">Choose Your Plan</h1>
           </div>
           <div className="row">
-            <div className="col">
-              {card('1', 'month', 299)}
-            </div>
-            <div className="col">
-              {card('3', 'month', 399)}
-            </div>
-            <div className="col">
-              {card('1', 'year', 999)}
-            </div>
+            {plans.map(item => (
+              <div className="col" key={item.amount}>
+                {card(item)}
+              </div>
+            ))}
           </div>
           <div className="Page-header-text text-center pb-5 text-gradient mt-5">
             <h1 className="text-center">Available Features</h1>
