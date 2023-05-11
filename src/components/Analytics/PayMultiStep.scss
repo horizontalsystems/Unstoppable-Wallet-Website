@@ -71,6 +71,16 @@
   }
 }
 
+.input-no-shadow {
+  border: 1px solid $steel_20 !important;
+  border-radius: 12px;
+  box-shadow: none !important;
+
+  &:focus {
+    border: 1px solid $steel_20;
+  }
+}
+
 .Pay-fieldset-padding {
   padding: 24px;
 }

@@ -2,13 +2,13 @@ import cn from 'classnames'
 import { useState } from 'react'
 
 import Container from '../Container'
+import PayContainer from './PayContainer'
+import FormAllowance from './FormAllowance'
 import FormChoosePlan from './FormChoosePlan'
 import FormPayment from './FormPayment'
 import Icon from '../Icon'
-import PayContainer from './PayContainer'
 
 import './PayMultiStep.scss'
-import FormAllowance from './FormAllowance'
 
 function PayMultistep() {
   const [step, setStep] = useState(1)

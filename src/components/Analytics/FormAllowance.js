@@ -28,7 +28,7 @@ function FormPayment({ setStep }) {
     if (isPending) return
 
     const amount = subtractDiscount(discount, plan.amount)
-    const data = approveData(token.address, BigNumber.from(amount).mul(BigNumber.from(10).pow(token.tokenDecimals)))
+    const data = approveData(token.address, BigNumber.from(amount).mul(BigNumber.from(10).pow(token.decimals)))
 
     setFormState('pending')
 

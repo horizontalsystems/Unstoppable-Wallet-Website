@@ -76,8 +76,8 @@ export const fetchData = () => async (dispatch, getState) => {
     const address = await getPaymentToken()
     const token = {
       address,
-      tokenSymbol: await getSymbol(address),
-      tokenDecimals: parseInt(await getDecimals(address))
+      symbol: await getSymbol(address),
+      decimals: parseInt(await getDecimals(address))
     }
 
     dispatch(actions.setTokenInfo({ token }))
@@ -94,7 +94,7 @@ export const fetchAddressInfo = address => async dispatch => {
   const info = { isModerator, isAdmin, balance }
   const seconds = parseInt(expiration)
 
-  const promoCodes = await getPromoCods(address)
+  const promoCodes = await getPromoCods((isModerator || isAdmin) ? null : address)
 
   if (promoCodes) {
     info.promoCodes = promoCodes

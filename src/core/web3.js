@@ -26,6 +26,10 @@ export function claimData(address) {
   return methods.claim(address).encodeABI()
 }
 
+export function setPromoCodeData(address, name, commissionRate, discountRate, duration) {
+  return methods.setPromoCode(address, name, commissionRate, discountRate, duration).encodeABI()
+}
+
 // ERC20
 
 export function getAllowance(owner, contract) {
@@ -49,22 +53,22 @@ export function approveData(contract, amount) {
 }
 
 export function getPromoCods(address) {
-  const promoCodeAddition = abi.find(item => item.name === 'PromoCodeAddition')
-  const addrPad = Web3.utils.padLeft(address, 64)
+  const event = abi.find(item => item.name === 'PromoCodeAddition')
+  const topics = [event.signature]
 
-  const options = {
-    fromBlock: 0,
-    topics: [promoCodeAddition.signature, addrPad]
+  if (address) {
+    topics.push(Web3.utils.padLeft(address, 64))
   }
 
-  return eth.getPastLogs(options).then(res => res.map(item => {
-    const res = eth.abi.decodeLog(promoCodeAddition.inputs, item.data, addrPad)
+  return eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
+    const data = eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
     return {
-      name: res.name,
-      discountRate: res.discountRate,
-      commissionRate: res.commissionRate,
-      deadline: DateTime.fromSeconds(parseInt(res.deadline)).toFormat('DD'),
+      name: data.name,
+      discountRate: data.discountRate,
+      commissionRate: data.commissionRate,
+      deadline: DateTime.fromSeconds(parseInt(data.deadline)).toFormat('DD'),
+      address: data._address
     }
   }))
 }

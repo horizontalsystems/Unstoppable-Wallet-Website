@@ -4,19 +4,23 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getPromoCode } from '../../core/web3'
 import { subtractDiscount } from '../../core/utils'
 import { FormTextItem } from './FormTextItem'
-import { connect, selectIsConnected } from '../../redux/wallet-connect-slice'
+import { Pairing } from '../Modal/Pairing'
+import { connect, selectIsConnected, selectParings } from '../../redux/wallet-connect-slice'
 import { selectDiscount, selectPlan, selectPlans, selectPromo, selectToken, setPlan, setPromo, setPromoDiscount } from '../../redux/contract-slice'
+import { useModal } from '../Modal/ModalContext'
 
 function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
   const dispatch = useDispatch()
 
   const discount = useSelector(selectDiscount)
+  const parings = useSelector(selectParings)
   const isConnected = useSelector(selectIsConnected)
   const promo = useSelector(selectPromo)
   const plans = useSelector(selectPlans)
   const plan = useSelector(selectPlan)
   const token = useSelector(selectToken)
 
+  const { setModal } = useModal()
   const [formState, setFormState] = useState('')
   const [error, setError] = useState(null)
 
@@ -45,6 +49,14 @@ function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
         setError(e.message)
         setFormState('error')
       })
+  }
+
+  const onConnect = () => {
+    if (parings.length) {
+      return setModal(<Pairing />)
+    }
+
+    dispatch(connect())
   }
 
   return (
@@ -103,7 +115,7 @@ function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
       </div>}
       <button
         className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center"
-        onClick={() => isConnected ? setStep(2) : dispatch(connect())}
+        onClick={() => isConnected ? setStep(2) : onConnect()}
         disabled={isPending}
       >
         {isConnected ? 'Next' : 'Connect Wallet'}

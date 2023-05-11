@@ -6,6 +6,7 @@ import cn from 'classnames'
 
 import Container from '../Container'
 import HeaderLogo from '../Header/HeaderLogo.svg'
+import Pairing from '../Modal/Pairing'
 import Icon from '../Icon'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 import { truncate } from '../../core/utils'
@@ -57,8 +58,16 @@ class PayHeader extends Component {
   }
 
   render() {
-    const { address, isConnected, dispatch } = this.props
+    const { address, parings, isConnected, dispatch, setModal } = this.props
     const { sticky, showDropdown } = this.state
+
+    const onConnect = () => {
+      if (parings.length) {
+        return setModal(<Pairing />)
+      }
+
+      dispatch(connect())
+    }
 
     const toggleDropdown = showDropdown => this.setState({ showDropdown })
     const profile = () => (
@@ -76,7 +85,7 @@ class PayHeader extends Component {
     )
 
     const guest = (
-      <div className="Button Button-yellow Button-circle nav-btn-item" onClick={() => dispatch(connect())}>
+      <div className="Button Button-yellow Button-circle nav-btn-item" onClick={onConnect}>
         Connect Wallet
       </div>
     )
@@ -139,6 +148,7 @@ const mapStateToProps = ({ wc }) => {
 
   return {
     address,
+    parings: wc.parings,
     isConnected: wc.connecting === 'connected'
   }
 }
