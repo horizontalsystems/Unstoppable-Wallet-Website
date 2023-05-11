@@ -99,7 +99,7 @@ class PayHeader extends Component {
             </div>
             <ul className={cn('dropdown-menu dropdown-menu-end', { show: showDropdown })}>
               <li><a className="dropdown-item" href="/">Ethereum</a></li>
-              <li><a className="dropdown-item" href="/">BSC</a></li>
+              {/*<li><a className="dropdown-item" href="/">BSC</a></li>*/}
             </ul>
           </div>
         </div>

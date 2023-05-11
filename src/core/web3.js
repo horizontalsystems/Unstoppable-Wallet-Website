@@ -22,6 +22,10 @@ export function subscribeData(duration) {
   return methods.subscribe(duration).encodeABI()
 }
 
+export function subscribeWithPromoCodeData(duration, promoCodeName) {
+  return methods.subscribeWithPromoCode(duration, promoCodeName).encodeABI()
+}
+
 export function claimData(address) {
   return methods.claim(address).encodeABI()
 }

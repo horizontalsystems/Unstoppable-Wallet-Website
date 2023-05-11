@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { selectDiscount, selectPlan, selectPromo, selectToken } from '../../redux/contract-slice'
 import { FormTextItem } from './FormTextItem'
 import { subtractDiscount } from '../../core/utils'
-import { subscribeData } from '../../core/web3'
+import { subscribeData, subscribeWithPromoCodeData } from '../../core/web3'
 import { walletConnect } from '../../core/wallet-connect'
 import { useState } from 'react'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
@@ -22,12 +22,17 @@ function FormPayment() {
   const [error, setError] = useState('')
 
   const isPending = formState === 'pending'
-  const onSubscribe = async () => {
+  const isFinished = formState === 'finished'
+  const onPay = async () => {
     if (isPending) return
 
     setFormState('pending')
 
-    walletConnect.sendRequest(userAddress, sessionTopic, subscribeData(plan.duration))
+    const inputData = (promo && discount)
+      ? subscribeWithPromoCodeData(plan.duration, promo)
+      : subscribeData(plan.duration)
+
+    walletConnect.sendRequest(userAddress, sessionTopic, inputData)
       .then(() => {
         setFormState('finished')
       })
@@ -59,12 +64,8 @@ function FormPayment() {
           <div className="mt-2 text-danger">{error}</div>
         </div>
       </div>}
-      <button
-        className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center"
-        onClick={onSubscribe}
-        disabled={isPending}
-      >
-        Subscribe
+      <button className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center" onClick={onPay} disabled={isPending}>
+        Pay
       </button>
     </div>
   )
@@ -90,7 +91,7 @@ function FormPayment() {
 
   return (
     <div className="Pay-content-body">
-      {formState === 'finished' ? finish : form()}
+      {isFinished ? finish : form()}
     </div>
   )
 }

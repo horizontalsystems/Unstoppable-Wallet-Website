@@ -12,7 +12,7 @@ export function ProfileModerator({ promoCodes = [] }) {
     <PayContainer>
       <Container className="Container-analytics" clipped={false}>
         <div className="mt-3">
-          <button type="button" className="btn btn-secondary" onClick={onAddPromo}>Add Promo</button>
+          <button type="button" className="btn btn-primary" onClick={onAddPromo}>Add Promo</button>
         </div>
         <PromoCodeList promoCodes={promoCodes} />
       </Container>

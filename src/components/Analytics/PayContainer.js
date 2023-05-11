@@ -1,13 +1,13 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchData, selectIsFetched } from '../../redux/contract-slice'
+import { useModal } from '../Modal/ModalContext'
 
 import PayLoading from './PayLoading'
 import PayHeader from './PayHeader'
 import Footer from '../Footer/Footer'
 
 import './PayContainer.scss'
-import { useModal } from '../Modal/ModalContext'
 
 function PayContainer({ children }) {
   const dispatch = useDispatch()
