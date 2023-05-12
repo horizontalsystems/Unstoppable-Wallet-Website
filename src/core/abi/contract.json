@@ -246,15 +246,15 @@
     "inputs": [
       {
         "indexed": true,
-        "internalType": "address",
-        "name": "subscriber",
-        "type": "address"
-      },
-      {
-        "indexed": false,
         "internalType": "string",
         "name": "promoCode",
         "type": "string"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "subscriber",
+        "type": "address"
       },
       {
         "indexed": false,

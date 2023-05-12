@@ -13,6 +13,8 @@ import { ReactComponent as QRCode } from './qr-code.svg'
 import { ReactComponent as Done } from './done.svg'
 import { ReactComponent as Logo } from './logo.svg'
 import { ReactComponent as ArrowRight } from './arrow-right.svg'
+import { ReactComponent as ArrowDown } from './arrow-down.svg'
+import { ReactComponent as ArrowUp } from './arrow-up.svg'
 import { ReactComponent as NonCustodial } from './non-custodial.svg'
 import { ReactComponent as Wallet } from './wallet.svg'
 import { ReactComponent as Pie } from './pie.svg'
@@ -41,6 +43,10 @@ const iconComponent = name => {
       return <Close />
     case 'arrow-right':
       return <ArrowRight />
+    case 'arrow-down':
+      return <ArrowDown />
+    case 'arrow-up':
+      return <ArrowUp />
 
     //  Buttons
     case 'google-play':
@@ -114,7 +120,7 @@ const iconComponent = name => {
   }
 }
 
-function Icon({ name }) {
+export function Icon({ name }) {
   return iconComponent(name)
 }
 

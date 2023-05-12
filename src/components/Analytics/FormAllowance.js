@@ -1,18 +1,18 @@
-import { BigNumber } from '@ethersproject/bignumber'
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchAllowance, selectDiscount, selectPlan, selectToken } from '../../redux/contract-slice'
+import { fetchAllowance, selectAllowance, selectDiscount, selectPlan, selectToken } from '../../redux/contract-slice'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
 import { approveData } from '../../core/web3'
 import { walletConnect } from '../../core/wallet-connect'
-import { subtractDiscount } from '../../core/utils'
-import Icon from '../Icon'
+import { convertToRawAmount, subtractDiscount } from '../../core/utils'
+import { Icon } from '../Icon'
 
 function FormPayment({ setStep }) {
   const dispatch = useDispatch()
   const sessionTopic = useSelector(selectTopic)
   const userAddress = useSelector(selectUserAddress)
   const token = useSelector(selectToken)
+  const allowance = useSelector(selectAllowance)
   const plan = useSelector(selectPlan)
   const discount = useSelector(selectDiscount)
 
@@ -27,14 +27,15 @@ function FormPayment({ setStep }) {
   const onApprove = async () => {
     if (isPending) return
 
-    const amount = subtractDiscount(discount, plan.amount)
-    const data = approveData(token.address, BigNumber.from(amount).mul(BigNumber.from(10).pow(token.decimals)))
+    const discountAmount = subtractDiscount(discount, plan.amount)
+    const data = approveData(token.address, convertToRawAmount(discountAmount, token.decimals))
 
     setFormState('pending')
 
     walletConnect.sendRequest(userAddress, sessionTopic, data, token.address)
       .then(() => {
         setFormState('finished')
+        dispatch(fetchAllowance(userAddress, token.address))
         setStep(3)
       })
       .catch(e => {
@@ -43,7 +44,7 @@ function FormPayment({ setStep }) {
       })
   }
 
-  return (
+  const approveContent = (
     <div className="Pay-content-body">
       <div className="Pay-fieldset Pay-fieldset-padding text-center">
         <Icon name="unlock" />
@@ -64,6 +65,25 @@ function FormPayment({ setStep }) {
       </button>
     </div>
   )
+
+  const allowanceContent = () => (
+    <div className="Pay-content-body">
+      <div className="Pay-fieldset Pay-fieldset-padding text-center">
+        <Icon name="unlock" />
+        <div className="fs-2 fw-semibold mt-3 mb-4">
+          Allowance {allowance} {token.symbol}
+        </div>
+        <div className="text-grey-50 fs-6">
+          You approved {token.symbol} spending.
+        </div>
+      </div>
+      <button className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center" onClick={() => setStep(3)}>
+        Next
+      </button>
+    </div>
+  )
+
+  return allowance >= subtractDiscount(discount, plan.amount) ? allowanceContent() : approveContent
 }
 
 export default FormPayment

@@ -40,7 +40,6 @@ export const slice = createSlice({
 
 export const { setInitializing, setConnecting, setSession, setPairings } = slice.actions
 
-export const selectIsConnecting = ({ wc }) => wc.connecting === 'connecting'
 export const selectIsConnected = ({ wc }) => wc.connecting === 'connected'
 export const selectUserAddress = ({ wc }) => wc.session ? wc.session.address : null
 export const selectTopic = ({ wc }) => wc.session ? wc.session.topic : null

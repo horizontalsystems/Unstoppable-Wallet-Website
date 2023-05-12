@@ -1,6 +1,7 @@
 import { DateTime } from 'luxon'
 import { createSlice } from '@reduxjs/toolkit'
 import { getAddressInfo, getAllowance, getDecimals, getPromoCods, getPaymentToken, getSymbol } from '../core/web3'
+import { convertFromRawAmount } from '../core/utils'
 
 const plans = [
   { interval: 1, intervalName: 'month', amount: 200, duration: 30 },
@@ -64,6 +65,7 @@ export const selectDiscount = state => state.contract.discount
 export const selectToken = state => state.contract.token
 export const selectAddressInfo = state => state.contract.addressInfo
 export const selectIsFetched = state => state.contract.fetching === 'fetched'
+export const selectAllowance = state => state.contract.allowance
 
 export const fetchData = () => async (dispatch, getState) => {
   if (getState().fetching === 'fetching') {
@@ -123,7 +125,8 @@ export const fetchAllowance = (owner, token) => async (dispatch, getState) => {
 
   try {
     const allowance = await getAllowance(owner, token)
-    dispatch(actions.setAllowance(allowance))
+    const bigNumber = convertFromRawAmount(allowance, contract.token.decimals)
+    dispatch(actions.setAllowance(bigNumber.toNumber()))
   } catch (e) {
     dispatch(actions.setAllowanceState('failed'))
   }

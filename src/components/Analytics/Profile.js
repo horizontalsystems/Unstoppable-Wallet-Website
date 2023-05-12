@@ -42,7 +42,7 @@ function Profile() {
             </div>
           </div>
           <div className="col-md-6 mt-3">
-            {expiration ? <Claim balance={balance} /> : <Contact />}
+            {promoCodes && promoCodes.length ? <Claim balance={balance} /> : <Contact />}
           </div>
         </div>
         {userAddress && <PromoCodeList promoCodes={promoCodes} />}

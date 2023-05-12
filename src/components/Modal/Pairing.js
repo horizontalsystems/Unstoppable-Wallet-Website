@@ -1,9 +1,9 @@
 import { useModal } from './ModalContext'
 import { useDispatch, useSelector } from 'react-redux'
-import { connect, selectIsConnected, selectIsConnecting, selectParings } from '../../redux/wallet-connect-slice'
+import { connect, selectIsConnected, selectParings } from '../../redux/wallet-connect-slice'
 import { useEffect } from 'react'
 
-function Peer({ topic, connect, metadata = {}, isConnecting }) {
+function Peer({ topic, connect, metadata = {} }) {
   const name = metadata.name || 'Unknown Wallet'
   // const icons = metadata.icons || []
 
@@ -22,11 +22,7 @@ export function Pairing() {
   const dispatch = useDispatch()
   const parings = useSelector(selectParings)
   const isConnected = useSelector(selectIsConnected)
-  const isConnecting = useSelector(selectIsConnecting)
-  const onConnect = topic => {
-    if (isConnecting) return
-    dispatch(connect(topic))
-  }
+  const onConnect = topic => dispatch(connect(topic))
 
   useEffect(() => {
     if (isConnected) closeModal()
@@ -37,7 +33,7 @@ export function Pairing() {
       <div className="modal-content">
         <div className="modal-header">
           <h5 className="modal-title">Pairings</h5>
-          <button type="button" className="btn-close" onClick={closeModal} disabled={isConnecting} />
+          <button type="button" className="btn-close" onClick={closeModal} />
         </div>
         <div className="modal-body">
           <ul className="list-group">
@@ -47,14 +43,13 @@ export function Pairing() {
                 topic={pairing.topic}
                 connect={onConnect}
                 metadata={pairing.peerMetadata}
-                isConnecting={isConnecting}
               />
             ))}
           </ul>
         </div>
         <div className="modal-footer">
-          <button type="button" className="btn btn-secondary" onClick={closeModal} disabled={isConnecting}>Close</button>
-          <button type="button" className="btn btn-primary" onClick={() => onConnect()} disabled={isConnecting}>New pairing</button>
+          <button type="button" className="btn btn-secondary" onClick={closeModal}>Close</button>
+          <button type="button" className="btn btn-primary" onClick={() => onConnect()}>New pairing</button>
         </div>
       </div>
     </div>

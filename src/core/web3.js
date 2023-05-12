@@ -76,3 +76,22 @@ export function getPromoCods(address) {
     }
   }))
 }
+
+export function getSubscribes(promo) {
+  const event = abi.find(item => item.name === 'SubscriptionWithPromoCode')
+
+  const promoHash = Web3.utils.keccak256(promo)
+  const topics = [event.signature, promoHash]
+
+  return eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
+    const data = eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
+
+    return {
+      duration: data.duration,
+      paymentToken: data.paymentToken,
+      promoCode: promo,
+      subscriber: data.subscriber,
+      tokenCost: data.tokenCost,
+    }
+  }))
+}
