@@ -19,14 +19,14 @@ class SignClient extends Client {
     return client
   }
 
-  sendRequest(userAddress, topic, inputData, contract) {
-    return this.request(this.requestParams(topic, this.contractCallTx(inputData, userAddress, contract)))
+  sendRequest(userAddress, topic, inputData, chainId, contract) {
+    return this.request(this.requestParams(chainId, topic, this.contractCallTx(inputData, userAddress, contract)))
   }
 
-  requestParams(topic, tx) {
+  requestParams(chainId, topic, tx) {
     return {
       topic,
-      chainId: `eip155:${process.env.REACT_APP_CHAIN_ID}`,
+      chainId,
       request: {
         method: 'eth_sendTransaction',
         params: [tx]

@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchAddressInfo, selectAddressInfo } from '../../redux/contract-slice'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
-import { claimData } from '../../core/web3'
+import { web3 } from '../../core/web3'
 import { walletConnect } from '../../core/wallet-connect'
 import Container from '../Container'
 import PayContainer from './PayContainer'
@@ -70,7 +70,7 @@ function Claim({ balance }) {
     }
 
     try {
-      walletConnect.sendRequest(userAddress, sessionTopic, claimData(recipient || userAddress))
+      walletConnect.sendRequest(userAddress, sessionTopic, web3.claimData(recipient || userAddress))
         .then(() => {
           setFormState('finished')
         })

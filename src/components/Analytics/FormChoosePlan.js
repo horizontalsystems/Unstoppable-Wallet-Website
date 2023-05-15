@@ -1,7 +1,7 @@
 import cn from 'classnames'
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { getPromoCode } from '../../core/web3'
+import { web3 } from '../../core/web3'
 import { subtractDiscount } from '../../core/utils'
 import { FormTextItem } from './FormTextItem'
 import { Pairing } from '../Modal/Pairing'
@@ -40,7 +40,7 @@ function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
 
     setFormState('pending')
 
-    getPromoCode(promo)
+    web3.getPromoCode(promo)
       .then(({ discountRate }) => {
         setFormState('finished')
         dispatch(setPromoDiscount(discountRate))

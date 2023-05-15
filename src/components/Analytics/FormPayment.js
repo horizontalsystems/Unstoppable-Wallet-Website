@@ -1,14 +1,14 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { DateTime } from 'luxon'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchAllowance, selectDiscount, selectPlan, selectPromo, selectToken } from '../../redux/contract-slice'
+import { Icon } from '../Icon'
 import { FormTextItem } from './FormTextItem'
 import { subtractDiscount } from '../../core/utils'
-import { subscribeData, subscribeWithPromoCodeData } from '../../core/web3'
+import { web3 } from '../../core/web3'
 import { walletConnect } from '../../core/wallet-connect'
-import { useState } from 'react'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
-import Icon from '../Icon'
 
 function FormPayment() {
   const dispatch = useDispatch()
@@ -30,8 +30,8 @@ function FormPayment() {
     setFormState('pending')
 
     const inputData = (promo && discount)
-      ? subscribeWithPromoCodeData(plan.duration, promo)
-      : subscribeData(plan.duration)
+      ? web3.subscribeWithPromoCodeData(plan.duration, promo)
+      : web3.subscribeData(plan.duration)
 
     walletConnect.sendRequest(userAddress, sessionTopic, inputData)
       .then(() => {

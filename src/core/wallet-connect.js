@@ -3,7 +3,23 @@ import QRCodeModal from '@walletconnect/qrcode-modal'
 import { setInitializing, setConnecting, setPairings, setSession } from '../redux/wallet-connect-slice'
 import { setAddressInfo } from '../redux/contract-slice'
 
-class WalletConnect {
+export class WalletConnect {
+
+  static chains = [
+    { id: 1, name: 'Ethereum', rpc: process.env.REACT_APP_ETH_RPC_URL },
+    { id: 56, name: 'BSC', rpc: process.env.REACT_APP_BSC_RPC_URL }
+  ]
+
+  static chain = this.chains[0]
+
+  static setChain(item) {
+    this.chain = item
+  }
+
+  static getChain() {
+    return this.chain
+  }
+
   sendRequest(userAddress, topic, inputData, contract) {
     const client = this.client
 
@@ -11,7 +27,7 @@ class WalletConnect {
       throw new Error('WalletConnect is not initialized')
     }
 
-    return client.sendRequest(userAddress, topic, inputData, contract)
+    return client.sendRequest(userAddress, topic, inputData, `eip155:${WalletConnect.chain.id}`, contract)
   }
 
   initialize = () => async dispatch => {
@@ -49,7 +65,7 @@ class WalletConnect {
         requiredNamespaces: {
           eip155: {
             methods: ['eth_sendTransaction'],
-            chains: [`eip155:${process.env.REACT_APP_CHAIN_ID}`],
+            chains: WalletConnect.chains.map(chain => `eip155:${chain.id}`),
             events: []
           }
         }

@@ -1,7 +1,7 @@
 import { DateTime } from 'luxon'
 import { createSlice } from '@reduxjs/toolkit'
-import { getAddressInfo, getAllowance, getDecimals, getPromoCods, getPaymentToken, getSymbol } from '../core/web3'
 import { convertFromRawAmount } from '../core/utils'
+import web3 from '../core/web3'
 
 const plans = [
   { interval: 1, intervalName: 'month', amount: 200, duration: 30 },
@@ -75,11 +75,11 @@ export const fetchData = () => async (dispatch, getState) => {
   dispatch(actions.setFetching('fetching'))
 
   try {
-    const address = await getPaymentToken()
+    const address = await web3.getPaymentToken()
     const token = {
       address,
-      symbol: await getSymbol(address),
-      decimals: parseInt(await getDecimals(address))
+      symbol: await web3.getSymbol(address),
+      decimals: parseInt(await web3.getDecimals(address))
     }
 
     dispatch(actions.setTokenInfo({ token }))
@@ -92,11 +92,11 @@ export const fetchData = () => async (dispatch, getState) => {
 export const fetchAddressInfo = address => async dispatch => {
   if (!address) return
 
-  const [isModerator, isAdmin, expiration, balance] = Object.values(await getAddressInfo(address))
+  const [isModerator, isAdmin, expiration, balance] = Object.values(await web3.getAddressInfo(address))
   const info = { isModerator, isAdmin, balance }
   const seconds = parseInt(expiration)
 
-  const promoCodes = await getPromoCods((isModerator || isAdmin) ? null : address)
+  const promoCodes = await web3.getPromoCods((isModerator || isAdmin) ? null : address)
 
   if (promoCodes) {
     info.promoCodes = promoCodes
@@ -124,7 +124,7 @@ export const fetchAllowance = (owner, token) => async (dispatch, getState) => {
   dispatch(actions.setAllowanceState('pending'))
 
   try {
-    const allowance = await getAllowance(owner, token)
+    const allowance = await web3.getAllowance(owner, token)
     const bigNumber = convertFromRawAmount(allowance, contract.token.decimals)
     dispatch(actions.setAllowance(bigNumber.toNumber()))
   } catch (e) {

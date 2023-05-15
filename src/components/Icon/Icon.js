@@ -31,6 +31,7 @@ import { ReactComponent as Github } from './github.svg'
 import { ReactComponent as Gitlab } from './gitlab.svg'
 import { ReactComponent as Android } from './android.svg'
 import { ReactComponent as Ethereum } from './ethereum.svg'
+import { ReactComponent as Bsc } from './bsc.svg'
 import { ReactComponent as Profile } from './profile.svg'
 import { ReactComponent as Logout } from './logout.svg'
 import { ReactComponent as Unlock } from './unlock.svg'
@@ -108,6 +109,8 @@ const iconComponent = name => {
     // Chain
     case 'ethereum':
       return <Ethereum />
+    case 'bsc':
+      return <Bsc />
     case 'profile':
       return <Profile />
     case 'logout':

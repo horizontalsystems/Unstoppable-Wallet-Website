@@ -1,7 +1,7 @@
 import { useModal } from './ModalContext'
 import { useState } from 'react'
+import { web3 } from '../../core/web3'
 import { walletConnect } from '../../core/wallet-connect'
-import { setPromoCodeData } from '../../core/web3'
 import { useSelector } from 'react-redux'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
 
@@ -30,7 +30,7 @@ function AddPromoCode() {
     }
 
     try {
-      walletConnect.sendRequest(userAddress, sessionTopic, setPromoCodeData(data.address, data.name, data.commissionRate * 1000, data.discountRate * 100, data.duration))
+      walletConnect.sendRequest(userAddress, sessionTopic, web3.setPromoCodeData(data.address, data.name, data.commissionRate * 1000, data.discountRate * 100, data.duration))
         .then(() => {
           setFormState('finished')
           closeModal()

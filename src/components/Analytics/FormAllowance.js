@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchAllowance, selectAllowance, selectDiscount, selectPlan, selectToken } from '../../redux/contract-slice'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
-import { approveData } from '../../core/web3'
 import { walletConnect } from '../../core/wallet-connect'
+import { web3 } from '../../core/web3'
 import { convertToRawAmount, subtractDiscount } from '../../core/utils'
 import { Icon } from '../Icon'
 
@@ -28,7 +28,7 @@ function FormPayment({ setStep }) {
     if (isPending) return
 
     const discountAmount = subtractDiscount(discount, plan.amount)
-    const data = approveData(token.address, convertToRawAmount(discountAmount, token.decimals))
+    const data = web3.approveData(token.address, convertToRawAmount(discountAmount, token.decimals))
 
     setFormState('pending')
 

@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import { useModal } from '../Modal/ModalContext'
-import { getSubscribes } from '../../core/web3'
+import { web3 } from '../../core/web3'
 import { convertToDecimals, rawAmountToRate } from '../../core/utils'
 import Container from '../Container'
 import PayContainer from './PayContainer'
@@ -37,7 +37,7 @@ export function PromoCodeList({ promoCodes = [] }) {
     }
 
     try {
-      const data = await getSubscribes(promo)
+      const data = await web3.getSubscribes(promo)
       setSubscribers({ ...subscribers, [promo]: data })
     } catch (e) {
       console.log(e)
