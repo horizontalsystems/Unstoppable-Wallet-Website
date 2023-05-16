@@ -92,7 +92,7 @@ class Web3Provider {
     const event = abi.find(item => item.name === 'SubscriptionWithPromoCode')
 
     const promoHash = Web3.utils.keccak256(promo)
-    const topics = [event.signature, promoHash]
+    const topics = [event.signature, null, promoHash]
 
     return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
       const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
