@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { DateTime } from 'luxon'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchAllowance, selectDiscount, selectPlan, selectPromo, selectToken } from '../../redux/contract-slice'
+import { fetchAllowance, selectAddressInfo, selectDiscount, selectPlan, selectPromo, selectToken } from '../../redux/contract-slice'
 import { Icon } from '../Icon'
 import { FormTextItem } from './FormTextItem'
 import { subtractDiscount } from '../../core/utils'
@@ -18,6 +18,7 @@ function FormPayment() {
   const sessionTopic = useSelector(selectTopic)
   const token = useSelector(selectToken)
   const userAddress = useSelector(selectUserAddress)
+  const { expiration } = useSelector(selectAddressInfo)
 
   const [formState, setFormState] = useState('')
   const [error, setError] = useState('')
@@ -53,24 +54,27 @@ function FormPayment() {
     </div>
   )
 
-  const form = () => (
-    <div>
-      <fieldset className="Pay-fieldset Pay-fieldset-padding">
-        <FormTextItem className="mb-3" title="Selected Plan" value={`${plan.interval} ${plan.intervalName}`} />
-        <FormTextItem className="mb-3" title="Plan expire" value={DateTime.now().plus({ days: plan.duration }).toFormat('DD')} />
-        {promo && <FormTextItem className="mb-3" title="Promo Code" value={promo} />}
-        <FormTextItem title="Cost" value={costFinal} yellow />
-      </fieldset>
-      {error && <div className="row">
-        <div className="col">
-          <div className="mt-2 text-danger">{error}</div>
-        </div>
-      </div>}
-      <button className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center" onClick={onPay} disabled={isPending}>
-        Pay
-      </button>
-    </div>
-  )
+  const form = () => {
+    const dateTime = expiration ? DateTime.fromFormat(expiration, 'DD') : DateTime.now()
+    return (
+      <div>
+        <fieldset className="Pay-fieldset Pay-fieldset-padding">
+          <FormTextItem className="mb-3" title="Selected Plan" value={`${plan.interval} ${plan.intervalName}`} />
+          <FormTextItem className="mb-3" title="Plan expire" value={dateTime.plus({ days: plan.duration }).toFormat('DD')} />
+          {promo && <FormTextItem className="mb-3" title="Promo Code" value={promo} />}
+          <FormTextItem title="Cost" value={costFinal} yellow />
+        </fieldset>
+        {error && <div className="row">
+          <div className="col">
+            <div className="mt-2 text-danger">{error}</div>
+          </div>
+        </div>}
+        <button className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center" onClick={onPay} disabled={isPending}>
+          Pay
+        </button>
+      </div>
+    )
+  }
 
   const finish = (
     <div>

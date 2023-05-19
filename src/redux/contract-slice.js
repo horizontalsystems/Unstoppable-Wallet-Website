@@ -97,9 +97,14 @@ export const fetchAddressInfo = address => async dispatch => {
   const seconds = parseInt(expiration)
 
   const promoCodes = await web3.getPromoCods((isModerator || isAdmin) ? null : address)
+  const subscriptions = await web3.getSubscriptions(address)
 
   if (promoCodes) {
     info.promoCodes = promoCodes
+  }
+
+  if (subscriptions) {
+    info.subscriptions = subscriptions
   }
 
   if (seconds > 0) {

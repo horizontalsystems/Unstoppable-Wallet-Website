@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FormTextItem } from './FormTextItem'
-import { ProfileModerator, PromoCodeList } from './ProfileModerator'
+import { ProfileModerator, PromoCodeList, Subscriptions } from './ProfileModerator'
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchAddressInfo, selectAddressInfo } from '../../redux/contract-slice'
@@ -13,14 +13,14 @@ import PayContainer from './PayContainer'
 function Profile() {
   const dispatch = useDispatch()
   const userAddress = useSelector(selectUserAddress)
-  const { expiration, balance, promoCodes, isModerator, isAdmin } = useSelector(selectAddressInfo)
+  const { expiration, balance, promoCodes, subscriptions, isModerator, isAdmin } = useSelector(selectAddressInfo)
 
   useEffect(() => {
     dispatch(fetchAddressInfo(userAddress))
   }, [dispatch, userAddress])
 
   if (isModerator || isAdmin) {
-    return <ProfileModerator promoCodes={promoCodes} />
+    return <ProfileModerator promoCodes={promoCodes} subscriptions={subscriptions} />
   }
 
   return (
@@ -46,6 +46,7 @@ function Profile() {
           </div>
         </div>
         {userAddress && <PromoCodeList promoCodes={promoCodes} />}
+        {subscriptions && <Subscriptions items={subscriptions} />}
       </Container>
     </PayContainer>
   )

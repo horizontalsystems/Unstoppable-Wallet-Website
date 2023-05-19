@@ -45,28 +45,6 @@ class Web3Provider {
     return this.methods.setPromoCode(address, name, commissionRate, discountRate, duration).encodeABI()
   }
 
-  // ERC20
-
-  getAllowance(owner, contract) {
-    const { methods } = new this.Contract(abiErc20, contract)
-    return methods.allowance(owner, process.env.REACT_APP_CONTRACT_ADDRESS).call()
-  }
-
-  getSymbol(contract) {
-    const { methods } = new this.Contract(abiErc20, contract)
-    return methods.symbol().call()
-  }
-
-  getDecimals(contract) {
-    const { methods } = new this.Contract(abiErc20, contract)
-    return methods.decimals().call()
-  }
-
-  approveData(contract, amount) {
-    const { methods } = new this.Contract(abiErc20, contract)
-    return methods.approve(process.env.REACT_APP_CONTRACT_ADDRESS, amount).encodeABI()
-  }
-
   getPromoCods(address) {
     const event = abi.find(item => item.name === 'PromoCodeAddition')
     const topics = [event.signature]
@@ -88,11 +66,14 @@ class Web3Provider {
     }))
   }
 
-  getSubscribes(promo) {
+  getSubscribesByPromo(promo, address) {
     const event = abi.find(item => item.name === 'SubscriptionWithPromoCode')
 
-    const promoHash = Web3.utils.keccak256(promo)
-    const topics = [event.signature, null, promoHash]
+    const topics = [
+      event.signature,
+      address ? Web3.utils.padLeft(address, 64) : null,
+      promo ? Web3.utils.keccak256(promo) : null
+    ]
 
     return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
       const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
@@ -105,6 +86,51 @@ class Web3Provider {
         tokenCost: data.tokenCost,
       }
     }))
+  }
+
+  getSubscribes(address) {
+    const event = abi.find(item => item.name === 'Subscription')
+    const topics = [event.signature, Web3.utils.padLeft(address, 64)]
+
+    return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
+      const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
+
+      return {
+        duration: data.duration,
+        paymentToken: data.paymentToken,
+        subscriber: data.subscriber,
+        tokenCost: data.tokenCost,
+      }
+    }))
+  }
+
+  async getSubscriptions(address) {
+    const dataWithPromo = await this.getSubscribesByPromo(null, address)
+    const dataWithout = await this.getSubscribes(address)
+
+    return [...dataWithPromo, ...dataWithout]
+  }
+
+  // ERC20
+
+  getAllowance(owner, contract) {
+    const { methods } = new this.Contract(abiErc20, contract)
+    return methods.allowance(owner, process.env.REACT_APP_CONTRACT_ADDRESS).call()
+  }
+
+  getSymbol(contract) {
+    const { methods } = new this.Contract(abiErc20, contract)
+    return methods.symbol().call()
+  }
+
+  getDecimals(contract) {
+    const { methods } = new this.Contract(abiErc20, contract)
+    return methods.decimals().call()
+  }
+
+  approveData(contract, amount) {
+    const { methods } = new this.Contract(abiErc20, contract)
+    return methods.approve(process.env.REACT_APP_CONTRACT_ADDRESS, amount).encodeABI()
   }
 }
 

@@ -1,4 +1,6 @@
+import { useSelector } from 'react-redux'
 import { Fragment, useState } from 'react'
+import { selectToken } from '../../redux/contract-slice'
 import { useModal } from '../Modal/ModalContext'
 import { web3 } from '../../core/web3'
 import { convertToDecimals, rawAmountToRate } from '../../core/utils'
@@ -7,7 +9,7 @@ import PayContainer from './PayContainer'
 import AddPromoCode from '../Modal/AddPromoCode'
 import Icon from '../Icon'
 
-export function ProfileModerator({ promoCodes = [] }) {
+export function ProfileModerator({ promoCodes = [], subscriptions = [] }) {
   const { setModal } = useModal()
 
   const onAddPromo = () => setModal(<AddPromoCode />)
@@ -19,6 +21,7 @@ export function ProfileModerator({ promoCodes = [] }) {
           <button type="button" className="btn btn-primary" onClick={onAddPromo}>Add Promo</button>
         </div>
         <PromoCodeList promoCodes={promoCodes} />
+        <Subscriptions items={subscriptions} />
       </Container>
     </PayContainer>
   )
@@ -37,7 +40,7 @@ export function PromoCodeList({ promoCodes = [] }) {
     }
 
     try {
-      const data = await web3.getSubscribes(promo)
+      const data = await web3.getSubscribesByPromo(promo)
       setSubscribers({ ...subscribers, [promo]: data })
     } catch (e) {
       console.log(e)
@@ -93,9 +96,49 @@ export function PromoCodeList({ promoCodes = [] }) {
   )
 }
 
-function PromoCodeSubscribers({ items = [] }) {
-  return items.map(item => (
-    <tr key={item.promoCode}>
+export function Subscriptions({ items }) {
+  const token = useSelector(selectToken)
+
+  if (!items || !items.length) {
+    return null
+  }
+
+  return (
+    <div className="Pay-card mt-3">
+      <div className="color-yellow">
+        Subscriptions
+      </div>
+      <table className="table m-0 mb-4">
+        <thead>
+        <tr>
+          <th><small>Address</small></th>
+          <th><small>Duration</small></th>
+          <th><small>Cost</small></th>
+        </tr>
+        </thead>
+        <tbody>
+        {items.map((item, index) => (
+          <tr key={index}>
+            <td><small>{item.subscriber}</small></td>
+            <td><small>{item.duration} days</small></td>
+            <td><small>{convertToDecimals(item.tokenCost, 6, 2).toString()} {token.symbol}</small></td>
+          </tr>
+        ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+function PromoCodeSubscribers({ items }) {
+  const token = useSelector(selectToken)
+
+  if (!items || !items.length) {
+    return null
+  }
+
+  return (
+    <tr>
       <td colSpan="6">
         <small className="color-yellow ms-2">
           Subscribers:
@@ -106,21 +149,19 @@ function PromoCodeSubscribers({ items = [] }) {
             <th><small>Address</small></th>
             <th><small>Duration</small></th>
             <th><small>Cost</small></th>
-            <th><small>Token</small></th>
-            <th><small>Promo Code</small></th>
           </tr>
           </thead>
           <tbody>
-          <tr>
-            <td><small>{item.subscriber}</small></td>
-            <td><small>{item.duration}</small></td>
-            <td><small>{convertToDecimals(item.tokenCost, 6, 2).toString()}</small></td>
-            <td><small>{item.paymentToken}</small></td>
-            <td><small>{item.promoCode}</small></td>
-          </tr>
+          {items.map((item, index) => (
+            <tr key={index}>
+              <td><small>{item.subscriber}</small></td>
+              <td><small>{item.duration}</small></td>
+              <td><small>{convertToDecimals(item.tokenCost, 6, 2).toString()} {token.symbol}</small></td>
+            </tr>
+          ))}
           </tbody>
         </table>
       </td>
     </tr>
-  ))
+  )
 }
