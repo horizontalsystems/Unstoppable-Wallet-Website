@@ -39,7 +39,6 @@ function AddModerator() {
     }
   }
 
-
   return (
     <div className="modal-dialog">
       <div className="modal-content">

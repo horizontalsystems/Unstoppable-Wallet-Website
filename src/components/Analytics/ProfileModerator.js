@@ -7,6 +7,7 @@ import { WalletConnect } from '../../core/wallet-connect'
 import { convertToDecimals, rawAmountToRate } from '../../core/utils'
 import Container from '../Container'
 import PayContainer from './PayContainer'
+import ChangeToken from '../Modal/ChangeToken'
 import AddPromoCode from '../Modal/AddPromoCode'
 import AddModerator from '../Modal/AddModerator'
 import AddWhitelist from '../Modal/AddWhitelist'
@@ -18,13 +19,14 @@ export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscr
   const onAddPromo = () => setModal(<AddPromoCode />)
   const onModerator = () => setModal(<AddModerator />)
   const onWhitelist = () => setModal(<AddWhitelist />)
+  const onChangeToken = () => setModal(<ChangeToken />)
 
   return (
     <PayContainer>
       <Container className="Container-analytics" clipped={false}>
         <div className="mt-3">
           {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onModerator}>Add Moderator</button>}
-          {isAdmin && <button type="button" className="btn btn-primary ms-2" disabled>Change token</button>}
+          {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onChangeToken}>Change token</button>}
           {isModerator && <button type="button" className="btn btn-primary" onClick={onAddPromo}>Add Promo</button>}
           {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onWhitelist}>Whitelist</button>}
         </div>

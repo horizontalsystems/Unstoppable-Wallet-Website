@@ -45,12 +45,20 @@ class Web3Provider {
     return this.methods.setPromoCode(address, name, commissionRate, discountRate, duration).encodeABI()
   }
 
+  getTotalPromoterBalance() {
+    return this.methods.totalPromoterBalance().call()
+  }
+
   getModeratorRole() {
     return this.methods.MODERATOR_ROLE().call()
   }
 
   grantRoleData(role, address) {
     return this.methods.grantRole(role, address).encodeABI()
+  }
+
+  changePaymentToken(address, withdrawAddress, chargeAddress) {
+    return this.methods.changePaymentToken(address, withdrawAddress, chargeAddress).encodeABI()
   }
 
   whitelist(address, duration) {

@@ -2,12 +2,14 @@ import { useModal } from './ModalContext'
 import { useState } from 'react'
 import { web3 } from '../../core/web3'
 import { walletConnect } from '../../core/wallet-connect'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
+import { fetchAddressInfo } from '../../redux/contract-slice'
 
 function AddPromoCode() {
   const userAddress = useSelector(selectUserAddress)
   const sessionTopic = useSelector(selectTopic)
+  const dispatch = useDispatch()
 
   const { closeModal } = useModal()
   const [formState, setFormState] = useState('')
@@ -33,6 +35,7 @@ function AddPromoCode() {
       walletConnect.sendRequest(userAddress, sessionTopic, web3.setPromoCodeData(data.address, data.name, data.commissionRate * 1000, data.discountRate * 100, data.duration))
         .then(() => {
           setFormState('finished')
+          dispatch(fetchAddressInfo(userAddress))
           closeModal()
         })
         .catch(onError)

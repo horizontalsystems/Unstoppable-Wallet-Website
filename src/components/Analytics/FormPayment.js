@@ -60,7 +60,11 @@ function FormPayment() {
       <div>
         <fieldset className="Pay-fieldset Pay-fieldset-padding">
           <FormTextItem className="mb-3" title="Selected Plan" value={`${plan.interval} ${plan.intervalName}`} />
-          <FormTextItem className="mb-3" title="Plan expire" value={dateTime.plus({ days: plan.duration }).toFormat('DD')} />
+          {expiration && <FormTextItem className="mb-3" title="Current Expiration" value={expiration} />}
+          <FormTextItem
+            className="mb-3" title={expiration ? 'New Expiration' : 'Expiration'}
+            value={dateTime.plus({ days: plan.duration }).toFormat('DD')}
+          />
           {promo && <FormTextItem className="mb-3" title="Promo Code" value={promo} />}
           <FormTextItem title="Cost" value={costFinal} yellow />
         </fieldset>
