@@ -105,15 +105,15 @@ export const fetchAddressInfo = address => async dispatch => {
   const seconds = parseInt(expiration)
 
   const promoCodes = await web3.getPromoCods((isModerator || isAdmin) ? null : address)
-  const whitelists = await web3.getWhitelists()
+  const updateSubscriptions = await web3.getUpdateSubscription()
   const subscriptions = await web3.getSubscriptions(address)
 
   if (promoCodes) {
     info.promoCodes = promoCodes
   }
 
-  if (whitelists) {
-    info.whitelists = whitelists
+  if (updateSubscriptions) {
+    info.updateSubscriptions = updateSubscriptions
   }
 
   if (subscriptions) {

@@ -5,7 +5,7 @@ import { walletConnect } from '../../core/wallet-connect'
 import { useSelector } from 'react-redux'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
 
-function AddWhitelist() {
+function UpdateSubscription({ isAdd }) {
   const userAddress = useSelector(selectUserAddress)
   const sessionTopic = useSelector(selectTopic)
 
@@ -28,7 +28,12 @@ function AddWhitelist() {
     }
 
     try {
-      walletConnect.sendRequest(userAddress, sessionTopic, web3.whitelist(addressRef.current.value, parseInt(durationRef.current.value)))
+      const duration = parseInt(durationRef.current.value)
+      const inputData = isAdd
+        ? web3.addSubscription(addressRef.current.value, duration)
+        : web3.subtractSubscription(addressRef.current.value, duration)
+
+      walletConnect.sendRequest(userAddress, sessionTopic, inputData)
         .then(() => {
           setFormState('finished')
           closeModal()
@@ -44,7 +49,7 @@ function AddWhitelist() {
     <div className="modal-dialog">
       <div className="modal-content">
         <div className="modal-header">
-          <h5 className="modal-title">Whitelist</h5>
+          <h5 className="modal-title">{isAdd ? 'Add' : 'Subtract'} subscription</h5>
           <button type="button" className="btn-close" onClick={closeModal} />
         </div>
         <div className="modal-body">
@@ -80,4 +85,4 @@ function AddWhitelist() {
   )
 }
 
-export default AddWhitelist
+export default UpdateSubscription

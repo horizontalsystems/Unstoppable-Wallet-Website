@@ -1,3 +1,4 @@
+import { DateTime } from 'luxon'
 import { useSelector } from 'react-redux'
 import { Fragment, useState } from 'react'
 import { selectToken } from '../../redux/contract-slice'
@@ -10,15 +11,16 @@ import PayContainer from './PayContainer'
 import ChangeToken from '../Modal/ChangeToken'
 import AddPromoCode from '../Modal/AddPromoCode'
 import AddModerator from '../Modal/AddModerator'
-import AddWhitelist from '../Modal/AddWhitelist'
+import UpdateSubscription from '../Modal/UpdateSubscription'
 import Icon from '../Icon'
 
-export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscriptions = [], whitelists = [] }) {
+export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscriptions = [], updateSubscriptions = [] }) {
   const { setModal } = useModal()
 
   const onAddPromo = () => setModal(<AddPromoCode />)
   const onModerator = () => setModal(<AddModerator />)
-  const onWhitelist = () => setModal(<AddWhitelist />)
+  const onAddSubscription = () => setModal(<UpdateSubscription isAdd />)
+  const onSubtractSubscription = () => setModal(<UpdateSubscription />)
   const onChangeToken = () => setModal(<ChangeToken />)
 
   return (
@@ -28,11 +30,12 @@ export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscr
           {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onModerator}>Add Moderator</button>}
           {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onChangeToken}>Change token</button>}
           {isModerator && <button type="button" className="btn btn-primary" onClick={onAddPromo}>Add Promo</button>}
-          {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onWhitelist}>Whitelist</button>}
+          {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onAddSubscription}>Add Subscription</button>}
+          {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onSubtractSubscription}>Subtract Subscription</button>}
         </div>
         <PromoCodeList promoCodes={promoCodes} />
         <Subscriptions items={subscriptions} />
-        <Whitelist items={whitelists} />
+        <Whitelist items={updateSubscriptions} />
       </Container>
     </PayContainer>
   )
@@ -156,6 +159,7 @@ export function Whitelist({ items }) {
         <tr>
           <th><small>Address</small></th>
           <th><small>Duration</small></th>
+          <th><small>Deadline</small></th>
         </tr>
         </thead>
         <tbody>
@@ -163,6 +167,7 @@ export function Whitelist({ items }) {
           <tr key={index}>
             <td><small>{item.address}</small></td>
             <td><small>{item.duration} days</small></td>
+            <td><small>{DateTime.fromSeconds(parseInt(item.deadline)).toFormat('DD')}</small></td>
           </tr>
         ))}
         </tbody>

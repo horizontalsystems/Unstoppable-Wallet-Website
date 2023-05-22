@@ -61,8 +61,12 @@ class Web3Provider {
     return this.methods.changePaymentToken(address, withdrawAddress, chargeAddress).encodeABI()
   }
 
-  whitelist(address, duration) {
-    return this.methods.whitelist(address, duration).encodeABI()
+  addSubscription(address, duration) {
+    return this.methods.addSubscription(address, duration).encodeABI()
+  }
+
+  subtractSubscription(address, duration) {
+    return this.methods.subtractSubscription(address, duration).encodeABI()
   }
 
   getPromoCods(address) {
@@ -86,8 +90,8 @@ class Web3Provider {
     }))
   }
 
-  getWhitelists() {
-    const event = abi.find(item => item.name === 'Whitelist')
+  getUpdateSubscription() {
+    const event = abi.find(item => item.name === 'UpdateSubscription')
     const topics = [event.signature]
 
     return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
@@ -95,7 +99,8 @@ class Web3Provider {
 
       return {
         address: data._address,
-        duration: data.duration
+        duration: data.duration,
+        deadline: data.deadline
       }
     }))
   }
