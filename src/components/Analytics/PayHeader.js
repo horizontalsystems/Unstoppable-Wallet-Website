@@ -111,7 +111,7 @@ class PayHeader extends Component {
         <div className="Button Button-dark Button-circle nav-btn-item">
           <div className="dropdown" onClick={() => toggleDropdown(!showDropdown)}>
             <div className="dropdown-toggle text-capitalize text-white border-0 pe-0" data-bs-toggle="dropdown">
-              {chain.id === 1 ? <Icon name="ethereum" /> : <Icon name="bsc" />}
+              {chain.name === 'Ethereum' ? <Icon name="ethereum" /> : <Icon name="bsc" />}
             </div>
             <ul className={cn('dropdown-menu dropdown-menu-end', { show: showDropdown })}>
               {WalletConnect.chains.map(item => (

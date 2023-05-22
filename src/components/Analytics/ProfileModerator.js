@@ -3,25 +3,34 @@ import { Fragment, useState } from 'react'
 import { selectToken } from '../../redux/contract-slice'
 import { useModal } from '../Modal/ModalContext'
 import { web3 } from '../../core/web3'
+import { WalletConnect } from '../../core/wallet-connect'
 import { convertToDecimals, rawAmountToRate } from '../../core/utils'
 import Container from '../Container'
 import PayContainer from './PayContainer'
 import AddPromoCode from '../Modal/AddPromoCode'
+import AddModerator from '../Modal/AddModerator'
+import AddWhitelist from '../Modal/AddWhitelist'
 import Icon from '../Icon'
 
-export function ProfileModerator({ promoCodes = [], subscriptions = [] }) {
+export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscriptions = [], whitelists = [] }) {
   const { setModal } = useModal()
 
   const onAddPromo = () => setModal(<AddPromoCode />)
+  const onModerator = () => setModal(<AddModerator />)
+  const onWhitelist = () => setModal(<AddWhitelist />)
 
   return (
     <PayContainer>
       <Container className="Container-analytics" clipped={false}>
         <div className="mt-3">
-          <button type="button" className="btn btn-primary" onClick={onAddPromo}>Add Promo</button>
+          {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onModerator}>Add Moderator</button>}
+          {isAdmin && <button type="button" className="btn btn-primary ms-2" disabled>Change token</button>}
+          {isModerator && <button type="button" className="btn btn-primary" onClick={onAddPromo}>Add Promo</button>}
+          {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onWhitelist}>Whitelist</button>}
         </div>
         <PromoCodeList promoCodes={promoCodes} />
         <Subscriptions items={subscriptions} />
+        <Whitelist items={whitelists} />
       </Container>
     </PayContainer>
   )
@@ -76,7 +85,7 @@ export function PromoCodeList({ promoCodes = [] }) {
                 <td>{rawAmountToRate(item.discountRate)}</td>
                 <td>{rawAmountToRate(item.commissionRate)}</td>
                 <td className="border-end-0">
-                  <a href={`${process.env.REACT_APP_EXPLORER_URL}/token/${item.address}?a=${process.env.REACT_APP_CONTRACT_ADDRESS}`} rel="nofollow">
+                  <a href={`${WalletConnect.chain.explorer}/token/${item.address}?a=${process.env.REACT_APP_CONTRACT_ADDRESS}`} rel="nofollow">
                     {item.address}
                   </a>
                 </td>
@@ -122,6 +131,36 @@ export function Subscriptions({ items }) {
             <td><small>{item.subscriber}</small></td>
             <td><small>{item.duration} days</small></td>
             <td><small>{convertToDecimals(item.tokenCost, 6, 2).toString()} {token.symbol}</small></td>
+          </tr>
+        ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+export function Whitelist({ items }) {
+  if (!items || !items.length) {
+    return null
+  }
+
+  return (
+    <div className="Pay-card mt-3">
+      <div className="color-yellow">
+        Whitelist list
+      </div>
+      <table className="table m-0 mb-4">
+        <thead>
+        <tr>
+          <th><small>Address</small></th>
+          <th><small>Duration</small></th>
+        </tr>
+        </thead>
+        <tbody>
+        {items.map((item, index) => (
+          <tr key={index}>
+            <td><small>{item.address}</small></td>
+            <td><small>{item.duration} days</small></td>
           </tr>
         ))}
         </tbody>

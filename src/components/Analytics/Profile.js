@@ -13,14 +13,22 @@ import PayContainer from './PayContainer'
 function Profile() {
   const dispatch = useDispatch()
   const userAddress = useSelector(selectUserAddress)
-  const { expiration, balance, promoCodes, subscriptions, isModerator, isAdmin } = useSelector(selectAddressInfo)
+  const { expiration, balance, promoCodes, whitelists, subscriptions, isModerator, isAdmin } = useSelector(selectAddressInfo)
 
   useEffect(() => {
     dispatch(fetchAddressInfo(userAddress))
   }, [dispatch, userAddress])
 
   if (isModerator || isAdmin) {
-    return <ProfileModerator promoCodes={promoCodes} subscriptions={subscriptions} />
+    return (
+      <ProfileModerator
+        promoCodes={promoCodes}
+        whitelists={whitelists}
+        subscriptions={subscriptions}
+        isAdmin={isAdmin}
+        isModerator={isModerator}
+      />
+    )
   }
 
   return (

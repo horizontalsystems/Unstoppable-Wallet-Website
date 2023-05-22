@@ -45,6 +45,18 @@ class Web3Provider {
     return this.methods.setPromoCode(address, name, commissionRate, discountRate, duration).encodeABI()
   }
 
+  getModeratorRole() {
+    return this.methods.MODERATOR_ROLE().call()
+  }
+
+  grantRoleData(role, address) {
+    return this.methods.grantRole(role, address).encodeABI()
+  }
+
+  whitelist(address, duration) {
+    return this.methods.whitelist(address, duration).encodeABI()
+  }
+
   getPromoCods(address) {
     const event = abi.find(item => item.name === 'PromoCodeAddition')
     const topics = [event.signature]
@@ -62,6 +74,20 @@ class Web3Provider {
         commissionRate: data.commissionRate,
         deadline: DateTime.fromSeconds(parseInt(data.deadline)).toFormat('DD'),
         address: data._address
+      }
+    }))
+  }
+
+  getWhitelists() {
+    const event = abi.find(item => item.name === 'Whitelist')
+    const topics = [event.signature]
+
+    return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
+      const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
+
+      return {
+        address: data._address,
+        duration: data.duration
       }
     }))
   }

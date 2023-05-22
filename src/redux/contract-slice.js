@@ -4,14 +4,15 @@ import { convertFromRawAmount } from '../core/utils'
 import web3 from '../core/web3'
 
 const plans = [
-  { interval: 1, intervalName: 'month', amount: 200, duration: 30 },
-  { interval: 3, intervalName: 'month', amount: 500, duration: 90 },
-  { interval: 6, intervalName: 'month', amount: 800, duration: 180 }
+  { interval: 1, intervalName: 'month', amount: 10, duration: 30 },
+  { interval: 3, intervalName: 'month', amount: 20, duration: 90 },
+  { interval: 6, intervalName: 'month', amount: 30, duration: 180 }
 ]
 
 const initialState = {
   token: {},
   addressInfo: {},
+  addressFetching: null,
   discount: null,
   fetching: null,
   promo: '',
@@ -53,6 +54,9 @@ export const { actions, reducer } = createSlice({
     setAddressInfo: (state, { payload }) => {
       state.addressInfo = payload
     },
+    setAddressFetching: (state, { payload }) => {
+      state.addressFetching = payload
+    },
   }
 })
 
@@ -65,6 +69,7 @@ export const selectDiscount = state => state.contract.discount
 export const selectToken = state => state.contract.token
 export const selectAddressInfo = state => state.contract.addressInfo
 export const selectIsFetched = state => state.contract.fetching === 'fetched'
+export const selectAddressFetching = state => state.contract.addressFetching === 'fetching'
 export const selectAllowance = state => state.contract.allowance
 
 export const fetchData = () => async (dispatch, getState) => {
@@ -92,15 +97,23 @@ export const fetchData = () => async (dispatch, getState) => {
 export const fetchAddressInfo = address => async dispatch => {
   if (!address) return
 
+  dispatch(actions.setAddressFetching('fetching'))
+  dispatch(actions.setAddressInfo({}))
+
   const [isModerator, isAdmin, expiration, balance] = Object.values(await web3.getAddressInfo(address))
   const info = { isModerator, isAdmin, balance }
   const seconds = parseInt(expiration)
 
   const promoCodes = await web3.getPromoCods((isModerator || isAdmin) ? null : address)
+  const whitelists = await web3.getWhitelists()
   const subscriptions = await web3.getSubscriptions(address)
 
   if (promoCodes) {
     info.promoCodes = promoCodes
+  }
+
+  if (whitelists) {
+    info.whitelists = whitelists
   }
 
   if (subscriptions) {
@@ -111,7 +124,8 @@ export const fetchAddressInfo = address => async dispatch => {
     info.expiration = DateTime.fromSeconds(seconds).toFormat('DD')
   }
 
-  dispatch(setAddressInfo(info))
+  dispatch(actions.setAddressInfo(info))
+  dispatch(actions.setAddressFetching('fetched'))
 }
 
 export const fetchAllowance = (owner, token) => async (dispatch, getState) => {
