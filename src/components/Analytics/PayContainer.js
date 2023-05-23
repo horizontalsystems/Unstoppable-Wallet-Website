@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchData, selectAddressFetching, selectIsFetched } from '../../redux/contract-slice'
+import { fetchData, selectAddressFetching, selectFetchingFailed, selectIsFetched } from '../../redux/contract-slice'
 import { useModal } from '../Modal/ModalContext'
 
 import PayLoading from './PayLoading'
@@ -10,10 +10,11 @@ import Footer from '../Footer/Footer'
 import './PayContainer.scss'
 
 function PayContainer({ children }) {
-  const dispatch = useDispatch()
-  const isFetched = useSelector(selectIsFetched)
-  const isAddressFetching = useSelector(selectAddressFetching)
   const { setModal } = useModal()
+  const dispatch = useDispatch()
+  const isAddressFetching = useSelector(selectAddressFetching)
+  const isFetched = useSelector(selectIsFetched)
+  const isFetchingFailed = useSelector(selectFetchingFailed)
 
   useEffect(() => {
     dispatch(fetchData())
@@ -26,7 +27,7 @@ function PayContainer({ children }) {
       </div>
 
       <div id="page-2" className="Page-dark">
-        {(isFetched && !isAddressFetching) ? children : <PayLoading />}
+        {(isFetched && !isAddressFetching) ? children : <PayLoading isFailed={isFetchingFailed} />}
       </div>
 
       <div id="page-9" className="Page-dark">

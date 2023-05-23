@@ -15,8 +15,8 @@ function AddPromoCode() {
   const [formState, setFormState] = useState('')
   const [error, setError] = useState('')
   const [data, setData] = useState({
-    commissionRate: 0.2,
-    discountRate: 0.1,
+    commissionRate: 20,
+    discountRate: 10,
     duration: 30
   })
 
@@ -32,7 +32,7 @@ function AddPromoCode() {
     }
 
     try {
-      walletConnect.sendRequest(userAddress, sessionTopic, web3.setPromoCodeData(data.address, data.name, data.commissionRate * 1000, data.discountRate * 100, data.duration))
+      walletConnect.sendRequest(userAddress, sessionTopic, web3.setPromoCodeData(data.address, data.name, data.commissionRate * 1000 / 100, data.discountRate * 1000 / 100, data.duration))
         .then(() => {
           setFormState('finished')
           dispatch(fetchAddressInfo(userAddress))
@@ -76,7 +76,7 @@ function AddPromoCode() {
               />
             </div>
             <div className="mt-4">
-              <label className="form-label">Commission Rate</label>
+              <label className="form-label">Commission Rate (%)</label>
               <input
                 type="number"
                 className="form-control input-no-shadow"
@@ -87,7 +87,7 @@ function AddPromoCode() {
               />
             </div>
             <div className="mt-4">
-              <label className="form-label">Discount Rate</label>
+              <label className="form-label">Discount Rate (%)</label>
               <input
                 type="number"
                 className="form-control input-no-shadow"

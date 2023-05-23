@@ -1,4 +1,4 @@
-import { BigNumber } from '@ethersproject/bignumber'
+import Decimal from 'decimal.js'
 
 export function truncate(str, maxLength = 14) {
   if (!str || str.length <= maxLength) return str
@@ -20,22 +20,22 @@ export function subtractDiscount(discount, amount) {
 
 export function rawAmountToRate(amount) {
   if (!amount) return amount
-  return amount / 1000
+  return amount / 1000 * 100
 }
 
 export function convertFromRawAmount(rawAmount, decimals) {
-  return BigNumber.from(rawAmount).div(BigNumber.from(10).pow(decimals))
+  return new Decimal(rawAmount).div(new Decimal(10).pow(decimals)).toNumber()
 }
 
 export function convertToRawAmount(amount, decimals) {
-  return BigNumber.from(amount).mul(BigNumber.from(10).pow(decimals))
+  return new Decimal(amount).mul(new Decimal(10).pow(decimals)).toNumber()
 }
 
 export function convertToDecimals(amount, fromDecimals, toDecimals) {
   if (fromDecimals > toDecimals) {
-    return BigNumber.from(amount).div(BigNumber.from(10).pow(fromDecimals - toDecimals))
+    return new Decimal(amount).div(new Decimal(10).pow(fromDecimals - toDecimals))
   } else if (fromDecimals < toDecimals) {
-    return BigNumber.from(amount).mul(BigNumber.from(10).pow(toDecimals - fromDecimals))
+    return new Decimal(amount).mul(new Decimal(10).pow(toDecimals - fromDecimals))
   } else {
     return amount
   }

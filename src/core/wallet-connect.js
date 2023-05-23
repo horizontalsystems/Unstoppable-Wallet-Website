@@ -6,8 +6,20 @@ import { setAddressInfo } from '../redux/contract-slice'
 export class WalletConnect {
 
   static chains = [
-    { id: 11155111, name: 'Ethereum',  rpc: process.env.REACT_APP_ETH_RPC_URL, explorer: process.env.REACT_APP_ETH_EXPLORER },
-    { id: 97,       name: 'BSC',       rpc: process.env.REACT_APP_BSC_RPC_URL, explorer: process.env.REACT_APP_BSC_EXPLORER }
+    {
+      id: 11155111,
+      name: 'Ethereum',
+      rpc: process.env.REACT_APP_ETH_RPC_URL,
+      explorer: process.env.REACT_APP_ETH_EXPLORER,
+      block: 3541497
+    },
+    {
+      id: 97,
+      name: 'BSC',
+      rpc: process.env.REACT_APP_BSC_RPC_URL,
+      explorer: process.env.REACT_APP_BSC_EXPLORER,
+      block: 0
+    }
   ]
 
   static chain = this.chains[0]

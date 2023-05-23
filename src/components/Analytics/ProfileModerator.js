@@ -87,8 +87,8 @@ export function PromoCodeList({ promoCodes = [] }) {
               <tr>
                 <td>{item.name}</td>
                 <td>{item.deadline}</td>
-                <td>{rawAmountToRate(item.discountRate)}</td>
-                <td>{rawAmountToRate(item.commissionRate)}</td>
+                <td>{rawAmountToRate(item.discountRate)}%</td>
+                <td>{rawAmountToRate(item.commissionRate)}%</td>
                 <td className="border-end-0">
                   <a href={`${WalletConnect.chain.explorer}/token/${item.address}?a=${process.env.REACT_APP_CONTRACT_ADDRESS}`} rel="nofollow">
                     {item.address}

@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://unstoppable.money",
   "dependencies": {
-    "@ethersproject/bignumber": "^5.7.0",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
@@ -14,6 +13,7 @@
     "@walletconnect/utils": "^2.7.0",
     "bootstrap": "^5.3.0-alpha3",
     "classnames": "^2.3.2",
+    "decimal.js": "^10.4.3",
     "events": "^3.3.0",
     "lodash.throttle": "^4.1.1",
     "luxon": "^3.3.0",
@@ -35,8 +35,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "scp -r ./build/* deploy@178.62.214.140:/var/www/unstoppable.money"
+    "deploy-dev": "scp -r ./build/* ubuntu@64.227.26.93:/home/ubuntu/hspay-dev"
   },
   "eslintConfig": {
     "extends": "react-app"

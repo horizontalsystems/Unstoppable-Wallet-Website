@@ -1,4 +1,5 @@
 import { DateTime } from 'luxon'
+import { WalletConnect } from './wallet-connect'
 import Web3 from 'web3'
 import abi from './abi/contract.json'
 import abiErc20 from './abi/erc20.json'
@@ -77,7 +78,7 @@ class Web3Provider {
       topics.push(Web3.utils.padLeft(address, 64))
     }
 
-    return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
       const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
       return {
@@ -94,7 +95,7 @@ class Web3Provider {
     const event = abi.find(item => item.name === 'UpdateSubscription')
     const topics = [event.signature]
 
-    return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
       const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
       return {
@@ -114,7 +115,7 @@ class Web3Provider {
       promo ? Web3.utils.keccak256(promo) : null
     ]
 
-    return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
       const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
       return {
@@ -131,7 +132,7 @@ class Web3Provider {
     const event = abi.find(item => item.name === 'Subscription')
     const topics = [event.signature, Web3.utils.padLeft(address, 64)]
 
-    return this.eth.getPastLogs({ fromBlock: 0, topics }).then(res => res.map(item => {
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
       const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
       return {
