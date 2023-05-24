@@ -24,11 +24,11 @@ export function rawAmountToRate(amount) {
 }
 
 export function convertFromRawAmount(rawAmount, decimals) {
-  return new Decimal(rawAmount).div(new Decimal(10).pow(decimals)).toNumber()
+  return new Decimal(rawAmount).div(new Decimal(10).pow(decimals))
 }
 
 export function convertToRawAmount(amount, decimals) {
-  return new Decimal(amount).mul(new Decimal(10).pow(decimals)).toNumber()
+  return new Decimal(amount).mul(new Decimal(10).pow(decimals))
 }
 
 export function convertToDecimals(amount, fromDecimals, toDecimals) {

@@ -28,7 +28,7 @@ function FormPayment({ setStep }) {
     if (isPending) return
 
     const discountAmount = subtractDiscount(discount, plan.amount)
-    const data = web3.approveData(token.address, convertToRawAmount(discountAmount, token.decimals))
+    const data = web3.approveData(token.address, convertToRawAmount(discountAmount, token.decimals).toString())
 
     setFormState('pending')
 

@@ -37,7 +37,7 @@ function ChangeToken() {
       const tokenAddr = tokenAddrRef.current.value
       const decimals = await web3.getDecimals(tokenAddr)
       const promoterBalance = await web3.getTotalPromoterBalance()
-      const allowance = convertFromRawAmount(await web3.getAllowance(userAddress, tokenAddr), decimals).toNumber()
+      const allowance = convertFromRawAmount(await web3.getAllowance(userAddress, tokenAddr), decimals).toString()
 
       if (promoterBalance > allowance) {
         setApprove({
@@ -64,7 +64,7 @@ function ChangeToken() {
   const onApprove = async () => {
     if (approving) return
 
-    const data = web3.approveData(token.address, convertToRawAmount(approve.amount, approve.decimals))
+    const data = web3.approveData(token.address, convertToRawAmount(approve.amount, approve.decimals).toString())
     setApproving(true)
 
     walletConnect.sendRequest(userAddress, sessionTopic, data, token.address)

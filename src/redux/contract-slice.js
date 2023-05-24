@@ -151,7 +151,7 @@ export const fetchAllowance = (owner, token) => async (dispatch, getState) => {
   try {
     const allowance = await web3.getAllowance(owner, token)
     const bigNumber = convertFromRawAmount(allowance, contract.token.decimals)
-    dispatch(actions.setAllowance(bigNumber.toNumber()))
+    dispatch(actions.setAllowance(bigNumber.toString()))
   } catch (e) {
     dispatch(actions.setAllowanceState('failed'))
   }
