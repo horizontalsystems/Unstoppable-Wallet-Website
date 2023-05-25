@@ -13,9 +13,9 @@ import { ReactComponent as AdvancedSearch } from './search.svg'
 import { ReactComponent as Analytics } from './analytics.svg'
 
 function Demo() {
-  const [active, setActive] = useState('multiWallet')
-  const isActive = name => active === name ? 'active' : null
-  const setState = val => () => setActive(val)
+  const [active, setActive] = useState({ id: 'multiWallet', autoplay: false })
+  const isActive = name => active.id === name ? 'active' : null
+  const setState = id => () => setActive({ id, autoplay: true })
 
   const map = {
     bitcoinWallet: '9gT11AgG_s0',
@@ -36,8 +36,8 @@ function Demo() {
 
         <div className="Demo-container mt-5 pt-5">
           <div className="Demo-content">
-            <TabContent key={active} isActive={isActive}>
-              <YoutubeEmbed embedId={map[active]} />
+            <TabContent key={active.id} isActive={isActive}>
+              <YoutubeEmbed embedId={map[active.id]} autoplay={active.autoplay} />
             </TabContent>
           </div>
           <div className="Demo-tabs">
