@@ -11,7 +11,7 @@ export class WalletConnect {
       name: 'Ethereum',
       rpc: process.env.REACT_APP_ETH_RPC_URL,
       explorer: process.env.REACT_APP_ETH_EXPLORER,
-      block: 3541497
+      block: 3595469
     },
     {
       id: 97,

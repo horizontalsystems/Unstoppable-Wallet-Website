@@ -135,7 +135,7 @@ export function Subscriptions({ items }) {
           <tr key={index}>
             <td><small>{item.subscriber}</small></td>
             <td><small>{item.duration} days</small></td>
-            <td><small>{convertToDecimals(item.tokenCost, token.decimals, 2).toString()} {token.symbol}</small></td>
+            <td><small>{convertToDecimals(item.tokenCost, token.decimals, 0).toString()} {token.symbol}</small></td>
           </tr>
         ))}
         </tbody>
@@ -202,7 +202,7 @@ function PromoCodeSubscribers({ items }) {
             <tr key={index}>
               <td><small>{item.subscriber}</small></td>
               <td><small>{item.duration}</small></td>
-              <td><small>{convertToDecimals(item.tokenCost, token.decimals, 2).toString()} {token.symbol}</small></td>
+              <td><small>{convertToDecimals(item.tokenCost, token.decimals, 0).toString()} {token.symbol}</small></td>
             </tr>
           ))}
           </tbody>
