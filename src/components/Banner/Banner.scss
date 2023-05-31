@@ -97,6 +97,19 @@
   }
 }
 
+.Banner-link {
+  display: flex;
+  color: $yellow_d;
+  font-weight: 400;
+  font-size: 18px;
+  align-items: center;
+  text-decoration: none;
+
+  svg {
+    fill: $yellow_d;
+  }
+}
+
 .Banner-title {
   font-style: normal;
   font-size: 32px;

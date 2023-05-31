@@ -5,8 +5,8 @@ import cn from 'classnames'
 
 import Container from '../Container'
 import HeaderLogo from './HeaderLogo.svg'
+import WalletButton from '../Analytics/WalletButton'
 import Icon from '../Icon'
-import Button from '../Button'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 import './Header.scss'
@@ -65,28 +65,17 @@ class Header extends Component {
     const { sticky } = this.state
     const navigation = (
       <div className="nav">
-        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://horizontalsystems.io/">
-          About Us
-        </a>
-        <a target="_blank" rel="noopener noreferrer" className="nav-item" href="https://litrex.academy">
-          Academy
-        </a>
+        <Link className="nav-item nav-item-yellow" to="/analytics">Premium</Link>
+        <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Academy</a>
         <Link className="nav-item" to="/faq">FAQ</Link>
-        <Link className="nav-item" to="/analytics">Analytics</Link>
-        {sticky && <Button
-          className="Button-circle nav-btn-item ml-20"
-          text="Google Play" icon="google-play"
-          link="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet" yellow newTab />}
-        {sticky && <Button
-          className="Button-circle nav-btn-item"
-          text="App Store" icon="app-store"
-          link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8" yellow newTab />}
+        <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io/">About</a>
+        <WalletButton />
       </div>
     )
 
     return (
       <header className={cn('Header', { 'Header-sticky': sticky })}>
-        <Container>
+        <Container clipped={false}>
           <div className="navbar">
             <Link to="/" onClick={this.onClickHome}>
               <img className="Header-logo" src={HeaderLogo} alt="Unstoppable Cryptocurrency Wallet" />

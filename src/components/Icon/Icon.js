@@ -14,9 +14,11 @@ import { ReactComponent as Done } from './done.svg'
 import { ReactComponent as Logo } from './logo.svg'
 import { ReactComponent as ArrowRight } from './arrow-right.svg'
 import { ReactComponent as ArrowDown } from './arrow-down.svg'
+import { ReactComponent as ArrowDownward } from './arrow-down.svg'
 import { ReactComponent as ArrowUp } from './arrow-up.svg'
 import { ReactComponent as NonCustodial } from './non-custodial.svg'
 import { ReactComponent as Wallet } from './wallet.svg'
+import { ReactComponent as WalletConnect } from './wallet-connect.svg'
 import { ReactComponent as Pie } from './pie.svg'
 import { ReactComponent as Blocks } from './blocks.svg'
 import { ReactComponent as Swap } from './swap.svg'
@@ -44,6 +46,8 @@ const iconComponent = name => {
       return <Close />
     case 'arrow-right':
       return <ArrowRight />
+    case 'arrow-downward':
+      return <ArrowDownward />
     case 'arrow-down':
       return <ArrowDown />
     case 'arrow-up':
@@ -68,6 +72,8 @@ const iconComponent = name => {
       return <NonCustodial />
     case 'wallet':
       return <Wallet />
+    case 'wallet-connect':
+      return <WalletConnect />
     case 'pie':
       return <Pie />
     case 'blocks':

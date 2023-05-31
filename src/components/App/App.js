@@ -10,6 +10,7 @@ import Quote from '../Quote/Quote'
 import FeaturedIn from '../FeaturedIn'
 import Roadmap from '../Roadmap/Roadmap'
 import OpenSource from '../OpenSource/OpenSource'
+import FeaturesList from '../Features/FeaturesList'
 import Demo from '../Demo'
 
 import './App.scss'
@@ -34,6 +35,10 @@ function App() {
     <div className="App">
       <div id="page-1" className="Page-black">
         <Home />
+      </div>
+
+      <div id="page-1" className="Page-black">
+        <FeaturesList />
       </div>
 
       <div id="page-3" className="Page-dark">

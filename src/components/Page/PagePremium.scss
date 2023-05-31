@@ -1,0 +1,124 @@
+@import "../../scss/utils";
+
+.Page-Premium {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Page-Premium-content {
+  display: flex;
+
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.Page-Premium-content--rtl {
+  flex-direction: row-reverse;
+
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.Page-Premium-start, .Page-Premium-end {
+  max-width: 50%;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include sm {
+    max-width: 100%;
+  }
+}
+
+.Page-Premium-end {
+  padding-bottom: 40px;
+}
+
+.Page-Premium-start {
+}
+
+.Page-Premium-start--rtl {
+  align-items: center;
+}
+
+.Page-Premium-title {
+  padding-bottom: 20px;
+
+  @include sm {
+    margin-top: 55px;
+  }
+
+  @include md {
+    padding-bottom: 36px;
+  }
+
+  @include xxl {
+    padding-bottom: 48px;
+  }
+}
+
+.Page-Premium-header-text {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+
+  @include md {
+    font-size: 48px;
+    line-height: 65px;
+  }
+
+  @include xxl {
+    font-size: 64px;
+    line-height: 87px;
+  }
+}
+
+.Page-Premium-info {
+  padding-bottom: 36px;
+  color: $grey;
+
+  @include md {
+    padding-bottom: 104px;
+  }
+
+  @include xxl {
+    padding-bottom: 113px;
+  }
+}
+
+.Page-Premium-info-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  @include xxl {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.Page-footer {
+}
+
+.Page-footer-img-div {
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 376px;
+
+  @include lg {
+  }
+}
+
+.Page-footer-img {
+  //height: 376px;
+  object-fit: contain;
+  width: 100%;
+}
+

@@ -1,16 +1,14 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchData, selectAddressFetching, selectFetchingFailed, selectIsFetched } from '../../redux/contract-slice'
-import { useModal } from '../Modal/ModalContext'
 
 import PayLoading from './PayLoading'
-import PayHeader from './PayHeader'
 import Footer from '../Footer/Footer'
+import Header from '../Header'
 
 import './PayContainer.scss'
 
 function PayContainer({ children }) {
-  const { setModal } = useModal()
   const dispatch = useDispatch()
   const isAddressFetching = useSelector(selectAddressFetching)
   const isFetched = useSelector(selectIsFetched)
@@ -23,10 +21,10 @@ function PayContainer({ children }) {
   return (
     <div data-bs-theme="dark">
       <div id="page-1" className="Page-black">
-        <PayHeader setModal={setModal} />
+        <Header />
       </div>
 
-      <div id="page-2" className="Page-dark">
+      <div id="page-2" className="Page-dark Section-space-bottom Section-space-top">
         {(isFetched && !isAddressFetching) ? children : <PayLoading isFailed={isFetchingFailed} />}
       </div>
 

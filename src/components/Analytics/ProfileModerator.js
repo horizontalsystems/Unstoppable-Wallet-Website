@@ -27,9 +27,9 @@ export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscr
     <PayContainer>
       <Container className="Container-analytics" clipped={false}>
         <div className="mt-3">
-          {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onModerator}>Add Moderator</button>}
+          {isAdmin && <button type="button" className="btn btn-primary" onClick={onModerator}>Add Moderator</button>}
           {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onChangeToken}>Change token</button>}
-          {isModerator && <button type="button" className="btn btn-primary" onClick={onAddPromo}>Add Promo</button>}
+          {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onAddPromo}>Add Promo</button>}
           {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onAddSubscription}>Add Subscription</button>}
           {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onSubtractSubscription}>Subtract Subscription</button>}
         </div>
@@ -135,7 +135,7 @@ export function Subscriptions({ items }) {
           <tr key={index}>
             <td><small>{item.subscriber}</small></td>
             <td><small>{item.duration} days</small></td>
-            <td><small>{convertToDecimals(item.tokenCost, 6, 2).toString()} {token.symbol}</small></td>
+            <td><small>{convertToDecimals(item.tokenCost, token.decimals, 2).toString()} {token.symbol}</small></td>
           </tr>
         ))}
         </tbody>
@@ -202,7 +202,7 @@ function PromoCodeSubscribers({ items }) {
             <tr key={index}>
               <td><small>{item.subscriber}</small></td>
               <td><small>{item.duration}</small></td>
-              <td><small>{convertToDecimals(item.tokenCost, 6, 2).toString()} {token.symbol}</small></td>
+              <td><small>{convertToDecimals(item.tokenCost, token.decimals, 2).toString()} {token.symbol}</small></td>
             </tr>
           ))}
           </tbody>

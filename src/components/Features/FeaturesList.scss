@@ -1,0 +1,28 @@
+@import "../../scss/utils";
+
+.FeaturesList {
+
+}
+
+.Features-list-card {
+  font-family: $font-family-base;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  //border: 0.4px solid #fff;
+}
+
+.Features-list-body {
+  border-top: 1px solid $steel_20;
+  padding: 12px 0;
+}
+
+.Features-list-title {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Features-list-text {
+  font-weight: 400;
+  font-size: 12px;
+}
