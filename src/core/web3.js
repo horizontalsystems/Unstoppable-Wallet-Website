@@ -130,7 +130,7 @@ class Web3Provider {
 
   getSubscribes(address) {
     const event = abi.find(item => item.name === 'Subscription')
-    const topics = [event.signature, Web3.utils.padLeft(address, 64)]
+    const topics = [event.signature, address ? Web3.utils.padLeft(address, 64) : null]
 
     return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
       const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))

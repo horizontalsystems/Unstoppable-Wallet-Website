@@ -1,5 +1,7 @@
 import cn from 'classnames'
 import { useState } from 'react'
+import { useSelector } from 'react-redux'
+import { selectIsConnected } from '../../redux/wallet-connect-slice'
 
 import Container from '../Container'
 import PayContainer from './PayContainer'
@@ -11,10 +13,29 @@ import Icon from '../Icon'
 import './PayMultiStep.scss'
 
 function PayMultistep() {
+  const [state, setState] = useState({})
   const [step, setStep] = useState(1)
   const [showDropdown, setDropdown] = useState(false)
+  const isConnected = useSelector(selectIsConnected)
 
   const stepNum = i => i >= step ? i : <Icon name="check" fill="#808085" />
+  const onStep = num => {
+    if (!isConnected) return
+    if (!state.plan) {
+      if (num > 1) return
+    }
+    if (!state.allowance) {
+      if (num > 2) return
+    }
+
+    setStep(num)
+  }
+
+  const onFinish = (name, num) => {
+    if (!isConnected) return
+    setState({ ...state, [name]: true })
+    setStep(num)
+  }
 
   return (
     <PayContainer>
@@ -28,8 +49,8 @@ function PayMultistep() {
               </div>
 
               <div className="Pay-content">
-                <div className="Pay-content-head" onClick={() => setStep(1)}>Choose Your Plan</div>
-                <FormChoosePlan showDropdown={showDropdown} setDropdown={setDropdown} setStep={setStep} />
+                <div className="Pay-content-head" onClick={() => onStep(1)}>Choose Your Plan</div>
+                <FormChoosePlan showDropdown={showDropdown} setDropdown={setDropdown} onFinish={onFinish} />
               </div>
             </div>
 
@@ -40,8 +61,8 @@ function PayMultistep() {
               </div>
 
               <div className="Pay-content">
-                <div className="Pay-content-head" onClick={() => setStep(2)}>Set Allowance</div>
-                <FormAllowance setStep={setStep} />
+                <div className="Pay-content-head" onClick={() => onStep(2)}>Set Allowance</div>
+                <FormAllowance onFinish={onFinish} />
               </div>
             </div>
 
@@ -51,7 +72,7 @@ function PayMultistep() {
               </div>
 
               <div className="Pay-content">
-                <div className="Pay-content-head" onClick={() => setStep(3)}>Payment</div>
+                <div className="Pay-content-head" onClick={() => onStep(3)}>Payment</div>
                 <FormPayment />
               </div>
             </div>

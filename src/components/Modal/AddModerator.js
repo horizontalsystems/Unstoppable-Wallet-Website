@@ -20,6 +20,7 @@ function AddModerator() {
 
     if (isPending) return
     setFormState('pending')
+    setError(null)
 
     const onError = e => {
       setError(e.message)

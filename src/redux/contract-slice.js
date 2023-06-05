@@ -103,12 +103,13 @@ export const fetchAddressInfo = address => async dispatch => {
 
   try {
     const [isModerator, isAdmin, expiration, balance] = Object.values(await web3.getAddressInfo(address))
-    const info = { isModerator, isAdmin, balance }
+    const info = { isModerator, isAdmin, balance: balance / 100  }
     const seconds = parseInt(expiration)
 
     const promoCodes = await web3.getPromoCods((isModerator || isAdmin) ? null : address)
     const updateSubscriptions = await web3.getUpdateSubscription()
-    const subscriptions = await web3.getSubscriptions(address)
+    const subscriptions = await web3.getSubscriptions((isModerator || isAdmin) ? null : address)
+    const secondsNow = new Date().getTime() / 1000
 
     if (promoCodes) {
       info.promoCodes = promoCodes
@@ -122,7 +123,7 @@ export const fetchAddressInfo = address => async dispatch => {
       info.subscriptions = subscriptions
     }
 
-    if (seconds > 0) {
+    if (seconds && (seconds - secondsNow) > 0) {
       info.expiration = DateTime.fromSeconds(seconds).toFormat('DD')
     }
 

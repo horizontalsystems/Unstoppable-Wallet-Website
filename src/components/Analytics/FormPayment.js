@@ -27,8 +27,8 @@ function FormPayment() {
   const isFinished = formState === 'finished'
   const onPay = async () => {
     if (isPending) return
-
     setFormState('pending')
+    setError(null)
 
     const inputData = (promo && discount)
       ? web3.subscribeWithPromoCodeData(plan.duration, promo)

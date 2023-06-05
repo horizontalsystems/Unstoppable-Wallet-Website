@@ -44,7 +44,7 @@ function Profile() {
                 <FormTextItem className="mb-3" title="Status" value={expiration ? 'Active' : 'None'} />
                 <FormTextItem className="mb-3" title="Plan expire" value={expiration || '-'} />
               </fieldset>
-              <Link to="/analytics" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
+              <Link to="/analytics-pay" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
                 {expiration ? 'Update' : 'Subscribe'}
               </Link>
             </div>
@@ -53,7 +53,7 @@ function Profile() {
             {promoCodes && promoCodes.length ? <Claim balance={balance} /> : <Contact />}
           </div>
         </div>
-        {userAddress && <PromoCodeList promoCodes={promoCodes} />}
+        {promoCodes && <PromoCodeList promoCodes={promoCodes} />}
         {subscriptions && <Subscriptions items={subscriptions} />}
       </Container>
     </PayContainer>
@@ -72,6 +72,7 @@ function Claim({ balance }) {
   const onClaim = () => {
     if (isPending) return
     setFormState('pending')
+    setError(null)
 
     const onError = e => {
       setError(e.message)
@@ -95,7 +96,7 @@ function Claim({ balance }) {
         Rewards
       </div>
       <div className="mb-3 mt-4">
-        <input type="text" className="form-control bg-transparent Pay-fieldset shadow-none" defaultValue={balance} />
+        <input type="text" className="form-control bg-transparent Pay-fieldset shadow-none" defaultValue={balance} disabled />
       </div>
       <div className="mt-4">
         <label className="form-label">Recipient Address</label>

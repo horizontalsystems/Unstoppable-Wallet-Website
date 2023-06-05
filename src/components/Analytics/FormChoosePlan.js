@@ -9,7 +9,7 @@ import { connect, selectIsConnected, selectParings } from '../../redux/wallet-co
 import { selectDiscount, selectPlan, selectPlans, selectPromo, selectToken, setPlan, setPromo, setPromoDiscount } from '../../redux/contract-slice'
 import { useModal } from '../Modal/ModalContext'
 
-function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
+function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
   const dispatch = useDispatch()
 
   const discount = useSelector(selectDiscount)
@@ -21,8 +21,35 @@ function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
   const token = useSelector(selectToken)
 
   const { setModal } = useModal()
-  const [formState, setFormState] = useState('')
+  const [isPending, setPending] = useState(false)
   const [error, setError] = useState(null)
+
+  const noPromo = !promo || !promo.length
+  const onApply = v => {
+    v.preventDefault()
+
+    if (noPromo || isPending) return
+
+    setError(null)
+    setPending(true)
+
+    web3.getPromoCode(promo)
+      .then(res => {
+        if (parseInt(res.deadline) === 0) {
+          setError(`Promo code "${promo}" doesn't exist`)
+        } else {
+          dispatch(setPromoDiscount(res.discountRate))
+        }
+        setPending(false)
+      })
+      .catch(e => {
+        setError(e.message)
+        setPending(false)
+      })
+  }
+
+  const onConnect = () => parings.length ? setModal(<Pairing />) : dispatch(connect())
+  const onNext = () => isConnected ? onFinish('plan', 2) : onConnect()
 
   const costFinal = (
     <div>
@@ -32,32 +59,6 @@ function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
       <span>{subtractDiscount(discount, plan.amount)} {token.symbol}</span>
     </div>
   )
-
-  const noPromo = !promo || !promo.length
-  const isPending = formState === 'pending'
-  const onApply = () => {
-    if (noPromo || isPending) return
-
-    setFormState('pending')
-
-    web3.getPromoCode(promo)
-      .then(({ discountRate }) => {
-        setFormState('finished')
-        dispatch(setPromoDiscount(discountRate))
-      })
-      .catch(e => {
-        setError(e.message)
-        setFormState('error')
-      })
-  }
-
-  const onConnect = () => {
-    if (parings.length) {
-      return setModal(<Pairing />)
-    }
-
-    dispatch(connect())
-  }
 
   return (
     <div className="Pay-content-body">
@@ -87,20 +88,23 @@ function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
       </fieldset>
       <div className="row mt-3">
         <div className="col">
-          <div className="input-group">
-            <input
-              type="text"
-              className="form-control bg-transparent Pay-fieldset Pay-fieldset-padding border-end-0 shadow-none"
-              placeholder="Promo code"
-              value={promo}
-              onChange={v => dispatch(setPromo(v.target.value))}
-            />
-            <div className="input-group-text bg-transparent Pay-fieldset border-start-0">
-              <div className="Button Button-steal Button-circle me-2" onClick={onApply}>
-                Apply
+          <form onSubmit={onApply}>
+            <div className="input-group">
+              <input
+                type="text"
+                className="form-control bg-transparent Pay-fieldset Pay-fieldset-padding border-end-0 shadow-none"
+                placeholder="Promo code"
+                value={promo}
+                onChange={v => dispatch(setPromo(v.target.value))}
+                required
+              />
+              <div className="input-group-text bg-transparent Pay-fieldset border-start-0">
+                <button type="submit" className="btn me-2 Button-steal" disabled={isPending}>
+                  Apply
+                </button>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
       <div className="row">
@@ -113,11 +117,7 @@ function FormChoosePlan({ showDropdown, setDropdown, setStep }) {
           <div className="mt-2 text-danger">{error}</div>
         </div>
       </div>}
-      <button
-        className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center"
-        onClick={() => isConnected ? setStep(2) : onConnect()}
-        disabled={isPending}
-      >
+      <button className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center" disabled={isPending} onClick={onNext}>
         {isConnected ? 'Next' : 'Connect Wallet'}
       </button>
     </div>

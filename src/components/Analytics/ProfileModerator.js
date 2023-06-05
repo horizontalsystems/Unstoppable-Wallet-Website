@@ -46,7 +46,7 @@ export function PromoCodeList({ promoCodes = [] }) {
   const [fetching, setFetching] = useState({})
   const [toggle, setToggle] = useState({})
 
-  const onClick = async promo => {
+  const onGetSubscriptions = async promo => {
     setToggle({ ...toggle, [promo]: !toggle[promo] })
 
     if (fetching[promo] || subscribers[promo]) {
@@ -90,12 +90,12 @@ export function PromoCodeList({ promoCodes = [] }) {
                 <td>{rawAmountToRate(item.discountRate)}%</td>
                 <td>{rawAmountToRate(item.commissionRate)}%</td>
                 <td className="border-end-0">
-                  <a href={`${WalletConnect.chain.explorer}/token/${item.address}?a=${process.env.REACT_APP_CONTRACT_ADDRESS}`} rel="nofollow">
+                  <a href={`${WalletConnect.chain.explorer}/address/${item.address}`} rel="nofollow">
                     {item.address}
                   </a>
                 </td>
                 <td className="border-start-0">
-                  <div role="button" onClick={() => onClick(item.name)}>
+                  <div role="button" onClick={() => onGetSubscriptions(item.name)}>
                     {showSubscribers ? <Icon name="arrow-up" /> : <Icon name="arrow-down" />}
                   </div>
                 </td>
@@ -110,12 +110,8 @@ export function PromoCodeList({ promoCodes = [] }) {
   )
 }
 
-export function Subscriptions({ items }) {
+export function Subscriptions({ items = [] }) {
   const token = useSelector(selectToken)
-
-  if (!items || !items.length) {
-    return null
-  }
 
   return (
     <div className="Pay-card mt-3">
@@ -133,7 +129,11 @@ export function Subscriptions({ items }) {
         <tbody>
         {items.map((item, index) => (
           <tr key={index}>
-            <td><small>{item.subscriber}</small></td>
+            <td>
+              <a href={`${WalletConnect.chain.explorer}/address/${item.subscriber}`} rel="nofollow">
+                <small>{item.subscriber}</small>
+              </a>
+            </td>
             <td><small>{item.duration} days</small></td>
             <td><small>{convertToDecimals(item.tokenCost, token.decimals, 0).toString()} {token.symbol}</small></td>
           </tr>
@@ -200,7 +200,11 @@ function PromoCodeSubscribers({ items }) {
           <tbody>
           {items.map((item, index) => (
             <tr key={index}>
-              <td><small>{item.subscriber}</small></td>
+              <td>
+                <a href={`${WalletConnect.chain.explorer}/address/${item.subscriber}`} rel="nofollow">
+                  <small>{item.subscriber}</small>
+                </a>
+              </td>
               <td><small>{item.duration}</small></td>
               <td><small>{convertToDecimals(item.tokenCost, token.decimals, 0).toString()} {token.symbol}</small></td>
             </tr>
