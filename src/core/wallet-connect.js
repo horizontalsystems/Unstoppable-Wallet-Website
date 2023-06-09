@@ -7,22 +7,24 @@ export class WalletConnect {
 
   static chains = [
     {
-      id: 11155111,
+      id: 1,
       name: 'Ethereum',
       rpc: process.env.REACT_APP_ETH_RPC_URL,
       explorer: process.env.REACT_APP_ETH_EXPLORER,
+      contract: process.env.REACT_APP_ETH_CONTRACT,
       block: 3595469
     },
     {
-      id: 97,
+      id: 56,
       name: 'BSC',
       rpc: process.env.REACT_APP_BSC_RPC_URL,
       explorer: process.env.REACT_APP_BSC_EXPLORER,
-      block: 0
+      contract: process.env.REACT_APP_BSC_CONTRACT,
+      block: 28947762
     }
   ]
 
-  static chain = this.chains[0]
+  static chain = this.chains[1]
 
   static setChain(item) {
     this.chain = item
@@ -39,7 +41,7 @@ export class WalletConnect {
       throw new Error('WalletConnect is not initialized')
     }
 
-    return client.sendRequest(userAddress, topic, inputData, `eip155:${WalletConnect.chain.id}`, contract)
+    return client.sendRequest(userAddress, topic, inputData, `eip155:${WalletConnect.chain.id}`, contract || WalletConnect.chain.contract)
   }
 
   initialize = () => async dispatch => {

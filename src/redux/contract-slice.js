@@ -1,12 +1,12 @@
 import { DateTime } from 'luxon'
 import { createSlice } from '@reduxjs/toolkit'
 import { convertFromRawAmount } from '../core/utils'
-import web3 from '../core/web3'
+import { web3 } from '../core/web3'
 
 const plans = [
-  { interval: 1, intervalName: 'month', amount: 50, duration: 30 },
-  { interval: 3, intervalName: 'month', amount: 135, duration: 90 },
-  { interval: 6, intervalName: 'month', amount: 240, duration: 180 }
+  { interval: 1, intervalName: 'month', amount: 200, duration: 30 },
+  { interval: 3, intervalName: 'month', amount: 500, duration: 90 },
+  { interval: 6, intervalName: 'month', amount: 800, duration: 180 }
 ]
 
 const initialState = {
@@ -82,6 +82,8 @@ export const fetchData = () => async (dispatch, getState) => {
 
   try {
     const address = await web3.getPaymentToken()
+    console.log('Fetched payment token', address)
+
     const token = {
       address,
       symbol: await web3.getSymbol(address),
@@ -91,6 +93,7 @@ export const fetchData = () => async (dispatch, getState) => {
     dispatch(actions.setTokenInfo({ token }))
     dispatch(actions.setFetching('fetched'))
   } catch (e) {
+    console.error(e)
     dispatch(actions.setFetching('failed'))
   }
 }

@@ -34,7 +34,7 @@ class SignClient extends Client {
     }
   }
 
-  contractCallTx(data, from, to = process.env.REACT_APP_CONTRACT_ADDRESS) {
+  contractCallTx(data, from, to) {
     return {
       from,
       to,

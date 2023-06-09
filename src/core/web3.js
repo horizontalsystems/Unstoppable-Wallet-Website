@@ -5,13 +5,13 @@ import abi from './abi/contract.json'
 import abiErc20 from './abi/erc20.json'
 
 class Web3Provider {
-  constructor() {
-    this.setWeb3(process.env.REACT_APP_ETH_RPC_URL)
+  constructor(rpc, contract) {
+    this.setWeb3(rpc, contract)
   }
 
-  setWeb3(rpc) {
+  setWeb3(rpc, contract) {
     const { eth } = new Web3(rpc)
-    const { methods } = new eth.Contract(abi, process.env.REACT_APP_CONTRACT_ADDRESS)
+    const { methods } = new eth.Contract(abi, contract)
 
     this.eth = eth
     this.methods = methods
@@ -155,7 +155,7 @@ class Web3Provider {
 
   getAllowance(owner, contract) {
     const { methods } = new this.Contract(abiErc20, contract)
-    return methods.allowance(owner, process.env.REACT_APP_CONTRACT_ADDRESS).call()
+    return methods.allowance(owner, WalletConnect.chain.contract).call()
   }
 
   getSymbol(contract) {
@@ -170,9 +170,8 @@ class Web3Provider {
 
   approveData(contract, amount) {
     const { methods } = new this.Contract(abiErc20, contract)
-    return methods.approve(process.env.REACT_APP_CONTRACT_ADDRESS, amount).encodeABI()
+    return methods.approve(WalletConnect.chain.contract, amount).encodeABI()
   }
 }
 
-export const web3 = new Web3Provider()
-export default web3
+export const web3 = new Web3Provider(process.env.REACT_APP_BSC_RPC_URL, process.env.REACT_APP_BSC_CONTRACT)

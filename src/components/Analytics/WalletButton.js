@@ -71,7 +71,7 @@ function WalletSwitcher() {
     }
 
     WalletConnect.setChain(item)
-    web3.setWeb3(item.rpc)
+    web3.setWeb3(item.rpc, item.contract)
 
     dispatch(fetchAllowance(userAddress, token.address))
     dispatch(fetchAddressInfo(userAddress))
