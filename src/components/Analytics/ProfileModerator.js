@@ -165,7 +165,11 @@ export function Whitelist({ items }) {
         <tbody>
         {items.map((item, index) => (
           <tr key={index}>
-            <td><small>{item.address}</small></td>
+            <td>
+              <a href={`${WalletConnect.chain.explorer}/address/${item.address}`} rel="nofollow">
+                <small>{item.address}</small>
+              </a>
+            </td>
             <td><small>{item.duration} days</small></td>
             <td><small>{DateTime.fromSeconds(parseInt(item.deadline)).toFormat('DD')}</small></td>
           </tr>
