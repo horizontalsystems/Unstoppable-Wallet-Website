@@ -1,3 +1,4 @@
+import Web3 from 'web3'
 import SignClient from './SignClient'
 import QRCodeModal from '@walletconnect/qrcode-modal'
 import { setInitializing, setConnecting, setPairings, setSession } from '../redux/wallet-connect-slice'
@@ -46,6 +47,13 @@ export class WalletConnect {
 
   initialize = () => async dispatch => {
     dispatch(setInitializing('initializing'))
+    try {
+      const { eth } = new Web3(WalletConnect.chain.rpc)
+      const blockNumber = await eth.getBlockNumber()
+      WalletConnect.chain.block = blockNumber - 1000
+    } catch (e) {
+      console.log(e)
+    }
 
     try {
       this.client = await SignClient.initialize()

@@ -2,12 +2,12 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { DateTime } from 'luxon'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchAllowance, selectAddressInfo, selectDiscount, selectPlan, selectPromo, selectToken } from '../../redux/contract-slice'
+import { fetchAllowance, selectAddressInfo, selectDiscount, selectPlan, selectPromo, selectToken, setSubscribed } from '../../redux/contract-slice'
 import { Icon } from '../Icon'
 import { FormTextItem } from './FormTextItem'
 import { subtractDiscount } from '../../core/utils'
 import { web3 } from '../../core/web3'
-import { walletConnect } from '../../core/wallet-connect'
+import { WalletConnect, walletConnect } from '../../core/wallet-connect'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
 
 function FormPayment() {
@@ -35,9 +35,10 @@ function FormPayment() {
       : web3.subscribeData(plan.duration)
 
     walletConnect.sendRequest(userAddress, sessionTopic, inputData)
-      .then(() => {
+      .then(async () => {
         setFormState('finished')
         dispatch(fetchAllowance(userAddress, token.address))
+        dispatch(setSubscribed(userAddress, WalletConnect.chain.id))
       })
       .catch(e => {
         setError(e.message)

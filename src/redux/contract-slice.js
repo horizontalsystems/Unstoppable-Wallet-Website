@@ -106,7 +106,7 @@ export const fetchAddressInfo = address => async dispatch => {
 
   try {
     const [isModerator, isAdmin, expiration, balance] = Object.values(await web3.getAddressInfo(address))
-    const info = { isModerator, isAdmin, balance: balance / 100  }
+    const info = { isModerator, isAdmin, balance: balance / 100 }
     const seconds = parseInt(expiration)
 
     const promoCodes = await web3.getPromoCods((isModerator || isAdmin) ? null : address)
@@ -159,6 +159,10 @@ export const fetchAllowance = (owner, token) => async (dispatch, getState) => {
   } catch (e) {
     dispatch(actions.setAllowanceState('failed'))
   }
+}
+
+export const setSubscribed = (address, chain) => async () => {
+  await fetch(`${process.env.REACT_APP_API_URL}/v1/auth/subscribed?address=${address}&chain=${chain.toLowerCase()}`)
 }
 
 export default reducer

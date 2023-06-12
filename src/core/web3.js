@@ -78,32 +78,40 @@ class Web3Provider {
       topics.push(Web3.utils.padLeft(address, 64))
     }
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
-      const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics })
+      .then(res => res.map(item => {
+        const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
-      return {
-        name: data.name,
-        discountRate: data.discountRate,
-        commissionRate: data.commissionRate,
-        deadline: DateTime.fromSeconds(parseInt(data.deadline)).toFormat('DD'),
-        address: data._address
-      }
-    }))
+        return {
+          name: data.name,
+          discountRate: data.discountRate,
+          commissionRate: data.commissionRate,
+          deadline: DateTime.fromSeconds(parseInt(data.deadline)).toFormat('DD'),
+          address: data._address
+        }
+      }))
+      .catch(() => {
+        return []
+      })
   }
 
   getUpdateSubscription() {
     const event = abi.find(item => item.name === 'UpdateSubscription')
     const topics = [event.signature]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
-      const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics })
+      .then(res => res.map(item => {
+        const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
-      return {
-        address: data._address,
-        duration: data.duration,
-        deadline: data.deadline
-      }
-    }))
+        return {
+          address: data._address,
+          duration: data.duration,
+          deadline: data.deadline
+        }
+      }))
+      .catch(() => {
+        return []
+      })
   }
 
   getSubscribesByPromo(promo, address) {
@@ -115,33 +123,41 @@ class Web3Provider {
       promo ? Web3.utils.keccak256(promo) : null
     ]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
-      const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics })
+      .then(res => res.map(item => {
+        const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
-      return {
-        duration: data.duration,
-        paymentToken: data.paymentToken,
-        promoCode: promo,
-        subscriber: data.subscriber,
-        tokenCost: data.tokenCost,
-      }
-    }))
+        return {
+          duration: data.duration,
+          paymentToken: data.paymentToken,
+          promoCode: promo,
+          subscriber: data.subscriber,
+          tokenCost: data.tokenCost,
+        }
+      }))
+      .catch(() => {
+        return []
+      })
   }
 
   getSubscribes(address) {
     const event = abi.find(item => item.name === 'Subscription')
     const topics = [event.signature, address ? Web3.utils.padLeft(address, 64) : null]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics }).then(res => res.map(item => {
-      const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics })
+      .then(res => res.map(item => {
+        const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
-      return {
-        duration: data.duration,
-        paymentToken: data.paymentToken,
-        subscriber: data.subscriber,
-        tokenCost: data.tokenCost,
-      }
-    }))
+        return {
+          duration: data.duration,
+          paymentToken: data.paymentToken,
+          subscriber: data.subscriber,
+          tokenCost: data.tokenCost,
+        }
+      }))
+      .catch(() => {
+        return []
+      })
   }
 
   async getSubscriptions(address) {
@@ -158,14 +174,23 @@ class Web3Provider {
     return methods.allowance(owner, WalletConnect.chain.contract).call()
   }
 
-  getSymbol(contract) {
-    const { methods } = new this.Contract(abiErc20, contract)
-    return methods.symbol().call()
+  async getSymbol(contract) {
+    try {
+      const { methods } = new this.Contract(abiErc20, contract)
+      return await methods.symbol().call()
+    } catch (e) {
+      return ''
+    }
   }
 
-  getDecimals(contract) {
-    const { methods } = new this.Contract(abiErc20, contract)
-    return methods.decimals().call()
+  async getDecimals(contract) {
+    try {
+      const { methods } = new this.Contract(abiErc20, contract)
+      return await methods.decimals().call()
+    } catch (e) {
+      console.log(e)
+      return 0
+    }
   }
 
   approveData(contract, amount) {
