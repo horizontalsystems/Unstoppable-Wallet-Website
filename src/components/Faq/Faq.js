@@ -5,8 +5,8 @@ import Container from '../Container'
 import Header from '../Header'
 import Footer from '../Footer/Footer'
 import Markdown from '../Markdown/Markdown'
-import { ReactComponent as IconUp } from './icon-up.svg'
-import { ReactComponent as IconDown } from './icon-down.svg'
+import IconUp from './icon-up.svg'
+import IconDown from './icon-down.svg'
 
 import faq from '../../faq.json'
 
@@ -35,9 +35,7 @@ class Faq extends React.Component {
         <li key={id} className={cn('Faq-item', { 'Faq-active': isActive })}>
           <div className="Faq-head" onClick={() => setItem({ ...items, [key]: isActive ? null : true })}>
             {en.title}
-            {isActive
-              ? <IconDown className="Faq-item-icon" />
-              : <IconUp className="Faq-item-icon" />}
+            <img className="Faq-item-icon" src={isActive ? IconDown : IconUp} width="14" alt="" />
           </div>
           {isActive ? (
             <div className="Faq-content">

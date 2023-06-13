@@ -1,29 +1,12 @@
 import React from 'react'
-import { ReactComponent as Check } from './check.svg'
-import Bitcoin from './bitcoin.svg'
-import Certik from './certik.svg'
-import WalletScrutiny from './wallet-scrutiny.svg'
-import Immunefi from './immunefi.svg'
+import Check from './check.svg'
 
-import './Card.scss'
-
-function CardApproved({ title, info, by }) {
-  let image
-  if (by === 'Bitcoin') {
-    image = Bitcoin
-  } else if (by === 'Certik') {
-    image = Certik
-  } else if (by === 'Immunefi') {
-    image = Immunefi
-  } else {
-    image = WalletScrutiny
-  }
-
+function Approved({ title, info, image }) {
   return (
     <div className="card card-rounded border-0 bg-steel-10">
       <div className="card-body d-flex flex-column justify-content-around">
         <div>
-          <Check />
+          <img src={Check} width="24" height="24" alt="" />
           <div className="text-steel-light border-top pt-3 mt-2 text-center">
             {title}
           </div>
@@ -39,4 +22,4 @@ function CardApproved({ title, info, by }) {
   )
 }
 
-export default CardApproved
+export default Approved
