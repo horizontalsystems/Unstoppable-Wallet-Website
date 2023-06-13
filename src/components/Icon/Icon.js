@@ -4,13 +4,11 @@ import { ReactComponent as Burger } from './burger.svg'
 import { ReactComponent as Close } from './menu-close.svg'
 import { ReactComponent as Check } from './check.svg'
 import { ReactComponent as Checkmark } from './checkmark.svg'
-import { ReactComponent as CloseThin } from './close.svg'
 import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
 import { ReactComponent as FDroid } from './f-droid.svg'
 import { ReactComponent as Download } from './download.svg'
 import { ReactComponent as QRCode } from './qr-code.svg'
-import { ReactComponent as Done } from './done.svg'
 import { ReactComponent as Logo } from './logo.svg'
 import { ReactComponent as ArrowRight } from './arrow-right.svg'
 import { ReactComponent as ArrowDown } from './arrow-down.svg'
@@ -19,7 +17,6 @@ import { ReactComponent as ArrowUp } from './arrow-up.svg'
 import { ReactComponent as NonCustodial } from './non-custodial.svg'
 import { ReactComponent as Wallet } from './wallet.svg'
 import { ReactComponent as WalletConnect } from './wallet-connect.svg'
-import { ReactComponent as Pie } from './pie.svg'
 import { ReactComponent as Blocks } from './blocks.svg'
 import { ReactComponent as Swap } from './swap.svg'
 import { ReactComponent as Chart } from './chart.svg'
@@ -74,8 +71,6 @@ const iconComponent = name => {
       return <Wallet />
     case 'wallet-connect':
       return <WalletConnect />
-    case 'pie':
-      return <Pie />
     case 'blocks':
       return <Blocks />
     case 'chart':
@@ -98,10 +93,6 @@ const iconComponent = name => {
       return <Github />
     case 'gitlab':
       return <Gitlab />
-
-    //  Form
-    case 'done':
-      return <Done />
     case 'logo':
       return <Logo />
 
@@ -109,8 +100,6 @@ const iconComponent = name => {
       return <Check />
     case 'checkmark':
       return <Checkmark />
-    case 'close':
-      return <CloseThin />
 
     // Chain
     case 'ethereum':
