@@ -44,7 +44,7 @@ function Profile() {
                 <FormTextItem className="mb-3" title="Status" value={expiration ? 'Active' : 'None'} />
                 <FormTextItem className="mb-3" title="Plan expire" value={expiration || '-'} />
               </fieldset>
-              <Link to="/analytics-pay" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
+              <Link to="/premium-pay" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
                 {expiration ? 'Update' : 'Subscribe'}
               </Link>
             </div>

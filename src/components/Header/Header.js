@@ -5,7 +5,7 @@ import cn from 'classnames'
 
 import Container from '../Container'
 import HeaderLogo from './HeaderLogo.svg'
-import WalletButton from '../Analytics/WalletButton'
+import WalletButton from '../Premium/WalletButton'
 import Icon from '../Icon'
 import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
@@ -65,7 +65,7 @@ class Header extends Component {
     const { sticky } = this.state
     const navigation = (
       <div className="nav">
-        <Link className="nav-item nav-item-yellow" to="/analytics">Premium</Link>
+        <Link className="nav-item nav-item-yellow" to="/premium">Premium</Link>
         <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Academy</a>
         <Link className="nav-item" to="/faq">FAQ</Link>
         <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io/">About</a>

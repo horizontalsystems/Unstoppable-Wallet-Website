@@ -10,9 +10,9 @@ import GetWallet from '../GetWallet'
 import Header from '../Header'
 import Footer from '../Footer/Footer'
 
-import './Analytics.scss'
+import './Premium.scss'
 
-function Analytics() {
+function Premium() {
   const plans = useSelector(selectPlans)
   const dispatch = useDispatch()
 
@@ -27,7 +27,7 @@ function Analytics() {
       <div className="Pricing-desc">${(plan.amount / plan.interval).toFixed(2)} per {plan.intervalName}</div>
 
       <div className="Button Button-yellow Button-circle Pricing-button">
-        <Link className="Pricing-button-text" to="/analytics-pay" onClick={() => dispatch(setPlan(plan))}>
+        <Link className="Pricing-button-text" to="/premium-pay" onClick={() => dispatch(setPlan(plan))}>
           Subscribe
         </Link>
       </div>
@@ -35,7 +35,7 @@ function Analytics() {
   )
 
   return (
-    <div className="Analytics">
+    <div className="Premium">
       <div id="page-1" className="Page-dark overflow-hidden">
         <Header />
         <BannerPremium />
@@ -129,4 +129,4 @@ function Analytics() {
   )
 }
 
-export default Analytics
+export default Premium

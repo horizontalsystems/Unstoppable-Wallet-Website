@@ -94,7 +94,7 @@ function FormPayment() {
           Now you can go to the Unstoppable Wallet and use the analytics tools
         </div>
       </div>
-      <Link to="/analytics-profile" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center">
+      <Link to="/premium-profile" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center">
         View Profile
       </Link>
     </div>

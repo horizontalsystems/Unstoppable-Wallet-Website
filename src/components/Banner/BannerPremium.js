@@ -26,7 +26,7 @@ function BannerPremium() {
             </p>
             <div className="Wallet-actions">
               <div className="Banner-actions">
-                <Link className="Button Button-yellow Button-circle Button-nowrap text-decoration-none" to="/analytics-pay">
+                <Link className="Button Button-yellow Button-circle Button-nowrap text-decoration-none" to="/premium-pay">
                   Subscribe
                 </Link>
               </div>

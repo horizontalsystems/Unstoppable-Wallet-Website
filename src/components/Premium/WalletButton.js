@@ -30,10 +30,10 @@ function WalletProfile() {
   if (isConnected) {
     return (
       <div className="Button Button-steal nav-btn-item nav-btn-wc ms-2">
-        <Link to="/analytics-profile" className="text-white">
+        <Link to="/premium-profile" className="text-white">
           {truncate(userAddress, 12)}
         </Link>
-        <Link to="/analytics-profile" className="ms-2 me-1">
+        <Link to="/premium-profile" className="ms-2 me-1">
           <Icon name="profile" />
         </Link>
         <div className="ms-2" onClick={() => dispatch(disconnect())}>

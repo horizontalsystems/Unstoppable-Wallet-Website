@@ -2,12 +2,14 @@ import { useModal } from './ModalContext'
 import { useRef, useState } from 'react'
 import { web3 } from '../../core/web3'
 import { walletConnect } from '../../core/wallet-connect'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
+import { setSubscribed } from '../../redux/contract-slice'
 
 function UpdateSubscription({ isAdd }) {
   const userAddress = useSelector(selectUserAddress)
   const sessionTopic = useSelector(selectTopic)
+  const dispatch = useDispatch()
 
   const { closeModal } = useModal()
   const [formState, setFormState] = useState('')
@@ -29,13 +31,15 @@ function UpdateSubscription({ isAdd }) {
 
     try {
       const duration = parseInt(durationRef.current.value)
+      const address = addressRef.current.value
       const inputData = isAdd
-        ? web3.addSubscription(addressRef.current.value, duration)
-        : web3.subtractSubscription(addressRef.current.value, duration)
+        ? web3.addSubscription(address, duration)
+        : web3.subtractSubscription(address, duration)
 
       walletConnect.sendRequest(userAddress, sessionTopic, inputData)
         .then(() => {
           setFormState('finished')
+          dispatch(setSubscribed(address))
           closeModal()
         })
         .catch(onError)
