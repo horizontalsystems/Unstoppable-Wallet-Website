@@ -12,6 +12,8 @@ import ChangeToken from '../Modal/ChangeToken'
 import AddPromoCode from '../Modal/AddPromoCode'
 import AddModerator from '../Modal/AddModerator'
 import UpdateSubscription from '../Modal/UpdateSubscription'
+import Withdraw from '../Modal/Withdraw'
+import UpdatePlans from '../Modal/UpdatePlans'
 import Icon from '../Icon'
 
 export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscriptions = [], updateSubscriptions = [] }) {
@@ -22,6 +24,8 @@ export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscr
   const onAddSubscription = () => setModal(<UpdateSubscription isAdd />)
   const onSubtractSubscription = () => setModal(<UpdateSubscription />)
   const onChangeToken = () => setModal(<ChangeToken />)
+  const onWithdraw = () => setModal(<Withdraw />)
+  const onUpdatePlans = () => setModal(<UpdatePlans />)
 
   return (
     <PayContainer>
@@ -29,9 +33,11 @@ export function ProfileModerator({ isAdmin, isModerator, promoCodes = [], subscr
         <div className="mt-3">
           {isAdmin && <button type="button" className="btn btn-primary" onClick={onModerator}>Add Moderator</button>}
           {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onChangeToken}>Change token</button>}
+          {isAdmin && <button type="button" className="btn btn-primary ms-2" onClick={onWithdraw}>Withdraw</button>}
           {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onAddPromo}>Add Promo</button>}
           {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onAddSubscription}>Add Subscription</button>}
           {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onSubtractSubscription}>Subtract Subscription</button>}
+          {isModerator && <button type="button" className="btn btn-primary ms-2" onClick={onUpdatePlans}>Update plans</button>}
         </div>
         <PromoCodeList promoCodes={promoCodes} />
         <Subscriptions items={subscriptions} />

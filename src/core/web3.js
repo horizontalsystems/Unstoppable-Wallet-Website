@@ -70,6 +70,14 @@ class Web3Provider {
     return this.methods.subtractSubscription(address, duration).encodeABI()
   }
 
+  updatePlans(durations, costs) {
+    return this.methods.updatePlans(durations, costs).encodeABI()
+  }
+
+  withdraw(address) {
+    return this.methods.withdraw(address).encodeABI()
+  }
+
   getPromoCods(address) {
     const event = abi.find(item => item.name === 'PromoCodeAddition')
     const topics = [event.signature]

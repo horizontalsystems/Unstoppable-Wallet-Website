@@ -1,28 +1,26 @@
 import { useModal } from './ModalContext'
 import { useRef, useState } from 'react'
 import { web3 } from '../../core/web3'
-import { WalletConnect, walletConnect } from '../../core/wallet-connect'
-import { useDispatch, useSelector } from 'react-redux'
+import { walletConnect } from '../../core/wallet-connect'
+import { useSelector } from 'react-redux'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
-import { setSubscribed } from '../../redux/contract-slice'
 
-function UpdateSubscription({ isAdd }) {
+function Withdraw() {
   const userAddress = useSelector(selectUserAddress)
   const sessionTopic = useSelector(selectTopic)
-  const dispatch = useDispatch()
 
   const { closeModal } = useModal()
   const [formState, setFormState] = useState('')
   const [error, setError] = useState('')
 
   const addressRef = useRef()
-  const durationRef = useRef()
   const isPending = formState === 'pending'
   const onSubmit = async v => {
     v.preventDefault()
 
     if (isPending) return
     setFormState('pending')
+    setError(null)
 
     const onError = e => {
       setError(e.message)
@@ -30,16 +28,9 @@ function UpdateSubscription({ isAdd }) {
     }
 
     try {
-      const duration = parseInt(durationRef.current.value)
-      const address = addressRef.current.value
-      const inputData = isAdd
-        ? web3.addSubscription(address, duration)
-        : web3.subtractSubscription(address, duration)
-
-      walletConnect.sendRequest(userAddress, sessionTopic, inputData)
+      walletConnect.sendRequest(userAddress, sessionTopic, web3.withdraw(addressRef.current.value))
         .then(() => {
           setFormState('finished')
-          dispatch(setSubscribed(address, WalletConnect.chain.name))
           closeModal()
         })
         .catch(onError)
@@ -48,12 +39,11 @@ function UpdateSubscription({ isAdd }) {
     }
   }
 
-
   return (
     <div className="modal-dialog">
       <div className="modal-content">
         <div className="modal-header">
-          <h5 className="modal-title">{isAdd ? 'Add' : 'Subtract'} subscription</h5>
+          <h5 className="modal-title">Withdraw</h5>
           <button type="button" className="btn-close" onClick={closeModal} />
         </div>
         <div className="modal-body">
@@ -65,22 +55,13 @@ function UpdateSubscription({ isAdd }) {
                 type="text"
                 className="form-control input-no-shadow"
                 disabled={isPending}
+                defaultValue={userAddress}
                 ref={addressRef}
                 required
               />
             </div>
             <div className="mt-4">
-              <label className="form-label">Duration</label>
-              <input
-                type="number"
-                className="form-control input-no-shadow"
-                disabled={isPending}
-                ref={durationRef}
-                required
-              />
-            </div>
-            <div className="mt-4">
-              <button type="submit" className="btn btn-primary" disabled={isPending}>Save</button>
+              <button type="submit" className="btn btn-primary" disabled={isPending}>Withdraw</button>
             </div>
           </form>
         </div>
@@ -89,4 +70,4 @@ function UpdateSubscription({ isAdd }) {
   )
 }
 
-export default UpdateSubscription
+export default Withdraw

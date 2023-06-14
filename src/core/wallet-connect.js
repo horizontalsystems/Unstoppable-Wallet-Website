@@ -47,13 +47,8 @@ export class WalletConnect {
 
   initialize = () => async dispatch => {
     dispatch(setInitializing('initializing'))
-    try {
-      const { eth } = new Web3(WalletConnect.chain.rpc)
-      const blockNumber = await eth.getBlockNumber()
-      WalletConnect.chain.block = blockNumber - 1000
-    } catch (e) {
-      console.log(e)
-    }
+
+    await this.syncLastBlocks()
 
     try {
       this.client = await SignClient.initialize()
@@ -165,6 +160,19 @@ export class WalletConnect {
       console.log('SESSION RESTORED')
 
       dispatch(setSession(session))
+    }
+  }
+
+  async syncLastBlocks() {
+    for (let i = 0; i < WalletConnect.chains.length; i++) {
+      const chain = WalletConnect.chains[i]
+      try {
+        const { eth } = new Web3(chain.rpc)
+        const blockNumber = await eth.getBlockNumber()
+        chain.block = blockNumber - (chain.id === 1 ? 1000 : 10000)
+      } catch (e) {
+        console.log(e)
+      }
     }
   }
 }
