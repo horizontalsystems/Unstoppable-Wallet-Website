@@ -85,7 +85,7 @@ function WalletSwitcher() {
         </div>
         <ul className={cn('dropdown-menu dropdown-menu-end', { show: showDropdown })}>
           {WalletConnect.chains.map(item => (
-            <li key={item.name} className="dropdown-item" onClick={() => onSelectChain(item)}>
+            <li key={item.name} className={cn('dropdown-item', { disabled: item.id === 1 })} onClick={() => onSelectChain(item)}>
               {item.name}
             </li>
           ))}
