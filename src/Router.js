@@ -13,6 +13,7 @@ function Router() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/analytics" element={<Premium />} />
         <Route path="/premium" element={<Premium />} />
         <Route path="/premium-pay" element={<PayMultistep />} />
         <Route path="/premium-profile" element={<Profile />} />

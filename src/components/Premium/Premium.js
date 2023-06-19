@@ -49,8 +49,8 @@ function Premium() {
         <PagePremium
           text="Historical Charts and Volumes"
           info="Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities."
-          imgBig="liquidity-wallet.png"
-          imgSmall="liquidity.png"
+          imgBig="1_cex_dex_rank.png"
+          imgSmall="1_cex_dex_vol.png"
           rtl
         />
       </div>
@@ -59,8 +59,8 @@ function Premium() {
         <PagePremium
           text="Project Activity"
           info="Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities."
-          imgBig="liquidity-wallet.png"
-          imgSmall="liquidity.png"
+          imgBig="2_active_ranks.png"
+          imgSmall="2_active_Trx.png"
         />
       </div>
 
@@ -68,8 +68,8 @@ function Premium() {
         <PagePremium
           text="Project Major Holders"
           info="Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities."
-          imgBig="liquidity-wallet.png"
-          imgSmall="liquidity.png"
+          imgBig="3_holders_list.png"
+          imgSmall="3_holders_chain.png"
           rtl
         />
       </div>
@@ -78,8 +78,8 @@ function Premium() {
         <PagePremium
           text="Project TVL and Revenue"
           info="Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities."
-          imgBig="liquidity-wallet.png"
-          imgSmall="liquidity.png"
+          imgBig="4_chart_tvlrank.png"
+          imgSmall="4_tvl.png"
         />
       </div>
 
@@ -87,8 +87,8 @@ function Premium() {
         <PagePremium
           text="Audits, Funding and Reports  "
           info="Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities."
-          imgBig="liquidity-wallet.png"
-          imgSmall="liquidity.png"
+          imgBig="5_reports.png"
+          imgSmall="5_audits.png"
           rtl
         />
       </div>
