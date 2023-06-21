@@ -3,6 +3,7 @@
 .Banner {
   display: flex;
   margin-top: 80px;
+  position: relative;
 
   @include sm {
     margin-top: 20px;
@@ -63,10 +64,11 @@
 
 .Banner-img {
   position: absolute;
+  max-width: 70%;
 
   @include sm {
     top: 70px;
-    height: 100%;
+    max-height: 100%;
   }
 }
 

@@ -58,7 +58,7 @@ function FeaturesList({ isPremium }) {
 
   return (
     <Container>
-      <div className="Section-space-top Section-space-bottom">
+      <div className="Premium-space-top Premium-space-bottom">
         <div className="Page-title Page-header-text text-gradient text-center">
           {isPremium ? 'Premium Features' : 'Wallet Features'}
         </div>

@@ -19,7 +19,7 @@ function PagePremium({ text, info, imgBig, imgSmall, rtl }) {
 
   return (
     <Container clipped={false}>
-      <div className="Page-Premium Section-space-top Section-space-bottom">
+      <div className="Page-Premium Premium-space-top Premium-space-bottom">
         <div className="row justify-content-center">
           <div className="col-sm-12 col-md-10">
             <div className={cn('Page-Premium-content', { 'Page-Premium-content--rtl': rtl })}>

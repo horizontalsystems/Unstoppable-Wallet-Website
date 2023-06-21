@@ -36,12 +36,12 @@ function Premium() {
 
   return (
     <div className="Premium">
-      <div id="page-1" className="Page-dark overflow-hidden">
+      <div id="page-1" className="Page-black overflow-hidden">
         <Header />
         <BannerPremium />
       </div>
 
-      <div id="page-2" className="Page-dark">
+      <div id="page-2" className="Page-black">
         <FeaturesList isPremium />
       </div>
 
@@ -55,7 +55,7 @@ function Premium() {
         />
       </div>
 
-      <div id="page-4" className="Page-dark">
+      <div id="page-4" className="Page-black">
         <PagePremium
           text="Project Activity"
           info="Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities."
@@ -74,7 +74,7 @@ function Premium() {
         />
       </div>
 
-      <div id="page-6" className="Page-dark">
+      <div id="page-6" className="Page-black">
         <PagePremium
           text="Project TVL and Revenue"
           info="Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities."
@@ -93,9 +93,9 @@ function Premium() {
         />
       </div>
 
-      <div id="page-8" className="Page-dark">
+      <div id="page-8" className="Page-black">
         <Container clipped={false}>
-          <div className="Section-space-top Section-space-bottom">
+          <div className="Premium-space-top Premium-space-bottom">
             <div className="Page-header-text text-center pb-3 text-gradient">
               <h1 className="text-center">Choose Your Plan</h1>
             </div>
@@ -116,13 +116,13 @@ function Premium() {
         </Container>
       </div>
 
-      <div className="Page-black">
+      <div className="Page-dark">
         <div className="Wallet-download">
           <GetWallet />
         </div>
       </div>
 
-      <div id="page-9" className="Page-black">
+      <div id="page-9" className="Page-dark">
         <Footer />
       </div>
     </div>
