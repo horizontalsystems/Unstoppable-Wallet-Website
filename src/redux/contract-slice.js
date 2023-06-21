@@ -74,7 +74,11 @@ export const selectAddressFetching = state => state.contract.addressFetching ===
 export const selectAllowance = state => state.contract.allowance
 
 export const fetchData = () => async (dispatch, getState) => {
-  if (getState().fetching === 'fetching') {
+  const {
+    contract: { fetching, token }
+  } = getState()
+
+  if (fetching === 'fetching' || (token.address && token.symbol)) {
     return
   }
 
@@ -98,15 +102,23 @@ export const fetchData = () => async (dispatch, getState) => {
   }
 }
 
-export const fetchAddressInfo = address => async dispatch => {
+export const fetchAddressInfo = address => async (dispatch, getState) => {
   if (!address) return
+
+  const {
+    contract: { addressInfo, addressFetching }
+  } = getState()
+
+  if (addressFetching || addressInfo.address === address) {
+    return
+  }
 
   dispatch(actions.setAddressFetching('fetching'))
   dispatch(actions.setAddressInfo({}))
 
   try {
     const [isModerator, isAdmin, expiration, balance] = Object.values(await web3.getAddressInfo(address))
-    const info = { isModerator, isAdmin, balance: balance / 100 }
+    const info = { isModerator, isAdmin, balance: balance / 100, userAddress: address }
     const seconds = parseInt(expiration)
 
     const promoCodes = await web3.getPromoCods((isModerator || isAdmin) ? null : address)

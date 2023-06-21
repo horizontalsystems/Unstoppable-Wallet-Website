@@ -56,7 +56,11 @@ function FormPayment() {
   )
 
   const form = () => {
-    const dateTime = expiration ? DateTime.fromFormat(expiration, 'DD') : DateTime.now()
+    let dateTime = expiration ? DateTime.fromFormat(expiration, 'DD') : null
+    if (!dateTime || !dateTime.isValid) {
+      dateTime = DateTime.now()
+    }
+
     return (
       <div>
         <fieldset className="Pay-fieldset Pay-fieldset-padding">
