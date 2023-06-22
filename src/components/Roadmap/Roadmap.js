@@ -65,7 +65,7 @@ export default function Roadmap() {
     infinite: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-    focusOnSelect: true
+    currentSlide: active
   }
 
   const contentSettings = {
@@ -74,7 +74,8 @@ export default function Roadmap() {
     infinite: false,
     draggable: false,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    currentSlide: active
   }
 
   return (

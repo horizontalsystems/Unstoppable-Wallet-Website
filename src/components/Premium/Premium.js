@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchData, selectPlans, setPlan } from '../../redux/contract-slice'
+import { fetchData, selectPlans, selectToken, setPlan } from '../../redux/contract-slice'
 import Container from '../Container'
 import FeaturesList from '../Features/FeaturesList'
 import BannerPremium from '../Banner/BannerPremium'
@@ -14,20 +14,23 @@ import './Premium.scss'
 
 function Premium() {
   const plans = useSelector(selectPlans)
+  const token = useSelector(selectToken)
   const dispatch = useDispatch()
 
   useEffect(() => {
     dispatch(fetchData())
   }, [dispatch])
 
+  const tokenSymbol = () => token.symbol || 'USDT'
+
   const card = plan => (
     <div className="Pricing-item Pricing-item-card">
       <div className="Pricing-title">{plan.interval} {plan.intervalName}</div>
-      <div className="Pricing-amount">${plan.amount}</div>
-      <div className="Pricing-desc">${(plan.amount / plan.interval).toFixed(2)} per {plan.intervalName}</div>
+      <div className="Pricing-amount">{plan.amount} {tokenSymbol()}</div>
+      <div className="Pricing-desc">{(plan.amount / plan.interval).toFixed(2)} {tokenSymbol()} per {plan.intervalName}</div>
 
-      <div className="Button Button-yellow Button-circle Pricing-button">
-        <Link className="Pricing-button-text" to="/premium-pay" onClick={() => dispatch(setPlan(plan))}>
+      <div className="Button Button-yellow Button-circle w-100 Pricing-button">
+        <Link className="Pricing-button-text text-center w-100" to="/premium-pay" onClick={() => dispatch(setPlan(plan))}>
           Subscribe
         </Link>
       </div>
@@ -96,21 +99,28 @@ function Premium() {
       <div id="page-8" className="Page-black">
         <Container clipped={false}>
           <div className="Premium-space-top Premium-space-bottom">
-            <div className="Page-header-text text-center pb-3 text-gradient">
-              <h1 className="text-center">Choose Your Plan</h1>
+            <div className="Page-Premium-title Page-Premium-header-text text-gradient text-center">
+              Choose Your Plan
             </div>
-            <div className="text-center">
-              <p className="text-grey mb-4 pb-4">
-                Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities.
-              </p>
+            <div className="raw d-flex justify-content-center">
+              <div className="col-sm-12 col-md-8">
+                <p className="text-center text-grey mb-4 pb-4">
+                  Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional
+                  opportunities.
+                </p>
+              </div>
             </div>
 
-            <div className="row">
-              {plans.map(item => (
-                <div className="col" key={item.amount}>
-                  {card(item)}
+            <div className="raw d-flex justify-content-center">
+              <div className="col-sm-12 col-md-10">
+                <div className="row gy-4">
+                  {plans.map(item => (
+                    <div className="col" key={item.amount}>
+                      {card(item)}
+                    </div>
+                  ))}
                 </div>
-              ))}
+              </div>
             </div>
           </div>
         </Container>

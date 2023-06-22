@@ -121,16 +121,18 @@ function Claim({ balance }) {
 
 function Contact() {
   return (
-    <div className="Pay-card h-100">
-      <div className="color-yellow">
-        Become a representative and get rewards
+    <div className="Pay-card h-100 d-flex flex-column justify-content-between">
+      <div>
+        <div className="color-yellow">
+          Become a representative and get rewards
+        </div>
+        <div className="text-grey-50 mt-4">
+          Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities.
+        </div>
       </div>
-      <div className="text-grey-50 mt-3">
-        Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities.
-      </div>
-      <button className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center">
+      <a href="mailto:hsdao@protonmail.com" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
         Contact Us
-      </button>
+      </a>
     </div>
   )
 }
