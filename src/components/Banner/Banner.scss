@@ -114,26 +114,18 @@
 
 .Banner-title {
   font-style: normal;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 28px;
+  line-height: 38px;
   font-weight: 400;
 
   @include md {
-  }
-
-  @include lg {
-    font-size: 54px;
-    line-height: 73px;
-  }
-
-  @include xl {
-    font-size: 64px;
-    line-height: 87px;
+    font-size: 48px;
+    line-height: 65px;
   }
 
   @include xxl {
-    font-size: 80px;
-    line-height: 109px;
+    font-size: 64px;
+    line-height: 87px;
   }
 }
 

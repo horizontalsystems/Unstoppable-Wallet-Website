@@ -19,12 +19,13 @@ function BannerPremium() {
         <div className="Banner-end">
           <div className="Banner-end-content">
             <div className="Banner-title text-gradient">
-              Premium On-Chain Analytics Data
+              Maximize Returns with Crypto Analytics
             </div>
             <p className="my-2 py-2 mb-3 text-light-soft">
-              Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances.
+              Unlock the Power of Exclusive Cryptocurrency Analytics: Make Informed Decisions, Avoid Scams, and Stay Ahead of the Pack for Maximum
+              Returns!
             </p>
-            <div className="Wallet-actions">
+            <div className="Wallet-actions mt-4">
               <div className="Banner-actions">
                 <Link className="Button Button-yellow Button-circle Button-nowrap text-decoration-none" to="/premium-pay">
                   Subscribe

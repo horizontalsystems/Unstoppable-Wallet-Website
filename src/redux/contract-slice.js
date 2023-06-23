@@ -4,9 +4,9 @@ import { convertFromRawAmount } from '../core/utils'
 import { web3 } from '../core/web3'
 
 const plans = [
-  { interval: 1, intervalName: 'month', amount: 1, duration: 30 },
-  { interval: 3, intervalName: 'month', amount: 5, duration: 90 },
-  { interval: 6, intervalName: 'month', amount: 800, duration: 180 }
+  { interval: 1, intervalName: 'month', amount: 89, duration: 30 },
+  { interval: 3, intervalName: 'month', amount: 210, duration: 90 },
+  { interval: 6, intervalName: 'month', amount: 320, duration: 180 }
 ]
 
 const initialState = {

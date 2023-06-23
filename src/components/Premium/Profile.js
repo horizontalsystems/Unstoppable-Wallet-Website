@@ -36,14 +36,16 @@ function Profile() {
       <Container className="Container-analytics" clipped={false}>
         <div className="row">
           <div className="col-md-6 mt-3">
-            <div className="Pay-card h-100">
-              <div className="color-yellow">
-                Subscription
+            <div className="Pay-card h-100 d-flex flex-column justify-content-between">
+              <div>
+                <div className="color-yellow">
+                  Subscription
+                </div>
+                <fieldset className="Pay-fieldset Pay-fieldset-padding mt-3">
+                  <FormTextItem className="mb-3" title="Status" value={expiration ? 'Active' : 'None'} />
+                  <FormTextItem className="mb-3" title="Plan expire" value={expiration || '-'} />
+                </fieldset>
               </div>
-              <fieldset className="Pay-fieldset Pay-fieldset-padding mt-3">
-                <FormTextItem className="mb-3" title="Status" value={expiration ? 'Active' : 'None'} />
-                <FormTextItem className="mb-3" title="Plan expire" value={expiration || '-'} />
-              </fieldset>
               <Link to="/premium-pay" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
                 {expiration ? 'Update' : 'Subscribe'}
               </Link>
@@ -124,13 +126,15 @@ function Contact() {
     <div className="Pay-card h-100 d-flex flex-column justify-content-between">
       <div>
         <div className="color-yellow">
-          Become a representative and get rewards
+          Become a Reseller and Earn Passive Income!
         </div>
         <div className="text-grey-50 mt-4">
-          Bypass the traditional finance ecosystem layer and enter the world of Decentralized Finances (DeFi) with unconditional opportunities.
+          Refer others to our platform using your unique promo code and earn generous commissions of up to 50% from each subscription. Plus, your
+          promo code will provide potential subscribers with an additional discount on the regular subscription price, making it even more enticing.
         </div>
       </div>
-      <a href="mailto:hsdao@protonmail.com" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
+      <a href="mailto:hsdao@protonmail.com"
+         className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
         Contact Us
       </a>
     </div>
