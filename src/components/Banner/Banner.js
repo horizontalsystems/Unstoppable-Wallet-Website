@@ -1,8 +1,8 @@
-import React from 'react'
-
+import { Link } from 'react-router-dom'
 import Container from '../Container'
 import GetWalletActions from '../GetWallet/GetWalletActions'
-import ImageGradient from '../Icon/image-gradient.svg'
+import ImageGradient from './gradient-main.svg'
+import Icon from '../Icon'
 
 import './Banner.scss'
 
@@ -10,13 +10,12 @@ function Banner() {
   return (
     <Container clipped={false}>
       <div className="Banner">
+        <img className="Banner-img-gradient Banner-img-gradient-top" src={ImageGradient} alt="" />
         <div className="Banner-start">
-          <img className="Banner-img-gradient Banner-img-gradient-top" src={ImageGradient} alt="" />
           <img
             className="Banner-img"
             src="/images/banner/wallet.png"
             alt="Unstoppable wallet"
-            srcSet="/images/banner/wallet@2x.png 2x"
           />
         </div>
         <div className="Banner-end">
@@ -28,6 +27,11 @@ function Banner() {
               Unchain Assets | Go Borderless | Stay Private
             </div>
             <GetWalletActions />
+            <div className="mt-5 pt-md-5 pt-sm-0">
+              <Link to="/premium" className="Banner-link">
+                <Icon name="arrow-right" /> <span className="ms-2">Get premium features</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

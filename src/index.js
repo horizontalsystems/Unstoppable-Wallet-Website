@@ -1,15 +1,28 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
+import { Provider } from 'react-redux'
+import { ModalContextProvider } from './components/Modal/ModalContext'
+import { ModalManager } from './components/Modal/ModalManager'
+import { initialize } from './redux/wallet-connect-slice'
+import { store } from './redux/store'
+
 import 'react-tooltip/dist/react-tooltip.css'
 import './index.scss'
 
 import Router from './Router'
 import unregister from './core/serviceWorker'
 
+store.dispatch(initialize())
+
 createRoot(document.getElementById('root'))
   .render(
     <React.StrictMode>
-      <Router />
+      <Provider store={store}>
+        <ModalContextProvider>
+          <ModalManager />
+          <Router />
+        </ModalContextProvider>
+      </Provider>
     </React.StrictMode>
   )
 

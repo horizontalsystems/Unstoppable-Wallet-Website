@@ -1,53 +1,71 @@
 import React from 'react'
 import Container from '../Container'
-import { ReactComponent as Bitcoin } from './bitcoin.svg'
-import { ReactComponent as Timelock } from './timelock.svg'
-import { ReactComponent as Settings } from './settings.svg'
-import { ReactComponent as Dash } from './dash.svg'
-import { ReactComponent as Litecoin } from './litecoin.svg'
-import { ReactComponent as BitcoinCash } from './bitcoin-cash.svg'
-import { ReactComponent as ZCash } from './zcash.svg'
-import { ReactComponent as Ethereum } from './ethereum.svg'
-import { ReactComponent as Binance } from './binance.svg'
-import { ReactComponent as Blocks } from './blocks.svg'
-import { ReactComponent as WalletConnect } from './wallet-connect.svg'
-import { ReactComponent as User } from './user.svg'
-import { ReactComponent as Tor } from './tor.svg'
-import { ReactComponent as Globe } from './globe.svg'
-import { ReactComponent as Academy } from './academy.svg'
 
-function FeaturesList() {
+import './FeaturesList.scss'
+
+function FeaturesList({ isPremium }) {
+  const card = (title, text) => (
+    <div className="col-6 col-md-3" key={title}>
+      <div className="Features-list-card">
+        <div className="Features-list-body">
+          <div className="Features-list-title">{title}</div>
+          <div className="Features-list-text py-2 text-grey">{text}</div>
+        </div>
+      </div>
+    </div>
+  )
+
+  let items
+  if (isPremium) {
+    items = [
+      ['CEX volume and Rank', 'Don\'t lock yourself in and don\'t let others do that to you.'],
+      ['DEX volume and Rank', 'Bypass conditional barriers and access markets globally.'],
+      ['DEX Liquidity and Rank', 'Do not leak your private and financial data to the world.'],
+      ['30 Day Volume', 'Don\'t lock yourself in and don\'t let others do that to you.'],
+      ['Active Addresses and Rank', 'Do not leak your private and financial data to the world.'],
+      ['Transaction Count and Rank', 'Do not leak your private and financial data to the world.'],
+      ['Holders and Major Holders', 'Bypass conditional barriers and access markets globally.'],
+      ['Project TVL and Rank', 'Do not leak your private and financial data to the world.'],
+      ['Project Revenue and Rank', 'Do not leak your private and financial data to the world.'],
+      ['Reports', 'Don\'t lock yourself in and don\'t let others do that to you.'],
+      ['Treasuries', 'Bypass conditional barriers and access markets globally.'],
+      ['Funding', 'Do not leak your private and financial data to the world.'],
+    ]
+  } else {
+    items = [
+      ['Non-custodial', 'Truly self-custodial wallet that gives users unconditional control.'],
+      ['Multi-wallet', 'For easy management of many wallets within a single app while staying ultra secure.'],
+      ['Open-source', 'Verifiably open source with publicly visible development process.'],
+      ['Private', 'Built for strong privacy. No data collected. SPV wallet. Switchable RPC. TOR.'],
+      ['Secure', 'Built per standards. Secure enclave. Wallet seed with/out passwords. Audited code.'],
+      ['Universal Import/Export', 'Migrate to/from other wallets. Any seed length or language.'],
+      ['Advanced in Bitcoin', 'HD wallet, SPV, BIP 44/49/84, passphrases, Taproot, Timelocks, input/output shuffling.'],
+      ['EVM wallet', 'Supports all major EVM chains. L2 chains i.e. Arbitrum & Optimism. ENS support.'],
+      ['DeFi wallet', 'Interact with any DeFi service via WalletConnect V1 and V2.'],
+      ['DEX integration', 'Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc.'],
+      ['Market Analytics', 'Market research. Advanced token search & filtering. Market news.'],
+      ['Token Analytics', 'Extensive exchange data. On-chain token data. Token rank lists based on data.'],
+      ['TX Fee Controls', 'TX fee and nonce controls. EIP-1159 enabled. TX speedup/cancel.'],
+      ['TX Filtering', 'Extensive filtering. Anti-spoofing. Double spent alerts. Smart contract labelling.'],
+      ['NFT wallet', 'Send/receive NFT tokens. NFT market analytics.'],
+      ['Academy', 'Tutorials for onboarding crypto beginners. Extensive FAQ for troubleshooting.'],
+      ['Payment Contacts', 'Save payment addresses for convenient access.'],
+      ['Easy Backup', 'Options to backup encrypted wallets (aka private keys) to iCloud or offline storage.'],
+      ['Wallet Passwords', 'Extra security via BIP39 wallet passphrases. Allows to have one seed for many wallets.'],
+      ['Customizable UI', 'App themes, launch screen controls, balance view settings, app icon hide etc']
+    ]
+  }
+
   return (
     <Container>
-      <div className="Section-space-top Section-space-bottom">
-        <div className="Section-text">Features List</div>
-        <div className="row">
-          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled text-grey">
-            <li className="py-1"><Bitcoin className="me-4" />Bitcoin (SPV enabled)</li>
-            <li className="py-1"><Bitcoin className="me-4" />BIP 44/49/84/69</li>
-            <li className="py-1"><Timelock className="me-4" />Bitcoin Timelocks</li>
-            <li className="py-1"><Settings className="me-4" />Custom transaction fees</li>
-          </ul>
-
-          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled text-grey">
-            <li className="py-1"><Dash className="me-4" />DASH (SPV enabled)</li>
-            <li className="py-1"><Litecoin className="me-4" />Litecoin (SPV enabled)</li>
-            <li className="py-1"><BitcoinCash className="me-4" />Bitcoin Cash (SPV enabled)</li>
-            <li className="py-1"><ZCash className="me-4" />Zcash (shielded support)</li>
-          </ul>
-
-          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled text-grey">
-            <li className="py-1"><Ethereum className="me-4" />Ethereum (ERC20)</li>
-            <li className="py-1"><Binance className="me-4" />Binance (BEP20 / BEP2)</li>
-            <li className="py-1"><Blocks className="me-4" />Uniswap / Pancake / 1inch</li>
-            <li className="py-1"><WalletConnect className="me-4" />Wallet Connect</li>
-          </ul>
-          <ul className="col-sm-12 col-md-6 col-lg-3 list-unstyled text-grey">
-            <li className="py-1"><User className="me-4" />ENS Domains</li>
-            <li className="py-1"><Tor className="me-4" />TOR Network (Android)</li>
-            <li className="py-1"><Globe className="me-4" />VPN (coming soon)</li>
-            <li className="py-1"><Academy className="me-4" />Crypto Academy</li>
-          </ul>
+      <div className="Premium-space-top Premium-space-bottom">
+        <div className="Page-title Page-header-text text-gradient text-center">
+          {isPremium ? 'Premium Features' : 'Wallet Features'}
+        </div>
+        <div className="Features-list mt-4">
+          <div className="row">
+            {items.map(item => card(item[0], item[1]))}
+          </div>
         </div>
       </div>
     </Container>

@@ -1,0 +1,104 @@
+@import "../../scss/utils";
+
+.Pay-card {
+  padding: 32px !important;
+  background: $steel_10;
+  border-radius: 16px;
+}
+
+.Pay-card-big {
+  padding: 60px !important;
+}
+
+.Pay-step {
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  .circle {
+    background-color: $steel_20;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $grey;
+  }
+
+  &.active .circle {
+    background-color: $yellow_d;
+    color: $darkest;
+  }
+
+  .line {
+    top: 32px;
+    left: 15px;
+    height: 100%;
+    position: absolute;
+    border-left: 2px solid $steel_20;
+  }
+}
+
+.Pay-stepper {
+  position: relative;
+}
+
+.Pay-content {
+  margin-left: 20px;
+  padding-top: 5px;
+  width: 100%;
+
+  .Pay-content-head {
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .Pay-content-body {
+    display: none;
+    padding-top: 20px;
+  }
+}
+
+.Pay-fieldset {
+  border: 1px solid $steel_20 !important;
+  border-radius: 12px;
+
+  &:focus {
+    border: 1px solid $steel_20;
+  }
+}
+
+.input-no-shadow {
+  border: 1px solid $steel_20 !important;
+  border-radius: 12px;
+  box-shadow: none !important;
+
+  &:focus {
+    border: 1px solid $steel_20;
+  }
+}
+
+.Pay-fieldset-padding {
+  padding: 24px;
+}
+
+.Pay-fieldset-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100% !important;
+}
+
+.Pay-step.active {
+  .Pay-content-head {
+    color: $yellow_d;
+  }
+
+  .Pay-content-body {
+    display: block;
+  }
+}
+

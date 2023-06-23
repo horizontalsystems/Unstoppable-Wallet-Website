@@ -14,15 +14,23 @@ body {
 
 // Typographic
 .color-yellow {
-  color: $yellow-d;
+  color: $yellow-d !important;
 }
 
 .text-grey {
   color: $grey !important;
 }
 
+.text-grey-50 {
+  color: $grey_50 !important;
+}
+
 .text-steel-light {
   color: $steel_light !important;
+}
+
+.text-light-soft {
+  color: $light-soft !important;
 }
 
 .text-gradient {

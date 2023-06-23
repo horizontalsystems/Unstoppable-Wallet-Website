@@ -42,16 +42,15 @@
   display: flex;
   flex-direction: row;
   font-size: 14px;
-  margin: 0 -20px;
 
   a {
     text-decoration: none;
   }
 
   .nav-item {
-    height: 32px;
+    // height: 32px;
     padding: 0 20px;
-    border-radius: 4px;
+    border-radius: 12px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -62,16 +61,26 @@
     }
   }
 
+  .nav-item-yellow {
+    color: $yellow-d;
+    font-weight: 500;
+  }
+
   .ml-20 {
     margin-left: 20px;
   }
 
   .nav-btn-item {
-    margin-right: 20px;
+    padding: 9px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: $grey;
+  }
 
-    @include sm {
-      display: none;
-    }
+  .nav-btn-wc svg {
+    margin: 0;
   }
 
   @include sm {

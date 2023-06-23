@@ -4,31 +4,37 @@
   "private": true,
   "homepage": "https://unstoppable.money",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^14.1.1",
-    "bootstrap": "^5.2.3",
+    "@walletconnect/qrcode-modal": "^1.8.0",
+    "@walletconnect/sign-client": "^2.7.0",
+    "@walletconnect/utils": "^2.7.0",
+    "bootstrap": "^5.3.0-alpha3",
     "classnames": "^2.3.2",
-    "events": "^3.3.0",
+    "decimal.js": "^10.4.3",
     "lodash.throttle": "^4.1.1",
+    "luxon": "^3.3.0",
     "marked": "^4.3.0",
     "node-sass": "^8.0.0",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
-    "react-cookie": "^4.1.1",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
     "react-router-dom": "^6.10.0",
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-tooltip": "^5.10.5",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "web3": "^1.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "scp -r ./build/* deploy@178.62.214.140:/var/www/unstoppable.money"
+    "deploy": "scp -r ./build/* deploy@178.62.214.140:/var/www/unstoppable.money",
+    "deploy-dev": "scp -r ./build/* ubuntu@64.227.26.93:/home/ubuntu/hspay-dev"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -8,7 +8,7 @@ import '../Wallet/Wallet.scss'
 
 function GetWallet() {
   return (
-    <Container>
+    <Container clipped={false}>
       <div className="GetWallet">
         <div className="GetWallet-text text-gradient fw-normal">
           Get the Unstoppable Wallet!

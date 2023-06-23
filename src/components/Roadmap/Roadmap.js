@@ -49,14 +49,16 @@ export default function Roadmap() {
 
   const sliderStep = useRef()
   const sliderInfo = useRef()
-  const sliderSelect = index => {
+  const sliderSelect = (index, isInit) => {
     setActive(index)
-    sliderStep.current.slickGoTo(index)
-    sliderInfo.current.slickGoTo(index)
+    if (!isInit) {
+      sliderStep.current.slickGoTo(index)
+      sliderInfo.current.slickGoTo(index)
+    }
   }
 
   useEffect(() => {
-    sliderSelect(releases.length - 1)
+    sliderSelect(releases.length - 1, true)
   }, [])
 
   const stepSettings = {
@@ -65,7 +67,7 @@ export default function Roadmap() {
     infinite: false,
     slidesToShow: 4,
     slidesToScroll: 1,
-    focusOnSelect: true
+    currentSlide: active
   }
 
   const contentSettings = {
@@ -74,9 +76,9 @@ export default function Roadmap() {
     infinite: false,
     draggable: false,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    currentSlide: active
   }
-
 
   return (
     <div className="Roadmap Section-space-top Section-space-bottom">

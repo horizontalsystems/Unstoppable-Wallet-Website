@@ -1,7 +1,11 @@
 import React from 'react'
-import Slider from '../Slider'
-import CardApproved from '../Card/CardApproved'
 import Container from '../Container'
+import Slider from '../Slider'
+import Approved from './Approved'
+import Bitcoin from './bitcoin.svg'
+import Certik from './certik.svg'
+import WalletScrutiny from './wallet-scrutiny.svg'
+import Immunefi from './immunefi.svg'
 
 function OpenSource() {
   return (
@@ -14,9 +18,10 @@ function OpenSource() {
           Use a wallet with a fully open code that meets stated specifications.
         </p>
         <Slider slidesToScroll={4} slidesToShow={4}>
-          <CardApproved
+          <Approved
             by="Bitcoin"
             title="Approved By Bitcoin.org"
+            image={Bitcoin}
             info={
               <>
                 Unstoppable has been listed by <a href="https://bitcoin.org/en/wallets/mobile/ios/unstoppable/" target="_blank"
@@ -25,9 +30,10 @@ function OpenSource() {
                 and recommended for both new and experienced users alike.
               </>
             } />
-          <CardApproved
+          <Approved
             by="Certik"
             title="Audited By Certik"
+            image={Certik}
             info={
               <>
                 Unstoppable was audited by <a href="https://www.certik.org/projects/unstoppable.money" target="_blank" rel="noopener noreferrer"
@@ -35,9 +41,10 @@ function OpenSource() {
                 potential backdoors and vulnerabilities. No major or minor issues were found.
               </>
             } />
-          <CardApproved
+          <Approved
             by="Immunefi"
             title="Audited By Immunefi"
+            image={Immunefi}
             info={
               <>
                 Unstoppable was audited by <a href="https://immunefi.com/bounty/unstoppablewallet/" target="_blank" rel="noopener noreferrer"
@@ -45,9 +52,10 @@ function OpenSource() {
                 potential backdoors and vulnerabilities. No major or minor issues were found.
               </>
             } />
-          <CardApproved
+          <Approved
             by="WalletScrutiny"
             title="Approved By Wallet Scrutiny"
+            image={WalletScrutiny}
             info={
               <>
                 The <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet/" target="_blank" rel="noopener noreferrer"

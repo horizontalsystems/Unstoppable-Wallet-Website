@@ -89,6 +89,24 @@
   }
 }
 
+.Button-steal {
+  background: $steel_10;
+  color: $white;
+
+  &:enabled:hover {
+    background: lighten($steel_10, 2%);
+  }
+}
+
+.Button-dark {
+  background: $dark;
+  color: $white;
+
+  &:enabled:hover {
+    background: lighten($dark, 2%);
+  }
+}
+
 .Button--loading {
   display: none;
   opacity: 0.6;
