@@ -9,12 +9,12 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  //border: 0.4px solid #fff;
+  margin: 16px 0;
 }
 
 .Features-list-body {
   border-top: 1px solid $steel_20;
-  padding: 12px 0;
+  padding-top: 12px;
 }
 
 .Features-list-title {

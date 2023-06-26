@@ -6,9 +6,9 @@ class SignClient extends Client {
       relayUrl: 'wss://relay.walletconnect.com',
       projectId: process.env.REACT_APP_WC_PROJECT_ID,
       metadata: {
-        name: 'Hs Pay',
-        description: 'Hs Pay Description',
-        url: 'https://pay.blocksdecoded.com',
+        name: 'Unstoppable Money',
+        description: 'Unstoppable Money Premium',
+        url: 'https://unstoppable.money',
         icons: ['https://avatars.githubusercontent.com/u/40654219?s=200&v=4']
       }
     }

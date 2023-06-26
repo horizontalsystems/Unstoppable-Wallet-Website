@@ -7,11 +7,16 @@
 }
 
 .Pay-card-big {
-  padding: 60px !important;
+  @include md {
+    padding: 32px !important;
+  }
+
+  @include lg {
+    padding: 60px !important;
+  }
 }
 
 .Pay-step {
-  padding: 16px 10px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -43,17 +48,42 @@
 
 .Pay-stepper {
   position: relative;
+
+  @include sm {
+    display: none;
+  }
+
+  @include md {
+    display: block;
+  }
+}
+
+.Pay-step-space {
+  margin-top: 32px;
 }
 
 .Pay-content {
-  margin-left: 20px;
-  padding-top: 5px;
+  margin-left: 0;
   width: 100%;
 
+  @include md {
+    margin-left: 20px;
+  }
+
   .Pay-content-head {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     cursor: pointer;
+
+    .circle {
+      margin-right: 15px;
+
+      @include md {
+        display: none;
+      }
+    }
   }
 
   .Pay-content-body {
@@ -82,7 +112,11 @@
 }
 
 .Pay-fieldset-padding {
-  padding: 24px;
+  padding: 12px;
+
+  @include md {
+    padding: 24px;
+  }
 }
 
 .Pay-fieldset-right {

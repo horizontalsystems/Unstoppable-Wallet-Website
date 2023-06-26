@@ -8,6 +8,7 @@ import { Pairing } from '../Modal/Pairing'
 import { connect, selectIsConnected, selectParings } from '../../redux/wallet-connect-slice'
 import { selectDiscount, selectPlan, selectPlans, selectPromo, selectToken, setPlan, setPromo, setPromoDiscount } from '../../redux/contract-slice'
 import { useModal } from '../Modal/ModalContext'
+import { WalletConnect } from '../../core/wallet-connect'
 
 function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
   const dispatch = useDispatch()
@@ -51,6 +52,7 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
   const onConnect = () => parings.length ? setModal(<Pairing />) : dispatch(connect())
   const onNext = () => isConnected ? onFinish('plan', 2) : onConnect()
 
+  const getChain = () => WalletConnect.chain.name
   const costFinal = (
     <div>
       {discount && <s className={cn('text-grey-50 pe-2 small fw-semibold')}>
@@ -64,8 +66,8 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
     <div className="Pay-content-body">
       <fieldset className="Pay-fieldset Pay-fieldset-padding">
         <div className="row mb-3">
-          <div className="col-sm-6 col-form-label text-grey">Selected Plan</div>
-          <div className="col-sm-6">
+          <div className="col-6 col-form-label text-grey">Selected Plan</div>
+          <div className="col-6">
             <div className="Pay-fieldset-right">
               <div className="dropdown" onClick={() => setDropdown(!showDropdown)}>
                 <div className="btn dropdown-toggle text-capitalize text-white border-0 pe-0" data-bs-toggle="dropdown">
@@ -83,6 +85,9 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
               </div>
             </div>
           </div>
+        </div>
+        <div className="mb-3">
+          <FormTextItem title="Chain" value={getChain()} />
         </div>
         <FormTextItem title="Cost" value={costFinal} yellow />
       </fieldset>

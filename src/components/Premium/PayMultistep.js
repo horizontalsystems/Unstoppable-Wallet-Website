@@ -1,5 +1,5 @@
 import cn from 'classnames'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { selectIsConnected } from '../../redux/wallet-connect-slice'
 
@@ -17,6 +17,10 @@ function PayMultistep() {
   const [step, setStep] = useState(1)
   const [showDropdown, setDropdown] = useState(false)
   const isConnected = useSelector(selectIsConnected)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const stepNum = i => i >= step ? i : <Icon name="check" fill="#808085" />
   const onStep = num => {
@@ -41,39 +45,50 @@ function PayMultistep() {
     <PayContainer>
       <Container className="Container-analytics" clipped={false}>
         <div className="row justify-content-center">
-          <div className="Pay-card Pay-card-big col-md-6 col-sm-12">
-            <div className={cn('Pay-step', { active: step === 1 })}>
-              <div className="Pay-stepper">
-                <div className="circle">{stepNum(1)}</div>
-                <div className="line"></div>
+          <div className="col-md-10 col-lg-6 col-sm-12">
+            <div className="Pay-card Pay-card-big">
+              <div className={cn('Pay-step', { active: step === 1 })}>
+                <div className="Pay-stepper">
+                  <div className="circle">{stepNum(1)}</div>
+                  <div className="line"></div>
+                </div>
+
+                <div className="Pay-content">
+                  <div className="Pay-content-head" onClick={() => onStep(1)}>
+                    <div className="circle">{stepNum(1)}</div>
+                    Choose Your Plan
+                  </div>
+                  <FormChoosePlan showDropdown={showDropdown} setDropdown={setDropdown} onFinish={onFinish} />
+                </div>
               </div>
 
-              <div className="Pay-content">
-                <div className="Pay-content-head" onClick={() => onStep(1)}>Choose Your Plan</div>
-                <FormChoosePlan showDropdown={showDropdown} setDropdown={setDropdown} onFinish={onFinish} />
-              </div>
-            </div>
+              <div className={cn('Pay-step Pay-step-space', { active: step === 2 })}>
+                <div className="Pay-stepper">
+                  <div className="circle">{stepNum(2)}</div>
+                  <div className="line"></div>
+                </div>
 
-            <div className={cn('Pay-step', { active: step === 2 })}>
-              <div className="Pay-stepper">
-                <div className="circle">{stepNum(2)}</div>
-                <div className="line"></div>
-              </div>
-
-              <div className="Pay-content">
-                <div className="Pay-content-head" onClick={() => onStep(2)}>Set Allowance</div>
-                <FormAllowance onFinish={onFinish} />
-              </div>
-            </div>
-
-            <div className={cn('Pay-step', { active: step === 3 })}>
-              <div className="Pay-stepper">
-                <div className="circle">{stepNum(3)}</div>
+                <div className="Pay-content">
+                  <div className="Pay-content-head" onClick={() => onStep(2)}>
+                    <div className="circle">{stepNum(2)}</div>
+                    Set Allowance
+                  </div>
+                  <FormAllowance onFinish={onFinish} />
+                </div>
               </div>
 
-              <div className="Pay-content">
-                <div className="Pay-content-head" onClick={() => onStep(3)}>Payment</div>
-                <FormPayment />
+              <div className={cn('Pay-step Pay-step-space', { active: step === 3 })}>
+                <div className="Pay-stepper">
+                  <div className="circle">{stepNum(3)}</div>
+                </div>
+
+                <div className="Pay-content">
+                  <div className="Pay-content-head" onClick={() => onStep(3)}>
+                    <div className="circle">{stepNum(3)}</div>
+                    Payment
+                  </div>
+                  <FormPayment />
+                </div>
               </div>
             </div>
           </div>

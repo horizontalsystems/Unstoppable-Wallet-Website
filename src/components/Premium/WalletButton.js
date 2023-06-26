@@ -74,7 +74,7 @@ function WalletSwitcher() {
     web3.setWeb3(item.rpc, item.contract)
 
     dispatch(fetchAllowance(userAddress, token.address))
-    dispatch(fetchAddressInfo(userAddress))
+    dispatch(fetchAddressInfo(userAddress, true))
   }
 
   return (
@@ -85,7 +85,7 @@ function WalletSwitcher() {
         </div>
         <ul className={cn('dropdown-menu dropdown-menu-end', { show: showDropdown })}>
           {WalletConnect.chains.map(item => (
-            <li key={item.name} className={cn('dropdown-item', { disabled: item.id === 1 })} onClick={() => onSelectChain(item)}>
+            <li key={item.name} className="dropdown-item" onClick={() => onSelectChain(item)}>
               {item.name}
             </li>
           ))}

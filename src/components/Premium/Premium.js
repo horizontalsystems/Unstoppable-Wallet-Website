@@ -21,6 +21,10 @@ function Premium() {
     dispatch(fetchData())
   }, [dispatch])
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   const tokenSymbol = () => token.symbol || 'USDT'
 
   const card = plan => {
@@ -30,7 +34,7 @@ function Premium() {
 
     let priceSave = <>&nbsp;</>
     if (plan.interval > 1) {
-      priceSave =  plan.interval === 3 ? 'Save 20%' : 'Save 40%'
+      priceSave = plan.interval === 3 ? 'Save 20%' : 'Save 40%'
     }
 
     return (

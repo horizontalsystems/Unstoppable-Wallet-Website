@@ -1,3 +1,13 @@
+@import "../../scss/utils";
+
 .Container-analytics {
   min-height: 60vh;
+
+  @include sm {
+    margin-top: 10%;
+  }
+
+  @include md {
+    margin-top: 0;
+  }
 }

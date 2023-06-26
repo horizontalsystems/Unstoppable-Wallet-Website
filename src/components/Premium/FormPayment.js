@@ -70,7 +70,7 @@ function FormPayment() {
             className="mb-3" title={expiration ? 'New Expiration' : 'Expiration'}
             value={dateTime.plus({ days: plan.duration }).toFormat('DD')}
           />
-          {promo && <FormTextItem className="mb-3" title="Promo Code" value={promo} />}
+          {promo && discount && <FormTextItem className="mb-3" title="Promo Code" value={promo} />}
           <FormTextItem title="Cost" value={costFinal} yellow />
         </fieldset>
         {error && <div className="row">

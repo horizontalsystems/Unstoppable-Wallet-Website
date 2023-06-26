@@ -169,7 +169,7 @@ export class WalletConnect {
       try {
         const { eth } = new Web3(chain.rpc)
         const blockNumber = await eth.getBlockNumber()
-        chain.block = blockNumber - (chain.id === 1 ? 1000 : 10000)
+        chain.block = blockNumber - (chain.id === 1 ? 1000 : 3000)
       } catch (e) {
         console.log(e)
       }

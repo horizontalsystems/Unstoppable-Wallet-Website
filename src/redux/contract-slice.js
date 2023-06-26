@@ -102,14 +102,14 @@ export const fetchData = () => async (dispatch, getState) => {
   }
 }
 
-export const fetchAddressInfo = address => async (dispatch, getState) => {
+export const fetchAddressInfo = (address, isForce) => async (dispatch, getState) => {
   if (!address) return
 
   const {
     contract: { addressInfo, addressFetching }
   } = getState()
 
-  if (addressFetching || addressInfo.address === address) {
+  if (!isForce && (addressFetching || addressInfo.address === address)) {
     return
   }
 

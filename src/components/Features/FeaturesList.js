@@ -63,7 +63,7 @@ function FeaturesList({ isPremium }) {
           {isPremium ? 'Premium Features' : 'Wallet Features'}
         </div>
         <div className="Features-list mt-4">
-          <div className="row">
+          <div className="row gx-5">
             {items.map(item => card(item[0], item[1]))}
           </div>
         </div>
