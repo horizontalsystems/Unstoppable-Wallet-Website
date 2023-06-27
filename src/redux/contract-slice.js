@@ -1,7 +1,9 @@
 import { DateTime } from 'luxon'
 import { createSlice } from '@reduxjs/toolkit'
 import { convertFromRawAmount } from '../core/utils'
+import { WalletConnect } from '../core/wallet-connect'
 import { web3 } from '../core/web3'
+import { fetchLogs, postSubscribed } from '../core/api'
 
 const plans = [
   { interval: 1, intervalName: 'month', amount: 89, duration: 30 },
@@ -73,12 +75,12 @@ export const selectFetchingFailed = state => state.contract.fetching === 'failed
 export const selectAddressFetching = state => state.contract.addressFetching === 'fetching'
 export const selectAllowance = state => state.contract.allowance
 
-export const fetchData = () => async (dispatch, getState) => {
+export const fetchData = isForce => async (dispatch, getState) => {
   const {
     contract: { fetching, token }
   } = getState()
 
-  if (fetching === 'fetching' || (token.address && token.symbol)) {
+  if (!isForce && (fetching === 'fetching' || (token.address && token.symbol))) {
     return
   }
 
@@ -120,11 +122,17 @@ export const fetchAddressInfo = (address, isForce) => async (dispatch, getState)
     const [isModerator, isAdmin, expiration, balance] = Object.values(await web3.getAddressInfo(address))
     const info = { isModerator, isAdmin, balance: balance / 100, userAddress: address }
     const seconds = parseInt(expiration)
-
-    const promoCodes = await web3.getPromoCods((isModerator || isAdmin) ? null : address)
-    const updateSubscriptions = await web3.getUpdateSubscription()
-    const subscriptions = await web3.getSubscriptions((isModerator || isAdmin) ? null : address)
     const secondsNow = new Date().getTime() / 1000
+    const isModer = isModerator || isAdmin
+    const allLogs = await fetchLogs(WalletConnect.chain.id, isModer ? null : address)
+
+    const logs = {
+      promoCodes: await web3.getPromoCods(isModer ? null : address),
+      updateSubscriptions: await web3.getUpdateSubscription(),
+      subscriptions: await web3.getSubscriptions(isModer ? null : address)
+    }
+
+    const { promoCodes, updateSubscriptions, subscriptions } = await web3.decodeLogHistory(logs, allLogs)
 
     if (promoCodes) {
       info.promoCodes = promoCodes
@@ -174,7 +182,7 @@ export const fetchAllowance = (owner, token) => async (dispatch, getState) => {
 }
 
 export const setSubscribed = (address, chain) => async () => {
-  await fetch(`${process.env.REACT_APP_API_URL}/v1/auth/subscribed?address=${address}&chain=${chain.toLowerCase()}`)
+  await postSubscribed(address, chain.toLowerCase())
 }
 
 export default reducer

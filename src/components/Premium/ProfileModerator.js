@@ -178,7 +178,7 @@ export function Whitelist({ items = [] }) {
             <tr key={index}>
               <td>
                 <a href={`${WalletConnect.chain.explorer}/address/${item.address}`} rel="nofollow">
-                  <small>{item.address}</small>
+                  <small>{item.address || item.subscriber}</small>
                 </a>
               </td>
               <td><small>{item.duration} days</small></td>

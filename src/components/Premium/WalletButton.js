@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { connect, disconnect, selectIsConnected, selectParings, selectUserAddress } from '../../redux/wallet-connect-slice'
-import { fetchAddressInfo, fetchAllowance, selectToken } from '../../redux/contract-slice'
+import { fetchAddressInfo, fetchAllowance, fetchData, selectToken } from '../../redux/contract-slice'
 import { WalletConnect } from '../../core/wallet-connect'
 import { useModal } from '../Modal/ModalContext'
 import { truncate } from '../../core/utils'
@@ -73,6 +73,7 @@ function WalletSwitcher() {
     WalletConnect.setChain(item)
     web3.setWeb3(item.rpc, item.contract)
 
+    dispatch(fetchData(true))
     dispatch(fetchAllowance(userAddress, token.address))
     dispatch(fetchAddressInfo(userAddress, true))
   }

@@ -16,6 +16,7 @@ class Web3Provider {
     this.eth = eth
     this.methods = methods
     this.Contract = eth.Contract
+    this.abiJson = abi
   }
 
   getPaymentToken() {
@@ -173,6 +174,55 @@ class Web3Provider {
     const dataWithout = await this.getSubscribes(address)
 
     return [...dataWithPromo, ...dataWithout]
+  }
+
+  async decodeLogHistory(logs, allLogs) {
+    const events = this.abiJson.reduce((map, item) => {
+      map[item.signature] = {
+        name: item.name,
+        inputs: item.inputs
+      }
+      return map
+    }, {})
+
+    for (let i = 0; i < allLogs.length; i += 1) {
+      const log = allLogs[i]
+      const event = events[log.TOPICS[0]]
+
+      const data = this.eth.abi.decodeLog(event.inputs, log.DATA, log.TOPICS.slice(1))
+
+      if (event.name === 'PromoCodeAddition') {
+        if (!logs.promoCodes.find(i => i.name === data.name && i.deadline === data.deadline)) {
+          logs.promoCodes.push({
+            name: data.name,
+            discountRate: data.discountRate,
+            commissionRate: data.commissionRate,
+            deadline: DateTime.fromSeconds(parseInt(data.deadline)).toFormat('DD'),
+            address: data._address
+          })
+        }
+      } else if (event.name === 'UpdateSubscription') {
+        if (!logs.updateSubscriptions.find(i => i.address === data._address && i.deadline === data.deadline)) {
+          logs.updateSubscriptions.push({
+            address: data._address,
+            duration: data.duration,
+            deadline: data.deadline
+          })
+        }
+      } else if (event.name === 'SubscriptionWithPromoCode' || event.name === 'Subscription') {
+        if (!logs.subscriptions.find(i => i.subscriber === data.subscriber && i.deadline === data.deadline)) {
+          logs.subscriptions.push({
+            duration: data.duration,
+            paymentToken: data.paymentToken,
+            subscriber: data.subscriber,
+            tokenCost: data.tokenCost,
+            deadline: data.deadline,
+          })
+        }
+      }
+    }
+
+    return logs
   }
 
   // ERC20
