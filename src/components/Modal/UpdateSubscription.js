@@ -39,7 +39,7 @@ function UpdateSubscription({ isAdd }) {
       walletConnect.sendRequest(userAddress, sessionTopic, inputData)
         .then(() => {
           setFormState('finished')
-          dispatch(setSubscribed(address, WalletConnect.chain.name))
+          dispatch(setSubscribed(address, WalletConnect.activeChain.name))
           closeModal()
         })
         .catch(onError)

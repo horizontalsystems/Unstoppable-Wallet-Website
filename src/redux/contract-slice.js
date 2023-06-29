@@ -124,7 +124,7 @@ export const fetchAddressInfo = (address, isForce) => async (dispatch, getState)
     const seconds = parseInt(expiration)
     const secondsNow = new Date().getTime() / 1000
     const isModer = isModerator || isAdmin
-    const allLogs = await fetchLogs(WalletConnect.chain.id, isModer ? null : address)
+    const allLogs = await fetchLogs(WalletConnect.activeChain.id, isModer ? null : address)
 
     const logs = {
       promoCodes: await web3.getPromoCods(isModer ? null : address),

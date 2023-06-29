@@ -52,7 +52,6 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
   const onConnect = () => parings.length ? setModal(<Pairing />) : dispatch(connect())
   const onNext = () => isConnected ? onFinish('plan', 2) : onConnect()
 
-  const getChain = () => WalletConnect.chain.name
   const costFinal = (
     <div>
       {discount && <s className={cn('text-grey-50 pe-2 small fw-semibold')}>
@@ -87,7 +86,7 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
           </div>
         </div>
         <div className="mb-3">
-          <FormTextItem title="Chain" value={getChain()} />
+          <FormTextItem title="Chain" value={WalletConnect.activeChain.name} />
         </div>
         <FormTextItem title="Cost" value={costFinal} yellow />
       </fieldset>

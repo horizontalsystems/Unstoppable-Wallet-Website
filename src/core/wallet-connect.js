@@ -31,7 +31,7 @@ export class WalletConnect {
     this.chain = item
   }
 
-  static getChain() {
+  static get activeChain() {
     return this.chain
   }
 
@@ -42,7 +42,7 @@ export class WalletConnect {
       throw new Error('WalletConnect is not initialized')
     }
 
-    return client.sendRequest(userAddress, topic, inputData, `eip155:${WalletConnect.chain.id}`, contract || WalletConnect.chain.contract)
+    return client.sendRequest(userAddress, topic, inputData, `eip155:${WalletConnect.activeChain.id}`, contract || WalletConnect.activeChain.contract)
   }
 
   initialize = () => async dispatch => {

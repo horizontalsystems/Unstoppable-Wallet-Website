@@ -97,7 +97,7 @@ export function PromoCodeList({ promoCodes = [] }) {
                   <td>{rawAmountToRate(item.discountRate)}%</td>
                   <td>{rawAmountToRate(item.commissionRate)}%</td>
                   <td className="border-end-0">
-                    <a href={`${WalletConnect.chain.explorer}/address/${item.address}`} rel="nofollow">
+                    <a href={`${WalletConnect.activeChain.explorer}/address/${item.address}`} rel="nofollow">
                       {item.address}
                     </a>
                   </td>
@@ -139,7 +139,7 @@ export function Subscriptions({ items = [] }) {
           {items.map((item, index) => (
             <tr key={index}>
               <td>
-                <a href={`${WalletConnect.chain.explorer}/address/${item.subscriber}`} rel="nofollow">
+                <a href={`${WalletConnect.activeChain.explorer}/address/${item.subscriber}`} rel="nofollow">
                   <small>{item.subscriber}</small>
                 </a>
               </td>
@@ -177,7 +177,7 @@ export function Whitelist({ items = [] }) {
           {items.map((item, index) => (
             <tr key={index}>
               <td>
-                <a href={`${WalletConnect.chain.explorer}/address/${item.address}`} rel="nofollow">
+                <a href={`${WalletConnect.activeChain.explorer}/address/${item.address}`} rel="nofollow">
                   <small>{item.address || item.subscriber}</small>
                 </a>
               </td>
@@ -218,7 +218,7 @@ function PromoCodeSubscribers({ items = [] }) {
             {items.map((item, index) => (
               <tr key={index}>
                 <td>
-                  <a href={`${WalletConnect.chain.explorer}/address/${item.subscriber}`} rel="nofollow">
+                  <a href={`${WalletConnect.activeChain.explorer}/address/${item.subscriber}`} rel="nofollow">
                     <small>{item.subscriber}</small>
                   </a>
                 </td>

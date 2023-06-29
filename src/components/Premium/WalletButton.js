@@ -64,7 +64,7 @@ function WalletSwitcher() {
   const token = useSelector(selectToken)
 
   const dispatch = useDispatch()
-  const chain = WalletConnect.getChain()
+  const chain = WalletConnect.activeChain
   const onSelectChain = item => {
     if (item.id === chain.id) {
       return

@@ -38,7 +38,7 @@ function FormPayment() {
       .then(async () => {
         setFormState('finished')
         dispatch(fetchAllowance(userAddress, token.address))
-        dispatch(setSubscribed(userAddress, WalletConnect.chain.name))
+        dispatch(setSubscribed(userAddress, WalletConnect.activeChain.name))
       })
       .catch(e => {
         setError(e.message)

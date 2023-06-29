@@ -87,7 +87,7 @@ class Web3Provider {
       topics.push(Web3.utils.padLeft(address, 64))
     }
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics })
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.activeChain.block, topics })
       .then(res => res.map(item => {
         const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
@@ -108,7 +108,7 @@ class Web3Provider {
     const event = abi.find(item => item.name === 'UpdateSubscription')
     const topics = [event.signature]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics })
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.activeChain.block, topics })
       .then(res => res.map(item => {
         const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
@@ -132,7 +132,7 @@ class Web3Provider {
       promo ? Web3.utils.keccak256(promo) : null
     ]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics })
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.activeChain.block, topics })
       .then(res => res.map(item => {
         const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
@@ -153,7 +153,7 @@ class Web3Provider {
     const event = abi.find(item => item.name === 'Subscription')
     const topics = [event.signature, address ? Web3.utils.padLeft(address, 64) : null]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.chain.block, topics })
+    return this.eth.getPastLogs({ fromBlock: WalletConnect.activeChain.block, topics })
       .then(res => res.map(item => {
         const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
@@ -229,7 +229,7 @@ class Web3Provider {
 
   getAllowance(owner, contract) {
     const { methods } = new this.Contract(abiErc20, contract)
-    return methods.allowance(owner, WalletConnect.chain.contract).call()
+    return methods.allowance(owner, WalletConnect.activeChain.contract).call()
   }
 
   async getSymbol(contract) {
@@ -253,7 +253,7 @@ class Web3Provider {
 
   approveData(contract, amount) {
     const { methods } = new this.Contract(abiErc20, contract)
-    return methods.approve(WalletConnect.chain.contract, amount).encodeABI()
+    return methods.approve(WalletConnect.activeChain.contract, amount).encodeABI()
   }
 }
 
