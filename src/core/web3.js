@@ -1,12 +1,13 @@
 import { DateTime } from 'luxon'
-import { WalletConnect } from './wallet-connect'
 import Web3 from 'web3'
 import abi from './abi/contract.json'
 import abiErc20 from './abi/erc20.json'
+import chains from './chain'
 
 class Web3Provider {
-  constructor(rpc, contract) {
-    this.setWeb3(rpc, contract)
+  constructor() {
+    const chain = chains.getChain()
+    this.setWeb3(chain.rpc, chain.contract)
   }
 
   setWeb3(rpc, contract) {
@@ -87,7 +88,7 @@ class Web3Provider {
       topics.push(Web3.utils.padLeft(address, 64))
     }
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.activeChain.block, topics })
+    return this.eth.getPastLogs({ fromBlock: chains.activeChain.block, topics })
       .then(res => res.map(item => {
         const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
@@ -108,7 +109,7 @@ class Web3Provider {
     const event = abi.find(item => item.name === 'UpdateSubscription')
     const topics = [event.signature]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.activeChain.block, topics })
+    return this.eth.getPastLogs({ fromBlock: chains.activeChain.block, topics })
       .then(res => res.map(item => {
         const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
@@ -132,7 +133,7 @@ class Web3Provider {
       promo ? Web3.utils.keccak256(promo) : null
     ]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.activeChain.block, topics })
+    return this.eth.getPastLogs({ fromBlock: chains.activeChain.block, topics })
       .then(res => res.map(item => {
         const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
@@ -153,7 +154,7 @@ class Web3Provider {
     const event = abi.find(item => item.name === 'Subscription')
     const topics = [event.signature, address ? Web3.utils.padLeft(address, 64) : null]
 
-    return this.eth.getPastLogs({ fromBlock: WalletConnect.activeChain.block, topics })
+    return this.eth.getPastLogs({ fromBlock: chains.activeChain.block, topics })
       .then(res => res.map(item => {
         const data = this.eth.abi.decodeLog(event.inputs, item.data, item.topics.slice(1))
 
@@ -229,7 +230,7 @@ class Web3Provider {
 
   getAllowance(owner, contract) {
     const { methods } = new this.Contract(abiErc20, contract)
-    return methods.allowance(owner, WalletConnect.activeChain.contract).call()
+    return methods.allowance(owner, chains.activeChain.contract).call()
   }
 
   async getSymbol(contract) {
@@ -253,8 +254,8 @@ class Web3Provider {
 
   approveData(contract, amount) {
     const { methods } = new this.Contract(abiErc20, contract)
-    return methods.approve(WalletConnect.activeChain.contract, amount).encodeABI()
+    return methods.approve(chains.activeChain.contract, amount).encodeABI()
   }
 }
 
-export const web3 = new Web3Provider(process.env.REACT_APP_BSC_RPC_URL, process.env.REACT_APP_BSC_CONTRACT)
+export const web3 = new Web3Provider()

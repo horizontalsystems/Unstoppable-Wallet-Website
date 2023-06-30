@@ -1,8 +1,8 @@
 import { DateTime } from 'luxon'
 import { createSlice } from '@reduxjs/toolkit'
 import { convertFromRawAmount } from '../core/utils'
-import { WalletConnect } from '../core/wallet-connect'
 import { web3 } from '../core/web3'
+import { chains } from '../core/chain'
 import { fetchLogs, postSubscribed } from '../core/api'
 
 const plans = [
@@ -124,7 +124,7 @@ export const fetchAddressInfo = (address, isForce) => async (dispatch, getState)
     const seconds = parseInt(expiration)
     const secondsNow = new Date().getTime() / 1000
     const isModer = isModerator || isAdmin
-    const allLogs = await fetchLogs(WalletConnect.activeChain.id, isModer ? null : address)
+    const allLogs = await fetchLogs(chains.activeChain.id, isModer ? null : address)
 
     const logs = {
       promoCodes: await web3.getPromoCods(isModer ? null : address),

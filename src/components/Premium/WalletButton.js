@@ -4,9 +4,9 @@ import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { connect, disconnect, selectIsConnected, selectParings, selectUserAddress } from '../../redux/wallet-connect-slice'
 import { fetchAddressInfo, fetchAllowance, fetchData, selectToken } from '../../redux/contract-slice'
-import { WalletConnect } from '../../core/wallet-connect'
 import { useModal } from '../Modal/ModalContext'
 import { truncate } from '../../core/utils'
+import { chains } from '../../core/chain'
 import { web3 } from '../../core/web3'
 import Icon from '../Icon'
 import Pairing from '../Modal/Pairing'
@@ -64,13 +64,13 @@ function WalletSwitcher() {
   const token = useSelector(selectToken)
 
   const dispatch = useDispatch()
-  const chain = WalletConnect.activeChain
+  const chain = chains.activeChain
   const onSelectChain = item => {
     if (item.id === chain.id) {
       return
     }
 
-    WalletConnect.setChain(item)
+    chains.setChain(item)
     web3.setWeb3(item.rpc, item.contract)
 
     dispatch(fetchData(true))
@@ -85,7 +85,7 @@ function WalletSwitcher() {
           {chain.name === 'Ethereum' ? <Icon name="ethereum" /> : <Icon name="bsc" />}
         </div>
         <ul className={cn('dropdown-menu dropdown-menu-end', { show: showDropdown })}>
-          {WalletConnect.chains.map(item => (
+          {chains.list.map(item => (
             <li key={item.name} className="dropdown-item" onClick={() => onSelectChain(item)}>
               {item.name}
             </li>

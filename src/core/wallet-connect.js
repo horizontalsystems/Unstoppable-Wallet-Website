@@ -3,37 +3,9 @@ import SignClient from './SignClient'
 import QRCodeModal from '@walletconnect/qrcode-modal'
 import { setInitializing, setConnecting, setPairings, setSession } from '../redux/wallet-connect-slice'
 import { setAddressInfo } from '../redux/contract-slice'
+import { chains } from './chain'
 
 export class WalletConnect {
-
-  static chains = [
-    {
-      id: 1,
-      name: 'Ethereum',
-      rpc: process.env.REACT_APP_ETH_RPC_URL,
-      explorer: process.env.REACT_APP_ETH_EXPLORER,
-      contract: process.env.REACT_APP_ETH_CONTRACT,
-      block: 3595469
-    },
-    {
-      id: 56,
-      name: 'BSC',
-      rpc: process.env.REACT_APP_BSC_RPC_URL,
-      explorer: process.env.REACT_APP_BSC_EXPLORER,
-      contract: process.env.REACT_APP_BSC_CONTRACT,
-      block: 28947762
-    }
-  ]
-
-  static chain = this.chains[1]
-
-  static setChain(item) {
-    this.chain = item
-  }
-
-  static get activeChain() {
-    return this.chain
-  }
 
   sendRequest(userAddress, topic, inputData, contract) {
     const client = this.client
@@ -42,7 +14,7 @@ export class WalletConnect {
       throw new Error('WalletConnect is not initialized')
     }
 
-    return client.sendRequest(userAddress, topic, inputData, `eip155:${WalletConnect.activeChain.id}`, contract || WalletConnect.activeChain.contract)
+    return client.sendRequest(userAddress, topic, inputData, `eip155:${chains.activeChain.id}`, contract || chains.activeChain.contract)
   }
 
   initialize = () => async dispatch => {
@@ -82,7 +54,7 @@ export class WalletConnect {
         requiredNamespaces: {
           eip155: {
             methods: ['eth_sendTransaction'],
-            chains: WalletConnect.chains.map(chain => `eip155:${chain.id}`),
+            chains: chains.list.map(chain => `eip155:${chain.id}`),
             events: []
           }
         }
@@ -164,8 +136,8 @@ export class WalletConnect {
   }
 
   async syncLastBlocks() {
-    for (let i = 0; i < WalletConnect.chains.length; i++) {
-      const chain = WalletConnect.chains[i]
+    for (let i = 0; i < chains.list.length; i++) {
+      const chain = chains.list[i]
       try {
         const { eth } = new Web3(chain.rpc)
         const blockNumber = await eth.getBlockNumber()

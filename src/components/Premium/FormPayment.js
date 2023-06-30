@@ -7,7 +7,8 @@ import { Icon } from '../Icon'
 import { FormTextItem } from './FormTextItem'
 import { subtractDiscount } from '../../core/utils'
 import { web3 } from '../../core/web3'
-import { WalletConnect, walletConnect } from '../../core/wallet-connect'
+import { chains } from '../../core/chain'
+import { walletConnect } from '../../core/wallet-connect'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
 
 function FormPayment() {
@@ -38,7 +39,7 @@ function FormPayment() {
       .then(async () => {
         setFormState('finished')
         dispatch(fetchAllowance(userAddress, token.address))
-        dispatch(setSubscribed(userAddress, WalletConnect.activeChain.name))
+        dispatch(setSubscribed(userAddress, chains.activeChain.name))
       })
       .catch(e => {
         setError(e.message)

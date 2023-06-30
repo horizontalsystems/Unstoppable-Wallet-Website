@@ -2,13 +2,13 @@ import cn from 'classnames'
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { web3 } from '../../core/web3'
+import { chains } from '../../core/chain'
 import { subtractDiscount } from '../../core/utils'
 import { FormTextItem } from './FormTextItem'
 import { Pairing } from '../Modal/Pairing'
 import { connect, selectIsConnected, selectParings } from '../../redux/wallet-connect-slice'
 import { selectDiscount, selectPlan, selectPlans, selectPromo, selectToken, setPlan, setPromo, setPromoDiscount } from '../../redux/contract-slice'
 import { useModal } from '../Modal/ModalContext'
-import { WalletConnect } from '../../core/wallet-connect'
 
 function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
   const dispatch = useDispatch()
@@ -86,7 +86,7 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
           </div>
         </div>
         <div className="mb-3">
-          <FormTextItem title="Chain" value={WalletConnect.activeChain.name} />
+          <FormTextItem title="Chain" value={chains.activeChain.name} />
         </div>
         <FormTextItem title="Cost" value={costFinal} yellow />
       </fieldset>

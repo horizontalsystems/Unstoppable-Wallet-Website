@@ -1,7 +1,8 @@
 import { useModal } from './ModalContext'
 import { useRef, useState } from 'react'
 import { web3 } from '../../core/web3'
-import { WalletConnect, walletConnect } from '../../core/wallet-connect'
+import { chains } from '../../core/chain'
+import { walletConnect } from '../../core/wallet-connect'
 import { useDispatch, useSelector } from 'react-redux'
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
 import { setSubscribed } from '../../redux/contract-slice'
@@ -39,7 +40,7 @@ function UpdateSubscription({ isAdd }) {
       walletConnect.sendRequest(userAddress, sessionTopic, inputData)
         .then(() => {
           setFormState('finished')
-          dispatch(setSubscribed(address, WalletConnect.activeChain.name))
+          dispatch(setSubscribed(address, chains.activeChain.name))
           closeModal()
         })
         .catch(onError)
