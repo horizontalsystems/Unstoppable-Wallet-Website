@@ -33,8 +33,8 @@
   }
 
   &:disabled {
-    color: $light-steal;
-    background: $grey-light;
+    color: $grey_50;
+    background: $steel_20;
     cursor: not-allowed;
   }
 }
@@ -89,12 +89,21 @@
   }
 }
 
-.Button-steal {
-  background: $steel_10;
+.Button-steal20 {
+  background: $steel_20;
   color: $white;
 
   &:enabled:hover {
-    background: lighten($steel_10, 2%);
+    background: lighten($steel_20, 2%);
+  }
+}
+
+.Button-steal {
+  background: $dark-steal;
+  color: $white;
+
+  &:enabled:hover {
+    background: lighten($dark-steal, 2%);
   }
 }
 

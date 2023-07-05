@@ -1,13 +1,13 @@
+import cn from 'classnames'
+import throttle from 'lodash.throttle'
 import { Component } from 'react'
 import { Link } from 'react-router-dom'
-import throttle from 'lodash.throttle'
-import cn from 'classnames'
+import { WalletSwitcher, WalletProfile } from '../Premium/WalletButton'
+import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 import Container from '../Container'
 import HeaderLogo from './HeaderLogo.svg'
-import WalletButton from '../Premium/WalletButton'
 import Icon from '../Icon'
-import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 import './Header.scss'
 
@@ -63,13 +63,14 @@ class Header extends Component {
 
   render() {
     const { sticky } = this.state
-    const navigation = (
+    const navigation = isMobile => (
       <div className="nav">
-        <Link className="nav-item nav-item-yellow" to="/premium">Premium</Link>
+        <Link className="nav-item nav-item-yellow" to="/premium" onClick={this.onToggleMenu}>Premium</Link>
         <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Academy</a>
         <Link className="nav-item" to="/faq">FAQ</Link>
         <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io/">About</a>
-        <WalletButton />
+        <WalletSwitcher isMobile={isMobile} onClicked={this.onToggleMenu} />
+        <WalletProfile isMobile={isMobile} onClicked={this.onToggleMenu} />
       </div>
     )
 
@@ -82,7 +83,7 @@ class Header extends Component {
             </Link>
 
             <div className="hide-on-mobile">
-              {navigation}
+              {navigation()}
             </div>
 
             <div className="Menu-wrap" onClick={this.onToggleMenu}>
@@ -95,10 +96,12 @@ class Header extends Component {
             </div>
           </div>
         </Container>
-        <div className="navbar-dropdown" ref={r => this.dropdownNav = r}>
-          {navigation}
-          <div className="nav-logo">
-            <Logo className="Logo" />
+        <div className="Header-collapse">
+          <div className="Header-collapse-menu" ref={r => this.dropdownNav = r}>
+            {navigation(true)}
+            <div className="nav-logo">
+              <Logo className="Logo" />
+            </div>
           </div>
         </div>
       </header>

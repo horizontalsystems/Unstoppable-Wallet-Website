@@ -6,16 +6,29 @@ import { chains } from '../../core/chain'
 import { subtractDiscount } from '../../core/utils'
 import { FormTextItem } from './FormTextItem'
 import { Pairing } from '../Modal/Pairing'
-import { connect, selectIsConnected, selectParings } from '../../redux/wallet-connect-slice'
-import { selectDiscount, selectPlan, selectPlans, selectPromo, selectToken, setPlan, setPromo, setPromoDiscount } from '../../redux/contract-slice'
 import { useModal } from '../Modal/ModalContext'
+import { connect, selectIsConnected, selectParings, selectUserAddress } from '../../redux/wallet-connect-slice'
+import {
+  fetchAddressInfo,
+  fetchAllowance,
+  fetchData,
+  selectDiscount,
+  selectPlan,
+  selectPlans,
+  selectPromo,
+  selectToken,
+  setPlan,
+  setPromo,
+  setPromoDiscount
+} from '../../redux/contract-slice'
 
-function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
+function FormChoosePlan({ onFinish }) {
   const dispatch = useDispatch()
 
   const discount = useSelector(selectDiscount)
   const parings = useSelector(selectParings)
   const isConnected = useSelector(selectIsConnected)
+  const userAddress = useSelector(selectUserAddress)
   const promo = useSelector(selectPromo)
   const plans = useSelector(selectPlans)
   const plan = useSelector(selectPlan)
@@ -49,8 +62,25 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
       })
   }
 
+  const chain = chains.activeChain
+  const onSelectChain = item => {
+    if (item.id === chain.id) {
+      return
+    }
+
+    chains.setChain(item)
+    web3.setWeb3(item.rpc, item.contract)
+
+    dispatch(fetchData(true))
+    dispatch(fetchAllowance(userAddress, token.address))
+    dispatch(fetchAddressInfo(userAddress, true))
+  }
   const onConnect = () => parings.length ? setModal(<Pairing />) : dispatch(connect())
   const onNext = () => isConnected ? onFinish('plan', 2) : onConnect()
+  const onChangePromo = v => {
+    dispatch(setPromo(v.target.value))
+    setError(null)
+  }
 
   const costFinal = (
     <div>
@@ -68,11 +98,11 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
           <div className="col-6 col-form-label text-grey">Selected Plan</div>
           <div className="col-6">
             <div className="Pay-fieldset-right">
-              <div className="dropdown" onClick={() => setDropdown(!showDropdown)}>
+              <div className="dropdown">
                 <div className="btn dropdown-toggle text-capitalize text-white border-0 pe-0" data-bs-toggle="dropdown">
                   {plan.interval} {plan.intervalName}
                 </div>
-                <ul className={cn('dropdown-menu dropdown-menu-end', { show: showDropdown })}>
+                <ul className="dropdown-menu dropdown-menu-end">
                   {plans.map(item => (
                     <li key={item.amount} onClick={() => dispatch(setPlan(item))}>
                       <div className="dropdown-item text-capitalize" role="button">
@@ -85,8 +115,25 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
             </div>
           </div>
         </div>
-        <div className="mb-3">
-          <FormTextItem title="Chain" value={chains.activeChain.name} />
+        <div className="row mb-3">
+          <div className="col-6 col-form-label text-grey">Chain</div>
+          <div className="col-6">
+            <div className="Pay-fieldset-right">
+              <div className="dropdown">
+                <div className="btn dropdown-toggle text-capitalize text-white border-0 pe-0" data-bs-toggle="dropdown">
+                  {chain.name}
+                </div>
+                <ul className="dropdown-menu dropdown-menu-end">
+                  {chains.list.map(item => (
+                    <li key={item.name} className="dropdown-item" onClick={() => onSelectChain(item)}>
+                      {item.name}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
         <FormTextItem title="Cost" value={costFinal} yellow />
       </fieldset>
@@ -99,11 +146,11 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
                 className="form-control bg-transparent Pay-fieldset Pay-fieldset-padding border-end-0 shadow-none"
                 placeholder="Promo code"
                 value={promo}
-                onChange={v => dispatch(setPromo(v.target.value))}
+                onChange={onChangePromo}
                 required
               />
               <div className="input-group-text bg-transparent Pay-fieldset border-start-0">
-                <button type="submit" className="btn me-2 Button-steal" disabled={isPending}>
+                <button type="submit" className="Button Button-circle Button-steal border-0" disabled={isPending}>
                   Apply
                 </button>
               </div>
@@ -113,14 +160,9 @@ function FormChoosePlan({ showDropdown, setDropdown, onFinish }) {
       </div>
       <div className="row">
         <div className="col">
-          <div className="mt-2 text-grey">Enter a promo code to get a discount</div>
+          <div className={cn('mt-2', { 'text-grey': !error, 'text-danger': error })}>{error || 'Enter a promo code to get a discount'}</div>
         </div>
       </div>
-      {error && <div className="row">
-        <div className="col">
-          <div className="mt-2 text-danger">{error}</div>
-        </div>
-      </div>}
       <button className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center" disabled={isPending} onClick={onNext}>
         {isConnected ? 'Next' : 'Connect Wallet'}
       </button>

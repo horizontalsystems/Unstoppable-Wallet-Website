@@ -7,6 +7,7 @@ import { initialize } from './redux/wallet-connect-slice'
 import { store } from './redux/store'
 
 import 'react-tooltip/dist/react-tooltip.css'
+import 'bootstrap/js/dist/dropdown'
 import './index.scss'
 
 import Router from './Router'

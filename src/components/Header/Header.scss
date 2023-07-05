@@ -108,8 +108,17 @@
   display: none;
 }
 
-.navbar-dropdown {
+.Header-collapse {
+  display: block;
+
+  @include md {
+    display: none;
+  }
+}
+
+.Header-collapse-menu {
   display: none;
+  overflow: hidden;
   position: absolute;
   background: $dark;
   width: 100%;
@@ -126,6 +135,10 @@
   .nav-item {
     padding: 20px 0;
     display: block;
+  }
+
+  .nav-btn-item {
+    margin: 20px 0 !important;
   }
 }
 

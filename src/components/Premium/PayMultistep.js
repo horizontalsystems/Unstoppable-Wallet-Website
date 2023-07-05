@@ -15,7 +15,6 @@ import './PayMultiStep.scss'
 function PayMultistep() {
   const [state, setState] = useState({})
   const [step, setStep] = useState(1)
-  const [showDropdown, setDropdown] = useState(false)
   const isConnected = useSelector(selectIsConnected)
 
   useEffect(() => {
@@ -58,7 +57,7 @@ function PayMultistep() {
                     <div className="circle">{stepNum(1)}</div>
                     Choose Your Plan
                   </div>
-                  <FormChoosePlan showDropdown={showDropdown} setDropdown={setDropdown} onFinish={onFinish} />
+                  <FormChoosePlan onFinish={onFinish} />
                 </div>
               </div>
 
