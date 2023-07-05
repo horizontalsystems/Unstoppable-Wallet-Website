@@ -1,11 +1,23 @@
 import Web3 from 'web3'
 import SignClient from './SignClient'
-import QRCodeModal from '@walletconnect/qrcode-modal'
-import { setInitializing, setConnecting, setPairings, setSession } from '../redux/wallet-connect-slice'
+import { WalletConnectModal } from '@walletconnect/modal'
+import { setInitializing, setConnecting, setSession } from '../redux/wallet-connect-slice'
 import { setAddressInfo } from '../redux/contract-slice'
 import { chains } from './chain'
 
 export class WalletConnect {
+
+  constructor() {
+    this.walletConnectModal = new WalletConnectModal({
+      projectId: process.env.REACT_APP_WC_PROJECT_ID,
+      standaloneChains: chains.list.map(chain => `eip155:${chain.id}`),
+      mobileWallets: [
+        '7e90b95230bc462869bbb59f952273d89841e1c76bcc5319898e08c9f34bd4cd'
+      ],
+      explorerRecommendedWalletIds: [
+      ]
+    })
+  }
 
   sendRequest(userAddress, topic, inputData, contract) {
     const client = this.client
@@ -61,21 +73,23 @@ export class WalletConnect {
       })
 
       if (uri) {
-        QRCodeModal.open(uri, () => {
-          console.log('EVENT', 'QR Code Modal closed')
-          dispatch(setConnecting(null))
+        await this.walletConnectModal.openModal({ uri })
+
+        this.walletConnectModal.subscribeModal(() => {
+          const { wc } = getState()
+          if (!wc.session) {
+            dispatch(setConnecting(null))
+          }
         })
       }
 
       const session = await approval()
-      console.log('Session established')
       dispatch(setSession(session))
-      dispatch(setPairings(client.pairing.getAll({ active: true })))
     } catch (e) {
-      dispatch(setConnecting('failed'))
       console.error(e)
+      dispatch(setConnecting('failed'))
     } finally {
-      QRCodeModal.close()
+      this.walletConnectModal.closeModal()
     }
   }
 
@@ -100,7 +114,7 @@ export class WalletConnect {
   subscribeToEvents = client => dispatch => {
     client.on('display_uri', uri => {
       console.log('EVENT', 'display_uri', 'QR Code Modal open')
-      QRCodeModal.open(uri, () => null)
+      this.walletConnectModal.openModal({ uri })
     })
 
     client.on('session_ping', ({ id, topic }) => {
@@ -124,8 +138,6 @@ export class WalletConnect {
   }
 
   checkPersistedState = client => dispatch => {
-    dispatch(setPairings(client.pairing.getAll({ active: true })))
-
     if (client.session.length) {
       const activeSessinIndex = client.session.keys.length - 1
       const session = client.session.get(client.session.keys[activeSessinIndex])

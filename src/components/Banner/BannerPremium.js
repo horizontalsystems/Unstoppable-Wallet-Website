@@ -10,7 +10,6 @@ function BannerPremium() {
         <img className="Banner-img-gradient Banner-img-gradient-top" src={ImageGradient} alt="" />
         <div className="Banner-start">
           <img
-            width={410}
             className="Banner-img"
             src="/images/banner/premium.png"
             alt="Unstoppable wallet"
@@ -19,11 +18,10 @@ function BannerPremium() {
         <div className="Banner-end">
           <div className="Banner-end-content">
             <div className="Banner-title text-gradient">
-              Maximize Returns with Crypto Analytics
+              Exclusive Cryptocurrency Analytics
             </div>
             <p className="my-2 py-2 mb-3 text-light-soft">
-              Unlock the Power of Exclusive Cryptocurrency Analytics: Make Informed Decisions, Avoid Scams, and Stay Ahead of the Pack for Maximum
-              Returns!
+              Spot Lucrative Opportunities, Avoid Scams, and Maximize Your Profits in the Dynamic World of Cryptocurrency.
             </p>
             <div className="Wallet-actions mt-4">
               <div className="Banner-actions">

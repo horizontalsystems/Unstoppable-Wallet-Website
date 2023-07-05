@@ -40,3 +40,19 @@ export function convertToDecimals(amount, fromDecimals, toDecimals) {
     return amount
   }
 }
+
+export function normalizeError(error) {
+  if (error === 'Reject by User') {
+    return 'The transaction was rejected '
+  }
+
+  return error
+}
+
+export function normalizeChain(name) {
+  if (name === 'BSC') {
+    return 'BNB Smart Chain'
+  }
+
+  return name
+}

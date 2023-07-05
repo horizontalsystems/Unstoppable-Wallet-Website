@@ -1,23 +1,21 @@
 import { DateTime } from 'luxon'
 import Web3 from 'web3'
-import abi from './abi/contract.json'
 import abiErc20 from './abi/erc20.json'
 import chains from './chain'
 
 class Web3Provider {
   constructor() {
-    const chain = chains.getChain()
-    this.setWeb3(chain.rpc, chain.contract)
+    this.setWeb3(chains.getChain())
   }
 
-  setWeb3(rpc, contract) {
-    const { eth } = new Web3(rpc)
-    const { methods } = new eth.Contract(abi, contract)
+  setWeb3(chain) {
+    const { eth } = new Web3(chain.rpc)
+    const { methods } = new eth.Contract(chain.abi, chain.contract)
 
     this.eth = eth
+    this.abi = chain.abi
     this.methods = methods
     this.Contract = eth.Contract
-    this.abiJson = abi
   }
 
   getPaymentToken() {
@@ -81,7 +79,7 @@ class Web3Provider {
   }
 
   getPromoCods(address) {
-    const event = abi.find(item => item.name === 'PromoCodeAddition')
+    const event = this.abi.find(item => item.name === 'PromoCodeAddition')
     const topics = [event.signature]
 
     if (address) {
@@ -106,7 +104,7 @@ class Web3Provider {
   }
 
   getUpdateSubscription() {
-    const event = abi.find(item => item.name === 'UpdateSubscription')
+    const event = this.abi.find(item => item.name === 'UpdateSubscription')
     const topics = [event.signature]
 
     return this.eth.getPastLogs({ fromBlock: chains.activeChain.block, topics })
@@ -125,7 +123,7 @@ class Web3Provider {
   }
 
   getSubscribesByPromo(promo, address) {
-    const event = abi.find(item => item.name === 'SubscriptionWithPromoCode')
+    const event = this.abi.find(item => item.name === 'SubscriptionWithPromoCode')
 
     const topics = [
       event.signature,
@@ -151,7 +149,7 @@ class Web3Provider {
   }
 
   getSubscribes(address) {
-    const event = abi.find(item => item.name === 'Subscription')
+    const event = this.abi.find(item => item.name === 'Subscription')
     const topics = [event.signature, address ? Web3.utils.padLeft(address, 64) : null]
 
     return this.eth.getPastLogs({ fromBlock: chains.activeChain.block, topics })
@@ -178,7 +176,7 @@ class Web3Provider {
   }
 
   async decodeLogHistory(logs, allLogs) {
-    const events = this.abiJson.reduce((map, item) => {
+    const events = this.abi.reduce((map, item) => {
       map[item.signature] = {
         name: item.name,
         inputs: item.inputs
@@ -188,7 +186,9 @@ class Web3Provider {
 
     for (let i = 0; i < allLogs.length; i += 1) {
       const log = allLogs[i]
-      const event = events[log.TOPICS[0]]
+      const signature = log.TOPICS[0]
+      const event = events[signature]
+      if (!event) continue
 
       const data = this.eth.abi.decodeLog(event.inputs, log.DATA, log.TOPICS.slice(1))
 

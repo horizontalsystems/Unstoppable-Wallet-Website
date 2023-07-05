@@ -4,7 +4,7 @@ import { fetchAllowance, selectAllowance, selectDiscount, selectPlan, selectToke
 import { selectTopic, selectUserAddress } from '../../redux/wallet-connect-slice'
 import { walletConnect } from '../../core/wallet-connect'
 import { web3 } from '../../core/web3'
-import { convertToRawAmount, subtractDiscount } from '../../core/utils'
+import { convertToRawAmount, normalizeError, subtractDiscount } from '../../core/utils'
 import { Icon } from '../Icon'
 
 function FormPayment({ onFinish }) {
@@ -40,7 +40,7 @@ function FormPayment({ onFinish }) {
         onFinish('allowance', 3)
       })
       .catch(e => {
-        setError(e.message)
+        setError(normalizeError(e.message))
         setFormState('error')
       })
   }
@@ -48,12 +48,14 @@ function FormPayment({ onFinish }) {
   const approveContent = (
     <div className="Pay-content-body">
       <div className="Pay-fieldset Pay-fieldset-padding text-center">
-        <Icon name="unlock" />
+        <Icon name="locked" />
         <div className="fs-2 fw-semibold mt-3 mb-4">
-          Approve {discountAmount} {token.symbol}
+          Approve {token.symbol}
         </div>
-        <div className="text-grey-50 fs-6">
-          Before you can proceed, you need to approve USDT spending.
+        <div className="text-grey fs-6">
+          {isPending
+            ? 'Please, confirm the transaction in your wallet.'
+            : `Before you can proceed, you need to approve ${token.symbol} spending.`}
         </div>
       </div>
       {error && <div className="row">
@@ -72,10 +74,10 @@ function FormPayment({ onFinish }) {
       <div className="Pay-fieldset Pay-fieldset-padding text-center">
         <Icon name="unlock" />
         <div className="fs-2 fw-semibold mt-3 mb-4">
-          Allowance {allowance} {token.symbol}
+          Allowance {token.symbol}
         </div>
-        <div className="text-grey-50 fs-6">
-          You approved {token.symbol} spending.
+        <div className="text-grey fs-6">
+          Your {token.symbol} has been approved. You can now proceed to the next step.
         </div>
       </div>
       <button className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center" onClick={() => onFinish('allowance', 3)}>

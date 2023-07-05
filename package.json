@@ -8,7 +8,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^14.1.1",
-    "@walletconnect/qrcode-modal": "^1.8.0",
+    "@walletconnect/modal": "^2.5.9",
     "@walletconnect/sign-client": "^2.7.0",
     "@walletconnect/utils": "^2.7.0",
     "bootstrap": "^5.3.0",

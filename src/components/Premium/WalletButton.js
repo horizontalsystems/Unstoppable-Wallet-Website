@@ -1,21 +1,17 @@
 import cn from 'classnames'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { connect, disconnect, selectIsConnected, selectParings, selectUserAddress } from '../../redux/wallet-connect-slice'
+import { connect, disconnect, selectIsConnected, selectUserAddress } from '../../redux/wallet-connect-slice'
 import { fetchAddressInfo, fetchAllowance, fetchData, selectToken } from '../../redux/contract-slice'
-import { useModal } from '../Modal/ModalContext'
-import { truncate } from '../../core/utils'
+import { normalizeChain, truncate } from '../../core/utils'
 import { chains } from '../../core/chain'
 import { web3 } from '../../core/web3'
 import Icon from '../Icon'
-import Pairing from '../Modal/Pairing'
 
 export function WalletProfile({ isMobile, onClicked }) {
-  const { setModal } = useModal()
   const userAddress = useSelector(selectUserAddress)
   const isConnected = useSelector(selectIsConnected)
   const dispatch = useDispatch()
-  const parings = useSelector(selectParings)
 
   if (isConnected) {
     if (isMobile) {
@@ -45,10 +41,6 @@ export function WalletProfile({ isMobile, onClicked }) {
   }
 
   const onConnect = () => {
-    if (parings.length) {
-      return setModal(<Pairing />)
-    }
-
     if (isMobile) {
       onClicked()
     }
@@ -80,7 +72,7 @@ export function WalletSwitcher({ isMobile, onClicked }) {
     }
 
     chains.setChain(item)
-    web3.setWeb3(item.rpc, item.contract)
+    web3.setWeb3(item)
 
     dispatch(fetchData(true))
     dispatch(fetchAllowance(userAddress, token.address))
@@ -96,7 +88,7 @@ export function WalletSwitcher({ isMobile, onClicked }) {
       <ul className="dropdown-menu">
         {chains.list.map(item => (
           <li key={item.name} className="dropdown-item py-2" onClick={() => onSelectChain(item)}>
-            {item.name}
+            {normalizeChain(item.name)}
           </li>
         ))}
       </ul>

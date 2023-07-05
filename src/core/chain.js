@@ -1,4 +1,6 @@
 import Cookies from 'js-cookie'
+import abiEth from './abi/contract.json'
+import abiBsc from './abi/contract-bsc.json'
 
 const list = [
   {
@@ -7,7 +9,8 @@ const list = [
     rpc: process.env.REACT_APP_ETH_RPC_URL,
     explorer: process.env.REACT_APP_ETH_EXPLORER,
     contract: process.env.REACT_APP_ETH_CONTRACT,
-    block: 3595469
+    block: 3595469,
+    abi: abiEth
   },
   {
     id: 56,
@@ -15,7 +18,8 @@ const list = [
     rpc: process.env.REACT_APP_BSC_RPC_URL,
     explorer: process.env.REACT_APP_BSC_EXPLORER,
     contract: process.env.REACT_APP_BSC_CONTRACT,
-    block: 28947762
+    block: 28947762,
+    abi: abiBsc
   }
 ]
 

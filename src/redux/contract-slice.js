@@ -36,6 +36,7 @@ export const { actions, reducer } = createSlice({
     },
     setPromo: (state, { payload }) => {
       state.promo = payload
+      state.discount = null
     },
     setPromoDiscount: (state, { payload }) => {
       const discount = parseInt(payload)

@@ -16,8 +16,8 @@ function FeaturesPremium() {
 
   const items = [
     ['Maximize your returns and make informed decisions with unparalleled insights derived from indexing and processing vast amounts of blockchain data.'],
-    ['Stay steps ahead of the competition and confidently seize lucrative opportunities that others may miss. Accessing this level of data is a technical feat that sets us apart from the majority of companies in the space.'],
-    ['Our real-time data analysis, comprehensive market insights, and trend identification provide you with a distinct advantage.'],
+    ['Accessing this level of data is a technical feat that sets us apart from the majority of companies in the space. We have the expertise and capability to extract valuable insights, giving you an edge that few can replicate.'],
+    ['Our real-time data analysis, comprehensive market insights, and trend identification provide you with a distinct advantage. Stay steps ahead of the competition and confidently seize lucrative opportunities that others may miss.'],
     ['Discover the exclusive features, benefits, and subscription packages that will enhance your investment journey.']
   ]
 

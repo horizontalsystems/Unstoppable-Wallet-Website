@@ -128,7 +128,7 @@ function Contact() {
         <div className="color-yellow">
           Become a Reseller and Earn Passive Income!
         </div>
-        <div className="text-grey-50 mt-4">
+        <div className="text-grey mt-4">
           Refer others to our platform using your unique promo code and earn generous commissions of up to 50% from each subscription. Plus, your
           promo code will provide potential subscribers with an additional discount on the regular subscription price, making it even more enticing.
         </div>

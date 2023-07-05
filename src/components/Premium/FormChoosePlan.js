@@ -3,11 +3,9 @@ import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { web3 } from '../../core/web3'
 import { chains } from '../../core/chain'
-import { subtractDiscount } from '../../core/utils'
 import { FormTextItem } from './FormTextItem'
-import { Pairing } from '../Modal/Pairing'
-import { useModal } from '../Modal/ModalContext'
-import { connect, selectIsConnected, selectParings, selectUserAddress } from '../../redux/wallet-connect-slice'
+import { normalizeChain, normalizeError, subtractDiscount } from '../../core/utils'
+import { connect, selectIsConnected, selectUserAddress } from '../../redux/wallet-connect-slice'
 import {
   fetchAddressInfo,
   fetchAllowance,
@@ -26,7 +24,6 @@ function FormChoosePlan({ onFinish }) {
   const dispatch = useDispatch()
 
   const discount = useSelector(selectDiscount)
-  const parings = useSelector(selectParings)
   const isConnected = useSelector(selectIsConnected)
   const userAddress = useSelector(selectUserAddress)
   const promo = useSelector(selectPromo)
@@ -34,7 +31,6 @@ function FormChoosePlan({ onFinish }) {
   const plan = useSelector(selectPlan)
   const token = useSelector(selectToken)
 
-  const { setModal } = useModal()
   const [isPending, setPending] = useState(false)
   const [error, setError] = useState(null)
 
@@ -57,7 +53,7 @@ function FormChoosePlan({ onFinish }) {
         setPending(false)
       })
       .catch(e => {
-        setError(e.message)
+        setError(normalizeError(e.message))
         setPending(false)
       })
   }
@@ -69,14 +65,13 @@ function FormChoosePlan({ onFinish }) {
     }
 
     chains.setChain(item)
-    web3.setWeb3(item.rpc, item.contract)
+    web3.setWeb3(item)
 
     dispatch(fetchData(true))
     dispatch(fetchAllowance(userAddress, token.address))
     dispatch(fetchAddressInfo(userAddress, true))
   }
-  const onConnect = () => parings.length ? setModal(<Pairing />) : dispatch(connect())
-  const onNext = () => isConnected ? onFinish('plan', 2) : onConnect()
+  const onNext = () => isConnected ? onFinish('plan', 2) : dispatch(connect())
   const onChangePromo = v => {
     dispatch(setPromo(v.target.value))
     setError(null)
@@ -84,7 +79,7 @@ function FormChoosePlan({ onFinish }) {
 
   const costFinal = (
     <div>
-      {discount && <s className={cn('text-grey-50 pe-2 small fw-semibold')}>
+      {discount && <s className={cn('text-grey pe-2 small fw-semibold')}>
         {plan.amount} ${token.symbol}
       </s>}
       <span>{subtractDiscount(discount, plan.amount)} {token.symbol}</span>
@@ -121,12 +116,12 @@ function FormChoosePlan({ onFinish }) {
             <div className="Pay-fieldset-right">
               <div className="dropdown">
                 <div className="btn dropdown-toggle text-capitalize text-white border-0 pe-0" data-bs-toggle="dropdown">
-                  {chain.name}
+                  {normalizeChain(chain.name)}
                 </div>
                 <ul className="dropdown-menu dropdown-menu-end">
                   {chains.list.map(item => (
                     <li key={item.name} className="dropdown-item" onClick={() => onSelectChain(item)}>
-                      {item.name}
+                      {normalizeChain(item.name)}
                     </li>
                   ))}
                 </ul>

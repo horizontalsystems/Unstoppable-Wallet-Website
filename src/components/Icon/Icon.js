@@ -4,6 +4,7 @@ import { ReactComponent as Burger } from './burger.svg'
 import { ReactComponent as Close } from './menu-close.svg'
 import { ReactComponent as Check } from './check.svg'
 import { ReactComponent as Checkmark } from './checkmark.svg'
+import { ReactComponent as Dots } from './dots.svg'
 import { ReactComponent as GooglePlay } from './google-play.svg'
 import { ReactComponent as AppStore } from './app-store.svg'
 import { ReactComponent as FDroid } from './f-droid.svg'
@@ -17,6 +18,7 @@ import { ReactComponent as ArrowUp } from './arrow-up.svg'
 import { ReactComponent as NonCustodial } from './non-custodial.svg'
 import { ReactComponent as Wallet } from './wallet.svg'
 import { ReactComponent as WalletConnect } from './wallet-connect.svg'
+import { ReactComponent as UW } from './uw.svg'
 import { ReactComponent as Blocks } from './blocks.svg'
 import { ReactComponent as Swap } from './swap.svg'
 import { ReactComponent as Chart } from './chart.svg'
@@ -33,6 +35,7 @@ import { ReactComponent as Ethereum } from './ethereum.svg'
 import { ReactComponent as Bsc } from './bsc.svg'
 import { ReactComponent as Logout } from './logout.svg'
 import { ReactComponent as Unlock } from './unlock.svg'
+import { ReactComponent as Locked } from './locked.svg'
 
 const iconComponent = name => {
   switch (name) {
@@ -68,6 +71,8 @@ const iconComponent = name => {
       return <NonCustodial />
     case 'wallet':
       return <Wallet />
+    case 'uw':
+      return <UW />
     case 'wallet-connect':
       return <WalletConnect />
     case 'blocks':
@@ -99,6 +104,8 @@ const iconComponent = name => {
       return <Check />
     case 'checkmark':
       return <Checkmark />
+    case 'dots':
+      return <Dots />
 
     // Chain
     case 'ethereum':
@@ -109,6 +116,8 @@ const iconComponent = name => {
       return <Logout />
     case 'unlock':
       return <Unlock />
+    case 'locked':
+      return <Locked />
 
     default:
       return null

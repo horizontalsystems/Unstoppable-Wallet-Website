@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { fetchAllowance, selectAddressInfo, selectDiscount, selectPlan, selectPromo, selectToken, setSubscribed } from '../../redux/contract-slice'
 import { Icon } from '../Icon'
 import { FormTextItem } from './FormTextItem'
-import { subtractDiscount } from '../../core/utils'
+import { normalizeError, subtractDiscount } from '../../core/utils'
 import { web3 } from '../../core/web3'
 import { chains } from '../../core/chain'
 import { walletConnect } from '../../core/wallet-connect'
@@ -42,14 +42,14 @@ function FormPayment() {
         dispatch(setSubscribed(userAddress, chains.activeChain.name))
       })
       .catch(e => {
-        setError(e.message)
+        setError(normalizeError(e.message))
         setFormState('error')
       })
   }
 
   const costFinal = (
     <div>
-      {discount && <s className="text-grey-50 pe-2 small fw-semibold">
+      {discount && <s className="text-grey pe-2 small fw-semibold">
         {plan.amount} ${token.symbol}
       </s>}
       <span>{subtractDiscount(discount, plan.amount)} {token.symbol}</span>
@@ -95,19 +95,38 @@ function FormPayment() {
         <div className="fs-4 fw-semibold mt-3 mb-4">
           Payment completed
         </div>
-        <div className="text-grey-50 fs-6">
+        <div className="text-grey fs-6">
           Now you can go to the Unstoppable Wallet and use the analytics tools
         </div>
       </div>
-      <Link to="/premium-profile" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center">
+      <Link to="/premium-profile" className="Button Button-yellow Button-circle mt-4 w-100 border-0 justify-content-center text-decoration-none">
         View Profile
       </Link>
     </div>
   )
 
+  const pending = (
+    <div>
+      <div className="Pay-fieldset Pay-fieldset-padding text-center">
+        <div className="pt-3">
+          <Icon name="dots" />
+        </div>
+        <div className="fs-4 fw-semibold mt-3 mb-4">
+          Confirm Payment
+        </div>
+        <div className="text-grey fs-6">
+          Please, confirm the transaction in your wallet.
+        </div>
+      </div>
+      <button className="Button Button-circle mt-4 w-100 border-0 justify-content-center" disabled>
+        Pay
+      </button>
+    </div>
+  )
+
   return (
     <div className="Pay-content-body">
-      {isFinished ? finish : form()}
+      {isPending ? pending : isFinished ? finish : form()}
     </div>
   )
 }
