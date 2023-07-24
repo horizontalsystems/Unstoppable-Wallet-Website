@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
 import Container from '../Container'
-import ImageGradient from './gradient-premium.svg'
 import Icon from '../Icon'
 
 function BannerPremium() {
   return (
     <Container clipped={false}>
       <div className="Banner">
-        <img className="Banner-img-gradient Banner-img-gradient-top" src={ImageGradient} alt="" />
+        <img className="Banner-img-gradient Banner-img-gradient-top" src="/images/banner/gradient-premium.svg" alt="" />
         <div className="Banner-start">
           <img
             className="Banner-img"

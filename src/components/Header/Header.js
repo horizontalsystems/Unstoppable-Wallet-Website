@@ -3,10 +3,8 @@ import throttle from 'lodash.throttle'
 import { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { WalletSwitcher, WalletProfile } from '../Premium/WalletButton'
-import { ReactComponent as Logo } from '../Footer/HSlogo.svg'
 
 import Container from '../Container'
-import HeaderLogo from './HeaderLogo.svg'
 import Icon from '../Icon'
 
 import './Header.scss'
@@ -79,7 +77,7 @@ class Header extends Component {
         <Container clipped={false}>
           <div className="navbar">
             <Link to="/" onClick={this.onClickHome}>
-              <img className="Header-logo" src={HeaderLogo} alt="Unstoppable Cryptocurrency Wallet" />
+              <img className="Header-logo" src="/images/HeaderLogo.svg" alt="Unstoppable Cryptocurrency Wallet" />
             </Link>
 
             <div className="hide-on-mobile">
@@ -100,7 +98,7 @@ class Header extends Component {
           <div className="Header-collapse-menu" ref={r => this.dropdownNav = r}>
             {navigation(true)}
             <div className="nav-logo">
-              <Logo className="Logo" />
+              <img className="Logo" src="/images/HSlogo.svg" width="127" height="34" alt="" />
             </div>
           </div>
         </div>

@@ -2,10 +2,6 @@ import React from 'react'
 import Container from '../Container'
 import Slider from '../Slider'
 import Approved from './Approved'
-import Bitcoin from './bitcoin.svg'
-import Certik from './certik.svg'
-import WalletScrutiny from './wallet-scrutiny.svg'
-import Immunefi from './immunefi.svg'
 
 function OpenSource() {
   return (
@@ -21,7 +17,7 @@ function OpenSource() {
           <Approved
             by="Bitcoin"
             title="Approved By Bitcoin.org"
-            image={Bitcoin}
+            image="/images/opensource/bitcoin.svg"
             info={
               <>
                 Unstoppable has been listed by <a href="https://bitcoin.org/en/wallets/mobile/ios/unstoppable/" target="_blank"
@@ -33,7 +29,7 @@ function OpenSource() {
           <Approved
             by="Certik"
             title="Audited By Certik"
-            image={Certik}
+            image="/images/opensource/certik.svg"
             info={
               <>
                 Unstoppable was audited by <a href="https://www.certik.org/projects/unstoppable.money" target="_blank" rel="noopener noreferrer"
@@ -44,7 +40,7 @@ function OpenSource() {
           <Approved
             by="Immunefi"
             title="Audited By Immunefi"
-            image={Immunefi}
+            image="/images/opensource/immunefi.svg"
             info={
               <>
                 Unstoppable was audited by <a href="https://immunefi.com/bounty/unstoppablewallet/" target="_blank" rel="noopener noreferrer"
@@ -55,7 +51,7 @@ function OpenSource() {
           <Approved
             by="WalletScrutiny"
             title="Approved By Wallet Scrutiny"
-            image={WalletScrutiny}
+            image="/images/opensource/wallet-scrutiny.svg"
             info={
               <>
                 The <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet/" target="_blank" rel="noopener noreferrer"

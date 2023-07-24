@@ -1,12 +1,11 @@
 import React from 'react'
-import Check from './check.svg'
 
 function Approved({ title, info, image }) {
   return (
     <div className="card card-rounded border-0 bg-steel-10">
       <div className="card-body d-flex flex-column justify-content-around">
         <div>
-          <img src={Check} width="24" height="24" alt="" />
+          <img src="/images/opensource/check.svg" width="24" height="24" alt="" />
           <div className="text-steel-light border-top pt-3 mt-2 text-center">
             {title}
           </div>

@@ -3,12 +3,11 @@ import cn from 'classnames'
 import Slider from 'react-slick'
 import Markdown from '../Markdown/Markdown'
 import Container from '../Container'
+import Circle from './circle.svg'
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Roadmap.scss'
-
-import { ReactComponent as Circle } from './circle.svg'
 
 const releases = [
   { version: '0.1', date: 'Dec 24, 2018' },
@@ -128,7 +127,7 @@ export function RoadmapItem({ isActive, date, version, onClick, isStart, isEnd }
       <div className="Roadmap-progress" />
       <div className={cn('Roadmap-circle', { 'Roadmap-circle-active': isActive })}>
         <div className="text-grey small">{date}</div>
-        <Circle width={width} height={height} role="button" />
+        <img src={Circle} alt="" width={width} height={height} role="button" />
         <div className="text-steel-light">Version {version}</div>
       </div>
     </div>

@@ -4,14 +4,6 @@ import Container from '../Container'
 import YoutubeEmbed from '../Video/YoutubeEmbed'
 import './Demo.scss'
 
-import BitcoinWallet from './bitcoin-wallet.svg'
-import MultiWallet from './multi-wallet.svg'
-import NftWallet from './nft-wallet.svg'
-import ForInvestors from './for-investors.svg'
-import WatchAddress from './watch-address.svg'
-import AdvancedSearch from './search.svg'
-import Analytics from './analytics.svg'
-
 function Demo() {
   const [active, setActive] = useState({ id: 'multiWallet', autoplay: false })
   const isActive = name => active.id === name ? 'active' : null
@@ -42,13 +34,13 @@ function Demo() {
           </div>
           <div className="Demo-tabs">
             <div className="tablink-header">Use Cases</div>
-            <Tab item="multiWallet" imgImg={MultiWallet} name="Multi Wallet" isActive={isActive} setActive={setState} />
-            <Tab item="nftWallet" imgImg={NftWallet} name="NFT Wallet" isActive={isActive} setActive={setState} />
-            <Tab item="bitcoinWallet" imgImg={BitcoinWallet} name="Bitcoin Wallet" isActive={isActive} setActive={setState} />
-            <Tab item="watchAddress" imgImg={WatchAddress} name="Monitoring Wallet" isActive={isActive} setActive={setState} />
-            <Tab item="forInvestors" imgImg={ForInvestors} name="Investor Wallet" isActive={isActive} setActive={setState} />
-            <Tab item="advancedSearch" imgImg={AdvancedSearch} name="Advanced Market Search" isActive={isActive} setActive={setState} />
-            <Tab item="analytics" imgImg={Analytics} name="Advanced Token Analytics" isActive={isActive} setActive={setState} />
+            <Tab item="multiWallet" imgImg='/images/demo/multi-wallet.svg' name="Multi Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="nftWallet" imgImg='/images/demo/nft-wallet.svg' name="NFT Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="bitcoinWallet" imgImg='/images/demo/bitcoin-wallet.svg' name="Bitcoin Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="watchAddress" imgImg='/images/demo/watch-address.svg' name="Monitoring Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="forInvestors" imgImg='/images/demo/for-investors.svg' name="Investor Wallet" isActive={isActive} setActive={setState} />
+            <Tab item="advancedSearch" imgImg='/images/demo/search.svg' name="Advanced Market Search" isActive={isActive} setActive={setState} />
+            <Tab item="analytics" imgImg='/images/demo/analytics.svg' name="Advanced Token Analytics" isActive={isActive} setActive={setState} />
           </div>
         </div>
       </div>

@@ -2,7 +2,6 @@ import React from 'react'
 import { Tooltip } from 'react-tooltip'
 import Icon from '../Icon'
 import Button from '../Button'
-import AndroidQrCode from './qrcode-get-wallet.svg'
 
 import './GetWalletActions.scss'
 
@@ -15,7 +14,7 @@ function GetWallet() {
           data-tooltip-place="top"
           variant="light"
           className="QqCodeTooltip"
-          content={<img src={AndroidQrCode} alt="" />}
+          content={<img src="/images/qrcode-get-wallet.svg" alt="" />}
         />
         <Button
           className="Button-circle Button-nowrap"

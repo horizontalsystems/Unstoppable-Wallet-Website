@@ -1,123 +1,88 @@
 import React from 'react'
 
-import { ReactComponent as Burger } from './burger.svg'
-import { ReactComponent as Close } from './menu-close.svg'
-import { ReactComponent as Check } from './check.svg'
-import { ReactComponent as Checkmark } from './checkmark.svg'
-import { ReactComponent as Dots } from './dots.svg'
-import { ReactComponent as GooglePlay } from './google-play.svg'
-import { ReactComponent as AppStore } from './app-store.svg'
-import { ReactComponent as FDroid } from './f-droid.svg'
-import { ReactComponent as Download } from './download.svg'
-import { ReactComponent as QRCode } from './qr-code.svg'
-import { ReactComponent as Logo } from './logo.svg'
-import { ReactComponent as ArrowRight } from './arrow-right.svg'
-import { ReactComponent as ArrowDown } from './arrow-down.svg'
-import { ReactComponent as ArrowDownward } from './arrow-down.svg'
-import { ReactComponent as ArrowUp } from './arrow-up.svg'
-import { ReactComponent as NonCustodial } from './non-custodial.svg'
-import { ReactComponent as Wallet } from './wallet.svg'
-import { ReactComponent as WalletConnect } from './wallet-connect.svg'
-import { ReactComponent as UW } from './uw.svg'
-import { ReactComponent as Blocks } from './blocks.svg'
-import { ReactComponent as Swap } from './swap.svg'
-import { ReactComponent as Chart } from './chart.svg'
-import { ReactComponent as Ring } from './ring.svg'
-import { ReactComponent as Stop } from './stop.svg'
-import { ReactComponent as User } from './user.svg'
-import { ReactComponent as Incognito } from './incognito.svg'
-import { ReactComponent as Circle } from './circle.svg'
-import { ReactComponent as Globe } from './globe.svg'
-import { ReactComponent as Github } from './github.svg'
-import { ReactComponent as Gitlab } from './gitlab.svg'
-import { ReactComponent as Android } from './android.svg'
-import { ReactComponent as Ethereum } from './ethereum.svg'
-import { ReactComponent as Bsc } from './bsc.svg'
-import { ReactComponent as Logout } from './logout.svg'
-import { ReactComponent as Unlock } from './unlock.svg'
-import { ReactComponent as Locked } from './locked.svg'
-
 const iconComponent = name => {
+  const image = src => <img className="Icon" src={src} alt="" />
+
   switch (name) {
     case 'menu':
-      return <Burger />
+      return image('/images/icon/burger.svg')
     case 'menu-close':
-      return <Close />
+      return image('/images/icon/menu-close.svg')
     case 'arrow-right':
-      return <ArrowRight />
+      return image('/images/icon/arrow-right.svg')
     case 'arrow-downward':
-      return <ArrowDownward />
+      return image('/images/icon/arrow-down.svg')
     case 'arrow-down':
-      return <ArrowDown />
+      return image('/images/icon/arrow-down.svg')
     case 'arrow-up':
-      return <ArrowUp />
+      return image('/images/icon/arrow-up.svg')
 
     //  Buttons
     case 'google-play':
-      return <GooglePlay />
+      return image('/images/icon/google-play.svg')
     case 'app-store':
-      return <AppStore />
+      return image('/images/icon/app-store.svg')
     case 'f-droid':
-      return <FDroid />
+      return image('/images/icon/f-droid.svg')
     case 'download':
-      return <Download />
+      return image('/images/icon/download.svg')
     case 'android':
-      return <Android />
+      return image('/images/icon/android.svg')
     case 'qr-code':
-      return <QRCode />
+      return image('/images/icon/qr-code.svg')
 
     //  Pages
     case 'non-custodial':
-      return <NonCustodial />
+      return image('/images/icon/non-custodial.svg')
     case 'wallet':
-      return <Wallet />
+      return image('/images/icon/wallet.svg')
     case 'uw':
-      return <UW />
+      return image('/images/icon/uw.svg')
     case 'wallet-connect':
-      return <WalletConnect />
+      return image('/images/icon/wallet-connect.svg')
     case 'blocks':
-      return <Blocks />
+      return image('/images/icon/blocks.svg')
     case 'chart':
-      return <Chart />
+      return image('/images/icon/chart.svg')
     case 'swap':
-      return <Swap />
+      return image('/images/icon/swap.svg')
     case 'ring':
-      return <Ring />
+      return image('/images/icon/ring.svg')
     case 'stop':
-      return <Stop />
+      return image('/images/icon/stop.svg')
     case 'user':
-      return <User />
+      return image('/images/icon/user.svg')
     case 'incognito':
-      return <Incognito />
+      return image('/images/icon/incognito.svg')
     case 'circle':
-      return <Circle />
+      return image('/images/icon/circle.svg')
     case 'globe':
-      return <Globe />
+      return image('/images/icon/globe.svg')
     case 'github':
-      return <Github />
+      return image('/images/icon/github.svg')
     case 'gitlab':
-      return <Gitlab />
+      return image('/images/icon/gitlab.svg')
     case 'logo':
-      return <Logo />
+      return image('/images/icon/logo.svg')
 
     case 'check':
-      return <Check />
+      return image('/images/icon/check.svg')
     case 'checkmark':
-      return <Checkmark />
+      return image('/images/icon/checkmark.svg')
     case 'dots':
-      return <Dots />
+      return image('/images/icon/dots.svg')
 
     // Chain
     case 'ethereum':
-      return <Ethereum />
+      return image('/images/icon/ethereum.svg')
     case 'bsc':
-      return <Bsc />
+      return image('/images/icon/bsc.svg')
     case 'logout':
-      return <Logout />
+      return image('/images/icon/logout.svg')
     case 'unlock':
-      return <Unlock />
+      return image('/images/icon/unlock.svg')
     case 'locked':
-      return <Locked />
+      return image('/images/icon/locked.svg')
 
     default:
       return null

@@ -1,11 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
-
 import Container from '../Container'
-import ImageGradient from '../Icon/image-gradient.svg'
-import bcLeo from './bc-leo.svg'
-import bcMusta from './bc-musta.svg'
-import bcYak from './bc-yak.svg'
 
 import './Page.scss'
 
@@ -14,14 +9,14 @@ function Page({ img, featureImg, text, info, children, rtl, onMouseLeave }) {
   let imgIcon
   switch (img) {
     case 'bc-yak':
-      imgIcon = bcYak
+      imgIcon = '/images/page/bc-yak.svg'
       break
     case 'bc-musta':
-      imgIcon = bcMusta
+      imgIcon = '/images/page/bc-musta.svg'
       break
     case 'bc-leo':
     default: {
-      imgIcon = bcLeo
+      imgIcon = '/images/page/bc-leo.svg'
     }
   }
 
@@ -35,7 +30,7 @@ function Page({ img, featureImg, text, info, children, rtl, onMouseLeave }) {
         <div className="Page-start">
           {featureImg && <img
             className={cn('Banner-img-gradient', { 'Banner-img-gradient-right': rtl, 'Banner-img-gradient-left': !rtl })}
-            src={ImageGradient}
+            src='/images/icon/image-gradient.svg'
             alt=""
           />}
           {image}
