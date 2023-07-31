@@ -1,9 +1,11 @@
-import Web3 from 'web3'
 import SignClient from './SignClient'
 import { WalletConnectModal } from '@walletconnect/modal'
 import { setInitializing, setConnecting, setSession } from '../redux/wallet-connect-slice'
 import { setAddressInfo } from '../redux/contract-slice'
 import { chains } from './chain'
+
+class Web3 {
+}
 
 export class WalletConnect {
 

@@ -1,7 +1,9 @@
 import { DateTime } from 'luxon'
-import Web3 from 'web3'
 import abiErc20 from './abi/erc20.json'
 import chains from './chain'
+
+class Web3 {
+}
 
 class Web3Provider {
   constructor() {

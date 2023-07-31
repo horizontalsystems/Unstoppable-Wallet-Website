@@ -1,7 +1,5 @@
-import { Link } from 'react-router-dom'
 import Container from '../Container'
 import GetWalletActions from '../GetWallet/GetWalletActions'
-import Icon from '../Icon'
 
 import './Banner.scss'
 
@@ -26,11 +24,11 @@ function Banner() {
               Unchain Assets | Go Borderless | Stay Private
             </div>
             <GetWalletActions />
-            <div className="mt-5 pt-md-5 pt-sm-0">
-              <Link to="/premium" className="Banner-link">
-                <Icon name="arrow-right" /> <span className="ms-2">Get premium features</span>
-              </Link>
-            </div>
+            {/*<div className="mt-5 pt-md-5 pt-sm-0">*/}
+            {/*  <Link to="/premium" className="Banner-link">*/}
+            {/*    <Icon name="arrow-right" /> <span className="ms-2">Get premium features</span>*/}
+            {/*  </Link>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>

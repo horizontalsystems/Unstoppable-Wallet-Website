@@ -27,8 +27,7 @@
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-tooltip": "^5.10.5",
-    "slick-carousel": "^1.8.1",
-    "web3": "^1.9.0"
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -2,7 +2,6 @@ import cn from 'classnames'
 import throttle from 'lodash.throttle'
 import { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { WalletSwitcher, WalletProfile } from '../Premium/WalletButton'
 
 import Container from '../Container'
 import Icon from '../Icon'
@@ -61,14 +60,11 @@ class Header extends Component {
 
   render() {
     const { sticky } = this.state
-    const navigation = isMobile => (
+    const navigation = () => (
       <div className="nav">
-        <Link className="nav-item nav-item-yellow" to="/premium" onClick={this.onToggleMenu}>Premium</Link>
         <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://litrex.academy">Academy</a>
         <Link className="nav-item" to="/faq">FAQ</Link>
         <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://horizontalsystems.io/">About</a>
-        <WalletSwitcher isMobile={isMobile} onClicked={this.onToggleMenu} />
-        <WalletProfile isMobile={isMobile} onClicked={this.onToggleMenu} />
       </div>
     )
 
