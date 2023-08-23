@@ -5,7 +5,7 @@ import Icon from '../Icon'
 
 import './Button.scss'
 
-function Button({ className, text, yellow, icon, link, newTab }) {
+function Button({ className, text, yellow, steal20, icon, link, newTab }) {
   const onClick = () => {
     if (newTab) {
       window.open(link, '_blank')
@@ -15,7 +15,7 @@ function Button({ className, text, yellow, icon, link, newTab }) {
   }
 
   return (
-    <div className={cn('Button', { 'Button-yellow': yellow }, className)} onClick={onClick}>
+    <div className={cn('Button', { 'Button-yellow': yellow, 'Button-steal20': steal20 }, className)} onClick={onClick}>
       <Icon name={icon} />
       <div className="Button-text">
         {text}

@@ -20,8 +20,12 @@ const iconComponent = name => {
     //  Buttons
     case 'google-play':
       return image('/images/icon/google-play.svg')
+    case 'google-play-yellow':
+      return image('/images/icon/google-play-yellow.svg')
     case 'app-store':
       return image('/images/icon/app-store.svg')
+    case 'app-store-yellow':
+      return image('/images/icon/app-store-yellow.svg')
     case 'f-droid':
       return image('/images/icon/f-droid.svg')
     case 'download':

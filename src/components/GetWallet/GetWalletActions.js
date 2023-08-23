@@ -1,11 +1,12 @@
 import React from 'react'
+import cn from 'classnames'
 import { Tooltip } from 'react-tooltip'
 import Icon from '../Icon'
 import Button from '../Button'
 
 import './GetWalletActions.scss'
 
-function GetWallet() {
+function GetWallet({ btnSteal }) {
   return (
     <div className="Wallet-actions">
       <div className="Banner-actions">
@@ -17,15 +18,22 @@ function GetWallet() {
           content={<img src="/images/qrcode-get-wallet.svg" alt="" />}
         />
         <Button
-          className="Button-circle Button-nowrap"
+          className={cn('Button-circle Button-nowrap', { 'Button-steal20': btnSteal })}
           text="Google Play"
-          icon="google-play"
-          link="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet" yellow newTab />
+          icon={btnSteal ? 'google-play-yellow' : 'google-play'}
+          link="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet"
+          yellow={!btnSteal}
+          steal20={btnSteal}
+          newTab />
         <Button
-          className="Button-circle Button-nowrap"
+          className={cn('Button-circle Button-nowrap', { 'Button-steal20': btnSteal })}
           text="App Store"
-          icon="app-store"
-          link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8" yellow newTab />
+          icon={btnSteal ? 'app-store-yellow' : 'app-store'}
+          link="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8"
+          yellow={!btnSteal}
+          steal20={btnSteal}
+          newTab />
+
         <div className="sm-hidden" role="button" data-tooltip-id="registerTip">
           <Icon name="qr-code" />
         </div>
