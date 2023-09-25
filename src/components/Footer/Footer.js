@@ -18,7 +18,7 @@ function Footer() {
           </div>
         </a>
 
-        <span>@ 2022 HorizontalSystems</span>
+        <span>@ 2023 HorizontalSystems</span>
       </div>
     </Container>
   )
