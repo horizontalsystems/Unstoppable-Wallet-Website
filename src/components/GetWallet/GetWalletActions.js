@@ -60,6 +60,11 @@ function GetWallet({ btnSteal }) {
           icon="gitlab"
           link="https://gitlab.com/horizontal_systems" newTab />
       </div>
+      <div className="mt-4 pt-md-4 pt-sm-0">
+        <a href="https://testflight.apple.com/join/JaKdKPY5" className="Banner-link" target="_blank" rel="noopener noreferrer">
+          <Icon name="arrow-right" /> <span className="ms-2">Get the TestFlight version</span>
+        </a>
+      </div>
     </div>
   )
 }
