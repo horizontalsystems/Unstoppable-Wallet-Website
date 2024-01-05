@@ -1,5 +1,14 @@
 @import "../../scss/utils";
 
+.Caution {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  color: $red
+}
+
 .Banner {
   display: flex;
   margin-top: 80px;

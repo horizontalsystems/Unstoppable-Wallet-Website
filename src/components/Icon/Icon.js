@@ -16,6 +16,8 @@ const iconComponent = name => {
       return image('/images/icon/arrow-down.svg')
     case 'arrow-up':
       return image('/images/icon/arrow-up.svg')
+    case 'caution':
+      return image('/images/icon/caution.svg')
 
     //  Buttons
     case 'google-play':

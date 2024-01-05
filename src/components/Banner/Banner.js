@@ -1,5 +1,6 @@
 import Container from '../Container'
 import GetWalletActions from '../GetWallet/GetWalletActions'
+import Icon from '../Icon'
 
 import './Banner.scss'
 
@@ -7,6 +8,12 @@ function Banner() {
   return (
     <Container clipped={false}>
       <div className="Banner">
+        <div className="Caution">
+          <Icon name="caution" />
+          <span className="ms-2">
+            Beware: Scammers are currently using the name Unstoppable Wallet on Telegram
+          </span>
+        </div>
         <img className="Banner-img-gradient Banner-img-gradient-top" src="/images/banner/gradient-main.svg" alt="" />
         <div className="Banner-start">
           <img
