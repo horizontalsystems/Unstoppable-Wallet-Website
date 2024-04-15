@@ -1,18 +1,35 @@
-import { Inter } from 'next/font/google'
+import { IBM_Plex_Sans } from 'next/font/google'
 
-import './globals.css'
+import './layout.scss'
 
-const inter = Inter({ subsets: ['latin'] })
+import Header from '@/components/Header'
+import Page from '@/components/Page/Page'
+import Footer from '@/components/Footer'
+
+const inter = IBM_Plex_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500']
+})
 
 export const metadata = {
   title: 'Unstoppable - Bitcoin & Crypto Wallet',
   description: 'Unchain Assets | Go Borderless | Stay Private',
 }
 
-export default function RootLayout({ children }) {
+function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" data-bs-theme="dark">
+      <body className={inter.className}>
+        <Header />
+
+        {children}
+
+        <Page black>
+          <Footer />
+        </Page>
+      </body>
     </html>
   )
 }
+
+export default RootLayout

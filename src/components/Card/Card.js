@@ -1,0 +1,24 @@
+'use client'
+
+import { useState, cloneElement } from 'react'
+
+function Card({ title, description, children }) {
+  const [run, setRun] = useState(false)
+
+  const onMouseEnter = () => setRun(true)
+  const onMouseLeave = () => setRun(false)
+
+  return (
+    <div className="card card-regular rounded-24 bg-steel-10 overflow-hidden" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+      <div className="p-4 m-md-2">
+        <div className="fs-4 fw-normal text-steel-light mb-2">{title}</div>
+        <div className="small text-grey lh-sm">{description}</div>
+      </div>
+      <div className="card-body d-flex justify-content-center position-relative">
+        {cloneElement(children, { running: run })}
+      </div>
+    </div>
+  )
+}
+
+export default Card
