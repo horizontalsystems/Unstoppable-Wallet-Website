@@ -1,0 +1,15 @@
+
+.bg-hero {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: url(/images/gradients/hero.svg) no-repeat top right;
+  padding-top: 80px;
+}
+
+.hero-image {
+  box-shadow: 5rem 8rem 3rem 1rem rgba(0, 0, 0, 0.25);
+  width: 260px;
+  object-fit: cover;
+}

@@ -1,6 +1,7 @@
 'use client'
 
 import { cloneElement, useState } from 'react'
+import { GradientGrey } from '@/components/Icon/GradientGrey'
 
 function CardBig({ title, description, children }) {
   const [run, setRun] = useState(false)
@@ -9,7 +10,8 @@ function CardBig({ title, description, children }) {
   const onMouseLeave = () => setRun(false)
 
   return (
-    <div className="card card-big rounded-24 bg-steel-10 overflow-hidden" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+    <div className="card card-big rounded-24 bg-steel-20 border-0 overflow-hidden" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+      <GradientGrey running={run} />
       <div className="row">
         <div className="col-lg-3 col-md-6">
           <div className="p-4 m-md-2">

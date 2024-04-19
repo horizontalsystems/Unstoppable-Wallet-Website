@@ -12,12 +12,12 @@ function IconSwitcher({ running, icons, width, height }) {
     if (item.tag && item.icon.length) {
       return (
         <animated.g style={style}>{
-          item.icon.map((d, i) => <path d={d} key={i} fillRule="evenodd" clipRule="evenodd" fill="#808085" />)
+          item.icon.map((d, i) => <path d={d} key={i} fillRule="evenodd" clipRule="evenodd" fill="#FFFFFF" />)
         }</animated.g>
       )
     }
 
-    return <animated.path style={style} d={item.icon} fillRule="evenodd" clipRule="evenodd" fill="#808085" />
+    return <animated.path style={style} d={item.icon} fillRule="evenodd" clipRule="evenodd" fill="#FFFFFF" />
   }
 
   const [index, setIndex] = useState(null)
@@ -52,7 +52,7 @@ function IconSwitcher({ running, icons, width, height }) {
       <svg width={width || 200} height={height || 74} fill="none" xmlns="http://www.w3.org/2000/svg">
         {transitions((style, i) => getPath(i, style))}
       </svg>
-      <div className="text-center py-2">
+      <div className="text-center py-2 text-white">
         {items[active].title}
       </div>
     </div>

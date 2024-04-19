@@ -10,6 +10,7 @@ function Analytics({ running }) {
 
   const anim1 = useSpring({
     transform: running ? 'translate3d(30px,0,0)' : 'translate3d(170px,0,0)',
+    opacity: running ? 1 : 0,
     config
   })
 

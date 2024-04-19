@@ -18,6 +18,8 @@ import Dexes from '@/components/Icon/Dexes'
 import WalletConnect from '@/components/Icon/WalletConnect'
 import CardLearn from '@/components/Card/CardLearn'
 import CardMedium from '@/components/Card/CardMedium'
+import GradientViolet from '@/components/Icon/GradientViolet'
+import GradientColor from '@/components/Icon/GradientColor'
 
 function Home() {
   return (
@@ -36,7 +38,7 @@ function Home() {
             column
           />
 
-          <CardBig title="Multi-Wallet" description="For easy management of many wallets within a single app while staying ultra secure.">
+          <CardBig title="Multi-Wallet" description="For easy management of many wallets within a single app while staying ultra secure." isBlack>
             <MultiWallet />
           </CardBig>
         </div>
@@ -51,17 +53,29 @@ function Home() {
 
           <div className="row py-5 g-3">
             <div className="col-md-6">
-              <CardOverlay title="Multi-Chain" description="Supports 16 Blockchains and over 3000 tokens.">
+              <CardOverlay
+                title="Multi-Chain"
+                description="Supports 16 Blockchains and over 3000 tokens."
+                gradient={<GradientViolet />}
+              >
                 <Chains />
               </CardOverlay>
             </div>
             <div className="col-md-3">
-              <Card title="Easy Migration" description="Simplify your transition seamlessly with an easy migration solution.">
+              <Card
+                title="Easy Migration"
+                description="Simplify your transition seamlessly with an easy migration solution."
+                gradient={<GradientColor color="yellow" />}
+              >
                 <IconSwitcher icons="migration" />
               </Card>
             </div>
             <div className="col-md-3">
-              <Card title="Easy Backup" description="Options to backup encrypted wallets to iCloud or offline storage.">
+              <Card
+                title="Easy Backup"
+                description="Options to backup encrypted wallets to iCloud or offline storage."
+                gradient={<GradientColor color="blue" fromZero />}
+              >
                 <Backup />
               </Card>
             </div>
@@ -78,17 +92,27 @@ function Home() {
 
           <div className="row py-5 g-3">
             <div className="col-md-3">
-              <Card title="Spam Detector" description="This improvement boosts wallet security against address poisoning attacks.">
+              <Card
+                title="Spam Detector"
+                description="This improvement boosts wallet security against address poisoning attacks."
+                isBlack
+                gradient={<GradientColor color="green" fromZero />}
+              >
                 <SpamDetect />
               </Card>
             </div>
             <div className="col-md-6">
-              <CardOverlay title="Duress Mode" description="A specialized mode designed to keep selected wallets safe under coercion.">
+              <CardOverlay title="Duress Mode" description="A specialized mode designed to keep selected wallets safe under coercion." isBlack>
                 <img src="/images/duress/img.png" alt="" width="365" />
               </CardOverlay>
             </div>
             <div className="col-md-3">
-            <Card title="Private Tools" description="Built for strong privacy. No data collected.">
+              <Card
+                title="Private Tools"
+                description="Built for strong privacy. No data collected."
+                gradient={<GradientColor color="yellow" />}
+                isBlack
+              >
                 <IconSwitcher icons="private-tools" />
               </Card>
             </div>
@@ -105,17 +129,29 @@ function Home() {
 
           <div className="row py-5 g-3">
             <div className="col-md-3">
-              <Card title="Open Source" description="Use an open source wallet to manage your cryptocurrencies securely and transparently.">
+              <Card
+                title="Open Source"
+                description="Use an open source wallet to manage your cryptocurrencies securely and transparently."
+                gradient={<GradientColor color="green" fromZero />}
+              >
                 <OpenSource />
               </Card>
             </div>
             <div className="col-md-3">
-              <Card title="Non-Custodial" description="Trully self-custodial wallet that gives users unconditional control.">
+              <Card
+                title="Non-Custodial"
+                description="Trully self-custodial wallet that gives users unconditional control."
+                gradient={<GradientColor color="yellow" />}
+              >
                 <NonCustodial />
               </Card>
             </div>
             <div className="col-md-6">
-              <CardMedium title="Verified" description="The security and transparency of the wallet has been tested and approved by reputable sources.">
+              <CardMedium
+                className="card-bg-violet"
+                title="Verified"
+                description="The security and transparency of the wallet has been tested and approved by reputable sources."
+              >
                 <IconSwitcher icons="verified" width={509} height={96} />
               </CardMedium>
             </div>
@@ -130,7 +166,7 @@ function Home() {
             description="Explore detailed cryptocurrency market insights and comprehensive asset analytics."
             column
           />
-          <CardBig title="Market" description="Explore detailed cryptocurrency market insights and comprehensive asset analytics.">
+          <CardBig title="Market" description="Explore detailed cryptocurrency market insights and comprehensive asset analytics." isBlack>
             <MultiWalletMarket />
           </CardBig>
         </div>
@@ -145,17 +181,29 @@ function Home() {
 
           <div className="row py-5 g-3">
             <div className="col-md-3">
-              <Card title="Market Ranks" description="Effortlessly analyze market dynamics through category-leading asset tracking with analytics.">
+              <Card
+                title="Market Ranks"
+                description="Effortlessly analyze market dynamics through category-leading asset tracking with analytics."
+                gradient={<GradientColor color="blue" />}
+              >
                 <IconSwitcher icons="market-ranks" />
               </Card>
             </div>
             <div className="col-md-3">
-              <Card title="Market Tools" description="Effortlessly explore and analyze market trends with powerful tools for efficient insights.">
+              <Card
+                title="Market Tools"
+                description="Effortlessly explore and analyze market trends with powerful tools for efficient insights."
+                gradient={<GradientColor color="yellow" />}
+              >
                 <IconSwitcher icons="market-tools" />
               </Card>
             </div>
             <div className="col-md-6">
-              <CardOverlay title="Coin Analytics" description="Extensive exchange data. On-chain token data. Token rank lists based on data.">
+              <CardOverlay
+                title="Coin Analytics"
+                description="Extensive exchange data. On-chain token data. Token rank lists based on data."
+                gradient={<GradientColor color="grey" />}
+              >
                 <Analytics />
               </CardOverlay>
             </div>
@@ -172,12 +220,22 @@ function Home() {
 
           <div className="row py-5 g-3">
             <div className="col-md-6">
-              <CardOverlay title="DEXes" description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc.">
+              <CardOverlay
+                title="DEXes"
+                description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
+                gradient={<GradientViolet color="yellow" />}
+                isBlack
+              >
                 <Dexes />
               </CardOverlay>
             </div>
             <div className="col-md-6">
-              <CardMedium title="Wallet Connect" description="Interact with any DeFi service via WalletConnect V1 and V2.he security and transparency of the wallet has been tested and approved by reputable sources.">
+              <CardMedium
+                className="card-bg-violet"
+                title="Wallet Connect"
+                description="Interact with any DeFi service via WalletConnect V1 and V2.he security and transparency of the wallet has been tested and approved by reputable sources."
+                isBlack
+              >
                 <WalletConnect />
               </CardMedium>
             </div>
@@ -194,16 +252,16 @@ function Home() {
           />
           <div className="row py-5 g-3">
             <div className="col-6 col-md-3">
-              <CardLearn title="Cryptocurrency Explained" src="/images/learn/crypto.png" isGuide />
+              <CardLearn title="Cryptocurrency Explained" src="/images/learn/crypto.png" isGuide withMargin />
             </div>
             <div className="col-6 col-md-3">
-              <CardLearn title="Cryptocurrency Explained" src="/images/learn/bitcoin.png" isGuide />
+              <CardLearn title="Cryptocurrency Explained" src="/images/learn/bitcoin.png" isGuide withMargin />
             </div>
             <div className="col-6 col-md-3">
-              <CardLearn title="Cryptocurrency Explained" src="/images/learn/wallet.png" isGuide />
+              <CardLearn title="Cryptocurrency Explained" src="/images/learn/wallet.png" isGuide withMargin />
             </div>
             <div className="col-6 col-md-3">
-              <CardLearn title="Cryptocurrency Explained" src="/images/learn/private-keys.png" isGuide />
+              <CardLearn title="Cryptocurrency Explained" src="/images/learn/private-keys.png" isGuide withMargin />
             </div>
           </div>
           <div className="text-end">
