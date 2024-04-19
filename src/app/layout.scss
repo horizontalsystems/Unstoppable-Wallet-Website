@@ -11,7 +11,11 @@
 }
 
 .Header-navbar {
-  height: 80px;
+  min-height: 80px;
+}
+
+.Header-navbar .navbar-brand {
+  min-height: 64px;
 }
 
 .Header-logo {
