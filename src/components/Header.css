@@ -1,0 +1,38 @@
+
+.Header {
+  min-height: 80px;
+}
+
+.Header .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Header .navbar-brand {
+  min-height: 64px;
+}
+
+.Header-logo {
+  position: absolute;
+  top: 0;
+}
+
+.Header .navbar-collapse.show {
+  @media (max-width: 768px) {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: 0;
+    display: flex;
+    background: #0F1014;
+    justify-content: center;
+    align-items: start;
+  }
+}
+
+.Header .navbar-collapse.show .nav-item {
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+}

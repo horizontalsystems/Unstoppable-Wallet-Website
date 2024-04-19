@@ -21,8 +21,8 @@ function Analytics({ running }) {
 
   return (
     <div className="d-flex align-items-start">
-      <animated.img style={anim1} src="/images/analytics/1.png" alt="" width={250} />
-      <animated.img style={anim2} src="/images/analytics/2.png" alt="" width={250} />
+      <animated.img style={anim1} src="/images/analytics/1.png" alt="" width={196} />
+      <animated.img style={anim2} src="/images/analytics/2.png" alt="" width={196} />
     </div>
   )
 }

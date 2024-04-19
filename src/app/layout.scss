@@ -1,28 +1,6 @@
 @import "~normalize.css";
 @import 'bootstrap';
 
-// Header
-
-.Header .nav-link {
-  color: var(--white, #FFF);
-  text-align: right;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.Header-navbar {
-  min-height: 80px;
-}
-
-.Header-navbar .navbar-brand {
-  min-height: 64px;
-}
-
-.Header-logo {
-  position: absolute;
-  top: 0;
-}
-
 // Background
 
 .bg-steel-10 {
@@ -48,7 +26,11 @@
 // Images
 
 .Multiwallet-img {
-  width: 150px;
+  width: 100px;
+
+  @include media-breakpoint-up(sm) {
+    width: 150px;
+  }
 
   @include media-breakpoint-up(md) {
     width: 206px;
@@ -56,7 +38,11 @@
 }
 
 .Multiwallet-img-bg {
-  width: 180px;
+  width: 130px;
+
+  @include media-breakpoint-up(sm) {
+    width: 180px;
+  }
 
   @include media-breakpoint-up(md) {
     width: 246px;
