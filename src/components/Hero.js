@@ -1,10 +1,18 @@
+'use client'
+
 import Image from 'next/image'
+import { useState } from 'react'
+import Download from '@/components/Download'
 
 import './Hero.css'
 
 function Hero() {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
     <div className="bg-hero bg-black">
+      <Download isOpen={isOpen} onClose={() => setIsOpen(false)} />
+
       <div className="container d-flex flex-column">
         <div className="row g-5 align-items-center" style={{ flexGrow: 3 }}>
           <div className="col-lg-6">
@@ -17,7 +25,10 @@ function Hero() {
 
         <div className="row g-4 d-flex align-items-center" style={{ flexGrow: 1 }}>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center justify-content-sm-start">
-            <button className="btn btn-warning rounded-5 px-5">Download</button>
+            <button className="btn btn-warning d-flex align-items-center rounded-5 px-5" onClick={() => setIsOpen(!isOpen)}>
+              <Image src="/icons/download.png" alt="" width="16" height="16" />
+              <span className="ms-2">Download</span>
+            </button>
           </div>
           <div className="col-md-6 col-sm-12">
             <ul className="nav nav-pills nav-justified">

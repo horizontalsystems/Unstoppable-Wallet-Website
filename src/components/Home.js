@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Hero from '@/components/Hero'
 import Page from '@/components/Page/Page'
 import Engineered from '@/components/Engineered'
@@ -264,8 +265,11 @@ function Home() {
               <CardLearn title="Cryptocurrency Explained" src="/images/learn/private-keys.png" isGuide withMargin />
             </div>
           </div>
-          <div className="text-end">
-            <a className="text-warning text-decoration-none fs-4" href="/">More Guides</a>
+          <div className="text-end d-flex justify-content-end">
+            <a className="text-warning text-decoration-none d-flex align-items-center" href="/">
+              <Image src="/icons/arrow-right.png" alt="" height="20" width="20" />
+              <span className="ms-3 fs-4">More Guides</span>
+            </a>
           </div>
         </div>
 
