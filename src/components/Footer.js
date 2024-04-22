@@ -5,11 +5,11 @@ export function Footer() {
     <div className="container">
       <footer className="py-5">
         <div className="row">
-          <div className="col-6 col-md-2 mb-3">
+          <div className="col-sm-12 col-md-2 mb-3">
             <img src="/images/hs.png" alt="" width="126" />
           </div>
 
-          <div className="col-6 col-md-2 mb-3">
+          <div className="col-sm-12 col-md-2 mb-3">
             <ul className="nav flex-column">
               <li className="nav-item mb-3">
                 <a href="#" className="nav-link p-0 text-body-secondary">Home</a>
@@ -26,7 +26,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="col-6 col-md-2 mb-3">
+          <div className="col-sm-12 col-md-2 mb-3">
             <ul className="nav flex-column">
               <li className="nav-item mb-3">
                 <a href="#" className="nav-link p-0 text-body-secondary">Contact us:</a>

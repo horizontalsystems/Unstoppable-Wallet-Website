@@ -26,8 +26,8 @@ function Backup({ running }) {
   })
 
   return (
-    <div className="d-flex flex-column position-relative">
-      <svg width={80} fill="none" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translateY(-40%)'}}>
+    <div className="d-flex flex-column">
+      <svg width={80} height="150" fill="none" xmlns="http://www.w3.org/2000/svg" style={{transform: 'translateY(-40%)'}}>
         <animated.path
           style={anim1}
           fill="#FFFFFF"

@@ -1,7 +1,8 @@
 'use client'
 
-import cn from 'classnames'
 import { useState, cloneElement } from 'react'
+import cn from 'classnames'
+import './Card.css'
 
 function Card({ title, description, isBlack, children, gradient }) {
   const [run, setRun] = useState(false)

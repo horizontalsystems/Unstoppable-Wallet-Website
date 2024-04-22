@@ -52,7 +52,7 @@ function Home() {
           />
 
           <div className="row py-5 g-3">
-            <div className="col-md-6">
+            <div className="col-sm-12 col-md-12 col-lg-6">
               <CardOverlay
                 title="Multi-Chain"
                 description="Supports 16 Blockchains and over 3000 tokens."
@@ -61,7 +61,7 @@ function Home() {
                 <Chains />
               </CardOverlay>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
                 title="Easy Migration"
                 description="Simplify your transition seamlessly with an easy migration solution."
@@ -70,7 +70,7 @@ function Home() {
                 <IconSwitcher icons="migration" />
               </Card>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
                 title="Easy Backup"
                 description="Options to backup encrypted wallets to iCloud or offline storage."
@@ -91,7 +91,7 @@ function Home() {
           />
 
           <div className="row py-5 g-3">
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-6 col-lg-3 order-md-2 order-lg-1">
               <Card
                 title="Spam Detector"
                 description="This improvement boosts wallet security against address poisoning attacks."
@@ -101,12 +101,12 @@ function Home() {
                 <SpamDetect />
               </Card>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6 order-md-1 order-lg-2">
               <CardOverlay title="Duress Mode" description="A specialized mode designed to keep selected wallets safe under coercion." isBlack>
                 <img src="/images/duress/img.png" alt="" width="365" />
               </CardOverlay>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-6 col-lg-3 order-md-3 order-lg-3">
               <Card
                 title="Private Tools"
                 description="Built for strong privacy. No data collected."
@@ -128,7 +128,7 @@ function Home() {
           />
 
           <div className="row py-5 g-3">
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
                 title="Open Source"
                 description="Use an open source wallet to manage your cryptocurrencies securely and transparently."
@@ -137,7 +137,7 @@ function Home() {
                 <OpenSource />
               </Card>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
                 title="Non-Custodial"
                 description="Trully self-custodial wallet that gives users unconditional control."
@@ -146,7 +146,7 @@ function Home() {
                 <NonCustodial />
               </Card>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6">
               <CardMedium
                 className="card-bg-violet"
                 title="Verified"
@@ -180,7 +180,7 @@ function Home() {
           />
 
           <div className="row py-5 g-3">
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
                 title="Market Ranks"
                 description="Effortlessly analyze market dynamics through category-leading asset tracking with analytics."
@@ -189,7 +189,7 @@ function Home() {
                 <IconSwitcher icons="market-ranks" />
               </Card>
             </div>
-            <div className="col-md-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
                 title="Market Tools"
                 description="Effortlessly explore and analyze market trends with powerful tools for efficient insights."
@@ -198,7 +198,7 @@ function Home() {
                 <IconSwitcher icons="market-tools" />
               </Card>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-12 col-lg-6">
               <CardOverlay
                 title="Coin Analytics"
                 description="Extensive exchange data. On-chain token data. Token rank lists based on data."
@@ -251,16 +251,16 @@ function Home() {
             column
           />
           <div className="row py-5 g-3">
-            <div className="col-6 col-md-3">
+            <div className="col-md-6 col-lg-3">
               <CardLearn title="Cryptocurrency Explained" src="/images/learn/crypto.png" isGuide withMargin />
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-md-6 col-lg-3">
               <CardLearn title="Cryptocurrency Explained" src="/images/learn/bitcoin.png" isGuide withMargin />
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-md-6 col-lg-3">
               <CardLearn title="Cryptocurrency Explained" src="/images/learn/wallet.png" isGuide withMargin />
             </div>
-            <div className="col-6 col-md-3">
+            <div className="col-md-6 col-lg-3">
               <CardLearn title="Cryptocurrency Explained" src="/images/learn/private-keys.png" isGuide withMargin />
             </div>
           </div>
@@ -276,21 +276,21 @@ function Home() {
           />
 
           <div className="row py-5 g-3">
-            <div className="col-6 col-md-4">
+            <div className="col-sm-12 col-md-6 col-lg-4">
               <CardLearn
                 title="Beginner"
                 description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
                 src="/images/learn/course-beginner.png"
                 isGuide={false} />
             </div>
-            <div className="col-6 col-md-4">
+            <div className="col-sm-12 col-md-6 col-lg-4">
               <CardLearn
                 title="Advanced"
                 description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
                 src="/images/learn/course-advanced.png"
                 isGuide={false} />
             </div>
-            <div className="col-6 col-md-4">
+            <div className="col-md-12 col-lg-4">
               <CardLearn
                 title="Professional"
                 description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."

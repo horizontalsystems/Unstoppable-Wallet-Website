@@ -2,7 +2,6 @@
 
 import cn from 'classnames'
 import { cloneElement, useState } from 'react'
-import './Card.css'
 
 function CardOverlay({ className, title, description, children, isBlack, gradient, centerize = false }) {
   const [run, setRun] = useState(false)
