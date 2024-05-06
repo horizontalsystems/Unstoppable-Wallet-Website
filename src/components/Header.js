@@ -66,6 +66,12 @@ export function Header() {
             <li className="nav-item">
               <a className="nav-link small text-white" href="#">Gitlab</a>
             </li>
+            <li className="nav-item show-on-bottom">
+              <div className="btn btn-warning d-flex align-items-center justify-content-center rounded-5 px-4 ms-2">
+                <Image src="/icons/download.png" alt="" width="16" height="16" />
+                <span className="ms-2">Download</span>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
