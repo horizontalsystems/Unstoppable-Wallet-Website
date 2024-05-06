@@ -12,6 +12,8 @@
 
 .Header.is-in-bottom {
   background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 
 .show-on-bottom {
