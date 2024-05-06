@@ -23,6 +23,7 @@ function Chains({ running }) {
       height={433}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="multi-chain-svg"
     >
       <circle cx={226} cy={223} r={209.5} stroke="#808085" strokeOpacity={0.5} />
       <circle cx={226} cy={223} r={133.5} stroke="#808085" strokeOpacity={0.5} />

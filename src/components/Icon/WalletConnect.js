@@ -2,7 +2,7 @@
 
 import { useSpring, animated } from '@react-spring/web'
 
-function WalletConnect({ running }) {
+function WalletConnect({ running, isMobile }) {
   const config = {
     tension: 120,
     friction: 14,
@@ -40,8 +40,14 @@ function WalletConnect({ running }) {
     config
   })
 
+  const style = {}
+
+  if (isMobile) {
+    style.transform = 'translateX(-15%)'
+  }
+
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width={436} height={100} fill="none">
+    <svg xmlns="http://www.w3.org/2000/svg" width={436} height={100} className="wallet-connect-svg" style={style}>
       <animated.g style={animStart}>
         <path
           fill="#FFFFFF"

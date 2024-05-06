@@ -8,11 +8,13 @@ const styles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    minWidth: 500,
+    minWidth: 300,
     color: 'lightsteelblue',
     borderRadius: '24px',
+    border: 'none',
     background: 'rgba(255, 255, 255, 0.20)',
-    backdropFilter: 'blur(30px)'
+    backdropFilter: 'blur(30px)',
+    '-webkit-backdrop-filter': 'blur(30px)'
   },
   overlay: {
     background: 'transparent'

@@ -3,7 +3,7 @@
 import cn from 'classnames'
 import { cloneElement, useState } from 'react'
 
-function CardOverlay({ className, title, description, children, isBlack, gradient, centerize = false }) {
+function CardOverlay({ className, title, description, children, isBlack, gradient, isDesktop, centerize = false }) {
   const [run, setRun] = useState(false)
 
   const onMouseEnter = () => setRun(true)
@@ -17,7 +17,7 @@ function CardOverlay({ className, title, description, children, isBlack, gradien
 
   return (
     <div className={classNames} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-      {gradient ? cloneElement(gradient, { running: run }) : null}
+      {gradient ? cloneElement(gradient, { running: isDesktop && run }) : null}
 
       <div className="card-img-overlay p-4 m-md-2 z-1">
         <div className="row">
@@ -28,8 +28,8 @@ function CardOverlay({ className, title, description, children, isBlack, gradien
         </div>
       </div>
 
-      <div className="pt-5">
-        {cloneElement(children, { running: run })}
+      <div className="pt-5 position-relative">
+        {cloneElement(children, { running: isDesktop && run })}
       </div>
     </div>
   )

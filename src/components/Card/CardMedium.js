@@ -3,7 +3,7 @@
 import { cloneElement, useState } from 'react'
 import cn from 'classnames'
 
-function CardMedium({ className, title, description, isBlack, gradient, children }) {
+function CardMedium({ className, title, description, isBlack, gradient, isDesktop, children }) {
   const [run, setRun] = useState(false)
 
   const onMouseEnter = () => setRun(true)
@@ -16,7 +16,7 @@ function CardMedium({ className, title, description, isBlack, gradient, children
 
   return (
     <div className={classNames} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-      {gradient ? cloneElement(gradient, { running: run }) : null}
+      {gradient ? cloneElement(gradient, { running: isDesktop && run }) : null}
 
       <div className="row">
         <div className="col-12 col-md-8 col-lg-7">
@@ -28,7 +28,7 @@ function CardMedium({ className, title, description, isBlack, gradient, children
       </div>
 
       <div className="d-flex h-100 justify-content-center align-items-center">
-        {cloneElement(children, { running: run })}
+        {cloneElement(children, { running: isDesktop && run })}
       </div>
     </div>
   )

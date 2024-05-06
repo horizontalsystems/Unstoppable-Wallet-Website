@@ -8,12 +8,6 @@
   padding-top: 80px;
 }
 
-.hero-image {
-  box-shadow: 5rem 8rem 3rem 1rem rgba(0, 0, 0, 0.25);
-  width: 260px;
-  object-fit: cover;
-}
-
 .ticker-wrap {
   width: 100%;
   height: 80px;
@@ -35,7 +29,7 @@
   animation: swap 20s linear infinite;
 }
 
-.item {
+.ticker-item {
   display: inline-block;
   padding: 0 1rem;
   font-size: 2rem;

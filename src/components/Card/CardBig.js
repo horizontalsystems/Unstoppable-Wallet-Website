@@ -3,7 +3,7 @@
 import { cloneElement, useState } from 'react'
 import { GradientGrey } from '@/components/Icon/GradientGrey'
 
-function CardBig({ title, description, children }) {
+function CardBig({ title, description, children, isDesktop }) {
   const [run, setRun] = useState(false)
 
   const onMouseEnter = () => setRun(true)
@@ -21,7 +21,7 @@ function CardBig({ title, description, children }) {
         </div>
       </div>
       <div className="d-flex justify-content-center align-items-end">
-        {cloneElement(children, { running: run })}
+        {cloneElement(children, { running: isDesktop && run })}
       </div>
     </div>
   )

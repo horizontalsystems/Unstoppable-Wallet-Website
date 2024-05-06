@@ -12,7 +12,7 @@ export function GradientColor({ running, color, fromZero }) {
   if (color === 'grey') fill = '#63716F'
   if (color === 'green') fill = '#29CA56'
   if (color === 'yellow') fill = '#CABA29'
-  if (color === 'blue') fill = '#055B77'
+  if (color === 'blue') fill = '#087394'
   if (color === 'violet') fill = '#511AAA'
 
   if (!fill) {

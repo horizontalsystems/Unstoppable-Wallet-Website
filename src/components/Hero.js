@@ -1,13 +1,17 @@
 'use client'
 
-import Image from 'next/image'
 import { useState } from 'react'
+import Image from 'next/image'
 import Download from '@/components/Download'
 
 import './Hero.css'
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false)
+
+  // useEffect(() => {
+  //   document.body.style.overflow = isOpen ? 'hidden' : 'scroll'
+  // }, [isOpen])
 
   return (
     <div className="bg-hero bg-black">
@@ -25,7 +29,8 @@ function Hero() {
 
         <div className="row g-4 d-flex align-items-center" style={{ flexGrow: 1 }}>
           <div className="col-md-6 col-sm-12 d-flex justify-content-center justify-content-sm-start">
-            <button className="btn btn-warning d-flex align-items-center rounded-5 px-5" onClick={() => setIsOpen(!isOpen)}>
+            <button className="btn btn-warning btn-hero d-flex align-items-center justify-content-center rounded-5 px-5"
+                    onClick={() => setIsOpen(!isOpen)}>
               <Image src="/icons/download.png" alt="" width="16" height="16" />
               <span className="ms-2">Download</span>
             </button>

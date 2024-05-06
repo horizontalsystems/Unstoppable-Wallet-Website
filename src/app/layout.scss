@@ -54,4 +54,42 @@
   border-radius: 24px !important;
 }
 
-// backgrounds
+// Hero
+
+.hero-image {
+  box-shadow: 5rem 8rem 3rem 1rem rgba(0, 0, 0, 0.25);
+  width: 180px;
+  object-fit: cover;
+
+  @include media-breakpoint-up(sm) {
+    width: 260px;
+  }
+}
+
+.btn-hero {
+  margin-top: 20px;
+  width: 100%;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: 0;
+    width: auto;
+  }
+}
+
+.wallet-connect-svg {
+  @include media-breakpoint-up(sm) {
+  }
+}
+
+.multi-chain-svg {
+  @include media-breakpoint-down(md) {
+    width: 256px;
+    height: 253px;
+  }
+}
+
+.coin-analytics-img {
+  @include media-breakpoint-down(md) {
+    width: 176px;
+  }
+}
