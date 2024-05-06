@@ -18,11 +18,13 @@
   /*bottom: 0;*/
   height: 3.5rem;
 }
+
 .ticker {
   display: inline-block;
   margin-top: 5px;
   animation: marquee 20s linear infinite;
 }
+
 .item-collection-1 {
   position: relative;
   left: 0%;
