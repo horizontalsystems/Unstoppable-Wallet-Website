@@ -4,7 +4,10 @@ import Image from 'next/image'
 function Download({ isOpen, onClose }) {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
-      <div className="text-center p-5">
+      <div className="position-relative text-center p-5">
+        <div className="position-absolute top-0 end-0 p-3" style={{ cursor: 'pointer' }} onClick={onClose}>
+          <Image src="/icons/close.svg" alt="" width="20" height="20" />
+        </div>
         <Image className="d-block mx-auto mb-5" src="/images/qr.png" alt="" width="150" height="150" />
         <div className="mx-auto">
           <div className="d-grid gap-3 d-sm-flex justify-content-center">
