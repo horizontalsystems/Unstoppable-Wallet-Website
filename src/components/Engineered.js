@@ -1,27 +1,27 @@
 function Engineered() {
   return (
     <div className="container">
-      <div className="fs-2 fw-light pb-5">Engineered with an am:</div>
+      <div className="fs-2 fw-light pb-5">Engineered for </div>
       <div className="row g-4 row-cols-1 row-cols-lg-3">
         <div className="col">
           <Step
             number="1"
-            title="Self Custody Easy"
-            description="Securely manage your digital assets effortlessly with an easy-to-use self-custody solution."
+            title="Ownership"
+            description="Crypto ownership made easy, secure and discrete."
           />
         </div>
         <div className="col">
           <Step
             number="2"
-            title="Investing Easy"
-            description="Invest effortlessly with a user-friendly platform for seamless and accessible investing."
+            title="Growth"
+            description="Advanced research and analytics for crypto markets."
           />
         </div>
         <div className="col">
           <Step
             number="3"
-            title="Learning Easy"
-            description="Learn effortlessly with an intuitive and user-friendly educational platform."
+            title="Mastery"
+            description="Guides and lessons to grow from zero to master."
           />
         </div>
       </div>

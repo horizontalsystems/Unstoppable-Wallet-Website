@@ -20,7 +20,7 @@ function Hero() {
       <div className="container d-flex flex-column">
         <div className="row g-5 align-items-center" style={{ flexGrow: 3 }}>
           <div className="col-lg-6">
-            <h1 className="display-2 fw-medium text-steel-light">Master Cryptocurrency Investing The Easy Way</h1>
+            <h1 className="display-2 fw-medium text-steel-light">Master Cryptocurrency The Easy Way</h1>
           </div>
           <div className="col-lg-6 d-flex justify-content-center">
             <img className="hero-image" src="/images/banner/wallet-2.png" alt="" />
