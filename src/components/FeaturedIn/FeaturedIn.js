@@ -44,7 +44,7 @@ function FeaturedIn() {
             <img className="Featured-item" src="/images/featured/zcash.svg" alt="ZCash" />
           </a>
           <a target="_blank" href="https://www.alpacafinance.org/" rel="noopener noreferrer">
-            <img className="Featured-item" src="/images/featured/alpaca.svg" alt="ZCash" />
+            <img className="Featured-item" src="/images/featured/ivfun.png" alt="ZCash" />
           </a>
         </div>
       </div>
