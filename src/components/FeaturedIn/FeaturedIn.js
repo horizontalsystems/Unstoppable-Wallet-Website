@@ -43,7 +43,7 @@ function FeaturedIn() {
           <a target="_blank" href="https://z.cash/wallets/" rel="noopener noreferrer">
             <img className="Featured-item" src="/images/featured/zcash.svg" alt="ZCash" />
           </a>
-          <a target="_blank" href="https://www.alpacafinance.org/" rel="noopener noreferrer">
+          <a target="_blank" href="https://https://www.ivfun.meme/en/" rel="noopener noreferrer">
             <img className="Featured-item" src="/images/featured/ivfun.svg" alt="ZCash" />
           </a>
         </div>
