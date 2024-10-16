@@ -1,6 +1,6 @@
 [
   {
-    "section": {
+    "category": {
       "en": "Fundamentals",
       "ru": "Fundamentals",
       "de": "Fundamentals",
@@ -10,421 +10,521 @@
       "zh": "Fundamentals",
       "ko": "Fundamentals"
     },
-    "items": [
+    "sections": [
       {
-        "en": {
-          "title": "Why Cryptocurrencies",
-          "markdown": "edu/en/fundamentals/why-cryptocurrencies.md"
+        "title": {
+          "en": "Core",
+          "ru": "Core",
+          "de": "Core",
+          "es": "Core",
+          "fr": "Core",
+          "tr": "Core",
+          "zh": "Core",
+          "ko": "Core"
         },
-        "ru": {
-          "title": "Why Cryptocurrencies",
-          "markdown": "edu/en/fundamentals/why-cryptocurrencies.md"
-        },
-        "de": {
-          "title": "Why Cryptocurrencies",
-          "markdown": "edu/en/fundamentals/why-cryptocurrencies.md"
-        },
-        "es": {
-          "title": "Why Cryptocurrencies",
-          "markdown": "edu/en/fundamentals/why-cryptocurrencies.md"
-        },
-        "fr": {
-          "title": "Why Cryptocurrencies",
-          "markdown": "edu/en/fundamentals/why-cryptocurrencies.md"
-        },
-        "tr": {
-          "title": "Why Cryptocurrencies",
-          "markdown": "edu/en/fundamentals/why-cryptocurrencies.md"
-        },
-        "zh": {
-          "title": "Why Cryptocurrencies",
-          "markdown": "edu/en/fundamentals/why-cryptocurrencies.md"
-        },
-        "ko": {
-          "title": "Why Cryptocurrencies",
-          "markdown": "edu/en/fundamentals/why-cryptocurrencies.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "ru": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "de": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "es": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "fr": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "tr": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "zh": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "ko": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            }
+          }
+        ]
       },
       {
-        "en": {
-          "title": "Blockchains Explained",
-          "markdown": "edu/en/fundamentals/blockchains-explained.md"
+        "title": {
+          "en": "Wallets",
+          "ru": "Wallets",
+          "de": "Wallets",
+          "es": "Wallets",
+          "fr": "Wallets",
+          "tr": "Wallets",
+          "zh": "Wallets",
+          "ko": "Wallets"
         },
-        "ru": {
-          "title": "Blockchains Explained",
-          "markdown": "edu/en/fundamentals/blockchains-explained.md"
-        },
-        "de": {
-          "title": "Blockchains Explained",
-          "markdown": "edu/en/fundamentals/blockchains-explained.md"
-        },
-        "es": {
-          "title": "Blockchains Explained",
-          "markdown": "edu/en/fundamentals/blockchains-explained.md"
-        },
-        "fr": {
-          "title": "Blockchains Explained",
-          "markdown": "edu/en/fundamentals/blockchains-explained.md"
-        },
-        "tr": {
-          "title": "Blockchains Explained",
-          "markdown": "edu/en/fundamentals/blockchains-explained.md"
-        },
-        "zh": {
-          "title": "Blockchains Explained",
-          "markdown": "edu/en/fundamentals/blockchains-explained.md"
-        },
-        "ko": {
-          "title": "Blockchains Explained",
-          "markdown": "edu/en/fundamentals/blockchains-explained.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          }
+        ]
       },
       {
-        "en": {
-          "title": "Cryptocurrencies vs Tokens",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-vs-tokens.md"
+        "title": {
+          "en": "Transactions",
+          "ru": "Transactions",
+          "de": "Transactions",
+          "es": "Transactions",
+          "fr": "Transactions",
+          "tr": "Transactions",
+          "zh": "Transactions",
+          "ko": "Transactions"
         },
-        "ru": {
-          "title": "Cryptocurrencies vs Tokens",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-vs-tokens.md"
-        },
-        "de": {
-          "title": "Cryptocurrencies vs Tokens",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-vs-tokens.md"
-        },
-        "es": {
-          "title": "Cryptocurrencies vs Tokens",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-vs-tokens.md"
-        },
-        "fr": {
-          "title": "Cryptocurrencies vs Tokens",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-vs-tokens.md"
-        },
-        "tr": {
-          "title": "Cryptocurrencies vs Tokens",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-vs-tokens.md"
-        },
-        "zh": {
-          "title": "Cryptocurrencies vs Tokens",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-vs-tokens.md"
-        },
-        "ko": {
-          "title": "Cryptocurrencies vs Tokens",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-vs-tokens.md"
-        }
-      },
-      {
-        "en": {
-          "title": "Cryptocurrencies and Ownership",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-and-ownership.md"
-        },
-        "ru": {
-          "title": "Cryptocurrencies and Ownership",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-and-ownership.md"
-        },
-        "de": {
-          "title": "Cryptocurrencies and Ownership",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-and-ownership.md"
-        },
-        "es": {
-          "title": "Cryptocurrencies and Ownership",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-and-ownership.md"
-        },
-        "fr": {
-          "title": "Cryptocurrencies and Ownership",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-and-ownership.md"
-        },
-        "tr": {
-          "title": "Cryptocurrencies and Ownership",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-and-ownership.md"
-        },
-        "zh": {
-          "title": "Cryptocurrencies and Ownership",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-and-ownership.md"
-        },
-        "ko": {
-          "title": "Cryptocurrencies and Ownership",
-          "markdown": "edu/en/fundamentals/cryptocurrencies-and-ownership.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          }
+        ]
       }
     ]
   },
   {
-    "section": {
-      "en": "Wallets",
-      "ru": "Wallets",
-      "de": "Wallets",
-      "es": "Wallets",
-      "fr": "Wallets",
-      "tr": "Wallets",
-      "zh": "Wallets",
-      "ko": "Wallets"
+    "category": {
+      "en": "Bitcoin",
+      "ru": "Bitcoin",
+      "de": "Bitcoin",
+      "es": "Bitcoin",
+      "fr": "Bitcoin",
+      "tr": "Bitcoin",
+      "zh": "Bitcoin",
+      "ko": "Bitcoin"
     },
-    "items": [
+    "sections": [
       {
-        "en": {
-          "title": "Crypto Wallets Explained",
-          "markdown": "edu/en/wallets/hardware-walltes.md"
+        "title": {
+          "en": "Intro To Bitcoin",
+          "ru": "Intro To Bitcoin",
+          "de": "Intro To Bitcoin",
+          "es": "Intro To Bitcoin",
+          "fr": "Intro To Bitcoin",
+          "tr": "Intro To Bitcoin",
+          "zh": "Intro To Bitcoin",
+          "ko": "Intro To Bitcoin"
         },
-        "ru": {
-          "title": "Crypto Wallets Explained",
-          "markdown": "edu/en/wallets/crypto-wallet-explained.md"
-        },
-        "de": {
-          "title": "Crypto Wallets Explained",
-          "markdown": "edu/en/wallets/crypto-wallet-explained.md"
-        },
-        "es": {
-          "title": "Crypto Wallets Explained",
-          "markdown": "edu/en/wallets/crypto-wallet-explained.md"
-        },
-        "fr": {
-          "title": "Crypto Wallets Explained",
-          "markdown": "edu/en/wallets/crypto-wallet-explained.md"
-        },
-        "tr": {
-          "title": "Crypto Wallets Explained",
-          "markdown": "edu/en/wallets/crypto-wallet-explained.md"
-        },
-        "zh": {
-          "title": "Crypto Wallets Explained",
-          "markdown": "edu/en/wallets/crypto-wallet-explained.md"
-        },
-        "ko": {
-          "title": "Crypto Wallets Explained",
-          "markdown": "edu/en/wallets/crypto-wallet-explained.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "ru": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "de": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "es": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "fr": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "tr": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "zh": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            },
+            "ko": {
+              "title": "Blockchain Explained?",
+              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+            }
+          }
+        ]
       },
       {
-        "en": {
-          "title": "Must-Haves for Non-Custodial Wallet?",
-          "markdown": "edu/en/wallets/must-haves-for-non-custodial-wallet.md"
+        "title": {
+          "en": "Bitcoin Network",
+          "ru": "Bitcoin Network",
+          "de": "Bitcoin Network",
+          "es": "Bitcoin Network",
+          "fr": "Bitcoin Network",
+          "tr": "Bitcoin Network",
+          "zh": "Bitcoin Network",
+          "ko": "Bitcoin Network"
         },
-        "ru": {
-          "title": "Must-Haves for Non-Custodial Wallet?",
-          "markdown": "edu/en/wallets/must-haves-for-non-custodial-wallet.md"
-        },
-        "de": {
-          "title": "Must-Haves for Non-Custodial Wallet?",
-          "markdown": "edu/en/wallets/must-haves-for-non-custodial-wallet.md"
-        },
-        "es": {
-          "title": "Must-Haves for Non-Custodial Wallet?",
-          "markdown": "edu/en/wallets/must-haves-for-non-custodial-wallet.md"
-        },
-        "fr": {
-          "title": "Must-Haves for Non-Custodial Wallet?",
-          "markdown": "edu/en/wallets/must-haves-for-non-custodial-wallet.md"
-        },
-        "tr": {
-          "title": "Must-Haves for Non-Custodial Wallet?",
-          "markdown": "edu/en/wallets/must-haves-for-non-custodial-wallet.md"
-        },
-        "zh": {
-          "title": "Must-Haves for Non-Custodial Wallet?",
-          "markdown": "edu/en/wallets/must-haves-for-non-custodial-wallet.md"
-        },
-        "ko": {
-          "title": "Must-Haves for Non-Custodial Wallet?",
-          "markdown": "edu/en/wallets/must-haves-for-non-custodial-wallet.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          }
+        ]
       },
       {
-        "en": {
-          "title": "Hardware Wallets",
-          "markdown": "edu/en/wallets/hardware-wallets.md"
+        "title": {
+          "en": "Bitcoin Economics",
+          "ru": "Bitcoin Economics",
+          "de": "Bitcoin Economics",
+          "es": "Bitcoin Economics",
+          "fr": "Bitcoin Economics",
+          "tr": "Bitcoin Economics",
+          "zh": "Bitcoin Economics",
+          "ko": "Bitcoin Economics"
         },
-        "ru": {
-          "title": "Hardware Wallets",
-          "markdown": "edu/en/wallets/hardware-wallets.md"
-        },
-        "de": {
-          "title": "Hardware Wallets",
-          "markdown": "edu/en/wallets/hardware-wallets.md"
-        },
-        "es": {
-          "title": "Hardware Wallets",
-          "markdown": "edu/en/wallets/hardware-wallets.md"
-        },
-        "fr": {
-          "title": "Hardware Wallets",
-          "markdown": "edu/en/wallets/hardware-wallets.md"
-        },
-        "tr": {
-          "title": "Hardware Wallets",
-          "markdown": "edu/en/wallets/hardware-wallets.md"
-        },
-        "zh": {
-          "title": "Hardware Wallets",
-          "markdown": "edu/en/wallets/hardware-wallets.md"
-        },
-        "ko": {
-          "title": "Hardware Wallets",
-          "markdown": "edu/en/wallets/hardware-wallets.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          }
+        ]
       },
       {
-        "en": {
-          "title": "Wallet Creation Explained",
-          "markdown": "edu/en/wallets/wallet-creation-explained.md.md"
+        "title": {
+          "en": "Bitcoin Ownership",
+          "ru": "Bitcoin Ownership",
+          "de": "Bitcoin Ownership",
+          "es": "Bitcoin Ownership",
+          "fr": "Bitcoin Ownership",
+          "tr": "Bitcoin Ownership",
+          "zh": "Bitcoin Ownership",
+          "ko": "Bitcoin Ownership"
         },
-        "ru": {
-          "title": "Wallet Creation Explained",
-          "markdown": "edu/en/wallets/wallet-creation-explained.md.md"
-        },
-        "de": {
-          "title": "Wallet Creation Explained",
-          "markdown": "edu/en/wallets/wallet-creation-explained.md.md"
-        },
-        "es": {
-          "title": "Wallet Creation Explained",
-          "markdown": "edu/en/wallets/wallet-creation-explained.md.md"
-        },
-        "fr": {
-          "title": "Wallet Creation Explained",
-          "markdown": "edu/en/wallets/wallet-creation-explained.md.md"
-        },
-        "tr": {
-          "title": "Wallet Creation Explained",
-          "markdown": "edu/en/wallets/wallet-creation-explained.md.md"
-        },
-        "zh": {
-          "title": "Wallet Creation Explained",
-          "markdown": "edu/en/wallets/wallet-creation-explained.md.md"
-        },
-        "ko": {
-          "title": "Wallet Creation Explained",
-          "markdown": "edu/en/wallets/wallet-creation-explained.md.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          }
+        ]
       },
       {
-        "en": {
-          "title": "Wallet Backup Is Critical",
-          "markdown": "edu/en/wallets/wallet-backup-is-critical.md"
+        "title": {
+          "en": "Bitcoin Transactions",
+          "ru": "Bitcoin Transactions",
+          "de": "Bitcoin Transactions",
+          "es": "Bitcoin Transactions",
+          "fr": "Bitcoin Transactions",
+          "tr": "Bitcoin Transactions",
+          "zh": "Bitcoin Transactions",
+          "ko": "Bitcoin Transactions"
         },
-        "ru": {
-          "title": "Wallet Backup Is Critical",
-          "markdown": "edu/en/wallets/wallet-backup-is-critical.md"
-        },
-        "de": {
-          "title": "Wallet Backup Is Critical",
-          "markdown": "edu/en/wallets/wallet-backup-is-critical.md"
-        },
-        "es": {
-          "title": "Wallet Backup Is Critical",
-          "markdown": "edu/en/wallets/wallet-backup-is-critical.md"
-        },
-        "fr": {
-          "title": "Wallet Backup Is Critical",
-          "markdown": "edu/en/wallets/wallet-backup-is-critical.md"
-        },
-        "tr": {
-          "title": "Wallet Backup Is Critical",
-          "markdown": "edu/en/wallets/wallet-backup-is-critical.md"
-        },
-        "zh": {
-          "title": "Wallet Backup Is Critical",
-          "markdown": "edu/en/wallets/wallet-backup-is-critical.md"
-        },
-        "ko": {
-          "title": "Wallet Backup Is Critical",
-          "markdown": "edu/en/wallets/wallet-backup-is-critical.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          }
+        ]
       },
       {
-        "en": {
-          "title": "Importing Wallets",
-          "markdown": "edu/en/wallets/importing-wallets.md"
+        "title": {
+          "en": "Privacy In Bitcoin",
+          "ru": "Privacy In Bitcoin",
+          "de": "Privacy In Bitcoin",
+          "es": "Privacy In Bitcoin",
+          "fr": "Privacy In Bitcoin",
+          "tr": "Privacy In Bitcoin",
+          "zh": "Privacy In Bitcoin",
+          "ko": "Privacy In Bitcoin"
         },
-        "ru": {
-          "title": "Importing Wallets",
-          "markdown": "edu/en/wallets/importing-wallets.md"
-        },
-        "de": {
-          "title": "Importing Wallets",
-          "markdown": "edu/en/wallets/importing-wallets.md"
-        },
-        "es": {
-          "title": "Importing Wallets",
-          "markdown": "edu/en/wallets/importing-wallets.md"
-        },
-        "fr": {
-          "title": "Importing Wallets",
-          "markdown": "edu/en/wallets/importing-wallets.md"
-        },
-        "tr": {
-          "title": "Importing Wallets",
-          "markdown": "edu/en/wallets/importing-wallets.md"
-        },
-        "zh": {
-          "title": "Importing Wallets",
-          "markdown": "edu/en/wallets/importing-wallets.md"
-        },
-        "ko": {
-          "title": "Importing Wallets",
-          "markdown": "edu/en/wallets/importing-wallets.md"
-        }
+        "items": [
+          {
+            "en": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ru": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "de": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "es": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "fr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "tr": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "zh": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            },
+            "ko": {
+              "title": "Why Cryptocurrencies?",
+              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+            }
+          }
+        ]
       }
     ]
-  },
-  {
-    "section": {
-      "en": "Transactions",
-      "ru": "Transactions",
-      "de": "Transactions",
-      "es": "Transactions",
-      "fr": "Transactions",
-      "tr": "Transactions",
-      "zh": "Transactions",
-      "ko": "Transactions"
-    },
-    "items": [
-      {
-        "en": {
-          "title": "Transacting with cryptocurrency",
-          "markdown": "edu/en/Transactions/sending-receiving.md"
-        },
-        "ru": {
-          "title": "Transacting with cryptocurrency",
-          "markdown": "edu/en/Transactions/sending-receiving.md"
-        },
-        "de": {
-          "title": "Transacting with cryptocurrency",
-          "markdown": "edu/en/Transactions/sending-receiving.md"
-        },
-        "es": {
-          "title": "Transacting with cryptocurrency",
-          "markdown": "edu/en/Transactions/sending-receiving.md"
-        },
-        "fr": {
-          "title": "Transacting with cryptocurrency",
-          "markdown": "edu/en/Transactions/sending-receiving.md"
-        },
-        "tr": {
-          "title": "Transacting with cryptocurrency",
-          "markdown": "edu/en/Transactions/sending-receiving.md"
-        },
-        "zh": {
-          "title": "Transacting with cryptocurrency",
-          "markdown": "edu/en/Transactions/sending-receiving.md"
-        },
-        "ko": {
-          "title": "Transacting with cryptocurrency",
-          "markdown": "edu/en/Transactions/sending-receiving.md"
-        }
-      }
-    ]
-  },
-  {
-    "section": {
-      "en": "Intro To Bitcoin",
-      "ru": "Intro To Bitcoin",
-      "de": "Intro To Bitcoin",
-      "es": "Intro To Bitcoin",
-      "fr": "Intro To Bitcoin",
-      "tr": "Intro To Bitcoin",
-      "zh": "Intro To Bitcoin",
-      "ko": "Intro To Bitcoin"
-    }
   }
 ]
