@@ -1,29 +1,29 @@
-# CRYPTOCURRENCIES vs TOKENS
+# КРИПТОВАЛЮТЫ vs ТОКЕНЫ
 
-Cryptocurrencies are native units of account on a given blockchain. Each blockchain has its own base unit. Bitcoin (symbol 'BTC') is the base unit of the Bitcoin blockchain, and Ether (symbol 'ETH') is the base unit of the Ethereum blockchain.
+Криптовалюты - это нативные единицы учета на данном блокчейне. У каждого блокчейна есть своя базовая единица. Bitcoin (символ 'BTC') - это базовая единица блокчейна Bitcoin, а Ether (символ 'ETH') - базовая единица блокчейна Ethereum.
 
-#### Smart Contracts
+#### Смарт-контракты
 
-While the Bitcoin blockchain is mostly limited to BTC transfers from one address to another, the Ethereum allows for a wide variety of transactions beyond simple transfers of ETH between addresses.
+В то время как блокчейн Bitcoin в основном ограничен переводами BTC с одного адреса на другой, Ethereum позволяет осуществлять широкий спектр транзакций помимо простых переводов ETH между адресами.
 
-Ethereum and many other newer blockchains enable people to create autonomous standalone programs operating on top of that blockchain. These programs are known as smart contracts and can be programmed by anyone.
+Ethereum и многие другие новые блокчейны позволяют людям создавать автономные отдельные программы, работающие поверх этого блокчейна. Эти программы известны как смарт-контракты и могут быть запрограммированы кем угодно.
 
-There are thousands of various smart contracts running on top of Ethereum, created both by private individuals and business entities. These smart contracts can take arbitrary forms and can be anything from a lottery to a voting system to an exchange service.
+На Ethereum работают тысячи различных смарт-контрактов, созданных как частными лицами, так и бизнес-структурами. Эти смарт-контракты могут принимать произвольные формы и могут быть чем угодно: от лотереи до системы голосования или обменного сервиса.
 
-#### Tokens
+#### Токены
 
-In many cases, smart contracts can introduce their own unit of something. Let’s explore some hypothetical lottery smart contract a bit further.
+Во многих случаях смарт-контракты могут вводить свою собственную единицу чего-либо. Давайте подробнее рассмотрим некий гипотетический лотерейный смарт-контракт.
 
-By design, this smart contract can have a LOTTERY unit token which can be used to enter a lottery draw. To obtain a LOTTERY token, a user must send a predefined payment to the smart contract. Any interaction with the lottery smart contract is a separate transaction on the blockchain.
+По дизайну, этот смарт-контракт может иметь токен-единицу LOTTERY, который можно использовать для участия в лотерейном розыгрыше. Чтобы получить токен LOTTERY, пользователь должен отправить предопределенный платеж в смарт-контракт. Любое взаимодействие с лотерейным смарт-контрактом является отдельной транзакцией в блокчейне.
 
-So, tokens can take many forms. Today, crypto tokens make up nearly 99% of all cryptocurrencies.
+Итак, токены могут принимать множество форм. Сегодня крипто-токены составляют почти 99% всех криптовалют.
 
-Here are some properties of crypto tokens:
+Вот некоторые свойства крипто-токенов:
 
-- Tokens do not inherit the decentralization principles of base cryptocurrencies like BTC or ETH. Tokens on the other hand are governed by smart contracts created by people and thus can take any form. For instance, a creator of a smart contract may program it to allow a privileged user to create an unlimited number of tokens.
+- Токены не наследуют принципы децентрализации базовых криптовалют, таких как BTC или ETH. Токенами, с другой стороны, управляют смарт-контракты, созданные людьми, и поэтому они могут принимать любую форму. Например, создатель смарт-контракта может запрограммировать его так, чтобы привилегированный пользователь мог создавать неограниченное количество токенов.
 
-- Token creators may launch their tokens on multiple blockchains. For instance, Tether’s USDT stablecoin token exists on many blockchains.
+- Создатели токенов могут запускать свои токены на нескольких блокчейнах. Например, стейблкоин USDT от Tether существует на многих блокчейнах.
 
-- Tokens usually adhere to specific design/engineering standards on the underlying blockchain. On Ethereum, tokens usually follow the ERC20 standard. As a result, tokens can interact with other third-party smart contracts on that blockchain and can also be stored in cryptocurrency wallets.
+- Токены обычно придерживаются определенных стандартов дизайна/разработки на базовом блокчейне. В Ethereum токены обычно следуют стандарту ERC20. В результате токены могут взаимодействовать с другими сторонними смарт-контрактами в этом блокчейне, а также могут храниться в криптовалютных кошельках.
 
-- Transferring some amount of a token from one wallet to another is a transaction on the blockchain and requires a fee in the base cryptocurrency of the underlying blockchain.
+- Перевод некоторого количества токена с одного кошелька на другой является транзакцией в блокчейне и требует комиссии в базовой криптовалюте базового блокчейна.
