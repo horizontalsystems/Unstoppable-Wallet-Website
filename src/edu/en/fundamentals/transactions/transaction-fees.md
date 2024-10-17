@@ -10,19 +10,19 @@ If you are sending USDT (Tether) on the Ethereum network, you'll need ETH to cov
 
 It's not uncommon for newcomers to be confused when asked to deposit some ETH, TRX, or another cryptocurrency to send USDT via a non-custodial wallet. 🤔
 
-#### Purpose of Transaction Fees 🎯
+#### 🎯 Purpose of Transaction Fees
 
 Transaction fees serve several **crucial purposes**. One of the primary reasons for these fees is that blockchain networks like Bitcoin and Ethereum can process only a limited number of transactions per day. To prioritize transactions, users can offer higher fees, ensuring their transfers are processed more quickly. This creates an open market where those needing faster confirmations can pay for priority. ⚡
 
 Additionally, fees act as a deterrent against spam attacks. Without fees, it would be easy for bad actors to flood the blockchain with spam transactions, congesting the network and slowing down legitimate transfers. 🛡️
 
-#### Who Receives the Fees? 🤑
+#### 🤑 Who Receives the Fees?
 
 You don't need to dive deep into the technical details, but it's useful to know that thousands of nodes (or miners in the Bitcoin network) power the blockchain. When you send a transaction, it is broadcasted to these nodes within seconds. The node that first adds your transaction to the blockchain earns the transaction fee as a reward. 🏆
 
 Each time you make a transaction, a different node processes it and collects the fee. Consider this as a service charge for using the network. 🔧
 
-#### Fees Are Dynamic 📊
+#### 📊 Fees Are Dynamic
 
 Transaction fees are **not fixed**; they fluctuate based on the current state of the blockchain. When the network is congested or experiencing high demand, fees can increase significantly, sometimes reaching several dollars per transaction. Conversely, when the network is less busy, fees can drop to just a fraction of a cent. 📈📉
 

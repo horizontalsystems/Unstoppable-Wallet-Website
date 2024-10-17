@@ -1,4 +1,4 @@
-# CRYPTO WALLETS EXPLAINED 💼🔑
+# CRYPTO WALLETS 💼🔑
 
 In practice, when you self-custody cryptocurrency, you essentially become the owner of a unique "**private key**," which grants you control over the cryptocurrency in a particular wallet. This key is not controlled by any entity other than yourself. However, anyone with access to that key can potentially spend the crypto assets it controls. 🔐
 
@@ -11,7 +11,7 @@ While these terms are often used interchangeably in the non-custodial crypto wor
 - Crypto Wallet: Typically refers to a "digital" wallet that can store various cryptocurrencies and tokens. Each crypto wallet is controlled by a single private key. 💰
 - Crypto Wallet App: A piece of software, usually in the form of a mobile app or hardware device, that can generate and manage an unlimited number of crypto wallets. 📲
 
-#### Custodial vs Non-custodial 🔒🆚🔓
+#### Custodial🔓 vs Non-custodial🔒
 
 Not all wallet apps are non-custodial. There are also so-called "custodial" wallet apps that don't grant you control. When using these wallets, you don't genuinely own any crypto but instead rely on a third party to store, receive, and send cryptocurrency. 👥
 

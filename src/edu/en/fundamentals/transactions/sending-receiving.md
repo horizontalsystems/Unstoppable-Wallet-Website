@@ -10,24 +10,24 @@ When you're ready to send cryptocurrency, you'll need to enter the recipient's a
 
 Most non-custodial wallets will suggest an appropriate transaction fee based on current network conditions. 💸 It's important to remember that this fee goes directly to the blockchain network, not the wallet provider. We will delve deeper into transaction fees in a later section.
 
-#### Receiving Cryptocurrency 📥
+#### 📥 Receiving Cryptocurrency 
 
 To receive cryptocurrency, open your wallet app and select the "Receive" or "Deposit" option. The app will generate a unique receiving address for most cryptocurrencies, although some tokens may share the same address. 🏷️ For example, all Ethereum-based tokens within a single wallet will have the same receiving address.
 
 Simply share this address with the sender, and your cryptocurrency will appear in your wallet once the transaction is confirmed. ✅ It's important to note that some wallets, particularly those for Bitcoin, may generate a new receiving address after each transaction to enhance privacy🕵️‍♀️.
 
-#### How Transactions Actually Happen 🔍
+#### 🔍 How Transactions Actually Happen
 
 For those interested in the technical side of how non-custodial transactions work, here's a breakdown of the process:
 
-- **Transaction Preparation** 🛠️
+- 🛠️ **Transaction Preparation**
 
 After you enter the recipient's details, the amount to be sent, and the transaction fee, the wallet app constructs the transaction. This preparation can occur locally on your device or through the wallet provider's server.
 
-- **Cryptographic Signing** 🔐
+- 🔐 **Cryptographic Signing**
 
 Once the transaction is ready, it is **cryptographically signed** by the wallet app using your private key. This signature is what makes the transaction non-custodial; only the private key holder can authorize a transaction that the blockchain will accept.
 
-- **Broadcasting** 📡
+- 📡 **Broadcasting**
 
 The signed transaction is then broadcasted to the blockchain network, where it awaits processing and confirmation. ⏳

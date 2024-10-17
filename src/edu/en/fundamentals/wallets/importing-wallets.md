@@ -1,4 +1,4 @@
-# IMPORTING WALLETS 📥🔄
+# IMPORTING WALLETS 📥
 
 Migrating or importing a wallet from one non-custodial wallet app to another is a **straightforward process**, provided the apps are standards-compliant. In essence, any wallet created in a non-custodial wallet app should be universally compatible with other similar apps. 🔀
 

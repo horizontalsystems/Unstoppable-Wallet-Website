@@ -4,7 +4,7 @@ Cryptocurrency transactions are **not instantaneous**. Depending on the specific
 
 When using a non-custodial wallet, transactions are processed directly through the blockchain, following these stages:
 
-#### 1) Transaction Is Pending ⏳
+#### 1) ⏳ Transaction Is Pending 
 
 Once a transaction is sent from the sender's non-custodial wallet, it reaches the underlying blockchain network almost instantly. For example, Bitcoin transactions are sent to the Bitcoin network, while Ether transactions are sent to the Ethereum network. Each node participating in that blockchain receives the transaction within seconds. If the transaction is valid, it is added to the processing queue for inclusion in the blockchain (the permanent record). 🔗
 
@@ -12,7 +12,7 @@ At this stage, both the sender and recipient can monitor the transaction's statu
 
 The time a transaction remains pending varies depending on the blockchain and is largely influenced by the **transaction fee** set by the user. If the fee is well above the average of other transactions in the queue, it will be processed quickly. Conversely, if the fee is significantly lower, the transaction will have to wait until its fee becomes competitive enough to be processed. 💸
 
-#### 2) Transaction Gets Confirmed ✅
+#### 2) ✅ Transaction Gets Confirmed 
 
 A transaction is considered successful when it is included in the blockchain. This inclusion occurs in batches called "**blocks**." 🧱
 
@@ -22,7 +22,7 @@ On the Bitcoin network, new blocks are added to the blockchain approximately eve
 
 The time it takes for a transaction to be confirmed is directly proportional to the fee set by the sender and the current network conditions. If the blockchain is busy with many pending transactions, confirmation may take longer, requiring users to set higher fees for urgent payments. 🚀
 
-#### 3) Transaction Is Final 🔒
+#### 3) 🔒 Transaction Is Final 
 
 Once the transaction has been added to the blockchain, it is considered final. However, for certain blockchains, particularly Bitcoin, it is recommended to wait for a specific number of new blocks to be added after the initial confirmation before considering the transaction irreversible. 🔐
 

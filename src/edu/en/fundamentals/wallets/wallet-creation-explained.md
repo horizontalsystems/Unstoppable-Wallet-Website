@@ -6,13 +6,13 @@ This key is randomly generated directly on the user's device, ensuring that it r
 
 The private key is never stored anywhere outside the user's control; it exists solely on the device and is only known to the user. Due to the high level of randomness and complexity involved, guessing or reproducing a private key is **virtually impossible**, making it a highly secure way to protect digital assets. 🛡️
 
-#### Mnemonic Phrases 📝
+#### 📝 Mnemonic Phrases
 
 Upon setting up a new non-custodial wallet, users are presented with a newly generated private key. To make the storage and management of this key more practical and user-friendly, it is represented in the form of a **12-word mnemonic phrase**. This phrase is a human-readable way to encode the private key, making it easier for users to securely store and retrieve their keys without the need to manage complex strings of characters. 🧠
 
 Mnemonic phrases play a crucial role in simplifying the safe storage of private keys, ensuring that users can manage their cryptocurrency assets with confidence and ease. 💪
 
-#### Advanced Mnemonic Phrases 🔬
+#### 🔬 Advanced Mnemonic Phrases
 
 Some wallet applications or devices offer users the option to customize the **length of their mnemonic phrase** during the wallet setup process. While the default length is typically 12 words, users can choose to extend this to 15, 18, 21, or even 24 words. 📏
 
@@ -20,7 +20,7 @@ Although a 12-word phrase is generally recommended for most users due to its wid
 
 In addition to the length, some wallets also allow users to select the **language of their mnemonic phrases**. While multiple languages may be available, it is highly recommended to use English words. This is because English mnemonic phrases are more universally supported, ensuring greater compatibility with a wider range of wallet apps and services. 🌍
 
-#### Mnemonic + Passphrases 🔐+
+#### 🔐 Mnemonic + Passphrases
 
 Advanced wallet applications may also offer the option to enhance security further by combining a mnemonic phrase with an additional passphrase. This approach, while not typically recommended for beginners due to its complexity, offers significant benefits for more experienced users. 🧑‍🔬
 
