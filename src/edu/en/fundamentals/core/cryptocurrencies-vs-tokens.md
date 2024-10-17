@@ -1,4 +1,4 @@
-# Cryptocurrencies vs Tokens
+## Cryptocurrencies vs Tokens
 
 Cryptocurrencies are native units of account on a given blockchain. Each blockchain has its own base unit:
 
