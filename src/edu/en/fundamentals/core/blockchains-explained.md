@@ -1,34 +1,33 @@
-# Блокчейн: как это работает
+# Blockchains Explained
 
-Давайте разберемся, как работают Bitcoin и другие ведущие криптовалюты. Что делает их особенными и чем они отличаются от традиционных денег на вашем банковском счете?
+Let’s explore how Bitcoin and other top-tier cryptocurrencies work. What makes them special, and how are they different from traditional money in your bank account?
 
-Bitcoin и ведущие криптовалюты, такие как Ethereum, работают на основе **технологии блокчейн**. Эта технология позволяет миллионам независимых устройств (телефонам, компьютерам, серверам и т.д.) безопасно совершать транзакции в режиме реального времени без участия центрального органа управления.
+Bitcoin and top-tier cryptocurrencies like Ethereum are powered by blockchain technology. This technology enables millions of independent entities (phones, computers, servers, etc.) to transact securely in real time without relying on a central authority.
 
-Каждый блокчейн работает через публично открытую программу (часть кода), которая позволяет пользователям отправлять транзакции друг другу и отслеживает их балансы.
+Every blockchain operates through a publicly open software program (a piece of code) that allows users to send transactions to one another and tracks their balances.
 
-Что делает блокчейн особенным?
-Технология блокчейн уникальна благодаря следующим характеристикам:
+#### What Makes Blockchain Special?
+Blockchain technology is unique due to the following characteristics:
 
-- 📡 **Распределенность:**
+- 📡 **Distributed:**
+Instead of being stored in a single centralized location, the blockchain allows the transaction history to be held in thousands of locations simultaneously. Every participant keeps a copy, which is updated in near real-time.
 
-Вместо хранения в одном централизованном месте, блокчейн позволяет хранить историю транзакций одновременно в тысячах мест. Каждый участник имеет копию, которая обновляется практически в реальном времени.
 
-- **🔗 Равноправное взаимодействие:**
+- 🔗 **Peer-to-Peer:**
+Any participant can add a new transaction to the global transaction history by communicating with any entity on the network. This transaction is then propagated to all other entities on that network. The absence of a “single point of access” ensures 24/7 availability and unconditional access to participation.
 
-Любой участник может добавить новую транзакцию в глобальную историю транзакций, общаясь с любым узлом в сети. Затем эта транзакция распространяется на все остальные узлы этой сети. Отсутствие "единой точки доступа" обеспечивает круглосуточную доступность и безусловный доступ к участию.
 
-- **🔍 Прозрачность:**
+- 🔍 **Transparent:**
+Blockchains are generally transparent, meaning the entire transaction history is public and accessible for anyone to scrutinize. While transactions are public, the identities of the entities involved are masked: third parties can see what’s happening but cannot identify who exactly was involved.
 
-Блокчейны обычно прозрачны, что означает, что вся история транзакций публична и доступна для изучения любому желающему. Хотя транзакции публичны, личности участвующих сторон скрыты: третьи стороны могут видеть, что происходит, но не могут определить, кто именно участвовал.
 
-- **🔒 Неизменность:**
+- 🔒 **Immutable:**
+Once a transaction has taken place, it cannot be reversed. This ensures that no entity can alter the transaction history.
 
-После совершения транзакции ее невозможно отменить. Это гарантирует, что никто не может изменить историю транзакций.
 
-- **⚖️ Демократичность:**
+- ⚖️ **Democratic:**
+All network participants are equal and abide by the same set of rules. If one entity tries to act outside the agreed-upon rules, their actions will be disregarded by other participants.
 
-Все участники сети равны и подчиняются одному набору правил. Если кто-то пытается действовать вне согласованных правил, его действия будут проигнорированы другими участниками.
+For instance, a blockchain like Bitcoin is essentially a large network of devices (computers, miners, etc.) running open-source Bitcoin software. These devices continuously communicate with each other and maintain a record of Bitcoin transactions conducted between network participants (i.e., wallets).
 
-Например, блокчейн Bitcoin - это по сути большая сеть устройств (компьютеров, майнеров и т.д.), работающих на открытом программном обеспечении Bitcoin. Эти устройства постоянно общаются друг с другом и ведут учет транзакций Bitcoin между участниками сети (т.е. кошельками).
-
-Таким образом, Bitcoin стремится предоставить финансовую платформу для безопасного обмена ценностями без опоры на контролеров или посредников, таких как банки.
+In this way, Bitcoin aims to provide a financial platform for secure value exchange without relying on gatekeepers or intermediaries like banks.
