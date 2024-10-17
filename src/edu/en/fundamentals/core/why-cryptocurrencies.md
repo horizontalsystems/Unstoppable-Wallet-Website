@@ -1,7 +1,7 @@
 # Why Cryptocurrencies? 💰
 To understand cryptocurrencies in a broad sense, we need to first understand Bitcoin and explore its foundational principles. Why did Bitcoin grow, and why are more and more people getting attracted to it?
 
-#### 1)  Practical Advantages of Owning Bitcoin 🌍
+#### 1)  Practical Advantages of Owning Bitcoin
 
 
 
