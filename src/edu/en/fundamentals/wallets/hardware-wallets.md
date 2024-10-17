@@ -4,13 +4,13 @@ Newcomers to cryptocurrency are often advised to use hardware wallets like Trezo
 
 There are several important considerations and risks associated with hardware wallets that are often overlooked. Let's explore why hardware non-custodial wallets may not be as perfect as they seem. 🕵️‍♀️
 
-### Hardware Wallets in Theory 📚
+#### Hardware Wallets in Theory 📚
 
 All non-custodial wallets—whether desktop apps, mobile apps, or hardware devices—share one crucial feature: they generate and store **private keys**, which are essential for owning and managing cryptocurrency. 🔑
 
 In theory, hardware wallets are considered superior for key safety because it's generally more challenging to find vulnerabilities in a device built for a specific purpose by a small, focused team than in a general-purpose operating system like Windows, Android, or iOS. 🛡️
 
-### Hardware Wallets in Practice 🛠️
+#### Hardware Wallets in Practice 🛠️
 
 In reality, there are several practical issues that diminish the advantages of hardware wallets:
 
@@ -46,6 +46,6 @@ Hardware wallets often lack the additional features that are available in mobile
 
 Hardware wallets are easily recognizable as cryptocurrency storage devices, which can attract unwanted attention and pose security risks, especially if carried around. 🕵️‍♂️
 
-### Conclusion 🎓
+#### Conclusion 🎓
 
 While hardware wallets are often recommended for their security, they are **not without significant drawbacks**. For many users, especially those who are less technically experienced, the complexities and risks associated with hardware wallets may outweigh their theoretical benefits. ⚖️

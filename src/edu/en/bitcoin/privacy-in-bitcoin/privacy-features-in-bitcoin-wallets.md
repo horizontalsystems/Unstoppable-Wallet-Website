@@ -2,13 +2,13 @@
 
 When it comes to privacy, choosing the right non-custodial wallet app is essential. Non-custodial Bitcoin wallet apps often offer built-in features designed to enhance user privacy. If privacy is a priority, you should familiarize yourself with these features. 🧐
 
-### Address Generation 🏠
+#### Address Generation 🏠
 
 One of the most effective privacy practices when using Bitcoin is to generate a **new address for every transaction**. This makes it more difficult to link multiple transactions back to a single user. By creating a new address for each transaction, users can effectively compartmentalize their Bitcoin holdings, making it harder for blockchain analysts to track the entire flow of funds. Most modern non-custodial wallets automatically generate new addresses for each incoming payment. 🔄🆕
 
 For example, if a freelancer is paid by several clients in Bitcoin, using a different address for each client ensures that none of the clients can see the freelancer's full Bitcoin balance on the blockchain. 💼💰
 
-### Synchronization Mode 🔄
+#### Synchronization Mode 🔄
 
 To calculate and keep a user's balance up-to-date, a Bitcoin wallet needs to synchronize itself with the blockchain each time it is opened. The way a wallet synchronizes with the blockchain can significantly impact user privacy. 📊
 
@@ -21,7 +21,7 @@ Some wallets also offer fast synchronization via independent third-party provide
 In conclusion, privacy-conscious users should weigh the trade-offs between convenience and privacy when choosing a wallet. For maximum privacy, consider using a full-node wallet or an SPV wallet that doesn't track your IP addresses or deposit addresses. 🎭
 
 
-### Input/Output Ordering 🔀
+#### Input/Output Ordering 🔀
 
 The way a wallet constructs a transaction can also impact user privacy. The order of inputs and outputs in a Bitcoin transaction can reveal information about the transaction and potentially compromise privacy. 🧩
 

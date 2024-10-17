@@ -14,7 +14,7 @@ When a user sends a Bitcoin transaction from their wallet, the transaction is br
 
 Finality means that once confirmed, a Bitcoin transaction cannot be reversed. For smaller payments, it's safe to consider the transaction complete once it's included in a block. For high-value transactions, typically six confirmations are recommended to ensure security against double-spending. 🔒
 
-### Tracking Transaction Status: 🕵️‍♂️
+#### Tracking Transaction Status: 🕵️‍♂️
 
 Users can track their transactions using publicly available blockchain explorers like Blockchair.com. By entering the transaction ID (TXID), users can monitor the status of their Bitcoin transactions and see how many confirmations it has received. Most non-custodial wallets also provide transaction status updates, although there might be a slight delay compared to block explorers. 🔍
 

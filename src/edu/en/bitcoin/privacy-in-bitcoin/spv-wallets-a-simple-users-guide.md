@@ -6,7 +6,7 @@ Among non-custodial wallets, only two wallet types can connect and interact with
 
 Think of an SPV wallet as a lightweight version of a full Bitcoin node. It connects directly to the Bitcoin blockchain without intermediaries but allows you to send and receive Bitcoin without downloading and storing the entire Bitcoin transaction history (which is vast and constantly growing). SPV-enabled mobile wallets strike a good balance between convenience and decentralization. ⚖️
 
-### What to Know About SPV Wallets:
+#### What to Know About SPV Wallets:
 
 - They are **slower** when it comes to synchronizing your balance with the Bitcoin network compared to non-custodial wallets without SPV capabilities. However, SPV wallets often provide different synchronization modes, allowing users to switch between decentralized (direct blockchain access) and centralized (via a third-party server) synchronization. 🐢🏃‍♂️
 

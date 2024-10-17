@@ -1,4 +1,4 @@
-№ Crypto Enables True Ownership
+# Crypto Enables True Ownership
 
 In the world of cryptocurrency, **true ownership** stands out as one of its most significant benefits. Cryptocurrency and blockchain technology empower individuals with **self-custody**, allowing them to keep their wealth **independent**, **private**, and **easily transportable**. This was never possible before! 🚀
 
