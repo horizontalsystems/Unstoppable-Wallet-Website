@@ -30,7 +30,7 @@
             },
             "ru": {
               "title": "Why Cryptocurrencies?",
-              "markdown": "edu/en/fundamentals/core/why-cryptocurrencies.md"
+              "markdown": "edu/ru/fundamentals/core/why-cryptocurrencies.md"
             },
             "de": {
               "title": "Why Cryptocurrencies?",
@@ -64,7 +64,7 @@
             },
             "ru": {
               "title": "Blockchain Explained?",
-              "markdown": "edu/en/fundamentals/core/blockchain-explained.md"
+              "markdown": "edu/ru/fundamentals/core/blockchain-explained.md"
             },
             "de": {
               "title": "Blockchain Explained?",
@@ -98,7 +98,7 @@
             },
             "ru": {
               "title": "Cryptocurrencies vs Tokens",
-              "markdown": "edu/en/fundamentals/core/cryptocurrencies-vs-tokens.md"
+              "markdown": "edu/ru/fundamentals/core/cryptocurrencies-vs-tokens.md"
             },
             "de": {
               "title": "Cryptocurrencies vs Tokens",
@@ -132,7 +132,7 @@
             },
             "ru": {
               "title": "Cryptocurrencies & Ownership",
-              "markdown": "edu/en/fundamentals/core/cryptocurrencies-and-ownership.md"
+              "markdown": "edu/ru/fundamentals/core/cryptocurrencies-and-ownership.md"
             },
             "de": {
               "title": "Cryptocurrencies & Ownership",
@@ -180,7 +180,7 @@
             },
             "ru": {
               "title": "Crypto Wallet Explained",
-              "markdown": "edu/en/fundamentals/wallets/crypto-wallet-explained.md"
+              "markdown": "edu/ru/fundamentals/wallets/crypto-wallet-explained.md"
             },
             "de": {
               "title": "Crypto Wallet Explained",
@@ -214,7 +214,7 @@
             },
             "ru": {
               "title": "Must-Haves For Non-Custodial Wallet",
-              "markdown": "edu/en/fundamentals/wallets/must-haves-for-non-custodial-wallet.md"
+              "markdown": "edu/ru/fundamentals/wallets/must-haves-for-non-custodial-wallet.md"
             },
             "de": {
               "title": "Must-Haves For Non-Custodial Wallet",
@@ -248,7 +248,7 @@
             },
             "ru": {
               "title": "Hardware Wallets",
-              "markdown": "edu/en/fundamentals/wallets/hardware-wallets.md"
+              "markdown": "edu/ru/fundamentals/wallets/hardware-wallets.md"
             },
             "de": {
               "title": "Hardware Wallets",
@@ -282,7 +282,7 @@
             },
             "ru": {
               "title": "Wallet Creation Explained",
-              "markdown": "edu/en/fundamentals/wallets/wallet-creation-explained.md"
+              "markdown": "edu/ru/fundamentals/wallets/wallet-creation-explained.md"
             },
             "de": {
               "title": "Wallet Creation Explained",
@@ -316,7 +316,7 @@
             },
             "ru": {
               "title": "Wallet Backup is Critical",
-              "markdown": "edu/en/fundamentals/wallets/wallet-backup-is-critical.md"
+              "markdown": "edu/ru/fundamentals/wallets/wallet-backup-is-critical.md"
             },
             "de": {
               "title": "Wallet Backup is Critical",
@@ -350,7 +350,7 @@
             },
             "ru": {
               "title": "Importing Wallets",
-              "markdown": "edu/en/fundamentals/wallets/wallet-backup-is-critical.md"
+              "markdown": "edu/ru/fundamentals/wallets/wallet-backup-is-critical.md"
             },
             "de": {
               "title": "Importing Wallets",
@@ -398,7 +398,7 @@
             },
             "ru": {
               "title": "Transaction With Cryptocurrency",
-              "markdown": "edu/en/fundamentals/transactions/sending-receiving.md"
+              "markdown": "edu/ru/fundamentals/transactions/sending-receiving.md"
             },
             "de": {
               "title": "Transaction With Cryptocurrency",
@@ -432,7 +432,7 @@
             },
             "ru": {
               "title": "Transaction Fees?",
-              "markdown": "edu/en/fundamentals/transactions/transaction-fees.md"
+              "markdown": "edu/ru/fundamentals/transactions/transaction-fees.md"
             },
             "de": {
               "title": "Transaction Fees",
@@ -466,7 +466,7 @@
             },
             "ru": {
               "title": "Transaction States",
-              "markdown": "edu/en/fundamentals/transactions/transaction-states.md"
+              "markdown": "edu/ru/fundamentals/transactions/transaction-states.md"
             },
             "de": {
               "title": "Transaction States",
@@ -500,7 +500,7 @@
             },
             "ru": {
               "title": "Cancelling Transactions",
-              "markdown": "edu/en/fundamentals/transactions/cancelling-transaction.md"
+              "markdown": "edu/ru/fundamentals/transactions/cancelling-transaction.md"
             },
             "de": {
               "title": "Cancelling Transactions",
@@ -534,7 +534,7 @@
             },
             "ru": {
               "title": "Privacy In Transactions",
-              "markdown": "edu/en/fundamentals/transactions/privacy-in-transaction.md"
+              "markdown": "edu/ru/fundamentals/transactions/privacy-in-transaction.md"
             },
             "de": {
               "title": "Privacy In Transactions",
@@ -596,7 +596,7 @@
             },
             "ru": {
               "title": "Bitcoin Origins",
-              "markdown": "edu/en/bitcoin/intro/bitcoin-origins.md"
+              "markdown": "edu/ru/bitcoin/intro/bitcoin-origins.md"
             },
             "de": {
               "title": "Bitcoin Origins",
@@ -630,7 +630,7 @@
             },
             "ru": {
               "title": "The Rise of Bitcoin",
-              "markdown": "edu/en/bitcoin/intro/the-rise-of-bitcoin.md"
+              "markdown": "edu/ru/bitcoin/intro/the-rise-of-bitcoin.md"
             },
             "de": {
               "title": "The Rise of Bitcoin",
@@ -664,7 +664,7 @@
             },
             "ru": {
               "title": "Why Bitcoin?",
-              "markdown": "edu/en/bitcoin/intro/why-bitcoin.md"
+              "markdown": "edu/ru/bitcoin/intro/why-bitcoin.md"
             },
             "de": {
               "title": "Why Bitcoin?",
@@ -712,7 +712,7 @@
             },
             "ru": {
               "title": "The Bitcoin Network Structure",
-              "markdown": "edu/en/bitcoin/bitcoin-network/the-bitcoin-network-structure.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-network/the-bitcoin-network-structure.md"
             },
             "de": {
               "title": "The Bitcoin Network Structure",
@@ -746,7 +746,7 @@
             },
             "ru": {
               "title": "Decentralization and Security",
-              "markdown": "edu/en/bitcoin/bitcoin-network/decentralization-and-security.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-network/decentralization-and-security.md"
             },
             "de": {
               "title": "Decentralization and Security",
@@ -780,7 +780,7 @@
             },
             "ru": {
               "title": "Decentralization and Security",
-              "markdown": "edu/en/bitcoin/bitcoin-network/is-bitcoin-stoppable.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-network/is-bitcoin-stoppable.md"
             },
             "de": {
               "title": "Decentralization and Security",
@@ -828,7 +828,7 @@
             },
             "ru": {
               "title": "Bitcoin Mining",
-              "markdown": "edu/en/bitcoin/bitcoin-economics/bitcoin-mining.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-economics/bitcoin-mining.md"
             },
             "de": {
               "title": "Bitcoin Mining",
@@ -862,7 +862,7 @@
             },
             "ru": {
               "title": "Bitcoin as a Cryptocurrency",
-              "markdown": "edu/en/bitcoin/bitcoin-economics/bitcoin-as-a-cryptocurrency.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-economics/bitcoin-as-a-cryptocurrency.md"
             },
             "de": {
               "title": "Bitcoin as a Cryptocurrency",
@@ -896,7 +896,7 @@
             },
             "ru": {
               "title": "Economic Principles of Bitcoin",
-              "markdown": "edu/en/bitcoin/bitcoin-economics/economics-principles-of-bitcoin.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-economics/economics-principles-of-bitcoin.md"
             },
             "de": {
               "title": "Economic Principles of Bitcoin",
@@ -944,7 +944,7 @@
             },
             "ru": {
               "title": "Acquiring Bitcoin",
-              "markdown": "edu/en/bitcoin/bitcoin-ownership/acquiting-bitcoin.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-ownership/acquiting-bitcoin.md"
             },
             "de": {
               "title": "Acquiring Bitcoin",
@@ -978,7 +978,7 @@
             },
             "ru": {
               "title": "What Is Self-Custody",
-              "markdown": "edu/en/bitcoin/bitcoin-ownership/what-is-self-custody.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-ownership/what-is-self-custody.md"
             },
             "de": {
               "title": "What Is Self-Custody",
@@ -1012,7 +1012,7 @@
             },
             "ru": {
               "title": "Choosing the Right Wallet",
-              "markdown": "edu/en/bitcoin/bitcoin-ownership/choosing-the-right-wallet.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-ownership/choosing-the-right-wallet.md"
             },
             "de": {
               "title": "Choosing the Right Wallet",
@@ -1046,7 +1046,7 @@
             },
             "ru": {
               "title": "Securing Your Bitcoin Wallet",
-              "markdown": "edu/en/bitcoin/bitcoin-ownership/securing-your-bitcoin-wallet.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-ownership/securing-your-bitcoin-wallet.md"
             },
             "de": {
               "title": "Securing Your Bitcoin Wallet",
@@ -1094,7 +1094,7 @@
             },
             "ru": {
               "title": "Sending and Receiving Bitcoin",
-              "markdown": "edu/en/bitcoin/bitcoin-transactions/sending-and-receiving-bitcoin.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-transactions/sending-and-receiving-bitcoin.md"
             },
             "de": {
               "title": "Sending and Receiving Bitcoin",
@@ -1128,7 +1128,7 @@
             },
             "ru": {
               "title": "Transaction Fees",
-              "markdown": "edu/en/bitcoin/bitcoin-transactions/transaction-fee.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-transactions/transaction-fee.md"
             },
             "de": {
               "title": "Transaction Fees",
@@ -1162,7 +1162,7 @@
             },
             "ru": {
               "title": "Transaction Confirmations and States",
-              "markdown": "edu/en/bitcoin/bitcoin-transactions/transaction-confirmations-and-states.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-transactions/transaction-confirmations-and-states.md"
             },
             "de": {
               "title": "Transaction Confirmations and States",
@@ -1196,7 +1196,7 @@
             },
             "ru": {
               "title": "Advanced Transaction Concepts",
-              "markdown": "edu/en/bitcoin/bitcoin-transactions/advanced-transactions-concepts.md"
+              "markdown": "edu/ru/bitcoin/bitcoin-transactions/advanced-transactions-concepts.md"
             },
             "de": {
               "title": "Advanced Transaction Concepts",
@@ -1244,7 +1244,7 @@
             },
             "ru": {
               "title": "Privacy in Blockchain: Pseudonymity vs. Anonymity",
-              "markdown": "edu/en/bitcoin/privacy-in-bitcoin/privacy-in-blockchain-pseudonymity-vs-anonymity.md"
+              "markdown": "edu/ru/bitcoin/privacy-in-bitcoin/privacy-in-blockchain-pseudonymity-vs-anonymity.md"
             },
             "de": {
               "title": "Privacy in Blockchain: Pseudonymity vs. Anonymity",
@@ -1278,7 +1278,7 @@
             },
             "ru": {
               "title": "Privacy Features in Bitcoin Wallets",
-              "markdown": "edu/en/bitcoin/privacy-in-bitcoin/privacy-feauture-in-bitcoin-wallets.md"
+              "markdown": "edu/ru/bitcoin/privacy-in-bitcoin/privacy-feauture-in-bitcoin-wallets.md"
             },
             "de": {
               "title": "Privacy Features in Bitcoin Wallets",
@@ -1312,7 +1312,7 @@
             },
             "ru": {
               "title": "SPV Wallets: A Simple User’s Guide",
-              "markdown": "edu/en/bitcoin/privacy-in-bitcoin/spv-wallets-a-simple-users-guide.md"
+              "markdown": "edu/ru/bitcoin/privacy-in-bitcoin/spv-wallets-a-simple-users-guide.md"
             },
             "de": {
               "title": "SPV Wallets: A Simple User’s Guide",
