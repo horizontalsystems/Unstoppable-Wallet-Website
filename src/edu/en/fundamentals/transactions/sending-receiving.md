@@ -2,7 +2,7 @@
 
 Understanding how to send and receive cryptocurrency is a **fundamental skill** for any crypto user. 🧠 While the process is generally similar across different cryptocurrencies, certain aspects can vary depending on the specific digital asset. This guide will walk you through the essentials of conducting transactions using non-custodial wallet apps. 📱
 
-#### Sending Cryptocurrency 📤
+## 📤 Sending Cryptocurrency 
 
 When you're ready to send cryptocurrency, you'll need to enter the recipient's address, the amount you wish to send, and the transaction fee before hitting "Send." 🚀
 
@@ -10,13 +10,13 @@ When you're ready to send cryptocurrency, you'll need to enter the recipient's a
 
 Most non-custodial wallets will suggest an appropriate transaction fee based on current network conditions. 💸 It's important to remember that this fee goes directly to the blockchain network, not the wallet provider. We will delve deeper into transaction fees in a later section.
 
-#### 📥 Receiving Cryptocurrency 
+### 📥 Receiving Cryptocurrency 
 
 To receive cryptocurrency, open your wallet app and select the "Receive" or "Deposit" option. The app will generate a unique receiving address for most cryptocurrencies, although some tokens may share the same address. 🏷️ For example, all Ethereum-based tokens within a single wallet will have the same receiving address.
 
 Simply share this address with the sender, and your cryptocurrency will appear in your wallet once the transaction is confirmed. ✅ It's important to note that some wallets, particularly those for Bitcoin, may generate a new receiving address after each transaction to enhance privacy🕵️‍♀️.
 
-#### 🔍 How Transactions Actually Happen
+## 🔍 How Transactions Actually Happen
 
 For those interested in the technical side of how non-custodial transactions work, here's a breakdown of the process:
 

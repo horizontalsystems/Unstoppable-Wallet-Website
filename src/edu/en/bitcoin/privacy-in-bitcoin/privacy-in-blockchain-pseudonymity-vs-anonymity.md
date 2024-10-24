@@ -1,4 +1,4 @@
-# Privacy in Blockchain: Pseudonymity vs. Anonymity 🎭
+# Privacy in Blockchain: Pseudonymity vs. Anonymity
 
 The Bitcoin blockchain operates on a **pseudonymous system**, meaning that while addresses are not directly tied to real-world identities, all transactions are publicly visible on the blockchain. This creates privacy challenges, as certain public tools can potentially trace Bitcoin addresses back to individuals. 🔍
 

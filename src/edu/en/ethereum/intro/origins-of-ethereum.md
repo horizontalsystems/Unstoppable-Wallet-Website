@@ -1,4 +1,4 @@
-# Origins of Ethereum 🌟
+# Origins of Ethereum
 
 Ethereum was created in 2015 by Vitalik Buterin, along with a team of co-founders, in response to the limitations of Bitcoin 🚀. While Bitcoin was primarily designed as a decentralized form of money 💰, Ethereum was developed to go beyond just payments.
 

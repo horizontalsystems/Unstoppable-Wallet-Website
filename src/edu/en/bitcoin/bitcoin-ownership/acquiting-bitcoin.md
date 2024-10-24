@@ -1,4 +1,4 @@
-# Acquiring Bitcoin 💰
+# Acquiring Bitcoin
 
 Acquiring Bitcoin involves several steps, and the most common way is through centralized cryptocurrency exchanges like Binance, Coinbase, or Kraken. On these platforms, users deposit fiat currency, such as USD or EUR, purchase Bitcoin, and transfer it to their wallets. The process is straightforward when you have access to these exchanges. However, challenges arise when traditional banking systems block transfers to these exchanges. 🏦🚫
 

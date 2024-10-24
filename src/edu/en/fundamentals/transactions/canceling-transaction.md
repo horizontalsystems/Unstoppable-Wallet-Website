@@ -1,10 +1,10 @@
-# Cancelling Transactions ⛔️
+# Cancelling Transactions
 
 There are situations where you may find yourself needing to cancel a cryptocurrency transaction. While it is generally difficult to reverse a transaction once it has been initiated, there are specific circumstances where you might be able to cancel or modify it, particularly if the transaction is still in a pending state. This possibility exists primarily on slower blockchains like **Bitcoin** or **Ethereum**, where transactions can remain pending for several seconds or even minutes. 🕒
 
 However, once a transaction is confirmed and added to the blockchain, it is usually **irreversible**. This means that, once finalized, transactions cannot be canceled. ❌
 
-#### 🔄Cancelling Pending Transactions
+## Cancelling Pending Transactions
 
 Cancelling a pending transaction is possible, but only if your wallet app supports this functionality.
 
@@ -21,6 +21,6 @@ The cancellation transaction must reach the network and be processed before the 
 - 🔗 **3. Mutual Exclusivity** 
 Due to the way non-custodial wallets construct these transactions, only one of the two—the original or the cancellation—can be valid. If the cancellation transaction is successful, it invalidates the original. Conversely, if the original transaction is confirmed first, the cancellation is rendered moot.
 
-#### 📝 In Summary 
+## In Summary 
 While it is possible to cancel a pending cryptocurrency transaction on some blockchains, the success of this action depends on several factors, including the speed of the network, the fees involved, and the capabilities of your wallet. Therefore, it is always wise to double-check transaction details before sending to avoid the need for cancellation. ✔️
 

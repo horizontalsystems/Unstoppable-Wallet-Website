@@ -1,4 +1,4 @@
-# Understanding Smart Contracts 📜
+# Understanding Smart Contracts
 
 In Bitcoin, the only entities that participate on the blockchain are individual wallets that send payments to each other 👛. On Ethereum, there are two kinds of entities: wallets and smart contracts. Smart contracts are programs that operate on top of the blockchain and can act as standalone entities, interacting with wallets and other smart contracts directly 🤖.
 A smart contract is essentially a self-executing program that runs on the Ethereum blockchain 🔄. Smart contracts can be built and deployed on Ethereum by anyone and can be engineered to execute any kind of logic. These contracts automatically enforce and execute preprogrammed rules when specific conditions are met, without needing a middleman 🔒. For example, think of a vending machine: you put in money, select a product, and it automatically dispenses the item. Smart contracts work similarly in digital form but can be used for a much broader range of applications, from finance to gaming 🎮💹.

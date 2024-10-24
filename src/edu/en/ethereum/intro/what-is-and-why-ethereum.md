@@ -1,4 +1,4 @@
-# What is & Why Ethereum? 🤔💡
+# What is & Why Ethereum?
 
 While both Ethereum and Bitcoin are built on blockchain technology, they serve different purposes. Bitcoin was created to be a digital currency—a decentralized store of value and medium of exchange 💰. Ethereum, however, is a platform for building decentralized apps (dApps) 🏗️.
 

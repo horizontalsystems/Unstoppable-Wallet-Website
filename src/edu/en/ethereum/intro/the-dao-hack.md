@@ -1,4 +1,4 @@
-# The DAO Hack 🚨
+# The DAO Hack
 
 
 In 2016, during its early days, Ethereum faced a major crisis with the hack of "The DAO," a decentralized service built on the Ethereum platform 💥. Hackers exploited a vulnerability in The DAO's smart contract code, managing to steal millions of dollars' worth of Ether—at the time, a significant portion of the Ether in circulation 💰🦹‍♂️.
