@@ -48,6 +48,7 @@ const releases = [
   { version: '0.37', date: 'Jan 8, 2024' },
   { version: '0.38', date: 'Apr 18, 2024' },
   { version: '0.39', date: 'Jun 26, 2024' },
+  { version: '0.40', date: 'Oct 4, 2024' },
 
 ]
 
