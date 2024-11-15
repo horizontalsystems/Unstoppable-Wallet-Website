@@ -4,7 +4,6 @@ Cryptocurrencies are native units of account on a given blockchain. Each blockch
 
 - Bitcoin (symbol: **BTC**) is the base unit of the Bitcoin blockchain.
 
-
 - Ether (symbol: **ETH**) is the base unit of the Ethereum blockchain.
 
 ## Smart Contracts
@@ -20,9 +19,7 @@ In many cases, smart contracts can introduce their own unit of something. For ex
 
 - This smart contract might create a **LOTTERY** token that can be used to enter a lottery draw.
 
-
 - To obtain a LOTTERY token, a user must send a predefined payment to the smart contract.
-
 
 - Any interaction with the lottery smart contract is recorded as a separate transaction on the blockchain.
 
