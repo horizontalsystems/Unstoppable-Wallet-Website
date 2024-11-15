@@ -3,7 +3,7 @@
 While blockchain technology itself is free to use, every transaction made on a blockchain network requires a small fee. In both the Ethereum and Bitcoin networks, these transaction fees are paid by the sender directly to the blockchain. This applies to **every transaction** conducted using a non-custodial wallet. 🔗
 
 ## 💰 Paying Transaction Fees
-Transaction fees must be paid in the **native cryptocurrency** of the blockchain being used. For example, on the Ethereum blockchain, fees are paid in ETH, while on the Bitcoin blockchain, fees are paid in BTC. 🔄
+Transaction fees must be paid in the **native cryptocurrency** of the blockchain being used. For example, on the Ethereum blockchain, fees are paid in ETH, while on the Bitcoin blockchain, fees are paid in BTC.
 
 If you are sending USDT (Tether) on the Ethereum network, you'll need ETH to cover the transaction fee. On the other hand, if you're sending USDT on the Tron blockchain, the fee would be paid in TRX (Tron). 💱
 

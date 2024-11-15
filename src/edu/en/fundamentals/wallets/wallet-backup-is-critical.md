@@ -20,19 +20,12 @@ Generally, storing wallet backups online (e.g., in iCloud or Google Drive) or on
 
 1) 🔐 **Use Encryption**
    When backing up online, it is crucial to use encryption. This involves setting an encryption password that will protect the backup file. Encryption ensures that your mnemonic remains secure, even if the digital backup location is compromised.
-
-
 2) 🔑 **Keep the Encryption Password Safe**
    It's essential not to lose the encryption password, as it will be required to decrypt the backup file. It can be stored offline. If your wallet uses a mnemonic phrase plus a passphrase, you might consider using the passphrase as your encryption password. This simplifies the process by reducing the number of passwords you need to remember.
-
-
 3) 🛡️ **Secure Your Accounts**
    If you back up to services like Google Drive or Apple's iCloud, make sure your Apple or Google account is protected by a strong password.
-
-
 4) ⚠️ **Do Not Rely On Provider**
    It might also be wise to store digital backups in multiple locations to avoid losing access to a particular service. Remember that companies like Apple or Google can potentially lock you out of your account according to their terms of service.
-
 #### 💡 General Backup Tips
 For wallets created using a combination of a mnemonic phrase and a passphrase, it is advisable to store the passphrase **separately from the mnemonic**. This way, even if someone finds the mnemonic, they won't be able to access your wallet without the passphrase. For example, you could store the mnemonic in the cloud or offline and keep the passphrase in a different secure location. 🗝️
 

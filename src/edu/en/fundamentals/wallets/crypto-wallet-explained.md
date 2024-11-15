@@ -26,12 +26,9 @@ Non-custodial wallets come in various types. While all non-custodial wallets are
 
 - **Hardware Wallets:** 💾
 While these are secure, they can be complex to use and are not suitable for daily transactions. They also have limited features, can be difficult to use, and are unfortunately easily identifiable as crypto storage devices.
-
 - **Mobile Wallets:** 📱
 These offer a good balance between convenience, privacy, and security. While they may be less secure than hardware wallets, they are generally much easier to use and easier to conceal.
-
 - **Desktop Wallets:** 💻
 These are less secure compared to hardware or mobile wallets. Typically, it's not recommended to keep large sums on a wallet that resides on your all-purpose desktop computer or laptop.
-
 - **Browser Wallets:** 🌐
 These are considered the **least secure** due to a wide array of potential security breaches.

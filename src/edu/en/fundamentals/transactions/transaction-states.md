@@ -1,6 +1,6 @@
 # TRANSACTION STATES 📊
 
-Cryptocurrency transactions are **not instantaneous**. Depending on the specific cryptocurrency or token, a transaction might take anywhere from a few seconds to several minutes or even hours to complete. ⏳
+Cryptocurrency transactions are **not instantaneous**. Depending on the specific cryptocurrency or token, a transaction might take anywhere from a few seconds to several minutes or even hours to complete. 
 
 When using a non-custodial wallet, transactions are processed directly through the blockchain, following these stages:
 
@@ -12,7 +12,7 @@ At this stage, both the sender and recipient can monitor the transaction's statu
 The time a transaction remains pending varies depending on the blockchain and is largely influenced by the **transaction fee** set by the user. If the fee is well above the average of other transactions in the queue, it will be processed quickly. Conversely, if the fee is significantly lower, the transaction will have to wait until its fee becomes competitive enough to be processed. 💸
 
 ## 2) ✅ Transaction Gets Confirmed
-A transaction is considered successful when it is included in the blockchain. This inclusion occurs in batches called "**blocks**." 🧱
+A transaction is considered successful when it is included in the blockchain. This inclusion occurs in batches called "**blocks**." 
 
 Each block typically holds a few thousand transactions. New blocks are constructed from a pool of pending transactions in the queue. Priority is given to transactions that pay higher fees. 🥇
 

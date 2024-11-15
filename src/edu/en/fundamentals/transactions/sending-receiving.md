@@ -17,14 +17,10 @@ To receive cryptocurrency, open your wallet app and select the "Receive" or "Dep
 Simply share this address with the sender, and your cryptocurrency will appear in your wallet once the transaction is confirmed. ✅ It's important to note that some wallets, particularly those for Bitcoin, may generate a new receiving address after each transaction to enhance privacy🕵️‍♀️.
 
 ## 🔍 How Transactions Actually Happen
-
 For those interested in the technical side of how non-custodial transactions work, here's a breakdown of the process:
-
 - 🛠️ **Transaction Preparation**
 After you enter the recipient's details, the amount to be sent, and the transaction fee, the wallet app constructs the transaction. This preparation can occur locally on your device or through the wallet provider's server.
-
 - 🔐 **Cryptographic Signing**
 Once the transaction is ready, it is **cryptographically signed** by the wallet app using your private key. This signature is what makes the transaction non-custodial; only the private key holder can authorize a transaction that the blockchain will accept.
-
 - 📡 **Broadcasting**
 The signed transaction is then broadcasted to the blockchain network, where it awaits processing and confirmation. ⏳
