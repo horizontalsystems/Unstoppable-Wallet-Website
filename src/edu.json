@@ -1342,5 +1342,837 @@
         ]
       }
     ]
+  },
+  {
+    "category": {
+      "en": "Ethereum",
+      "ru": "Ethereum",
+      "de": "Ethereum",
+      "es": "Ethereum",
+      "fr": "Ethereum",
+      "tr": "Ethereum",
+      "zh": "Ethereum",
+      "ko": "Ethereum"
+    },
+    "sections": [
+      {
+        "title": {
+          "en": "Introduction",
+          "ru": "Introduction",
+          "de": "Introduction",
+          "es": "Introduction",
+          "fr": "Introduction",
+          "tr": "Introduction",
+          "zh": "Introduction",
+          "ko": "Introduction"
+        },
+        "items": [
+          {
+            "en": {
+              "title": "What is & Why Ethereum?",
+              "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
+            },
+            "ru": {
+              "title": "What is & Why Ethereum?",
+              "markdown": "edu/ru/ethereum/intro/what-is-and-why-ethereum.md"
+            },
+            "de": {
+              "title": "What is & Why Ethereum?",
+              "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
+            },
+            "es": {
+              "title": "What is & Why Ethereum?",
+              "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
+            },
+            "fr": {
+              "title": "What is & Why Ethereum?",
+              "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
+            },
+            "tr": {
+              "title": "What is & Why Ethereum?",
+              "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
+            },
+            "zh": {
+              "title": "What is & Why Ethereum?",
+              "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
+            },
+            "ko": {
+              "title": "What is & Why Ethereum?",
+              "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "ru": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/ru/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "de": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "es": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "fr": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "tr": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "zh": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "ko": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "ru": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/ru/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "de": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "es": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "fr": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "tr": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "zh": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            },
+            "ko": {
+              "title": "Understanding Smart Contracts",
+              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
+            }
+          },
+          {
+            "en": {
+              "title": "The DAO Hack",
+              "markdown": "edu/en/ethereum/intro/the-dao-hack.md"
+            },
+            "ru": {
+              "title": "The DAO Hack",
+              "markdown": "edu/ru/ethereum/intro/the-dao-hack.md"
+            },
+            "de": {
+              "title": "The DAO Hack",
+              "markdown": "edu/en/ethereum/intro/the-dao-hack.md"
+            },
+            "es": {
+              "title": "The DAO Hack",
+              "markdown": "edu/en/ethereum/intro/the-dao-hack.md"
+            },
+            "fr": {
+              "title": "The DAO Hack",
+              "markdown": "edu/en/ethereum/intro/the-dao-hack.md"
+            },
+            "tr": {
+              "title": "The DAO Hack",
+              "markdown": "edu/en/ethereum/intro/the-dao-hack.md"
+            },
+            "zh": {
+              "title": "The DAO Hack",
+              "markdown": "edu/en/ethereum/intro/the-dao-hack.md"
+            },
+            "ko": {
+              "title": "The DAO Hack",
+              "markdown": "edu/en/ethereum/intro/the-dao-hack.md"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "How Ethereum Works",
+          "ru": "How Ethereum Works",
+          "de": "How Ethereum Works ",
+          "es": "How Ethereum Works",
+          "fr": "How Ethereum Works",
+          "tr": "How Ethereum Works",
+          "zh": "How Ethereum Works",
+          "ko": "How Ethereum Works"
+        },
+        "items": [
+          {
+            "en": {
+              "title": "How Ethereum Blockchain Works",
+              "markdown": "edu/en/ethereum/how-ethereum-works/how-ethereum-blockchain-works.md"
+            },
+            "ru": {
+              "title": "How Ethereum Blockchain Works",
+              "markdown": "edu/ru/ethereum/how-ethereum-works/how-ethereum-blockchain-works.md"
+            },
+            "de": {
+              "title": "How Ethereum Blockchain Works",
+              "markdown": "edu/en/ethereum/how-ethereum-works/how-ethereum-blockchain-works.md"
+            },
+            "es": {
+              "title": "How Ethereum Blockchain Works",
+              "markdown": "edu/en/ethereum/how-ethereum-works/how-ethereum-blockchain-works.md"
+            },
+            "fr": {
+              "title": "How Ethereum Blockchain Works",
+              "markdown": "edu/en/ethereum/how-ethereum-works/how-ethereum-blockchain-works.md"
+            },
+            "tr": {
+              "title": "How Ethereum Blockchain Works",
+              "markdown": "edu/en/ethereum/how-ethereum-works/how-ethereum-blockchain-works.md"
+            },
+            "zh": {
+              "title": "How Ethereum Blockchain Works",
+              "markdown": "edu/en/ethereum/how-ethereum-works/how-ethereum-blockchain-works.md"
+            },
+            "ko": {
+              "title": "How Ethereum Blockchain Works",
+              "markdown": "edu/en/ethereum/how-ethereum-works/how-ethereum-blockchain-works.md"
+            }
+          },
+          {
+            "en": {
+              "title": "ETH Cryptocurrency",
+              "markdown": "edu/en/ethereum/how-ethereum-works/eth-cryptocurrency.md"
+            },
+            "ru": {
+              "title": "ETH Cryptocurrency",
+              "markdown": "edu/ru/ethereum/how-ethereum-works/eth-cryptocurrency.md"
+            },
+            "de": {
+              "title": "ETH Cryptocurrency",
+              "markdown": "edu/en/ethereum/how-ethereum-works/eth-cryptocurrency.md"
+            },
+            "es": {
+              "title": "ETH Cryptocurrency",
+              "markdown": "edu/en/ethereum/how-ethereum-works/eth-cryptocurrency.md"
+            },
+            "fr": {
+              "title": "ETH Cryptocurrency",
+              "markdown": "edu/en/ethereum/how-ethereum-works/eth-cryptocurrency.md"
+            },
+            "tr": {
+              "title": "ETH Cryptocurrency",
+              "markdown": "edu/en/ethereum/how-ethereum-works/eth-cryptocurrency.md"
+            },
+            "zh": {
+              "title": "ETH Cryptocurrency",
+              "markdown": "edu/en/ethereum/how-ethereum-works/eth-cryptocurrency.md"
+            },
+            "ko": {
+              "title": "ETH Cryptocurrency",
+              "markdown": "edu/en/ethereum/how-ethereum-works/eth-cryptocurrency.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Wallets On Ethereum",
+              "markdown": "edu/en/ethereum/how-ethereum-works/wallets-on-ethereum.md"
+            },
+            "ru": {
+              "title": "Wallets On Ethereum",
+              "markdown": "edu/ru/ethereum/how-ethereum-works/wallets-on-ethereum.md"
+            },
+            "de": {
+              "title": "Wallets On Ethereum",
+              "markdown": "edu/en/ethereum/how-ethereum-works/wallets-on-ethereum.md"
+            },
+            "es": {
+              "title": "Wallets On Ethereum",
+              "markdown": "edu/en/ethereum/how-ethereum-works/wallets-on-ethereum.md"
+            },
+            "fr": {
+              "title": "Wallets On Ethereum",
+              "markdown": "edu/en/ethereum/how-ethereum-works/wallets-on-ethereum.md"
+            },
+            "tr": {
+              "title": "Wallets On Ethereum",
+              "markdown": "edu/en/ethereum/how-ethereum-works/wallets-on-ethereum.md"
+            },
+            "zh": {
+              "title": "Wallets On Ethereum",
+              "markdown": "edu/en/ethereum/how-ethereum-works/wallets-on-ethereum.md"
+            },
+            "ko": {
+              "title": "Wallets On Ethereum",
+              "markdown": "edu/en/ethereum/how-ethereum-works/wallets-on-ethereum.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Tokens on Ethereum: ERC-20 & NFTs",
+              "markdown": "edu/en/ethereum/how-ethereum-works/tokens-on-ethereum.md"
+            },
+            "ru": {
+              "title": "Tokens on Ethereum: ERC-20 & NFTs",
+              "markdown": "edu/ru/ethereum/how-ethereum-works/tokens-on-ethereum.md"
+            },
+            "de": {
+              "title": "Tokens on Ethereum: ERC-20 & NFTs",
+              "markdown": "edu/en/ethereum/how-ethereum-works/tokens-on-ethereum.md"
+            },
+            "es": {
+              "title": "Tokens on Ethereum: ERC-20 & NFTs",
+              "markdown": "edu/en/ethereum/how-ethereum-works/tokens-on-ethereum.md"
+            },
+            "fr": {
+              "title": "Tokens on Ethereum: ERC-20 & NFTs",
+              "markdown": "edu/en/ethereum/how-ethereum-works/tokens-on-ethereum.md"
+            },
+            "tr": {
+              "title": "Tokens on Ethereum: ERC-20 & NFTs",
+              "markdown": "edu/en/ethereum/how-ethereum-works/tokens-on-ethereum.md"
+            },
+            "zh": {
+              "title": "Tokens on Ethereum: ERC-20 & NFTs",
+              "markdown": "edu/en/ethereum/how-ethereum-works/tokens-on-ethereum.md"
+            },
+            "ko": {
+              "title": "Tokens on Ethereum: ERC-20 & NFTs",
+              "markdown": "edu/en/ethereum/how-ethereum-works/tokens-on-ethereum.md"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Transactions",
+          "ru": "Transactions",
+          "de": "Transactions",
+          "es": "Transactions",
+          "fr": "Transactions",
+          "tr": "Transactions",
+          "zh": "Transactions",
+          "ko": "Transactions"
+        },
+        "items": [
+          {
+            "en": {
+              "title": "Complexity of Transactions",
+              "markdown": "edu/en/ethereum/transactions/complexity-of-transactions.md"
+            },
+            "ru": {
+              "title": "Complexity of Transactions",
+              "markdown": "edu/ru/ethereum/transactions/complexity-of-transactions.md"
+            },
+            "de": {
+              "title": "Complexity of Transactions",
+              "markdown": "edu/en/ethereum/transactions/complexity-of-transactions.md"
+            },
+            "es": {
+              "title": "Complexity of Transactions",
+              "markdown": "edu/en/ethereum/transactions/complexity-of-transactions.md"
+            },
+            "fr": {
+              "title": "Complexity of Transactions",
+              "markdown": "edu/en/ethereum/transactions/complexity-of-transactions.md"
+            },
+            "tr": {
+              "title": "Complexity of Transactions",
+              "markdown": "edu/en/ethereum/transactions/complexity-of-transactions.md"
+            },
+            "zh": {
+              "title": "Complexity of Transactions",
+              "markdown": "edu/en/ethereum/transactions/complexity-of-transactions.md"
+            },
+            "ko": {
+              "title": "Complexity of Transactions",
+              "markdown": "edu/en/ethereum/transactions/complexity-of-transactions.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Transaction Fees",
+              "markdown": "edu/en/ethereum/transactions/transaction-fees.md"
+            },
+            "ru": {
+              "title": "Transaction Fees",
+              "markdown": "edu/ru/ethereum/transactions/transaction-fees.md"
+            },
+            "de": {
+              "title": "Transaction Fees",
+              "markdown": "edu/en/ethereum/transactions/transaction-fees.md"
+            },
+            "es": {
+              "title": "Transaction Fees",
+              "markdown": "edu/en/ethereum/transactions/transaction-fees.md"
+            },
+            "fr": {
+              "title": "Transaction Fees",
+              "markdown": "edu/en/ethereum/transactions/transaction-fees.md"
+            },
+            "tr": {
+              "title": "Transaction Fees",
+              "markdown": "edu/en/ethereum/transactions/transaction-fees.md"
+            },
+            "zh": {
+              "title": "Transaction Fees",
+              "markdown": "edu/en/ethereum/transactions/transaction-fees.md"
+            },
+            "ko": {
+              "title": "Transaction Fees",
+              "markdown": "edu/en/ethereum/transactions/transaction-fees.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Transaction Statuses",
+              "markdown": "edu/en/ethereum/transactions/transactions-statuses.md"
+            },
+            "ru": {
+              "title": "Transaction Statuses",
+              "markdown": "edu/ru/ethereum/transactions/transactions-statuses.md"
+            },
+            "de": {
+              "title": "Transaction Statuses",
+              "markdown": "edu/en/ethereum/transactions/transactions-statuses.md"
+            },
+            "es": {
+              "title": "Transaction Statuses",
+              "markdown": "edu/en/ethereum/transactions/transactions-statuses.md"
+            },
+            "fr": {
+              "title": "Transaction Statuses",
+              "markdown": "edu/en/ethereum/transactions/transactions-statuses.md"
+            },
+            "tr": {
+              "title": "Transaction Statuses",
+              "markdown": "edu/en/ethereum/transactions/transactions-statuses.md"
+            },
+            "zh": {
+              "title": "Transaction Statuses",
+              "markdown": "edu/en/ethereum/transactions/transactions-statuses.md"
+            },
+            "ko": {
+              "title": "Transaction Statuses",
+              "markdown": "edu/en/ethereum/transactions/transactions-statuses.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Cancelling/Speeding Up Transactions",
+              "markdown": "edu/en/ethereum/transactions/cancelling-speeding-up-transactions.md"
+            },
+            "ru": {
+              "title": "Cancelling/Speeding Up Transactions",
+              "markdown": "edu/ru/ethereum/transactions/cancelling-speeding-up-transactions.md"
+            },
+            "de": {
+              "title": "Cancelling/Speeding Up Transactions",
+              "markdown": "edu/en/ethereum/transactions/cancelling-speeding-up-transactions.md"
+            },
+            "es": {
+              "title": "Cancelling/Speeding Up Transactions",
+              "markdown": "edu/en/ethereum/transactions/cancelling-speeding-up-transactions.md"
+            },
+            "fr": {
+              "title": "Cancelling/Speeding Up Transactions",
+              "markdown": "edu/en/ethereum/transactions/cancelling-speeding-up-transactions.md"
+            },
+            "tr": {
+              "title": "Cancelling/Speeding Up Transactions",
+              "markdown": "edu/en/ethereum/transactions/cancelling-speeding-up-transactions.md"
+            },
+            "zh": {
+              "title": "Cancelling/Speeding Up Transactions",
+              "markdown": "edu/en/ethereum/transactions/cancelling-speeding-up-transactions.md"
+            },
+            "ko": {
+              "title": "Cancelling/Speeding Up Transactions",
+              "markdown": "edu/en/ethereum/transactions/cancelling-speeding-up-transactions.md"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "DApps",
+          "ru": "DApps",
+          "de": "DApps",
+          "es": "DApps",
+          "fr": "DApps",
+          "tr": "DApps",
+          "zh": "DApps",
+          "ko": "DApps"
+        },
+        "items": [
+          {
+            "en": {
+              "title": "What are dApps?",
+              "markdown": "edu/en/ethereum/dapps/what-the-dapps.md"
+            },
+            "ru": {
+              "title": "What are dApps?",
+              "markdown": "edu/ru/ethereum/dapps/what-the-dapps.md"
+            },
+            "de": {
+              "title": "What are dApps?",
+              "markdown": "edu/en/ethereum/dapps/what-the-dapps.md"
+            },
+            "es": {
+              "title": "What are dApps?",
+              "markdown": "edu/en/ethereum/dapps/what-the-dapps.md"
+            },
+            "fr": {
+              "title": "What are dApps?",
+              "markdown": "edu/en/ethereum/dapps/what-the-dapps.md"
+            },
+            "tr": {
+              "title": "What are dApps?",
+              "markdown": "edu/en/ethereum/dapps/what-the-dapps.md"
+            },
+            "zh": {
+              "title": "What are dApps?",
+              "markdown": "edu/en/ethereum/dapps/what-the-dapps.md"
+            },
+            "ko": {
+              "title": "What are dApps?",
+              "markdown": "edu/en/ethereum/dapps/what-the-dapps.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Building with dApps",
+              "markdown": "edu/en/ethereum/dapps/building-with-dapps.md"
+            },
+            "ru": {
+              "title": "Building with dApps",
+              "markdown": "edu/ru/ethereum/dapps/building-with-dapps.md"
+            },
+            "de": {
+              "title": "Building with dApps",
+              "markdown": "edu/en/ethereum/dapps/building-with-dapps.md"
+            },
+            "es": {
+              "title": "Building with dApps",
+              "markdown": "edu/en/ethereum/dapps/building-with-dapps.md"
+            },
+            "fr": {
+              "title": "Building with dApps",
+              "markdown": "edu/en/ethereum/dapps/building-with-dapps.md"
+            },
+            "tr": {
+              "title": "Building with dApps",
+              "markdown": "edu/en/ethereum/dapps/building-with-dapps.md"
+            },
+            "zh": {
+              "title": "Building with dApps",
+              "markdown": "edu/en/ethereum/dapps/building-with-dapps.md"
+            },
+            "ko": {
+              "title": "Building with dApps",
+              "markdown": "edu/en/ethereum/dapps/building-with-dapps.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Interacting with dApps",
+              "markdown": "edu/en/ethereum/dapps/interacting-with-dapps.md"
+            },
+            "ru": {
+              "title": "Interacting with dApps",
+              "markdown": "edu/ru/ethereum/dapps/interacting-with-dapps.md"
+            },
+            "de": {
+              "title": "Interacting with dApps",
+              "markdown": "edu/en/ethereum/dapps/interacting-with-dapps.md"
+            },
+            "es": {
+              "title": "Interacting with dApps",
+              "markdown": "edu/en/ethereum/dapps/interacting-with-dapps.md"
+            },
+            "fr": {
+              "title": "Interacting with dApps",
+              "markdown": "edu/en/ethereum/dapps/interacting-with-dapps.md"
+            },
+            "tr": {
+              "title": "Interacting with dApps",
+              "markdown": "edu/en/ethereum/dapps/interacting-with-dapps.md"
+            },
+            "zh": {
+              "title": "Interacting with dApps",
+              "markdown": "edu/en/ethereum/dapps/interacting-with-dapps.md"
+            },
+            "ko": {
+              "title": "Interacting with dApps",
+              "markdown": "edu/en/ethereum/dapps/interacting-with-dapps.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Are dApps Censorable?",
+              "markdown": "edu/en/ethereum/dapps/are-dapps-censorable.md"
+            },
+            "ru": {
+              "title": "Are dApps Censorable?",
+              "markdown": "edu/ru/ethereum/dapps/are-dapps-censorable.md"
+            },
+            "de": {
+              "title": "Are dApps Censorable?",
+              "markdown": "edu/en/ethereum/dapps/are-dapps-censorable.md"
+            },
+            "es": {
+              "title": "Are dApps Censorable?",
+              "markdown": "edu/en/ethereum/dapps/are-dapps-censorable.md"
+            },
+            "fr": {
+              "title": "Are dApps Censorable?",
+              "markdown": "edu/en/ethereum/dapps/are-dapps-censorable.md"
+            },
+            "tr": {
+              "title": "Are dApps Censorable?",
+              "markdown": "edu/en/ethereum/dapps/are-dapps-censorable.md"
+            },
+            "zh": {
+              "title": "Are dApps Censorable?",
+              "markdown": "edu/en/ethereum/dapps/are-dapps-censorable.md"
+            },
+            "ko": {
+              "title": "Are dApps Censorable?",
+              "markdown": "edu/en/ethereum/dapps/are-dapps-censorable.md"
+            }
+          },
+          {
+            "en": {
+              "title": " Censorship in Smart Contracts",
+              "markdown": "edu/en/ethereum/dapps/censorship-in-smart-contracts.md"
+            },
+            "ru": {
+              "title": "Censorship in Smart Contracts",
+              "markdown": "edu/ru/ethereum/dapps/censorship-in-smart-contracts.md"
+            },
+            "de": {
+              "title": "Censorship in Smart Contracts",
+              "markdown": "edu/en/ethereum/dapps/censorship-in-smart-contracts.md"
+            },
+            "es": {
+              "title": "Censorship in Smart Contracts",
+              "markdown": "edu/en/ethereum/dapps/censorship-in-smart-contracts.md"
+            },
+            "fr": {
+              "title": "Censorship in Smart Contracts",
+              "markdown": "edu/en/ethereum/dapps/censorship-in-smart-contracts.md"
+            },
+            "tr": {
+              "title": "Сensorship in Smart Contracts",
+              "markdown": "edu/en/ethereum/dapps/censorship-in-smart-contracts.md"
+            },
+            "zh": {
+              "title": "Censorship in Smart Contracts",
+              "markdown": "edu/en/ethereum/dapps/censorship-in-smart-contracts.md"
+            },
+            "ko": {
+              "title": "Censorship in Smart Contracts",
+              "markdown": "edu/en/ethereum/dapps/censorship-in-smart-contracts.md"
+            }
+          },
+          {
+            "en": {
+              "title": "DAOs",
+              "markdown": "edu/en/ethereum/dapps/daos.md"
+            },
+            "ru": {
+              "title": "DAOs",
+              "markdown": "edu/ru/ethereum/dapps/daos.md"
+            },
+            "de": {
+              "title": "DAOs",
+              "markdown": "edu/en/ethereum/dapps/daos.md"
+            },
+            "es": {
+              "title": "DAOs",
+              "markdown": "edu/en/ethereum/dapps/daos.md"
+            },
+            "fr": {
+              "title": "DAOs",
+              "markdown": "edu/en/ethereum/dapps/daos.md"
+            },
+            "tr": {
+              "title": "DAOs",
+              "markdown": "edu/en/ethereum/dapps/daos.md"
+            },
+            "zh": {
+              "title": "DAOs",
+              "markdown": "edu/en/ethereum/dapps/daos.md"
+            },
+            "ko": {
+              "title": "DAOs",
+              "markdown": "edu/en/ethereum/dapps/daos.md"
+            }
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Security and Privacy on Ethereum",
+          "ru": "Security and Privacy on Ethereum",
+          "de": "Security and Privacy on Ethereum",
+          "es": "Security and Privacy on Ethereum",
+          "fr": "Security and Privacy on Ethereum",
+          "tr": "Security and Privacy on Ethereum",
+          "zh": "Security and Privacy on Ethereum",
+          "ko": "Security and Privacy on Ethereum"
+        },
+        "items": [
+          {
+            "en": {
+              "title": "Privacy Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/privacy-risks.md"
+            },
+            "ru": {
+              "title": "Privacy Risks",
+              "markdown": "edu/ru/ethereum/security-and-privacy/privacy-risks.md"
+            },
+            "de": {
+              "title": "Privacy Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/privacy-risks.md"
+            },
+            "es": {
+              "title": "Privacy Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/privacy-risks.md"
+            },
+            "fr": {
+              "title": "Privacy Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/privacy-risks.md"
+            },
+            "tr": {
+              "title": "Privacy Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/privacy-risks.md"
+            },
+            "zh": {
+              "title": "Privacy Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/privacy-risks.md"
+            },
+            "ko": {
+              "title": "Privacy Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/privacy-risks.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Enhancing Privacy",
+              "markdown": "edu/en/ethereum/security-and-privacy/enhancing-privacy.md"
+            },
+            "ru": {
+              "title": "Enhancing Privacy",
+              "markdown": "edu/ru/ethereum/security-and-privacy/enhancing-privacy.md"
+            },
+            "de": {
+              "title": "Enhancing Privacy",
+              "markdown": "edu/en/ethereum/security-and-privacy/enhancing-privacy.md"
+            },
+            "es": {
+              "title": "Enhancing Privacy",
+              "markdown": "edu/en/ethereum/security-and-privacy/enhancing-privacy.md"
+            },
+            "fr": {
+              "title": "Enhancing Privacy",
+              "markdown": "edu/en/ethereum/security-and-privacy/enhancing-privacy.md"
+            },
+            "tr": {
+              "title": "Enhancing Privacy",
+              "markdown": "edu/en/ethereum/security-and-privacy/enhancing-privacy.md"
+            },
+            "zh": {
+              "title": "Enhancing Privacy",
+              "markdown": "edu/en/ethereum/security-and-privacy/enhancing-privacy.md"
+            },
+            "ko": {
+              "title": "Enhancing Privacy",
+              "markdown": "edu/en/ethereum/security-and-privacy/enhancing-privacy.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Security Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/security-risks.md"
+            },
+            "ru": {
+              "title": "Security Risks",
+              "markdown": "edu/ru/ethereum/security-and-privacy/security-risks.md"
+            },
+            "de": {
+              "title": "Security Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/security-risks.md"
+            },
+            "es": {
+              "title": "Security Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/security-risks.md"
+            },
+            "fr": {
+              "title": "Security Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/security-risks.md"
+            },
+            "tr": {
+              "title": "Security Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/security-risks.md"
+            },
+            "zh": {
+              "title": "Security Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/security-risks.md"
+            },
+            "ko": {
+              "title": "Security Risks",
+              "markdown": "edu/en/ethereum/security-and-privacy/security-risks.md"
+            }
+          },
+          {
+            "en": {
+              "title": "Risks Using Stablecoins",
+              "markdown": "edu/en/ethereum/security-and-privacy/risks-using-stablecoins.md"
+            },
+            "ru": {
+              "title": "Risks Using Stablecoins",
+              "markdown": "edu/ru/ethereum/security-and-privacy/risks-using-stablecoins.md"
+            },
+            "de": {
+              "title": "Risks Using Stablecoins",
+              "markdown": "edu/en/ethereum/security-and-privacy/risks-using-stablecoins.md"
+            },
+            "es": {
+              "title": "Risks Using Stablecoins",
+              "markdown": "edu/en/ethereum/security-and-privacy/risks-using-stablecoins.md"
+            },
+            "fr": {
+              "title": "Risks Using Stablecoins",
+              "markdown": "edu/en/ethereum/security-and-privacy/risks-using-stablecoins.md"
+            },
+            "tr": {
+              "title": "Risks Using Stablecoins",
+              "markdown": "edu/en/ethereum/security-and-privacy/risks-using-stablecoins.md"
+            },
+            "zh": {
+              "title": "Risks Using Stablecoins",
+              "markdown": "edu/en/ethereum/security-and-privacy/risks-using-stablecoins.md"
+            },
+            "ko": {
+              "title": "Risks Using Stablecoins",
+              "markdown": "edu/en/ethereum/security-and-privacy/risks-using-stablecoins.md"
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
