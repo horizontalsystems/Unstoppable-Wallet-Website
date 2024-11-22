@@ -1,27 +1,27 @@
-# Tokens on Ethereum: ERC-20 & NFTs
+# Токены в Ethereum: ERC-20 и NFT
 
-Ethereum is much more than its native currency, Ether (ETH). One of its standout features is the ability to create and manage tokens that represent different assets or utilities on the blockchain. These tokens are controlled by smart contracts and can be programmed by developers to serve specific purposes.
+Ethereum — это гораздо больше, чем его нативная валюта Ether (ETH). Одной из его выдающихся особенностей является возможность создавать и управлять токенами, которые представляют различные активы или утилиты в блокчейне. Эти токены контролируются smart contracts и могут быть запрограммированы разработчиками для выполнения конкретных целей.
 
-For example, a token could represent a lottery entry, or give governance rights in a decentralized app (dApp). Two of the most widely used token types on Ethereum are **ERC-20 tokens** and **NFTs.**
+Например, токен может представлять лотерейный билет или давать права управления в децентрализованном приложении (dApp). Два наиболее широко используемых типа токенов в Ethereum — это **токены ERC-20** и **NFT**.
 
-## ERC-20 Tokens
+## Токены ERC-20
 
-ERC-20 tokens follow a widely-used standard that ensures all tokens created using this standard behave in a predictable manner. The common standard ensures that developers are able to build software apps (i.e. wallet apps, smart contracts) that can handle all tokens equally, rather than creating a separate wallet for each token. Also, tokens that follow ERC-20 standard are interchangeable, just like dollars, where one dollar is no different from another dollar. 
+Токены ERC-20 следуют широко используемому стандарту, который гарантирует, что все токены, созданные с использованием этого стандарта, ведут себя предсказуемым образом. Общий стандарт гарантирует, что разработчики могут создавать программные приложения (то есть приложения-кошельки, smart contracts), которые могут работать со всеми токенами одинаково, вместо создания отдельного кошелька для каждого токена. Кроме того, токены, следующие стандарту ERC-20, взаимозаменяемы, как доллары, где один доллар ничем не отличается от другого доллара.
 
-Stablecoins like **USDT** or **DAI**, which are tied to the value of traditional currencies, and governance tokens like **UNI**, which grant users the right to participate in decision-making on Uniswap DEX(decentralized token exchange), are common examples of ERC-20 tokens. 
+Стейблкоины, такие как **USDT** или **DAI**, привязанные к стоимости традиционных валют, и токены управления, такие как **UNI**, которые дают пользователям право участвовать в принятии решений на DEX (децентрализованной бирже токенов) Uniswap, являются распространенными примерами токенов ERC-20.
 
-These tokens can easily be transferred between Ethereum wallets and are compatible with a wide range of Ethereum-based apps and services, making them highly versatile and widely accepted across the network.
+Эти токены могут легко передаваться между кошельками Ethereum и совместимы с широким спектром приложений и сервисов на основе Ethereum, что делает их очень универсальными и широко принимаемыми в сети.
 
-## NFTs (Non-Fungible Tokens)
+## NFT (Non-Fungible Tokens)
 
-NFTs, or Non-Fungible Tokens, are unique tokens that represent one-of-a-kind assets on the Ethereum blockchain. Unlike ERC-20 tokens, NFTs are not interchangeable, as each token is distinct. 
+NFT, или Non-Fungible Tokens, — это уникальные токены, которые представляют единственные в своем роде активы в блокчейне Ethereum. В отличие от токенов ERC-20, NFT не взаимозаменяемы, так как каждый токен уникален.
 
-NFTs have gained significant popularity in industries like digital art, collectibles, and gaming, where proving ownership of unique digital items is essential.
+NFT получили значительную популярность в таких отраслях, как цифровое искусство, коллекционирование и игры, где важно доказать владение уникальными цифровыми предметами.
 
-NFTs can be used to represent anything from digital artwork to virtual real estate, and ownership is easily verifiable on the blockchain. This transparency has made NFTs a powerful tool for creators and collectors alike, providing a secure way to buy, sell, and trade digital assets.
+NFT могут использоваться для представления чего угодно, от цифровых произведений искусства до виртуальной недвижимости, и право собственности легко проверяется в блокчейне. Эта прозрачность сделала NFT мощным инструментом как для создателей, так и для коллекционеров, предоставляя безопасный способ покупки, продажи и обмена цифровыми активами.
 
-## Sending/Receiving ETH and ERC-20 Tokens
+## Отправка/Получение ETH и токенов ERC-20
 
-Tokens on Ethereum, such as **USDT**, can be stored, sent, and received just like regular cryptocurrencies, such as **ETH** or **BTC**. One key aspect of Ethereum wallets is that both **ETH**and **ERC-20**tokens share a common wallet address. This means that within the same wallet, your deposit address for ETH is the same as for any ERC-20 token, like **USDT** or **DAI**.
+Токены в Ethereum, такие как **USDT**, можно хранить, отправлять и получать так же, как обычные криптовалюты, такие как **ETH** или **BTC**. Ключевой особенностью кошельков Ethereum является то, что и **ETH**, и токены **ERC-20** используют общий адрес кошелька. Это означает, что в одном кошельке ваш адрес для депозита ETH такой же, как и для любого токена ERC-20, например, **USDT** или **DAI**.
 
-When sending ERC-20 tokens, it’s important to remember that **transaction fees must be paid in ETH**. This is because sending an ERC-20 token isn’t just a simple transfer—it involves interacting with the smart contract governing that specific token. For example, if you're sending **USDT**to someone, your wallet must interact with the USDT smart contract to complete the transaction, and the **gas fees** for that interaction are always paid in **ETH**.
+При отправке токенов ERC-20 важно помнить, что **комиссии за транзакции должны оплачиваться в ETH**. Это потому, что отправка токена ERC-20 — это не просто простой перевод, это взаимодействие со smart contract, управляющим этим конкретным токеном. Например, если вы отправляете **USDT** кому-то, ваш кошелек должен взаимодействовать со smart contract USDT для завершения транзакции, и **комиссии за газ** за это взаимодействие всегда оплачиваются в **ETH**.

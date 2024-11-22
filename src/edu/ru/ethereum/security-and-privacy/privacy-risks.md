@@ -1,11 +1,11 @@
-# **Privacy Risks**
+# **Риски конфиденциальности**
 
-Ethereum’s privacy model is different from Bitcoin’s. While Bitcoin users can use new addresses for each transaction to enhance privacy, Ethereum wallets typically rely on a single address. This has several implications:
+Модель конфиденциальности Ethereum отличается от Bitcoin. В то время как пользователи Bitcoin могут использовать новые адреса для каждой транзакции для улучшения конфиденциальности, кошельки Ethereum обычно полагаются на один адрес. Это имеет несколько последствий:
 
-- **Public Transaction History**: Anyone who knows your Ethereum address can see your entire transaction history, token balances, and interactions with decentralized apps (dApps). For instance, if you share your address to receive payment, the sender can see all your activity tied to that address.
+- **Публичная история транзакций**: Любой, кто знает ваш адрес Ethereum, может видеть всю вашу историю транзакций, балансы токенов и взаимодействия с децентрализованными приложениями (dApps). Например, если вы поделитесь своим адресом для получения платежа, отправитель может видеть всю вашу активность, связанную с этим адресом.
 
-- **Identity Linkage**: If you use Ethereum on platforms that require Know Your Customer (KYC) verification, such as centralized exchanges, your identity is tied to your address. This means exchanges that collect KYC data know both your on-chain activity and your real-world identity.
+- **Связь с личностью**: Если вы используете Ethereum на платформах, требующих верификации Know Your Customer (KYC), таких как централизованные биржи, ваша личность связана с вашим адресом. Это означает, что биржи, собирающие данные KYC, знают как вашу активность в сети, так и вашу реальную личность.
 
-- -**Wallet Isolation**: The privacy of one cryptocurrency in a wallet doesn’t affect the others. For example, while your Ethereum activity might be public, your Bitcoin holdings in the same wallet remain private. There’s no way for someone to infer your Bitcoin balance from your Ethereum address.
+- **Изоляция кошельков**: Конфиденциальность одной криптовалюты в кошельке не влияет на другие. Например, в то время как ваша активность в Ethereum может быть публичной, ваши holdings в Bitcoin в том же кошельке остаются приватными. Никто не может узнать ваш баланс Bitcoin из вашего адреса Ethereum.
 
-**Key Reminder**: Everything you do on Ethereum is permanent and public. Unlike web activity, blockchain data doesn’t disappear or get deleted, meaning it could be used against you in the future.
+**Важное напоминание**: Все, что вы делаете в Ethereum, постоянно и публично. В отличие от веб-активности, данные блокчейна не исчезают и не удаляются, что означает, что они могут быть использованы против вас в будущем.

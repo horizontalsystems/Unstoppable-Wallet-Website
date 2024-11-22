@@ -1,7 +1,7 @@
-# Complexity of Transactions
+# Сложность транзакций
 
-Not all transactions on Ethereum are alike. Some are straightforward, like sending ETH from one address to another, which involves just a single step.
+Не все транзакции в Ethereum одинаковы. Некоторые простые, как отправка ETH с одного адреса на другой, что включает всего один шаг.
 
-However, many transactions are more complex, especially those that involve interaction with decentralized apps (dApps) or smart contracts. For example, if you’re using a decentralized exchange (DEX) to swap tokens, a single transaction can trigger multiple steps—each managed automatically by Ethereum. Although complex behind the scenes, these actions are presented as one transaction to users, with Ethereum handling all steps in the background.
+Однако многие транзакции более сложные, особенно те, которые включают взаимодействие с децентрализованными приложениями (dApps) или smart contracts. Например, если вы используете децентрализованную биржу (DEX) для обмена токенов, одна транзакция может запускать несколько шагов — каждый из которых автоматически управляется Ethereum. Хотя за кулисами все сложно, эти действия представляются пользователям как одна транзакция, при этом Ethereum обрабатывает все шаги в фоновом режиме.
 
-More complex transactions take more computational resources on the side of validators and therefore more expensive to process. For instance a transaction, that may involve using some storage space on blockchain or perform extensive computation will be very expensive.
+Более сложные транзакции требуют больше вычислительных ресурсов со стороны валидаторов и поэтому дороже в обработке. Например, транзакция, которая может включать использование некоторого пространства для хранения в блокчейне или выполнять обширные вычисления, будет очень дорогой.

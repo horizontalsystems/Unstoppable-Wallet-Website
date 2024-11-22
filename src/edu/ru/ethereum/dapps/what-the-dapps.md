@@ -1,16 +1,16 @@
-# What are dApps?
+# Что такое dApps?
 
-Decentralized applications (dApps) are programs built on the Ethereum blockchain using smart contracts. A dApp can consist of one or more smart contracts working together to provide its features. Once a smart contract is deployed, its code is immutable—meaning it can’t be changed. This immutability ensures that a dApp will continue to operate exactly as initially programmed, giving users confidence in its reliability.
+Децентрализованные приложения (dApps) — это программы, построенные на блокчейне Ethereum с использованием smart contracts. dApp может состоять из одного или нескольких smart contracts, работающих вместе для обеспечения его функций. После развертывания smart contract его код неизменяем — то есть его нельзя изменить. Эта неизменяемость гарантирует, что dApp будет продолжать работать точно так, как изначально запрограммировано, давая пользователям уверенность в его надежности.
 
-The term **"trustless"** means users don’t need to trust any individual or organization to use the application; they only need to trust the code, which is visible and verifiable on the blockchain. Anyone can review exactly how a dApp functions by examining its smart contract code.
+Термин **"trustless"** означает, что пользователям не нужно доверять какому-либо человеку или организации для использования приложения; им нужно доверять только коду, который виден и проверяем в блокчейне. Любой может точно проверить, как работает dApp, изучив код его smart contract.
 
-dApps operate based on how their smart contracts are programmed:
+dApps работают на основе того, как запрограммированы их smart contracts:
 
-- Some are fully autonomous, running without any central authority.
-- Others have administrative features, giving specific addresses the ability to manage aspects of the dApp.
-- The level of decentralization depends on design choices made by the dApp developers.
+- Некоторые полностью автономны, работают без какого-либо центрального органа.
+- Другие имеют административные функции, дающие определенным адресам возможность управлять аспектами dApp.
+- Уровень децентрализации зависит от проектных решений, принятых разработчиками dApp.
 
-Common types of dApps include:
+Распространенные типы dApps включают:
 
-- **Decentralized Exchanges (DEXs)**: Such as Uniswap, where users can trade cryptocurrencies directly.
-- **Lending Platforms**: Like Aave, where users can lend or borrow crypto assets.
+- **Децентрализованные биржи (DEX)**: Такие как Uniswap, где пользователи могут напрямую торговать криптовалютами.
+- **Кредитные платформы**: Как Aave, где пользователи могут давать или брать в долг криптоактивы.

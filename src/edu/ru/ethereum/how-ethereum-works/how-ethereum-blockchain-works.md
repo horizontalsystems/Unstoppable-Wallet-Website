@@ -1,9 +1,9 @@
-# How Ethereum Blockchain Works
+# Как работает блокчейн Ethereum
 
-Both Ethereum and Bitcoin are made up of many computers all over the world, working together to maintain the blockchain and process transactions. The blockchain is a record of all transactions, and each computer has a copy of this record. To keep everything running smoothly, there needs to be a way to decide which computer will add the next set of transactions to the blockchain.
+И Ethereum, и Bitcoin состоят из множества компьютеров по всему миру, работающих вместе для поддержания блокчейна и обработки транзакций. Блокчейн — это запись всех транзакций, и у каждого компьютера есть копия этой записи. Чтобы все работало гладко, должен быть способ решить, какой компьютер добавит следующий набор транзакций в блокчейн.
 
-Bitcoin uses something called **Proof of Work (PoW)**. Here, thousands of computers (miners) compete to solve a hard puzzle. The first one to solve it adds the next set of transactions and gets rewarded with newly created Bitcoin and fees. The more computing power you have, the better your chances.
+Bitcoin использует то, что называется **Proof of Work (PoW)**. Здесь тысячи компьютеров (майнеров) соревнуются в решении сложной головоломки. Первый, кто решит ее, добавляет следующий набор транзакций и получает вознаграждение в виде новых Bitcoin и комиссий. Чем больше вычислительной мощности у вас есть, тем выше шансы.
 
-Ethereum used to work the same way, but now it uses something called**Proof of Stake (PoS)**. Instead of solving puzzles, people lock up (or “stake”) 32 ETH to become a validator. Validators are chosen randomly to add transactions to the blockchain, and they earn rewards in the form of ETH and fees. It’s random, so everyone who stakes has a chance.
+Ethereum раньше работал так же, но теперь использует то, что называется **Proof of Stake (PoS)**. Вместо решения головоломок, люди блокируют (или "стейкают") 32 ETH, чтобы стать валидатором. Валидаторы выбираются случайным образом для добавления транзакций в блокчейн и получают вознаграждение в виде ETH и комиссий. Это случайно, поэтому у каждого, кто делает стейкинг, есть шанс.
 
-If you don’t have 32 ETH, you can join a **staking pool**. In a pool, lots of people combine their ETH to meet the 32 ETH requirement and share the rewards. This way, even if you don’t have a lot of ETH, you can still earn rewards.
+Если у вас нет 32 ETH, вы можете присоединиться к **staking pool**. В пуле много людей объединяют свои ETH, чтобы соответствовать требованию в 32 ETH и делят вознаграждения. Таким образом, даже если у вас нет много ETH, вы все равно можете получать вознаграждения.

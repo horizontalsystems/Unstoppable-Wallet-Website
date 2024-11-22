@@ -1,20 +1,20 @@
-# Interacting with dApps
+Взаимодействие с dApps
 
-Most Ethereum wallet apps are designed for basic functions like storing, sending, and receiving ETH and ERC-20 tokens, but they don’t inherently support direct interaction with dApps. **WalletConnect** is a protocol that bridges this gap, allowing non-custodial wallets to connect and interact with any dApp on Ethereum.
+Большинство приложений-кошельков Ethereum разработаны для базовых функций, таких как хранение, отправка и получение ETH и токенов ERC-20, но они изначально не поддерживают прямое взаимодействие с dApps. **WalletConnect** — это протокол, который устраняет этот разрыв, позволяя некастодиальным кошелькам подключаться и взаимодействовать с любым dApp в Ethereum.
 
-For WalletConnect to work, both the wallet and dApp need to support it. Here’s how it works in practice:
+Чтобы WalletConnect работал, и кошелек, и dApp должны поддерживать его. Вот как это работает на практике:
 
-1. **Initiating Connection**:
-    - The user visits a dApp’s website, clicks “Connect Wallet,” and selects WalletConnect.
-    - A QR code appears (or a link activates if using a mobile device).
-   
-2. **Establishing Connection**:
-    - The user scans the QR code with their wallet app or clicks the link.
-    - The wallet app displays the connection request details.
-   
-3. **Ongoing Interaction**:
-- After connection is stablsihed the user appears “logged in” into the dApp.
-- One every action, the dApp requests transaction approvals, which appear in the wallet app.
-- The user reviews and approves or rejects transactions directly from their wallet.
-  
-WalletConnect provides enhanced security by keeping private keys within the wallet and eliminates the need to enter sensitive information on dApp websites. More importantly, it enables user to use their mobile wallet to interact with any dApp on Ethereum blockchain.
+1. **Инициация подключения**:
+   - Пользователь посещает веб-сайт dApp, нажимает "Connect Wallet" и выбирает WalletConnect.
+   - Появляется QR-код (или активируется ссылка при использовании мобильного устройства).
+
+2. **Установление соединения**:
+   - Пользователь сканирует QR-код своим приложением-кошельком или нажимает на ссылку.
+   - Приложение-кошелек отображает детали запроса на подключение.
+
+3. **Текущее взаимодействие**:
+- После установления соединения пользователь появляется "вошедшим в систему" в dApp.
+- При каждом действии dApp запрашивает одобрения транзакций, которые появляются в приложении-кошельке.
+- Пользователь просматривает и одобряет или отклоняет транзакции прямо из своего кошелька.
+
+WalletConnect обеспечивает повышенную безопасность, сохраняя приватные ключи внутри кошелька и устраняет необходимость вводить конфиденциальную информацию на веб-сайтах dApp. Что еще важнее, это позволяет пользователю использовать свой мобильный кошелек для взаимодействия с любым dApp в блокчейне Ethereum.

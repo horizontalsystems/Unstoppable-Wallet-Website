@@ -1,11 +1,11 @@
-# Cancelling/Speeding Up Transactions
+# Отмена/Ускорение транзакций
 
-Ethereum allows users to manage pending transactions by either speeding them up or canceling them. Both of these options rely on using the **same nonce**, a unique counter for each transaction coming from your wallet:
+Ethereum позволяет пользователям управлять ожидающими транзакциями, либо ускоряя их, либо отменяя. Оба эти варианта основаны на использовании **того же nonce**, уникального счетчика для каждой транзакции, исходящей из вашего кошелька:
 
-**Speeding Up:** If a transaction is taking too long, you can speed it up by sending a new, identical transaction with a higher gas price. Since both transactions share the same nonce, the network will prioritize the faster one with the higher fee.
+**Ускорение:** Если транзакция занимает слишком много времени, вы можете ускорить ее, отправив новую, идентичную транзакцию с более высокой ценой gas. Поскольку обе транзакции имеют один и тот же nonce, сеть отдаст приоритет более быстрой с более высокой комиссией.
 
-**Cancelling:** To cancel a transaction, you can send a new transaction with the same nonce, usually to yourself, with a higher gas price and no meaningful action (such as sending 0 ETH to your own address). This replaces the pending transaction, effectively canceling it.
+**Отмена:** Чтобы отменить транзакцию, вы можете отправить новую транзакцию с тем же nonce, обычно самому себе, с более высокой ценой gas и без значимого действия (например, отправка 0 ETH на свой собственный адрес). Это заменяет ожидающую транзакцию, фактически отменяя ее.
 
-The **nonce** isn’t a unique transaction ID like the ones shown in blockchain explorers; rather, it’s a counter for each transaction from a specific wallet. The first transaction you send has a nonce of 0, the next is 1, and so on. By reusing the same nonce, you can replace or cancel a pending transaction before it is confirmed.
+**Nonce** — это не уникальный ID транзакции, как те, что показываются в block explorers; скорее, это счетчик для каждой транзакции из определенного кошелька. Первая отправленная вами транзакция имеет nonce 0, следующая — 1, и так далее. Повторно используя тот же nonce, вы можете заменить или отменить ожидающую транзакцию до ее подтверждения.
 
-Not all wallets support these features, so it’s good to check if yours allows for speeding up or canceling transactions.
+Не все кошельки поддерживают эти функции, поэтому полезно проверить, позволяет ли ваш кошелек ускорять или отменять транзакции. CopyRetryClaude does not have the ability to run the code it generates yet.

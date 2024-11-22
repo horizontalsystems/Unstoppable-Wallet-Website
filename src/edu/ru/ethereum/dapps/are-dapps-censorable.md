@@ -1,16 +1,16 @@
-# Are dApps Censorable?
+# Можно ли цензурировать dApps?
 
-While dApps are designed to be censorship-resistant, in practice, censorship is more nuanced.
+Хотя dApps разработаны как устойчивые к цензуре, на практике цензура более нюансирована.
 
-Once a smart contract is deployed on Ethereum, it operates independently and cannot be restricted by any single entity. However, censorship can still occur at certain access points:
+После развертывания smart contract в Ethereum он работает независимо и не может быть ограничен каким-либо отдельным субъектом. Однако цензура все еще может происходить в определенных точках доступа:
 
-- Most users access dApps through websites, which can be taken down, blocked, or geo-restricted.
-- Webiste domain names can be seized, or DNS access blocked.
-- Website interfaces can be modified to prevent certain interactions.
+- Большинство пользователей получают доступ к dApps через веб-сайты, которые могут быть отключены, заблокированы или географически ограничены.
+- Доменные имена веб-сайтов могут быть изъяты, или доступ DNS может быть заблокирован.
+- Веб-интерфейсы могут быть изменены для предотвращения определенных взаимодействий.
 
-However, even if a main dApp website is censored, users still have options:
+Однако даже если основной веб-сайт dApp подвергается цензуре, у пользователей все еще есть варианты:
 
-- The smart contract remains fully functional on the blockchain.
-- Alternative websites can provide access to the dApp.
-- Users can interact directly with the contract through blockchain tools like block explorers.
-- Tech-savvy users can access the dApp’s full functionality independently.
+- Smart contract остается полностью функциональным в блокчейне.
+- Альтернативные веб-сайты могут предоставить доступ к dApp.
+- Пользователи могут взаимодействовать напрямую с контрактом через инструменты блокчейна, такие как block explorers.
+- Технически подкованные пользователи могут получить доступ к полной функциональности dApp самостоятельно.

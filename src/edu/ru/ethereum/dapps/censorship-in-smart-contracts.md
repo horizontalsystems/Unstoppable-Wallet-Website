@@ -1,20 +1,20 @@
-# Censorship in Smart Contracts
+# Цензура в Smart Contracts
 
-While smart contracts themselves are generally resistant to censorship, certain design choices introduced by smart contract builders can introduce control points. Infact, the dApp may be deliberately built to be restrictive from the very beginning. Nothing prevents people from building any kind of dApp they want. 
+Хотя сами smart contracts обычно устойчивы к цензуре, определенные проектные решения, внедренные создателями smart contracts, могут вводить точки контроля. Фактически, dApp может быть намеренно построен как ограничительный с самого начала. Ничто не мешает людям создавать любой тип dApp, который они хотят.
 
-**Contract Design Choices**:
+**Варианты дизайна контрактов**:
 
-- There are many smart contracts that include restrictions, such as blacklisting features.
-- Some contracts have admin users allowing certain addresses to manage functionality.
-- Some stablecoin token contracts (e.g., USDT) have functions to freeze accounts.
-- Some contracts can allow developers to modify or pause the contract behavior after deployment.
+- Существует много smart contracts, которые включают ограничения, такие как функции черного списка.
+- Некоторые контракты имеют админ-пользователей, позволяющих определенным адресам управлять функциональностью.
+- Некоторые контракты стейблкоинов (например, USDT) имеют функции для заморозки счетов.
+- Некоторые контракты могут позволять разработчикам изменять или приостанавливать поведение контракта после развертывания.
 
-True censorship resistance in a dApp usually requires:
+Истинная устойчивость к цензуре в dApp обычно требует:
 
-- No admin users or minimal administrative control.
-- Limited or no upgradeability.
-- Fully autonomous operations.
-- Decentralized hosting of the website.
-- Multiple access points for users.
+- Отсутствия админ-пользователей или минимального административного контроля.
+- Ограниченной или отсутствующей возможности обновления.
+- Полностью автономных операций.
+- Децентрализованного хостинга веб-сайта.
+- Множества точек доступа для пользователей.
 
-Understanding these aspects can help users assess the true censorship resistance of any dApp they wish to use.
+Понимание этих аспектов может помочь пользователям оценить истинную устойчивость к цензуре любого dApp, который они хотят использовать.

@@ -1,11 +1,11 @@
-# Wallets On Ethereum
+# Кошельки в Ethereum
 
-To interact with Ethereum, you need a non-custodial wallet app. An Ethereum wallet is an application that allows you to store, send, and receive Ether (ETH) and other Ethereum-based tokens. Most multi-currency, non-custodial wallet apps (e.g., Unstoppable Wallet) support Ethereum, making it easy for users to manage their assets on the platform.
+Для взаимодействия с Ethereum вам нужно некастодиальное приложение-кошелек. Кошелек Ethereum — это приложение, которое позволяет хранить, отправлять и получать Ether (ETH) и другие токены на основе Ethereum. Большинство мультивалютных, некастодиальных приложений-кошельков (например, Unstoppable Wallet) поддерживают Ethereum, что упрощает пользователям управление своими активами на платформе.
 
-There are a few key things to keep in mind about Ethereum wallets:
+Есть несколько ключевых моментов, которые нужно помнить о кошельках Ethereum:
 
-- **Single Address System:** Unlike Bitcoin, where a new address is generated for each transaction, Ethereum wallets typically use a single address for all your transactions. This means that all your Ethereum transactions and token balances are linked to the same public address.
-  
-- **Types of Wallets:** Non-custodial Ethereum wallets come in various forms, including mobile apps, browser extensions, and hardware wallets. Among these, browser extension wallets are generally the least secure.
+- **Система единого адреса:** В отличие от Bitcoin, где новый адрес генерируется для каждой транзакции, кошельки Ethereum обычно используют один адрес для всех ваших транзакций. Это означает, что все ваши транзакции Ethereum и балансы токенов привязаны к одному публичному адресу.
 
-- **Interacting with dApps:** Not all wallet apps come with the ability to interact with decentralized apps (dApps). While most wallets support basic send and receive functions, only certain wallets go further by allowing you to interact with dApps on the Ethereum blockchain. This functionality is usually provided through a feature called **WalletConnect**, which securely links your wallet to dApps. Not all wallet apps comes with **WalletConnect** feature.
+- **Типы кошельков:** Некастодиальные кошельки Ethereum бывают разных форм, включая мобильные приложения, расширения браузера и аппаратные кошельки. Среди них кошельки-расширения для браузера обычно наименее безопасны.
+
+- **Взаимодействие с dApps:** Не все приложения-кошельки имеют возможность взаимодействовать с децентрализованными приложениями (dApps). В то время как большинство кошельков поддерживают базовые функции отправки и получения, только определенные кошельки идут дальше, позволяя вам взаимодействовать с dApps в блокчейне Ethereum. Эта функциональность обычно предоставляется через функцию под названием **WalletConnect**, которая безопасно связывает ваш кошелек с dApps. Не все приложения-кошельки поставляются с функцией **WalletConnect**.

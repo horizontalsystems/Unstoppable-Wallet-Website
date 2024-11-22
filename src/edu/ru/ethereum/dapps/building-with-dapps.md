@@ -1,26 +1,26 @@
-# Building with dApps
+# Создание с помощью dApps
 
-One of Ethereum’s most powerful features is **composability**—dApps can work together like building blocks, much like LEGO pieces that can be combined in endless ways:
+Одна из самых мощных особенностей Ethereum — это **композируемость** — dApps могут работать вместе как строительные блоки, подобно деталям LEGO, которые можно комбинировать бесконечными способами:
 
-- A gaming dApp can use a marketplace dApp for trading items.
-- A lending dApp can use currency price feeds from another dApp.
-- Multiple dApps can be integrated together to create entirely new services.
+- Игровой dApp может использовать dApp marketplace для торговли предметами.
+- Кредитный dApp может использовать фиды цен валют из другого dApp.
+- Несколько dApps можно интегрировать вместе для создания совершенно новых сервисов.
 
-This composability allows complex transactions that can interact with multiple dApps in a single execution, which isn’t possible on simpler blockchains like Bitcoin.
+Эта композируемость позволяет выполнять сложные транзакции, которые могут взаимодействовать с несколькими dApps в одном выполнении, что невозможно в более простых блокчейнах, как Bitcoin.
 
-For example, a user could perform a series of actions in one transaction:
+Например, пользователь мог бы выполнить серию действий в одной транзакции:
 
-1. Borrow 1,000 USDT from a lending dApp.
-2. Use the USDT to buy ETH on a DEX (decentralized exchange).
-3. Swap the ETH for a different token on another DEX (decentralized exchange).
-4. Repay the 1,000 USDT loan.
-5. Keep the remaining balance as profit.
+1. Взять в долг 1,000 USDT из кредитного dApp.
+2. Использовать USDT для покупки ETH на DEX (децентрализованной бирже).
+3. Обменять ETH на другой токен на другом DEX (децентрализованной бирже).
+4. Погасить заем в 1,000 USDT.
+5. Оставить оставшийся баланс как прибыль.
 
-All steps occur atomically—meaning they either all succeed or fail together. While powerful, complex multi-dApp transactions require more resources and result in higher transaction fees, which can reach $500 or more during peak network activity.
+Все шаги происходят атомарно — то есть они либо все успешно выполняются, либо все проваливаются вместе. Хотя это мощно, сложные мульти-dApp транзакции требуют больше ресурсов и приводят к более высоким комиссиям за транзакции, которые могут достигать $500 и более во время пиковой активности сети.
 
-In addition to blockchain transaction fees, dApps may charge their own fees for specific actions. For example, when swapping tokens on a DEX like Uniswap, you pay:
+Помимо комиссий за транзакции в блокчейне, dApps могут взимать свои собственные комиссии за определенные действия. Например, при обмене токенов на DEX, как Uniswap, вы платите:
 
-1. The transaction fee (gas fee) to Ethereum network validators.
-2. A 0.3% trading fee that goes to Uniswap’s smart contract.
+1. Комиссию за транзакцию (комиссию за gas) валидаторам сети Ethereum.
+2. Торговую комиссию 0.3%, которая идет в smart contract Uniswap.
 
-These fees may be designed to support the dApp’s protocol. In case of DEXes fees typically reward liquidity providers. It changes from dApp to dApp, based on how it was built.
+Эти комиссии могут быть разработаны для поддержки протокола dApp. В случае DEX комиссии обычно вознаграждают поставщиков ликвидности. Это меняется от dApp к dApp, в зависимости от того, как он был построен.

@@ -1,25 +1,25 @@
-# Security Risks
+# Риски безопасности
 
-Ethereum brings unique security risks, in addition to standard precautions like keeping your mnemonic phrase private and ensuring secure backups. Below are the key risks to be aware of:
+Ethereum несет уникальные риски безопасности, в дополнение к стандартным мерам предосторожности, таким как сохранение в тайне мнемонической фразы и обеспечение безопасных резервных копий. Ниже приведены ключевые риски, о которых нужно знать:
 
-**Smart Contract Hacks**
-dApps are powered by smart contracts, which are trustless but can sometimes contain bugs or vulnerabilities. Malicious actors can exploit these flaws to steal funds. Once funds are lost due to a hack, recovery is almost impossible. Always research a dApp’s history and audit status before using it.
+**Взломы Smart Contract**
+dApps работают на smart contracts, которые являются trustless, но иногда могут содержать баги или уязвимости. Злоумышленники могут использовать эти недостатки для кражи средств. После потери средств из-за взлома восстановление практически невозможно. Всегда исследуйте историю dApp и статус аудита перед его использованием.
 
 **Rug Pulls**
 
-Some dApps are created with malicious intent. Developers may promote a dApp to attract users and funds, then withdraw those funds from the smart contract and disappear. These scams are often referred to as "rug pulls." To protect yourself:
+Некоторые dApps создаются со злым умыслом. Разработчики могут продвигать dApp для привлечения пользователей и средств, затем вывести эти средства из smart contract и исчезнуть. Эти мошенничества часто называются "rug pulls." Чтобы защитить себя:
 
-- Verify the team behind the dApp.
-- Check if the smart contract has admin privileges that allow unrestricted access to funds.
-- Look for audits or reviews from trusted sources.
-  
-**Phishing Attacks**
+- Проверяйте команду, стоящую за dApp.
+- Проверяйте, имеет ли smart contract админ-привилегии, которые позволяют неограниченный доступ к средствам.
+- Ищите аудиты или отзывы из надежных источников.
 
-Phishing attacks are one of the most common threats in the Ethereum ecosystem. Always double-check URLs and ensure you are using the legitimate service rather than a malicious imitation. Here are some specific examples:
+**Фишинговые атаки**
 
-- **MetaMask Targeting**: Scammers may trick users into revealing signing unauthorized transactions. Avoid signing transactions if you don’t fully understand them, and use wallets with minimal funds for testing dApps.
-- **WalletConnect Targeting**: Fake dApps can exploit WalletConnect to trick users into signing malicious transactions. The rule of thumb is to only use WalletConnect on trusted websites or services you are certain about.
+Фишинговые атаки являются одними из самых распространенных угроз в экосистеме Ethereum. Всегда проверяйте URL и убедитесь, что вы используете легитимный сервис, а не злонамеренную имитацию. Вот несколько конкретных примеров:
 
-**Address Poisoning Attacks**
+- **Таргетинг на MetaMask**: Мошенники могут обманом заставить пользователей подписывать неавторизованные транзакции. Избегайте подписания транзакций, если вы полностью не понимаете их, и используйте кошельки с минимальными средствами для тестирования dApps.
+- **Таргетинг на WalletConnect**: Поддельные dApps могут использовать WalletConnect для обмана пользователей, чтобы они подписывали вредоносные транзакции. Правило большого пальца — использовать WalletConnect только на доверенных веб-сайтах или сервисах, в которых вы уверены.
 
-In this tactic, attackers send tiny amounts of ETH or other token or tokens to your wallet from an address that looks very similar to one you’ve interacted with before. The goal is to confuse you into sending funds to their fake address. This works because users usually interact with the same addresses over and over (i.e. deposit to crypto exchange account) and typically copy the address from transactions history. Always double-check the recipient address before confirming a transaction.
+**Атаки с отравлением адреса**
+
+В этой тактике атакующие отправляют крошечные суммы ETH или других токенов на ваш кошелек с адреса, который выглядит очень похоже на тот, с которым вы взаимодействовали раньше. Цель — запутать вас, чтобы вы отправили средства на их поддельный адрес. Это работает, потому что пользователи обычно взаимодействуют с одними и теми же адресами снова и снова (например, депозит на аккаунт криптобиржи) и обычно копируют адрес из истории транзакций. Всегда проверяйте адрес получателя перед подтверждением транзакции. CopyRetryClaude does not have the ability to run the code it generates yet.Claude can make mistakes. Please double-check responses.

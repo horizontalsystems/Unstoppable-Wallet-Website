@@ -1,23 +1,24 @@
-# Risks Using Stablecoins
+# Риски использования стейблкоинов
 
-Stablecoins are among the most popular tokens on Ethereum. They address one of crypto’s biggest challenges: volatility, by maintaining a steady value, typically pegged to a traditional currency like the US Dollar. However, they come with distinct risks:
+Стейблкоины являются одними из самых популярных токенов в Ethereum. Они решают одну из самых больших проблем крипто: волатильность, поддерживая стабильную стоимость, обычно привязанную к традиционной валюте, как доллар США. Однако они связаны с определенными рисками:
 
 **USDT (Tether)**
 
-- **Centralized Control**: Managed by Tether Limited, USDT operates under centralized oversight. Its smart contract includes administrative functions, such as freezing balances or blocking transactions—even in non-custodial wallets.
-- **Trust Required**: Users must rely on Tether Limited to maintain sufficient USD reserves to back the stablecoin. Its value depends heavily on the company’s banking relationships and regulatory compliance.
-- **Censorship Risk**: Tether Limited can freeze USDT holdings at any time, posing a risk to users in certain jurisdictions or situations.
+- **Централизованный контроль**: Управляемый Tether Limited, USDT работает под централизованным надзором. Его smart contract включает административные функции, такие как заморозка балансов или блокировка транзакций — даже в некастодиальных кошельках.
+- **Требуется доверие**: Пользователи должны полагаться на Tether Limited в поддержании достаточных резервов USD для обеспечения стейблкоина. Его стоимость сильно зависит от банковских отношений компании и соответствия регулятивным требованиям.
+- **Риск цензуры**: Tether Limited может заморозить holdings USDT в любое время, создавая риск для пользователей в определенных юрисдикциях или ситуациях.
 
-**Important Note:** Holding large USDT balances long-term is not advisable, particularly for businesses like crypto exchange bureaus. Even a single interaction with a flagged user can result in your account being frozen due to anti-money laundering systems.
+**Важное примечание:** Держать большие балансы USDT долгосрочно не рекомендуется, особенно для бизнесов, таких как криптообменные бюро. Даже одно взаимодействие с помеченным пользователем может привести к заморозке вашего счета из-за систем борьбы с отмыванием денег.
 
 **DAI**
 
-- **Decentralized**: Created by MakerDAO, DAI operates without a central authority. No one can freeze your DAI or block transactions.
-- **Crypto-Backed**: DAI maintains its $1 value through collateral held in smart contracts, primarily ETH.
-- **Transparent**: DAI’s mechanisms are fully on-chain, meaning anyone can verify how it works.
+- **Децентрализован**: Созданный MakerDAO, DAI работает без центрального органа. Никто не может заморозить ваш DAI или заблокировать транзакции.
+- **Обеспечен криптовалютой**: DAI поддерживает свою стоимость в $1 через обеспечение, хранящееся в smart contracts, в основном ETH.
+- **Прозрачен**: Механизмы DAI полностью в сети, что означает, что любой может проверить, как он работает.
 
-While DAI offers stronger censorship resistance, it’s less widely supported by exchanges compared to USDT. This limits its accessibility in certain scenarios.
+Хотя DAI предлагает более сильную устойчивость к цензуре, он менее широко поддерживается биржами по сравнению с USDT. Это ограничивает его доступность в определенных сценариях.
 
-**Key Takeaway**
+**Ключевой вывод**
 
-USDT remains the most popular stablecoin but comes with significant risks tied to its centralized nature, including censorship and reliance on Tether Limited. On the other hand, DAI provides greater privacy and censorship resistance, making it a better choice for users concerned about these risks.
+USDT остается самым популярным стейблкоином, но связан со значительными рисками из-за своей централизованной природы, включая цензуру и зависимость от Tether Limited. С другой стороны, DAI обеспечивает большую конфиденциальность и устойчивость к цензуре, делая его лучшим выбором для пользователей, обеспокоенных этими рисками.
+

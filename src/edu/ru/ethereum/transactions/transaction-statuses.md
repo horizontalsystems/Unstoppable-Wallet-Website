@@ -1,11 +1,11 @@
-# Transaction Statuses
+# Статусы транзакций
 
-After you submit a transaction, it goes through a few phases before completion. Knowing these phases can help you track its progress:
+После отправки транзакции она проходит несколько фаз перед завершением. Знание этих фаз может помочь вам отслеживать ее прогресс:
 
-- **Pending:** Initially, a transaction enters the pending stage, waiting for a validator (similar to miners on Bitcoin) to include it in a block. If the network is busy, pending times can increase unless you’ve paid a higher gas price for priority.
+- **В ожидании:** Изначально транзакция входит в стадию ожидания, ожидая, пока валидатор (аналогично майнерам в Bitcoin) включит ее в блок. Если сеть загружена, время ожидания может увеличиваться, если вы не заплатили более высокую цену gas за приоритет.
 
-- **Confirmed:** Once a validator includes the transaction in a block, it becomes confirmed, meaning it’s completed, and the funds are transferred.
+- **Подтверждена:** Когда валидатор включает транзакцию в блок, она становится подтвержденной, что означает ее завершение и перевод средств.
 
-- **Failed:** If there’s an issue, like running out of gas, the transaction may fail, and you’ll need to try again. Even for failed transactions, some gas fees may still apply, so it’s best to stick with the recommended fees unless you’re experienced and understand the steps involved.
+- **Не удалась:** Если возникает проблема, например, заканчивается gas, транзакция может не удаться, и вам нужно будет попробовать снова. Даже для неудачных транзакций некоторые комиссии за gas все равно могут применяться, поэтому лучше придерживаться рекомендуемых комиссий, если вы не опытны и не понимаете участвующие шаги.
 
-To check transaction status, you can use tools called **block explorers** like Etherscan or Blockchair. These let you view details about your transactions, including times, fees, and specific actions.
+Для проверки статуса транзакции вы можете использовать инструменты, называемые **block explorers**, такие как Etherscan или Blockchair. Они позволяют просматривать детали ваших транзакций, включая время, комиссии и конкретные действия.
