@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Get Unstoppable wallet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      const onLoad = () => {
+        const urlParams = new URLSearchParams(window.location.search)
+        const v = urlParams.get('v')
+        const id = urlParams.get('id')
+        const r = urlParams.get('r')
+        const ret = urlParams.get('ret')
+        const url = `unstoppable.money://tc?v=${v}&id=${id}&r=${r}&ret=${ret}`
+        location.replace(url)
+
+        const link = document.getElementById('open-wallet')
+        link.href = url
+      }
+
+      document.addEventListener('DOMContentLoaded', onLoad);
+    </script>
+    <style>
+      :root {
+        --rt-color-white: #fff;
+        --rt-color-dark: #222;
+        --rt-color-success: #8dc572;
+        --rt-color-error: #be6464;
+        --rt-color-warning: #f0ad4e;
+        --rt-color-info: #337ab7;
+        --rt-opacity: 0.9
+      }
+
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: #000 !important;
+        color: #fff !important;
+        font-size: 62.6%;
+        padding: 0
+      }
+
+      @media (min-width: 768px) {
+      }
+
+      @media (max-width: 768px) {
+        .sm-hidden {
+          display: none
+        }
+      }
+
+      .Container {
+        word-wrap: break-word;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 100%
+      }
+
+      @media (max-width: 768px) {
+        .Container {
+          max-width: 540px;
+          padding: 0 24px
+        }
+      }
+
+      @media (min-width: 768px) {
+        .Container {
+          max-width: 720px
+        }
+      }
+
+      @media (min-width: 992px) {
+        .Container {
+          max-width: 960px
+        }
+      }
+
+      @media (min-width: 1200px) {
+        .Container {
+          max-width: 1170px
+        }
+      }
+
+      @media (min-width: 1441px) {
+        .Container {
+          max-width: 1530px
+        }
+      }
+
+      .Container-clipped {
+        overflow: hidden
+      }
+
+      .nav-logo path {
+        fill: #252933
+      }
+
+      .Button {
+        align-items: center;
+        border-radius: 8px;
+        color: #808085;
+        cursor: pointer;
+        display: flex;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        padding: 10px 24px;
+        text-decoration: none;
+      }
+
+      @media (max-width: 768px) {
+        .Button {
+          justify-content: center
+        }
+      }
+
+      @media (min-width: 768px) {
+        .Button {
+          padding: 6px 20px
+        }
+      }
+
+      @media (min-width: 992px) {
+        .Button {
+          padding: 10px 24px;
+        }
+      }
+
+      .Button .Icon, .Button svg {
+        margin-right: 8px
+      }
+
+      .Button:focus {
+        outline: none
+      }
+
+      .Button:disabled {
+        background: rgba(110, 120, 153, .2);
+        color: hsla(240, 2%, 51%, .502);
+        cursor: not-allowed
+      }
+
+      .Button-circle {
+        border-radius: 40px
+      }
+
+      .Button-nowrap {
+        white-space: nowrap
+      }
+
+      .Button-download {
+        padding: 10px 0
+      }
+
+      @media (max-width: 768px) {
+        .Button-download .Button-text {
+          display: none
+        }
+      }
+
+      .Button-circle-yellow path {
+        fill: #fff
+      }
+
+      .Button-yellow {
+        background: #ffa800;
+        color: #13151a
+      }
+
+      .Button-yellow:enabled:hover {
+        background: #ffab0a
+      }
+
+      .Button-steal20 {
+        background: rgba(110, 120, 153, .2);
+        color: #fff
+      }
+
+      .Button-steal20:enabled:hover {
+        background: rgba(116, 126, 157, .2)
+      }
+
+      .Wallet-actions {
+        grid-gap: 20px;
+        align-self: flex-start;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr
+      }
+
+      @media (max-width: 768px) {
+        .Wallet-actions {
+          width: 100%
+        }
+      }
+
+      .Banner-actions {
+        grid-gap: 20px;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .Banner-actions > a {
+        justify-self: center;
+      }
+
+      @media (max-width: 768px) {
+        .Banner-actions {
+          grid-gap: 16px;
+          align-self: center;
+          grid-template-columns: 1fr;
+          width: 100%
+        }
+
+        .Banner-actions > a {
+          justify-self: unset;
+        }
+      }
+
+      .Banner-links {
+        grid-gap: 20px;
+        align-self: flex-start;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: 1fr 1fr min-content min-content
+      }
+
+      @media (max-width: 768px) {
+        .Banner-links {
+          grid-gap: 16px;
+          align-self: center;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          width: 100%
+        }
+      }
+
+      .Wc {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 100px 0
+      }
+
+      /*!
+       * Bootstrap  v5.3.0 (https://getbootstrap.com/)
+       * Copyright 2011-2023 The Bootstrap Authors
+       * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+       */
+      :root, [data-bs-theme=light] {
+        --bs-blue: #0d6efd;
+        --bs-indigo: #6610f2;
+        --bs-purple: #6f42c1;
+        --bs-pink: #d63384;
+        --bs-red: #dc3545;
+        --bs-orange: #fd7e14;
+        --bs-yellow: #ffa800;
+        --bs-green: #05c46b;
+        --bs-teal: #20c997;
+        --bs-cyan: #0dcaf0;
+        --bs-black: #000;
+        --bs-white: #fff;
+        --bs-gray: #6c757d;
+        --bs-gray-dark: #343a40;
+        --bs-gray-100: #f8f9fa;
+        --bs-gray-200: #e9ecef;
+        --bs-gray-300: #dee2e6;
+        --bs-gray-400: #ced4da;
+        --bs-gray-500: #adb5bd;
+        --bs-gray-600: #6c757d;
+        --bs-gray-700: #495057;
+        --bs-gray-800: #343a40;
+        --bs-gray-900: #212529;
+        --bs-primary: #0d6efd;
+        --bs-secondary: #6c757d;
+        --bs-success: #05c46b;
+        --bs-info: #0dcaf0;
+        --bs-warning: #ffa800;
+        --bs-danger: #dc3545;
+        --bs-light: #f5f5f5;
+        --bs-dark: #13151a;
+        --bs-primary-rgb: 13, 110, 253;
+        --bs-secondary-rgb: 108, 117, 125;
+        --bs-success-rgb: 5, 196, 107;
+        --bs-info-rgb: 13, 202, 240;
+        --bs-warning-rgb: 255, 168, 0;
+        --bs-danger-rgb: 220, 53, 69;
+        --bs-light-rgb: 245, 245, 245;
+        --bs-dark-rgb: 19, 21, 26;
+        --bs-primary-text-emphasis: #052c65;
+        --bs-secondary-text-emphasis: #2b2f32;
+        --bs-success-text-emphasis: #024e2b;
+        --bs-info-text-emphasis: #055160;
+        --bs-warning-text-emphasis: #664300;
+        --bs-danger-text-emphasis: #58151c;
+        --bs-light-text-emphasis: #495057;
+        --bs-dark-text-emphasis: #495057;
+        --bs-primary-bg-subtle: #cfe2ff;
+        --bs-secondary-bg-subtle: #e2e3e5;
+        --bs-success-bg-subtle: #cdf3e1;
+        --bs-info-bg-subtle: #cff4fc;
+        --bs-warning-bg-subtle: #fec;
+        --bs-danger-bg-subtle: #f8d7da;
+        --bs-light-bg-subtle: #fcfcfd;
+        --bs-dark-bg-subtle: #ced4da;
+        --bs-primary-border-subtle: #9ec5fe;
+        --bs-secondary-border-subtle: #c4c8cb;
+        --bs-success-border-subtle: #9be7c4;
+        --bs-info-border-subtle: #9eeaf9;
+        --bs-warning-border-subtle: #ffdc99;
+        --bs-danger-border-subtle: #f1aeb5;
+        --bs-light-border-subtle: #e9ecef;
+        --bs-dark-border-subtle: #adb5bd;
+        --bs-white-rgb: 255, 255, 255;
+        --bs-black-rgb: 0, 0, 0;
+        --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        --bs-gradient: linear-gradient(180deg, hsla(0, 0%, 100%, .15), hsla(0, 0%, 100%, 0));
+        --bs-body-font-family: "Noto Sans", sans-serif;
+        --bs-body-font-size: 1rem;
+        --bs-body-font-weight: 400;
+        --bs-body-line-height: 1.5;
+        --bs-body-color: #212529;
+        --bs-body-color-rgb: 33, 37, 41;
+        --bs-body-bg: #fff;
+        --bs-body-bg-rgb: 255, 255, 255;
+        --bs-emphasis-color: #000;
+        --bs-emphasis-color-rgb: 0, 0, 0;
+        --bs-secondary-color: rgba(33, 37, 41, .75);
+        --bs-secondary-color-rgb: 33, 37, 41;
+        --bs-secondary-bg: #e9ecef;
+        --bs-secondary-bg-rgb: 233, 236, 239;
+        --bs-tertiary-color: rgba(33, 37, 41, .5);
+        --bs-tertiary-color-rgb: 33, 37, 41;
+        --bs-tertiary-bg: #f8f9fa;
+        --bs-tertiary-bg-rgb: 248, 249, 250;
+        --bs-heading-color: inherit;
+        --bs-link-color: #0d6efd;
+        --bs-link-color-rgb: 13, 110, 253;
+        --bs-link-decoration: underline;
+        --bs-link-hover-color: #0a58ca;
+        --bs-link-hover-color-rgb: 10, 88, 202;
+        --bs-code-color: #d63384;
+        --bs-highlight-bg: #fec;
+        --bs-border-width: 1px;
+        --bs-border-style: solid;
+        --bs-border-color: rgba(110, 120, 153, .2);
+        --bs-border-color-translucent: rgba(0, 0, 0, .175);
+        --bs-border-radius: .375rem;
+        --bs-border-radius-sm: .25rem;
+        --bs-border-radius-lg: .5rem;
+        --bs-border-radius-xl: 1rem;
+        --bs-border-radius-xxl: 2rem;
+        --bs-border-radius-2xl: var(--bs-border-radius-xxl);
+        --bs-border-radius-pill: 50rem;
+        --bs-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
+        --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, .075);
+        --bs-box-shadow-lg: 0 1rem 3rem rgba(0, 0, 0, .175);
+        --bs-box-shadow-inset: inset 0 1px 2px rgba(0, 0, 0, .075);
+        --bs-focus-ring-width: .25rem;
+        --bs-focus-ring-opacity: .25;
+        --bs-focus-ring-color: rgba(13, 110, 253, .25);
+        --bs-form-valid-color: #05c46b;
+        --bs-form-valid-border-color: #05c46b;
+        --bs-form-invalid-color: #dc3545;
+        --bs-form-invalid-border-color: #dc3545
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        :root {
+          scroll-behavior: smooth
+        }
+      }
+
+      body {
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        background-color: #fff;
+        background-color: var(--bs-body-bg);
+        color: #212529;
+        color: var(--bs-body-color);
+        font-family: Noto Sans, sans-serif;
+        font-family: var(--bs-body-font-family);
+        font-size: 1rem;
+        font-size: var(--bs-body-font-size);
+        font-weight: 400;
+        font-weight: var(--bs-body-font-weight);
+        line-height: 1.5;
+        line-height: var(--bs-body-line-height);
+        margin: 0;
+      }
+
+      img, svg {
+        vertical-align: middle
+      }
+
+      :root {
+        --bs-breakpoint-xs: 0;
+        --bs-breakpoint-sm: 576px;
+        --bs-breakpoint-md: 768px;
+        --bs-breakpoint-lg: 992px;
+        --bs-breakpoint-xl: 1200px;
+        --bs-breakpoint-xxl: 1400px
+      }
+
+      .row > * {
+        flex-shrink: 0;
+        margin-top: var(--bs-gutter-y);
+        max-width: 100%;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        width: 100%
+      }
+
+      .row-cols-auto > * {
+        flex: 0 0 auto;
+        width: auto
+      }
+
+      .row-cols-1 > * {
+        flex: 0 0 auto;
+        width: 100%
+      }
+
+      .row-cols-2 > * {
+        flex: 0 0 auto;
+        width: 50%
+      }
+
+      .row-cols-3 > * {
+        flex: 0 0 auto;
+        width: 33.33333%
+      }
+
+      .row-cols-4 > * {
+        flex: 0 0 auto;
+        width: 25%
+      }
+
+      .row-cols-5 > * {
+        flex: 0 0 auto;
+        width: 20%
+      }
+
+      .row-cols-6 > * {
+        flex: 0 0 auto;
+        width: 16.66667%
+      }
+
+      @media (min-width: 576px) {
+        .row-cols-sm-auto > * {
+          flex: 0 0 auto;
+          width: auto
+        }
+
+        .row-cols-sm-1 > * {
+          flex: 0 0 auto;
+          width: 100%
+        }
+
+        .row-cols-sm-2 > * {
+          flex: 0 0 auto;
+          width: 50%
+        }
+
+        .row-cols-sm-3 > * {
+          flex: 0 0 auto;
+          width: 33.33333%
+        }
+
+        .row-cols-sm-4 > * {
+          flex: 0 0 auto;
+          width: 25%
+        }
+
+        .row-cols-sm-5 > * {
+          flex: 0 0 auto;
+          width: 20%
+        }
+
+        .row-cols-sm-6 > * {
+          flex: 0 0 auto;
+          width: 16.66667%
+        }
+      }
+
+      @media (min-width: 768px) {
+        .row-cols-md-auto > * {
+          flex: 0 0 auto;
+          width: auto
+        }
+
+        .row-cols-md-1 > * {
+          flex: 0 0 auto;
+          width: 100%
+        }
+
+        .row-cols-md-2 > * {
+          flex: 0 0 auto;
+          width: 50%
+        }
+
+        .row-cols-md-3 > * {
+          flex: 0 0 auto;
+          width: 33.33333%
+        }
+
+        .row-cols-md-4 > * {
+          flex: 0 0 auto;
+          width: 25%
+        }
+
+        .row-cols-md-5 > * {
+          flex: 0 0 auto;
+          width: 20%
+        }
+
+        .row-cols-md-6 > * {
+          flex: 0 0 auto;
+          width: 16.66667%
+        }
+
+      }
+
+      @media (min-width: 992px) {
+        .row-cols-lg-auto > * {
+          flex: 0 0 auto;
+          width: auto
+        }
+
+        .row-cols-lg-1 > * {
+          flex: 0 0 auto;
+          width: 100%
+        }
+
+        .row-cols-lg-2 > * {
+          flex: 0 0 auto;
+          width: 50%
+        }
+
+        .row-cols-lg-3 > * {
+          flex: 0 0 auto;
+          width: 33.33333%
+        }
+
+        .row-cols-lg-4 > * {
+          flex: 0 0 auto;
+          width: 25%
+        }
+
+        .row-cols-lg-5 > * {
+          flex: 0 0 auto;
+          width: 20%
+        }
+
+        .row-cols-lg-6 > * {
+          flex: 0 0 auto;
+          width: 16.66667%
+        }
+
+      }
+
+      @media (min-width: 1200px) {
+
+        .row-cols-xl-auto > * {
+          flex: 0 0 auto;
+          width: auto
+        }
+
+        .row-cols-xl-1 > * {
+          flex: 0 0 auto;
+          width: 100%
+        }
+
+        .row-cols-xl-2 > * {
+          flex: 0 0 auto;
+          width: 50%
+        }
+
+        .row-cols-xl-3 > * {
+          flex: 0 0 auto;
+          width: 33.33333%
+        }
+
+        .row-cols-xl-4 > * {
+          flex: 0 0 auto;
+          width: 25%
+        }
+
+        .row-cols-xl-5 > * {
+          flex: 0 0 auto;
+          width: 20%
+        }
+
+        .row-cols-xl-6 > * {
+          flex: 0 0 auto;
+          width: 16.66667%
+        }
+
+      }
+
+      @media (min-width: 1400px) {
+        .row-cols-xxl-auto > * {
+          flex: 0 0 auto;
+          width: auto
+        }
+
+        .row-cols-xxl-1 > * {
+          flex: 0 0 auto;
+          width: 100%
+        }
+
+        .row-cols-xxl-2 > * {
+          flex: 0 0 auto;
+          width: 50%
+        }
+
+        .row-cols-xxl-3 > * {
+          flex: 0 0 auto;
+          width: 33.33333%
+        }
+
+        .row-cols-xxl-4 > * {
+          flex: 0 0 auto;
+          width: 25%
+        }
+
+        .row-cols-xxl-5 > * {
+          flex: 0 0 auto;
+          width: 20%
+        }
+
+        .row-cols-xxl-6 > * {
+          flex: 0 0 auto;
+          width: 16.66667%
+        }
+      }
+
+      .d-flex {
+        display: flex !important
+      }
+
+      .border-0 {
+        border: 0 !important
+      }
+
+      .w-100 {
+        width: 100% !important
+      }
+
+      .flex-column {
+        flex-direction: column !important
+      }
+
+      .justify-content-center {
+        justify-content: center !important
+      }
+
+      .my-5 {
+        margin-bottom: 3rem !important;
+        margin-top: 3rem !important
+      }
+
+      .mt-2 {
+        margin-top: .5rem !important
+      }
+
+      .mt-5 {
+        margin-top: 3rem !important
+      }
+
+      .mb-4 {
+        margin-bottom: 1.5rem !important
+      }
+
+      .mb-5 {
+        margin-bottom: 3rem !important
+      }
+
+      .fs-3 {
+        font-size: calc(1.3rem + .6vw) !important
+      }
+
+      .text-center {
+        text-align: center !important
+      }
+
+      .text-decoration-none {
+        text-decoration: none !important
+      }
+
+      .text-dark {
+        color: #13151a
+      }
+
+      @media (min-width: 1200px) {
+        .fs-3 {
+          font-size: 1.75rem !important
+        }
+      }
+
+      @media print {
+        .d-print-inline {
+          display: inline !important
+        }
+
+        .d-print-inline-block {
+          display: inline-block !important
+        }
+
+        .d-print-block {
+          display: block !important
+        }
+
+        .d-print-grid {
+          display: grid !important
+        }
+
+        .d-print-inline-grid {
+          display: inline-grid !important
+        }
+
+        .d-print-table {
+          display: table !important
+        }
+
+        .d-print-table-row {
+          display: table-row !important
+        }
+
+        .d-print-table-cell {
+          display: table-cell !important
+        }
+
+        .d-print-flex {
+          display: flex !important
+        }
+
+        .d-print-inline-flex {
+          display: inline-flex !important
+        }
+
+        .d-print-none {
+          display: none !important
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="Container-clipped Container">
+      <div class="Wc">
+        <div class="mt-5 d-flex flex-column justify-content-center">
+          <div class="w-100">
+            <div class="mb-5 text-center"><img class="Icon" src="/images/icon/uw.svg" alt=""></div>
+            <div class="fs-3 text-center">Redirecting to Unstoppable Wallet</div>
+            <div class="Button Button-yellow Button-circle my-5 border-0 justify-content-center">
+              <a id="open-wallet" href="unstoppable.money://wc?uri=" class="text-dark text-decoration-none">Open Wallet</a>
+            </div>
+          </div>
+          <div class="mt-2">
+            <div class="fs-3 text-center mb-4">Don’t have the app?</div>
+            <div class="Wallet-actions">
+              <div class="Banner-actions">
+                <a class="Button Button-steal20 Button-circle Button-nowrap Button-steal20"
+                   href="https://play.google.com/store/apps/details?id=io.horizontalsystems.bankwallet">
+                  <img class="Icon" src="/images/icon/google-play-yellow.svg" alt="">
+                  <div class="Button-text">Google Play</div>
+                </a>
+                <a class="Button Button-steal20 Button-circle Button-nowrap Button-steal20"
+                   href="https://itunes.apple.com/app/bank-bitcoin-wallet/id1447619907?ls=1&mt=8">
+                  <img class="Icon" src="/images/icon/app-store-yellow.svg" alt="">
+                  <div class="Button-text">App Store</div>
+                </a>
+              </div>
+              <div class="Banner-links">
+                <a class="Button Button-circle Button-download" href="https://f-droid.org/en/packages/io.horizontalsystems.bankwallet/">
+                  <img class="Icon" src="/images/icon/f-droid.svg" alt="">
+                  <div class="Button-text">F-Droid</div>
+                </a>
+                <a class="Button Button-circle Button-download" href="https://github.com/horizontalsystems/unstoppable-wallet-android/releases">
+                  <img class="Icon" src="/images/icon/android.svg" alt="">
+                  <div class="Button-text">APK file</div>
+                </a>
+                <a class="Button Button-circle Button-download" href="https://github.com/horizontalsystems">
+                  <img class="Icon" src="/images/icon/github.svg" alt="">
+                  <div class="Button-text">Github</div>
+                </a>
+                <a class="Button Button-circle Button-download" href="https://gitlab.com/horizontal_systems">
+                  <img class="Icon" src="/images/icon/gitlab.svg" alt="">
+                  <div class="Button-text">Gitlab</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

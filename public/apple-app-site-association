@@ -4,11 +4,11 @@
       "details": [
            {
              "appID": "HC4MCAXJ66.io.horizontalsystems.bank-wallet",
-             "paths": ["/wc", "/referral"]
+             "paths": ["/wc", "/referral", "/ton-connect"]
            },
            {
              "appID": "HC4MCAXJ66.io.horizontalsystems.bank-wallet.dev",
-             "paths": ["/wc", "/referral"]
+             "paths": ["/wc", "/referral", "/ton-connect"]
            },
            {
              "appID": "HC4MCAXJ66.io.horizontalsystems.bank-wallet.dev.testnet",
