@@ -1369,6 +1369,40 @@
         "items": [
           {
             "en": {
+              "title": "Origins of Ethereum",
+              "markdown": "edu/en/ethereum/intro/origins-of-ethereum.md"
+            },
+            "ru": {
+              "title": "Origins of Ethereum",
+              "markdown": "edu/ru/ethereum/intro/origins-of-ethereum.md"
+            },
+            "de": {
+              "title": "Origins of Ethereum",
+              "markdown": "edu/en/ethereum/intro/origins-of-ethereum.md"
+            },
+            "es": {
+              "title": "Origins of Ethereum",
+              "markdown": "edu/en/ethereum/intro/origins-of-ethereum.md"
+            },
+            "fr": {
+              "title": "Origins of Ethereum",
+              "markdown": "edu/en/ethereum/intro/origins-of-ethereum.md"
+            },
+            "tr": {
+              "title": "Origins of Ethereum",
+              "markdown": "edu/en/ethereum/intro/origins-of-ethereum.md"
+            },
+            "zh": {
+              "title": "Origins of Ethereum",
+              "markdown": "edu/en/ethereum/intro/origins-of-ethereum.md"
+            },
+            "ko": {
+              "title": "Origins of Ethereum",
+              "markdown": "edu/en/ethereum/intro/origins-of-ethereum.md"
+            }
+          },
+          {
+            "en": {
               "title": "What is & Why Ethereum?",
               "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
             },
@@ -1399,40 +1433,6 @@
             "ko": {
               "title": "What is & Why Ethereum?",
               "markdown": "edu/en/ethereum/intro/what-is-and-why-ethereum.md"
-            }
-          },
-          {
-            "en": {
-              "title": "Understanding Smart Contracts",
-              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
-            },
-            "ru": {
-              "title": "Understanding Smart Contracts",
-              "markdown": "edu/ru/ethereum/intro/understanding-smart-contracts.md"
-            },
-            "de": {
-              "title": "Understanding Smart Contracts",
-              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
-            },
-            "es": {
-              "title": "Understanding Smart Contracts",
-              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
-            },
-            "fr": {
-              "title": "Understanding Smart Contracts",
-              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
-            },
-            "tr": {
-              "title": "Understanding Smart Contracts",
-              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
-            },
-            "zh": {
-              "title": "Understanding Smart Contracts",
-              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
-            },
-            "ko": {
-              "title": "Understanding Smart Contracts",
-              "markdown": "edu/en/ethereum/intro/understanding-smart-contracts.md"
             }
           },
           {
