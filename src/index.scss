@@ -1,13 +1,16 @@
 @import "~normalize.css";
 @import "./scss/utils";
 
+
+html {
+  padding: 10px;
+}
+
 body {
   font-family: $font-family-base;
   font-size: 62.6%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0;
-  padding: 0;
   background: $black !important;
   color: $white !important;
 }
