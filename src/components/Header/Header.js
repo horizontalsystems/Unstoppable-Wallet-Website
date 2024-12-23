@@ -43,7 +43,7 @@ export function Header() {
   return (
     <nav className={className} ref={headerRef}>
       <div className="container">
-        <Link className="navbar-brand" href="/">
+        <Link className="navbar-brand" href="/public">
           <Image className="Header-logo" src="/header-logo.svg" alt="Logo" width={142} height={54} priority />
         </Link>
         <button className="navbar-toggler" onClick={() => setShow(!show)}>

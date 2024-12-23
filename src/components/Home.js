@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import Hero from '@/components/Hero'
+import Hero from '@/components/Hero/Hero'
 import Page from '@/components/Page/Page'
 import Engineered from '@/components/Engineered'
 import PageHeader from '@/components/Page/PageHeader'
@@ -24,6 +24,7 @@ import CardLearn from '@/components/Card/CardLearn'
 import CardMedium from '@/components/Card/CardMedium'
 import GradientViolet from '@/components/Icon/GradientViolet'
 import GradientColor from '@/components/Icon/GradientColor'
+import Roadmap from '@/components/Roadmap/Roadmap'
 
 function Home() {
   const [isDesktop, setIsDesktop] = useState(true)
@@ -334,6 +335,18 @@ function Home() {
                 isGuide={false} />
             </div>
           </div>
+        </div>
+      </Page>
+
+      <Page black>
+        <div className="container">
+          <PageHeader
+            title="Proof of Work"
+            description="Master the fundamentals and gain insights into various crypto projects through straightforward explanations"
+            column
+          />
+
+          <Roadmap isDesktop={isDesktop} />
         </div>
       </Page>
     </main>

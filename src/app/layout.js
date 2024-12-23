@@ -2,7 +2,7 @@ import { IBM_Plex_Sans } from 'next/font/google'
 
 import './layout.scss'
 
-import Header from '@/components/Header'
+import Header from '@/components/Header/Header'
 import Page from '@/components/Page/Page'
 import Footer from '@/components/Footer'
 

@@ -1,0 +1,75 @@
+.stepper-wrapper {
+  display: flex;
+}
+
+.stepper-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.stepper-item::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #808085;
+  width: 100%;
+  top: 15px;
+  left: -50%;
+  z-index: 2;
+}
+
+.stepper-item::after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #808085;
+  width: 100%;
+  top: 15px;
+  left: 50%;
+  z-index: 2;
+}
+
+.stepper-controls {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.stepper-item .step-date {
+  font-size: 10px;
+}
+
+.stepper-item .step-counter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #000000;
+  z-index: 5;
+  font-size: 11px;
+  border: 1px solid #808085;
+  cursor: pointer;
+  color: #E1E1E5;
+}
+
+.stepper-item.active .step-counter {
+  background-color: #FFA800;
+  border: 1px solid #FFA800;
+  color: #0F1014;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+
+.stepper-item:last-child::after {
+  content: none;
+}
