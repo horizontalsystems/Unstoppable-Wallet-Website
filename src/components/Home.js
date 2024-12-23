@@ -63,7 +63,7 @@ function Home() {
         <div className="container">
           <PageHeader
             title="Easy"
-              description="Ownership Made Easy"
+            description="Ownership Made Easy"
           />
 
           <div className="row py-5 g-3">
