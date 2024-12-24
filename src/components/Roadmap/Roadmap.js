@@ -56,8 +56,12 @@ function Roadmap() {
         <div className="col-sm-12 col-md-10">
           <div className="d-flex justify-content-around align-items-center py-5">
             <div className="flex-grow-1 d-flex justify-content-center">
-              <div className={cn('stepper-controls', currentIndex > 0 ? 'bg-warning' : 'bg-dark')}>
-                <img src="/icons/arrow-prev.svg" alt="" width="20" height="20" onClick={handlePrev} />
+              <div className={cn('stepper-controls', currentIndex > 0 ? 'bg-warning' : 'bg-steel-20')}>
+                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" onClick={handlePrev}>
+                  <path fillRule="evenodd" clipRule="evenodd"
+                        d="M12.5303 16.7803C12.8232 16.4874 12.8232 16.0126 12.5303 15.7197L6.81066 10L12.5303 4.28033C12.8232 3.98744 12.8232 3.51256 12.5303 3.21967C12.2374 2.92678 11.7626 2.92678 11.4697 3.21967L5.21967 9.46967C4.92678 9.76256 4.92678 10.2374 5.21967 10.5303L11.4697 16.7803C11.7626 17.0732 12.2374 17.0732 12.5303 16.7803Z"
+                        fill={currentIndex > 0 ? '#000' : '#808085'} />
+                </svg>
               </div>
             </div>
             <div className="stepper-wrapper flex-grow-1">
@@ -68,8 +72,12 @@ function Roadmap() {
               ))}
             </div>
             <div className="flex-grow-1 d-flex justify-content-center">
-              <div className={cn('stepper-controls', currentIndex === releases.length - 1 ? 'bg-dark' : 'bg-warning')}>
-                <img src="/icons/arrow-next.svg" alt="" width="20" height="20" onClick={handleNext} />
+              <div className={cn('stepper-controls', currentIndex === releases.length - 1 ? 'bg-steel-20' : 'bg-warning')}>
+                <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" onClick={handleNext}>
+                  <path fillRule="evenodd" clipRule="evenodd"
+                        d="M7.46967 16.7803C7.17678 16.4874 7.17678 16.0126 7.46967 15.7197L13.1893 10L7.46967 4.28033C7.17678 3.98744 7.17678 3.51256 7.46967 3.21967C7.76256 2.92678 8.23744 2.92678 8.53033 3.21967L14.7803 9.46967C15.0732 9.76256 15.0732 10.2374 14.7803 10.5303L8.53033 16.7803C8.23744 17.0732 7.76256 17.0732 7.46967 16.7803Z"
+                        fill={currentIndex === releases.length - 1 ? '#808085' : '#000'} />
+                </svg>
               </div>
             </div>
           </div>
