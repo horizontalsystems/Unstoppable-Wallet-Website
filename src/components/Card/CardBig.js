@@ -10,7 +10,7 @@ function CardBig({ title, description, children, isDesktop }) {
   const onMouseLeave = () => setRun(false)
 
   return (
-    <div className="card card-big rounded-24 bg-steel-20 border-0 overflow-hidden" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+    <div className="card card-big rounded-32 bg-steel-20 border-0 overflow-hidden" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
       <GradientGrey running={run} />
       <div className="row">
         <div className="col-lg-3 col-md-6">

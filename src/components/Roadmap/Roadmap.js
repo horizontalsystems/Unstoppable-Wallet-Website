@@ -24,8 +24,9 @@ function Roadmap() {
       })
   }, [current])
 
-  const currentIndex = useMemo(() => releases.findIndex(item => item.version === current), [current])
   const visibleReleases = useMemo(() => releases.slice(visibleStartIndex, visibleStartIndex + 4), [visibleStartIndex])
+  const currentIndex = useMemo(() => releases.findIndex(item => item.version === current), [current])
+  const currentRelease = releases[currentIndex]
 
   const handlePrev = () => {
     if (currentIndex > 0) {
@@ -63,7 +64,6 @@ function Roadmap() {
               {visibleReleases.map((item, i) => (
                 <div className={cn('stepper-item', { active: item.version === current })} onClick={() => setCurrent(item.version)} key={i}>
                   <div className="step-counter">{item.version}</div>
-                  <div className="step-date">{item.date}</div>
                 </div>
               ))}
             </div>
@@ -75,20 +75,28 @@ function Roadmap() {
           </div>
         </div>
       </div>
-      <div className="card card-big rounded-24 bg-steel-20 border-0">
+      <div className="card card-big rounded-32 border-0 overflow-hidden">
         <GradientGrey running={false} />
         <Markdown text={releaseNotes[current]} />
-        <div className="card-footer pt-3">
-          <div className="mt-2 pt-2">
-            <a href={`https://github.com/horizontalsystems/unstoppable-wallet-android/releases/tag/${current}.0`}
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-warning small">Android</a>
-            &nbsp;&nbsp;
-            <a href={`https://github.com/horizontalsystems/unstoppable-wallet-ios/releases/tag/${current}`}
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-warning small">iOS</a>
+        <div className="card-footer d-flex justify-content-center border-0 px-5 pt-4 pb-3 z-1 bg-dark">
+          <div className="d-flex justify-content-between col-md-9 col-12">
+            <div className="text-grey">
+              {currentRelease?.date}
+            </div>
+            <div className="">
+              <a href={`https://github.com/horizontalsystems/unstoppable-wallet-ios/releases/tag/${current}`}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="text-warning me-3">iOS</a>
+              <a href={`https://github.com/horizontalsystems/unstoppable-wallet-android/releases/tag/${current}.0`}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="text-warning me-3">Android</a>
+              <a href="https://f-droid.org/en/packages/io.horizontalsystems.bankwallet/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="text-warning">F-Droid</a>
+            </div>
           </div>
         </div>
       </div>
