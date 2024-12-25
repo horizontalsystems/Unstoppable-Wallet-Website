@@ -299,7 +299,11 @@ function Home() {
             </div>
           </div>
           <div className="text-end d-flex justify-content-end">
-            <a className="text-warning text-decoration-none d-flex align-items-center" href="/">
+            <a href="https://litrex.academy/"
+               className="text-warning text-decoration-none d-flex align-items-center"
+               rel="noopener noreferrer"
+               target="_blank"
+            >
               <Image src="/icons/arrow-right.png" alt="" height="20" width="20" />
               <span className="ms-3 fs-4">More Guides</span>
             </a>
