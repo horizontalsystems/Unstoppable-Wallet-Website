@@ -241,7 +241,6 @@ function Home() {
                 className="card-bg-grey"
                 title="Ranks & Analytics"
                 description="Explore token analytics and token rank lists based on onchain activity and market liquidity parameters."
-                gradient={<GradientImage color="grey" />}
                 isDesktop={isDesktop}
               >
                 <Analytics />
