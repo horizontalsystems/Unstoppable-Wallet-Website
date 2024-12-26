@@ -1,7 +1,7 @@
 'use client'
 
 import { cloneElement, useState } from 'react'
-import { GradientGrey } from '@/components/Icon/GradientGrey'
+import { GradientImageBig } from '@/components/Animated/GradientImageBig'
 
 function CardBig({ title, description, children, isDesktop }) {
   const [run, setRun] = useState(false)
@@ -11,7 +11,7 @@ function CardBig({ title, description, children, isDesktop }) {
 
   return (
     <div className="card card-big rounded-32 bg-steel-20 border-0 overflow-hidden" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-      <GradientGrey running={run} />
+      <GradientImageBig color="grey-2x" running={run} isDesktop={isDesktop} />
       <div className="row">
         <div className="col-lg-3 col-md-6">
           <div className="p-4 m-md-2">

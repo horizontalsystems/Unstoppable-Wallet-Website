@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, cloneElement } from 'react'
+import { cloneElement, useState } from 'react'
 import cn from 'classnames'
 import './Card.css'
 

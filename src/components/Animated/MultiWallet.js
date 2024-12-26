@@ -9,13 +9,13 @@ export function MultiWallet({ running }) {
   }
 
   const anim1 = useSpring({
-    transform: running ? 'translateX(-30px)' : 'translateX(30px)',
-    config
+    transform: running ? 'translate3d(-30px, 0, 0)' : 'translate3d(30px, 0, 0)',
+    config,
   })
 
   const anim2 = useSpring({
-    transform: running ? 'translateX(30px)' : 'translateX(-30px)',
-    config
+    transform: running ? 'translate3d(30px, 0, 0)' : 'translate3d(-30px, 0, 0)',
+    config,
   })
 
   return (

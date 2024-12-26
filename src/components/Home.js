@@ -4,27 +4,27 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Hero from '@/components/Hero/Hero'
 import Page from '@/components/Page/Page'
-import Engineered from '@/components/Engineered'
 import PageHeader from '@/components/Page/PageHeader'
+import Engineered from '@/components/Engineered'
 import CardBig from '@/components/Card/CardBig'
-import MultiWallet from '@/components/Icon/MultiWallet'
-import CardOverlay from '@/components/Card/CardOverlay'
-import Chains from '@/components/Icon/Chains'
-import Card from '@/components/Card/Card'
-import IconSwitcher from '@/components/Icon/IconSwitcher'
-import Backup from '@/components/Icon/Backup'
-import SpamDetect from '@/components/Icon/SpamDetect'
-import OpenSource from '@/components/Icon/OpenSource'
-import NonCustodial from '@/components/Icon/NonCustodial'
-import MultiWalletMarket from '@/components/Icon/MultiWalletMarket'
-import Analytics from '@/components/Icon/Analytics'
-import Dexes from '@/components/Icon/Dexes'
-import WalletConnect from '@/components/Icon/WalletConnect'
 import CardLearn from '@/components/Card/CardLearn'
 import CardMedium from '@/components/Card/CardMedium'
-import GradientViolet from '@/components/Icon/GradientViolet'
-import GradientColor from '@/components/Icon/GradientColor'
+import CardOverlay from '@/components/Card/CardOverlay'
+import Card from '@/components/Card/Card'
 import Roadmap from '@/components/Roadmap/Roadmap'
+import MultiWallet from '@/components/Animated/MultiWallet'
+import Chains from '@/components/Animated/Chains'
+import IconSwitcher from '@/components/Animated/IconSwitcher'
+import Backup from '@/components/Animated/Backup'
+import SpamDetect from '@/components/Animated/SpamDetect'
+import OpenSource from '@/components/Animated/OpenSource'
+import NonCustodial from '@/components/Animated/NonCustodial'
+import MultiWalletMarket from '@/components/Animated/MultiWalletMarket'
+import Analytics from '@/components/Animated/Analytics'
+import Dexes from '@/components/Animated/Dexes'
+import WalletConnect from '@/components/Animated/WalletConnect'
+import GradientImage from '@/components/Animated/GradientImage'
+import GradientImageBig from '@/components/Animated/GradientImageBig'
 
 function Home() {
   const [isDesktop, setIsDesktop] = useState(true)
@@ -71,7 +71,7 @@ function Home() {
               <CardOverlay
                 title="Universal"
                 description="Supports 99% of all crypto assets. One app for all coins."
-                gradient={<GradientViolet />}
+                gradient={<GradientImageBig color="purple-1x" />}
                 isDesktop={isDesktop}
               >
                 <Chains />
@@ -81,7 +81,7 @@ function Home() {
               <Card
                 title="Intuitive"
                 description="Built for ease of use without compromise on decentralization and security."
-                gradient={<GradientColor color="yellow" />}
+                gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
               >
                 <IconSwitcher icons="migration" />
@@ -91,7 +91,7 @@ function Home() {
               <Card
                 title="Practical"
                 description="Easy to migrate, backup and restore. Built for real-world use cases."
-                gradient={<GradientColor color="blue" fromZero />}
+                gradient={<GradientImage color="blue" fromZero />}
                 isDesktop={isDesktop}
               >
                 <Backup />
@@ -113,7 +113,7 @@ function Home() {
               <Card
                 title="Anti-Tempering"
                 description="Industry leading safety measures against device loss or malware."
-                gradient={<GradientColor color="green" fromZero />}
+                gradient={<GradientImage color="green" fromZero />}
                 isDesktop={isDesktop}
                 isBlack
               >
@@ -121,7 +121,14 @@ function Home() {
               </Card>
             </div>
             <div className="col-md-12 col-lg-6 order-md-1 order-lg-2">
-              <CardOverlay title="Anti-Burglary" description="Discrete safety mechanism against in person physical attacks." isBlack>
+              <CardOverlay
+                title="Anti-Burglary"
+                description="Discrete safety mechanism against in person physical attacks."
+                gradient={<GradientImageBig color="red-1x" />}
+                isDesktop={isDesktop}
+                isBlack
+              >
+                {/* todo: move to component*/}
                 <img src="/images/duress/img.png" alt="" width="365" />
               </CardOverlay>
             </div>
@@ -129,7 +136,7 @@ function Home() {
               <Card
                 title="Anti-Tracking"
                 description="Advanced privacy features against a dozen of potential attack vectors."
-                gradient={<GradientColor color="yellow" />}
+                gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
                 isBlack
               >
@@ -152,7 +159,7 @@ function Home() {
               <Card
                 title="Open Source"
                 description="Publicly open and audited code. Transparent production process."
-                gradient={<GradientColor color="green" fromZero />}
+                gradient={<GradientImage color="green" fromZero />}
                 isDesktop={isDesktop}
               >
                 <OpenSource />
@@ -162,7 +169,7 @@ function Home() {
               <Card
                 title="Non-Custodial"
                 description="Built from the ground up to guarantee self-custody and unconditional access."
-                gradient={<GradientColor color="yellow" />}
+                gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
               >
                 <NonCustodial />
@@ -213,7 +220,7 @@ function Home() {
               <Card
                 title="Market Trends"
                 description="Explore top performers, market liquidity, ETF inflows, best performing sectors and more."
-                gradient={<GradientColor color="violet" />}
+                gradient={<GradientImage color="purple" />}
                 isDesktop={isDesktop}
               >
                 <IconSwitcher icons="market-ranks" />
@@ -223,7 +230,7 @@ function Home() {
               <Card
                 title="Filters & Signals"
                 description="Research assets based on lots of parameters i.e. market data, onchain activity, price performance and technical analysis signals."
-                gradient={<GradientColor color="yellow" />}
+                gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
               >
                 <IconSwitcher icons="market-tools" />
@@ -231,9 +238,10 @@ function Home() {
             </div>
             <div className="col-md-12 col-lg-6">
               <CardOverlay
+                className="card-bg-grey"
                 title="Ranks & Analytics"
                 description="Explore token analytics and token rank lists based on onchain activity and market liquidity parameters."
-                gradient={<GradientColor color="grey" />}
+                gradient={<GradientImage color="grey" />}
                 isDesktop={isDesktop}
               >
                 <Analytics />
@@ -255,7 +263,7 @@ function Home() {
               <CardOverlay
                 title="DEXes"
                 description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
-                gradient={<GradientViolet color="yellow" />}
+                gradient={<GradientImageBig color="grey-1x" />}
                 isDesktop={isDesktop}
                 isBlack
               >

@@ -2,7 +2,6 @@
 
 import { useEffect, useMemo, useState } from 'react'
 import cn from 'classnames'
-import GradientGrey from '@/components/Icon/GradientGrey'
 import Markdown from '@/components/Markdown/Markdown'
 import releases from './releases.json'
 
@@ -84,7 +83,12 @@ function Roadmap() {
         </div>
       </div>
       <div className="card card-big rounded-32 border-0 overflow-hidden">
-        <GradientGrey running={false} />
+        <div className="w-100 h-100 position-absolute d-flex justify-content-center">
+          <img
+            className="h-100"
+            src="/images/gradients/ellipse-grey-1x.png" alt=""
+            style={{ transformOrigin: 'top center', transform: 'scale(2)' }} />
+        </div>
         <Markdown text={releaseNotes[current]} />
         <div className="card-footer d-flex justify-content-center border-0 px-5 pt-4 pb-3 z-1 bg-dark">
           <div className="d-flex justify-content-between col-md-9 col-12">

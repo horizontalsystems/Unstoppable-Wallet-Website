@@ -49,7 +49,7 @@ function Backup({ running }) {
         />
       </svg>
       <div className="position-absolute bottom-0 mb-4 pb-1">
-        {running ? 'From App' : 'To Storage'}
+        {running ? 'To Storage' : 'From App'}
       </div>
     </div>
   )
