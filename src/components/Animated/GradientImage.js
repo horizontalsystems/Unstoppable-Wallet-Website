@@ -3,9 +3,8 @@
 import { animated, useSpring } from '@react-spring/web'
 
 export function GradientImage({ running, color, fromZero }) {
-  const number = fromZero ? 0 : 0.8
   const spring = useSpring({
-    opacity: running ? 1 : number,
+    opacity: running ? 1 : fromZero ? 0 : 0.8,
     transform: running ? 'scale(1.8)' : `scale(${fromZero ? 1 : 1.6})`,
     transformOrigin: 'top center'
   })

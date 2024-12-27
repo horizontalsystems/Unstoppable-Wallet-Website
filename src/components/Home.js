@@ -24,7 +24,9 @@ import Analytics from '@/components/Animated/Analytics'
 import Dexes from '@/components/Animated/Dexes'
 import WalletConnect from '@/components/Animated/WalletConnect'
 import GradientImage from '@/components/Animated/GradientImage'
-import GradientImageBig from '@/components/Animated/GradientImageBig'
+import GradientImageBottomRight from '@/components/Animated/GradientImageBottomRight'
+import GradientImageDuress from '@/components/Animated/GradientImageDuress'
+import DuressMode from '@/components/Animated/DuressMode'
 
 function Home() {
   const [isDesktop, setIsDesktop] = useState(true)
@@ -71,7 +73,7 @@ function Home() {
               <CardOverlay
                 title="Universal"
                 description="Supports 99% of all crypto assets. One app for all coins."
-                gradient={<GradientImageBig color="purple-1x" />}
+                gradient={<GradientImageBottomRight color="purple-1x" />}
                 isDesktop={isDesktop}
               >
                 <Chains />
@@ -122,14 +124,12 @@ function Home() {
             </div>
             <div className="col-md-12 col-lg-6 order-md-1 order-lg-2">
               <CardOverlay
-                title="Anti-Burglary"
-                description="Discrete safety mechanism against in person physical attacks."
-                gradient={<GradientImageBig color="red-1x" />}
+                title="Duress Mode"
+                description="A specialized mode designed to keep selected wallets safe under coercion."
+                gradient={<GradientImageDuress color="red-1x" color2="green-1x" />}
                 isDesktop={isDesktop}
-                isBlack
-              >
-                {/* todo: move to component*/}
-                <img src="/images/duress/img.png" alt="" width="365" />
+                isBlack>
+                <DuressMode />
               </CardOverlay>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-3 order-md-3 order-lg-3">
@@ -254,7 +254,7 @@ function Home() {
         <div className="container">
           <PageHeader
             title="DeFi Enabled"
-            description="Interact with any DeFi service "
+            description="Interact with any DeFi service"
           />
 
           <div className="row py-5 g-3">
@@ -262,7 +262,7 @@ function Home() {
               <CardOverlay
                 title="DEXes"
                 description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
-                gradient={<GradientImageBig color="grey-1x" />}
+                gradient={<GradientImageBottomRight color="grey-1x" />}
                 isDesktop={isDesktop}
                 isBlack
               >
