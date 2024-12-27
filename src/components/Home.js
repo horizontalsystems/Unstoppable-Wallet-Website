@@ -27,6 +27,7 @@ import GradientImage from '@/components/Animated/GradientImage'
 import GradientImageBottomRight from '@/components/Animated/GradientImageBottomRight'
 import GradientImageDuress from '@/components/Animated/GradientImageDuress'
 import DuressMode from '@/components/Animated/DuressMode'
+import Tickers from '@/components/Tickers'
 
 function Home() {
   const [isDesktop, setIsDesktop] = useState(true)
@@ -280,6 +281,19 @@ function Home() {
                 <WalletConnect isMobile={!isDesktop} />
               </CardMedium>
             </div>
+          </div>
+        </div>
+      </Page>
+
+      <Page darkest>
+        <div className="container">
+          <PageHeader
+            title="Analytics"
+            description="Get a set of the best tools for researching"
+          />
+
+          <div className="py-5 g-3">
+            <Tickers />
           </div>
         </div>
       </Page>
