@@ -93,7 +93,7 @@ function Home() {
               <Card
                 title="Practical"
                 description="Easy to migrate, backup and restore. Built for real-world use cases."
-                gradient={<GradientImage color="blue" fromZero />}
+                gradient={<GradientImage color="blue" />}
                 isDesktop={isDesktop}
               >
                 <Backup />
@@ -262,7 +262,7 @@ function Home() {
               <CardOverlay
                 title="DEXes"
                 description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
-                gradient={<GradientImageBottomRight color="grey-1x" />}
+                gradient={<GradientImageBottomRight color="yellow-1x" />}
                 isDesktop={isDesktop}
                 isBlack
               >

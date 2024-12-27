@@ -10,7 +10,7 @@ export function GradientImageDuress({ running, color, color2 }) {
   })
 
   const anim2 = useSpring({
-    opacity: running ? 1 : 0,
+    opacity: running ? 0.5 : 0,
     transform: running ? 'scale(2) translate3d(-15%, -20px, 0)' : 'scale(1.6) translate3d(-15%, 0px, 0)',
     transformOrigin: 'top center',
   })
