@@ -2,10 +2,10 @@
 
 import { animated, useSpring } from '@react-spring/web'
 
-export function GradientImageBig({ running, color, fromZero }) {
+export function GradientImageBig({ running, color }) {
   const spring = useSpring({
-    opacity: running ? 1 : fromZero ? 0 : 0.8,
-    transform: running ? 'scale(2) translateY(-20px)' : `scale(${fromZero ? 1 : 1.6}) translateY(0px)`,
+    opacity: running ? 1 : 0.8,
+    transform: running ? 'scale(2.5) translateY(-30px)' : `scale(2) translateY(0px)`,
     transformOrigin: 'top center',
   })
 
