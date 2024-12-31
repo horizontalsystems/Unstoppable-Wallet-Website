@@ -8,3 +8,9 @@
   padding-top: 80px;
 }
 
+.partner-image {
+  width: 100%;
+  max-width: 220px;
+  max-height: 80px;
+  margin: 16px 4px;
+}

@@ -27,7 +27,6 @@ import GradientImage from '@/components/Animated/GradientImage'
 import GradientImageBottomRight from '@/components/Animated/GradientImageBottomRight'
 import GradientImageDuress from '@/components/Animated/GradientImageDuress'
 import DuressMode from '@/components/Animated/DuressMode'
-import Tickers from '@/components/Tickers'
 
 function Home() {
   const [isDesktop, setIsDesktop] = useState(true)
@@ -288,76 +287,46 @@ function Home() {
       <Page darkest>
         <div className="container">
           <PageHeader
-            title="Analytics"
-            description="Get a set of the best tools for researching"
+            title="Ecosystem Partners"
+            description="Integrating the best from our partners"
           />
 
-          <div className="py-5 g-3">
-            <Tickers />
-          </div>
-        </div>
-      </Page>
-
-      <Page darkest>
-        <div className="container">
-          <PageHeader
-            title="Easy Learning"
-            description="Explore detailed cryptocurrency market insights and comprehensive asset analytics."
-            column
-          />
-          <div className="row py-5 g-3">
-            <div className="col-md-6 col-lg-3">
-              <CardLearn title="Cryptocurrency Explained" src="/images/learn/crypto.png" isGuide withMargin />
+          <div className="py-5 row g-3">
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/ethereum.png" alt="" />
             </div>
-            <div className="col-md-6 col-lg-3">
-              <CardLearn title="Cryptocurrency Explained" src="/images/learn/bitcoin.png" isGuide withMargin />
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/blockchair.png" alt="" />
             </div>
-            <div className="col-md-6 col-lg-3">
-              <CardLearn title="Cryptocurrency Explained" src="/images/learn/wallet.png" isGuide withMargin />
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/1inch.png" alt="" />
             </div>
-            <div className="col-md-6 col-lg-3">
-              <CardLearn title="Cryptocurrency Explained" src="/images/learn/private-keys.png" isGuide withMargin />
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/defillama.png" alt="" />
             </div>
-          </div>
-          <div className="text-end d-flex justify-content-end">
-            <a href="https://litrex.academy/"
-               className="text-warning text-decoration-none d-flex align-items-center"
-               rel="noopener noreferrer"
-               target="_blank"
-            >
-              <Image src="/icons/arrow-right.png" alt="" height="20" width="20" />
-              <span className="ms-3 fs-4">More Guides</span>
-            </a>
-          </div>
-        </div>
-
-        <div className="container">
-          <PageHeader
-            title="DeFi Enabled"
-            description="Interact with any DeFi service "
-          />
-
-          <div className="row py-5 g-3">
-            <div className="col-sm-12 col-md-6 col-lg-4">
-              <CardLearn
-                title="Beginner"
-                description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
-                src="/images/learn/course-beginner.png"
-                isGuide={false} />
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/defiyield.png" alt="" />
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-4">
-              <CardLearn
-                title="Advanced"
-                description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
-                src="/images/learn/course-advanced.png"
-                isGuide={false} />
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/coingecko.png" alt="" />
             </div>
-            <div className="col-md-12 col-lg-4">
-              <CardLearn
-                title="Professional"
-                description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
-                src="/images/learn/course-profi.png"
-                isGuide={false} />
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/ens.png" alt="" />
+            </div>
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/wc.png" alt="" />
+            </div>
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/chainlink.png" alt="" />
+            </div>
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/dash.png" alt="" />
+            </div>
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/zcash.png" alt="" />
+            </div>
+            <div className="col-sm-6 col-md-3">
+              <img className="partner-image" src="/images/tickers/alpaca.png" alt="" />
             </div>
           </div>
         </div>
