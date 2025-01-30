@@ -1,13 +1,12 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
 import Hero from '@/components/Hero/Hero'
 import Page from '@/components/Page/Page'
 import PageHeader from '@/components/Page/PageHeader'
 import Engineered from '@/components/Engineered'
 import CardBig from '@/components/Card/CardBig'
-import CardLearn from '@/components/Card/CardLearn'
+import CardPartner from '@/components/Card/CardPartner'
 import CardMedium from '@/components/Card/CardMedium'
 import CardOverlay from '@/components/Card/CardOverlay'
 import Card from '@/components/Card/Card'
@@ -287,46 +286,82 @@ function Home() {
       <Page darkest>
         <div className="container">
           <PageHeader
-            title="Ecosystem Partners"
-            description="Integrating the best from our partners"
+            title="Our Partners"
+            description="Our partners highlight Unstoppable Wallet’s innovation, privacy, and user-first design:"
+            column
           />
-
-          <div className="py-5 row g-3">
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/ethereum.png" alt="" />
+          <div className="row py-5 g-3">
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/bitcoin.png"
+                logoUser="/images/partners/bitcoin-user.png"
+                username="Martti Malmi"
+                usernameInfo="Bitcoin.org Founder"
+                text="Unstoppable Wallet is a breakthrough in decentralized finance, giving users full control over Bitcoin and other assets."
+              />
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/blockchair.png" alt="" />
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/ethereum.png"
+                logoUser="/images/partners/ethereum-user.png"
+                username="Vitalik Buterin"
+                usernameInfo="CEO of the Ethereum"
+                text="A wallet that prioritizes privacy and freedom, with excellent Ethereum and multi-asset support."
+              />
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/1inch.png" alt="" />
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/scrutiny.png"
+                logoUser="/images/partners/scrutiny-user.png"
+                username="Leo Wandersleb"
+                usernameInfo="Wallet Reviewer, Founder"
+                text="A secure and transparent wallet that delivers excellent multi-asset support and user independence."
+              />
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/defillama.png" alt="" />
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/zcash.png"
+                logoUser="/images/partners/zcash-user.png"
+                username="Zooko Wilcox-O'Hearn"
+                usernameInfo="CEO of the ECC"
+                text="Unstoppable is the first multi-coin wallet that supports Bitcoin, Ethereum, and fully shielded Zcash, as well as other coins, and it has a strong, user-centric architecture in which the users own their own keys and their own privacy."
+              />
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/defiyield.png" alt="" />
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/blockchair.png"
+                logoUser="/images/partners/blockchair-user.png"
+                username="Edige Davletgaliyev"
+                usernameInfo="Cofounder of the Blockchair"
+                text="We have always been looking for solutions that allow people to manage their assets safely and conveniently. A great tool for both professionals and beginners!"
+              />
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/coingecko.png" alt="" />
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/blum.png"
+                logoUser="/images/partners/blum-user.png"
+                username="Gleb Kostarev"
+                usernameInfo="CEO & Cofounder of the Blum"
+                text="It’s rare to find a product that combines ease of use with top-notch security like Unstoppable Wallet. This is a wallet I would recommend to anyone who values privacy and reliability."
+              />
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/ens.png" alt="" />
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/ivfun.png"
+                logoUser="/images/partners/ivfun-user.png"
+                username="Ruslan Khairullin"
+                usernameInfo="CEO of the IvFun"
+                text="Unstoppable Wallet is a breakthrough in decentralized finance, giving users full control over Bitcoin and other assets."
+              />
             </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/wc.png" alt="" />
-            </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/chainlink.png" alt="" />
-            </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/dash.png" alt="" />
-            </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/zcash.png" alt="" />
-            </div>
-            <div className="col-sm-6 col-md-3">
-              <img className="partner-image" src="/images/tickers/alpaca.png" alt="" />
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/immunfi.png"
+                logoUser="/images/partners/immunfi-user.png"
+                username="Nikita Starshash"
+                usernameInfo="Cofounder of the StarsHash"
+                text="We have always been looking for solutions that allow people to manage their assets safely and conveniently. A great tool for both professionals and beginners!"
+              />
             </div>
           </div>
         </div>
