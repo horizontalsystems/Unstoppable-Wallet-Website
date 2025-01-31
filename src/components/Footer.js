@@ -1,4 +1,6 @@
+import React from 'react'
 import Image from 'next/image'
+import SubscribeForm from '@/components/Form/SubscribeForm'
 
 export function Footer() {
   return (
@@ -56,14 +58,7 @@ export function Footer() {
         </div>
 
         <div className="col-md-5 offset-md-1 mb-3">
-          <form>
-            <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label htmlFor="newsletter1" className="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" className="form-control bg-steel-10" placeholder="Email address" />
-              <button className="btn btn-warning rounded-5 px-4" type="button">Subscribe</button>
-            </div>
-            <p className="my-3">Subscribe to our newsletter to get new products, guides and cheat sheets when they are published.</p>
-          </form>
+          <SubscribeForm formCode="m3g0e6" formId="1561498" />
         </div>
       </div>
 

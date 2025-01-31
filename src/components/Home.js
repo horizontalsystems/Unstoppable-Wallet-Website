@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react'
 import Hero from '@/components/Hero/Hero'
 import Page from '@/components/Page/Page'
 import PageHeader from '@/components/Page/PageHeader'
-import Engineered from '@/components/Engineered'
 import CardBig from '@/components/Card/CardBig'
 import CardPartner from '@/components/Card/CardPartner'
 import CardMedium from '@/components/Card/CardMedium'
@@ -38,10 +37,6 @@ function Home() {
   return (
     <main>
       <Hero />
-
-      <Page darkest>
-        <Engineered />
-      </Page>
 
       <Page black>
         <div className="container">
