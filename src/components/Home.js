@@ -11,6 +11,7 @@ import CardMedium from '@/components/Card/CardMedium'
 import CardOverlay from '@/components/Card/CardOverlay'
 import Card from '@/components/Card/Card'
 import Roadmap from '@/components/Roadmap/Roadmap'
+import Videos from '@/components/Video/Videos'
 import MultiWallet from '@/components/Animated/MultiWallet'
 import Chains from '@/components/Animated/Chains'
 import IconSwitcher from '@/components/Animated/IconSwitcher'
@@ -367,7 +368,20 @@ function Home() {
         </div>
       </Page>
 
-      <Page black>
+      <Page dark>
+        <div className="container">
+          <PageHeader
+            title="Smart Insights"
+            description="Short videos to guide you through Unstoppable Wallet, crypto industry insights, and security tips."
+            column
+          />
+          <div className="row py-5 g-3">
+            <Videos />
+          </div>
+        </div>
+      </Page>
+
+      <Page darkest>
         <div className="container">
           <PageHeader
             title="Proof of Work"

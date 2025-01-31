@@ -1,6 +1,6 @@
 function CardPartner({ text, logo, logoUser, username, usernameInfo }) {
   return (
-    <div className="card card-regular border-0 rounded-24 bg-steel-10 overflow-hidden justify-content-between">
+    <div className="card card-regular border-0 rounded-24 bg-steel-10 overflow-hidden justify-content-between h-100">
       <div>
         <div className="p-4 pb-0">
           <img src={logo} alt="" style={{ height: 67 }} />
