@@ -4,8 +4,6 @@ import { useState } from 'react'
 import YoutubeEmbed from '@/components/Video/YoutubeEmbed'
 import { VideoTab } from '@/components/Video/VideoTab'
 
-import './Videos.scss'
-
 function Videos() {
   const [active, setActive] = useState({ id: 'multiWallet', autoplay: false })
   const isActive = name => active.id === name ? 'active' : null

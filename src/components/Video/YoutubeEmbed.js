@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './YoutubeEmbed.scss'
-
 const YoutubeEmbed = ({ embedId, autoplay }) => (
   <div className="video-responsive">
     <iframe
