@@ -98,6 +98,49 @@ function Home() {
         </div>
       </Page>
 
+      <Page dark>
+        <div className="container">
+          <PageHeader
+            title="Reliable"
+            description="Ownership Made Reliable"
+          />
+
+          <div className="row py-5 g-3">
+            <div className="col-sm-12 col-md-6 col-lg-3">
+              <Card
+                title="Open Source"
+                description="Publicly open and audited code. Transparent production process."
+                gradient={<GradientImage color="green" fromZero />}
+                isDesktop={isDesktop}
+              >
+                <OpenSource />
+              </Card>
+            </div>
+            <div className="col-sm-12 col-md-6 col-lg-3">
+              <Card
+                title="Non-Custodial"
+                description="Built from the ground up to guarantee self-custody and unconditional access."
+                gradient={<GradientImage color="yellow" />}
+                isDesktop={isDesktop}
+              >
+                <NonCustodial />
+              </Card>
+            </div>
+            <div className="col-md-12 col-lg-6">
+              <CardMedium
+                className="card-bg-violet"
+                title="Verified"
+                description="The security of the wallet has been tested, and the open nature of the code has been verified."
+                isDesktop={isDesktop}
+              >
+                <IconSwitcher icons="verified" width={509} height={96} />
+              </CardMedium>
+            </div>
+          </div>
+        </div>
+      </Page>
+
+
       <Page black>
         <div className="container">
           <PageHeader
@@ -145,39 +188,31 @@ function Home() {
       <Page darkest>
         <div className="container">
           <PageHeader
-            title="Reliable"
-            description="Ownership Made Reliable"
+            title="DeFi Enabled"
+            description="Interact with any DeFi service"
           />
 
           <div className="row py-5 g-3">
-            <div className="col-sm-12 col-md-6 col-lg-3">
-              <Card
-                title="Open Source"
-                description="Publicly open and audited code. Transparent production process."
-                gradient={<GradientImage color="green" fromZero />}
+            <div className="col-md-6">
+              <CardOverlay
+                title="DEXes"
+                description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
+                gradient={<GradientImageBottomRight color="yellow-1x" />}
                 isDesktop={isDesktop}
+                isBlack
               >
-                <OpenSource />
-              </Card>
+                <Dexes />
+              </CardOverlay>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-3">
-              <Card
-                title="Non-Custodial"
-                description="Built from the ground up to guarantee self-custody and unconditional access."
-                gradient={<GradientImage color="yellow" />}
-                isDesktop={isDesktop}
-              >
-                <NonCustodial />
-              </Card>
-            </div>
-            <div className="col-md-12 col-lg-6">
+            <div className="col-md-6">
               <CardMedium
                 className="card-bg-violet"
-                title="Verified"
-                description="The security of the wallet has been tested, and the open nature of the code has been verified."
+                title="Wallet Connect"
+                description="Interact with any DeFi service via WalletConnect V1 and V2.he security and transparency of the wallet has been tested and approved by reputable sources."
                 isDesktop={isDesktop}
+                isBlack
               >
-                <IconSwitcher icons="verified" width={509} height={96} />
+                <WalletConnect isMobile={!isDesktop} />
               </CardMedium>
             </div>
           </div>
@@ -246,40 +281,6 @@ function Home() {
       </Page>
 
       <Page black>
-        <div className="container">
-          <PageHeader
-            title="DeFi Enabled"
-            description="Interact with any DeFi service"
-          />
-
-          <div className="row py-5 g-3">
-            <div className="col-md-6">
-              <CardOverlay
-                title="DEXes"
-                description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
-                gradient={<GradientImageBottomRight color="yellow-1x" />}
-                isDesktop={isDesktop}
-                isBlack
-              >
-                <Dexes />
-              </CardOverlay>
-            </div>
-            <div className="col-md-6">
-              <CardMedium
-                className="card-bg-violet"
-                title="Wallet Connect"
-                description="Interact with any DeFi service via WalletConnect V1 and V2.he security and transparency of the wallet has been tested and approved by reputable sources."
-                isDesktop={isDesktop}
-                isBlack
-              >
-                <WalletConnect isMobile={!isDesktop} />
-              </CardMedium>
-            </div>
-          </div>
-        </div>
-      </Page>
-
-      <Page darkest>
         <div className="container">
           <PageHeader
             title="Our Partners"
