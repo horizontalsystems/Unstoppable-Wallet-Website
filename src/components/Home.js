@@ -26,6 +26,7 @@ import GradientImage from '@/components/Animated/GradientImage'
 import GradientImageBottomRight from '@/components/Animated/GradientImageBottomRight'
 import GradientImageDuress from '@/components/Animated/GradientImageDuress'
 import DuressMode from '@/components/Animated/DuressMode'
+import Donate from '@/components/Donate/Donate'
 
 function Home() {
   const [isDesktop, setIsDesktop] = useState(true)
@@ -386,6 +387,18 @@ function Home() {
           />
 
           <Roadmap isDesktop={isDesktop} />
+        </div>
+      </Page>
+
+      <Page>
+        <div className="container">
+          <PageHeader
+            title="Support the Project!"
+            description="Together, with your support, we can make this app even better!"
+            column
+          />
+
+          <Donate />
         </div>
       </Page>
     </main>

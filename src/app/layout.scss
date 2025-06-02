@@ -182,3 +182,36 @@
   width: 100%;
   position: absolute;
 }
+
+// Donate
+
+.Donate-cards {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+
+  @include media-breakpoint-up(sm) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include media-breakpoint-up(md) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.QrCodeTooltip {
+  z-index: 99;
+  opacity: 1 !important;
+}
+
+// Button
+
+.Button-steal20 {
+  background: #6e789933;
+  color: #fff;
+}
+
+.Button-steal20:hover {
+  background: #7D819F1B !important;
+}
