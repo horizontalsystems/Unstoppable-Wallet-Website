@@ -99,7 +99,7 @@ function Home() {
         </div>
       </Page>
 
-      <Page dark>
+      <Page black>
         <div className="container">
           <PageHeader
             title="Reliable"
@@ -142,7 +142,7 @@ function Home() {
       </Page>
 
 
-      <Page black>
+      <Page darkest>
         <div className="container">
           <PageHeader
             title="Secure"
@@ -186,7 +186,7 @@ function Home() {
         </div>
       </Page>
 
-      <Page darkest>
+      <Page black>
         <div className="container">
           <PageHeader
             title="DeFi Enabled"
@@ -220,7 +220,7 @@ function Home() {
         </div>
       </Page>
 
-      <Page black>
+      <Page darkest>
         <div className="container">
           <PageHeader
             title="Easy Analytics"
@@ -239,7 +239,7 @@ function Home() {
         </div>
       </Page>
 
-      <Page darkest>
+      <Page black>
         <div className="container">
           <PageHeader
             title="Analytics"
@@ -281,7 +281,7 @@ function Home() {
         </div>
       </Page>
 
-      <Page black>
+      <Page darkest>
         <div className="container">
           <PageHeader
             title="Our Partners"
@@ -365,7 +365,7 @@ function Home() {
         </div>
       </Page>
 
-      <Page dark>
+      <Page black>
         <div className="container">
           <PageHeader
             title="Master the Wallet"
@@ -390,7 +390,7 @@ function Home() {
         </div>
       </Page>
 
-      <Page>
+      <Page black>
         <div className="container">
           <PageHeader
             title="Support the Project!"
