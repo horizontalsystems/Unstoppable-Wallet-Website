@@ -6,7 +6,7 @@ function DotateCard({ chain, address }) {
   const [copied, setCopied] = useState(false)
 
   return (
-    <div className="card card-regular border-0 rounded-24 bg-steel-10 overflow-hidden justify-content-between w-100">
+    <div className="card card-regular border-0 rounded-24 bg-steel-20 overflow-hidden justify-content-between w-100">
       <div className="p-3">
         <Image src={`/icons/chains/${chain}.svg`} alt="" width="32" height="32" />
       </div>

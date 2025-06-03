@@ -115,9 +115,7 @@
 }
 
 .Videos-content, .Videos-tabs {
-  //background-color: $darkest;
-  background: #6E789933;
-  //background-color: $dark;
+  background: $steel-20;
   border-radius: 12px;
 
   @include media-breakpoint-up(md) {
@@ -224,7 +222,7 @@
   font-weight: normal;
   font-size: 48px;
   line-height: 65px;
-  //color: $light-steal;
+  color: $steel-light;
 }
 
 .Faq-items {
@@ -238,7 +236,7 @@
   padding: 16px 0;
   font-size: 36px;
   font-weight: 700;
-  //color: $light-steal;
+  color: $steel-light;
 }
 
 .Faq-item {
@@ -257,16 +255,16 @@
 
   font-size: 18px;
   line-height: 25px;
-  //color: $light-steal;
+  color: $steel-light;
 }
 
 .Faq-item-icon {
   position: absolute;
   right: 30px;
 
-  //@include sm {
-  //  right: 21px;
-  //}
+  @include media-breakpoint-up(sm) {
+    right: 21px;
+  }
 }
 
 .Faq-content {

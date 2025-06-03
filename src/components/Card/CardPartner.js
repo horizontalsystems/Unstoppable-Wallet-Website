@@ -9,7 +9,7 @@ function CardPartner({ text, logo, logoUser, username, usernameInfo }) {
           <div className="text-steel-light mb-2">{text}</div>
         </div>
       </div>
-      <div className="px-4 pt-4 pb-4 d-flex flex-column">
+      {logoUser && <div className="px-4 pt-4 pb-4 d-flex flex-column">
         <img src={logoUser} alt="" width={40} height={40} />
         <div className="pt-2" style={{ fontSize: 14, fontWeight: 500 }}>
           {username}
@@ -17,7 +17,7 @@ function CardPartner({ text, logo, logoUser, username, usernameInfo }) {
         <span className="text-grey" style={{ fontSize: 12 }}>
           {usernameInfo}
         </span>
-      </div>
+      </div>}
     </div>
   )
 }

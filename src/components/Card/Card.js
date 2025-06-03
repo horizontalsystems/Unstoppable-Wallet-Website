@@ -10,7 +10,7 @@ function Card({ title, description, isBlack, children, gradient, isDesktop }) {
   const onMouseEnter = () => setRun(true)
   const onMouseLeave = () => setRun(false)
 
-  const className = cn('card card-regular border-0 rounded-24 bg-steel-10 overflow-hidden position-relative', {
+  const className = cn('card card-regular border-0 rounded-24 overflow-hidden position-relative', {
     'bg-steel-20': isBlack,
     'bg-steel-10': !isBlack
   })

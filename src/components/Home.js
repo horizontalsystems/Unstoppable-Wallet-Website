@@ -51,6 +51,7 @@ function Home() {
             title="Multi-Wallet"
             description="For easy management of many wallets within a single app while staying ultra secure."
             isDesktop={isDesktop}
+            isBlack
           >
             <MultiWallet />
           </CardBig>
@@ -113,6 +114,7 @@ function Home() {
                 description="Use an open source wallet to manage your cryptocurrencies securely and transparently."
                 gradient={<GradientImage color="green" fromZero />}
                 isDesktop={isDesktop}
+                isBlack
               >
                 <OpenSource />
               </Card>
@@ -123,6 +125,7 @@ function Home() {
                 description="Trully self-custodial wallet that gives users unconditional control."
                 gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
+                isBlack
               >
                 <NonCustodial />
               </Card>
@@ -133,6 +136,7 @@ function Home() {
                 title="Verified"
                 description="The security and transparency of the wallet has been tested and approved by reputable sources."
                 isDesktop={isDesktop}
+                isBlack
               >
                 <IconSwitcher icons="verified" width={509} height={96} />
               </CardMedium>
@@ -156,7 +160,6 @@ function Home() {
                 description="This improvement boosts wallet security against address poisoning attacks."
                 gradient={<GradientImage color="green" fromZero />}
                 isDesktop={isDesktop}
-                isBlack
               >
                 <SpamDetect />
               </Card>
@@ -167,7 +170,7 @@ function Home() {
                 description="A specialized mode designed to keep selected wallets safe under coercion."
                 gradient={<GradientImageDuress color="red-1x" color2="green-1x" />}
                 isDesktop={isDesktop}
-                isBlack>
+              >
                 <DuressMode />
               </CardOverlay>
             </div>
@@ -177,7 +180,6 @@ function Home() {
                 description="Built for strong privacy. No data collected."
                 gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
-                isBlack
               >
                 <IconSwitcher icons="private-tools" />
               </Card>
@@ -232,7 +234,6 @@ function Home() {
             title="Market"
             description="Explore detailed cryptocurrency market insights and comprehensive asset analytics."
             isDesktop={isDesktop}
-            isBlack
           >
             <MultiWalletMarket />
           </CardBig>
@@ -253,6 +254,7 @@ function Home() {
                 description="Effortlessly analyze market dynamics through category-leading asset tracking with analytics."
                 gradient={<GradientImage color="purple" />}
                 isDesktop={isDesktop}
+                isBlack
               >
                 <IconSwitcher icons="market-ranks" />
               </Card>
@@ -263,6 +265,7 @@ function Home() {
                 description="Effortlessly explore and analyze market trends with powerful tools for efficient insights."
                 gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
+                isBlack
               >
                 <IconSwitcher icons="market-tools" />
               </Card>
@@ -273,6 +276,7 @@ function Home() {
                 title="Coin Analytics"
                 description="Extensive exchange data. On-chain token data. Token rank lists based on data."
                 isDesktop={isDesktop}
+                isBlack
               >
                 <Analytics />
               </CardOverlay>
@@ -289,33 +293,6 @@ function Home() {
             column
           />
           <div className="row py-5 g-3">
-            <div className="col-md-6 col-lg-4">
-              <CardPartner
-                logo="/images/partners/bitcoin.png"
-                logoUser="/images/partners/bitcoin-user.png"
-                username="Martti Malmi"
-                usernameInfo="Bitcoin.org Founder"
-                text="Unstoppable Wallet is a breakthrough in decentralized finance, giving users full control over Bitcoin and other assets."
-              />
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <CardPartner
-                logo="/images/partners/ethereum.png"
-                logoUser="/images/partners/ethereum-user.png"
-                username="Vitalik Buterin"
-                usernameInfo="CEO of the Ethereum"
-                text="A wallet that prioritizes privacy and freedom, with excellent Ethereum and multi-asset support."
-              />
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <CardPartner
-                logo="/images/partners/scrutiny.png"
-                logoUser="/images/partners/scrutiny-user.png"
-                username="Leo Wandersleb"
-                usernameInfo="Wallet Reviewer, Founder"
-                text="A secure and transparent wallet that delivers excellent multi-asset support and user independence."
-              />
-            </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
                 logo="/images/partners/zcash.png"
@@ -345,20 +322,32 @@ function Home() {
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
-                logo="/images/partners/ivfun.png"
-                logoUser="/images/partners/ivfun-user.png"
-                username="Ruslan Khairullin"
-                usernameInfo="CEO of the IvFun"
-                text="Unstoppable Wallet is a breakthrough in decentralized finance, giving users full control over Bitcoin and other assets."
+                logo="/images/partners/bitcoin.png"
+                text="Unstoppable Wallet is listed on Bitcoin.org, one of the most trusted and community- driven resources for Bitcoin education and wallet recommendations. Our presence on Bitcoin.org underscores our commitment to non-custodial security, privacy, and transparency."
+              />
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/ethereum.png"
+                text="Unstoppable Wallet is featured on Ethereum.org, the official website of the Ethereum ecosystem, as a secure and open-source wallet for managing Ethereum and ERC-20 tokens. This listing reflects our dedication to decentralized finance and self-custody."
+              />
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/scrutiny.png"
+                text="Unstoppable Wallet has passed WalletScrutiny's verification process, demonstrating that our app is open-source and verifiable. WalletScrutiny evaluates wallets to ensure they match their published source code, reinforcing trust and security in the crypto community."
+              />
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/f-droid.png"
+                text="Unstoppable Wallet is available on F-Droid, a well-known repository for open-source Android apps. Being listed on F-Droid highlights our commitment to privacy, transparency, and open-source principles, allowing users to install our app from a trusted, independent source."
               />
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
                 logo="/images/partners/immunfi.png"
-                logoUser="/images/partners/immunfi-user.png"
-                username="Nikita Starshash"
-                usernameInfo="Cofounder of the StarsHash"
-                text="We have always been looking for solutions that allow people to manage their assets safely and conveniently. A great tool for both professionals and beginners!"
+                text="Security is a top priority for Unstoppable Wallet, which is why we are featured on Immunefi, a leading bug bounty platform for Web3 projects. Our listing on Immunefi helps us engage with security researchers to proactively identify and resolve vulnerabilities, ensuring a safer experience for our users."
               />
             </div>
           </div>

@@ -64,7 +64,7 @@ export function Footer() {
       </div>
 
       <div className="pt-4 mt-4 border-top">
-        <p>@ 2024 HorizontalSystems</p>
+        <p className="text-grey">@ 2025 HorizontalSystems</p>
       </div>
     </footer>
   )

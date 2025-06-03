@@ -82,7 +82,7 @@ function Roadmap() {
           </div>
         </div>
       </div>
-      <div className="card card-big rounded-32 border-0 overflow-hidden">
+      <div className="card card-big bg-steel-10 rounded-32 border-0 overflow-hidden">
         <div className="w-100 h-100 position-absolute d-flex justify-content-center">
           <img
             className="h-100"
