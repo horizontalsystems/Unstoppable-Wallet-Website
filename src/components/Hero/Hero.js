@@ -36,6 +36,9 @@ function Hero() {
             </button>
           </div>
           <div className="col-md-6 col-sm-12">
+            <div className="text-grey ps-md-4 ps-sm-2 ps-2 pb-2 small">
+              Verified and Approved:
+            </div>
             <ul className="nav nav-pills nav-justified">
               <li className="nav-item mb-2">
                 <Image src="/images/banner/bitcoin.svg" alt="" width="100" height="27" />
