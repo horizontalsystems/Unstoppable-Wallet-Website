@@ -57,14 +57,9 @@ function TosPage() {
             Continued use after changes means you accept the revised Terms.
           </p>
 
-          <h2 className="pt-3">8. Governing Law</h2>
+          <h2 className="pt-3">8. Contact</h2>
           <p>
-            These Terms are governed by the laws of [insert applicable jurisdiction], without regard to its conflict of laws principles.
-          </p>
-
-          <h2 className="pt-3">9. Contact</h2>
-          <p>
-            For questions regarding these Terms, contact us at: <a href="hsdao@protonmail.ch">hsdao@protonmail.ch</a>
+            For questions regarding these Terms, contact us at: <a href="mailto:hello@horizontalsystems.io">hello@horizontalsystems.io</a>
           </p>
         </div>
       </div>

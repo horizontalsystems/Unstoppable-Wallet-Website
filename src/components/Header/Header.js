@@ -55,19 +55,19 @@ export function Header() {
         <div className={cn('collapse navbar-collapse', { show })}>
           <ul className="navbar-nav ms-md-auto mb-2 mb-lg-0 text-center">
             <li className="nav-item">
-              <a className="nav-link small text-white active" aria-current="page" href="https://litrex.academy/">Academy</a>
+              <a href="https://litrex.academy/" target="_blank" className="nav-link small text-white active" aria-current="page">Academy</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link small text-white" href="https://horizontalsystems.io/">About</a>
+              <a href="https://horizontalsystems.io/" target="_blank" className="nav-link small text-white">About</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link small text-white" href="/faq">FAQ</Link>
+              <Link href="/faq" className="nav-link small text-white">FAQ</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link small text-white" href="https://github.com/horizontalsystems">Github</a>
+              <a href="https://github.com/horizontalsystems" target="_blank" className="nav-link small text-white">Github</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link small text-white" href="https://gitlab.com/horizontal_systems">Gitlab</a>
+              <a href="https://gitlab.com/horizontal_systems" target="_blank" className="nav-link small text-white">Gitlab</a>
             </li>
             <li className="nav-item show-on-bottom">
               <div
