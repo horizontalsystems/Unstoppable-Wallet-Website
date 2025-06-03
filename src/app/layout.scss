@@ -215,3 +215,72 @@
 .Button-steal20:hover {
   background: #7D819F1B !important;
 }
+
+// FAQ
+
+.Faq-title {
+  padding-top: 40px;
+  padding-bottom: 36px;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 65px;
+  //color: $light-steal;
+}
+
+.Faq-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Faq-item-title {
+  margin: 8px 0;
+  padding: 16px 0;
+  font-size: 36px;
+  font-weight: 700;
+  //color: $light-steal;
+}
+
+.Faq-item {
+  position: relative;
+  border: 1px solid rgba(128, 128, 133, 0.5);
+  border-radius: 16px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.Faq-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px 24px 30px;
+
+  font-size: 18px;
+  line-height: 25px;
+  //color: $light-steal;
+}
+
+.Faq-item-icon {
+  position: absolute;
+  right: 30px;
+
+  //@include sm {
+  //  right: 21px;
+  //}
+}
+
+.Faq-content {
+  padding: 0 30px;
+
+  .divider {
+    height: .5px;
+    margin-bottom: 24px;
+    background: rgba(128, 128, 133, 0.5);
+  }
+
+  .Markdown {
+    h1:first-child {
+      display: none;
+    }
+  }
+}

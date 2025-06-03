@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import SubscribeForm from '@/components/Form/SubscribeForm'
 
 export function Footer() {
@@ -13,16 +14,22 @@ export function Footer() {
         <div className="col-sm-12 col-md-2 mb-3">
           <ul className="nav flex-column">
             <li className="nav-item mb-3">
-              <a href="#" className="nav-link p-0 text-body-secondary">Home</a>
+              <Link href="/" className="nav-link p-0 text-body-secondary">Home</Link>
             </li>
             <li className="nav-item mb-3">
-              <a href="#" className="nav-link p-0 text-body-secondary">About us</a>
+              <a href="https://horizontalsystems.io/" className="nav-link p-0 text-body-secondary">About us</a>
             </li>
             <li className="nav-item mb-3">
-              <a href="#" className="nav-link p-0 text-body-secondary">FAQ</a>
+              <Link href="/faq" className="nav-link p-0 text-body-secondary">FAQ</Link>
             </li>
             <li className="nav-item mb-3">
-              <a href="#" className="nav-link p-0 text-body-secondary">Courses</a>
+              <a href="https://litrex.academy" className="nav-link p-0 text-body-secondary">Courses</a>
+            </li>
+            <li className="nav-item mb-3">
+              <Link href="/tos" className="nav-link p-0 text-body-secondary">Terms of Service</Link>
+            </li>
+            <li className="nav-item mb-3">
+              <Link href="/privacy-policy" className="nav-link p-0 text-body-secondary">Privacy of Policy</Link>
             </li>
           </ul>
         </div>
@@ -30,28 +37,22 @@ export function Footer() {
         <div className="col-sm-12 col-md-2 mb-3">
           <ul className="nav flex-column">
             <li className="nav-item mb-3">
-              <a href="#" className="nav-link p-0 text-body-secondary">Contact us:</a>
+              <div className="nav-link p-0 text-body-secondary">Contact us:</div>
             </li>
             <li className="nav-item mb-4">
-              <a href="#" className="nav-link p-0 text-body-secondary">hsdao@protonmail.ch</a>
+              <a href="mailto:hsdao@protonmail.ch" className="nav-link p-0 text-body-secondary">hsdao@protonmail.ch</a>
             </li>
             <li className="nav-item mb-2">
-              <a href="#" className="nav-link p-0 text-body-secondary">Folow us:</a>
+              <div className="nav-link p-0 text-body-secondary">Folow us:</div>
             </li>
             <li className="nav-item mb-3">
               <div className="d-flex gap-4 justify-content-start">
-                <div className="">
+                <a href="https://x.com/unstoppablebyhs">
                   <Image src="/icons/twitter.svg" alt="" width="24" height="24" />
-                </div>
-                <div className="">
-                  <Image src="/icons/reddit.svg" alt="" width="24" height="24" />
-                </div>
-                <div className="">
+                </a>
+                <a href="https://t.me/unstoppable_announcements">
                   <Image src="/icons/telegram.svg" alt="" width="24" height="24" />
-                </div>
-                <div className="">
-                  <Image src="/icons/github.svg" alt="" width="24" height="24" />
-                </div>
+                </a>
               </div>
             </li>
           </ul>

@@ -1,20 +1,34 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Script from 'next/script'
 
 const SubscriptionForm = ({ formCode, formId }) => {
+  const [submitted, setSubmitted] = useState(false)
   const className = `ml-subscribe-form ml-subscribe-form-${formId}`
 
   useEffect(() => {
-    // Ensure the form is initialized after scripts are loaded
     if (window.ml_jQuery) {
       window.ml_jQuery(`#mlb2-${formId} form`).on('submit', function (e) {
         e.preventDefault()
-        console.log('Form submitted')
+        const $form = window.ml_jQuery(this)
+        const formData = $form.serialize()
+
+        window.ml_jQuery.ajax({
+          type: 'POST',
+          url: $form.attr('action'),
+          data: formData,
+          success: function () {
+            setSubmitted(true)
+            $form[0].reset()
+          },
+          error: function () {
+            alert('There was an error. Please try again.')
+          },
+        })
       })
     }
-  }, [])
+  }, [formId])
 
   return (
     <div id={`mlb2-${formId}`} className={className}>
@@ -31,28 +45,31 @@ const SubscriptionForm = ({ formCode, formId }) => {
         strategy="afterInteractive"
       />
 
-      <form method="POST" action={`https://app.mailerlite.com/webforms/submit/${formCode}`} data-form={formCode} data-id={formId}>
-        <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-          <label htmlFor="newsletter1" className="visually-hidden">
-            Email address
-          </label>
-          <input
-            id="newsletter1"
-            type="email"
-            className="form-control bg-steel-10"
-            placeholder="Email address"
-            name="fields[email]"
-            required
-          />
-          <button className="btn btn-warning rounded-5 px-4" type="submit">
-            Subscribe
-          </button>
-        </div>
-        <p className="my-3">
-          Subscribe to our newsletter to get new products, guides, and cheat sheets
-          when they are published.
-        </p>
-      </form>
+      {submitted ? (
+        <p className="text-success">Thank you! You’ve been subscribed.</p>
+      ) : (
+        <form method="POST" action={`https://app.mailerlite.com/webforms/submit/${formCode}`} data-form={formCode} data-id={formId}>
+          <div className="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label htmlFor="newsletter1" className="visually-hidden">
+              Email address
+            </label>
+            <input
+              id="newsletter1"
+              type="email"
+              className="form-control bg-steel-10"
+              placeholder="Email address"
+              name="fields[email]"
+              required
+            />
+            <button className="btn btn-warning rounded-5 px-4" type="submit">
+              Subscribe
+            </button>
+          </div>
+          <p className="my-3">
+            Subscribe to our newsletter to get new products, guides, and cheat sheets when they are published.
+          </p>
+        </form>
+      )}
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MarkdownPreview() {
+function MarkdownPreview({ className }) {
   const body = (
     <p className="card-text placeholder-glow">
       <span className="placeholder col-7"></span>
@@ -12,7 +12,7 @@ function MarkdownPreview() {
   )
 
   return (
-    <div className="Markdown-scroll p-5">
+    <div className={className}>
       <div className="Markdown col-sm-12 col-md-9">
         <h1 className="placeholder-glow">
           <span className="placeholder col-4"></span>

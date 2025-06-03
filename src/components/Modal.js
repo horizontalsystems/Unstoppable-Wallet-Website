@@ -14,16 +14,17 @@ const styles = {
     border: 'none',
     background: 'rgba(255, 255, 255, 0.20)',
     backdropFilter: 'blur(30px)',
-    '-webkit-backdrop-filter': 'blur(30px)'
+    WebkitBackdropFilter: 'blur(30px)'
   },
   overlay: {
-    background: 'transparent'
+    background: 'transparent',
+    zIndex: 9999,
   }
 }
 
 export function Modal({ isOpen, onClose, children }) {
   return (
-    <ReactModal isOpen={isOpen} onRequestClose={onClose} style={styles}>
+    <ReactModal isOpen={isOpen} onRequestClose={onClose} style={styles} ariaHideApp={false}>
       {children}
     </ReactModal>
   )

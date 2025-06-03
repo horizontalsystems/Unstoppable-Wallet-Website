@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react'
 import cn from 'classnames'
-import Markdown from '@/components/Markdown/Markdown'
+import MarkdownRelease from '@/components/Markdown/MarkdownRelease'
 import releases from './releases.json'
 
 import './Roadmap.css'
@@ -89,7 +89,7 @@ function Roadmap() {
             src="/images/gradients/ellipse-grey-1x.png" alt=""
             style={{ transformOrigin: 'top center', transform: 'scale(2)' }} />
         </div>
-        <Markdown text={releaseNotes[current]} />
+        <MarkdownRelease text={releaseNotes[current]} />
         <div className="card-footer d-flex justify-content-center border-0 px-5 pt-4 pb-3 z-1 bg-dark">
           <div className="d-flex justify-content-between col-md-9 col-12">
             <div className="text-grey">
