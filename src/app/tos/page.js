@@ -75,10 +75,7 @@ function TosPage() {
             Keep using the app? That means you're fine with the new version.
           </p>
 
-          <h2 className="pt-3">8. Governing Law</h2>
-          <p>These Terms are governed by the laws of [insert jurisdiction here].</p>
-
-          <h2 className="pt-3">9. Contact</h2>
+          <h2 className="pt-3">8. Contact</h2>
           <p>
             Got questions? <br/>
             Drop us a line at <a href="mailto:hello@horizontalsystems.io" rel="noopener noreferrer">hello@horizontalsystems.io</a>
