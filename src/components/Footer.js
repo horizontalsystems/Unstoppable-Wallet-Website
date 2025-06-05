@@ -25,9 +25,6 @@ export function Footer() {
               <Link href="/faq" className="nav-link p-0 text-body-secondary">FAQ</Link>
             </li>
             <li className="nav-item mb-3">
-              <a href="https://litrex.academy" target="_blank" className="nav-link p-0 text-body-secondary">Academy</a>
-            </li>
-            <li className="nav-item mb-3">
               <Link href="/tos" className="nav-link p-0 text-body-secondary">Terms of Service</Link>
             </li>
             <li className="nav-item mb-3">
@@ -58,10 +55,6 @@ export function Footer() {
               </div>
             </li>
           </ul>
-        </div>
-
-        <div className="col-md-5 offset-md-1 mb-3">
-          <SubscribeForm formCode="m3g0e6" formId="1561498" />
         </div>
       </div>
 

@@ -42,14 +42,14 @@ function Home() {
       <Page black>
         <div className="container">
           <PageHeader
-            title="Easy Self Custody"
-            description="Self-Custody is great, but existing tools can be complex and not easily accessible to most. We are here to make it easy."
+            title="Easy Self-Custody"
+            description="Self-Custody is great, but existing tools are complex. Unstoppable fixes that."
             column
           />
 
           <CardBig
             title="Multi-Wallet"
-            description="For easy management of many wallets within a single app while staying ultra secure."
+            description="For easy & convenient multi-wallet self-custody while staying ultra secure."
             isDesktop={isDesktop}
             isBlack
           >
@@ -61,15 +61,15 @@ function Home() {
       <Page darkest>
         <div className="container">
           <PageHeader
-            title="Ease of use"
-            description="Simplify asset management with an intuitive platform for unparalleled ease"
+            title="Intuitive & Extensive"
+            description="Simplify crypto management"
           />
 
           <div className="row py-5 g-3">
             <div className="col-sm-12 col-md-12 col-lg-6">
               <CardOverlay
                 title="Multi-Chain"
-                description="Supports 16 Blockchains and over 3000 tokens."
+                description="Intuitive wallet app to conveniently store and manage all crypto assets."
                 gradient={<GradientImageBottomRight color="purple-1x" />}
                 isDesktop={isDesktop}
               >
@@ -78,8 +78,8 @@ function Home() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
-                title="Easy Migration"
-                description="Migrate to/from other wallets. Any seed length or language."
+                title="Universal"
+                description="Allows to migrate existing wallets to/from other wallet apps."
                 gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
               >
@@ -89,7 +89,7 @@ function Home() {
             <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
                 title="Practical"
-                description="Easy to migrate, backup and restore. Built for real-world use cases."
+                description="Easy to manage, backup and restore multiple wwallets. Built for humans."
                 gradient={<GradientImage color="blue" />}
                 isDesktop={isDesktop}
               >
@@ -103,15 +103,15 @@ function Home() {
       <Page black>
         <div className="container">
           <PageHeader
-            title="Reliable"
-            description="Ensure safe and secure management of your digital assets"
+            title="Reliable & Transparent"
+            description="Get reliable and verified security"
           />
 
           <div className="row py-5 g-3">
             <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
-                title="Open Source"
-                description="Use an open source wallet to manage your cryptocurrencies securely and transparently."
+                title="Open-Source"
+                description="Unstoppable is a verifiably open source wallet which is recommended by highly respected sources."
                 gradient={<GradientImage color="green" fromZero />}
                 isDesktop={isDesktop}
                 isBlack
@@ -122,7 +122,7 @@ function Home() {
             <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
                 title="Non-Custodial"
-                description="Trully self-custodial wallet that gives users unconditional control."
+                description="Engineered in accordance with all security protocols to deliver secure self-custody."
                 gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
                 isBlack
@@ -133,8 +133,8 @@ function Home() {
             <div className="col-md-12 col-lg-6">
               <CardMedium
                 className="card-bg-violet"
-                title="Verified"
-                description="The security and transparency of the wallet has been tested and approved by reputable sources."
+                title="Audited"
+                description="The integrity and security of the app is continuously monitored by community and regularly audited by reputable sources."
                 isDesktop={isDesktop}
                 isBlack
               >
@@ -149,15 +149,15 @@ function Home() {
       <Page darkest>
         <div className="container">
           <PageHeader
-            title="Secure"
-            description="Secure your digital assets with peace of mind using our advanced platform"
+            title="Secure & Private"
+            description="Security for real-world threats"
           />
 
           <div className="row py-5 g-3">
             <div className="col-sm-12 col-md-6 col-lg-3 order-md-2 order-lg-1">
               <Card
-                title="Spam Detector"
-                description="This improvement boosts wallet security against address poisoning attacks."
+                title="Phishing Protection"
+                description="Automated protection against sophisticated address poisoning attacks."
                 gradient={<GradientImage color="green" fromZero />}
                 isDesktop={isDesktop}
               >
@@ -167,7 +167,7 @@ function Home() {
             <div className="col-md-12 col-lg-6 order-md-1 order-lg-2">
               <CardOverlay
                 title="Duress Mode"
-                description="A specialized mode designed to keep selected wallets safe under coercion."
+                description="A smart security mode designed to guarantee safety under coercion."
                 gradient={<GradientImageDuress color="red-1x" color2="green-1x" />}
                 isDesktop={isDesktop}
               >
@@ -176,8 +176,8 @@ function Home() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-3 order-md-3 order-lg-3">
               <Card
-                title="Private Tools"
-                description="Built for strong privacy. No data collected."
+                title="Privacy"
+                description="Built for strong privacy on many layers. No user data collected."
                 gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
               >
@@ -192,14 +192,14 @@ function Home() {
         <div className="container">
           <PageHeader
             title="DeFi Enabled"
-            description="Interact with any DeFi service"
+            description="Secure interaction with decentralized finance apps."
           />
 
           <div className="row py-5 g-3">
             <div className="col-md-6">
               <CardOverlay
                 title="DEXes"
-                description="Integrates latest updates from all major DEXes incl. 1INCH, Uniswap, Pancake etc."
+                description="Integrates decentralized exchanges to enable anonymous asset swaps across many blockchains."
                 gradient={<GradientImageBottomRight color="yellow-1x" />}
                 isDesktop={isDesktop}
                 isBlack
@@ -211,7 +211,7 @@ function Home() {
               <CardMedium
                 className="card-bg-violet"
                 title="Wallet Connect"
-                description="Interact with any DeFi service via WalletConnect V1 and V2."
+                description="Interact with any DeFi service via WalletConnect protocol in a secure manner."
                 isDesktop={isDesktop}
                 isBlack
               >
@@ -226,13 +226,13 @@ function Home() {
         <div className="container">
           <PageHeader
             title="Easy Analytics"
-            description="We aggregate data from blockchains and cryptocurrency exchanges to offer the most comprehensive analytics"
+            description="Onchain and market analytics for over 5000 assets that offers the most comprehensive analytics on the market."
             column
 
           />
           <CardBig
-            title="Market"
-            description="Explore detailed cryptocurrency market insights and comprehensive asset analytics."
+            title="Market Data"
+            description="Explore market trends, ETF flows and crypto sector insights."
             isDesktop={isDesktop}
           >
             <MultiWalletMarket />
@@ -243,15 +243,15 @@ function Home() {
       <Page black>
         <div className="container">
           <PageHeader
-            title="Analytics"
-            description="Get a set of the best tools for researching"
+            title="Token Analytics"
+            description="Offchain and onchain token analytics"
           />
 
           <div className="row py-5 g-3">
             <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
-                title="Market Ranks"
-                description="Effortlessly analyze market dynamics through category-leading asset tracking with analytics."
+                title="Market Overview"
+                description="Explore and analyze performance trends over different sectors."
                 gradient={<GradientImage color="purple" />}
                 isDesktop={isDesktop}
                 isBlack
@@ -261,7 +261,7 @@ function Home() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-3">
               <Card
-                title="Market Tools"
+                title="Trader's Tools"
                 description="Effortlessly explore and analyze market trends with powerful tools for efficient insights."
                 gradient={<GradientImage color="yellow" />}
                 isDesktop={isDesktop}
@@ -273,8 +273,8 @@ function Home() {
             <div className="col-md-12 col-lg-6">
               <CardOverlay
                 className="card-bg-grey"
-                title="Coin Analytics"
-                description="Extensive exchange data. On-chain token data. Token rank lists based on data."
+                title="Token Analytics"
+                description="Extensive exchange data. On-chain token data. Token rank lists over various parameters."
                 isDesktop={isDesktop}
                 isBlack
               >
@@ -289,7 +289,7 @@ function Home() {
         <div className="container">
           <PageHeader
             title="Our Partners"
-            description="Our partners highlight Unstoppable Wallet’s innovation, privacy, and user-first design:"
+            description="Highlighting our commitment to security, privacy, and user-oriented design."
             column
           />
           <div className="row py-5 g-3">
@@ -383,7 +383,7 @@ function Home() {
         <div className="container">
           <PageHeader
             title="Support the Project!"
-            description="Together, with your support, we can make this app even better!"
+            description="We are here to deliver privacy and security that is both easy and beautiful. We are fully self funded without VC backing. Your support matters!"
             column
           />
 
