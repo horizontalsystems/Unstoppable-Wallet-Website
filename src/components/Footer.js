@@ -42,7 +42,7 @@ export function Footer() {
               <a href="mailto:hello@horizontalsystems.io" className="nav-link p-0 text-body-secondary">hello@horizontalsystems.io</a>
             </li>
             <li className="nav-item mb-2">
-              <div className="nav-link p-0 text-body-secondary">Folow us:</div>
+              <div className="nav-link p-0 text-body-secondary">Follow us:</div>
             </li>
             <li className="nav-item mb-3">
               <div className="d-flex gap-4 justify-content-start">

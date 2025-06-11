@@ -24,7 +24,7 @@ function RootLayout({ children }) {
 
         {children}
 
-        <Page darkest>
+        <Page black>
           <Footer />
         </Page>
       </body>

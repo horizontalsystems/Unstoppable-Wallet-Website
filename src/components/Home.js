@@ -10,7 +10,6 @@ import CardMedium from '@/components/Card/CardMedium'
 import CardOverlay from '@/components/Card/CardOverlay'
 import Card from '@/components/Card/Card'
 import Roadmap from '@/components/Roadmap/Roadmap'
-import Videos from '@/components/Video/Videos'
 import MultiWallet from '@/components/Animated/MultiWallet'
 import Chains from '@/components/Animated/Chains'
 import IconSwitcher from '@/components/Animated/IconSwitcher'
@@ -357,19 +356,6 @@ function Home() {
       <Page black>
         <div className="container">
           <PageHeader
-            title="Master the Wallet"
-            description="Explore short, easy-to-follow tutorials that guide you through using all the features of Unstoppable Wallet."
-            column
-          />
-          <div className="row py-5 g-3">
-            <Videos />
-          </div>
-        </div>
-      </Page>
-
-      <Page darkest>
-        <div className="container">
-          <PageHeader
             title="Proof of Work"
             description="Take a look at the milestones we’ve completed and the progress that defines Unstoppable Wallet."
             column
@@ -379,7 +365,7 @@ function Home() {
         </div>
       </Page>
 
-      <Page black>
+      <Page darkest>
         <div className="container">
           <PageHeader
             title="Support the Project!"
