@@ -9,13 +9,13 @@ function DuressMode({ running }) {
   }
 
   const anim1 = useSpring({
-    transform: running ? 'translate3d(50%,20px,0) scale(1.1)' : 'translate3d(50%,20px,0) scale(1)',
+    transform: running ? 'translate3d(50%,35px,0) scale(1.1)' : 'translate3d(50%,35px,0) scale(1)',
     opacity: running ? 0 : 1,
     config
   })
 
   const anim2 = useSpring({
-    transform: running ? 'translate3d(-50%,20px,0) scale(1.1)' : 'translate3d(-50%,20px,0) scale(1)',
+    transform: running ? 'translate3d(-50%,35px,0) scale(1.1)' : 'translate3d(-50%,35px,0) scale(1)',
     opacity: running ? 1 : 0,
     config
   })
