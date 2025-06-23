@@ -321,6 +321,24 @@ function Home() {
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
+                logo="/images/partners/nym.png"
+                logoUser="/images/partners/nym-user.png"
+                text="The support of Unstoppable Money for privacy is now going to the next level, first with support of Shielded ZCash and now with the support of Nym, whose mixnet can protect the IP address and metadata of its users."
+                username="Harry Halpin"
+                usernameInfo="CEO and co-founder Nym Technologies"
+              />
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
+                logo="/images/partners/drpc.png"
+                logoUser="/images/partners/drpc-user.png"
+                text="We highly recommend Unstoppable Wallet to our users and partners, and our team uses it internally. At dRPC, we value privacy and reliability, and appreciate Unstoppable's commitment to open-source efforts."
+                username="Constantine Zaitcev"
+                usernameInfo="CEO at dRPCorg"
+              />
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
                 logo="/images/partners/bitcoin.png"
                 text="Unstoppable Wallet is listed on Bitcoin.org, one of the most trusted and community- driven resources for Bitcoin education and wallet recommendations. Our presence on Bitcoin.org underscores our commitment to non-custodial security, privacy, and transparency."
               />
