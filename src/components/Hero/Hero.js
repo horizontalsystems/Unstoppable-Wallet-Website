@@ -41,16 +41,24 @@ function Hero() {
             </div>
             <ul className="nav nav-pills nav-justified">
               <li className="nav-item mb-2">
-                <Image src="/images/banner/bitcoin.svg" alt="" width="100" height="27" />
+                <a href="https://bitcoin.org/en/wallets/mobile/ios/unstoppable/" target="_blank" rel="noopener noreferrer">
+                  <Image src="/images/banner/bitcoin.svg" alt="" width="100" height="27" />
+                </a>
               </li>
               <li className="nav-item mb-2">
-                <Image src="/images/banner/certik.svg" alt="" width="100" height="27" />
+                <a href="https://www.certik.com/resources/blog/unstoppablemobilewalletapppassesthroughformalvaptwithcertik" target="_blank" rel="noopener noreferrer">
+                  <Image src="/images/banner/certik.svg" alt="" width="100" height="27" />
+                </a>
               </li>
               <li className="nav-item mb-2">
-                <Image src="/images/banner/wallet-scrutiny.svg" alt="" width="100" height="27" />
+                <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet/" target="_blank" rel="noopener noreferrer">
+                  <Image src="/images/banner/wallet-scrutiny.svg" alt="" width="100" height="27" />
+                </a>
               </li>
               <li className="nav-item mb-2">
-                <Image src="/images/banner/immunfi.svg" alt="" width="100" height="27" />
+                <a href="https://immunefi.com/bug-bounty/unstoppablewallet/information/" target="_blank" rel="noopener noreferrer">
+                  <Image src="/images/banner/immunfi.svg" alt="" width="100" height="27" />
+                </a>
               </li>
             </ul>
           </div>

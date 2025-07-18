@@ -299,6 +299,7 @@ function Home() {
                 username="Zooko Wilcox-O'Hearn"
                 usernameInfo="CEO of the ECC"
                 text="Unstoppable is the first multi-coin wallet that supports Bitcoin, Ethereum, and fully shielded Zcash, as well as other coins, and it has a strong, user-centric architecture in which the users own their own keys and their own privacy."
+                link="https://z.cash/ecosystem/unstoppable"
               />
             </div>
             <div className="col-md-6 col-lg-4">
@@ -308,6 +309,7 @@ function Home() {
                 username="Edige Davletgaliyev"
                 usernameInfo="Cofounder of the Blockchair"
                 text="We have always been looking for solutions that allow people to manage their assets safely and conveniently. A great tool for both professionals and beginners!"
+                link="https://blockchair.com"
               />
             </div>
             <div className="col-md-6 col-lg-4">
@@ -317,6 +319,7 @@ function Home() {
                 username="Gleb Kostarev"
                 usernameInfo="CEO & Cofounder of the Blum"
                 text="It’s rare to find a product that combines ease of use with top-notch security like Unstoppable Wallet. This is a wallet I would recommend to anyone who values privacy and reliability."
+                link="https://www.blum.io/?r=0"
               />
             </div>
             <div className="col-md-6 col-lg-4">
@@ -326,6 +329,7 @@ function Home() {
                 text="The support of Unstoppable Money for privacy is now going to the next level, first with support of Shielded ZCash and now with the support of Nym, whose mixnet can protect the IP address and metadata of its users."
                 username="Harry Halpin"
                 usernameInfo="CEO and co-founder Nym Technologies"
+                link="https://nym.com"
               />
             </div>
             <div className="col-md-6 col-lg-4">
@@ -335,36 +339,42 @@ function Home() {
                 text="We highly recommend Unstoppable Wallet to our users and partners, and our team uses it internally. At dRPC, we value privacy and reliability, and appreciate Unstoppable's commitment to open-source efforts."
                 username="Constantine Zaitcev"
                 usernameInfo="CEO at dRPCorg"
+                link="https://drpc.org"
               />
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
                 logo="/images/partners/bitcoin.png"
                 text="Unstoppable Wallet is listed on Bitcoin.org, one of the most trusted and community- driven resources for Bitcoin education and wallet recommendations. Our presence on Bitcoin.org underscores our commitment to non-custodial security, privacy, and transparency."
+                link="https://bitcoin.org/en/wallets/mobile/ios/unstoppable/"
               />
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
                 logo="/images/partners/ethereum.png"
                 text="Unstoppable Wallet is featured on Ethereum.org, the official website of the Ethereum ecosystem, as a secure and open-source wallet for managing Ethereum and ERC-20 tokens. This listing reflects our dedication to decentralized finance and self-custody."
+                link="https://ethereum.org/ru/wallets/find-wallet"
               />
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
                 logo="/images/partners/scrutiny.png"
                 text="Unstoppable Wallet has passed WalletScrutiny's verification process, demonstrating that our app is open-source and verifiable. WalletScrutiny evaluates wallets to ensure they match their published source code, reinforcing trust and security in the crypto community."
+                link="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet/"
               />
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
                 logo="/images/partners/f-droid.png"
                 text="Unstoppable Wallet is available on F-Droid, a well-known repository for open-source Android apps. Being listed on F-Droid highlights our commitment to privacy, transparency, and open-source principles, allowing users to install our app from a trusted, independent source."
+                link="https://f-droid.org/en/packages/io.horizontalsystems.bankwallet/"
               />
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
                 logo="/images/partners/immunfi.png"
                 text="Security is a top priority for Unstoppable Wallet, which is why we are featured on Immunefi, a leading bug bounty platform for Web3 projects. Our listing on Immunefi helps us engage with security researchers to proactively identify and resolve vulnerabilities, ensuring a safer experience for our users."
+                link="https://immunefi.com/bug-bounty/unstoppablewallet/information/"
               />
             </div>
           </div>
