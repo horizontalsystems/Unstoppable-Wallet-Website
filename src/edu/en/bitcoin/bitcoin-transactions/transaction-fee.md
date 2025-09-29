@@ -1,0 +1,8 @@
+# Transaction Fees 
+
+Whenever you send Bitcoin, a fee is required. The fee is not paid to the wallet provider but paid to the Bitcoin miner that includes your transaction in the next blockchain block. Fees are dynamic and vary based on network congestion and the size of your transaction. The size of the transaction is not the amount/Bitcoin transacted but the amount of space transaction data will occupy in the block. During times of high demand, when many users are transacting, fees may spike significantly, so users may have to wait for lower fees or pay a premium for a faster transaction. 📊
+
+## Fee Calculation:
+Transaction fees are calculated based on the size of the transaction (measured in bytes) and the current fee rate, which is determined by network congestion. For example, a transaction of a single Bitcoin will have a smaller fee if it uses just 1-2 large inputs compared to a transaction that uses many small inputs, even if the value transferred is the same. An input is basically a value from a previous transaction. For instance, if someone sends you 1 BTC transaction today, then you will have an input of 1 BTC. If you need to send someone 0.5 BTC, that single input will be sufficient. However, should you need to send over 1 BTC, multiple inputs will be required, leading to larger transaction size and higher fees. 📏💰
+
+Well-engineered non-custodial wallets should allow users to customize their transaction fees, offering options to choose between fast, medium, or slow confirmation times based on urgency and cost. For example, if someone is purchasing coffee using Bitcoin, they can opt for a lower fee if they're not in a rush, while a trader might need a faster transaction and choose a higher fee. ⚡☕️
