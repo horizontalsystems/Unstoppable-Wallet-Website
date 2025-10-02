@@ -19,7 +19,7 @@ function Donate() {
       <DotateCard
         key="monero"
         chain="monero"
-        address="49WjbuKDVJP9BCqD8fT4JqgyoWintsSPp8W67ggGjbDm88nHcLBwtA28hYfauBx5et5LMR6GuNM8BjFzvahGUi9QHwiWK4t" />
+        address="41gPzKMUBazWnWaJ2E3dGqedAJ5jyYVxCTFUUE5hkp6b5QgQmiswVjh445cFWjfhR42aFHnZnffrq7UWNcBHmnPpK7isZ5s" />
     </div>
   )
 }
