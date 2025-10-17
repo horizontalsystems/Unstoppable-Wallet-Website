@@ -351,6 +351,13 @@ function Home() {
             </div>
             <div className="col-md-6 col-lg-4">
               <CardPartner
+                logo="/images/partners/hashdit.png"
+                text="Unstoppable Wallet has demonstrated a strong commitment to user security by integrating HashDit's threat wallet address API. This integration prevents their customers from sending funds to scammers or malicious actors. We appreciate their dedication to user safety and value our collaboration."
+                link="https://www.hashdit.io"
+              />
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <CardPartner
                 logo="/images/partners/ethereum.png"
                 text="Unstoppable Wallet is featured on Ethereum.org, the official website of the Ethereum ecosystem, as a secure and open-source wallet for managing Ethereum and ERC-20 tokens. This listing reflects our dedication to decentralized finance and self-custody."
                 link="https://ethereum.org/ru/wallets/find-wallet"
