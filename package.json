@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start -p 3002",
     "lint": "next lint",
-    "deploy": "scp -r ./.next/* deploy@178.62.214.140:/home/deploy/unstoppable.next/.next"
+    "deploy": "scp -r ./.next/* deploy@websites:/home/deploy/unstoppable.next/.next"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.5",
