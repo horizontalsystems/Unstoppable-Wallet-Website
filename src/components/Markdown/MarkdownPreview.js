@@ -14,17 +14,17 @@ function MarkdownPreview({ className }) {
   return (
     <div className={className}>
       <div className="Markdown col-sm-12 col-md-9">
-        <h1 className="placeholder-glow">
+        <div className="h1 placeholder-glow">
           <span className="placeholder col-4"></span>
-        </h1>
+        </div>
         {body}
-        <h2 className="placeholder-glow">
+        <div className="h2 placeholder-glow">
           <span className="placeholder col-3" />
-        </h2>
+        </div>
         {body}
-        <h2 className="placeholder-glow">
+        <div className="h2 placeholder-glow">
           <span className="placeholder col-4" />
-        </h2>
+        </div>
       </div>
     </div>
   )

@@ -1,5 +1,20 @@
 import Page from '@/components/Page/Page'
 
+export const metadata = {
+  title: 'Privacy Policy',
+  description:
+    'How Unstoppable Wallet handles information. We are non-custodial and collect no personal data — all sensitive data stays on your device.',
+  alternates: {
+    canonical: '/privacy-policy',
+  },
+  openGraph: {
+    title: 'Privacy Policy — Unstoppable Wallet',
+    description:
+      'How Unstoppable Wallet handles information. We are non-custodial and collect no personal data — all sensitive data stays on your device.',
+    url: 'https://unstoppable.money/privacy-policy',
+  },
+}
+
 function PrivacyPolicyPage() {
   return (
     <Page black>

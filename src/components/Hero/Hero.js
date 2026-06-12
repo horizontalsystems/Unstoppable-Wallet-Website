@@ -23,7 +23,7 @@ function Hero() {
             <h1 className="display-2 fw-medium text-steel-light">Master Cryptocurrency The Easy Way</h1>
           </div>
           <div className="col-lg-6 d-flex justify-content-center">
-            <img className="hero-image" src="/images/banner/wallet-2.png" alt="" />
+            <img className="hero-image" src="/images/banner/wallet-2.png" alt="Unstoppable Wallet app shown on a smartphone" />
           </div>
         </div>
 
@@ -42,22 +42,22 @@ function Hero() {
             <ul className="nav nav-pills nav-justified">
               <li className="nav-item mb-2">
                 <a href="https://bitcoin.org/en/wallets/mobile/ios/unstoppable/" target="_blank" rel="noopener noreferrer">
-                  <Image src="/images/banner/bitcoin.svg" alt="" width="100" height="27" />
+                  <Image src="/images/banner/bitcoin.svg" alt="Listed on Bitcoin.org" width="100" height="27" />
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="https://www.certik.com/resources/blog/unstoppablemobilewalletapppassesthroughformalvaptwithcertik" target="_blank" rel="noopener noreferrer">
-                  <Image src="/images/banner/certik.svg" alt="" width="100" height="27" />
+                  <Image src="/images/banner/certik.svg" alt="Audited by CertiK" width="100" height="27" />
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="https://walletscrutiny.com/android/io.horizontalsystems.bankwallet/" target="_blank" rel="noopener noreferrer">
-                  <Image src="/images/banner/wallet-scrutiny.svg" alt="" width="100" height="27" />
+                  <Image src="/images/banner/wallet-scrutiny.svg" alt="Verified by WalletScrutiny" width="100" height="27" />
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="https://immunefi.com/bug-bounty/unstoppablewallet/information/" target="_blank" rel="noopener noreferrer">
-                  <Image src="/images/banner/immunfi.svg" alt="" width="100" height="27" />
+                  <Image src="/images/banner/immunfi.svg" alt="Bug bounty on Immunefi" width="100" height="27" />
                 </a>
               </li>
             </ul>

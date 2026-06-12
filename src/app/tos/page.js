@@ -1,5 +1,20 @@
 import Page from '@/components/Page/Page'
 
+export const metadata = {
+  title: 'Terms of Service',
+  description:
+    'The terms governing your use of Unstoppable Wallet — a non-custodial crypto wallet built for real self-custody and financial freedom.',
+  alternates: {
+    canonical: '/tos',
+  },
+  openGraph: {
+    title: 'Terms of Service — Unstoppable Wallet',
+    description:
+      'The terms governing your use of Unstoppable Wallet — a non-custodial crypto wallet built for real self-custody and financial freedom.',
+    url: 'https://unstoppable.money/tos',
+  },
+}
+
 function TosPage() {
   return (
     <Page black>

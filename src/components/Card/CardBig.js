@@ -21,7 +21,7 @@ function CardBig({ title, description, children, isDesktop, isBlack }) {
       <div className="row">
         <div className="col-lg-3 col-md-6">
           <div className="p-4 m-md-2">
-            <div className="fs-4 fw-normal text-steel-light mb-2">{title}</div>
+            <h3 className="fs-4 fw-normal text-steel-light mb-2">{title}</h3>
             <div className="small text-grey lh-sm">{description}</div>
           </div>
         </div>

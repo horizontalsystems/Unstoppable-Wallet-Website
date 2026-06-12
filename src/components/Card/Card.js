@@ -20,7 +20,7 @@ function Card({ title, description, isBlack, children, gradient, isDesktop }) {
       {gradient ? cloneElement(gradient, { running: isDesktop && run }) : null}
 
       <div className="p-4 m-md-2">
-        <div className="fs-4 fw-normal text-steel-light mb-2">{title}</div>
+        <h3 className="fs-4 fw-normal text-steel-light mb-2">{title}</h3>
         <div className="small text-grey lh-sm">{description}</div>
       </div>
       <div className="card-body d-flex justify-content-center position-relative">

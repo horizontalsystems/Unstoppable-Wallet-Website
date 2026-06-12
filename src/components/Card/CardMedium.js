@@ -21,7 +21,7 @@ function CardMedium({ className, title, description, isBlack, gradient, isDeskto
       <div className="row">
         <div className="col-12 col-md-8 col-lg-7">
           <div className="p-4 m-md-2">
-            <div className="fs-4 fw-normal text-steel-light mb-2">{title}</div>
+            <h3 className="fs-4 fw-normal text-steel-light mb-2">{title}</h3>
             <div className="small text-grey lh-sm">{description}</div>
           </div>
         </div>

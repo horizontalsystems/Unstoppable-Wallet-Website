@@ -2,8 +2,7 @@
 
 import React from 'react'
 import cn from 'classnames'
-import FaqContent from '@/components/Faq/FaqContent'
-import faq from '../../faq.json'
+import MarkdownFaq from '@/components/Markdown/MarkdownFaq'
 
 class Faq extends React.Component {
   state = {
@@ -15,40 +14,39 @@ class Faq extends React.Component {
   }
 
   render() {
+    const { groups = [] } = this.props
     const { items } = this.state
     const setItem = state => this.setState({
       items: state
     })
 
-    const mapItem = ({ en }, id, groupId) => {
+    const mapItem = ({ title, html }, id, groupId) => {
       const key = `${groupId}-${id}`
       const isActive = items[key]
 
       return (
         <li key={id} className={cn('Faq-item', { 'Faq-active': isActive })}>
-          <div className="Faq-head" onClick={() => setItem({ ...items, [key]: isActive ? null : true })}>
-            {en.title}
+          <h3 className="Faq-head fw-normal mb-0" onClick={() => setItem({ ...items, [key]: isActive ? null : true })}>
+            {title}
             <img className="Faq-item-icon" src={isActive ? '/icons/icon-down.svg' : '/icons/icon-up.svg'} width="14" alt="" />
+          </h3>
+          <div className="Faq-content" style={{ display: isActive ? 'block' : 'none' }}>
+            <div className="divider" />
+            <MarkdownFaq text={html} />
           </div>
-          {isActive ? (
-            <div className="Faq-content">
-              <div className="divider" />
-              <FaqContent file={en.markdown} />
-            </div>
-          ) : null}
         </li>
       )
     }
 
     return (
       <div>
-        <div className="Faq-title">
+        <h1 className="Faq-title mb-0">
           FAQ
-        </div>
+        </h1>
         <ul className="Faq-items">
-          {faq.map(({ section, items }, groupId) => [
-            <li key={groupId} className="Faq-item-title">
-              {section['en']}
+          {groups.map(({ section, items }, groupId) => [
+            <li key={`section-${groupId}`}>
+              <h2 className="Faq-item-title">{section}</h2>
             </li>,
             items.map((item, itemId) => mapItem(item, itemId, groupId))
           ])}

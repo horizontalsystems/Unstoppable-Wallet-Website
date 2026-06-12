@@ -22,7 +22,7 @@ function CardOverlay({ className, title, description, children, isBlack, gradien
       <div className="card-img-overlay p-4 m-md-2 z-1">
         <div className="row">
           <div className="col-12 col-lg-5">
-            <div className="fs-4 fw-normal text-steel-light mb-2">{title}</div>
+            <h3 className="fs-4 fw-normal text-steel-light mb-2">{title}</h3>
             <div className="small text-grey lh-sm">{description}</div>
           </div>
         </div>
