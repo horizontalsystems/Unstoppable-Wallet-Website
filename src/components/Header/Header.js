@@ -63,6 +63,16 @@ export function Header() {
             <li className="nav-item">
               <a href="https://gitlab.com/horizontal_systems" target="_blank" className="nav-link small text-white">Gitlab</a>
             </li>
+            <li className="nav-item">
+              <a
+                href="https://swap.unstoppable.money"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-warning d-flex align-items-center justify-content-center rounded-5 px-4 ms-2">
+                <Image src="/icons/swap.svg" alt="" width="16" height="16" />
+                <span className="ms-2">Launch Swap</span>
+              </a>
+            </li>
             <li className="nav-item show-on-bottom">
               <div
                 className="btn btn-warning d-flex align-items-center justify-content-center rounded-5 px-4 ms-2"
