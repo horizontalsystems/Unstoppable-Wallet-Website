@@ -14,7 +14,7 @@
     "bootstrap": "^5.3.3",
     "classnames": "^2.5.1",
     "marked": "^15.0.4",
-    "next": "^15.1.9",
+    "next": "^15.5.18",
     "normalize.css": "^8.0.1",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
@@ -26,6 +26,6 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.1.2"
+    "eslint-config-next": "^15.5.18"
   }
 }
